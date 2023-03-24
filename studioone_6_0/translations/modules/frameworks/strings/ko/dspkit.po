@@ -4,135 +4,167 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]12th Octave"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "12th Octave"
 msgstr "12th 옥타브"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]EBU R128"
+#: gui/level/levelcomponent.cpp
+msgctxt "LevelMeterComponent"
+msgid "EBU R128"
 msgstr "EBU R128"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]FFT"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "FFT"
 msgstr "FFT"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]FFT Curve"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "FFT Curve"
 msgstr "FFT 커브"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Fast"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Fast"
 msgstr "고속"
 
-#: .\gui\spectrum\sonopainter.cpp .\gui\spectrum\spectrumpainter.cpp
-msgid "[SpectrumDisplay]Freq"
+#: gui/spectrum/sonopainter.cpp gui/spectrum/spectrumpainter.cpp
+msgctxt "SpectrumDisplay"
+msgid "Freq"
 msgstr "프리퀀시"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]Hold Length"
+#: gui/level/levelcomponent.cpp
+msgctxt "LevelMeterComponent"
+msgid "Hold Length"
 msgstr "홀드 길이"
 
-#: .\gui\level\levelmeterdisplay.cpp
-msgid "[LevelMeterDisplay]Integrated: %(1:1) LU"
+#: gui/level/levelmeterdisplay.cpp
+msgctxt "LevelMeterDisplay"
+msgid "Integrated: %(1:1) LU"
 msgstr "인티그레이티드: %(1:1) LU"
 
-#: .\gui\level\levelmeterdisplay.cpp
-msgid "[LevelMeterDisplay]Integrated: %(1:1) LUFS"
+#: gui/level/levelmeterdisplay.cpp
+msgctxt "LevelMeterDisplay"
+msgid "Integrated: %(1:1) LUFS"
 msgstr "인티그레이티드: %(1:1) LUFS"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]K-12"
+#: gui/level/levelcomponent.cpp
+msgctxt "LevelMeterComponent"
+msgid "K-12"
 msgstr "K-12"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]K-14"
+#: gui/level/levelcomponent.cpp
+msgctxt "LevelMeterComponent"
+msgid "K-14"
 msgstr "K-14"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]K-20"
+#: gui/level/levelcomponent.cpp
+msgctxt "LevelMeterComponent"
+msgid "K-20"
 msgstr "K-20"
 
-#: .\gui\spectrum\spectrumpainter.cpp
-msgid "[SpectrumDisplay]Level"
+#: gui/spectrum/spectrumpainter.cpp
+msgctxt "SpectrumDisplay"
+msgid "Level"
 msgstr "레벨"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Long"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Long"
 msgstr "롱"
 
-#: .\gui\level\levelmeterdisplay.cpp
-msgid "[LevelMeterDisplay]Loudness Range: %(1:1) LU"
+#: gui/level/levelmeterdisplay.cpp
+msgctxt "LevelMeterDisplay"
+msgid "Loudness Range: %(1:1) LU"
 msgstr "라우드니스 레인지: %(1:1) LU"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Medium"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Medium"
 msgstr "중간"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]None"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "None"
 msgstr "없음"
 
-#: .\gui\spectrum\spectrumpainter.cpp
-msgid "[SpectrumDisplay]Note"
+#: gui/spectrum/spectrumpainter.cpp
+msgctxt "SpectrumDisplay"
+msgid "Note"
 msgstr "노트"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Octave"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Octave"
 msgstr "옥타브"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]Peak"
+#: gui/level/levelcomponent.cpp
+msgctxt "LevelMeterComponent"
+msgid "Peak"
 msgstr "피크"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]Peak Hold"
+#: gui/level/levelcomponent.cpp
+msgctxt "LevelMeterComponent"
+msgid "Peak Hold"
 msgstr "피크 홀드"
 
-#: .\gui\level\levelmeterdisplay.cpp
-msgid "[LevelMeterDisplay]Peak Hold L: %(1:1) dB - R: %(2:1) dB"
+#: gui/level/levelmeterdisplay.cpp
+msgctxt "LevelMeterDisplay"
+msgid "Peak Hold L: %(1:1) dB - R: %(2:1) dB"
 msgstr "피크 홀드 L: %(1:1) dB - R: %(2:1) dB"
 
-#: .\gui\level\levelmeterdisplay.cpp
-msgid "[LevelMeterDisplay]Peak Hold: %(1:1) dB"
+#: gui/level/levelmeterdisplay.cpp
+msgctxt "LevelMeterDisplay"
+msgid "Peak Hold: %(1:1) dB"
 msgstr "피크 홀드: %(1:1) dB"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]Peak/RMS"
+#: gui/level/levelcomponent.cpp
+msgctxt "LevelMeterComponent"
+msgid "Peak/RMS"
 msgstr "피크/RMS"
 
-#: .\gui\level\levelcomponent.cpp
-msgid "[LevelMeterComponent]RMS Length"
+#: gui/level/levelcomponent.cpp
+msgctxt "LevelMeterComponent"
+msgid "RMS Length"
 msgstr "RMS 길이"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Segments"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Segments"
 msgstr "세그먼트"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Short"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Short"
 msgstr "숏"
 
-#: .\gui\level\levelmeterdisplay.cpp
-msgid "[LevelMeterDisplay]Short-Term | Momentary"
+#: gui/level/levelmeterdisplay.cpp
+msgctxt "LevelMeterDisplay"
+msgid "Short-Term | Momentary"
 msgstr "숏텀 | 모먼터리"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Slow"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Slow"
 msgstr "저속"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Sonogram"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Sonogram"
 msgstr "소노그램"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Third Octave"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Third Octave"
 msgstr "3rd 옥타브"
 
-#: .\gui\spectrum\sonopainter.cpp
-msgid "[SpectrumDisplay]Time"
+#: gui/spectrum/sonopainter.cpp
+msgctxt "SpectrumDisplay"
+msgid "Time"
 msgstr "타임"
 
-#: .\gui\spectrum\spectrumcomponent.cpp
-msgid "[SpectrumMeter]Waterfall"
+#: gui/spectrum/spectrumcomponent.cpp
+msgctxt "SpectrumMeter"
+msgid "Waterfall"
 msgstr "워터폴"
-

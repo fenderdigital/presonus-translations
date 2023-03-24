@@ -4,127 +4,167 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\gear\gearburner.cpp
-msgid "[CDBurner]Burning Aborted by User"
+#: gear/gearburner.cpp
+msgctxt "CDBurner"
+msgid "Burning Aborted by User"
 msgstr "Gravação Cancelada pelo Usuário"
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Busy"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Busy"
 msgstr "Instável"
 
-#: .\plugversion.h
-msgid "[CDBurner]CD Burning Support"
+#: plugversion.h
+msgctxt "CDBurner"
+msgid "CD Burning Support"
 msgstr "Suporte à Gravação de CD"
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Checking Device"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Checking Device"
 msgstr "Verificando Dispositivo"
 
-#: .\mac\burner.cpp
-msgid "[ProjectBurner]Closing..."
+#: mac/burner.cpp
+msgctxt "ProjectBurner"
+msgid "Closing..."
 msgstr "Fechando..."
 
-#: .\mac\imagewriter.cpp
-msgid "[DDPImageMaker]Do you want to create a DDP image?\n\nImage: %(1)\nDDPID File: %(2)\nLocation: %(3)"
-msgstr "Você deseja criar uma imagem DDP?\n\nImagem: %(1)\nDDPID Arquivo: %(2)\nLocal: %(3)"
+#: mac/imagewriter.cpp
+msgctxt "DDPImageMaker"
+msgid ""
+"Do you want to create a DDP image?\n"
+"\n"
+"Image: %(1)\n"
+"DDPID File: %(2)\n"
+"Location: %(3)"
+msgstr ""
+"Você deseja criar uma imagem DDP?\n"
+"\n"
+"Imagem: %(1)\n"
+"DDPID Arquivo: %(2)\n"
+"Local: %(3)"
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Erasing"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Erasing"
 msgstr "Apagando"
 
-#: .\gear\geareraser.cpp
-msgid "[CDBurner]Erasing Aborted by User"
+#: gear/geareraser.cpp
+msgctxt "CDBurner"
+msgid "Erasing Aborted by User"
 msgstr "Apagar Cancelado pelo Usuário"
 
-#: .\mac\burner.cpp
-msgid "[ProjectBurner]Erasing..."
+#: mac/burner.cpp
+msgctxt "ProjectBurner"
+msgid "Erasing..."
 msgstr "Apagando"
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Finalizing"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Finalizing"
 msgstr "Finalizando"
 
-#: .\mac\burner.cpp
-msgid "[ProjectBurner]Finishing..."
+#: mac/burner.cpp
+msgctxt "ProjectBurner"
+msgid "Finishing..."
 msgstr "Terminando..."
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Formating"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Formating"
 msgstr "Formatando"
 
-#: .\mac\imagewriter.cpp
-msgid "[DDPImageMaker]Generating DDP image files..."
+#: mac/imagewriter.cpp
+msgctxt "DDPImageMaker"
+msgid "Generating DDP image files..."
 msgstr "Gerando arquivos da imagem DDP..."
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Idle"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Idle"
 msgstr "Livre"
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Illegal"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Illegal"
 msgstr "Ilegal"
 
-#: .\base\mediainfo.cpp
-msgid "[CDBurner]Media is not readable"
+#: base/mediainfo.cpp
+msgctxt "CDBurner"
+msgid "Media is not readable"
 msgstr "Mídia não legível"
 
-#: .\base\mediainfo.cpp
-msgid "[CDBurner]No media in disc drive"
+#: base/mediainfo.cpp
+msgctxt "CDBurner"
+msgid "No media in disc drive"
 msgstr "Unidade sem disco"
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Physicalizing"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Physicalizing"
 msgstr "Fisicalizando"
 
-#: .\mac\burner.cpp
-msgid "[ProjectBurner]Preparing track"
+#: mac/burner.cpp
+msgctxt "ProjectBurner"
+msgid "Preparing track"
 msgstr "Preparando pista"
 
-#: .\mac\burner.cpp
-msgid "[ProjectBurner]Preparing..."
+#: mac/burner.cpp
+msgctxt "ProjectBurner"
+msgid "Preparing..."
 msgstr "Preparando..."
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Reading"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Reading"
 msgstr "Lendo"
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Reading Disc Info"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Reading Disc Info"
 msgstr "Lendo informações do disco"
 
-#: .\cdburnmain.cpp
-msgid "[CDBurner]Support for Audio CD Burning"
+#: cdburnmain.cpp
+msgctxt "CDBurner"
+msgid "Support for Audio CD Burning"
 msgstr "Suporte à Gravação de CD de Áudio"
 
-#: .\mac\imagewriter.cpp
-msgid "[DDPImageMaker]There was an error during the DDP image creation!"
+#: mac/imagewriter.cpp
+msgctxt "DDPImageMaker"
+msgid "There was an error during the DDP image creation!"
 msgstr "Houve um erro durante a criação da imagem DDP!"
 
-#: .\base\mediainfo.cpp
-msgid "[CDBurner]Unknown media"
+#: base/mediainfo.cpp
+msgctxt "CDBurner"
+msgid "Unknown media"
 msgstr "Mídia desconhecida"
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Verifying"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Verifying"
 msgstr "Verificando"
 
-#: .\mac\burner.cpp
-msgid "[ProjectBurner]Verifying..."
+#: mac/burner.cpp
+msgctxt "ProjectBurner"
+msgid "Verifying..."
 msgstr "Verificando..."
 
-#: .\mac\burner.cpp
-msgid "[ProjectBurner]Write Speed"
+#: mac/burner.cpp
+msgctxt "ProjectBurner"
+msgid "Write Speed"
 msgstr "Velocidade de Escrita"
 
-#: .\gear\geardevice.cpp
-msgid "[GearDevice]Writing"
+#: gear/geardevice.cpp
+msgctxt "GearDevice"
+msgid "Writing"
 msgstr "Escrevendo"
 
-#: .\gear\gearimagewriter.cpp
-msgid "[GearDevice]Writing "
+#: gear/gearimagewriter.cpp
+msgctxt "GearDevice"
+msgid "Writing "
 msgstr "Escrevendo"
 
-#: .\mac\burner.cpp
-msgid "[ProjectBurner]Writing track"
+#: mac/burner.cpp
+msgctxt "ProjectBurner"
+msgid "Writing track"
 msgstr "Escrevendo pista"
-

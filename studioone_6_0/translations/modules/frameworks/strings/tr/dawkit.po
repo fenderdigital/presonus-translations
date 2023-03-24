@@ -4,415 +4,515 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\song\publisherselector.cpp
-msgid "[Engine]\"%(1)\" does not support the selected file format."
+#: song/publisherselector.cpp
+msgctxt "Engine"
+msgid "\"%(1)\" does not support the selected file format."
 msgstr "\"%(1)\" seçili dosya formatını desteklemiyor."
 
-#: .\song\trackpresetwriter.cpp
-msgid "[TrackPreset]%(1) Audio Tracks"
+#: song/trackpresetwriter.cpp
+msgctxt "TrackPreset"
+msgid "%(1) Audio Tracks"
 msgstr ""
 
-#: .\song\trackpresetwriter.cpp
-msgid "[TrackPreset]%(1) Folder Tracks"
+#: song/trackpresetwriter.cpp
+msgctxt "TrackPreset"
+msgid "%(1) Folder Tracks"
 msgstr ""
 
-#: .\song\trackpresetwriter.cpp
-msgid "[TrackPreset]%(1) Instrument Tracks"
+#: song/trackpresetwriter.cpp
+msgctxt "TrackPreset"
+msgid "%(1) Instrument Tracks"
 msgstr ""
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Disabled)"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "(Disabled)"
 msgstr "(Devredışı)"
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Empty)"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "(Empty)"
 msgstr "(Boş)"
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Muted)"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "(Muted)"
 msgstr "(Sessizde)"
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer](Protected)"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "(Protected)"
 msgstr "(Korumalı)"
 
-#: .\project\publish\audiofilepublisher.cpp
-msgid "[AudioFilePublisher](Unknown Artist)"
+#: project/publish/audiofilepublisher.cpp
+msgctxt "AudioFilePublisher"
+msgid "(Unknown Artist)"
 msgstr "(Bilinmeyen Artist)"
 
-#: .\project\publish\audiofilepublisher.cpp
-msgid "[AudioFilePublisher](Unknown Title)"
+#: project/publish/audiofilepublisher.cpp
+msgctxt "AudioFilePublisher"
+msgid "(Unknown Title)"
 msgstr "(Bilinmeyen Ad)"
 
-#: .\song\songvideohandler.cpp
-msgid "[Video](unknown)"
+#: song/songvideohandler.cpp
+msgctxt "Video"
+msgid "(unknown)"
 msgstr ""
 
-#: .\song\trackpresetwriter.cpp
-msgid "[TrackPreset]1 Audio Track"
+#: song/trackpresetwriter.cpp
+msgctxt "TrackPreset"
+msgid "1 Audio Track"
 msgstr ""
 
-#: .\song\trackpresetwriter.cpp
-msgid "[TrackPreset]1 Folder Track"
+#: song/trackpresetwriter.cpp
+msgctxt "TrackPreset"
+msgid "1 Folder Track"
 msgstr ""
 
-#: .\song\trackpresetwriter.cpp
-msgid "[TrackPreset]1 Instrument Track"
+#: song/trackpresetwriter.cpp
+msgctxt "TrackPreset"
+msgid "1 Instrument Track"
 msgstr ""
 
-#: .\project\publish\burnerdialog.cpp
-msgid "[BurnerDialog]A blank CD is found and you can start to burn"
+#: project/publish/burnerdialog.cpp
+msgctxt "BurnerDialog"
+msgid "A blank CD is found and you can start to burn"
 msgstr "Boş CD bulundu, yazmaya başlayabilirsiniz"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]A patch with this name already exists."
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "A patch with this name already exists."
 msgstr "Aynı isimde bir Patch mevcut"
 
-#: .\song\artistdatamanager.cpp
-msgid "[Command]Add"
+#: song/artistdatamanager.cpp
+msgctxt "Command"
+msgid "Add"
 msgstr "Ekle"
 
-#: .\song\artistdatamanager.cpp
-msgid "[Artist]Add Artist"
+#: song/artistdatamanager.cpp
+msgctxt "Artist"
+msgid "Add Artist"
 msgstr ""
 
-#: .\show\editing\showdraghandler.cpp
-msgid "[ShowDragHandler]Add Backing Track"
+#: show/editing/showdraghandler.cpp
+msgctxt "ShowDragHandler"
+msgid "Add Backing Track"
 msgstr "Altyapı İzi Ekle"
 
-#: .\show\editing\showplayerlistcomponent.cpp
-msgid "[Command]Add Backing Track Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
+msgid "Add Backing Track Player"
 msgstr "Altyapı İzi ÇalıcıEkle"
 
-#: .\show\editing\showplayerview.cpp
-msgid "[Player]Add Backing Track Player"
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
+msgid "Add Backing Track Player"
 msgstr "Altyapı İzi ÇalıcıEkle"
 
-#: .\project\editing\projectdraghandler.cpp
-msgid "[ProjectEditHandler]Add Event to Track"
+#: project/editing/projectdraghandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Add Event to Track"
 msgstr "İz'e Klip ekle"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Add Marker"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Add Marker"
 msgstr "İşaret Ekle"
 
-#: .\show\editing\showplayerlistcomponent.cpp
-msgid "[Command]Add Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
+msgid "Add Player"
 msgstr "Çalıcı Ekle"
 
-#: .\show\editing\showplayerview.cpp
-msgid "[Player]Add Player"
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
+msgid "Add Player"
 msgstr "Çalıcı Ekle"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Add Player"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Add Player"
 msgstr "Çalıcı Ekle"
 
-#: .\show\editing\showplayerlistcomponent.cpp
-msgid "[Command]Add Real Instrument Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
+msgid "Add Real Instrument Player"
 msgstr "Gerçek Enstrüman Çalıcı Ekle"
 
-#: .\show\editing\showplayerview.cpp
-msgid "[Player]Add Real Instrument Player"
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
+msgid "Add Real Instrument Player"
 msgstr "Gerçek Enstrüman Çalıcı Ekle"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Add Setlist Item"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Add Setlist Item"
 msgstr "Setlist Kalemi Ekle"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Add Setlist Item"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Add Setlist Item"
 msgstr "Setlist Kalemi Ekle"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Add Track"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Add Track"
 msgstr "İz Ekle"
 
-#: .\song\songbrowsable.cpp
-msgid "[SongBrowser]Add Track"
+#: song/songbrowsable.cpp
+msgctxt "SongBrowser"
+msgid "Add Track"
 msgstr "İz Ekle"
 
-#: .\song\trackpreset.cpp
-msgid "[TrackPreset]Add Tracks from Preset"
+#: song/trackpreset.cpp
+msgctxt "TrackPreset"
+msgid "Add Tracks from Preset"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-msgid "[Command]Add Virtual Instrument Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
+msgid "Add Virtual Instrument Player"
 msgstr "Sanal Enstrüman Çalıcı Ekle"
 
-#: .\show\editing\showplayerview.cpp
-msgid "[Player]Add Virtual Instrument Player"
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
+msgid "Add Virtual Instrument Player"
 msgstr "Sanal Enstrüman Çalıcı Ekle"
 
-#: .\song\songvideorenderer.cpp
-msgid "[Video]All Videos"
+#: song/songvideorenderer.cpp
+msgctxt "Video"
+msgid "All Videos"
 msgstr ""
 
-#: .\show\editing\showplayerinspector.cpp
-msgid "[Command]Apply Patch"
+#: show/editing/showplayerinspector.cpp
+msgctxt "Command"
+msgid "Apply Patch"
 msgstr "Patch Uygula"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Apply Staff Preset"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Apply Staff Preset"
 msgstr ""
 
-#: .\song\trackpresetcomponent.cpp
-msgid "[TrackPreset]Apply Track Preset"
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Apply Track Preset"
 msgstr ""
 
-#: .\song\trackpresetcomponent.cpp
-msgid "[Command]Apply Track Preset"
+#: song/trackpresetcomponent.cpp
+msgctxt "Command"
+msgid "Apply Track Preset"
 msgstr ""
 
-#: .\song\trackpresetcomponent.cpp
-msgid "[TrackPreset]Apply Track Preset '%(1)'"
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Apply Track Preset '%(1)'"
 msgstr ""
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Arranger"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Arranger"
 msgstr "Aranjör"
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Arranger"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Arranger"
 msgstr "Aranjör"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Arrow Tool"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Arrow Tool"
 msgstr "OK Aracı"
 
-#: .\song\artistdatamanager.cpp
-msgid "[Artist]Artist '%(1)' already exists. Do you want to load the preset?"
+#: song/artistdatamanager.cpp
+msgctxt "Artist"
+msgid "Artist '%(1)' already exists. Do you want to load the preset?"
 msgstr ""
 
-#: .\song\artistdatamanager.cpp
-msgid ""
-"[Artist]Artist '%(1)' already exists. Do you want to overwrite the preset?"
+#: song/artistdatamanager.cpp
+msgctxt "Artist"
+msgid "Artist '%(1)' already exists. Do you want to overwrite the preset?"
 msgstr ""
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Artist / Performer"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Artist / Performer"
 msgstr "Artist / Perfromansçı"
 
-#: .\song\artistdatamanager.cpp
-msgid "[Artist]Artist Preset"
+#: song/artistdatamanager.cpp
+msgctxt "Artist"
+msgid "Artist Preset"
 msgstr ""
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Assign Backing Track"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Assign Backing Track"
 msgstr "Altyapı İzi Ata"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Assign Patch"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Assign Patch"
 msgstr "Patch Ata"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Audio Export"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Audio Export"
 msgstr "Audio (Ses) Dışa Aktar"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Backing Track"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Backing Track"
 msgstr "Altyapı İzi"
 
-#: .\project\editing\projectedittasks.cpp
-msgid "[ProjectEdit]Bounce Track"
+#: project/editing/projectedittasks.cpp
+msgctxt "ProjectEdit"
+msgid "Bounce Track"
 msgstr "İz Bounce Et"
 
-#: .\project\publish\projectburner.cpp
-msgid "[Command]Burn Audio CD"
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Built-In"
+msgstr ""
+
+#: project/publish/projectburner.cpp
+msgctxt "Command"
+msgid "Burn Audio CD"
 msgstr "Audio CD Yaz"
 
-#: .\project\publish\projectburner.cpp
-msgid "[ProjectBurner]Burning failed."
+#: project/publish/projectburner.cpp
+msgctxt "ProjectBurner"
+msgid "Burning failed."
 msgstr "Yazma İşlemi Hatalı"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]CD Burning Service not installed."
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "CD Burning Service not installed."
 msgstr "CD yazdırma servisi kurulu değil."
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]CD Protocol"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "CD Protocol"
 msgstr "CD protokolü"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]CD Title"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "CD Title"
 msgstr "CD Adı"
 
-#: .\show\document\performancecomponent.cpp
-msgid "[Command]Cancel"
+#: show/document/performancecomponent.cpp
+msgctxt "Command"
+msgid "Cancel"
 msgstr "Vazgeç"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Cannot create mixdown with protected content."
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Cannot create mixdown with protected content."
 msgstr "Korumalı içeriklerle miksdown gerçekleştirilemez."
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Channels"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Channels"
 msgstr "Kanallar"
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Clear Chord Track"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Clear Chord Track"
 msgstr "Akor Kanalını Temizle"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Colorize Player"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Colorize Player"
 msgstr "Çalıcıyı Renklendir"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Colorize Setlist Item"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Colorize Setlist Item"
 msgstr "Setlist Kalemini Renklendir"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Colorize Track"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Colorize Track"
 msgstr "İzi renklendir"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Combine Tracks"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Combine Tracks"
 msgstr "İzleri Kombine Et"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Project]Combine with next Track"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Project"
+msgid "Combine with next Track"
 msgstr "Bir sonraki İz ile Kombine et"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Combine with next Track"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Combine with next Track"
 msgstr "Bir sonraki İz ile Kombine et"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Comment"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Comment"
 msgstr "Yorum"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Composer"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Composer"
 msgstr "Kompozitör"
 
-#: .\song\trackpresetcomponent.cpp
-msgid "[Command]Console"
+#: song/trackpresetcomponent.cpp
+msgctxt "Command"
+msgid "Console"
 msgstr "Konsol"
 
-#: .\show\editing\setlistiteminspector.cpp
-msgid "[PatchList]Content"
+#: show/editing/setlistiteminspector.cpp
+msgctxt "PatchList"
+msgid "Content"
 msgstr "İçerik"
 
-#: .\show\model\setlist.cpp
-msgid "[SetListItem]Continue"
+#: show/model/setlist.cpp
+msgctxt "SetListItem"
+msgid "Continue"
 msgstr "Devam"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Continuous"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Continuous"
 msgstr ""
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Convert to Grand Staff"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Convert to Grand Staff"
 msgstr "Grand Staff'a dönüştür"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Convert to Single Staff"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Convert to Single Staff"
 msgstr "Grand Staff'a dönüştür"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Copy"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Copy"
 msgstr "Kopyala"
 
-#: .\project\editing\projectedittasks.cpp
-msgid "[ProjectEdit]Copy Metadata to all Tracks"
+#: project/editing/projectedittasks.cpp
+msgctxt "ProjectEdit"
+msgid "Copy Metadata to all Tracks"
 msgstr "Metadata'yı tüm İzlere Kopyala"
 
-#: .\project\publish\audiofilepublisher.cpp
-msgid "[AudioFilePublisher]Could not create audio files."
+#: project/publish/audiofilepublisher.cpp
+msgctxt "AudioFilePublisher"
+msgid "Could not create audio files."
 msgstr "Ses dosyaları yaratılamadı."
 
-#: .\project\publish\burnerdialog.cpp
-msgid "[BurnerDialog]Could not find a CD burner"
+#: project/publish/burnerdialog.cpp
+msgctxt "BurnerDialog"
+msgid "Could not find a CD burner"
 msgstr "CD yazıcı bulunamadı"
 
-#: .\song\songcontroller.cpp
-msgid "[Song]Could not import file!"
-msgstr "Dosya içeri aktarılamadı!"
-
-#: .\project\document\projectcomponent.cpp
-msgid "[Project]Could not import file! The file format is unsupported."
+#: project/document/projectcomponent.cpp
+msgctxt "Project"
+msgid "Could not import file! The file format is unsupported."
 msgstr "Dosya içeri aktarılamadı! Bu dosya formatı desteklenmiyor."
 
-#: .\song\loudnessnormalizer.cpp
-msgid "[Loudness]Custom"
+#: song/loudnessnormalizer.cpp
+msgctxt "Loudness"
+msgid "Custom"
 msgstr ""
 
-#: .\project\publish\ddpimagemaker.cpp
-msgid "[DDPImageMaker]DDP image failed."
+#: project/publish/ddpimagemaker.cpp
+msgctxt "DDPImageMaker"
+msgid "DDP image failed."
 msgstr "DDP imaj başarısız oldu."
 
-#: .\show\editing\showplayerlistcomponent.cpp
-msgid "[PlayerList]Default"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "PlayerList"
+msgid "Default"
 msgstr "Varsayılan"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Default Patch: %(1)"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Default Patch: %(1)"
 msgstr "Varsayılan Patch: %(1)"
 
-#: .\show\editing\showeditcomponent.cpp .\song\songmarker.cpp
-msgid "[Command]Delete"
+#: show/editing/showeditcomponent.cpp song/songmarker.cpp
+msgctxt "Command"
+msgid "Delete"
 msgstr "Dil"
 
-#: .\song\songmarker.cpp
-msgid "[Marker]Delete Marker"
+#: song/songmarker.cpp
+msgctxt "Marker"
+msgid "Delete Marker"
 msgstr "İşareti Sil"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Deselect All"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Deselect All"
 msgstr "Tüm Seçimleri Kaldır"
 
-#: .\project\editing\projectedittasks.cpp
-msgid "[ProjectEdit]Detect Loudness"
+#: project/editing/projectedittasks.cpp
+msgctxt "ProjectEdit"
+msgid "Detect Loudness"
 msgstr "Loudness bul"
 
-#: .\project\document\projectdocument.cpp
-msgid "[Project]Devices"
+#: project/document/projectdocument.cpp
+msgctxt "Project"
+msgid "Devices"
 msgstr "Cihazlar"
 
-#: .\show\document\showdocument.cpp
-msgid "[Show]Devices"
+#: show/document/showdocument.cpp
+msgctxt "Show"
+msgid "Devices"
 msgstr "Cihazlar"
 
-#: .\song\songdocument.cpp
-msgid "[Engine]Devices"
+#: song/songdocument.cpp
+msgctxt "Engine"
+msgid "Devices"
 msgstr "Cihazlar"
 
-#: .\project\publish\audiofilepublisher.cpp
-msgid "[Command]Digital Release"
+#: project/publish/audiofilepublisher.cpp
+msgctxt "Command"
+msgid "Digital Release"
 msgstr "Dijital Yayın"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Disable Setlist Item"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Disable Setlist Item"
 msgstr "Setlist Kalemi Devredışı Bırak"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Disable Setlist Item"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Disable Setlist Item"
 msgstr "Setlist Kalemi Devredışı Bırak"
 
-#: .\project\document\projectcomponent.cpp
-msgid "[Command]Disable Track"
+#: project/document/projectcomponent.cpp
+msgctxt "Command"
+msgid "Disable Track"
 msgstr "İzi Devredışı Bırak"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Disable Track"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Disable Track"
 msgstr "İzi Devredışı Bırak"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Disable Tracks"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Disable Tracks"
 msgstr "İzleri Devredışı Bırak"
 
-#: .\song\publisherselector.cpp
-msgid "[Engine]Do not publish"
+#: song/publisherselector.cpp
+msgctxt "Engine"
+msgid "Do not publish"
 msgstr "Yayınlama"
 
-#: .\project\editing\projecttrackcomponent.cpp
-msgid ""
-"[ProjectTrack]Do you want to apply incrementing ISRC codes for all tracks?"
+#: project/editing/projecttrackcomponent.cpp
+msgctxt "ProjectTrack"
+msgid "Do you want to apply incrementing ISRC codes for all tracks?"
 msgstr "Tüm izlere artan sırada ISRC kodu uygulansın istiyormusunuz ?"
 
-#: .\project\publish\ddpimagemaker.cpp
+#: project/publish/ddpimagemaker.cpp
+msgctxt "DDPImageMaker"
 msgid ""
-"[DDPImageMaker]Do you want to create a DDP image?\n"
+"Do you want to create a DDP image?\n"
 "\n"
 "Image: %(1)\n"
 "Location: %(2)"
@@ -422,1251 +522,1526 @@ msgstr ""
 "Imaj: %(1)\n"
 "Lokasyon: %(2)"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Do you want to delete the exported file?"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Do you want to delete the exported file?"
 msgstr "Dışarı aktarılan dosyayı silmek istiyormusunuz ?"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Do you want to delete the exported files?"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Do you want to delete the exported files?"
 msgstr "Dışarı aktarılan dosyaları silmek istiyormusunuz ?"
 
-#: .\project\document\projectcomponent.cpp .\show\document\showcomponent.cpp
-#: .\song\songcontroller.cpp
-msgid "[Command]Document Setup"
+#: project/document/projectcomponent.cpp show/document/showcomponent.cpp
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Document Setup"
 msgstr "Dosya Düzeni"
 
-#: .\show\document\performancecomponent.cpp
-msgid "[Command]Down"
+#: show/document/performancecomponent.cpp
+msgctxt "Command"
+msgid "Down"
 msgstr "Aşağı"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Duplicate"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Duplicate"
 msgstr "Kopyala"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Duplicate (complete)"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Duplicate (complete)"
 msgstr "Kopyala (Tümünü)"
 
-#: .\show\editing\showplayerlistcomponent.cpp
-msgid "[Command]Duplicate Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
+msgid "Duplicate Player"
 msgstr "Çalıcıyı Kopyala"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Duplicate Player"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Duplicate Player"
 msgstr "Çalıcıyı Kopyala"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Duplicate Setlist Item"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Duplicate Setlist Item"
 msgstr "Setlist Kalemini Kopyala"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Duplicate Setlist Item"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Duplicate Setlist Item"
 msgstr "Setlist Kalemini Kopyala"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]EAN/UPC"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "EAN/UPC"
 msgstr "EAN/UPC"
 
-#: .\project\editing\projecteditcomponent.cpp .\score\scoreeditor.cpp
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Edit"
+#: project/editing/projecteditcomponent.cpp score/scoreeditor.cpp
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Edit"
 msgstr "Düzenle"
 
-#: .\project\document\projectpoolbrowser.cpp
-msgid "[Project]Edit Song"
+#: project/document/projectpoolbrowser.cpp
+msgctxt "Project"
+msgid "Edit Song"
 msgstr "Parçayı Düzenle"
 
-#: .\project\editing\projecttrackcomponent.cpp
-msgid "[ProjectTrack]Edit Song"
+#: project/editing/projecttrackcomponent.cpp
+msgctxt "ProjectTrack"
+msgid "Edit Song"
 msgstr "Parçayı Düzenle"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Enable Setlist Item"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Enable Setlist Item"
 msgstr "Setlist Kalemini Etkinleştir"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Enable Setlist Item"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Enable Setlist Item"
 msgstr "Setlist Kalemini Etkinleştir"
 
-#: .\project\document\projectcomponent.cpp
-msgid "[Command]Enable Track"
+#: project/document/projectcomponent.cpp
+msgctxt "Command"
+msgid "Enable Track"
 msgstr "İzi Etkinleştir"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Enable Track"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Enable Track"
 msgstr "İzi Etkinleştir"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Enable Tracks"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Enable Tracks"
 msgstr "İzleri Etkinleştir"
 
-#: .\project\publish\burnerdialog.cpp
-msgid "[BurnerDialog]Erasing failed."
+#: project/publish/burnerdialog.cpp
+msgctxt "BurnerDialog"
+msgid "Erasing failed."
 msgstr "Silme başarısız oldu."
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Event"
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Error: %(1) requires sample rate %(2)"
+msgstr ""
+
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Event"
 msgstr "Klip"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Export Mixdown"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Export Mixdown"
 msgstr "Miksdown'ı dışarı aktar"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Export Stems"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Export Stems"
 msgstr "Stem'leri dışarı aktar"
 
-#: .\song\songvideohandler.cpp
-msgid "[Command]Export Video"
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Export Video"
 msgstr "Video'yu dışarı aktar"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Exporting..."
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Exporting..."
 msgstr "Dışarı aktarılıyor..."
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Exporting:"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Exporting:"
 msgstr "Dışarı aktarılıyor:"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Failed to export audio file."
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Failed to export audio file."
 msgstr "Ses dosyası dışarı aktarılamadı."
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Failed to export audio file."
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Failed to export audio file."
 msgstr "Ses dosyası dışarı aktarılamadı."
 
-#: .\song\songvideorenderer.cpp
-msgid "[Video]Failed to write video."
+#: song/songvideorenderer.cpp
+msgctxt "Video"
+msgid "Failed to write video."
 msgstr "Video dosyası yazdırılamadı."
 
-#: .\project\document\projectcomponent.cpp .\show\document\showcomponent.cpp
-#: .\song\songcontroller.cpp
-msgid "[Command]File"
+#: project/document/projectcomponent.cpp show/document/showcomponent.cpp
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "File"
 msgstr "Dosya"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]First Only"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "First Only"
 msgstr ""
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]First Track"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "First Track"
 msgstr "İlk İz"
 
-#: .\project\publish\audiofilepublisher.cpp
-msgid "[AudioFilePublisher]Generating audio files (%(1) of %(2))"
+#: project/publish/audiofilepublisher.cpp
+msgctxt "AudioFilePublisher"
+msgid "Generating audio files (%(1) of %(2))"
 msgstr "Ses dosyaları oluşturuluyor (%(2) nin (%(1) cisi)"
 
-#: .\project\publish\imagemaker.cpp
-msgid "[ImageMaker]Generating image file..."
+#: project/publish/imagemaker.cpp
+msgctxt "ImageMaker"
+msgid "Generating image file..."
 msgstr "İmaj dosyası oluşturuluyor..."
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Generator"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Generator"
 msgstr "Jeneratör"
 
-#: .\song\songmarker.cpp
-msgid "[Command]Goto Next Marker"
+#: song/songmarker.cpp
+msgctxt "Command"
+msgid "Goto Next Marker"
 msgstr "Bir sonraki işarete git"
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Next Section"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Next Section"
 msgstr "Bir Sonraki Bölüme Git"
 
-#: .\song\songmarker.cpp
-msgid "[Command]Goto Previous Marker"
+#: song/songmarker.cpp
+msgctxt "Command"
+msgid "Goto Previous Marker"
 msgstr "Bir önceki  işarete git"
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Previous Section"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Previous Section"
 msgstr "Bir Önceki Bölüme Git"
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 1"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 1"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 10"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 10"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 11"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 11"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 12"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 12"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 13"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 13"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 14"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 14"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 15"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 15"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 16"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 16"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 2"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 2"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 3"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 3"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 4"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 4"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 5"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 5"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 6"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 6"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 7"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 7"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 8"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 8"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Goto Section 9"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Section 9"
 msgstr ""
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Hide Tempos"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Hide Tempos"
 msgstr ""
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]ISRC"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "ISRC"
 msgstr "ISRC"
 
-#: .\project\publish\ddpdocumenthandler.cpp
-msgid "[DDP]Import DDP"
+#: project/publish/ddpdocumenthandler.cpp
+msgctxt "DDP"
+msgid "Import DDP"
 msgstr "DDP içer aktar"
 
-#: .\project\document\projectcomponent.cpp .\show\document\showcomponent.cpp
-#: .\song\songcontroller.cpp
-msgid "[Command]Import File"
+#: project/document/projectcomponent.cpp show/document/showcomponent.cpp
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Import File"
 msgstr "Dosya içeri aktar"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Import File"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Import File"
 msgstr "Dosya içeri aktar"
 
-#: .\song\songvideohandler.cpp
-msgid "[Command]Import Video"
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Import Video"
 msgstr "Video içeri aktar"
 
-#: .\song\poolimportextension.cpp
-msgid "[Browser]Import to Pool"
+#: song/poolimportextension.cpp
+msgctxt "Browser"
+msgid "Import to Pool"
 msgstr "Havuza aktar"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Index"
+#: song/poolimportextension.cpp
+msgctxt "Browser"
+msgid "Import to Pool failed"
+msgstr ""
+
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Index"
 msgstr "Indeks"
 
-#: .\project\model\projectmodel.cpp
-msgid "[ProjectMarker]Index %(1)"
+#: project/model/projectmodel.cpp
+msgctxt "ProjectMarker"
+msgid "Index %(1)"
 msgstr "Indeks %(1)"
 
-#: .\project\publish\burnerdialog.cpp
-msgid "[BurnerDialog]Initializing..."
+#: project/publish/burnerdialog.cpp
+msgctxt "BurnerDialog"
+msgid "Initializing..."
 msgstr "Başlatılıyor..."
 
-#: .\project\editing\projecteditcomponent.cpp
-#: .\show\editing\showeditcomponent.cpp .\song\songmarker.cpp
-msgid "[Command]Insert"
+#: project/editing/projecteditcomponent.cpp show/editing/showeditcomponent.cpp
+#: song/songmarker.cpp
+msgctxt "Command"
+msgid "Insert"
 msgstr "Araya ekle"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Insert Marker"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Insert Marker"
 msgstr "Araya İşaret Ekle"
 
-#: .\show\editing\showeditcomponent.cpp .\song\songmarker.cpp
-msgid "[Command]Insert Named"
+#: show/editing/showeditcomponent.cpp song/songmarker.cpp
+msgctxt "Command"
+msgid "Insert Named"
 msgstr "Adlandırılmışı ekle"
 
-#: .\show\model\setlist.cpp
-msgid "[SetListItem]Item"
+#: show/model/setlist.cpp
+msgctxt "SetListItem"
+msgid "Item"
 msgstr "Kalem"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Keep Output Speaker Setup"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Keep Output Speaker Setup"
 msgstr ""
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Keep Stem Speaker Setup"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Keep Stem Speaker Setup"
 msgstr ""
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Large"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Large"
 msgstr "Geniş"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Last Track"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Last Track"
 msgstr "Son İz"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Length"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Length"
 msgstr "Uzunluk"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Length: %(1)"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Length: %(1)"
 msgstr "Uzunluk: %(1)"
 
-#: .\show\editing\showeditmodel.cpp
-msgid "[EventEditHandler]Length: %(1)"
+#: show/editing/showeditmodel.cpp
+msgctxt "EventEditHandler"
+msgid "Length: %(1)"
 msgstr "Uzunluk: %(1)"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Length: %(1)  Pause: %(2)"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Length: %(1)  Pause: %(2)"
 msgstr "Uzunluk: %(1) Duraksama: %(2)"
 
-#: .\song\trackpresetcomponent.cpp
-msgid "[TrackPreset]Load Track Preset"
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Load Track Preset"
 msgstr ""
 
-#: .\song\trackpresetcomponent.cpp
-msgid "[Command]Load Track Preset"
+#: song/trackpresetcomponent.cpp
+msgctxt "Command"
+msgid "Load Track Preset"
 msgstr ""
 
-#: .\project\document\projectcomponent.cpp .\show\document\showcomponent.cpp
-#: .\song\songcontroller.cpp
-msgid "[Command]Locate Missing Devices"
+#: project/document/projectcomponent.cpp show/document/showcomponent.cpp
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Locate Missing Devices"
 msgstr "Kayıp Cihazları Bul"
 
-#: .\show\model\setlist.cpp
-msgid "[SetListItem]Loop"
+#: show/model/setlist.cpp
+msgctxt "SetListItem"
+msgid "Loop"
 msgstr "Loop"
 
-#: .\show\model\setlist.cpp
-msgid "[SetListItem]Loop And Continue"
+#: show/model/setlist.cpp
+msgctxt "SetListItem"
+msgid "Loop And Continue"
 msgstr ""
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Loop Setlist Item"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Loop Setlist Item"
 msgstr "SetlistKalemi Loop'la"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Lyrics"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Lyrics"
 msgstr "Şarkı Sözleri"
 
-#: .\project\publish\ddpimagemaker.cpp
-msgid "[Command]Make DDP Image"
+#: project/publish/ddpimagemaker.cpp
+msgctxt "Command"
+msgid "Make DDP Image"
 msgstr "DDP İmaj OLuştur"
 
-#: .\project\publish\imagemaker.cpp
-msgid "[Command]Make Image"
+#: project/publish/imagemaker.cpp
+msgctxt "Command"
+msgid "Make Image"
 msgstr "Imaj Oluştur"
 
-#: .\project\editing\projecteditcomponent.cpp
-#: .\show\editing\showeditcomponent.cpp .\song\songmarker.cpp
-msgid "[Command]Marker"
+#: project/editing/projecteditcomponent.cpp show/editing/showeditcomponent.cpp
+#: song/songmarker.cpp
+msgctxt "Command"
+msgid "Marker"
 msgstr "İçaret"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Medium"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Medium"
 msgstr "Orta"
 
-#: .\show\document\showsetup.cpp
-msgid "[ShowSetup]Meta Information"
+#: show/document/showsetup.cpp
+msgctxt "ShowSetup"
+msgid "Meta Information"
 msgstr "Meta Bilgi"
 
-#: .\song\songsetup.cpp
-msgid "[SongSetup]Meta Information"
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Meta Information"
 msgstr "Meta Bilgi"
 
-#: .\song\songsetup.cpp
-msgid "[SongSetup]Mismatch: Audio Device has %(1)"
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Mismatch: Audio device has %(1)"
 msgstr ""
 
-#: .\application\song\mixdowntask.cpp
-msgid "[Edit]Mixdown Selection"
+#: application/song/mixdowntask.cpp
+msgctxt "Edit"
+msgid "Mixdown Selection"
 msgstr "Miksdown Seçimi"
 
-#: .\project\publish\projectburner.cpp
-msgid "[ProjectBurner]Mixdown Speed: %float(1:1)"
+#: project/publish/projectburner.cpp
+msgctxt "ProjectBurner"
+msgid "Mixdown Speed: %float(1:1)"
 msgstr "Miksdown hızı: %float(1:1)"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Modify Attribute"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Modify Attribute"
 msgstr "Özellik Değiştir"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Move End Marker"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Move End Marker"
 msgstr "Son İşaretinin yerini değiştir"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Move End Marker only"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Move End Marker only"
 msgstr "Sadece son işaretinin yerini değiştir"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Move Event and Resize Track"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Move Event and Resize Track"
 msgstr "Klibin yerini değiştir ve izi tekrar boyutlandır"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Move Event and Track Start"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Move Event and Track Start"
 msgstr "İz başlangıcını ve klip yerini değiştir"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Move Event only"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Move Event only"
 msgstr "Sadece kilibin yerini değiştir"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Move Marker"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Move Marker"
 msgstr "İşaretin yerini değiştir"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Move Marker"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Move Marker"
 msgstr "İşaretin yerini değiştir"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Move Player"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Move Player"
 msgstr "Çalıcının yerini değiştir"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Move Setlist Item"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Move Setlist Item"
 msgstr "Setlist kaleminin yerini değiştir"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Move Start Marker"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Move Start Marker"
 msgstr "Başlangıç işaretinin yerini değiştir"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Move Start Marker only"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Move Start Marker only"
 msgstr "Sadece başlangıç işaretinin yerini değiştir"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Move Start and End Marker"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Move Start and End Marker"
 msgstr "Başlangıç ve bitiş işaretinin yerini değiştir"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ActionDescriptions]Move Track"
+#: project/model/projectfunctions.cpp
+msgctxt "ActionDescriptions"
+msgid "Move Track"
 msgstr "İzin Yerini Değiştir"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Mute"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Mute"
 msgstr "Sessize al"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Mute"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Mute"
 msgstr "Mute"
 
-#: .\project\editing\projecteditcomponent.cpp
-#: .\show\document\performancecomponent.cpp
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Navigation"
+#: project/editing/projecteditcomponent.cpp
+#: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Navigation"
 msgstr "Navigasyon"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Next Patch"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Next Patch"
 msgstr "Sonraki Patch"
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Next Player"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Next Player"
 msgstr ""
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Next Setlist Item"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Next Setlist Item"
 msgstr "Sonraki Setlist Kalemi"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Next Track"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Next Track"
 msgstr "Sonraki iz"
 
-#: .\song\songmaster.cpp
-msgid "[SongMaster]No"
+#: song/songmaster.cpp
+msgctxt "SongMaster"
+msgid "No"
 msgstr "Yok"
 
-#: .\project\publish\burnerdialog.cpp
-msgid "[BurnerDialog]No Device"
+#: project/publish/burnerdialog.cpp
+msgctxt "BurnerDialog"
+msgid "No Device"
 msgstr "Cihaz Yok"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]No Titles"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "No Titles"
 msgstr ""
 
-#: .\song\songvideorenderer.cpp
-msgid "[Video]No video in the selected range"
+#: song/songvideorenderer.cpp
+msgctxt "Video"
+msgid "No video in the selected range"
 msgstr ""
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]None"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "None"
 msgstr "Yok"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Normal"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Normal"
 msgstr "Normal"
 
-#: .\project\editing\projectedittasks.cpp
-msgid "[AudioEdit]Normalize Audio"
+#: project/editing/projectedittasks.cpp
+msgctxt "AudioEdit"
+msgid "Normalize Audio"
 msgstr "Sesi normalize et"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only be 80 minutes long."
-msgstr ""
-"Ses CD'sinin uzunluğu en fazla 80 dakika olduğundan tüm izler CD'ye "
-"yazılamadı."
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Not all tracks could be added to the audio disc, because an audio disc can only be 80 minutes long."
+msgstr "Ses CD'sinin uzunluğu en fazla 80 dakika olduğundan tüm izler CD'ye yazılamadı."
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid ""
-"[AudioDiscPublisher]Not all tracks could be added to the audio disc, because "
-"an audio disc can only contain up to 99 tracks."
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Not all tracks could be added to the audio disc, because an audio disc can only contain up to 99 tracks."
 msgstr "Ses CD'si en fazla 99 iz alabildiğinden tüm izler CD'ye yazılamadı."
 
-#: .\song\songrenderer.cpp
-msgid ""
-"[SongRenderer]Nothing to export. Please select format and set loop or "
-"markers first."
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Nothing to export. Please select format and set loop or markers first."
 msgstr ""
 
-#: .\song\stemrenderer.cpp
-msgid ""
-"[StemRenderer]Nothing to export. Please select one or more tracks and set "
-"Loop or Markers."
-msgstr ""
-"Dışarı aktarılacak birşey yok. Lütfen bir veya daha fazla iz seçip loop veya "
-"lokasyon işaretlerini belirleyin"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Nothing to export. Please select one or more tracks and set Loop or Markers."
+msgstr "Dışarı aktarılacak birşey yok. Lütfen bir veya daha fazla iz seçip loop veya lokasyon işaretlerini belirleyin"
 
-#: .\show\editing\globaltracklistcomponent.cpp
-msgid "[Command]Open Arranger Track"
+#: show/editing/globaltracklistcomponent.cpp
+msgctxt "Command"
+msgid "Open Arranger Track"
 msgstr "Aranjör izini aç"
 
-#: .\show\editing\globaltracklistcomponent.cpp
-msgid "[Command]Open Chord Track"
+#: show/editing/globaltracklistcomponent.cpp
+msgctxt "Command"
+msgid "Open Chord Track"
 msgstr "Akor izini aç"
 
-#: .\show\editing\globaltracklistcomponent.cpp .\song\songmarker.cpp
-msgid "[Command]Open Marker Track"
+#: show/editing/globaltracklistcomponent.cpp song/songmarker.cpp
+msgctxt "Command"
+msgid "Open Marker Track"
 msgstr "İşaret izini aç"
 
-#: .\show\editing\globaltracklistcomponent.cpp
-msgid "[Command]Open Tempo Track"
+#: show/editing/globaltracklistcomponent.cpp
+msgctxt "Command"
+msgid "Open Tempo Track"
 msgstr "Temp izini aç"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Opening the CD Burning Engine failed."
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Opening the CD Burning Engine failed."
 msgstr "CD yazma motoru açılırken hata ile karşılaşıldı."
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Pages"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Pages"
 msgstr ""
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Paint Tool"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Paint Tool"
 msgstr "Boyama aracı"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Paste"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Paste"
 msgstr "Yapıştır"
 
-#: .\show\editing\setlistiteminspector.cpp
-#: .\show\editing\showplayerinspector.cpp
-msgid "[PatchList]Patch"
+#: show/editing/setlistiteminspector.cpp show/editing/showplayerinspector.cpp
+msgctxt "PatchList"
+msgid "Patch"
 msgstr "Patch"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Patch"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Patch"
 msgstr "Patch"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Pause"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Pause"
 msgstr "Durdur"
 
-#: .\show\document\performancecomponent.cpp
-msgid "[Command]Perform"
+#: show/document/performancecomponent.cpp
+msgctxt "Command"
+msgid "Perform"
 msgstr "Uygula"
 
-#: .\show\editing\setlistiteminspector.cpp
-msgid "[PatchList]Player"
+#: show/editing/setlistiteminspector.cpp
+msgctxt "PatchList"
+msgid "Player"
 msgstr "Çalıcı"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Player"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Player"
 msgstr "Çalıcı"
 
-#: .\show\editing\showdraghandler.cpp
-msgid "[ShowDragHandler]Player \"%(1)\""
+#: show/editing/showdraghandler.cpp
+msgctxt "ShowDragHandler"
+msgid "Player \"%(1)\""
 msgstr "Çalıcı \"%(1)\""
 
-#: .\project\document\songupdater.cpp
-msgid "[SongUpdater]Please ensure that no files or devices are missing!"
+#: project/document/songupdater.cpp
+msgctxt "SongUpdater"
+msgid "Please ensure that no files or devices are missing!"
 msgstr "Lütfen herhangi bir dosya veya cihazın eksik olmadığından emin olun."
 
-#: .\project\publish\burnerdialog.cpp
-msgid "[BurnerDialog]Please erase the CD or insert a blank one"
+#: project/publish/burnerdialog.cpp
+msgctxt "BurnerDialog"
+msgid "Please erase the CD or insert a blank one"
 msgstr "Lütfen CD'yi silin veya boş bir CD yerleştirin"
 
-#: .\project\publish\burnerdialog.cpp
-msgid "[BurnerDialog]Please insert a blank CD"
+#: project/publish/burnerdialog.cpp
+msgctxt "BurnerDialog"
+msgid "Please insert a blank CD"
 msgstr "Boş CD yerleştirin."
 
-#: .\project\document\projectdocument.cpp
-msgid "[Project]Pool"
+#: project/document/projectdocument.cpp
+msgctxt "Project"
+msgid "Pool"
 msgstr "Havuz"
 
-#: .\show\document\showdocument.cpp
-msgid "[Show]Pool"
+#: show/document/showdocument.cpp
+msgctxt "Show"
+msgid "Pool"
 msgstr "Havuz"
 
-#: .\song\songdocument.cpp
-msgid "[Engine]Pool"
+#: song/songdocument.cpp
+msgctxt "Engine"
+msgid "Pool"
 msgstr "Havuz"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Preparing..."
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Preparing..."
 msgstr "Hazırlanıyor..."
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Previous Patch"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Previous Patch"
 msgstr "Önceki Patch"
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Previous Player"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Previous Player"
 msgstr ""
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Previous Setlist Item"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Previous Setlist Item"
 msgstr "Önceki Setlist kalemi"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Previous Track"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Previous Track"
 msgstr "Önceki İz"
 
-#: .\score\scoreeditor.cpp
-msgid "[Command]Print"
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Print"
 msgstr ""
 
-#: .\project\document\projectcomponent.cpp
-#: .\project\editing\projecteditcomponent.cpp
-#: .\project\publish\audiofilepublisher.cpp
-#: .\project\publish\ddpimagemaker.cpp .\project\publish\imagemaker.cpp
-#: .\project\publish\projectburner.cpp
-msgid "[Command]Project"
+#: project/document/projectcomponent.cpp
+#: project/editing/projecteditcomponent.cpp
+#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
+#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+msgctxt "Command"
+msgid "Project"
 msgstr "Proje"
 
-#: .\project\document\projectdocument.cpp
-msgid "[Project]Project"
+#: project/document/projectdocument.cpp
+msgctxt "Project"
+msgid "Project"
 msgstr "Proje"
 
-#: .\project\editing\projectedittasks.cpp
-msgid "[ProjectEdit]Project"
+#: project/editing/projectedittasks.cpp
+msgctxt "ProjectEdit"
+msgid "Project"
 msgstr "Proje"
 
-#: .\project\document\projectcomponent.cpp
-msgid "[Project]Project Setup"
+#: project/document/projectcomponent.cpp
+msgctxt "Project"
+msgid "Project Setup"
 msgstr "Proje ayarları"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Real Instrument"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Real Instrument"
 msgstr "Gerçek Enstrüman"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Rebuild Score"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Rebuild Score"
 msgstr ""
 
-#: .\song\artistdatamanager.cpp
-msgid "[Command]Remove"
+#: song/artistdatamanager.cpp
+msgctxt "Command"
+msgid "Remove"
 msgstr "Kaldır"
 
-#: .\song\artistdatamanager.cpp
-msgid "[Artist]Remove Artist '%(1)'"
+#: song/artistdatamanager.cpp
+msgctxt "Artist"
+msgid "Remove Artist '%(1)'"
 msgstr ""
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Remove Backing Track"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Remove Backing Track"
 msgstr "Altyapı izini kaldır"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Remove Marker"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Remove Marker"
 msgstr "İzi kaldır"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Remove Marker"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Remove Marker"
 msgstr "İzi kaldır"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Remove Patch"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Remove Patch"
 msgstr "Patch'i kaldır"
 
-#: .\show\editing\showplayerlistcomponent.cpp
-msgid "[Command]Remove Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
+msgid "Remove Player"
 msgstr "Çalıcıyı kaldır"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Remove Player"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Remove Player"
 msgstr "Çalıcıyı kaldır"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Remove Setlist Item"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Remove Setlist Item"
 msgstr "Setlist kalemini kaldır"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Remove Setlist Item"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Remove Setlist Item"
 msgstr "Setlist kalemini kaldır"
 
-#: .\project\document\projectcomponent.cpp .\song\songcontroller.cpp
-#: .\song\songvideohandler.cpp
-msgid "[Command]Remove Track"
+#: project/document/projectcomponent.cpp song/songcontroller.cpp
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Remove Track"
 msgstr "İzi kaldır"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Remove Track"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Remove Track"
 msgstr "İzi kaldır"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Rename Patch"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Rename Patch"
 msgstr "Patch'in adını değiştir"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Rename Patch"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Rename Patch"
 msgstr "Patch'in adını değiştir"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Rename Patch \"%(1)\""
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Rename Patch \"%(1)\""
 msgstr "Adı değiştirilen patch \"%(1)\""
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Rename Player"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Rename Player"
 msgstr "Çalıcının adını değiştir"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Rename Track"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Rename Track"
 msgstr "İzin adını değiştir"
 
-#: .\song\clickrenderer.cpp
-msgid "[ClickRenderer]Render Click"
+#: song/clickrenderer.cpp
+msgctxt "ClickRenderer"
+msgid "Render Click"
 msgstr "Click'i render et"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Render Click"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Render Click"
 msgstr "Click'i render et"
 
-#: .\song\songvideorenderer.cpp
-msgid "[Video]Rendering Audio..."
+#: song/songvideorenderer.cpp
+msgctxt "Video"
+msgid "Rendering Audio..."
 msgstr "Sesleri render et"
 
-#: .\song\clickrenderer.cpp
-msgid "[ClickRenderer]Rendering Click"
+#: song/clickrenderer.cpp
+msgctxt "ClickRenderer"
+msgid "Rendering Click"
 msgstr "Click render ediliyor"
 
-#: .\project\editing\projectdraghandler.cpp
-msgid "[ProjectEditHandler]Replace Event"
+#: project/editing/projectdraghandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Replace Event"
 msgstr "Klip'i Değiştir"
 
-#: .\project\editing\projectdraghandler.cpp
-msgid "[ProjectEditHandler]Replace Event (keep length)"
+#: project/editing/projectdraghandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Replace Event (keep length)"
 msgstr ""
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Replace File"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Replace File"
 msgstr "Dosyayı yenisi ile değiştir"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Reset Default Patch"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Reset Default Patch"
 msgstr "Varsayılan Patch'i Sıfırla"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Reset Default Patch"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Reset Default Patch"
 msgstr "Varsayılan Patch'i Sıfırla"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Reset Pause"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Reset Pause"
 msgstr "Durdurmayı Sıfırla"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Reset Pause"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Reset Pause"
 msgstr "Durdurmayı Sıfırla"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Project]Reset Track Markers to Content"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Project"
+msgid "Reset Track Markers to Content"
 msgstr "İz işaretlerini içeriğe sıfırla"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Reset Track Markers to Content"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Reset Track Markers to Content"
 msgstr "İz işaretlerini içeriğe sıfırla"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Resize Track"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Resize Track"
 msgstr "İzi tekrar boyutlandır"
 
-#: .\project\editing\projectedithandler.cpp
-msgid "[ProjectEditHandler]Ripple Edit"
+#: project/editing/projectedithandler.cpp
+msgctxt "ProjectEditHandler"
+msgid "Ripple Edit"
 msgstr ""
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Save Patch"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Save Patch"
 msgstr "Patch'i kaydet"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Save Patch"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Save Patch"
 msgstr "Patch'i kaydet"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Save Patch"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Save Patch"
 msgstr "Patch'i kaydet"
 
-#: .\score\scoreeditor.cpp
-msgid "[Command]Score"
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Score"
 msgstr "Notasyon"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Select All"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Select All"
 msgstr "Hepsini seç"
 
-#: .\score\scoreeditor.cpp
-msgid "[Command]Select All"
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Select All"
 msgstr "Hepsini seç"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Select All in Staff"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Select All in Staff"
 msgstr "Staff içindeki herşeyi seç"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Select All on Tracks"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Select All on Tracks"
 msgstr "İz içindekilerin tümünü seç"
 
-#: .\score\scoreeditor.cpp
-msgid "[Command]Select All on Tracks"
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Select All on Tracks"
 msgstr "İz Üzerindeki Herşeyi Seç"
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[ShowEditComponent]Select In Pool"
+#: show/editing/showeditcomponent.cpp
+msgctxt "ShowEditComponent"
+msgid "Select In Pool"
 msgstr "Havuzdakilerin tümümü seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Mute Patch"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Mute Patch"
 msgstr "Patch'i sustur"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 1"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 1"
 msgstr "1. Patch'i seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 10"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 10"
 msgstr "10. Patch'i seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 2"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 2"
 msgstr "2. Patch'i seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 3"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 3"
 msgstr "3. Patch'i seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 4"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 4"
 msgstr "4. Patch'i seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 5"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 5"
 msgstr "5. Patch'i seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 6"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 6"
 msgstr "6. Patch'i seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 7"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 7"
 msgstr "7. Patch'i seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 8"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 8"
 msgstr "8. Patch'i seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Select Patch 9"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Select Patch 9"
 msgstr "9. Patch'i seç"
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 1"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 1"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 10"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 10"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 2"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 2"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 3"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 3"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 4"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 4"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 5"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 5"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 6"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 6"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 7"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 7"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 8"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 8"
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Select Player 9"
+#: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Select Player 9"
 msgstr ""
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 1"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 1"
 msgstr "1. Setlist kalemini seç"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 10"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 10"
 msgstr "10. Setlist kalemini seç"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 2"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 2"
 msgstr "2. Setlist kalemini seç"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 3"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 3"
 msgstr "3. Setlist kalemini seç"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 4"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 4"
 msgstr "4. Setlist kalemini seç"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 5"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 5"
 msgstr "5. Setlist kalemini seç"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 6"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 6"
 msgstr "6. Setlist kalemini seç"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 7"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 7"
 msgstr "7. Setlist kalemini seç"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 8"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 8"
 msgstr "8. Setlist kalemini seç"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Select Setlist Item 9"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Select Setlist Item 9"
 msgstr "9. Setlist kalemini seç"
 
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Select in Pool"
+#: show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Select in Pool"
 msgstr "Havuz içinde seç"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Set \"%(1)\" as Default Patch"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Set \"%(1)\" as Default Patch"
 msgstr "\"%(1)\" i varsayılan Patch olarak ayarla"
 
-#: .\song\songcontroller.cpp
-msgid "[Song]Set Bar Offset to Cursor"
+#: song/songcontroller.cpp
+msgctxt "Song"
+msgid "Set Bar Offset to Cursor"
 msgstr "Bar Offset'ini İmlece Ayarla"
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Set Bar Offset to Cursor"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Set Bar Offset to Cursor"
 msgstr "Bar Offset'ini İmlece Ayarla"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Set Current as Default Patch"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Set Current as Default Patch"
 msgstr "Mevcut Patch'i varsayılan olarak ayarla"
 
-#: .\song\songcontroller.cpp
-msgid "[Song]Set Frames at Cursor"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Set Final Bar"
 msgstr ""
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Set Frames at Cursor"
+#: song/songcontroller.cpp
+msgctxt "Song"
+msgid "Set Frames at Cursor"
 msgstr ""
 
-#: .\song\songmarker.cpp
-msgid "[Marker]Set Markers"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Set Frames at Cursor"
+msgstr ""
+
+#: song/songmarker.cpp
+msgctxt "Marker"
+msgid "Set Markers"
 msgstr "İşaretleri ayarla"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Meta Info"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Meta Info"
 msgstr "Meta bilgileri düzenle"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Playback Mode"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Playback Mode"
 msgstr ""
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Set Playback Mode Continue"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Set Playback Mode Continue"
 msgstr "Çalma modunu Devam olarak ayarla"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Set Playback Mode Loop"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Set Playback Mode Loop"
 msgstr "Çalma modunu Loop olarak ayarla"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Set Playback Mode Stop at End"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Set Playback Mode Stop at End"
 msgstr "Çalma modunu Sonda Dur olarak ayarla"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Player"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Player"
 msgstr "Çalıcıyı ayarla"
 
-#: .\show\document\performancecomponent.cpp
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Set Section Playback Mode Continue"
+#: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Set Section Playback Mode Continue"
 msgstr ""
 
-#: .\show\document\performancecomponent.cpp
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Set Section Playback Mode Loop"
+#: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Set Section Playback Mode Loop"
 msgstr ""
 
-#: .\show\document\performancecomponent.cpp
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Set Section Playback Mode Loop And Continue"
+#: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Set Section Playback Mode Loop And Continue"
 msgstr ""
 
-#: .\show\document\performancecomponent.cpp
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Set Section Playback Mode Skip"
+#: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Set Section Playback Mode Skip"
 msgstr ""
 
-#: .\show\document\performancecomponent.cpp
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Set Section Playback Mode Stop at End"
+#: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Set Section Playback Mode Stop at End"
 msgstr ""
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Setlist Item Duration"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Setlist Item Duration"
 msgstr "Setlist Kalemlerinin sürelerini ayarla"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Setlist Item Key Signature"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Setlist Item Key Signature"
 msgstr "Setlist Kalemlerinin anathar belirteçlerini ayarla"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Setlist Item Pause"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Setlist Item Pause"
 msgstr "Setlist Kalemlerinin duraklamalarını ayarla"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Setlist Item Playback Mode"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Setlist Item Playback Mode"
 msgstr "Setlist Kalemlerinin çalma modunu ayarla"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Setlist Item Tempo"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Setlist Item Tempo"
 msgstr "Setlist Kalemlerinin tempolarını ayarla"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Setlist Item Time Signature"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Setlist Item Time Signature"
 msgstr "Setlist Kalemlerinin zaman belirteçlerini ayarla"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Set Setlist Item Title"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Set Setlist Item Title"
 msgstr "Setlist Kalemlerinin başlıklarını ayarla"
 
-#: .\song\songmarker.cpp
-msgid "[Command]Set Start and End to Selection"
+#: song/songmarker.cpp
+msgctxt "Command"
+msgid "Set Start and End to Selection"
 msgstr "Başlangıç ve bitiş işaretlerini seçime uygula"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Set Text Font"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Set Text Font"
 msgstr ""
 
-#: .\song\songcontroller.cpp
-msgid "[Song]Set Time Offset to Cursor"
+#: song/songcontroller.cpp
+msgctxt "Song"
+msgid "Set Time Offset to Cursor"
 msgstr ""
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Set Time Offset to Cursor"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Set Time Offset to Cursor"
 msgstr ""
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Set Track Pause"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Set Track Pause"
 msgstr "İzlerin beklemesini ayarla"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Setup Page"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Setup Page"
 msgstr ""
 
-#: .\show\document\performancecomponent.cpp .\show\document\showcomponent.cpp
-#: .\show\editing\setlistcomponent.cpp .\show\editing\showeditcomponent.cpp
-#: .\show\editing\showeditmodel.cpp .\show\editing\showplayerinspector.cpp
-#: .\show\editing\showplayerlistcomponent.cpp .\show\model\showplayer.cpp
-#: .\show\shared\showuicomponentbase.cpp
-msgid "[Command]Show"
+#: show/document/performancecomponent.cpp show/document/showcomponent.cpp
+#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
+#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
+#: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
+#: show/shared/showuicomponentbase.cpp
+msgctxt "Command"
+msgid "Show"
 msgstr "Göster"
 
-#: .\show\document\showdocument.cpp
-msgid "[Show]Show"
+#: show/document/showdocument.cpp
+msgctxt "Show"
+msgid "Show"
 msgstr "Göster"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Show Envelopes"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Show Envelopes"
 msgstr "Zarfları Göster"
 
-#: .\show\document\showcomponent.cpp
-msgid "[Show]Show Setup"
+#: show/document/showcomponent.cpp
+msgctxt "Show"
+msgid "Show Setup"
 msgstr "Ayarları Göster"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Show Tempos"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Show Tempos"
 msgstr ""
 
-#: .\song\songcontroller.cpp
-msgid "[Command]Show in Explorer/Finder"
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Show in Explorer/Finder"
 msgstr "Explorer/Finder içinde göster"
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Single Track"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Single Track"
 msgstr ""
 
-#: .\show\model\setlist.cpp
-msgid "[SetListItem]Skip"
+#: show/model/setlist.cpp
+msgctxt "SetListItem"
+msgid "Skip"
 msgstr ""
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Small"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Small"
 msgstr "Küçük"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Solo"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Solo"
 msgstr "Solo"
 
-#: .\song\songcontroller.cpp .\song\songmaster.cpp .\song\songvideohandler.cpp
-msgid "[Command]Song"
+#: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Song"
 msgstr "Parça"
 
-#: .\song\songdocument.cpp
-msgid "[Engine]Song"
+#: song/songdocument.cpp
+msgctxt "Engine"
+msgid "Song"
 msgstr "Parça"
 
-#: .\song\songcontroller.cpp
-msgid "[Song]Song Setup"
+#: song/songcontroller.cpp
+msgctxt "Song"
+msgid "Song Setup"
 msgstr "Parça Ayarları"
 
-#: .\song\songvideohandler.cpp
-msgid "[Video]Song alreay has the same frame rate %(1) as the video file."
+#: song/songvideohandler.cpp
+msgctxt "Video"
+msgid "Song alreay has the same frame rate %(1) as the video file."
 msgstr ""
 
-#: .\song\songvideohandler.cpp
-msgid "[Video]Song frame rate set to %(1)."
+#: song/songvideohandler.cpp
+msgctxt "Video"
+msgid "Song frame rate set to %(1)."
 msgstr ""
 
-#: .\show\editing\showplayerlistcomponent.cpp
-msgid "[Command]Sound Variation"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
+msgid "Sound Variation"
 msgstr ""
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Project]Split Event at Cursor"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Project"
+msgid "Split Event at Cursor"
 msgstr "Klip'i belirtecin bulunduğu yerden böl"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Split Speakers to Mono Files"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Split Speakers to Mono Files"
 msgstr ""
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Split Stem Speakers to Mono Files"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Split Stem Speakers to Mono Files"
 msgstr ""
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Split Track"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Split Track"
 msgstr "İzi böl"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Project]Split Track and Event at Cursor"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Project"
+msgid "Split Track and Event at Cursor"
 msgstr "Belirteç yerinden iz ve klip'i böl"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Split Track and Event at Cursor"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Split Track and Event at Cursor"
 msgstr "Belirteç yerinden iz ve klip'i böl"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Project]Split Track at Cursor"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Project"
+msgid "Split Track at Cursor"
 msgstr "İzi belirteçten böl"
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Split Track at Cursor"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Split Track at Cursor"
 msgstr "İzi belirteçten böl"
 
-#: .\project\publish\projectburner.cpp
-msgid "[ProjectBurner]Start to burn audio disc at %(1) times"
+#: project/publish/projectburner.cpp
+msgctxt "ProjectBurner"
+msgid "Start to burn audio disc at %(1) times"
 msgstr "Audio CD'yi %(1) hızında yazmaya başla"
 
-#: .\project\publish\ddpimagemaker.cpp
-msgid "[DDPImageMaker]Start to write DDP image at %(1) times"
+#: project/publish/ddpimagemaker.cpp
+msgctxt "DDPImageMaker"
+msgid "Start to write DDP image at %(1) times"
 msgstr "DDP imajı %(1) hızında yazmaya başla"
 
-#: .\show\editing\showeditmodel.cpp
+#: show/editing/showeditmodel.cpp
+msgctxt "EventEditHandler"
 msgid ""
-"[EventEditHandler]Start: %(1) (%(2))\n"
+"Start: %(1) (%(2))\n"
 "Pause: %(3)"
 msgstr ""
 "Başlangıç: %(1) (%(2))\n"
 "Duraklama: %(3)"
 
-#: .\show\model\setlist.cpp
-msgid "[SetListItem]Stop at End"
+#: show/model/setlist.cpp
+msgctxt "SetListItem"
+msgid "Stop at End"
 msgstr "Sonda dur"
 
-#: .\song\songsetup.cpp
-msgid "[SongSetup]Store Artist Preset %(1)"
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Store Artist Preset %(1)"
 msgstr ""
 
-#: .\song\trackpresetcomponent.cpp
-msgid "[TrackPreset]Store Track Preset"
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Store Track Preset"
 msgstr ""
 
-#: .\song\trackpresetcomponent.cpp
-msgid "[Command]Store Track Preset"
+#: song/trackpresetcomponent.cpp
+msgctxt "Command"
+msgid "Store Track Preset"
 msgstr ""
 
-#: .\song\songdocument.cpp
+#: song/songdocument.cpp
+msgctxt "Engine"
+msgid "THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
+msgstr "BU PARÇA TELİF HAKKI İÇERMEKTEDİR. HAK SAHİBİNİN İZNİ OLMADAN KULLANILAMAZ."
+
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Project"
 msgid ""
-"[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY "
-"MATERIAL WITHOUT THE AUTHORS AGREEMENT."
-msgstr ""
-"BU PARÇA TELİF HAKKI İÇERMEKTEDİR. HAK SAHİBİNİN İZNİ OLMADAN KULLANILAMAZ."
-
-#: .\project\editing\projecteditcomponent.cpp
-msgid ""
-"[Project]The EAN code is not formatted correctly.\n"
+"The EAN code is not formatted correctly.\n"
 "\n"
 "It should be 13 characters long and should only contain numeric characters.\n"
 "\n"
 "Example: 036000291452\n"
 "\n"
-"If you have a UPC, you just need to add 0 at the beginning to form a valid "
-"EAN code."
+"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
 msgstr ""
 "EAN kodu düzgünbir şekilde girilmemiş.\n"
 "\n"
@@ -1674,12 +2049,12 @@ msgstr ""
 "\n"
 "Eğer UPC kodunuz var ise başına 0 koyup giriş yapabilirsiniz."
 
-#: .\project\editing\projecttrackcomponent.cpp
+#: project/editing/projecttrackcomponent.cpp
+msgctxt "ProjectTrack"
 msgid ""
-"[ProjectTrack]The ISRC code is not formatted correctly.\n"
+"The ISRC code is not formatted correctly.\n"
 "\n"
-"It should be 12 characters long and should only contain alphanumeric "
-"characters.\n"
+"It should be 12 characters long and should only contain alphanumeric characters.\n"
 "\n"
 "Example: USPR37300012"
 msgstr ""
@@ -1687,180 +2062,217 @@ msgstr ""
 "\n"
 "Kod 13 haneli ve sadece rakkamlardan oluşmalıdır."
 
-#: .\song\songvideorenderer.cpp
-msgid ""
-"[Video]The audio codec does not support the current sample rate. The rate "
-"will be converted to %(1) kHz."
-msgstr ""
-"Audio codec mevcut örnekleme frekansını desteklemiyor. Örnekleme frekansı %"
-"(1) kHz'e çevrilecektir."
+#: song/songvideorenderer.cpp
+msgctxt "Video"
+msgid "The audio codec does not support the current sample rate. The rate will be converted to %(1) kHz."
+msgstr "Audio codec mevcut örnekleme frekansını desteklemiyor. Örnekleme frekansı %(1) kHz'e çevrilecektir."
 
-#: .\project\publish\burnerdialog.cpp
-msgid "[BurnerDialog]The device could not be opened"
+#: project/publish/burnerdialog.cpp
+msgctxt "BurnerDialog"
+msgid "The device could not be opened"
 msgstr "Cihaz açılamadı."
 
-#: .\song\publisherselector.cpp
-msgid "[Engine]The file format will be reset to \"%(1)\"."
+#: song/publisherselector.cpp
+msgctxt "Engine"
+msgid "The file format will be reset to \"%(1)\"."
 msgstr "Dosya formatı \"%(1)\"e geri çevrilecektir."
 
-#: .\project\document\songupdater.cpp
-msgid "[SongUpdater]The following files failed to update:"
+#: project/document/songupdater.cpp
+msgctxt "SongUpdater"
+msgid "The following files failed to update:"
 msgstr "Şu dosyalar güncellenemedi:"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]The following issues occurred during export:"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "The following issues occurred during export:"
 msgstr "Dışarı aktarım sırasında şu sorunlarla karşılaşıldı:"
 
-#: .\song\songmaster.cpp
-msgid "[SongMaster]The mastering file of this song is up-to-date."
+#: song/songmaster.cpp
+msgctxt "SongMaster"
+msgid "The mastering file of this song is up-to-date."
 msgstr "Bu şarkının mastering dosyası günceldir."
 
-#: .\project\document\songupdater.cpp
-msgid "[SongUpdater]The mastering files are up-to-date."
+#: project/document/songupdater.cpp
+msgctxt "SongUpdater"
+msgid "The mastering files are up-to-date."
 msgstr "Mastering dosyaları güncel."
 
-#: .\song\songmaster.cpp
-msgid "[SongMaster]The song will be saved first.\n"
+#: song/songmaster.cpp
+msgctxt "SongMaster"
+msgid "The song will be saved first.\n"
 msgstr "Öncelikle şarkı kaydedilecektir.\n"
 
-#: .\project\publish\imagemaker.cpp
-msgid "[ImageMaker]There was an error during the image creation!"
+#: project/publish/imagemaker.cpp
+msgctxt "ImageMaker"
+msgid "There was an error during the image creation!"
 msgstr "İmaj yaratılırken hata oluştu!"
 
-#: .\project\publish\projectpublisher.cpp
-msgid "[ProjectPublisher]This project does not contain any enabled tracks."
+#: project/publish/projectpublisher.cpp
+msgctxt "ProjectPublisher"
+msgid "This project does not contain any enabled tracks."
 msgstr "Bu projede etkinleştirilmiş hiçbir iz yok."
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]Tiny"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "Tiny"
 msgstr "Minik"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Title"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Title"
 msgstr "Başlık"
 
-#: .\score\scoreeditor.cpp
-msgid "[Command]Toggle Note or Rest"
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Toggle Note or Rest"
 msgstr ""
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Toggle Playback Mode Loop / Continue"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Toggle Playback Mode Loop / Continue"
 msgstr "Çalma modunu değiştir Loop / Devamlı"
 
-#: .\show\editing\setlistcomponent.cpp
-msgid "[Command]Toggle Playback Mode Loop / Stop at End"
+#: show/editing/setlistcomponent.cpp
+msgctxt "Command"
+msgid "Toggle Playback Mode Loop / Stop at End"
 msgstr "Çalma modunu değiştir Loop / Sonda dur"
 
-#: .\show\document\performancecomponent.cpp
-#: .\show\editing\showeditcomponent.cpp
-msgid "[Command]Toggle Section Playback Mode Loop / Continue"
+#: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
+msgctxt "Command"
+msgid "Toggle Section Playback Mode Loop / Continue"
 msgstr ""
 
-#: .\project\editing\projecteditcomponent.cpp
-msgid "[Command]Toggle Snap"
+#: project/editing/projecteditcomponent.cpp
+msgctxt "Command"
+msgid "Toggle Snap"
 msgstr "Yanaştırmayı Aç/Kapa"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Total Playing Time"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Total Playing Time"
 msgstr "Toplam çalma zamanı"
 
-#: .\project\editing\projecteditcomponent.cpp
-#: .\show\editing\showplayerlistcomponent.cpp .\show\model\showplayer.cpp
-#: .\song\songcontroller.cpp .\song\trackpresetcomponent.cpp
-msgid "[Command]Track"
+#: project/editing/projecteditcomponent.cpp
+#: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
+#: song/songcontroller.cpp song/trackpresetcomponent.cpp
+msgctxt "Command"
+msgid "Track"
 msgstr "İz"
 
-#: .\song\songbrowsable.cpp
-msgid "[SongBrowser]Track"
+#: song/songbrowsable.cpp
+msgctxt "SongBrowser"
+msgid "Track"
 msgstr "İz"
 
-#: .\project\model\projectmodel.cpp
-msgid "[ProjectMarker]Track %(1)"
+#: project/model/projectmodel.cpp
+msgctxt "ProjectMarker"
+msgid "Track %(1)"
 msgstr "İz %(1)"
 
-#: .\project\publish\audiodiscpublisher.cpp
-msgid "[AudioDiscPublisher]Track %(1)"
+#: project/publish/audiodiscpublisher.cpp
+msgctxt "AudioDiscPublisher"
+msgid "Track %(1)"
 msgstr "İz %(1)"
 
-#: .\song\trackpreset.cpp
-msgid "[FileType]Track Preset"
+#: song/trackpreset.cpp
+msgctxt "FileType"
+msgid "Track Preset"
 msgstr ""
 
-#: .\song\trackpresetwriter.cpp
-msgid "[TrackPreset]Track Preset"
+#: song/trackpresetwriter.cpp
+msgctxt "TrackPreset"
+msgid "Track Preset"
 msgstr ""
 
-#: .\song\trackpresetcomponent.cpp
-msgid "[TrackPreset]Track Presets"
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Track Presets"
 msgstr ""
 
-#: .\project\document\projectdocumentinfo.cpp
-msgid "[ProjectInfo]Tracks"
+#: project/document/projectdocumentinfo.cpp
+msgctxt "ProjectInfo"
+msgid "Tracks"
 msgstr "İzler"
 
-#: .\project\publish\projectpublisher.cpp
-msgid "[ProjectPublisher]Tracks"
+#: project/publish/projectpublisher.cpp
+msgctxt "ProjectPublisher"
+msgid "Tracks"
 msgstr "İzler"
 
-#: .\song\songdocumentinfo.cpp
-msgid "[SongInfo]Tracks"
+#: song/songdocumentinfo.cpp
+msgctxt "SongInfo"
+msgid "Tracks"
 msgstr "İzler"
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Tracks"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Tracks"
 msgstr "İzler"
 
-#: .\application\project\projecttracktransformtask.cpp
-msgid "[ProjectEdit]Transform to Realtime Audio"
+#: application/project/projecttracktransformtask.cpp
+msgctxt "ProjectEdit"
+msgid "Transform to Realtime Audio"
 msgstr "Gerçek Zamanlı Ses Dosyasına Dönüştür"
 
-#: .\application\project\projecttracktransformtask.cpp
-msgid "[ProjectEdit]Transform to Rendered Audio"
+#: application/project/projecttracktransformtask.cpp
+msgctxt "ProjectEdit"
+msgid "Transform to Rendered Audio"
 msgstr "Render Edilmiş Ses Dosyasına Dönüştür"
 
-#: .\show\document\performancecomponent.cpp
-msgid "[Command]Up"
+#: show/document/performancecomponent.cpp
+msgctxt "Command"
+msgid "Up"
 msgstr "Yukarı"
 
-#: .\project\document\projectpoolbrowser.cpp
-msgid "[Project]Update Mastering File"
+#: project/document/projectpoolbrowser.cpp
+msgctxt "Project"
+msgid "Update Mastering File"
 msgstr "Mastering dosyasını güncelle"
 
-#: .\project\editing\projecttrackcomponent.cpp
-msgid "[ProjectTrack]Update Mastering File"
+#: project/editing/projecttrackcomponent.cpp
+msgctxt "ProjectTrack"
+msgid "Update Mastering File"
 msgstr "Mastering dosyasını güncelle"
 
-#: .\song\songmaster.cpp
-msgid "[Command]Update Mastering File"
+#: song/songmaster.cpp
+msgctxt "Command"
+msgid "Update Mastering File"
 msgstr "Mastering dosyasını güncelle"
 
-#: .\project\document\projectcomponent.cpp
-msgid "[Command]Update Mastering Files"
+#: project/document/projectcomponent.cpp
+msgctxt "Command"
+msgid "Update Mastering Files"
 msgstr "Mastering dosyalarını güncelle"
 
-#: .\show\model\showfunctions.cpp
-msgid "[ShowFunctions]Update Patch"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Update Patch"
 msgstr "Patch'i güncelle"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Update Patch"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Update Patch"
 msgstr "Patch'i güncelle"
 
-#: .\show\model\showplayer.cpp
-msgid "[Command]Update Patch"
+#: show/model/showplayer.cpp
+msgctxt "Command"
+msgid "Update Patch"
 msgstr "Patch'i güncelle"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Update Patch \"%(1)\""
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Update Patch \"%(1)\""
 msgstr "\"%(1)\". Patch'i güncelle"
 
-#: .\project\model\projectfunctions.cpp
-msgid "[ProjectFunctions]Update Title"
+#: project/model/projectfunctions.cpp
+msgctxt "ProjectFunctions"
+msgid "Update Title"
 msgstr "Başlığı Güncelle"
 
-#: .\song\songmaster.cpp
+#: song/songmaster.cpp
+msgctxt "SongMaster"
 msgid ""
-"[SongMaster]Update the mastering file of this song:\n"
+"Update the mastering file of this song:\n"
 "%(6)\n"
 "Output: %(1)\n"
 "Duration: %(3)\n"
@@ -1878,140 +2290,180 @@ msgstr ""
 "Ana Efektleri Dahil Et: %(7)\n"
 "Dosyaadı: %(2)"
 
-#: .\project\document\songupdater.cpp
-msgid "[SongUpdater]Update was canceled."
+#: project/document/songupdater.cpp
+msgctxt "SongUpdater"
+msgid "Update was canceled."
 msgstr "Güncelleme iptal edildi."
 
-#: .\project\document\songupdater.cpp
-msgid "[SongUpdater]Updated %(1) of %(2) mastering files in %(3)."
+#: project/document/songupdater.cpp
+msgctxt "SongUpdater"
+msgid "Updated %(1) of %(2) mastering files in %(3)."
 msgstr "%(3) içerisindeki %(2) dosyadan %(1)'i güncellendi."
 
-#: .\song\songvideohandler.cpp
-msgid "[Command]Use Video Frame Rate in Timeline"
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Use Video Frame Rate in Timeline"
 msgstr ""
 
-#: .\project\publish\audiofilepublisher.cpp
-msgid "[AudioFilePublisher]Use range of events"
+#: project/publish/audiofilepublisher.cpp
+msgctxt "AudioFilePublisher"
+msgid "Use range of events"
 msgstr ""
 
-#: .\project\publish\audiofilepublisher.cpp
-msgid "[AudioFilePublisher]Use range of track markers"
+#: project/publish/audiofilepublisher.cpp
+msgctxt "AudioFilePublisher"
+msgid "Use range of track markers"
 msgstr ""
 
-#: .\song\songvideorenderer.cpp
-msgid "[Video]Using different codecs might affect the export speed."
+#: song/songvideorenderer.cpp
+msgctxt "Video"
+msgid "Using different codecs might affect the export speed."
 msgstr "Farklı codeclerin kullanımıdışarı aktarım hızını etkileyebilir."
 
-#: .\song\songvideohandler.cpp
-msgid "[Command]Video"
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Video"
 msgstr "Video"
 
-#: .\song\songvideohandler.cpp
-msgid "[Command]Video Size Default"
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Video Size Default"
 msgstr "Varsayılan Video Boyutu"
 
-#: .\song\songvideohandler.cpp
-msgid "[Command]Video Size Double"
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Video Size Double"
 msgstr "Video boyutu x 2"
 
-#: .\song\songvideohandler.cpp
-msgid "[Command]Video Size Half"
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Video Size Half"
 msgstr "Video boyutu / 2"
 
-#: .\song\songvideohandler.cpp
-msgid "[Video]Video frame rate %(1) is not supported as song frame rate."
+#: song/songvideohandler.cpp
+msgctxt "Video"
+msgid "Video frame rate %(1) is not supported as song frame rate."
 msgstr ""
 
-#: .\show\editing\globaltracklistcomponent.cpp .\song\songmarker.cpp
-msgid "[Command]View"
+#: show/editing/globaltracklistcomponent.cpp song/songmarker.cpp
+msgctxt "Command"
+msgid "View"
 msgstr "Görünüm"
 
-#: .\show\model\showplayer.cpp
-msgid "[Player]Virtual Instrument"
+#: show/model/showplayer.cpp
+msgctxt "Player"
+msgid "Virtual Instrument"
 msgstr "Sanal Enstrüman"
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Write Mono File"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Write Mono File"
 msgstr ""
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Write Mono Stems"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Write Mono Stems"
 msgstr ""
 
-#: .\song\songrenderer.cpp
-msgid "[SongRenderer]Write Stereo File"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Write Stereo File"
 msgstr ""
 
-#: .\song\stemrenderer.cpp
-msgid "[StemRenderer]Write Stereo Stems"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Write Stereo Stems"
 msgstr ""
 
-#: .\song\songvideorenderer.cpp
-msgid "[Video]Writing Video File..."
+#: song/songvideorenderer.cpp
+msgctxt "Video"
+msgid "Writing Video File..."
 msgstr "Video Dosyası Yazılıyor..."
 
-#: .\score\scoreeditor.cpp
-msgid "[ScoreEditor]X-Large"
+#: score/scoreeditor.cpp
+msgctxt "ScoreEditor"
+msgid "X-Large"
 msgstr "X-Large"
 
-#: .\song\songmaster.cpp
-msgid "[SongMaster]Yes"
+#: song/songmaster.cpp
+msgctxt "SongMaster"
+msgid "Yes"
 msgstr "Evet"
 
-#: .\show\editing\showplayerlistcomponent.cpp
-msgid "[Command]Zoom"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
+msgid "Zoom"
 msgstr "Zoom"
 
-#: .\show\editing\showdraghandler.cpp
-msgid "[ShowDragHandler]new Player"
+#: show/editing/showdraghandler.cpp
+msgctxt "ShowDragHandler"
+msgid "new Player"
 msgstr "yeni Çalıcı"
 
-#~ msgid "[Player]Add Player..."
+#~ msgctxt "Song"
+#~ msgid "Could not import file!"
+#~ msgstr "Dosya içeri aktarılamadı!"
+
+#~ msgctxt "Player"
+#~ msgid "Add Player..."
 #~ msgstr "Çalıcı Ekle..."
 
-#~ msgid "[SongBrowser]Append Track"
+#~ msgctxt "SongBrowser"
+#~ msgid "Append Track"
 #~ msgstr "Sona İz Ekle"
 
-#~ msgid "[Command]Audio"
+#~ msgctxt "Command"
+#~ msgid "Audio"
 #~ msgstr "Audio"
 
-#~ msgid "[Video]Default Size"
+#~ msgctxt "Video"
+#~ msgid "Default Size"
 #~ msgstr "Varsayılan Boyut"
 
-#~ msgid "[Video]Do you want to extract the audio to a new track?"
+#~ msgctxt "Video"
+#~ msgid "Do you want to extract the audio to a new track?"
 #~ msgstr "Sesi yeni bir ize çıkarmak istiyormusunuz ?"
 
-#~ msgid "[Video]Double Size"
+#~ msgctxt "Video"
+#~ msgid "Double Size"
 #~ msgstr "Çift kat boyut"
 
-#~ msgid "[Command]Extract Audio"
+#~ msgctxt "Command"
+#~ msgid "Extract Audio"
 #~ msgstr "Sesi çıkar"
 
-#~ msgid "[Video]Extracted Audio Track"
+#~ msgctxt "Video"
+#~ msgid "Extracted Audio Track"
 #~ msgstr "Çıkarılan ses izi"
 
-#~ msgid "[Video]Half Size"
+#~ msgctxt "Video"
+#~ msgid "Half Size"
 #~ msgstr "Yarı boy"
 
-#~ msgid "[Command]Remove Video"
+#~ msgctxt "Command"
+#~ msgid "Remove Video"
 #~ msgstr "Video'yu kaldır"
 
-#~ msgid "[Player]Rename Patch \"%(1)\"..."
+#~ msgctxt "Player"
+#~ msgid "Rename Patch \"%(1)\"..."
 #~ msgstr "Adı değiştirilen patch \"%(1)\""
 
-#~ msgid "[Player]Save Patch..."
+#~ msgctxt "Player"
+#~ msgid "Save Patch..."
 #~ msgstr "Patch'i kaydet"
 
-#~ msgid "[Command]Set Video Offset"
+#~ msgctxt "Command"
+#~ msgid "Set Video Offset"
 #~ msgstr "Video offset'i ayarla"
 
-#~ msgid "[SetList]Item"
+#~ msgctxt "SetList"
+#~ msgid "Item"
 #~ msgstr "Kalem"
 
-#~ msgid "[SongRenderer]Nothing to export. Please set Loop or Markers first."
-#~ msgstr ""
-#~ "Dışarı aktarılacak birşey yok. Lütfen loop veya lokasyon işaretlerini "
-#~ "belirleyin"
+#~ msgctxt "SongRenderer"
+#~ msgid "Nothing to export. Please set Loop or Markers first."
+#~ msgstr "Dışarı aktarılacak birşey yok. Lütfen loop veya lokasyon işaretlerini belirleyin"
 
-#~ msgid "[Project]Reset Pause"
+#~ msgctxt "Project"
+#~ msgid "Reset Pause"
 #~ msgstr "Durdurmayı Sıfırla"

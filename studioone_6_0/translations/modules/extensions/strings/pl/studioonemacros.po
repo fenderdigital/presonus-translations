@@ -4,163 +4,171 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\panel.js
+#: panel.js
 msgid "Action"
 msgstr "Działanie"
 
-#: .\panel.js
+#: panel.js
 msgid "Are you sure you want to revert all changes?"
 msgstr "Czy na pewno chcesz cofnąć wszystkie zmiany?"
 
-#: .\editor.js
+#: editor.js
 msgid "Arguments"
 msgstr "Argumenty"
 
-#: .\main.js
+#: main.js
 msgid "Arrangement"
 msgstr "Aranżacja"
 
-#: .\main.js
+#: main.js
 msgid "Audio Editor"
 msgstr "Edytor audio"
 
-#: .\editor.js
+#: editor.js
 msgid "Command"
 msgstr "Command"
 
-#: .\editor.js
+#: editor.js
 msgid "Command Arguments"
 msgstr "Argumenty polecenia"
 
-#: .\organizer.js
+#: organizer.js
 msgid "Description"
 msgstr "Opis"
 
-#: .\organizer.js
+#: organizer.js
 msgid "Do you want to delete the selected macros?"
 msgstr "Czy na pewno chcesz usunąć wybrane makra?"
 
-#: .\organizer.js
+#: organizer.js
 msgid "Do you want to rename the macro file as well?"
 msgstr "Czy chcesz również zmienić nazwę makra?"
 
-#: .\panel.js
+#: panel.js
 msgid "Duplicate Macro"
 msgstr "Powiel makro"
 
-#: .\panel.js
+#: panel.js
 msgid "Edit Macro..."
 msgstr "Edytuj makro..."
 
-#: .\panel.js .\renamer.js
+#: panel.js renamer.js
 msgid "Edit Names"
 msgstr "Edytuj nazwy"
 
-#: .\panel.js
+#: panel.js
 msgid "Export Macro Page"
 msgstr "Eksportuj stronę makra"
 
-#: .\panel.js
+#: panel.js
 msgid "Export..."
 msgstr "Eksportuj..."
 
-#: .\organizer.js
+#: organizer.js
 msgid "Group"
 msgstr "Grupa"
 
-#: .\panel.js
+#: panel.js
 msgid "Help"
 msgstr "Pomoc kontekstowa"
 
-#: .\panel.js
+#: panel.js
 msgid "Import Macro Page"
 msgstr "Importuj stronę makra"
 
-#: .\panel.js
+#: panel.js
 msgid "Import..."
 msgstr "Importuj..."
 
-#: .\gadget.js .\panel.js
+#: gadget.js panel.js
 msgid "Macro Organizer"
 msgstr "Organizator makr"
 
-#: .\gadget.js
+#: gadget.js
 msgid "Macro Toolbar inspired by the Studio One beta testers"
 msgstr "Pasek makro zainspirowany przez beta testerów Studio One"
 
-#: .\panel.js
+#: panel.js
 msgid "Macro not found:"
 msgstr "Nie znaleziono makra:"
 
-#: .\editor.js .\gadget.js .\manager.js .\panel.js
+#: editor.js gadget.js manager.js panel.js
 msgid "Macros"
 msgstr "Makra"
 
-#: .\translation.js
-msgid "[Macros]Macros (Arrangement)"
+#: translation.js
+msgctxt "Macros"
+msgid "Macros (Arrangement)"
 msgstr "Makra (aranżacja)"
 
-#: .\translation.js
-msgid "[Macros]Macros (Audio Editor)"
+#: translation.js
+msgctxt "Macros"
+msgid "Macros (Audio Editor)"
 msgstr "Makra (edytor audio)"
 
-#: .\translation.js
-msgid "[Macros]Macros (Note Editor)"
+#: translation.js
+msgctxt "Macros"
+msgid "Macros (Note Editor)"
 msgstr "Makra (edytor nut)"
 
-#: .\organizer.js .\panel.js
+#: organizer.js panel.js
 msgid "Name"
 msgstr "Nazwa"
 
-#: .\panel.js
+#: panel.js
 msgid "New Macro..."
 msgstr "Nowe makro..."
 
-#: .\main.js
+#: main.js
 msgid "Note Editor"
 msgstr "Edytor nut"
 
-#: .\panel.js
+#: panel.js
 msgid "Pages"
 msgstr "Strony"
 
-#: .\panel.js .\renamer.js
+#: panel.js renamer.js
 msgid "Reload Names"
 msgstr "Odśwież nazwy"
 
-#: .\panel.js
+#: panel.js
 msgid "Reset Toolbar"
 msgstr "Resetuj pasek narzędzi"
 
-#: .\panel.js
+#: panel.js
 msgid "Setup"
 msgstr "Konfiguracja"
 
-#: .\elements.js
+#: elements.js
 msgid "Studio One Macro"
 msgstr "Makro Studio One"
 
-#: .\elements.js
+#: elements.js
 msgid "Studio One Macro Page"
 msgstr "Strona makro Studio One"
 
-#: .\gadget.js
+#: gadget.js
 msgid "Studio One Macro Toolbar"
 msgstr "Pasek narzędzi makr Studio One"
 
-#: .\panel.js
+#: manager.js panel.js
 msgid "The file is empty or corrupt and could not be imported."
 msgstr "Ten plik jest pusty lub uszkodzony i nie może zostać zaimportowany."
 
-#: .\editor.js
+#: editor.js
 msgid "This command does not have any arguments."
 msgstr "To polecenie nie ma żadnych argumentów."
 
-#: .\organizer.js
+#: organizer.js
 msgid "User Macro"
 msgstr "Makro użytkownika"
 
-#~ msgid "[Macros]Macros (Music Editor)"
+#: panel.js
+msgid "View"
+msgstr "Widok"
+
+#~ msgctxt "Macros"
+#~ msgid "Macros (Music Editor)"
 #~ msgstr "Makra (edytor muzyczny)"
 
 #~ msgid "Music Editor"

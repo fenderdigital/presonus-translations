@@ -4,18 +4,21 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\unifieddevice.cpp
-msgid "[WindowsMidi]Failed to open %(1)!"
+#: unifieddevice.cpp
+msgctxt "WindowsMidi"
+msgid "Failed to open %(1)!"
 msgstr "Impossibile aprire %(1)!"
 
-#: .\midiservicemain.cpp
-msgid "[WindowsMidi]Support for MIDI gear on Windows"
+#: midiservicemain.cpp
+msgctxt "WindowsMidi"
+msgid "Support for MIDI gear on Windows"
 msgstr "Supporto per Dispositivi MIDI su Windows"
 
-#: .\plugversion.h
-msgid "[WindowsMidi]Windows MIDI Support"
+#: plugversion.h
+msgctxt "WindowsMidi"
+msgid "Windows MIDI Support"
 msgstr "Supporto Windows MIDI"
 
-#~ msgid "[WindowsMidi]MIDI"
+#~ msgctxt "WindowsMidi"
+#~ msgid "MIDI"
 #~ msgstr "MIDI"
-

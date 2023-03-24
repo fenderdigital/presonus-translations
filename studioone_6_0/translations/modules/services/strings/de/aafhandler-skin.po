@@ -4,70 +4,86 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\option.xml
-msgid "[ExportDialog]Convert To AAF"
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Convert To AAF"
 msgstr "Konvertieren in AAF"
 
-#: .\option.xml
-msgid "[ExportDialog]Convert audio files"
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Convert audio files"
 msgstr "Audiodateien konvertieren"
 
-#: .\option.xml
-msgid "[ExportDialog]Convert stereo tracks to mono pairs. This ensures compatibilty with applications which do not support import of stereo tracks."
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Convert stereo tracks to mono pairs. This ensures compatibilty with applications which do not support import of stereo tracks."
 msgstr "Stereospuren zu Monopaaren konvertieren. Dies stellt Kompatibilität mit Anwendungen sicher, die keine Stereospuren importieren können."
 
-#: .\option.xml
-msgid "[ExportDialog]Create copies of all audio data in another format for export."
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Create copies of all audio data in another format for export."
 msgstr "Beim Exportieren Kopien aller Audiodaten in einem anderen Format erzeugen."
 
-#: .\option.xml
-msgid "[ExportDialog]Discard unused regions in audio files."
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Discard unused regions in audio files."
 msgstr "Unbenutzte Bereiche in Audiodateien entfernen"
 
-#: .\option.xml
-msgid "[ExportDialog]Embed audio"
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Embed audio"
 msgstr "Audio einbetten"
 
-#: .\option.xml
-msgid "[ExportDialog]Export pan"
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Export pan"
 msgstr "Pan exportieren"
 
-#: .\option.xml
-msgid "[ExportDialog]Head/Tail"
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Head/Tail"
 msgstr "Ein/Ausklingzeit"
 
-#: .\option.xml
-msgid "[ExportDialog]Improve compatibility with older applications."
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Improve compatibility with older applications."
 msgstr "Kompatibilität mit älteren Anwendungen verbessern."
 
-#: .\option.xml
-msgid "[ExportDialog]Include pan automation in export. Disengaging may improve compatibility with applications which do not recognize pan data."
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Include pan automation in export. Disengaging may improve compatibility with applications which do not recognize pan data."
 msgstr "Automationsdaten für Pan exportieren. Das Ausschalten kann die Kompatibilität mit Anwendungen verbessern, die Pandaten nicht erkennen."
 
-#: .\option.xml
-msgid "[ExportDialog]Legacy mode"
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Legacy mode"
 msgstr "Abwärtskompatibilitätsmodus"
 
-#: .\option.xml
-msgid "[AudioCodecSelector]Resolution:"
+#: option.xml
+msgctxt "AudioCodecSelector"
+msgid "Resolution:"
 msgstr "Auflösung:"
 
-#: .\option.xml
-msgid "[AudioCodecSelector]Sample Rate:"
+#: option.xml
+msgctxt "AudioCodecSelector"
+msgid "Sample Rate:"
 msgstr "Abtastrate:"
 
-#: .\option.xml
-msgid "[ExportDialog]Split stereo tracks"
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Split stereo tracks"
 msgstr "Stereospuren aufteilen"
 
-#: .\option.xml
-msgid "[ExportDialog]Store Wave and AIFF data in the exported file. If disengaged, references to audio files are used instead."
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Store Wave and AIFF data in the exported file. If disengaged, references to audio files are used instead."
 msgstr "WAV- und AIFF-Daten in der exportierten Datei speichern. Ansonsten werden Audiodateien referenziert."
 
-#: .\option.xml
-msgid "[ExportDialog]Trim audio files"
+#: option.xml
+msgctxt "ExportDialog"
+msgid "Trim audio files"
 msgstr "Audiodateien trimmen"
 
-#~ msgid "[ExportDialog]Export AAF"
+#~ msgctxt "ExportDialog"
+#~ msgid "Export AAF"
 #~ msgstr "AAF exportieren"
-

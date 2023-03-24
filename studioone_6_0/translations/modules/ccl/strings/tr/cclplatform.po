@@ -4,70 +4,98 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\cocoa\gui\fileselector.cocoa.mm
-msgid "[FileSelector]All Documents"
+#: cocoa/gui/fileselector.cocoa.mm
+msgctxt "FileSelector"
+msgid "All Documents"
 msgstr "Tüm Dokümanlar"
 
-#: .\shared\host\platformfileselectorbase.cpp
-msgid "[FileSelector]All Files"
+#: shared/host/platformfileselectorbase.cpp
+msgctxt "FileSelector"
+msgid "All Files"
 msgstr "Tüm Dosyalar"
 
-#: .\win\gui\fileselector.win.cpp
-msgid "[FileSelector]All Files (*.*)"
+#: win/gui/fileselector.win.cpp
+msgctxt "FileSelector"
+msgid "All Files (*.*)"
 msgstr "Tüm Dosyalar (*.*)"
 
-#: .\cocoa\gui\fileselector.cocoa.mm
-msgid "[FileSelector]All Readable Documents"
+#: cocoa/gui/fileselector.cocoa.mm
+msgctxt "FileSelector"
+msgid "All Readable Documents"
 msgstr "Tüm Okunabilir Dokümanlar"
 
-#: .\shared\host\platformfileselectorbase.cpp .\win\gui\fileselector.win.cpp
-msgid "[FileSelector]All Supported Files"
+#: shared/host/platformfileselectorbase.cpp win/gui/fileselector.win.cpp
+msgctxt "FileSelector"
+msgid "All Supported Files"
 msgstr "Tüm Desteklenen Dosyalar"
 
-#: .\win\gui\exceptionhandler.cpp
-msgid "[Win32]An unexpected error occurred in this application or in a plug-in.\nA problem report has been created at:\n\n%(1)"
+#: win/gui/exceptionhandler.cpp
+msgctxt "Win32"
+msgid ""
+"An unexpected error occurred in this application or in a plug-in.\n"
+"A problem report has been created at:\n"
+"\n"
+"%(1)"
 msgstr ""
 
-#: .\cocoa\gui\fileselector.ios.mm
-msgid "[FileSelector]Files are still being downloaded. Please try to open the file again later."
+#: cocoa/gui/fileselector.ios.mm
+msgctxt "FileSelector"
+msgid "Files are still being downloaded. Please try to open the file again later."
 msgstr ""
 
-#: .\win\direct2d\dxgiengine.cpp
-msgid "[Win32]Graphics hardware acceleration issue detected."
+#: win/direct2d/dxgiengine.cpp
+msgctxt "Win32"
+msgid "Graphics hardware acceleration issue detected."
 msgstr "Grafik hızlandırma problemi ile karşılaşıldı."
 
-#: .\cocoa\gui\menu.cocoa.mm
-msgid "[MacMenu]Hide"
+#: cocoa/gui/menu.cocoa.mm
+msgctxt "MacMenu"
+msgid "Hide"
 msgstr "Sakla"
 
-#: .\cocoa\gui\menu.cocoa.mm
-msgid "[MacMenu]Hide Others"
+#: cocoa/gui/menu.cocoa.mm
+msgctxt "MacMenu"
+msgid "Hide Others"
 msgstr "Diğerlerini Sakla"
 
-#: .\cocoa\system\filemanager.ios.mm
-msgid "[IOSFileManager]Other Application"
+#: cocoa/system/filemanager.ios.mm
+msgctxt "IOSFileManager"
+msgid "Other Application"
 msgstr ""
 
-#: .\cocoa\gui\menu.cocoa.mm
-msgid "[MacMenu]Quit"
+#: cocoa/gui/menu.cocoa.mm
+msgctxt "MacMenu"
+msgid "Quit"
 msgstr "Vargeç"
 
-#: .\cocoa\gui\menu.cocoa.mm
-msgid "[MacMenu]Services"
+#: cocoa/gui/menu.cocoa.mm
+msgctxt "MacMenu"
+msgid "Services"
 msgstr "Servisler"
 
-#: .\cocoa\gui\menu.cocoa.mm
-msgid "[MacMenu]Show All"
+#: cocoa/gui/menu.cocoa.mm
+msgctxt "MacMenu"
+msgid "Show All"
 msgstr "Hepsini Göster"
 
-#: .\cocoa\system\filemanager.ios.mm
-msgid "[IOSFileManager]Storage"
+#: cocoa/system/filemanager.ios.mm
+msgctxt "IOSFileManager"
+msgid "Storage"
 msgstr ""
 
-#: .\win\direct2d\d2dengine.cpp
-msgid "[Win32]This application requires Windows 10 or later."
+#: win/direct2d/d2dengine.cpp
+msgctxt "Win32"
+msgid "This application requires Windows 10 or later."
 msgstr "Bu uygulama Windows 10'a ihtiyaç duymaktadır."
 
-#~ msgid "[Win32]An unexpected error occurred in this application or in a plug-in.\nA dump file has been created at:\n\n%(1)"
-#~ msgstr "Bu uygulama veya plug-in'de beklenmeyen bir hata oluştu.\nDump dosyası şurada yaratıldı: \n\n%(1)"
-
+#~ msgctxt "Win32"
+#~ msgid ""
+#~ "An unexpected error occurred in this application or in a plug-in.\n"
+#~ "A dump file has been created at:\n"
+#~ "\n"
+#~ "%(1)"
+#~ msgstr ""
+#~ "Bu uygulama veya plug-in'de beklenmeyen bir hata oluştu.\n"
+#~ "Dump dosyası şurada yaratıldı: \n"
+#~ "\n"
+#~ "%(1)"

@@ -4,303 +4,593 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]%(1) could not be downloaded."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) accepted your invite to collaborate on %(2)."
+msgstr "%(1)이(가) %(2) 협업 초대를 수락하였습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) accepted your invite."
+msgstr "%(1)이(가) 초대를 수락하였습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) added a timestamped comment to %(2)."
+msgstr "%(1)이(가) %(2)에 타임스탬프 코멘트를 남겼습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) commented on %(2)."
+msgstr "%(1)이(가) %(2)에 코멘트를 남겼습니다."
+
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "%(1) could not be downloaded."
 msgstr "%(1) (을)를 다운로드할 수 없습니다."
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]%(1) exceeds the allowed file size (%(2))."
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "%(1) exceeds the allowed file size (%(2))."
 msgstr "%(1) 파일크기가 허용된 크기를 초과하였습니다 (%(2))."
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Acquiring remote lock"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) has invited you to collaborate on %(2) workspace!"
+msgstr "%(1)이(가) 당신을 워크스페이스 %(2) 협업에 초대하였습니다!"
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) in workspace %(2)."
+msgstr "워크스페이스 %(2)의 %(1)."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) left workspace %(2)."
+msgstr "%(1)이(가) 워크스페이스 %(2)에서 나갔습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) rejected your invite to collaborate on %(2)."
+msgstr "%(1)이(가) %(2) 협업 초대를 거부하였습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) rejected your invite."
+msgstr "%(1)이(가) 초대를 거부하였습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) synced a new folder %(2) in %(3) workspace."
+msgstr "%(1)에 의해 %(3) 워크스페이스에서 %(2) 폴더가 동기화되었습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) synced a new folder."
+msgstr "%(1)이(가) 새 폴더를 동기화 하였습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) updated folder %(2) in %(3) workspace."
+msgstr "%(1)이(가) 워크스페이스 %(3)의 %(2) 폴더를 업데이트했습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) uploaded %(2) to %(3) workspace."
+msgstr "%(1)이(가) 워크스페이스 %(3)에 %(2)을(를) 업로드했습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) was changed locally and remote."
+msgstr "%(1)은 로컬 및 원격으로 변경되었습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) will no longer have access to files, folders and collaboration features."
+msgstr "%(1)은(는) 더 이상 파일, 폴더 및 협업 기능에 접근권한이 없습니다."
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "A synchronization for this folder is already running, please wait until it's finished."
+msgstr "이 폴더의 동기화가 이미 진행중입니다. 동기화가 완료될 때까지 잠시 기다리십시오."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Accept"
+msgstr "승락"
+
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Acquiring remote lock"
 msgstr "리모트 락 입수"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Action"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Action"
 msgstr "액션"
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Another synchronization was started at %(1) by %(2) on %(3). Please wait until the synchronization is finished and try again."
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Another synchronization was started at %(1) by %(2) on %(3). Please wait until the synchronization is finished and try again."
 msgstr "%(3)의 %(2)에 의해 %(1)에서 다른 동기화가 시작된 상태입니다. 동기화가 완료된 후 다시 시도하십시오."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Cancel"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Cancel"
 msgstr "취소"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Canceled"
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Canceled"
 msgstr "취소됨"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Canceling..."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Canceling..."
 msgstr "취소중..."
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Checking remote location"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Checking remote location"
 msgstr "리모트 위치 확인중"
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Checking remote lock"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Checking remote lock"
 msgstr "리모트 락 확인중"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Collaboration"
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Collaboration"
 msgstr "협업"
 
-#: .\cloudsynctypes.cpp
-msgid "[Collaboration]Conflict"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Collaboration Invitation."
+msgstr "협업 초대."
+
+#: cloudsynctypes.cpp
+msgctxt "Collaboration"
+msgid "Conflict"
 msgstr "충돌"
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Continue anyway"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Continue anyway"
 msgstr "그대로 계속하기"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Creator"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Creator"
 msgstr "작성자"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Direction"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Direction"
 msgstr "방향"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Downloading files..."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Downloading files..."
 msgstr "파일 다운로드 중..."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Element"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Element"
 msgstr "엘리먼트"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Error while acessing local files"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Error while acessing local files"
 msgstr "로컬 파일에 액세스 하는 도중 에러 발생"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Everything is up-to-date"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Everything is up-to-date"
 msgstr "모든 정보가 최신입니다."
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to create local folder."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to create local folder."
 msgstr "로컬 폴더 작성 실패"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to create remote folder."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to create remote folder."
 msgstr "리모트 폴더 작성 실패"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to read %(1) for upload."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to read %(1) for upload."
 msgstr "업로드를 위해 %(1) 읽기 실패"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to receive files."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to receive files."
 msgstr "파일 수신 실패"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to send files."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to send files."
 msgstr "파일 전송 실패"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Failed to start remote connection"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Failed to start remote connection"
 msgstr "리모트 접속 시작 실패"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to start remote session."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to start remote session."
 msgstr "리모트 세션 시작 실패"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to update files in workspace."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to update files in workspace."
 msgstr "워크스페이스에서 파일 업데이트 실패"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to update local files."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to update local files."
 msgstr "로컬 파일 업데이트 실패"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to upload %(1)."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to upload %(1)."
 msgstr "%(1) 업로드 실패"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]File"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "File"
 msgstr "파일"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Finalizing file download..."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "File conflict while receiving."
+msgstr "파일을 받는 중에 충돌이 발생했습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "File conflict while sending."
+msgstr "파일을 보내는 중에 충돌이 발생했습니다."
+
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Finalizing file download..."
 msgstr "파일 다운로드 파이널라이징..."
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Finalizing file upload..."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Finalizing file upload..."
 msgstr "파일 업로드 파이널라이징..."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Folder"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Folder"
 msgstr "폴더"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Join"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Folder %(1) was updated by %(2)."
+msgstr "폴더 %(1)이 %(2)에 의해 업데이트되었습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Invitation accepted."
+msgstr "초대 수락됨."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Invitation could not be updated."
+msgstr "초대를 업데이트 할 수 없습니다."
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Join"
 msgstr "참여"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Local sync information is corrupted"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Join"
+msgstr "참여"
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Join Folder"
+msgstr "폴더에 참여"
+
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Local sync information is corrupted"
 msgstr "로컬 싱크 정보가 올바르지 않습니다."
 
-#: .\cloudsynctypes.cpp
-msgid "[Collaboration]None"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Local version was renamed to %(1)."
+msgstr "로컬 버전 이름이 %(1)로 변경되었습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "New file added to %(1)."
+msgstr "%(1)에 새로운 파일이 추가되었습니다."
+
+#: cloudsynctypes.cpp
+msgctxt "Collaboration"
+msgid "None"
 msgstr "없음"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Path"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Open"
+msgstr "열기"
+
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Path"
 msgstr "경로"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Phase"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Phase"
 msgstr "위상"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Please select the workspace and folder you would like to join. You can start collaborating once all files have been downloaded."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Please select the workspace and folder you would like to join. You can start collaborating once all files have been downloaded."
 msgstr "참여하려는 워크스페이스와 폴더를 선택하십시오. 모든 파일의 다운로드를 마친 후 협업을 시작할 수 있습니다."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Please select the workspace and folder you would like to share to. All files from your local document folder will be uploaded."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Please select the workspace and folder you would like to share to. All files from your local document folder will be uploaded."
 msgstr "공유하려는 워크스페이스와 폴더를 선택하십시오. 귀하의 로컬 도큐먼트 폴더의모든 파일이 업로드됩니다."
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Please wait until your synchronization is finished."
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Please wait until your synchronization is finished."
 msgstr "동기화를 마칠 때까지 기다려 주십시오."
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Preparing file download..."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Preparing file download..."
 msgstr "파일 다운로드 준비중..."
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Preparing file upload.."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Preparing file upload.."
 msgstr "파일 업로드 준비중..."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Progress"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Progress"
 msgstr "프로그레스"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Reading file information from the workspace failed"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Reading file information from the workspace failed"
 msgstr "실패한 워크스페이스의 파일 정보 읽는 중"
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Reading remote lock information"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Reading remote lock information"
 msgstr "리모트 락 정보 읽는 중"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Receive"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Receive"
 msgstr "수신"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Receive"
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Receive"
 msgstr "수신"
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Releasing remote lock"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Receive"
+msgstr "수신"
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Receiving %(1) finished successfully."
+msgstr "%(1) 수신이 성공적으로 완료되었습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Reject"
+msgstr "거부"
+
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Releasing remote lock"
 msgstr "리모트 락 푸는 중"
 
-#: .\cloudsynctypes.cpp
-msgid "[Collaboration]Replace"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Remote version was renamed to %(1)."
+msgstr "Remote 버전이 %(1)로 변경되었습니다."
+
+#: cloudsynctypes.cpp
+msgctxt "Collaboration"
+msgid "Replace"
 msgstr "교체"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Send"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Retry"
+msgstr "다시 시도"
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Send"
 msgstr "보내기"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Send"
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Send"
 msgstr "보내기"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Send complete."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Send complete."
 msgstr "보내기 완료"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Share"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Sending %(1) finished successfully."
+msgstr "%(1) 전송이 성공적으로 완료되었습니다."
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Share"
 msgstr "공유하기"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Shared"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Shared"
 msgstr "공유됨"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Show Status"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Show"
+msgstr "Show"
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Show Status"
 msgstr "상태 표시"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Size"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Size"
 msgstr "사이즈"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Sync files"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Some files could not be received successfully in %(1)."
+msgstr "%(1)의 일부 파일은 성공적으로 수신되지 않았습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Some files could not be sent successfully in %(1)."
+msgstr "%(1)의 일부 파일은 성공적으로 전송되지 않았습니다."
+
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Sync files"
 msgstr "파일 동기화"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Synchronization data is corrupted."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Synchronization complete."
+msgstr "동기화가 완료되었습니다."
+
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Synchronization data is corrupted."
 msgstr "동기화 파일이 손상되었습니다."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]The document is not in the user data location. Please note that everything in the folder '%(1)' will be shared with the document."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Synchronization not complete."
+msgstr "동기화가 완료되지 않았습니다."
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The document is not in the user data location. Please note that everything in the folder '%(1)' will be shared with the document."
 msgstr "사용자 데이터 위치에 해당 도큐먼트가 없습니다. 폴더 '%(1)' 내의 모든 것이 도큐먼트와 함께 공유된다는 점에 유의하십시오."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]The document will be closed for this operation."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The document will be closed for this operation."
 msgstr "이 조작을 위하여 도큐먼트가 닫힙니다."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]The document will be saved for this operation."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The document will be saved for this operation."
 msgstr "이 조작을 위하여 도큐먼트가 저장됩니다."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]The remote location cannot be reached. Please check your internet connection and the remote location (%(1)). If the remote location was permanently removed, you might want to unlink your document."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The local folder could not be found. Please join again or open your local folder for this collaboration to get the most recent version."
+msgstr "로컬 폴더를 찾을 수 없습니다. 현재 협업에 다시 참여하거나 로컬 폴더를 다시 열어 최신 버전으로 갱신하십시오."
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The remote location cannot be reached. Please check your internet connection and the remote location (%(1)). If the remote location was permanently removed, you might want to unlink your document."
 msgstr "리모트 위치에 접근할 수 없습니다. 인터넷 연결상태와 리모트 위치 (%(1))을 확인하십시오. 리모트 위치가 영구적으로 제거된 경우에는 도큐먼트 링크를 해제해야 할 수 있습니다."
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]The remote workspace does not allow sending"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "The remote workspace does not allow sending"
 msgstr "리모트 워크스페이스는 보내기를 허용하지 않습니다."
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]The upload size exceeds the available remote space (%(1))."
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "The upload size exceeds the available remote space (%(1))."
 msgstr "업로드 크기가 사용가능한 리모트 스페이스 (%(1)) 용량보다 큽니다."
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]This will download new and updated files from your collaborators."
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "This will download new and updated files from your collaborators."
 msgstr "협업자로부터 새 파일과 업데이트된 파일을 다운로드합니다."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]This will unlink your local copy and keep files in the remote location."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "This will unlink your local copy and keep files in the remote location."
 msgstr "로컬 사본 링크를 해제하고 리모트 로케이션에 파일을 보관합니다."
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]This will upload new and updated files to share them with your collaborators."
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "This will upload new and updated files to share them with your collaborators."
 msgstr "새 파일과 업데이트된 파일을 업로드하여 협업자들과 공유합니다."
 
-#: .\cloudsynctypes.cpp
-msgid "[Collaboration]Transfer"
+#: cloudsynctypes.cpp
+msgctxt "Collaboration"
+msgid "Transfer"
 msgstr "전송"
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Unknown Computer"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Unknown Computer"
 msgstr "알 수 없는 컴퓨터"
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Unknown User"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Unknown User"
 msgstr "알 수 없는 사용자"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Unlink"
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Unlink"
 msgstr "링크 해제"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Unlink document"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Unlink document"
 msgstr "도큐먼트 링크 해제"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Uploading files..."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Update in %(1)."
+msgstr "%(1) 업데이트."
+
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Uploading files..."
 msgstr "파일 업로딩..."
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Would you like to proceed?"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Would you like to proceed?"
 msgstr "계속 진행하시겠습니까?"
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "You accepted the invitation to workspace %(1)."
+msgstr "워크스페이스 %(1)로의 초대를 수락하였습니다."
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "You were removed from workspace %(1). Contact the owner of the workspace for more information."
+msgstr "워크스페이스 %(1)에서 제외되었습니다. 자세한 내용은 워크스페이스 소유자에게 문의하십시오."
 

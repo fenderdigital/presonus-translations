@@ -4,41 +4,50 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]%(1) did not respond. Please try again later."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "%(1) did not respond. Please try again later."
 msgstr ""
 
-#: .\multitrackdocumentfilter.cpp
-msgid "[Multitrack]A package with the same identifier is already mounted."
+#: multitrackdocumentfilter.cpp
+msgctxt "Multitrack"
+msgid "A package with the same identifier is already mounted."
 msgstr "Aynı belirtece sahip başka bir paket zaten kurulu."
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]A user with this e-mail address is not known."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "A user with this e-mail address is not known."
 msgstr ""
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]Checking with %(1)..."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "Checking with %(1)..."
 msgstr ""
 
-#: .\multitrackformat.cpp
-msgid "[FileType]Multitrack File"
+#: multitrackformat.cpp
+msgctxt "FileType"
+msgid "Multitrack File"
 msgstr "Çok İzli Dosya"
 
-#: .\multitrackhandler.cpp
-msgid "[Multitrack]Scanning Multitrack Files..."
+#: multitrackhandler.cpp
+msgctxt "Multitrack"
+msgid "Scanning Multitrack Files..."
 msgstr "Çokİzli dosyalar taranıyor"
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]The contest has expired."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "The contest has expired."
 msgstr ""
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]The contest has not started yet."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "The contest has not started yet."
 msgstr ""
 
-#: .\multitrackdocumentfilter.cpp
+#: multitrackdocumentfilter.cpp
+msgctxt "Multitrack"
 msgid ""
-"[Multitrack]The file \"%(1)\" will be copied to the multitrack folder:\n"
+"The file \"%(1)\" will be copied to the multitrack folder:\n"
 "\n"
 "%(2)"
 msgstr ""
@@ -46,9 +55,10 @@ msgstr ""
 "\n"
 "%(2)"
 
-#: .\multitrackdocumentfilter.cpp
+#: multitrackdocumentfilter.cpp
+msgctxt "Multitrack"
 msgid ""
-"[Multitrack]The file \"%(1)\" will be moved to the multitrack folder:\n"
+"The file \"%(1)\" will be moved to the multitrack folder:\n"
 "\n"
 "%(2)"
 msgstr ""
@@ -56,6 +66,7 @@ msgstr ""
 "\n"
 "%(2)"
 
-#: .\multitrackproperties.cpp
-msgid "[Multitrack]Tracks"
+#: multitrackproperties.cpp
+msgctxt "Multitrack"
+msgid "Tracks"
 msgstr "İzler"

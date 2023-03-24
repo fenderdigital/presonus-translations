@@ -4,650 +4,834 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\packages\unifiedpackagesource.cpp
-msgid "[PackageSource]$APPNAME Content"
+#: packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
+msgid "$APPNAME Content"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]%(1) is already installed!"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "%(1) is already installed!"
 msgstr "%(1) zaten kurulu!"
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]%(1) is not compatible with $APPNAME!"
+#: extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "%(1) is not compatible with $APPNAME!"
 msgstr "%(1) $APPNAME ile uyumlu değil"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]%(1) of %(2)"
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "%(1) of %(2)"
 msgstr "%(2)'nin %(1)'i"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]%(2)/%(3) %(1)"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "%(2)/%(3) %(1)"
 msgstr "%(2)/%(3) %(1)"
 
-#: .\packages\extensionmanagerpackages.cpp
-msgid "[PackageActions]Abort Uninstall"
+#: packages/extensionmanagerpackages.cpp
+msgctxt "PackageActions"
+msgid "Abort Uninstall"
 msgstr "Kaldırmayı iptal et"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Action Required"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Action Required"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Active"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Active"
 msgstr "Aktif"
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Any"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Any"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[Command]Application"
+#: extensions/backupmanager.cpp
+msgctxt "Command"
+msgid "Application"
 msgstr "Uygulama"
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Available"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Available"
 msgstr "Müsait"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Available"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Available"
 msgstr "Müsait"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Available Packages"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Available Packages"
 msgstr "Mevcut Paketler"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup"
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup"
 msgstr "Yedekle"
 
-#: .\extensions\backupmanager.cpp
-msgid "[Command]Backup and Restore"
+#: extensions/backupmanager.cpp
+msgctxt "Command"
+msgid "Backup and Restore"
 msgstr "Yedekle ve Geri Yükle"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup is too large."
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup is too large."
 msgstr "Yedek çok büyük"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup restored successfully."
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup restored successfully."
 msgstr "Yedek başarı ile geri yüklendi."
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup uploaded successfully."
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup uploaded successfully."
 msgstr "Yedek başarı ile karşıya yüklendi."
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup will be restored next time you start $APPNAME."
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup will be restored next time you start $APPNAME."
 msgstr "Yedek $APPNAME'i tekrar başlattığınızda geri yüklenecek."
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
+#: extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Built-in Extensions can not be uninstalled or updated."
 msgstr "Gömülü genişletmeler kaldırılamaz veya güncellenemez."
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Cancel"
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Cancel"
 msgstr "İptal"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Canceled!"
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Canceled!"
 msgstr "İptal Edildi!"
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Check for Updates"
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Check for Updates"
 msgstr "Güncelleme varmı kontrol et."
 
-#: .\extensions\appupdater.cpp
-msgid "[Command]Check for Updates"
+#: extensions/appupdater.cpp
+msgctxt "Command"
+msgid "Check for Updates"
 msgstr "Güncelleme varmı kontrol et."
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Check for Updates failed!"
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Check for Updates failed!"
 msgstr "Güncelleme kontrolü başarısız oldu!"
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Checking version of %(1)"
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Checking version of %(1)"
 msgstr "%(1)'in sürümü kontrol ediliyor."
 
-#: .\packages\installdatapackages.cpp
-msgid "[PackageActions]Claim %(1) Product Keys"
+#: packages/installdatapackages.cpp
+msgctxt "PackageActions"
+msgid "Claim %(1) Product Keys"
 msgstr ""
 
-#: .\packages\installdatapackages.cpp
-msgid "[PackageActions]Claim Product Key"
+#: packages/installdatapackages.cpp
+msgctxt "PackageActions"
+msgid "Claim Product Key"
 msgstr "Ürün anahtarı talep et"
 
-#: .\webfs\webfilenodes.cpp
-msgid "[WebFS]Cloud"
+#: webfs/webfilenodes.cpp
+msgctxt "WebFS"
+msgid "Cloud"
 msgstr "Bulut"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Computer"
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Computer"
 msgstr "Bilgisayar"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Contains %(1) items"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Contains %(1) items"
 msgstr "%(1) kalem mevcut"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Copying..."
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Copying..."
 msgstr "Kopyalanıyor..."
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Current version: %(1)"
+#: stores/storepurchasehandler.cpp
+msgctxt "StorePurchaseHandler"
+msgid "Could not complete the purchase."
+msgstr ""
+
+#: stores/storepurchasehandler.cpp
+msgctxt "StorePurchaseHandler"
+msgid "Could not restore purchases. Please try again in a few minutes."
+msgstr ""
+
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Current version: %(1)"
 msgstr "Şimdiki Sürüm: %(1)"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Custom Installation"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Custom Installation"
 msgstr "Özel Kurulum"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Date & Time"
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Date & Time"
 msgstr "Tarih & Zaman"
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Developer Extension"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Developer Extension"
 msgstr ""
 
-#: .\packages\unifiedpackagesource.cpp
-msgid "[PackageSource]Development Content"
+#: packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
+msgid "Development Content"
 msgstr "Geliştirme İçeriği"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Disable"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Disable"
 msgstr "Devre Dışı Bırak"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Disable %(1) items"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Disable %(1) items"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Disable All"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Disable All"
 msgstr "Tümünü Devredışı et"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Disabled"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Disabled"
 msgstr "Devredışı"
 
-#: .\packages\contentpackagemanager.cpp
-msgid "[ContentPackageManager]Do you want to continue installation anyway?"
+#: packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "Do you want to continue installation anyway?"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Do you want to install these updates now?"
+#: extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Do you want to install these updates now?"
 msgstr "Bu güncellemeleri şimdi kurmak istiyormusunuz ?"
 
-#: .\webfs\downloaddraghandler.cpp
-msgid "[WebFS]Download"
+#: webfs/downloaddraghandler.cpp
+msgctxt "WebFS"
+msgid "Download"
 msgstr "İndir"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Download"
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Download"
 msgstr "İndir"
 
-#: .\packages\contentpackagemanager.cpp
-msgid "[ContentPackageManager]Download from $APPCOMPANY Account"
+#: packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "Download from $APPCOMPANY Account"
 msgstr "$APPCOMPANY Hesabından indir"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Downloading..."
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Downloading..."
 msgstr "İndiriliyor..."
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Enable"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Enable"
 msgstr "Etkinleştir"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Enable %(1) items"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Enable %(1) items"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Enable All"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Enable All"
 msgstr "Hepsini Devreye Al"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Enabled"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Enabled"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Extension"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Extension"
 msgstr "Genişletme"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Failed to create backup."
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Failed to create backup."
 msgstr "Yedek oluşturulamadı."
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Failed to restore from backup."
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Failed to restore from backup."
 msgstr "Yedekten geri yüklenemedi."
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Failed to uninstall %(1)!"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Failed to uninstall %(1)!"
 msgstr "%(1) kaldırılamadı!"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Failed to upload backup."
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Failed to upload backup."
 msgstr "Yedek upload edilemedi!"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Failed!"
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Failed!"
 msgstr "Başarısız oldu!"
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]File Type"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "File Type"
 msgstr "Dosya Türü"
 
-#: .\packages\packagesorter.cpp
-msgid "[PackageSorter]File Type"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
+msgid "File Type"
 msgstr "Dosya Türü"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Files are being transferred in background."
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Files are being transferred in background."
 msgstr "Dosyalar arka planda transfer ediliyor"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Full Installation"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Full Installation"
 msgstr "Komple Kurulum"
 
-#: .\gadgets\gadgetmanager.cpp
-msgid "[GadgetManager]Gadgets"
+#: gadgets/gadgetmanager.cpp
+msgctxt "GadgetManager"
+msgid "Gadgets"
 msgstr "IvırZıvırlar"
 
-#: .\extensions\appupdater.cpp
-msgid "[Command]Help"
+#: analytics/apptrackinghandler.cpp extensions/appupdater.cpp
+msgctxt "Command"
+msgid "Help"
 msgstr "Yardım"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Install"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Install"
 msgstr "Kur"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Install %(1) items"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Install %(1) items"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Install %(1) items (%(2))"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Install %(1) items (%(2))"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Install All"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Install All"
 msgstr "Tümünü Kur"
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Install Extension"
+#: extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Install Extension"
 msgstr "Genişletme Kur"
 
-#: .\extensions\extensiondescription.cpp
-msgid "[FileType]Installation File"
+#: extensions/extensiondescription.cpp
+msgctxt "FileType"
+msgid "Installation File"
 msgstr "Kurulum Dosyası"
 
-#: .\packages\unifiedpackageinstaller.cpp
-msgid "[UnifiedPackageInstaller]Installation failed for %(1)."
+#: packages/unifiedpackageinstaller.cpp
+msgctxt "UnifiedPackageInstaller"
+msgid "Installation failed for %(1)."
 msgstr "%(1) için kurulum başarısız oldu."
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Installation failed!"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Installation failed!"
 msgstr "Kurulum başarısız oldu!"
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Installed"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Installed"
 msgstr "Kuruldu"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Installed"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Installed"
 msgstr "Kuruldu"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Installed Packages"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Installed Packages"
 msgstr "Kurulu Paketler"
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Installed version: %(1)"
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Installed version: %(1)"
 msgstr "Kurulu Sürüm: %(1)"
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Invalid Installation File!"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Invalid Installation File!"
 msgstr "Geçersiz Kurulum Dosyası!"
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Migrating Extension %(1)..."
+#: extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Migrating Extension %(1)..."
 msgstr "Güncellenen Genişletme %(1)..."
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Minimal Installation"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Minimal Installation"
 msgstr "Minimal Kurulum"
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Name"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Name"
 msgstr "İsim"
 
-#: .\packages\packagesorter.cpp
-msgid "[PackageSorter]Name"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
+msgid "Name"
 msgstr "İsim"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Never"
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Never"
 msgstr "Asla"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]New File"
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "New File"
 msgstr "Yeni Dosya"
 
-#: .\gadgets\gadgetmanager.cpp
-msgid "[GadgetManager]No Gadgets installed"
+#: gadgets/gadgetmanager.cpp
+msgctxt "GadgetManager"
+msgid "No Gadgets installed"
 msgstr "Kurulu IvırZıvır (Gadget) Yok"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]No backups found."
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "No backups found."
 msgstr "Yedek Bulunamadı"
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]No updates found for your Extensions."
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "No updates found for your Extensions."
 msgstr "Genişletmeleriniz için güncelleme bulunamadı."
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Not Installed"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Not Installed"
 msgstr ""
 
-#: .\packages\contentpackagemanager.cpp
-msgid "[ContentPackageManager]Not enough free disk space. %(1) are required, but only %(2) are available on the selected volume."
+#: packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "Not enough free disk space. %(1) are required, but only %(2) are available on the selected volume."
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Origin"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Origin"
 msgstr "Orijin"
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Other"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Other"
 msgstr "Diğer"
 
-#: .\packages\unifiedpackagesource.cpp
-msgid "[PackageSource]Other"
+#: packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
+msgid "Other"
 msgstr "Diğer"
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Program Extension"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Program Extension"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Program Settings"
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Program Settings"
 msgstr "Program Ayarları"
 
-#: .\packages\unifiedpackagesource.cpp
-msgid "[PackageSource]Purchased Content"
+#: packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
+msgid "Purchased Content"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Queued"
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Queued"
 msgstr "Sırada"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Recommended Installation"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Recommended Installation"
 msgstr "Tavsiye edilen Kurulum"
 
-#: .\web\webelements.cpp
-msgid "[Feed]Refresh"
+#: web/webelements.cpp
+msgctxt "Feed"
+msgid "Refresh"
 msgstr "Tazele"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Remove From History"
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Remove From History"
 msgstr "Geçmişten Kaldır"
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Removing Extension %(1)..."
+#: extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Removing Extension %(1)..."
 msgstr "%(1) Genişletmesi Kaldırılıyor..."
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Restart"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Restart"
 msgstr "Tekrar Başlat"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Restart"
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Restart"
 msgstr "Tekrar Başlat"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Restart Required"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Restart Required"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Restore"
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Restore"
 msgstr "Geri Yükle"
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Scanning Extensions..."
+#: extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Scanning Extensions..."
 msgstr "Genişletmeler Taranıyor..."
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Search"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Search"
 msgstr "Ara"
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Shared Extension"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Shared Extension"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Signature Verification"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Signature Verification"
 msgstr "İmza Kontrolü"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Size"
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Size"
 msgstr "Boyut"
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]State"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "State"
 msgstr "Hal"
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Tags"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Tags"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Target directory is locked by %(1)."
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Target directory is locked by %(1)."
 msgstr "Dedef klasör %(1) tarafından kitli."
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]The installation file is not compatible with this application."
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "The installation file is not compatible with this application."
 msgstr "Kurulum dosyası bu uygulama ile uyumlu değil."
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]The installation file is not compatible with this platform."
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "The installation file is not compatible with this platform."
 msgstr "Kurulum dosyası bu platform ile uyumlu değil."
 
-#: .\packages\unifiedpackageinstaller.cpp
-msgid "[UnifiedPackageInstaller]The installed content will be available next time you start $APPNAME."
+#: packages/unifiedpackageinstaller.cpp
+msgctxt "UnifiedPackageInstaller"
+msgid "The installed content will be available next time you start $APPNAME."
 msgstr "Kurulan içerik $APPNAME tekrar başlatıldığında kullanıma hazır olacaktır."
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]The version could not be identified!"
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "The version could not be identified!"
 msgstr "Sürüm tespit edilemedi!"
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]There are updates available for your Extensions."
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "There are updates available for your Extensions."
 msgstr "Genişletmeleriniz için güncellemeler mevcut."
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]There is a new version available."
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "There is a new version available."
 msgstr "Yeni sürüm mevcut."
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]This file does not have a valid digital signature."
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "This file does not have a valid digital signature."
 msgstr "Bu dosyanın geçerli bir dijital imzası bulunmuyor."
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Type"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Type"
 msgstr "Tip"
 
-#: .\packages\packagesorter.cpp
-msgid "[PackageSorter]Type"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
+msgid "Type"
 msgstr "Tip"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Uninstall"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Uninstall"
 msgstr "Kaldır"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Uninstall %(1) items"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Uninstall %(1) items"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Uninstall All"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Uninstall All"
 msgstr "Tümünü Kaldır"
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Unknown"
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Unknown"
 msgstr "Bilinmiyor"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Update"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Update"
 msgstr "Güncelle"
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Update %(1) items"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Update %(1) items"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Update All"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Update All"
 msgstr "Tümünü Güncelle"
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Update Now"
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Update Now"
 msgstr "Şimdi Güncelle"
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Updates Available"
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Updates Available"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Updating Extension %(1)..."
+#: extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Updating Extension %(1)..."
 msgstr "%(1) Genişletmesi Güncelleniyor..."
 
-#: .\webfs\webfsbrowserextension.cpp
-msgid "[WebFS]Upload To"
+#: webfs/webfsbrowserextension.cpp
+msgctxt "WebFS"
+msgid "Upload To"
 msgstr "Şuraya Upload Et"
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Uploading..."
+#: webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Uploading..."
 msgstr "Upload Ediliyor..."
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]User Extension"
+#: analytics/apptrackinghandler.cpp
+msgctxt "Command"
+msgid "Usage Data Settings"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Version"
+#: extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "User Extension"
+msgstr ""
+
+#: extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Version"
 msgstr "Sürüm"
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]View Release Notes"
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "View Release Notes"
 msgstr "Sürüm notlarına göz at"
 
-#: .\extensions\appupdater.cpp
-msgid "[Command]View Release Notes"
+#: extensions/appupdater.cpp
+msgctxt "Command"
+msgid "View Release Notes"
 msgstr "Sürüm notlarına göz at"
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]You need a newer version of $APPNAME."
+#: extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "You need a newer version of $APPNAME."
 msgstr "$APPNAME'in yeni bir sürümüne ihtiyacınız var"
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Your version is up-to-date."
+#: extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Your version is up-to-date."
 msgstr "Sürümünüz güncel"
 
-#~ msgid "[ExtensionManager]%(1) Extensions installed."
+#~ msgctxt "ExtensionManager"
+#~ msgid "%(1) Extensions installed."
 #~ msgstr "%(1) Enişletme Kurulu."
 
-#~ msgid "[Installer]%(1) of %(2) packages already exist on your system."
+#~ msgctxt "Installer"
+#~ msgid "%(1) of %(2) packages already exist on your system."
 #~ msgstr "%(2) paketin %(1) sisteminizde zaten var."
 
-#~ msgid "[ExtensionManager](Developer Mode)"
+#~ msgctxt "ExtensionManager"
+#~ msgid "(Developer Mode)"
 #~ msgstr "(Geliştirici Modu)"
 
-#~ msgid "[ExtensionManager](disabled)"
+#~ msgctxt "ExtensionManager"
+#~ msgid "(disabled)"
 #~ msgstr "(devre dışı)"
 
-#~ msgid "[Installer]Claim Product Key"
+#~ msgctxt "Installer"
+#~ msgid "Claim Product Key"
 #~ msgstr "Ürün anahtarı talep et"
 
-#~ msgid "[Installer]Copy"
+#~ msgctxt "Installer"
+#~ msgid "Copy"
 #~ msgstr "Kopyala"
 
-#~ msgid "[Installer]Custom Installation"
+#~ msgctxt "Installer"
+#~ msgid "Custom Installation"
 #~ msgstr "Özel Kurulum"
 
-#~ msgid "[Installer]Do you want to install the missing packages only?"
+#~ msgctxt "Installer"
+#~ msgid "Do you want to install the missing packages only?"
 #~ msgstr "Sadece eksik paketlerimi kurmak istiyorsunuz ?"
 
-#~ msgid "[ExtensionManager]Do you want to uninstall these Extensions?"
+#~ msgctxt "ExtensionManager"
+#~ msgid "Do you want to uninstall these Extensions?"
 #~ msgstr "Bu genişletmeleri kaldırmak istiyormusunuz ?"
 
-#~ msgid "[ExtensionManager]Do you want to uninstall this Extension?"
+#~ msgctxt "ExtensionManager"
+#~ msgid "Do you want to uninstall this Extension?"
 #~ msgstr "Bu genişletmeyi kaldırmak istiyormusunuz ?"
 
-#~ msgid "[Installer]Download from $APPCOMPANY Account"
+#~ msgctxt "Installer"
+#~ msgid "Download from $APPCOMPANY Account"
 #~ msgstr "$APPCOMPANY Hesabından indir"
 
-#~ msgid "[Command]Extensions"
+#~ msgctxt "Command"
+#~ msgid "Extensions"
 #~ msgstr "Genişletmeler"
 
-#~ msgid "[PackageSource]Factory Content"
+#~ msgctxt "PackageSource"
+#~ msgid "Factory Content"
 #~ msgstr "Birlikte Gelen İçerik"
 
-#~ msgid "[Installer]Full Installation"
+#~ msgctxt "Installer"
+#~ msgid "Full Installation"
 #~ msgstr "Komple Kurulum"
 
-#~ msgid "[Installer]Install All"
+#~ msgctxt "Installer"
+#~ msgid "Install All"
 #~ msgstr "Tümünü Kur"
 
-#~ msgid "[Installer]Install Missing"
+#~ msgctxt "Installer"
+#~ msgid "Install Missing"
 #~ msgstr "Eksikleri Kur"
 
-#~ msgid "[PackageFilter]Installable"
+#~ msgctxt "PackageFilter"
+#~ msgid "Installable"
 #~ msgstr "Kurulabilir"
 
-#~ msgid "[Command]Installation"
+#~ msgctxt "Command"
+#~ msgid "Installation"
 #~ msgstr "Kurulum"
 
-#~ msgid "[ExtensionManager]Installation canceled!"
+#~ msgctxt "ExtensionManager"
+#~ msgid "Installation canceled!"
 #~ msgstr "Kurulum iptal edildi!"
 
-#~ msgid "[Installer]Installed"
+#~ msgctxt "Installer"
+#~ msgid "Installed"
 #~ msgstr "Kuruldu"
 
-#~ msgid "[Installer]License"
+#~ msgctxt "Installer"
+#~ msgid "License"
 #~ msgstr "Lisans"
 
-#~ msgid "[Installer]Minimal Installation"
+#~ msgctxt "Installer"
+#~ msgid "Minimal Installation"
 #~ msgstr "Minimal Kurulum"
 
-#~ msgid "[Installer]My Purchased Items"
+#~ msgctxt "Installer"
+#~ msgid "My Purchased Items"
 #~ msgstr "Satın aldıklarım"
 
-#~ msgid "[ExtensionManager]No Extensions installed."
+#~ msgctxt "ExtensionManager"
+#~ msgid "No Extensions installed."
 #~ msgstr "Kurulu Genişletme Yok"
 
-#~ msgid "[Installer]Package"
+#~ msgctxt "Installer"
+#~ msgid "Package"
 #~ msgstr "Paket"
 
-#~ msgid "[Installer]Recommended Installation"
+#~ msgctxt "Installer"
+#~ msgid "Recommended Installation"
 #~ msgstr "Tavsiye edilen Kurulum"
 
-#~ msgid "[Installer]Size"
+#~ msgctxt "Installer"
+#~ msgid "Size"
 #~ msgstr "Boyut"
 
-#~ msgid "[Installer]Status"
+#~ msgctxt "Installer"
+#~ msgid "Status"
 #~ msgstr "Durum"
 
-#~ msgid "[Installer]The installed content will be available next time you start $APPNAME."
+#~ msgctxt "Installer"
+#~ msgid "The installed content will be available next time you start $APPNAME."
 #~ msgstr "Kurulan içerik $APPNAME tekrar başlatıldığında kullanıma hazır olacaktır."
 
-#~ msgid "[PackageSource]Unknown"
+#~ msgctxt "PackageSource"
+#~ msgid "Unknown"
 #~ msgstr "Bilinmiyor"
 
-#~ msgid "[PackageSource]User Content"
+#~ msgctxt "PackageSource"
+#~ msgid "User Content"
 #~ msgstr "Kullanıcı İçeriği"
 
-#~ msgid "[ExtensionManager]Waiting for uninstall"
+#~ msgctxt "ExtensionManager"
+#~ msgid "Waiting for uninstall"
 #~ msgstr "Kaldırma için bekleniyor"
 
-#~ msgid "[ExtensionManager]Waiting for update"
+#~ msgctxt "ExtensionManager"
+#~ msgid "Waiting for update"
 #~ msgstr "Güncelleme için bekleniyor"
-

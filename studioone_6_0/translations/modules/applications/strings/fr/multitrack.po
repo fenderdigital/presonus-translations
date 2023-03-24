@@ -4,47 +4,69 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]%(1) did not respond. Please try again later."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "%(1) did not respond. Please try again later."
 msgstr "%(1) n'a pas répondu. Veuillez réessayer plus tard."
 
-#: .\multitrackdocumentfilter.cpp
-msgid "[Multitrack]A package with the same identifier is already mounted."
+#: multitrackdocumentfilter.cpp
+msgctxt "Multitrack"
+msgid "A package with the same identifier is already mounted."
 msgstr "Un package ayant le même identifiant est déjà monté."
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]A user with this e-mail address is not known."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "A user with this e-mail address is not known."
 msgstr "Aucun utilisateur ayant cette adresse e-mail n'est connu."
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]Checking with %(1)..."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "Checking with %(1)..."
 msgstr "Vérification avec %(1)..."
 
-#: .\multitrackformat.cpp
-msgid "[FileType]Multitrack File"
+#: multitrackformat.cpp
+msgctxt "FileType"
+msgid "Multitrack File"
 msgstr "Fichier multipiste"
 
-#: .\multitrackhandler.cpp
-msgid "[Multitrack]Scanning Multitrack Files..."
+#: multitrackhandler.cpp
+msgctxt "Multitrack"
+msgid "Scanning Multitrack Files..."
 msgstr "Analyse des fichiers multipistes…"
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]The contest has expired."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "The contest has expired."
 msgstr "Le concours est terminé."
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]The contest has not started yet."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "The contest has not started yet."
 msgstr "Le concours n'a pas encore commencé."
 
-#: .\multitrackdocumentfilter.cpp
-msgid "[Multitrack]The file \"%(1)\" will be copied to the multitrack folder:\n\n%(2)"
-msgstr "Le fichier \"%(1)\" sera copié dans le dossier multipiste:\n\n%(2)"
+#: multitrackdocumentfilter.cpp
+msgctxt "Multitrack"
+msgid ""
+"The file \"%(1)\" will be copied to the multitrack folder:\n"
+"\n"
+"%(2)"
+msgstr ""
+"Le fichier \"%(1)\" sera copié dans le dossier multipiste:\n"
+"\n"
+"%(2)"
 
-#: .\multitrackdocumentfilter.cpp
-msgid "[Multitrack]The file \"%(1)\" will be moved to the multitrack folder:\n\n%(2)"
-msgstr "Le fichier \"%(1)\" sera déplacé dans le dossier multipiste:\n\n%(2)"
+#: multitrackdocumentfilter.cpp
+msgctxt "Multitrack"
+msgid ""
+"The file \"%(1)\" will be moved to the multitrack folder:\n"
+"\n"
+"%(2)"
+msgstr ""
+"Le fichier \"%(1)\" sera déplacé dans le dossier multipiste:\n"
+"\n"
+"%(2)"
 
-#: .\multitrackproperties.cpp
-msgid "[Multitrack]Tracks"
+#: multitrackproperties.cpp
+msgctxt "Multitrack"
+msgid "Tracks"
 msgstr "Pistes"
-

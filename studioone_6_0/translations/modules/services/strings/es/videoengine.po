@@ -4,75 +4,93 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\shared\videofiletypes.cpp
-msgid "[FileType]3GP Video"
+#: shared/videofiletypes.cpp
+msgctxt "FileType"
+msgid "3GP Video"
 msgstr "Video 3GP "
 
-#: .\shared\videofiletypes.cpp
-msgid "[FileType]AVI Video"
+#: shared/videofiletypes.cpp
+msgctxt "FileType"
+msgid "AVI Video"
 msgstr "Vídeo AVI"
 
-#: .\win\mftranscoder.cpp
-msgid "[VideoFile]Audio encoding setup failed."
+#: win/mftranscoder.cpp
+msgctxt "VideoFile"
+msgid "Audio encoding setup failed."
 msgstr "La configuración de la codificación de audio ha fallado."
 
-#: .\win\mftranscoder.cpp
-msgid "[VideoFile]Begin writing failed."
+#: win/mftranscoder.cpp
+msgctxt "VideoFile"
+msgid "Begin writing failed."
 msgstr "Empezar a escribir falló."
 
-#: .\win\mftranscoder.cpp
-msgid "[VideoFile]Finalize file failed."
+#: win/mftranscoder.cpp
+msgctxt "VideoFile"
+msgid "Finalize file failed."
 msgstr "Fallo en la finalización del archivo."
 
-#: .\shared\videofiletypes.cpp
-msgid "[FileType]M4V Video"
+#: shared/videofiletypes.cpp
+msgctxt "FileType"
+msgid "M4V Video"
 msgstr "Vídeo M4V"
 
-#: .\shared\videofiletypes.cpp
-msgid "[FileType]MKV Video"
+#: shared/videofiletypes.cpp
+msgctxt "FileType"
+msgid "MKV Video"
 msgstr "Video MKV"
 
-#: .\shared\videofiletypes.cpp
-msgid "[FileType]MPEG Video"
+#: shared/videofiletypes.cpp
+msgctxt "FileType"
+msgid "MPEG Video"
 msgstr "Video MPEG "
 
-#: .\shared\videofiletypes.cpp
-msgid "[FileType]MPEG-4 Video"
+#: shared/videofiletypes.cpp
+msgctxt "FileType"
+msgid "MPEG-4 Video"
 msgstr "Vídeo MPEG-4"
 
-#: .\shared\videofiletypes.cpp
-msgid "[FileType]QuickTime Video"
+#: shared/videofiletypes.cpp
+msgctxt "FileType"
+msgid "QuickTime Video"
 msgstr "Video QuickTime "
 
-#: .\shared\videomain.cpp
-msgid "[VideoEngine]Support for video playback"
+#: shared/videomain.cpp
+msgctxt "VideoEngine"
+msgid "Support for video playback"
 msgstr "Soporte para reproducción de video"
 
-#: .\plugversion.h
-msgid "[VideoEngine]Video Support"
+#: plugversion.h
+msgctxt "VideoEngine"
+msgid "Video Support"
 msgstr "Soporte de video"
 
-#: .\win\mftranscoder.cpp
-msgid "[VideoFile]Video transcoding setup failed."
+#: win/mftranscoder.cpp
+msgctxt "VideoFile"
+msgid "Video transcoding setup failed."
 msgstr "La configuración de la transcodificación de vídeo ha fallado."
 
-#: .\shared\videofiletypes.cpp
-msgid "[FileType]Windows Media Video"
+#: shared/videofiletypes.cpp
+msgctxt "FileType"
+msgid "Windows Media Video"
 msgstr "Video Windows Media"
 
-#: .\win\mftranscoder.cpp
-msgid "[VideoFile]Writing failed."
+#: win/mftranscoder.cpp
+msgctxt "VideoFile"
+msgid "Writing failed."
 msgstr "La escritura ha fallado."
 
-#~ msgid "[FileType]MPEG 4 Video"
+#~ msgctxt "FileType"
+#~ msgid "MPEG 4 Video"
 #~ msgstr "Video MPEG 4 "
 
-#~ msgid "[FileType]Windows Video"
+#~ msgctxt "FileType"
+#~ msgid "Windows Video"
 #~ msgstr "Video de Windows "
 
-#~ msgid "[CoreAudio]QuickTime Video Support"
+#~ msgctxt "CoreAudio"
+#~ msgid "QuickTime Video Support"
 #~ msgstr "Soporte de video QuickTime "
 
-#~ msgid "[QuickTime]Support for video playback with QuickTime"
+#~ msgctxt "QuickTime"
+#~ msgid "Support for video playback with QuickTime"
 #~ msgstr "Soporte para reproducción de video con QuickTime"
-

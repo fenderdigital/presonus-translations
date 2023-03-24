@@ -4,14 +4,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\plugversion.h
-msgid "[CoreAudio]CoreAudio Support"
+#: plugversion.h
+msgctxt "CoreAudio"
+msgid "CoreAudio Support"
 msgstr "CoreAudio対応"
 
-#: .\coreaudiomain.cpp
-msgid "[CoreAudio]Support for low latency Audio Devices on macOS"
+#: coreaudiomain.cpp
+msgctxt "CoreAudio"
+msgid "Support for low latency Audio Devices on macOS"
 msgstr "macOSでの低レーテンシーオーディオデバイス対応"
 
-#~ msgid "[CoreAudio]Support for low latency Audio Devices on OS X"
+#~ msgctxt "CoreAudio"
+#~ msgid "Support for low latency Audio Devices on OS X"
 #~ msgstr "OS Xでの低レーテンシーオーディオデバイス対応"
-

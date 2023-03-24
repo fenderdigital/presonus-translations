@@ -4,1317 +4,1704 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations] + Add"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid " + Add"
 msgstr "+ 追加"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Quantize]%(1) Bar"
+#: quantize/quantizecomponent.cpp
+msgctxt "Quantize"
+msgid "%(1) Bar"
 msgstr "%(1) 小節"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Quantize]%(1) Bars"
+#: quantize/quantizecomponent.cpp
+msgctxt "Quantize"
+msgid "%(1) Bars"
 msgstr "%(1) 小節"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]%(1) Note"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "%(1) Note"
 msgstr "%(1) ノート"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]%(1) Octave"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "%(1) Octave"
 msgstr "%(1) オクターブ"
 
-#: .\events\spoteventscomponent.cpp
-msgid "[Edit]%(1) events"
+#: events/spoteventscomponent.cpp
+msgctxt "Edit"
+msgid "%(1) events"
 msgstr "%(1) イベント"
 
-#: .\music\musiceditmodel.cpp
-msgid "[MusicEditComponent]%(1):  Length: %(2) | Velocity: %(3)"
+#: music/musiceditmodel.cpp
+msgctxt "MusicEditComponent"
+msgid "%(1):  Length: %(2) | Velocity: %(3)"
 msgstr "%(1):  長さ: %(2) | ベロシティー: %(3)"
 
-#: .\tempo\tempoedithandler.cpp
-msgid "[TempoEdit]%(3) BPM - Scale %(1) to %(2)"
+#: tempo/tempoedithandler.cpp
+msgctxt "TempoEdit"
+msgid "%(3) BPM - Scale %(1) to %(2)"
 msgstr "%(3) BPM - %(1) から %(2) へスケール"
 
-#: .\music\musicedithandler.cpp
-msgid "[Events]Absolute"
+#: music/musicedithandler.cpp
+msgctxt "Events"
+msgid "Absolute"
 msgstr "絶対"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Activation Sequence"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Activation Sequence"
 msgstr "アクティベーションシーケンス"
 
-#: .\music\soundvariationlane.cpp .\music\soundvariationmenubuilder.cpp
-msgid "[SoundVariations]Active Variation: %(1)"
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+msgctxt "SoundVariations"
+msgid "Active Variation: %(1)"
 msgstr "アクティブなバリエーション: %(1)"
 
-#: .\timeedit\timesnapper.cpp
-msgid "[TimeSnapper]Adaptive"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
+msgid "Adaptive"
 msgstr "順応"
 
-#: .\quantize\quantizedraghandler.cpp
-msgid "[QuantizeDragHandler]Add Groove Pattern"
+#: quantize/quantizedraghandler.cpp
+msgctxt "QuantizeDragHandler"
+msgid "Add Groove Pattern"
 msgstr "グルーヴパターンを追加"
 
-#: .\music\lyricseditlayerbase.cpp
-msgid "[Music]Align Lyrics"
+#: music/lyricseditlayerbase.cpp
+msgctxt "Music"
+msgid "Align Lyrics"
 msgstr "歌詞を揃える"
 
-#: .\music\soundvariationlane.cpp
-msgid "[SoundVariations]Apply Sound Variation"
+#: music/soundvariationlane.cpp
+msgctxt "SoundVariations"
+msgid "Apply Sound Variation"
 msgstr "サウンドバリエーションを適用"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Are you sure you want to overwrite the default map?"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Are you sure you want to overwrite the default map?"
 msgstr "デフォルトのマップを上書きしますか？"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Are you sure you want to remove the default map?"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Are you sure you want to remove the default map?"
 msgstr "デフォルトのマップを削除しますか？"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Articulations"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Articulations"
 msgstr "アーティキュレーション"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Assign"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Assign"
 msgstr "アサイン"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Assign Default Key Switches"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Assign Default Key Switches"
 msgstr "デフォルトキースイッチをアサイン"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Assign Key Switches Chromatic"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Assign Key Switches Chromatic"
 msgstr "キースイッチ半音をアサイン"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Assign Key Switches White Keys"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Assign Key Switches White Keys"
 msgstr "キースイッチ白鍵をアサイン"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Auto-assign Symbols"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Auto-assign Symbols"
 msgstr "記号マップを自動アサイン"
 
-#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
-msgid "[Command]Automation"
+#: envelopes/envelopeeditlayer.cpp music/velocityeditview.cpp
+msgctxt "Command"
+msgid "Automation"
 msgstr "オートメーション"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Autoscroll"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll"
 msgstr "自動スクロール"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Bank Change"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Bank Change"
 msgstr "バンクチェンジ"
 
-#: .\timeedit\timesnapper.cpp
-msgid "[TimeSnapper]Bar"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
+msgid "Bar"
 msgstr "小節"
 
-#: .\envelopes\envelopeedithandler.cpp
-msgid "[Events]Bend Curve"
+#: music/lyricsdisplay.cpp
+msgctxt "LyricsDisplaySetup"
+msgid "Bars"
+msgstr "小節"
+
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
+msgid "Bend Curve"
 msgstr "ベンドカーブ"
 
-#: .\envelopes\envelopeinspector.cpp
-msgid "[Envelope]Bend Curve"
+#: envelopes/envelopeinspector.cpp
+msgctxt "Envelope"
+msgid "Bend Curve"
 msgstr "ベンドカーブ"
 
-#: .\music\notecolorschemeparam.cpp
-msgid "[NoteColorScheme]Black Selection"
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Black Selection"
 msgstr "選択を黒色"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Channel Change"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Channel Change"
 msgstr "チャンネル変更"
 
-#: .\music\musiceditmodel.cpp
-msgid "[MusicEditComponent]Chord: %(1)"
+#: music/musiceditmodel.cpp
+msgctxt "MusicEditComponent"
+msgid "Chord: %(1)"
 msgstr "コード: %(1)"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Chords"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Chords"
 msgstr "コード"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Clear All Key Switches"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Clear All Key Switches"
 msgstr "すべてのキースイッチをクリア"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Clear Map"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Clear Map"
 msgstr "マップをクリア"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Clear Pattern"
+#: quantize/quantizecomponent.cpp
+msgctxt "Command"
+msgid "Clear Pattern"
 msgstr "パターンをクリア"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Color"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Color"
 msgstr "色"
 
-#: .\events\eventedithandler.cpp
-msgid "[EventEditHandler]Common end"
+#: events/eventedithandler.cpp
+msgctxt "EventEditHandler"
+msgid "Common end"
 msgstr "共通エンド"
 
-#: .\events\eventedithandler.cpp
-msgid "[EventEditHandler]Common length"
+#: events/eventedithandler.cpp
+msgctxt "EventEditHandler"
+msgid "Common length"
 msgstr "共通長さ"
 
-#: .\events\eventedithandler.cpp
-msgid "[EventEditHandler]Common start"
+#: events/eventedithandler.cpp
+msgctxt "EventEditHandler"
+msgid "Common start"
 msgstr "共通スタート"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Controller"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Controller"
 msgstr "コントローラー"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Copy From"
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
+msgid "Copy"
+msgstr "コピー"
+
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Copy From"
 msgstr "コピー元"
 
-#: .\envelopes\envelopedraghandler.cpp
-msgid "[Envelopes]Copy Points"
+#: envelopes/envelopedraghandler.cpp
+msgctxt "Envelopes"
+msgid "Copy Points"
 msgstr "ポイントをコピー"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Copy Symbol"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Copy Symbol"
 msgstr "記号をコピー"
 
-#: .\tempo\tempodraghandler.cpp
-msgid "[TempoDragHandler]Copy Tempo"
+#: tempo/tempodraghandler.cpp
+msgctxt "TempoDragHandler"
+msgid "Copy Tempo"
 msgstr "テンポをコピー"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Create Range from Cursor"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Create Range from Cursor"
 msgstr "カーソルから範囲を作成"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Create Range from Cursor to Hotspot"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Create Range from Cursor to Hotspot"
 msgstr "カーソルからホットスポットへ範囲を作成"
 
-#: .\tempo\tempoedithandler.cpp
-msgid "[TempoEdit]Create Steps"
+#: tempo/tempoedithandler.cpp
+msgctxt "TempoEdit"
+msgid "Create Steps"
 msgstr "ステップを作成"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Data"
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
+msgid "Cut"
+msgstr "カット"
+
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Data"
 msgstr "データ"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Data 2"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Data 2"
 msgstr "データ2"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Data Zoom In"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Data Zoom In"
 msgstr "データズームイン"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Data Zoom Out"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Data Zoom Out"
 msgstr "データズームアウト"
 
-#: .\music\chordselector.cpp
-msgid "[Notation]Default"
+#: music/chordselector.cpp
+msgctxt "Notation"
+msgid "Default"
 msgstr "デフォルト"
 
-#: .\music\soundvariationtreemodel.cpp
-msgid "[SoundVariations]Default"
+#: music/soundvariationtreemodel.cpp
+msgctxt "SoundVariations"
+msgid "Default"
 msgstr "デフォルト"
 
-#: .\tempo\tempoeditcomponent.cpp
-msgid "[Command]Delete"
+#: tempo/tempoeditcomponent.cpp
+msgctxt "Command"
+msgid "Delete"
 msgstr "削除"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[SignatureEditLayer]Denominator"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "SignatureEditLayer"
+msgid "Denominator"
 msgstr "分母"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Direction"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Direction"
 msgstr "指示"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Disable Key Switches"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Disable Key Switches"
 msgstr "キースイッチを無効化"
 
-#: .\quantize\quantizelength.cpp
-msgid "[Quantize]Dotted"
+#: quantize/quantizelength.cpp
+msgctxt "Quantize"
+msgid "Dotted"
 msgstr "付点あり"
 
-#: .\envelopes\envelopeedithandler.cpp
-msgid "[Events]Draw Automation"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
+msgid "Draw Automation"
 msgstr "オートメーションを描画"
 
-#: .\timeedit\timerulerview.cpp
-msgid "[TimeRulerView]Draw Loop"
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Draw Loop"
 msgstr "ループを描画"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Edit]Duplicate"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Duplicate"
 msgstr "複製"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Duplicate"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Duplicate"
 msgstr "複製"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Edit]Duplicate Shared"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Duplicate Shared"
 msgstr "共有を複製"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Duplicate Shared"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Duplicate Shared"
 msgstr "共有を複製"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Duplicate and Insert"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Duplicate and Insert"
 msgstr "複製して挿入"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Dynamics"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Dynamics"
 msgstr "強弱記号"
 
-#: .\events\eventeditcomponent.cpp .\timeedit\signatureeditlayer.cpp
-#: .\timeedit\snaptimeprovider.cpp .\timeedit\timeeditcomponent.cpp
-#: .\timeedit\timelinecomponent.cpp .\timeedit\timeselectioncomponent.cpp
-#: .\timeedit\timesnapper.cpp
-msgid "[Command]Edit"
+#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp
+#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+msgctxt "Command"
+msgid "Edit"
 msgstr "編集"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Edit Articulations"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Edit Articulations"
 msgstr "アーティキュレーションを編集"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Edit Directions"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Edit Directions"
 msgstr "指示を編集"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[SignatureEditLayer]Edit Key Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "SignatureEditLayer"
+msgid "Edit Key Signature"
 msgstr "調号を編集"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[Command]Edit Key Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "Command"
+msgid "Edit Key Signature"
 msgstr "調号を編集"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[SignatureEditLayer]Edit Time Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "SignatureEditLayer"
+msgid "Edit Time Signature"
 msgstr "拍子を編集"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[Command]Edit Time Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "Command"
+msgid "Edit Time Signature"
 msgstr "拍子を編集"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Enable Key Switches"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Enable Key Switches"
 msgstr "キースイッチを有効化"
 
-#: .\timeedit\timerulerview.cpp
-msgid "[TimeRulerView]Enable Play Start Marker"
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Enable Play Start Marker"
 msgstr "再生スタートマーカーを有効化"
 
-#: .\envelopes\envelopeinspector.cpp
-msgid "[Envelope]Exponential"
+#: envelopes/envelopeinspector.cpp
+msgctxt "Envelope"
+msgid "Exponential"
 msgstr "指数関数"
 
-#: .\envelopes\envelopeedithandler.cpp .\events\eventtransform.cpp
-msgid "[Events]Fine"
+#: envelopes/envelopeedithandler.cpp events/eventtransform.cpp
+msgctxt "Events"
+msgid "Fine"
 msgstr "ファイン"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]First Event"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "First Event"
 msgstr "最初のイベント"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]First Event Extend"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "First Event Extend"
 msgstr "最初のイベント拡張"
 
-#: .\events\eventfigure.cpp
-msgid "[EventFigures]Flip"
+#: events/eventfigure.cpp
+msgctxt "EventFigures"
+msgid "Flip"
 msgstr "フリップ"
 
-#: .\quantize\quantizelength.cpp
-msgid "[Quantize]Follow Quantize"
+#: quantize/quantizelength.cpp
+msgctxt "Quantize"
+msgid "Follow Quantize"
 msgstr "クオンタイズに従う"
 
-#: .\timeedit\timesnapper.cpp
-msgid "[TimeSnapper]Frames"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
+msgid "Frames"
 msgstr "フレーム"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Global"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Global"
 msgstr "グローバル"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Goto Next Event"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Next Event"
 msgstr "次のイベントへ移動"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Goto Previous Event"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Goto Previous Event"
 msgstr "前のイベントへ移動"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Quantize]Grid"
+#: quantize/quantizecomponent.cpp
+msgctxt "Quantize"
+msgid "Grid"
 msgstr "グリッド"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Quantize]Groove"
+#: quantize/quantizecomponent.cpp
+msgctxt "Quantize"
+msgid "Groove"
 msgstr "グルーヴ"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Input"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Input"
 msgstr "入力"
 
-#: .\tempo\tempoeditcomponent.cpp
-msgid "[Command]Insert"
+#: tempo/tempoeditcomponent.cpp
+msgctxt "Command"
+msgid "Insert"
 msgstr "挿入"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[SignatureEditLayer]Insert Key Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "SignatureEditLayer"
+msgid "Insert Key Signature"
 msgstr "調号を挿入"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[Command]Insert Key Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "Command"
+msgid "Insert Key Signature"
 msgstr "調号を挿入"
 
-#: .\envelopes\envelopeedithandler.cpp
-msgid "[Events]Insert Points"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
+msgid "Insert Points"
 msgstr "ポイントを挿入"
 
-#: .\music\soundvariationlane.cpp
-msgid "[SoundVariations]Insert Sound Variation"
+#: music/soundvariationlane.cpp
+msgctxt "SoundVariations"
+msgid "Insert Sound Variation"
 msgstr "サウンドバリエーションを挿入"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Insert Symbol"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Insert Symbol"
 msgstr "記号を挿入"
 
-#: .\tempo\tempoeditmodel.cpp
-msgid "[Tempo]Insert Tempo"
+#: tempo/tempoeditmodel.cpp
+msgctxt "Tempo"
+msgid "Insert Tempo"
 msgstr "テンポを挿入"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[SignatureEditLayer]Insert Time Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "SignatureEditLayer"
+msgid "Insert Time Signature"
 msgstr "拍子を挿入"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[Command]Insert Time Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "Command"
+msgid "Insert Time Signature"
 msgstr "拍子を挿入"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Insert at Cursor"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Insert at Cursor"
 msgstr "カーソル位置に挿入"
 
-#: .\music\musiceditmodel.cpp
-msgid "[MusicEditComponent]Key switch: %(1)"
+#: music/musiceditmodel.cpp
+msgctxt "MusicEditComponent"
+msgid "Key switch: %(1)"
 msgstr "キースイッチ: %(1)"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]Last Event"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "Last Event"
 msgstr "最後のイベント"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]Last Event Extend"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "Last Event Extend"
 msgstr "最後のイベント拡張"
 
-#: .\events\eventedithandler.cpp
-msgid "[EventEditHandler]Length: %(1)"
+#: events/eventedithandler.cpp
+msgctxt "EventEditHandler"
+msgid "Length: %(1)"
 msgstr "長さ: %(1)"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Length: %(1)"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Length: %(1)"
 msgstr "長さ: %(1)"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Load Default"
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Length: %(1)"
+msgstr "長さ: %(1)"
+
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Load Default"
 msgstr "デフォルトを読み込む"
 
-#: .\timeedit\timeedittoolactions.cpp
-msgid "[TimeEdit]Locate"
+#: timeedit/timeedittoolactions.cpp
+msgctxt "TimeEdit"
+msgid "Locate"
 msgstr "検索"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Locate Mouse Cursor"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Locate Mouse Cursor"
 msgstr "マウスカーソルを検索"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Locate Selection"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Locate Selection"
 msgstr "選択を検索"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Locate Selection End"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Locate Selection End"
 msgstr "選択エンドを検索"
 
-#: .\envelopes\envelopeedithandler.cpp
-msgid "[Events]Lock Values / Time"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
+msgid "Lock Values / Time"
 msgstr "値/時間をロック"
 
-#: .\timeedit\timerulerview.cpp
-msgid "[TimeRulerView]Loop Active"
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Loop Active"
 msgstr "ループ有効"
 
-#: .\timeedit\timeeditcomponent.cpp .\timeedit\timerulerview.cpp
-msgid "[Edit]Loop Follows Selection"
+#: timeedit/timeeditcomponent.cpp timeedit/timerulerview.cpp
+msgctxt "Edit"
+msgid "Loop Follows Selection"
 msgstr "選択したトラックでループを有効"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Loop Follows Selection"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Loop Follows Selection"
 msgstr "選択したトラックでループを有効"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Loop Selection"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Loop Selection"
 msgstr "選択をループ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Loop Selection Snapped"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Loop Selection Snapped"
 msgstr "選択をループ"
 
-#: .\music\lyricseditlayerbase.cpp
-msgid "[Music]Lyrics"
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
+msgid "Lyrics"
 msgstr "歌詞"
 
-#: .\music\chordselector.cpp
-msgid "[Notation]Minimal"
+#: music/lyricseditlayerbase.cpp
+msgctxt "Music"
+msgid "Lyrics"
+msgstr "歌詞"
+
+#: music/chordselector.cpp
+msgctxt "Notation"
+msgid "Minimal"
 msgstr "ミニマル"
 
-#: .\music\musicedithandler.cpp
-msgid "[Events]Modify Velocity"
+#: music/musicedithandler.cpp
+msgctxt "Events"
+msgid "Modify Velocity"
 msgstr "ベロシティを変更"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Momentary"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Momentary"
 msgstr "モメンタリ"
 
-#: .\events\eventedithandler.cpp
-msgid "[EventFigures]Move"
+#: events/eventedithandler.cpp
+msgctxt "EventFigures"
+msgid "Move"
 msgstr "移動"
 
-#: .\timeedit\timerulerview.cpp
-msgid "[TimeRulerView]Move Loop Range"
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Move Loop Range"
 msgstr "ループ範囲を移動"
 
-#: .\timeedit\timerulerview.cpp
-msgid "[TimeRulerView]Move Play Start Marker"
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Move Play Start Marker"
 msgstr "再生スタートマーカーを移動"
 
-#: .\envelopes\envelopedraghandler.cpp
-msgid "[Envelopes]Move Points"
+#: envelopes/envelopedraghandler.cpp
+msgctxt "Envelopes"
+msgid "Move Points"
 msgstr "ポイントを移動"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Move Range"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Move Range"
 msgstr "範囲を移動"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Move Range Back"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Move Range Back"
 msgstr "範囲を後ろへ移動"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Move Range Down"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Move Range Down"
 msgstr "範囲を下へ移動"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Move Range Up"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Move Range Up"
 msgstr "範囲を上へ移動"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Move Range to Hotspot"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Move Range to Hotspot"
 msgstr "範囲をホットスポットへ移動"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Move Range to Hotspot Back"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Move Range to Hotspot Back"
 msgstr "範囲をホットスポットへ後ろに移動"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Move Symbol"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Move Symbol"
 msgstr "記号を移動"
 
-#: .\tempo\tempodraghandler.cpp
-msgid "[TempoDragHandler]Move tempo"
+#: tempo/tempodraghandler.cpp
+msgctxt "TempoDragHandler"
+msgid "Move tempo"
 msgstr "テンポを移動"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Edit]Move to Cursor"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Move to Cursor"
 msgstr "カーソルへ移動"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Move to Cursor"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Move to Cursor"
 msgstr "カーソルへ移動"
 
-#: .\timeedit\timeedittoolactions.cpp
-msgid "[TimeEdit]Move, Zoom"
+#: timeedit/timeedittoolactions.cpp
+msgctxt "TimeEdit"
+msgid "Move, Zoom"
 msgstr "移動、ズーム"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Musical Functions"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Musical Functions"
 msgstr "音楽機能"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Mute"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Mute"
 msgstr "ミュート"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Name"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Name"
 msgstr "名前"
 
-#: .\music\soundvariationeditor.cpp .\music\soundvariationtreemodel.cpp
-msgid "[SoundVariations]Name"
+#: music/soundvariationeditor.cpp music/soundvariationtreemodel.cpp
+msgctxt "SoundVariations"
+msgid "Name"
 msgstr "名前"
 
-#: .\events\eventeditcomponent.cpp .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Navigation"
+#: events/eventeditcomponent.cpp timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Navigation"
 msgstr "ナビゲーション"
 
-#: .\quantize\quantizelength.cpp
-msgid "[Quantize]Next Base"
+#: quantize/quantizelength.cpp
+msgctxt "Quantize"
+msgid "Next Base"
 msgstr "次のベース"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]Next Event"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "Next Event"
 msgstr "次のイベント"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]Next Event Extend"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "Next Event Extend"
 msgstr "次のイベント拡張"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Next Hotspot"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Next Hotspot"
 msgstr "次のホットスポット"
 
-#: .\music\soundvariationlane.cpp .\music\soundvariationmenubuilder.cpp
-msgid "[SoundVariations]No Variation"
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+msgctxt "SoundVariations"
+msgid "No Variation"
 msgstr "バリエーションなし"
 
-#: .\music\musiceditcomponent.cpp
-msgid "[MusicEditComponent]Note Length"
+#: music/lyricsdisplay.cpp
+msgctxt "LyricsDisplaySetup"
+msgid "Note Events"
+msgstr "ノートイベント"
+
+#: music/musiceditcomponent.cpp
+msgctxt "MusicEditComponent"
+msgid "Note Length"
 msgstr "ノート長"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Note Off"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Note Off"
 msgstr "ノートオフ"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Note On"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Note On"
 msgstr "ノートオン"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Note On + Off"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Note On + Off"
 msgstr "ノートオン+オフ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Nudge"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Nudge"
 msgstr "ナッジ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Nudge Back"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Nudge Back"
 msgstr "後ろへナッジ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Nudge Bar"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Nudge Bar"
 msgstr "小節単位でナッジ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Nudge Bar Back"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Nudge Bar Back"
 msgstr "小節単位で後ろへナッジ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Nudge Down"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Nudge Down"
 msgstr "下にナッジ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Nudge Down Fine"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Nudge Down Fine"
 msgstr "下に細かくナッジ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Nudge Up"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Nudge Up"
 msgstr "上にナッジ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Nudge Up Fine"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Nudge Up Fine"
 msgstr "上に細かくナッジ"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[SignatureEditLayer]Numerator"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "SignatureEditLayer"
+msgid "Numerator"
 msgstr "分子"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Edit]Open Secondary Ruler"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Open Secondary Ruler"
 msgstr "セカンダリルーラーを開く"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Open Secondary Ruler"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Open Secondary Ruler"
 msgstr "セカンダリルーラーを開く"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Operations specific to note events"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Operations specific to note events"
 msgstr "ノートイベントに特有の操作"
 
-#: .\music\musicedithandler.cpp
-msgid "[Events]Paint Events"
+#: music/musicedithandler.cpp
+msgctxt "Events"
+msgid "Paint Events"
 msgstr "イベントをペイント"
 
-#: .\music\notecolorschemeparam.cpp
-msgid "[NoteColorScheme]Part"
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Part"
 msgstr "パート"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Edit]Paste at Original Position"
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
+msgid "Paste"
+msgstr "ペースト"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Paste at Original Position"
 msgstr "元の位置にペースト"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Paste at Original Position"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Paste at Original Position"
 msgstr "元の位置にペースト"
 
-#: .\events\eventedithandler.cpp
-msgid "[EventFigures]Phase offset"
+#: events/eventedithandler.cpp
+msgctxt "EventFigures"
+msgid "Phase offset"
 msgstr "位相オフセット"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Pitch"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Pitch"
 msgstr "ピッチ"
 
-#: .\music\notecolorschemeparam.cpp
-msgid "[NoteColorScheme]Pitch"
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Pitch"
 msgstr "ピッチ"
 
-#: .\quantize\quantizelength.cpp
-msgid "[Quantize]Previous Base"
+#: quantize/quantizelength.cpp
+msgctxt "Quantize"
+msgid "Previous Base"
 msgstr "前のベース"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]Previous Event"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "Previous Event"
 msgstr "前のイベント"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]Previous Event Extend"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "Previous Event Extend"
 msgstr "前のイベント拡張"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Previous Hotspot"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Previous Hotspot"
 msgstr "前のホットスポット"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Process"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Process"
 msgstr "プロセス"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Process"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Process"
 msgstr "プロセス"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Program Change"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Program Change"
 msgstr "プログラムチェンジ"
 
-#: .\music\lyricseditlayerbase.cpp
-msgid "[Music]Quantize"
+#: music/lyricsdisplay.cpp
+msgctxt "LyricsDisplaySetup"
+msgid "Quantize"
 msgstr "クオンタイズ"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Quantize"
+#: music/lyricseditlayerbase.cpp
+msgctxt "Music"
+msgid "Quantize"
 msgstr "クオンタイズ"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Quantize]Quantize"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Quantize"
 msgstr "クオンタイズ"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Quantize"
+#: quantize/quantizecomponent.cpp
+msgctxt "Quantize"
+msgid "Quantize"
 msgstr "クオンタイズ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Edit]Quantize"
+#: quantize/quantizecomponent.cpp
+msgctxt "Command"
+msgid "Quantize"
 msgstr "クオンタイズ"
 
-#: .\timeedit\timesnapper.cpp
-msgid "[TimeSnapper]Quantize"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Quantize"
 msgstr "クオンタイズ"
 
-#: .\quantize\quantizegrid.cpp
-msgid "[FileType]Quantize Settings"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
+msgid "Quantize"
+msgstr "クオンタイズ"
+
+#: quantize/quantizegrid.cpp
+msgctxt "FileType"
+msgid "Quantize Settings"
 msgstr "クオンタイズ設定"
 
-#: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
-msgid "[Quantize]Quintuplet"
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
+msgctxt "Quantize"
+msgid "Quintuplet"
 msgstr "5連符"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Range End to Cursor"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Range End to Cursor"
 msgstr "エンドからカーソルまで範囲を設定"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Range Start to Cursor"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Range Start to Cursor"
 msgstr "スタートからカーソルまで範囲を設定"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Redo Zoom"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Redo Zoom"
 msgstr "ズームをやり直す"
 
-#: .\timeedit\snaptimeprovider.cpp
-msgid "[TimeSnapper]Relative Grid"
+#: timeedit/snaptimeprovider.cpp
+msgctxt "TimeSnapper"
+msgid "Relative Grid"
 msgstr "相対グリッド"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Reload Map from Instrument"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Reload Map from Instrument"
 msgstr "マップをインストゥルメントから再読み込み"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Remove"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Remove"
 msgstr "削除"
 
-#: .\music\musicsymbollane.cpp
-msgid "[MusicSymbols]Remove All"
+#: music/musicsymbollane.cpp
+msgctxt "MusicSymbols"
+msgid "Remove All"
 msgstr "すべてを削除"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Remove All"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Remove All"
 msgstr "すべてを削除"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Remove Default"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Remove Default"
 msgstr "デフォルトを削除"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[SignatureEditLayer]Remove Key Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "SignatureEditLayer"
+msgid "Remove Key Signature"
 msgstr "調号を削除"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[Command]Remove Key Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "Command"
+msgid "Remove Key Signature"
 msgstr "調号を削除"
 
-#: .\tempo\tempoeditmodel.cpp
-msgid "[Tempo]Remove Tempo"
+#: tempo/tempoeditmodel.cpp
+msgctxt "Tempo"
+msgid "Remove Tempo"
 msgstr "テンポを削除"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[SignatureEditLayer]Remove Time Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "SignatureEditLayer"
+msgid "Remove Time Signature"
 msgstr "拍子を削除"
 
-#: .\timeedit\signatureeditlayer.cpp
-msgid "[Command]Remove Time Signature"
+#: timeedit/signatureeditlayer.cpp
+msgctxt "Command"
+msgid "Remove Time Signature"
 msgstr "拍子を削除"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Reset"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Reset"
 msgstr "リセット"
 
-#: .\music\drumpads.cpp
-msgid "[DrumPads]Reset Pads"
+#: music/drumpads.cpp
+msgctxt "DrumPads"
+msgid "Reset Pads"
 msgstr "パッドをリセット"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Restore Zoom State"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Restore Zoom State"
 msgstr "ズームの状態を復元"
 
-#: .\envelopes\envelopeedithandler.cpp
-msgid "[Events]S-Curve"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
+msgid "S-Curve"
 msgstr "Sカーブ"
 
-#: .\envelopes\envelopeinspector.cpp
-msgid "[Envelope]S-Curve"
+#: envelopes/envelopeinspector.cpp
+msgctxt "Envelope"
+msgid "S-Curve"
 msgstr "Sカーブ"
 
-#: .\tempo\tempoedithandler.cpp
-msgid "[TempoEdit]Scale Tempo: please set Timeruler to Bars"
+#: tempo/tempoedithandler.cpp
+msgctxt "TempoEdit"
+msgid "Scale Tempo: please set Timeruler to Bars"
 msgstr "テンポをスケール:時間ルーラーを小節に設定してください"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Score"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Score"
 msgstr "スコア"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Select All in Loop"
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
+msgid "Select All"
+msgstr "すべてを選択"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Select All in Loop"
 msgstr "ループ内のすべてを選択"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]Select All on Tracks"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "Select All on Tracks"
 msgstr "トラック上のすべてを選択"
 
-#: .\music\soundvariationlane.cpp
-msgid "[SoundVariations]Select Sound Variation"
+#: music/soundvariationlane.cpp
+msgctxt "SoundVariations"
+msgid "Select Sound Variation"
 msgstr "サウンドバリエーションを選択"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]Select from Event to End"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "Select from Event to End"
 msgstr "イベントからエンドまでを選択"
 
-#: .\events\eventeditcomponent.cpp
-msgid "[Command]Select from Start to Event"
+#: events/eventeditcomponent.cpp
+msgctxt "Command"
+msgid "Select from Start to Event"
 msgstr "スタートからイベントまでを選択"
 
-#: .\music\pitchscaleview.cpp
-msgid "[PitchScale]Select notes of this Pitch"
+#: music/pitchscaleview.cpp
+msgctxt "PitchScale"
+msgid "Select notes of this Pitch"
 msgstr "このピッチの音を選択"
 
-#: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
-msgid "[Quantize]Septuplet"
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
+msgctxt "Quantize"
+msgid "Septuplet"
 msgstr "7連符"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Set Loop End"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Set Loop End"
 msgstr "ループエンドを設定"
 
-#: .\timeedit\timerulerview.cpp
-msgid "[TimeRulerView]Set Loop End"
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Set Loop End"
 msgstr "ループエンドを設定"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Set Loop Start"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Set Loop Start"
 msgstr "ループスタートを設定"
 
-#: .\timeedit\timerulerview.cpp
-msgid "[TimeRulerView]Set Loop Start"
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Set Loop Start"
 msgstr "ループスタートを設定"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Set Program A"
+#: quantize/quantizecomponent.cpp
+msgctxt "Command"
+msgid "Set Program A"
 msgstr "プログラムAを設定"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Set Program B"
+#: quantize/quantizecomponent.cpp
+msgctxt "Command"
+msgid "Set Program B"
 msgstr "プログラムBを設定"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Set Program C"
+#: quantize/quantizecomponent.cpp
+msgctxt "Command"
+msgid "Set Program C"
 msgstr "プログラムCを設定"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Set Program D"
+#: quantize/quantizecomponent.cpp
+msgctxt "Command"
+msgid "Set Program D"
 msgstr "プログラムDを設定"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Set Program E"
+#: quantize/quantizecomponent.cpp
+msgctxt "Command"
+msgid "Set Program E"
 msgstr "プログラムEを設定"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Set Program F"
+#: quantize/quantizecomponent.cpp
+msgctxt "Command"
+msgid "Set Program F"
 msgstr "プログラムFを設定"
 
-#: .\quantize\quantizecomponent.cpp
-msgid "[Command]Set Program G"
+#: quantize/quantizecomponent.cpp
+msgctxt "Command"
+msgid "Set Program G"
 msgstr "プログラムGを設定"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Shift Key Switches"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Shift Key Switches"
 msgstr "キースイッチをシフト"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range End"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range End"
 msgstr "範囲エンドをサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range End Back"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range End Back"
 msgstr "範囲エンドを後ろにサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range End Down"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range End Down"
 msgstr "範囲エンドを下にサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range End Up"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range End Up"
 msgstr "範囲エンドを上にサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range End to Hotspot"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range End to Hotspot"
 msgstr "範囲エンドをホットスポットまでサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range End to Hotspot Back"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range End to Hotspot Back"
 msgstr "範囲エンドをホットスポットまで後ろにサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range Start"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range Start"
 msgstr "範囲スタートをサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range Start Back"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range Start Back"
 msgstr "範囲スタートを後ろにサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range Start Down"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range Start Down"
 msgstr "範囲スタートを下にサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range Start Up"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range Start Up"
 msgstr "範囲スタートを上にサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range Start to Hotspot"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range Start to Hotspot"
 msgstr "範囲スタートをホットスポットまでサイズ変更"
 
-#: .\timeedit\timeselectioncomponent.cpp
-msgid "[Command]Size Range Start to Hotspot Back"
+#: timeedit/timeselectioncomponent.cpp
+msgctxt "Command"
+msgid "Size Range Start to Hotspot Back"
 msgstr "範囲スタートをホットスポットまで後ろにサイズ変更"
 
-#: .\music\chordselector.cpp
-msgid "[Notation]Small caps"
+#: music/chordselector.cpp
+msgctxt "Notation"
+msgid "Small caps"
 msgstr "スモールキャピタル"
 
-#: .\timeedit\snaptimeprovider.cpp
-msgid "[Command]Snap Relative Grid"
+#: timeedit/snaptimeprovider.cpp
+msgctxt "Command"
+msgid "Snap Relative Grid"
 msgstr "相対グリッドにスナップ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Edit]Snap To Cursor & Loop"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Snap To Cursor & Loop"
 msgstr "カーソルとループにスナップ"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Snap To Cursor & Loop"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Snap To Cursor & Loop"
 msgstr "カーソルとループにスナップ"
 
-#: .\events\eventsnapper.cpp
-msgid "[TimeSnapper]Snap To Events"
+#: events/eventsnapper.cpp
+msgctxt "TimeSnapper"
+msgid "Snap To Events"
 msgstr "イベントにスナップ"
 
-#: .\timeedit\snaptimeprovider.cpp
-msgid "[TimeSnapper]Snap To Grid"
+#: timeedit/snaptimeprovider.cpp
+msgctxt "TimeSnapper"
+msgid "Snap To Grid"
 msgstr "グリッドにスナップ"
 
-#: .\timeedit\snaptimeprovider.cpp
-msgid "[Command]Snap To Grid"
+#: timeedit/snaptimeprovider.cpp
+msgctxt "Command"
+msgid "Snap To Grid"
 msgstr "グリッドにスナップ"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Sound Variation"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Sound Variation"
 msgstr "サウンドバリエーション"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Split"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Split"
 msgstr "分割"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Edit]Split at Cursor"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Split at Cursor"
 msgstr "カーソル位置で分割"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Split at Cursor"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Split at Cursor"
 msgstr "カーソル位置で分割"
 
-#: .\timeedit\timeedittoolactions.cpp
-msgid "[TimeEdit]Start/Stop"
+#: timeedit/timeedittoolactions.cpp
+msgctxt "TimeEdit"
+msgid "Start/Stop"
 msgstr "スタート/停止"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Store Zoom State"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Store Zoom State"
 msgstr "ズームの状態を保存"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Store as Default"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Store as Default"
 msgstr "デフォルトとして保存"
 
-#: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
-msgid "[Quantize]Straight"
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
+msgctxt "Quantize"
+msgid "Straight"
 msgstr "ストレート"
 
-#: .\envelopes\envelopeeditlayer.cpp
-msgid "[Command]Straighten Curve"
+#: envelopes/envelopeeditlayer.cpp
+msgctxt "Command"
+msgid "Straighten Curve"
 msgstr "カーブを直線に"
 
-#: .\events\eventedithandler.cpp
-msgid "[EventFigures]Stretch"
+#: events/eventedithandler.cpp
+msgctxt "EventFigures"
+msgid "Stretch"
 msgstr "ストレッチ"
 
-#: .\music\musicedithandler.cpp
-msgid "[Events]Strum"
+#: music/musicedithandler.cpp
+msgctxt "Events"
+msgid "Strum"
 msgstr "ストラム"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Swap Ruler Formats"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Swap Ruler Formats"
 msgstr "ルーラーフォーマットを交換"
 
-#: .\music\chordselector.cpp
-msgid "[Notation]Symbol"
+#: music/chordselector.cpp
+msgctxt "Notation"
+msgid "Symbol"
 msgstr "記号"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Symbol"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Symbol"
 msgstr "記号"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Symbol"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Symbol"
 msgstr "記号"
 
-#: .\tempo\tempoeditcomponent.cpp
-msgid "[Command]Tempo"
+#: tempo/tempoeditcomponent.cpp
+msgctxt "Command"
+msgid "Tempo"
 msgstr "テンポ"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
 msgstr "プリセットが '%(1)' に対して生成されましたがターゲットインストゥルメントと一致しません。\nこのままバリエーションマップを読み込みますか？"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
 msgstr "プリセットがサウンド '%(1)' に対して生成されましたが現在のインストゥルメントプリセットと一致しません。\nこのままバリエーションマップを読み込みますか？"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Time"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Time"
 msgstr "時間"
 
-#: .\envelopes\envelopeedithandler.cpp
-msgid "[Events]Time Locked"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
+msgid "Time Locked"
 msgstr "時間はロックされています"
 
-#: .\timeedit\timerulerview.cpp
-msgid "[TimeRulerView]Time Ruler"
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Time Ruler"
 msgstr "時間ルーラー"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Edit]Timebase"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Timebase"
 msgstr "タイムベース"
 
-#: .\music\musicedithandler.cpp
-msgid "[Events]Toggle Chord Mode"
+#: music/musicedithandler.cpp
+msgctxt "Events"
+msgid "Toggle Chord Mode"
 msgstr "コードモードを切り替え"
 
-#: .\timeedit\timesnapper.cpp
-msgid "[TimeSnapper]Toggle Snap"
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
+msgid "Toggle Edit Mode"
+msgstr "編集モードを切り替え"
+
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
+msgid "Toggle Snap"
 msgstr "スナップを切り替え"
 
-#: .\timeedit\timesnapper.cpp
-msgid "[Command]Toggle Snap"
+#: timeedit/timesnapper.cpp
+msgctxt "Command"
+msgid "Toggle Snap"
 msgstr "スナップを切り替え"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Toggle Time-Linear Display"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Toggle Time-Linear Display"
 msgstr "タイムリニアディスプレイを切り替え"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Toggle Zoom"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Zoom"
 msgstr "ズームを切り替え"
 
-#: .\music\musiceditmodel.cpp
-msgid "[MusicEditComponent]Transfer Notes"
+#: music/musiceditmodel.cpp
+msgctxt "MusicEditComponent"
+msgid "Transfer Notes"
 msgstr "ノートを転送"
 
-#: .\envelopes\envelopetransformhandler.cpp .\events\eventtransform.cpp
-msgid "[Events]Transform Automation"
+#: envelopes/envelopetransformhandler.cpp events/eventtransform.cpp
+msgctxt "Events"
+msgid "Transform Automation"
 msgstr "オートメーションを変形"
 
-#: .\envelopes\envelopeeditlayer.cpp .\music\velocityeditview.cpp
-msgid "[Command]Transform Range"
+#: envelopes/envelopeeditlayer.cpp music/velocityeditview.cpp
+msgctxt "Command"
+msgid "Transform Range"
 msgstr "範囲を変換"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]Transport"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "Transport"
 msgstr "トランスポート"
 
-#: .\quantize\quantizegrid.cpp .\quantize\quantizelength.cpp
-msgid "[Quantize]Triplet"
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
+msgctxt "Quantize"
+msgid "Triplet"
 msgstr "3連符"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Type"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Type"
 msgstr "タイプ"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Undo Zoom"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Undo Zoom"
 msgstr "ズームを取り消す"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Unknown"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Unknown"
 msgstr "不明"
 
-#: .\envelopes\envelopeedithandler.cpp
-msgid "[Events]Unlock Values / Time"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
+msgid "Unlock Values / Time"
 msgstr "値/時間のロックを解除"
 
-#: .\music\soundvariationeditor.cpp
-msgid "[SoundVariations]Use Activation Sequence"
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Use Activation Sequence"
 msgstr "アクティベーションシーケンスを使用"
 
-#: .\music\soundvariationlane.cpp
-msgid "[SoundVariations]Used"
+#: music/soundvariationlane.cpp
+msgctxt "SoundVariations"
+msgid "Used"
 msgstr "使用中"
 
-#: .\music\musicsymbolmapeditor.cpp
-msgid "[ScoreSymbolMap]Value"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Value"
 msgstr "値"
 
-#: .\envelopes\envelopeedithandler.cpp
-msgid "[Events]Values Locked"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
+msgid "Values Locked"
 msgstr "値はロックされています"
 
-#: .\music\musicedittasks.cpp
-msgid "[MusicEdit]Velocity"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
+msgid "Velocity"
 msgstr "ベロシティ"
 
-#: .\music\notecolorschemeparam.cpp
-msgid "[NoteColorScheme]Velocity"
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Velocity"
 msgstr "ベロシティ"
 
-#: .\music\musicedithandler.cpp
-msgid "[Events]Velocity Accent"
+#: music/musicedithandler.cpp
+msgctxt "Events"
+msgid "Velocity Accent"
 msgstr "ベロシティアクセント"
 
-#: .\music\notecolorschemeparam.cpp
-msgid "[NoteColorScheme]Velocity Bar"
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Velocity Bar"
 msgstr "ベロシティバー"
 
-#: .\timeedit\timeeditcomponent.cpp
-msgid "[Command]View"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
+msgid "View"
 msgstr "表示"
 
-#: .\timeedit\timeeditcomponent.cpp .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom"
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom"
 msgstr "ズーム"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom Full"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Full"
 msgstr "フルズーム"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom Full Horizontally"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Full Horizontally"
 msgstr "水平にフルズーム"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom In"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom In"
 msgstr "ズームイン"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom In Fine"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom In Fine"
 msgstr "細かくズームイン"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom In Vertical"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom In Vertical"
 msgstr "垂直ズームイン"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom In Vertical Fine"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom In Vertical Fine"
 msgstr "細かく垂直ズームイン"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom Out"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Out"
 msgstr "ズームアウト"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom Out Fine"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Out Fine"
 msgstr "細かくズームアウト"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom Out Vertical"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Out Vertical"
 msgstr "垂直ズームアウト"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom Out Vertical Fine"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Out Vertical Fine"
 msgstr "細かく垂直ズームアウト"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom to Loop"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom to Loop"
 msgstr "ループへズーム"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom to Selection"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom to Selection"
 msgstr "選択へズーム"
 
-#: .\timeedit\timelinecomponent.cpp
-msgid "[Command]Zoom to Selection Horizontally"
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom to Selection Horizontally"
 msgstr "選択へ水平ズーム"
 
-#~ msgid "[Command]Set Bar Offset to Cursor"
+#~ msgctxt "Command"
+#~ msgid "Set Bar Offset to Cursor"
 #~ msgstr "小節オフセットをカーソルに設定"
 
-#~ msgid "[TimeRulerView]Set Bar Offset to Cursor"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Set Bar Offset to Cursor"
 #~ msgstr "小節オフセットをカーソルに設定"
 
-#~ msgid "[Command]Set Frame Offset to Cursor"
+#~ msgctxt "Command"
+#~ msgid "Set Frame Offset to Cursor"
 #~ msgstr "フレームオフセットをカーソルに設定"
 
-#~ msgid "[TimeRulerView]Set Frame Offset to Cursor"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Set Frame Offset to Cursor"
 #~ msgstr "フレームオフセットをカーソルに設定"
 
-#~ msgid "[Command]Set Time Offset to Cursor"
+#~ msgctxt "Command"
+#~ msgid "Set Time Offset to Cursor"
 #~ msgstr "タイムオフセットをカーソルに設定"
 
-#~ msgid "[TimeRulerView]Set Time Offset to Cursor"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Set Time Offset to Cursor"
 #~ msgstr "タイムオフセットをカーソルに設定"
 
-#~ msgid "[ScoreSymbolMap]Auto Assign Symbol Map"
+#~ msgctxt "ScoreSymbolMap"
+#~ msgid "Auto Assign Symbol Map"
 #~ msgstr "記号マップを自動アサイン"
 
-#~ msgid "[KeySwitches]Insert Key Switch"
+#~ msgctxt "KeySwitches"
+#~ msgid "Insert Key Switch"
 #~ msgstr "キースイッチを挿入"
 
-#~ msgid "[KeySwitches]Key Switch Name"
+#~ msgctxt "KeySwitches"
+#~ msgid "Key Switch Name"
 #~ msgstr "キースイッチ名"
 
-#~ msgid "[KeySwitches]Pitch"
+#~ msgctxt "KeySwitches"
+#~ msgid "Pitch"
 #~ msgstr "ピッチ"
 
-#~ msgid "[KeySwitches]Select Key Switch"
+#~ msgctxt "KeySwitches"
+#~ msgid "Select Key Switch"
 #~ msgstr "キースイッチを選択"
 
-#~ msgid "[TimeRulerView]Denominator"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Denominator"
 #~ msgstr "分母"
 
-#~ msgid "[TimeRulerView]Edit Time Signature"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Edit Time Signature"
 #~ msgstr "拍子を編集"
 
-#~ msgid "[TimeRulerView]Insert Time Signature"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Insert Time Signature"
 #~ msgstr "拍子を挿入"
 
-#~ msgid "[TimeRulerView]Locate"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Locate"
 #~ msgstr "検索"
 
-#~ msgid "[TimeRulerView]Move, Zoom"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Move, Zoom"
 #~ msgstr "移動、ズーム"
 
-#~ msgid "[TimeRulerView]Numerator"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Numerator"
 #~ msgstr "分子"
 
-#~ msgid "[TimeRulerView]Remove Time Signature"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Remove Time Signature"
 #~ msgstr "拍子を削除"
 
-#~ msgid "[TimeRulerView]Start/Stop"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Start/Stop"
 #~ msgstr "スタート/停止"
 
-#~ msgid "[TimeRulerView]Zoom"
+#~ msgctxt "TimeRulerView"
+#~ msgid "Zoom"
 #~ msgstr "ズーム"
 
-#~ msgid "[TimeEditModel]Move to Cursor"
+#~ msgctxt "TimeEditModel"
+#~ msgid "Move to Cursor"
 #~ msgstr "カーソルへ移動"
 
-#~ msgid "[Command]Select Base"
+#~ msgctxt "Command"
+#~ msgid "Select Base"
 #~ msgstr "ベースを選択"
 
-#~ msgid "[PitchNameEditor]Name"
+#~ msgctxt "PitchNameEditor"
+#~ msgid "Name"
 #~ msgstr "名前"
 
-#~ msgid "[PitchNameEditor]Pitch"
+#~ msgctxt "PitchNameEditor"
+#~ msgid "Pitch"
 #~ msgstr "ピッチ"
 
-#~ msgid "[Quantize]Quintole"
+#~ msgctxt "Quantize"
+#~ msgid "Quintole"
 #~ msgstr "5連符"
 
-#~ msgid "[Quantize]Septole"
+#~ msgctxt "Quantize"
+#~ msgid "Septole"
 #~ msgstr "7連符"
 
-#~ msgid "[MusicalScale]Blues"
+#~ msgctxt "MusicalScale"
+#~ msgid "Blues"
 #~ msgstr "ブルース"
 
-#~ msgid "[MusicalScale]Chromatic"
+#~ msgctxt "MusicalScale"
+#~ msgid "Chromatic"
 #~ msgstr "クロマチック"
 
-#~ msgid "[MusicalScale]Dorian"
+#~ msgctxt "MusicalScale"
+#~ msgid "Dorian"
 #~ msgstr "ドリアン"
 
-#~ msgid "[MusicalScale]Harmonic Minor"
+#~ msgctxt "MusicalScale"
+#~ msgid "Harmonic Minor"
 #~ msgstr "ハーモニックマイナー"
 
-#~ msgid "[MusicalScale]Major"
+#~ msgctxt "MusicalScale"
+#~ msgid "Major"
 #~ msgstr "メジャー"
 
-#~ msgid "[MusicalScale]Major Pentatonic"
+#~ msgctxt "MusicalScale"
+#~ msgid "Major Pentatonic"
 #~ msgstr "メジャーペンタトニック"
 
-#~ msgid "[MusicalScale]Melodic Minor"
+#~ msgctxt "MusicalScale"
+#~ msgid "Melodic Minor"
 #~ msgstr "メロディックマイナー"
 
-#~ msgid "[MusicalScale]Minor Pentatonic"
+#~ msgctxt "MusicalScale"
+#~ msgid "Minor Pentatonic"
 #~ msgstr "マイナーペンタトニック"
 
-#~ msgid "[MusicalScale]Mixolydian"
+#~ msgctxt "MusicalScale"
+#~ msgid "Mixolydian"
 #~ msgstr "ミクソリディアン"
 
-#~ msgid "[MusicalScale]Natural Minor"
+#~ msgctxt "MusicalScale"
+#~ msgid "Natural Minor"
 #~ msgstr "ナチュラルマイナー"
 
-#~ msgid "[MusicalScale]Phrygian"
+#~ msgctxt "MusicalScale"
+#~ msgid "Phrygian"
 #~ msgstr "フリジアン"
 

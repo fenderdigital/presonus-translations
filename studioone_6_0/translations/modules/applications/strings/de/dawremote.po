@@ -4,70 +4,87 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\client\commandcomponent.cpp
-msgid "[Edit]Are you sure you want to revert all changes?"
+#: client/commandcomponent.cpp
+msgctxt "Edit"
+msgid "Are you sure you want to revert all changes?"
 msgstr "Möchten Sie wirklich alle Änderungen rückgängig machen?"
 
-#: .\client\commandcomponent.cpp .\client\showcomponent.cpp
-msgid "[Command]Back"
+#: client/commandcomponent.cpp client/showcomponent.cpp
+msgctxt "Command"
+msgid "Back"
 msgstr "Zurück"
 
-#: .\client\dawclient.cpp
-msgid "[DAWClient]Connecting to this version of Studio One is not supported."
+#: client/dawclient.cpp
+msgctxt "DAWClient"
+msgid "Connecting to this version of Studio One is not supported."
 msgstr "Die Verbindung zu dieser Version von Studio One wird nicht unterstützt."
 
-#: .\dawremoteapp.cpp
-msgid "[ColorScheme]DAW Sync"
+#: dawremoteapp.cpp
+msgctxt "ColorScheme"
+msgid "DAW Sync"
 msgstr "DAW-Sync"
 
-#: .\dawremoteapp.cpp
-msgid "[ColorScheme]Dark"
+#: dawremoteapp.cpp
+msgctxt "ColorScheme"
+msgid "Dark"
 msgstr "Dunkel"
 
-#: .\client\commandcomponent.cpp
-msgid "[Edit]Delete"
+#: client/commandcomponent.cpp
+msgctxt "Edit"
+msgid "Delete"
 msgstr "Löschen"
 
-#: .\client\commandcomponent.cpp
-msgid "[Edit]Delete Page"
+#: client/commandcomponent.cpp
+msgctxt "Edit"
+msgid "Delete Page"
 msgstr "Seite entfernen"
 
-#: .\client\commandcomponent.cpp
-msgid "[Edit]Do you want to delete this page?"
+#: client/commandcomponent.cpp
+msgctxt "Edit"
+msgid "Do you want to delete this page?"
 msgstr "Wollen Sie diese Seite entfernen?"
 
-#: .\dawremoteapp.cpp
-msgid "[ColorScheme]Light"
+#: dawremoteapp.cpp
+msgctxt "ColorScheme"
+msgid "Light"
 msgstr "Hell"
 
-#: .\client\commandcomponent.cpp .\client\showcomponent.cpp
-msgid "[Command]Navigation"
+#: client/commandcomponent.cpp client/showcomponent.cpp
+msgctxt "Command"
+msgid "Navigation"
 msgstr "Navigation"
 
-#: .\client\commandcomponent.cpp
-msgid "[Edit]Page"
+#: client/commandcomponent.cpp
+msgctxt "Edit"
+msgid "Page"
 msgstr "Seite"
 
-#: .\client\dawmixer.cpp
-msgid "[DAWRemote]Remove"
+#: client/dawmixer.cpp
+msgctxt "DAWRemote"
+msgid "Remove"
 msgstr "Entfernen"
 
-#: .\client\dawclient.cpp
-msgid "[DAWClient]Studio One is not activated on your computer."
+#: client/dawclient.cpp
+msgctxt "DAWClient"
+msgid "Studio One is not activated on your computer."
 msgstr "Studio One ist auf Ihrem Computer nicht aktiviert."
 
-#~ msgid "[DAWRemote]Auto: Off"
+#~ msgctxt "DAWRemote"
+#~ msgid "Auto: Off"
 #~ msgstr "Auto: Off"
 
-#~ msgid "[DAWRemote]Latch"
+#~ msgctxt "DAWRemote"
+#~ msgid "Latch"
 #~ msgstr "Latch"
 
-#~ msgid "[DAWRemote]Read"
+#~ msgctxt "DAWRemote"
+#~ msgid "Read"
 #~ msgstr "Read"
 
-#~ msgid "[DAWRemote]Touch"
+#~ msgctxt "DAWRemote"
+#~ msgid "Touch"
 #~ msgstr "Touch"
 
-#~ msgid "[DAWRemote]Write"
+#~ msgctxt "DAWRemote"
+#~ msgid "Write"
 #~ msgstr "Write"
-

@@ -1,548 +1,701 @@
-#: .\packages\unifiedpackagesource.cpp
-msgid "[PackageSource]$APPNAME Content"
+#: ./packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
+msgid "$APPNAME Content"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]%(1) is already installed!"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "%(1) is already installed!"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]%(1) is not compatible with $APPNAME!"
+#: ./extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "%(1) is not compatible with $APPNAME!"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]%(1) of %(2)"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "%(1) of %(2)"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]%(2)/%(3) %(1)"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "%(2)/%(3) %(1)"
 msgstr ""
 
-#: .\packages\extensionmanagerpackages.cpp
-msgid "[PackageActions]Abort Uninstall"
+#: ./packages/extensionmanagerpackages.cpp
+msgctxt "PackageActions"
+msgid "Abort Uninstall"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Action Required"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Action Required"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Active"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Active"
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Any"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Any"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[Command]Application"
+#: ./extensions/backupmanager.cpp
+msgctxt "Command"
+msgid "Application"
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Available"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Available"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Available"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Available"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Available Packages"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Available Packages"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[Command]Backup and Restore"
+#: ./extensions/backupmanager.cpp
+msgctxt "Command"
+msgid "Backup and Restore"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup is too large."
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup is too large."
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup restored successfully."
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup restored successfully."
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup uploaded successfully."
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup uploaded successfully."
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Backup will be restored next time you start $APPNAME."
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Backup will be restored next time you start $APPNAME."
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Built-in Extensions can not be uninstalled or updated."
+#: ./extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Built-in Extensions can not be uninstalled or updated."
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Cancel"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Cancel"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Canceled!"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Canceled!"
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Check for Updates"
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Check for Updates"
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Command]Check for Updates"
+#: ./extensions/appupdater.cpp
+msgctxt "Command"
+msgid "Check for Updates"
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Check for Updates failed!"
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Check for Updates failed!"
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Checking version of %(1)"
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Checking version of %(1)"
 msgstr ""
 
-#: .\packages\installdatapackages.cpp
-msgid "[PackageActions]Claim %(1) Product Keys"
+#: ./packages/installdatapackages.cpp
+msgctxt "PackageActions"
+msgid "Claim %(1) Product Keys"
 msgstr ""
 
-#: .\packages\installdatapackages.cpp
-msgid "[PackageActions]Claim Product Key"
+#: ./packages/installdatapackages.cpp
+msgctxt "PackageActions"
+msgid "Claim Product Key"
 msgstr ""
 
-#: .\webfs\webfilenodes.cpp
-msgid "[WebFS]Cloud"
+#: ./webfs/webfilenodes.cpp
+msgctxt "WebFS"
+msgid "Cloud"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Computer"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Computer"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Contains %(1) items"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Contains %(1) items"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Copying..."
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Copying..."
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Current version: %(1)"
+#: ./stores/storepurchasehandler.cpp
+msgctxt "StorePurchaseHandler"
+msgid "Could not complete the purchase."
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Custom Installation"
+#: ./stores/storepurchasehandler.cpp
+msgctxt "StorePurchaseHandler"
+msgid "Could not restore purchases. Please try again in a few minutes."
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Date & Time"
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Current version: %(1)"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Developer Extension"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Custom Installation"
 msgstr ""
 
-#: .\packages\unifiedpackagesource.cpp
-msgid "[PackageSource]Development Content"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Date & Time"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Disable"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Developer Extension"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Disable %(1) items"
+#: ./packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
+msgid "Development Content"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Disable All"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Disable"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Disabled"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Disable %(1) items"
 msgstr ""
 
-#: .\packages\contentpackagemanager.cpp
-msgid "[ContentPackageManager]Do you want to continue installation anyway?"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Disable All"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Do you want to install these updates now?"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Disabled"
 msgstr ""
 
-#: .\webfs\downloaddraghandler.cpp
-msgid "[WebFS]Download"
+#: ./packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "Do you want to continue installation anyway?"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Download"
+#: ./extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Do you want to install these updates now?"
 msgstr ""
 
-#: .\packages\contentpackagemanager.cpp
-msgid "[ContentPackageManager]Download from $APPCOMPANY Account"
+#: ./webfs/downloaddraghandler.cpp
+msgctxt "WebFS"
+msgid "Download"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Downloading..."
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Download"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Enable"
+#: ./packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "Download from $APPCOMPANY Account"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Enable %(1) items"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Downloading..."
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Enable All"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Enable"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Enabled"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Enable %(1) items"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Extension"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Enable All"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Failed to create backup."
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Enabled"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Failed to restore from backup."
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Extension"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Failed to uninstall %(1)!"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Failed to create backup."
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Failed to upload backup."
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Failed to restore from backup."
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Failed!"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Failed to uninstall %(1)!"
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]File Type"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Failed to upload backup."
 msgstr ""
 
-#: .\packages\packagesorter.cpp
-msgid "[PackageSorter]File Type"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Failed!"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Files are being transferred in background."
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "File Type"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Full Installation"
+#: ./packages/packagesorter.cpp
+msgctxt "PackageSorter"
+msgid "File Type"
 msgstr ""
 
-#: .\gadgets\gadgetmanager.cpp
-msgid "[GadgetManager]Gadgets"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Files are being transferred in background."
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Command]Help"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Full Installation"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Install"
+#: ./gadgets/gadgetmanager.cpp
+msgctxt "GadgetManager"
+msgid "Gadgets"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Install %(1) items"
+#: ./analytics/apptrackinghandler.cpp
+#: ./extensions/appupdater.cpp
+msgctxt "Command"
+msgid "Help"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Install %(1) items (%(2))"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Install"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Install All"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Install %(1) items"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Install Extension"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Install %(1) items (%(2))"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[FileType]Installation File"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Install All"
 msgstr ""
 
-#: .\packages\unifiedpackageinstaller.cpp
-msgid "[UnifiedPackageInstaller]Installation failed for %(1)."
+#: ./extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Install Extension"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Installation failed!"
+#: ./extensions/extensiondescription.cpp
+msgctxt "FileType"
+msgid "Installation File"
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Installed"
+#: ./packages/unifiedpackageinstaller.cpp
+msgctxt "UnifiedPackageInstaller"
+msgid "Installation failed for %(1)."
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Installed"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Installation failed!"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Installed Packages"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Installed"
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Installed version: %(1)"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Installed"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Invalid Installation File!"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Installed Packages"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Migrating Extension %(1)..."
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Installed version: %(1)"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Minimal Installation"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Invalid Installation File!"
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Name"
+#: ./extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Migrating Extension %(1)..."
 msgstr ""
 
-#: .\packages\packagesorter.cpp
-msgid "[PackageSorter]Name"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Minimal Installation"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Never"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Name"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]New File"
+#: ./packages/packagesorter.cpp
+msgctxt "PackageSorter"
+msgid "Name"
 msgstr ""
 
-#: .\gadgets\gadgetmanager.cpp
-msgid "[GadgetManager]No Gadgets installed"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Never"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]No backups found."
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "New File"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]No updates found for your Extensions."
+#: ./gadgets/gadgetmanager.cpp
+msgctxt "GadgetManager"
+msgid "No Gadgets installed"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Not Installed"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "No backups found."
 msgstr ""
 
-#: .\packages\contentpackagemanager.cpp
-msgid "[ContentPackageManager]Not enough free disk space. %(1) are required, but only %(2) are available on the selected volume."
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "No updates found for your Extensions."
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Origin"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Not Installed"
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Other"
+#: ./packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "Not enough free disk space. %(1) are required, but only %(2) are available on the selected volume."
 msgstr ""
 
-#: .\packages\unifiedpackagesource.cpp
-msgid "[PackageSource]Other"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Origin"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Program Extension"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Other"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Program Settings"
+#: ./packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
+msgid "Other"
 msgstr ""
 
-#: .\packages\unifiedpackagesource.cpp
-msgid "[PackageSource]Purchased Content"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Program Extension"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Queued"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Program Settings"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Recommended Installation"
+#: ./packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
+msgid "Purchased Content"
 msgstr ""
 
-#: .\web\webelements.cpp
-msgid "[Feed]Refresh"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Queued"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Remove From History"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Recommended Installation"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Removing Extension %(1)..."
+#: ./web/webelements.cpp
+msgctxt "Feed"
+msgid "Refresh"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Restart"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Remove From History"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Restart"
+#: ./extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Removing Extension %(1)..."
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Restart Required"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Restart"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Restore"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Restart"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Scanning Extensions..."
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Restart Required"
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Search"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Restore"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Shared Extension"
+#: ./extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Scanning Extensions..."
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Signature Verification"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Search"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Size"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Shared Extension"
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]State"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Signature Verification"
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Tags"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Size"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]Target directory is locked by %(1)."
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "State"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]The installation file is not compatible with this application."
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Tags"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]The installation file is not compatible with this platform."
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "Target directory is locked by %(1)."
 msgstr ""
 
-#: .\packages\unifiedpackageinstaller.cpp
-msgid "[UnifiedPackageInstaller]The installed content will be available next time you start $APPNAME."
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "The installation file is not compatible with this application."
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]The version could not be identified!"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "The installation file is not compatible with this platform."
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]There are updates available for your Extensions."
+#: ./packages/unifiedpackageinstaller.cpp
+msgctxt "UnifiedPackageInstaller"
+msgid "The installed content will be available next time you start $APPNAME."
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]There is a new version available."
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "The version could not be identified!"
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]This file does not have a valid digital signature."
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "There are updates available for your Extensions."
 msgstr ""
 
-#: .\packages\packagefilter.cpp
-msgid "[PackageFilter]Type"
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "There is a new version available."
 msgstr ""
 
-#: .\packages\packagesorter.cpp
-msgid "[PackageSorter]Type"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "This file does not have a valid digital signature."
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Uninstall"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Type"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Uninstall %(1) items"
+#: ./packages/packagesorter.cpp
+msgctxt "PackageSorter"
+msgid "Type"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Uninstall All"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Uninstall"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Unknown"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Uninstall %(1) items"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Update"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Uninstall All"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Update %(1) items"
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Unknown"
 msgstr ""
 
-#: .\packages\unifiedpackageaction.cpp
-msgid "[PackageActions]Update All"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Update"
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Update Now"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Update %(1) items"
 msgstr ""
 
-#: .\packages\packagemanager.cpp
-msgid "[PackageManager]Updates Available"
+#: ./packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
+msgid "Update All"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]Updating Extension %(1)..."
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Update Now"
 msgstr ""
 
-#: .\webfs\webfsbrowserextension.cpp
-msgid "[WebFS]Upload To"
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Updates Available"
 msgstr ""
 
-#: .\webfs\transfermanagerui.cpp
-msgid "[TransferManager]Uploading..."
+#: ./extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "Updating Extension %(1)..."
 msgstr ""
 
-#: .\extensions\extensiondescription.cpp
-msgid "[Extensions]User Extension"
+#: ./webfs/webfsbrowserextension.cpp
+msgctxt "WebFS"
+msgid "Upload To"
 msgstr ""
 
-#: .\extensions\backupmanager.cpp
-msgid "[BackupManager]Version"
+#: ./webfs/transfermanagerui.cpp
+msgctxt "TransferManager"
+msgid "Uploading..."
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]View Release Notes"
+#: ./analytics/apptrackinghandler.cpp
+msgctxt "Command"
+msgid "Usage Data Settings"
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Command]View Release Notes"
+#: ./extensions/extensiondescription.cpp
+msgctxt "Extensions"
+msgid "User Extension"
 msgstr ""
 
-#: .\extensions\extensionmanager.cpp
-msgid "[ExtensionManager]You need a newer version of $APPNAME."
+#: ./extensions/backupmanager.cpp
+msgctxt "BackupManager"
+msgid "Version"
 msgstr ""
 
-#: .\extensions\appupdater.cpp
-msgid "[Updater]Your version is up-to-date."
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "View Release Notes"
+msgstr ""
+
+#: ./extensions/appupdater.cpp
+msgctxt "Command"
+msgid "View Release Notes"
+msgstr ""
+
+#: ./extensions/extensionmanager.cpp
+msgctxt "ExtensionManager"
+msgid "You need a newer version of $APPNAME."
+msgstr ""
+
+#: ./extensions/appupdater.cpp
+msgctxt "Updater"
+msgid "Your version is up-to-date."
 msgstr ""
 

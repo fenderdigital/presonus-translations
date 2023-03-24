@@ -4,11 +4,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\midifile.cpp
-msgid "[MidiFile]Do you want to load General MIDI sounds for this file?"
+#: midifile.cpp
+msgctxt "MidiFile"
+msgid "Do you want to load General MIDI sounds for this file?"
 msgstr "이 파일에 General MIDI 사운드를 불러오시겠습니까?"
 
-#: .\midifile.cpp
-msgid "[MidiFile]Importing Track %(1)..."
+#: midifile.cpp
+msgctxt "MidiFile"
+msgid "Importing Track %(1)..."
 msgstr "%(1) 트랙 임포트하는 중..."
-

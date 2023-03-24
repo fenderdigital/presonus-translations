@@ -4,47 +4,69 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]%(1) did not respond. Please try again later."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "%(1) did not respond. Please try again later."
 msgstr "%(1) は応答しませんでした。再試行してください。"
 
-#: .\multitrackdocumentfilter.cpp
-msgid "[Multitrack]A package with the same identifier is already mounted."
+#: multitrackdocumentfilter.cpp
+msgctxt "Multitrack"
+msgid "A package with the same identifier is already mounted."
 msgstr "同じ識別子のパッケージがマウントされています。"
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]A user with this e-mail address is not known."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "A user with this e-mail address is not known."
 msgstr "このメールアドレスのユーザーは不明です。"
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]Checking with %(1)..."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "Checking with %(1)..."
 msgstr "%(1) で確認しています..."
 
-#: .\multitrackformat.cpp
-msgid "[FileType]Multitrack File"
+#: multitrackformat.cpp
+msgctxt "FileType"
+msgid "Multitrack File"
 msgstr "マルチトラックファイル"
 
-#: .\multitrackhandler.cpp
-msgid "[Multitrack]Scanning Multitrack Files..."
+#: multitrackhandler.cpp
+msgctxt "Multitrack"
+msgid "Scanning Multitrack Files..."
 msgstr "マルチトラックファイルをスキャンしています..."
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]The contest has expired."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "The contest has expired."
 msgstr "コンテスト受付は終了しました。"
 
-#: .\multitrackserver.cpp
-msgid "[Multitrack]The contest has not started yet."
+#: multitrackserver.cpp
+msgctxt "Multitrack"
+msgid "The contest has not started yet."
 msgstr "コンテスト受付は開始されていません。"
 
-#: .\multitrackdocumentfilter.cpp
-msgid "[Multitrack]The file \"%(1)\" will be copied to the multitrack folder:\n\n%(2)"
-msgstr "ファイル \"%(1)\" は次のマルチトラックフォルダーにコピーされます:\n\n%(2)"
+#: multitrackdocumentfilter.cpp
+msgctxt "Multitrack"
+msgid ""
+"The file \"%(1)\" will be copied to the multitrack folder:\n"
+"\n"
+"%(2)"
+msgstr ""
+"ファイル \"%(1)\" は次のマルチトラックフォルダーにコピーされます:\n"
+"\n"
+"%(2)"
 
-#: .\multitrackdocumentfilter.cpp
-msgid "[Multitrack]The file \"%(1)\" will be moved to the multitrack folder:\n\n%(2)"
-msgstr "ファイル \"%(1)\" は次のマルチトラックフォルダーに移動されます:\n\n%(2)"
+#: multitrackdocumentfilter.cpp
+msgctxt "Multitrack"
+msgid ""
+"The file \"%(1)\" will be moved to the multitrack folder:\n"
+"\n"
+"%(2)"
+msgstr ""
+"ファイル \"%(1)\" は次のマルチトラックフォルダーに移動されます:\n"
+"\n"
+"%(2)"
 
-#: .\multitrackproperties.cpp
-msgid "[Multitrack]Tracks"
+#: multitrackproperties.cpp
+msgctxt "Multitrack"
+msgid "Tracks"
 msgstr "トラック"
-

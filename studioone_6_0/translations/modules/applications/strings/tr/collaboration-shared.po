@@ -4,320 +4,592 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]%(1) could not be downloaded."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) accepted your invite to collaborate on %(2)."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]%(1) exceeds the allowed file size (%(2))."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) accepted your invite."
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Acquiring remote lock"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) added a timestamped comment to %(2)."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Action"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) commented on %(2)."
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid ""
-"[Collaboration]Another synchronization was started at %(1) by %(2) on %(3). "
-"Please wait until the synchronization is finished and try again."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "%(1) could not be downloaded."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Cancel"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "%(1) exceeds the allowed file size (%(2))."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) has invited you to collaborate on %(2) workspace!"
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) in workspace %(2)."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) left workspace %(2)."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) rejected your invite to collaborate on %(2)."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) rejected your invite."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) synced a new folder %(2) in %(3) workspace."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) synced a new folder."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) updated folder %(2) in %(3) workspace."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) uploaded %(2) to %(3) workspace."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) was changed locally and remote."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) will no longer have access to files, folders and collaboration features."
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "A synchronization for this folder is already running, please wait until it's finished."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Accept"
+msgstr ""
+
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Acquiring remote lock"
+msgstr ""
+
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Action"
+msgstr ""
+
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Another synchronization was started at %(1) by %(2) on %(3). Please wait until the synchronization is finished and try again."
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Cancel"
 msgstr "İptal"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Canceled"
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Canceled"
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Canceling..."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Canceling..."
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Checking remote location"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Checking remote location"
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Checking remote lock"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Checking remote lock"
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Collaboration"
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Collaboration"
 msgstr ""
 
-#: .\cloudsynctypes.cpp
-msgid "[Collaboration]Conflict"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Collaboration Invitation."
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Continue anyway"
+#: cloudsynctypes.cpp
+msgctxt "Collaboration"
+msgid "Conflict"
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Creator"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Continue anyway"
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Direction"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Creator"
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Downloading files..."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Direction"
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Element"
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Downloading files..."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Error while acessing local files"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Element"
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Everything is up-to-date"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Error while acessing local files"
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to create local folder."
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Everything is up-to-date"
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to create remote folder."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to create local folder."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to read %(1) for upload."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to create remote folder."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to receive files."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to read %(1) for upload."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to send files."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to receive files."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Failed to start remote connection"
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to send files."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to start remote session."
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Failed to start remote connection"
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to update files in workspace."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to start remote session."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to update local files."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to update files in workspace."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Failed to upload %(1)."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to update local files."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]File"
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Failed to upload %(1)."
+msgstr ""
+
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "File"
 msgstr "Dosya"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Finalizing file download..."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "File conflict while receiving."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Finalizing file upload..."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "File conflict while sending."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Folder"
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Finalizing file download..."
+msgstr ""
+
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Finalizing file upload..."
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Folder"
 msgstr "Klasör"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Join"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Folder %(1) was updated by %(2)."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Local sync information is corrupted"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Invitation accepted."
 msgstr ""
 
-#: .\cloudsynctypes.cpp
-msgid "[Collaboration]None"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Invitation could not be updated."
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Join"
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Join"
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Join Folder"
+msgstr ""
+
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Local sync information is corrupted"
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Local version was renamed to %(1)."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "New file added to %(1)."
+msgstr ""
+
+#: cloudsynctypes.cpp
+msgctxt "Collaboration"
+msgid "None"
 msgstr "Hiç"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Path"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Open"
+msgstr ""
+
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Path"
 msgstr "Yol"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Phase"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Phase"
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid ""
-"[Collaboration]Please select the workspace and folder you would like to "
-"join. You can start collaborating once all files have been downloaded."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Please select the workspace and folder you would like to join. You can start collaborating once all files have been downloaded."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid ""
-"[Collaboration]Please select the workspace and folder you would like to "
-"share to. All files from your local document folder will be uploaded."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Please select the workspace and folder you would like to share to. All files from your local document folder will be uploaded."
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Please wait until your synchronization is finished."
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Please wait until your synchronization is finished."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Preparing file download..."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Preparing file download..."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Preparing file upload.."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Preparing file upload.."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Progress"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Progress"
 msgstr "Durum"
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Reading file information from the workspace failed"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Reading file information from the workspace failed"
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Reading remote lock information"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Reading remote lock information"
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Receive"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Receive"
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Receive"
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Receive"
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Releasing remote lock"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Receive"
 msgstr ""
 
-#: .\cloudsynctypes.cpp
-msgid "[Collaboration]Replace"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Receiving %(1) finished successfully."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Reject"
+msgstr ""
+
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Releasing remote lock"
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Remote version was renamed to %(1)."
+msgstr ""
+
+#: cloudsynctypes.cpp
+msgctxt "Collaboration"
+msgid "Replace"
 msgstr "Yerine KoyDeğiştir"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Send"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Retry"
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Send"
 msgstr "Send"
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Send"
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Send"
 msgstr "Send"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Send complete."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Send complete."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Share"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Sending %(1) finished successfully."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Shared"
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Share"
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Show Status"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Shared"
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]Size"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Show"
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Show Status"
+msgstr ""
+
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "Size"
 msgstr "Boyut"
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Sync files"
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Some files could not be received successfully in %(1)."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Synchronization data is corrupted."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Some files could not be sent successfully in %(1)."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid ""
-"[Collaboration]The document is not in the user data location. Please note "
-"that everything in the folder '%(1)' will be shared with the document."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Sync files"
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]The document will be closed for this operation."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Synchronization complete."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]The document will be saved for this operation."
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Synchronization data is corrupted."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid ""
-"[Collaboration]The remote location cannot be reached. Please check your "
-"internet connection and the remote location (%(1)). If the remote location "
-"was permanently removed, you might want to unlink your document."
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Synchronization not complete."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid "[Collaboration]The remote workspace does not allow sending"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The document is not in the user data location. Please note that everything in the folder '%(1)' will be shared with the document."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid ""
-"[Collaboration]The upload size exceeds the available remote space (%(1))."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The document will be closed for this operation."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid ""
-"[Collaboration]This will download new and updated files from your "
-"collaborators."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The document will be saved for this operation."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid ""
-"[Collaboration]This will unlink your local copy and keep files in the remote "
-"location."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The local folder could not be found. Please join again or open your local folder for this collaboration to get the most recent version."
 msgstr ""
 
-#: .\snapshotcollector.cpp
-msgid ""
-"[Collaboration]This will upload new and updated files to share them with "
-"your collaborators."
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "The remote location cannot be reached. Please check your internet connection and the remote location (%(1)). If the remote location was permanently removed, you might want to unlink your document."
 msgstr ""
 
-#: .\cloudsynctypes.cpp
-msgid "[Collaboration]Transfer"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "The remote workspace does not allow sending"
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Unknown Computer"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "The upload size exceeds the available remote space (%(1))."
 msgstr ""
 
-#: .\cloudsynclock.cpp
-msgid "[Collaboration]Unknown User"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "This will download new and updated files from your collaborators."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Command]Unlink"
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "This will unlink your local copy and keep files in the remote location."
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Unlink document"
+#: snapshotcollector.cpp
+msgctxt "Collaboration"
+msgid "This will upload new and updated files to share them with your collaborators."
 msgstr ""
 
-#: .\snapshotsynchronizer.cpp
-msgid "[Collaboration]Uploading files..."
+#: cloudsynctypes.cpp
+msgctxt "Collaboration"
+msgid "Transfer"
 msgstr ""
 
-#: .\cloudcollaborationmanager.cpp
-msgid "[Collaboration]Would you like to proceed?"
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Unknown Computer"
+msgstr ""
+
+#: cloudsynclock.cpp
+msgctxt "Collaboration"
+msgid "Unknown User"
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Command"
+msgid "Unlink"
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Unlink document"
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Update in %(1)."
+msgstr ""
+
+#: snapshotsynchronizer.cpp
+msgctxt "Collaboration"
+msgid "Uploading files..."
+msgstr ""
+
+#: cloudcollaborationmanager.cpp
+msgctxt "Collaboration"
+msgid "Would you like to proceed?"
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "You accepted the invitation to workspace %(1)."
+msgstr ""
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "You were removed from workspace %(1). Contact the owner of the workspace for more information."
 msgstr ""
