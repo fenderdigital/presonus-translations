@@ -1,0 +1,22 @@
+PreSonus Software Localization Guide
+Copyright (c)2022 PreSonus Software Ltd. All Rights Reserved.
+
+INTRODUCTION
+
+PreSonus software products like Studio One can be localized for several locales via language packs. A language pack is basically a ZIP archive containing all resources for a certain language like strings used in menus and in the application windows and dialogs.
+
+String tables are based on the GNU gettext file formats. For more information on GNU gettext please refer to https://www.gnu.org/software/gettext/. Additionally, there are some text resources which need to be translated separately.
+
+GETTING STARTED
+
+The file and folder structure for a new language will be setup in the translations repository by PreSonus. The first place to look at are the string folders for your language. For Studio One version 6 and above they are located in the "translations/modules/<module>/strings/<language-code>" folders and contain all .po files for the given language that make up the main part of the translation effort. For prior versions they are located in the folder "translations/strings/<language-code>". 
+
+For Studio One, there are currently about 4000 strings which need to be translated. Additionally, it is required to translate the device descriptions found in "translations/resources/devices" and the EULA in "translations/eula".
+
+LOCALIZATION TOOLS
+
+You can use any software localization tool compatible with the .po file format. However, if you do not have a preferred translation workflow yet, we recommend using the CCL Localizer application available at https://ccl.dev/tools. Besides translation editing, it also enables you to build language packs on your local system for testing purpose. The prepared CCL Localizer project file for Studio One version 6 and above can be found in the path translations/projects/studioapp/studioapp.lzproject.
+
+DEPLOYMENT
+
+Language packs for our products are hosted on PreSonus Exchange (http://studioone.presonus.com/exchange/). The final step of preparing the installation file for your language pack extension will be done by PreSonus.

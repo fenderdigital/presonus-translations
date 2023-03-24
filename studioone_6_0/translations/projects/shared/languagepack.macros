@@ -1,0 +1,32 @@
+; Macro definitions for building Language Packs
+
+#beginMacro: copyTable
+
+setFilter: true
+loadFilter: ../../modules/$(module)/tables/$(table).in
+setOutputDir: ./$(TempDir)/$(LanguagePack)/tables/$(table)
+
+; Tables can reference .mo files across modules
+; We need to attempt to copy from all(!) module folders here
+; This currently isn't generic :(
+
+setInputDir: ../../modules/applications/strings/$(language)
+copyFolder
+setInputDir: ../../modules/ccl/strings/$(language)
+copyFolder
+setInputDir: ../../modules/extensions/strings/$(language)
+copyFolder
+setInputDir: ../../modules/frameworks/strings/$(language)
+copyFolder
+setInputDir: ../../modules/hardware/strings/$(language)
+copyFolder
+setInputDir: ../../modules/plugins/strings/$(language)
+copyFolder
+setInputDir: ../../modules/services/strings/$(language)
+copyFolder
+setInputDir: ../../modules/skins/strings/$(language)
+copyFolder
+
+resetFilter
+
+#endMacro

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocaleInfo	language="hu" title="magyar">
+	<String x:id="dateFormat" text="%int(3).%int(2).%int(1)"/>				<!-- 9.3.2008 -->
+	<String x:id="friendlyDateFormat" text="%(5), %(4) %int(3) %int(1)"/>	<!-- Sunday, March 9 2008 -->
+	<String x:id="timeFormat" text="%int(1:2):%int(2:2):%int(3:2)"/>		<!-- 01:42:00 -->
+	
+	<Attributes x:id="weekdays">
+		<Association key="Sun" value="vasárnap"/>
+		<Association key="Mon" value="hétfő"/>
+		<Association key="Tue" value="kedd"/>
+		<Association key="Wed" value="szerda"/>
+		<Association key="Thu" value="csütörtök"/>
+		<Association key="Fri" value="pentek"/>
+		<Association key="Sat" value="szombat"/>
+	</Attributes>
+	
+	<Attributes x:id="months">
+		<Association key="Jan" value="január"/>
+		<Association key="Feb" value="február"/>
+		<Association key="Mar" value="március"/>
+		<Association key="Apr" value="április"/>
+		<Association key="May" value="május"/>
+		<Association key="Jun" value="június"/>
+		<Association key="Jul" value="július"/>
+		<Association key="Aug" value="augusztus"/>
+		<Association key="Sep" value="szeptember"/>
+		<Association key="Oct" value="október"/>
+		<Association key="Nov" value="november"/>
+		<Association key="Dec" value="december"/>
+	</Attributes>
+</LocaleInfo>

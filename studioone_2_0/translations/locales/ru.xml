@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocaleInfo	language="ru" title="русский">
+	<String x:id="dateFormat" text="%int(3).%int(2).%int(1)"/>				<!-- 9.3.2008 -->
+	<String x:id="friendlyDateFormat" text="%(5), %(4) %int(3) %int(1)"/>	<!-- Sunday, March 9 2008 -->
+	<String x:id="timeFormat" text="%int(1:2):%int(2:2):%int(3:2)"/>		<!-- 01:42:00 -->
+	
+	<Attributes x:id="weekdays">
+		<Association key="Sun" value="воскресенье"/>
+		<Association key="Mon" value="понедельник"/>
+		<Association key="Tue" value="вторник"/>
+		<Association key="Wed" value="среда"/>
+		<Association key="Thu" value="четверг"/>
+		<Association key="Fri" value="пятница"/>
+		<Association key="Sat" value="суббота"/>
+	</Attributes>
+	
+	<Attributes x:id="months">
+		<Association key="Jan" value="январь"/>
+		<Association key="Feb" value="февраль"/>
+		<Association key="Mar" value="март"/>
+		<Association key="Apr" value="апрель"/>
+		<Association key="May" value="май"/>
+		<Association key="Jun" value="июнь"/>
+		<Association key="Jul" value="июль"/>
+		<Association key="Aug" value="август"/>
+		<Association key="Sep" value="сентябрь"/>
+		<Association key="Oct" value="октябрь"/>
+		<Association key="Nov" value="ноябрь"/>
+		<Association key="Dec" value="декабрь"/>
+	</Attributes>
+</LocaleInfo>

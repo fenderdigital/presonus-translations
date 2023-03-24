@@ -1,0 +1,1046 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\midi\miditimecode.cpp
+msgid "[MidiTimeCode]%(1) FPS"
+msgstr "%(1) FPS"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]%(1) mixer available in network"
+msgstr "ネットワーク上に %(1) つのミキサーがあります"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]%(1) mixers available in network"
+msgstr "ネットワーク上に %(1) つのミキサーがあります"
+
+#: .\audio\audiosetup.cpp
+msgid "[AudioSetup]%(1) samples"
+msgstr "%(1) サンプル"
+
+#: .\surfaces\editor\editcomponent.cpp
+msgid "[SurfaceEditor]%(1) to %(2)"
+msgstr "%(1) から %(2)"
+
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]%float(1:1) times faster than realtime"
+msgstr "リアルタイムより %float(1:1) 倍高速"
+
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]%float(1:1) times slower than realtime"
+msgstr "リアルタイムより %float(1:1) 倍低速"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]A device with this name already exists."
+msgstr "この名前のデバイスはすでに存在します。"
+
+#: .\base\automationunit.cpp
+msgid "[Automation]Add / Remove Parameters..."
+msgstr "パラメーターを追加/削除..."
+
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Add Bus Channel"
+msgstr "バスチャンネルを追加"
+
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Add Channel"
+msgstr "チャンネルを追加"
+
+#: .\music\setup\musicdevicedialog.cpp
+msgid "[MusicDeviceDialog]Add Device"
+msgstr "デバイスを追加"
+
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[MappingHandler]Add Device"
+msgstr "デバイスを追加"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Add Device:"
+msgstr "デバイスを追加:"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Add Effect:"
+msgstr "エフェクトを追加:"
+
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Add FX Channel"
+msgstr "FXチャンネルを追加"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[Command]Add FX Channel"
+msgstr "FXチャンネルを追加"
+
+#: .\framework\audio\insertfxdraghandler.cpp
+msgid "[AudioFX]Add FX on Channel \"%(1)\""
+msgstr "チャンネル \"%(1)\" にFXを追加"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[Command]Add Group Channel"
+msgstr "グループチャンネルを追加"
+
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Add Insert"
+msgstr "インサートを追加"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Add Instrument:"
+msgstr "インストゥルメントを追加:"
+
+#: .\audiomixer\setup\audiomixersetup.cpp
+msgid "[Command]Add Send"
+msgstr "センドを追加"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Add Send:"
+msgstr "センドを追加:"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[AudioClick]Add Sound..."
+msgstr "サウンドを追加..."
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]All"
+msgstr "すべて"
+
+#: .\musicmixer\musiciomanager.cpp
+msgid "[MusicDevices]All Inputs"
+msgstr "すべてのインプット"
+
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]An invalid signal occured."
+msgstr "無効な信号が生じました。"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Are you sure you want to move these channels to the Trash Bin?"
+msgstr "これらのチャンネルをゴミ箱に移動しますか？"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Are you sure you want to move this channel to the Trash Bin?"
+msgstr "このチャンネルをゴミ箱に移動しますか？"
+
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[MappingHandler]Assign %(1) to %(2) on %(3)"
+msgstr "%(1) を %(3) の %(2) へアサイン"
+
+#: .\surfaces\editor\editcomponent.cpp
+msgid "[SurfaceEditor]Assign Command..."
+msgstr "コマンドをアサイン..."
+
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[Command]Assign Current Parameter"
+msgstr "現在のパラメーターをアサイン"
+
+#: .\surfaces\editor\editcomponent.cpp
+msgid "[SurfaceEditor]Assign Parameter"
+msgstr "パラメーターをアサイン"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Audio"
+msgstr "オーディオ"
+
+#: .\mixerconsole\channelclassifier.cpp
+msgid "[Channels]Audio"
+msgstr "オーディオ"
+
+#: .\audiomixer\audiomixer.cpp
+msgid "[AudioMixer]Audio Channels"
+msgstr "オーディオチャンネル"
+
+#: .\audioeffects\audiofxpresethandler.cpp
+msgid "[FileType]Audio Effect Preset"
+msgstr "オーディオエフェクトプリセット"
+
+#: .\audioeffects\audiofxmanager.cpp
+msgid "[AudioEffectManager]Audio Effects"
+msgstr "オーディオエフェクト"
+
+#: .\audiomixer\audioiomanager.cpp
+msgid "[AudioIOManager]Audio I/O Manager"
+msgstr "オーディオI/Oマネージャー"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Audio I/O Setup"
+msgstr "オーディオI/O設定"
+
+#: .\audio\audiosetup.cpp
+msgid "[AudioSetup]Audio Setup"
+msgstr "オーディオ設定"
+
+#: .\audio\watchdogcomponent.cpp
+msgid "[Devices]Audio engine overload."
+msgstr "オーディオエンジンの過負荷です。"
+
+#: .\base\automationunit.cpp
+msgid "[Automation]Auto: Off"
+msgstr "オート: オフ"
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Automation"
+msgstr "オートメーション"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Autopunch"
+msgstr "オートパンチ"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Autopunch In"
+msgstr "オートパンチイン"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Autopunch Out"
+msgstr "オートパンチアウト"
+
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Bus"
+msgstr "バス"
+
+#: .\audiomixer\channels\audiogroupchannel.cpp
+#: .\mixerconsole\channelclassifier.cpp
+msgid "[Channels]Busses"
+msgstr "バス"
+
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]Button (on/off)"
+msgstr "ボタン（オン/オフ）"
+
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]Button (press/release)"
+msgstr "ボタン（押す/離す）"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]CH:"
+msgstr "CH:"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]CPU"
+msgstr "CPU"
+
+#: .\midi\midimonitor.cpp
+msgid "[MidiMonitor]Ch"
+msgstr "Ch"
+
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Channel"
+msgstr "チャンネル"
+
+#: .\mixerconsole\channellistview.cpp
+msgid "[MixerConsole]Channel #"
+msgstr "チャンネル#"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]Ck"
+msgstr "Ck"
+
+#: .\transport\metronome.cpp
+msgid "[Command]Click"
+msgstr "クリック"
+
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Clipping has occured. The signal was %float(1:2) dB over."
+msgstr "クリッピングが生じました。信号が %float(1:2) dB上回りました。"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Collapse"
+msgstr "折りたたむ"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]Configure..."
+msgstr "設定..."
+
+#: .\audiomixer\audiosendfolder.cpp .\audiomixer\setup\audiomixersetup.cpp
+#: .\mixerconsole\channelfilter.cpp .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Console"
+msgstr "コンソール"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Console"
+msgstr "コンソール"
+
+#: .\mixerconsole\channelfilter.cpp
+msgid "[ChannelFilter]Console Scenes"
+msgstr "コンソールシーン"
+
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]Control Surface"
+msgstr "コントロールサーフェス"
+
+#: .\surfaces\surfacemanager.cpp
+msgid "[SurfaceManager]Control Surface Manager"
+msgstr "コントロールサーフェスマネージャー"
+
+#: .\editor\paramselector.cpp
+msgid "[ParamSelector]Controller"
+msgstr "コントローラー"
+
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Cue mix Level"
+msgstr "キューミックスレベル"
+
+#: .\audiomixer\cuemix\cuemixfolder.cpp
+msgid "[CueMixSlot]Cue mix Pan"
+msgstr "キューミックスパン"
+
+#: .\transport\transportoptions.cpp
+msgid "[Command]Cursor follows Edit Position"
+msgstr "カーソルは編集位置に追従"
+
+#: .\midi\midimonitor.cpp
+msgid "[MidiMonitor]Description"
+msgstr "説明"
+
+#: .\music\musicdevicemanager.cpp
+msgid "[MusicDevices]Detected Device %(1)"
+msgstr "検出されたデバイス %(1)"
+
+#: .\studio\missingdevices.cpp
+msgid "[Studio]Device/Port"
+msgstr "デバイス/ポート"
+
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[Command]Devices"
+msgstr "デバイス"
+
+#: .\audio\audiosetup.cpp
+msgid "[AudioSetup]Double (64 Bit)"
+msgstr "ダブル（64ビット）"
+
+#: .\base\automationhandler.cpp
+msgid "[Automation]Edit %(1) Automation"
+msgstr "%(1) オートメーションを編集"
+
+#: .\music\setup\musicdevicedialog.cpp
+msgid "[MusicDeviceDialog]Edit Device"
+msgstr "デバイスを編集"
+
+#: .\surfaces\editor\mappinghandler.cpp
+msgid "[Command]Edit Device"
+msgstr "デバイスを編集"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Edit..."
+msgstr "編集..."
+
+#: .\mixerconsole\channelclassifier.cpp
+msgid "[Channels]Effects"
+msgstr "エフェクト"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Expand"
+msgstr "展開"
+
+#: .\music\musicdevicemanager.cpp
+msgid "[MusicDevices]External Devices"
+msgstr "外部デバイス"
+
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]FX"
+msgstr "FX"
+
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]Fader"
+msgstr "フェーダー"
+
+#: .\surfaces\editor\editcomponent.cpp
+msgid "[SurfaceEditor]Focus:"
+msgstr "フォーカス:"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Forward"
+msgstr "先へ進む"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Forward Bar"
+msgstr "小節単位で先へ進む"
+
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
+msgstr "Generic MIDIコントロールサーフェス、不明な機器に使用します。このデバイスモデルはMIDI Learn機能を搭載しています。"
+
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
+msgstr "Generic MIDIキーボード、不明な機器に使用します。このデバイスモデルはMIDI Learn機能を搭載しています。センドポートの接続は任意です。"
+
+#: .\surfaces\editor\editcomponent.cpp
+msgid "[SurfaceEditor]Global"
+msgstr "グローバル"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Global Mute"
+msgstr "グローバルミュート"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Global Solo"
+msgstr "グローバルソロ"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Goto Loop End"
+msgstr "ループエンドへ移動"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Goto Loop Start"
+msgstr "ループスタートへ移動"
+
+#: .\transport\transportpanel.cpp
+msgid "[Transport]Goto Time"
+msgstr "時間へ移動"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Goto Time"
+msgstr "時間へ移動"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Hide"
+msgstr "隠す"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Hide Channel"
+msgstr "チャンネルを隠す"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Hide Sources"
+msgstr "ソースを隠す"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Hide Sources"
+msgstr "ソースを隠す"
+
+#: .\midi\miditimecode.cpp
+msgid "[MidiTimeCode]Idle"
+msgstr "休止中です"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]In"
+msgstr "In"
+
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Input"
+msgstr "インプット"
+
+#: .\mixerconsole\channelclassifier.cpp
+msgid "[Channels]Inputs"
+msgstr "インプット"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Inserts"
+msgstr "インサート"
+
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]Instrument"
+msgstr "インストゥルメント"
+
+#: .\musicmixer\musictrackdevice.cpp
+msgid "[MusicTrackDevice]Instrument Channels"
+msgstr "インストゥルメントチャンネル"
+
+#: .\audiomixer\channels\audiosynthchannel.cpp
+#: .\mixerconsole\channelclassifier.cpp
+msgid "[Channels]Instruments"
+msgstr "インストゥルメント"
+
+#: .\audiosynths\audiosynthfolder.cpp
+msgid "[AudioSynth]Instruments"
+msgstr "インストゥルメント"
+
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]Keyboard"
+msgstr "キーボード"
+
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]Knob"
+msgstr "ノブ"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Large"
+msgstr "大"
+
+#: .\base\automationunit.cpp
+msgid "[Automation]Latch"
+msgstr "ラッチ"
+
+#: .\audioeffects\audiofxmonitor.cpp
+msgid "[PerformanceMonitor]Latency"
+msgstr "レーテンシー"
+
+#: .\mixerconsole\channellistview.cpp
+msgid "[MixerConsole]Levels"
+msgstr "レベル"
+
+#: .\surfaces\surfacedatapool.cpp
+msgid "[Surface]Loading Control Surface Data..."
+msgstr "コントロールサーフェスデータを読み込んでいます..."
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Loading Device: %(1)"
+msgstr "デバイスを読み込み中: %(1)"
+
+#: .\studio\environment.cpp
+msgid "[Environment]Loading Device: %(1)"
+msgstr "デバイスを読み込み中: %(1)"
+
+#: .\midi\midiengine.cpp
+msgid "[Devices]MIDI Engine reset requested!"
+msgstr "MIDIエンジンリセットが要求されました。"
+
+#: .\music\musicdevicemanager.cpp
+msgid "[MusicDevices]MIDI Port not found for Device %(1)!"
+msgstr "デバイス %(1) のMIDIポートが見つかりませんでした。"
+
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Main"
+msgstr "メイン"
+
+#: .\midi\midimonitor.cpp
+msgid "[MidiMonitor]Message"
+msgstr "メッセージ"
+
+#: .\audiomixer\audioclick.cpp
+msgid "[FileType]Metronome Preset"
+msgstr "メトロノームプリセット"
+
+#: .\audiomixer\audiochannel.cpp
+msgid "[AudioChannel]Mute"
+msgstr "ミュート"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Name"
+msgstr "名前"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]Name"
+msgstr "名前"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Narrow"
+msgstr "狭"
+
+#: .\editor\deviceslotselector.cpp
+msgid "[Command]Navigation"
+msgstr "ナビゲーション"
+
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]New Control Surface"
+msgstr "新規コントロールサーフェス"
+
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]New Instrument"
+msgstr "新規インストゥルメント"
+
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]New Keyboard"
+msgstr "新規キーボード"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Next Bank"
+msgstr "次のバンク"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Next Channel"
+msgstr "次のチャンネル"
+
+#: .\mixerconsole\channelfilter.cpp
+msgid "[Command]Next Scene"
+msgstr "次のシーン"
+
+#: .\audio\audioengine.cpp
+msgid "[Devices]No Audio Device"
+msgstr "オーディオデバイスなし"
+
+#: .\surfaces\editor\placementeditor.cpp
+msgid "[SurfacePlacement]No Control Surfaces installed which could be grouped."
+msgstr "グループ化できるコントロールサーフェスがインストールされていません。"
+
+#: .\midi\miditimecode.cpp
+msgid "[MidiTimeCode]No Input"
+msgstr "入力なし"
+
+#: .\studio\missingdevices.cpp
+msgid "[Studio]No devices are missing."
+msgstr "行方不明のデバイスはありません。"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]None"
+msgstr "なし"
+
+#: .\studio\portlist.cpp
+msgid "[PortList]None"
+msgstr "なし"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]Not connected"
+msgstr "接続されていません"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Open Channel"
+msgstr "チャンネルを開く"
+
+#: .\mixerconsole\channelclassifier.cpp
+msgid "[Channels]Outputs"
+msgstr "アウトプット"
+
+#: .\hardware\ucmixerconnector.cpp
+msgid "[UCMixerConnector]PLEASE UPDATE DEVICE FIRMWARE!"
+msgstr "デバイスのファームウェアを今すぐアップデートしてください。"
+
+#: .\editor\deviceslotselector.cpp
+msgid "[Command]Page Down Skip"
+msgstr "ページ下へ移動スキップ"
+
+#: .\editor\deviceslotselector.cpp
+msgid "[Command]Page Up Skip"
+msgstr "ページ上へ移動スキップ"
+
+#: .\audiomixer\audiochannel.cpp
+msgid "[AudioChannel]Pan"
+msgstr "パン"
+
+#: .\editor\paramselector.cpp
+msgid "[ParamSelector]Parameter"
+msgstr "パラメーター"
+
+#: .\editor\performancemonitor.cpp
+msgid "[PerformanceMonitor]Path"
+msgstr "パス"
+
+#: .\externaleffects\externaleffectcomponent.cpp
+msgid "[Pipeline]Pipeline plug-in init failure. The device buffersize does not match the processing buffersize. Please change your audio device setup (lock buffersize to hardware)."
+msgstr "Pipelineプラグイン初期化の失敗です。デバイスバッファーサイズが処理中のバッファーサイズに一致しません。オーディオデバイス設定を変更してください（バッファーサイズをハードウェアにロック）。"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Play from Loop Start"
+msgstr "ループスタートから再生"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]Please plug in your removable MIDI devices now and dismiss this message when finished..."
+msgstr "取り外し可能なMIDIデバイスを今すぐ接続し、完了したらこのメッセージを閉じてください..."
+
+#: .\midi\midimonitor.cpp
+msgid "[MidiMonitor]Port"
+msgstr "ポート"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]Port not found!"
+msgstr "ポートは見つかりませんでした。"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Post Fader"
+msgstr "ポストフェーダー"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Precount"
+msgstr "プリカウント"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Preroll"
+msgstr "プリロール"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Previous Bank"
+msgstr "前のバンク"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Previous Channel"
+msgstr "前のチャンネル"
+
+#: .\mixerconsole\channelfilter.cpp
+msgid "[Command]Previous Scene"
+msgstr "前のシーン"
+
+#: .\base\automationunit.cpp
+msgid "[Automation]Read"
+msgstr "リード"
+
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Realtime"
+msgstr "リアルタイム"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]Receive From"
+msgstr "受信元"
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Recent Parameters"
+msgstr "最近使ったパラメーター"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Record"
+msgstr "録音"
+
+#: .\mixer\recordchannel.cpp
+msgid "[ChannelRecordUnit]Record Enable Failed!"
+msgstr "録音スタンバイに失敗しました。"
+
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]Relative"
+msgstr "相対"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remote"
+msgstr "リモート"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Remove"
+msgstr "削除"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Remove"
+msgstr "削除"
+
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]Remove"
+msgstr "削除"
+
+#: .\base\automationhandler.cpp
+msgid "[Automation]Remove %(1) Automation"
+msgstr "%(1) オートメーションを削除"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Remove All"
+msgstr "すべてを削除"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Remove All"
+msgstr "すべてを削除"
+
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]Remove All"
+msgstr "すべてを削除"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Remove Channel"
+msgstr "チャンネルを削除"
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Remove Current Parameter"
+msgstr "現在のパラメーターを削除"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Rename Device"
+msgstr "デバイス名を変更"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Rename..."
+msgstr "名前を変更..."
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Replace Device:"
+msgstr "デバイスを置き換え:"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Replace Effect:"
+msgstr "エフェクトを置き換え:"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Replace FX Chain \"%(1)\""
+msgstr "FXチェーン \"%(1)\" を置き換え"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Replace Sends:"
+msgstr "センドを置換:"
+
+#: .\audio\audioengine.cpp
+msgid "[Devices]Reset requested by Audio Device!"
+msgstr "リセットがオーディオデバイスにより要求されました。"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Return to Start on Stop"
+msgstr "停止時にスタートに戻る"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Return to Zero"
+msgstr "ゼロに戻る"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Rewind"
+msgstr "巻戻し"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Rewind Bar"
+msgstr "小節単位で巻戻し"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]Saving Device: %(1)"
+msgstr "デバイスを保存中: %(1)"
+
+#: .\studio\environment.cpp
+msgid "[Environment]Saving Device: %(1)"
+msgstr "デバイスを保存中: %(1)"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Screen"
+msgstr "画面"
+
+#: .\mixerconsole\channelfilter.cpp
+msgid "[Command]Select Scene 1"
+msgstr "シーン1を選択"
+
+#: .\mixerconsole\channelfilter.cpp
+msgid "[Command]Select Scene 2"
+msgstr "シーン2を選択"
+
+#: .\mixerconsole\channelfilter.cpp
+msgid "[Command]Select Scene 3"
+msgstr "シーン3を選択"
+
+#: .\mixerconsole\channelfilter.cpp
+msgid "[Command]Select Scene 4"
+msgstr "シーン4を選択"
+
+#: .\mixerconsole\channelfilter.cpp
+msgid "[Command]Select Scene 5"
+msgstr "シーン5を選択"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Level"
+msgstr "センドレベル"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Mute"
+msgstr "センドミュート"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Send Pan"
+msgstr "センドパン"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]Send To"
+msgstr "送信先"
+
+#: .\music\musicdevicemanager.cpp
+msgid "[MusicDevices]Setup..."
+msgstr "設定..."
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Shift Loop"
+msgstr "ループをシフト"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Shift Loop Backwards"
+msgstr "ループを逆にシフト"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Show"
+msgstr "表示"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Show Channel"
+msgstr "チャンネルを表示"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Show Channel Editor"
+msgstr "チャンネルエディターを表示"
+
+#: .\base\automationhandler.cpp
+msgid "[Command]Show Current Parameter"
+msgstr "現在のパラメーターを表示"
+
+#: .\audiomixer\audiosendfolder.cpp
+msgid "[AudioSendSlot]Show Destination"
+msgstr "対象を表示"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Show Instrument Editor"
+msgstr "インストゥルメントエディターを表示"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Show Sources"
+msgstr "ソースを表示"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Show Sources"
+msgstr "ソースを表示"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Show Track"
+msgstr "トラックを表示"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Show Track"
+msgstr "トラックを表示"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Show in Console"
+msgstr "コンソールに表示"
+
+#: .\audiomixer\audioinsertfolder.cpp
+msgid "[AudioInsert]Sidechains"
+msgstr "サイドチェーン"
+
+#: .\audio\audiosetup.cpp
+msgid "[AudioSetup]Single (32 Bit)"
+msgstr "シングル（32ビット）"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[MixerConsole]Small"
+msgstr "小"
+
+#: .\audiomixer\setup\audioiosetup.cpp
+msgid "[AudioIOSetup]Some channels are still in use! Do you want to remove them anyway?"
+msgstr "いくつかのチャンネルはまだ使用中です。削除しますか？"
+
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Speed:"
+msgstr "スピード:"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Start"
+msgstr "スタート"
+
+#: .\audio\audioengine.cpp
+msgid "[Devices]Starting Audio Engine..."
+msgstr "オーディオエンジンを開始しています..."
+
+#: .\music\musicdevicemanager.cpp
+msgid "[MusicDevices]Starting External Devices..."
+msgstr "外部デバイスを開始しています..."
+
+#: .\hardware\hardwaremixermanager.cpp
+msgid "[Hardware]Starting Hardware Integration..."
+msgstr "ハードウェア統合を開始しています..."
+
+#: .\midi\midiengine.cpp
+msgid "[Devices]Starting MIDI Engine..."
+msgstr "MIDIエンジンを開始しています..."
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Stop"
+msgstr "停止"
+
+#: .\audioeffects\audiofxfolder.cpp
+msgid "[AudioFX]Store FX Chain..."
+msgstr "FXチェーンを保存..."
+
+#: .\audiomixer\audiochanneldescription.cpp
+msgid "[AudioMixer]Sub"
+msgstr "サブ"
+
+#: .\audio\audioengine.cpp
+msgid "[Devices]Switching to Audio Device %(1)..."
+msgstr "オーディオデバイス %(1) に切り替えています..."
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]Tc"
+msgstr "Tc"
+
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]Text Display"
+msgstr "テキストディスプレイ"
+
+#: .\music\setup\musicdevicesetup.cpp
+msgid "[MusicDeviceSetup]The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
+msgstr "デバイスモデル \"%(1)\" はもう使用されていません。ユーザーデバイスから削除しますか？"
+
+#: .\audio\audioengine.cpp
+msgid "[Devices]The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
+msgstr "オーディオデバイス %(1) を初期化できませんでした。ハードウェア設定を確認し、再試行してください。"
+
+#: .\audio\audioengine.cpp
+msgid "[Devices]The audio device %(1) has failed to start correctly before. Do you want to try it again?"
+msgstr "オーディオデバイス %(1) は前回正しく起動できませんでした。再試行しますか？"
+
+#: .\audio\watchdogcomponent.cpp
+msgid "[Devices]The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
+msgstr "オーディオエンジンの過負荷によりシステムが反応しなくなったため、オーディオエンジンは停止しました。"
+
+#: .\base\devicefolder.cpp
+msgid "[DeviceFolder]This device can not be removed right now!"
+msgstr "このデバイスは現在削除できません。"
+
+#: .\music\setup\musicdevicedialog.cpp
+msgid "[MusicDeviceDialog]This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
+msgstr "このポートはすでに使用中です。複数のデバイスを同一のポートに接続すると、MIDIイベントがコピーされて送信される原因となります。"
+
+#: .\midi\midimonitor.cpp
+msgid "[MidiMonitor]Time"
+msgstr "時間"
+
+#: .\transport\transportpanel.cpp
+msgid "[Transport]Time"
+msgstr "時間"
+
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Time elapsed:"
+msgstr "経過時間:"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Toggle Detached Console"
+msgstr "独立したコンソールを切り替え"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Toggle Loop"
+msgstr "ループを切り替え"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Toggle Size"
+msgstr "サイズを切り替え"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Toggle Sources"
+msgstr "ソースを切り替え"
+
+#: .\transport\transportpanel.cpp
+msgid "[Command]Toggle Start"
+msgstr "スタートを切り替え"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]Toggle Width"
+msgstr "幅を切り替え"
+
+#: .\audiomixer\audiorenderengine.cpp
+msgid "[AudioRenderEngine]Total: %(1) of %(2)"
+msgstr "合計:%(2) 中 %(1)"
+
+#: .\base\automationunit.cpp
+msgid "[Automation]Touch"
+msgstr "タッチ"
+
+#: .\surfaces\editor\controlcomponent.cpp
+msgid "[SurfaceControl]Transmit value"
+msgstr "値を送信"
+
+#: .\transport\metronome.cpp .\transport\transportoptions.cpp
+#: .\transport\transportpanel.cpp
+msgid "[Command]Transport"
+msgstr "トランスポート"
+
+#: .\transport\transportpanel.cpp
+msgid "[Transport]Transport"
+msgstr "トランスポート"
+
+#: .\surfaces\editor\editcomponent.cpp
+msgid "[SurfaceEditor]Unassign"
+msgstr "アサインを解除"
+
+#: .\music\setup\musicdeviceadddialog.cpp
+msgid "[MusicDeviceAddDialog]Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
+msgstr "外部MIDIインストゥルメントの再生とコントローラー動作の記録に使用します。受信ポートを接続する際は、キーボードデバイスによって同一のポートが使用される場合にイベントが重複しないよう注意してください。"
+
+#: .\studio\missingdevices.cpp
+msgid "[Studio]Used by"
+msgstr "使用元"
+
+#: .\video\videoplayer.cpp
+msgid "[VideoPlayer]Video Player"
+msgstr "ビデオプレイヤー"
+
+#: .\mixerconsole\channellistview.cpp
+msgid "[MixerConsole]View"
+msgstr "表示"
+
+#: .\mixerconsole\mixerconsole.cpp
+msgid "[Command]View"
+msgstr "表示"
+
+#: .\audiomixer\audiochannel.cpp
+msgid "[AudioChannel]Volume"
+msgstr "ボリューム"
+
+#: .\base\automationunit.cpp
+msgid "[Automation]Write"
+msgstr "ライト"
+
+#: .\music\musicdevicemanager.cpp
+msgid "[MusicDevices]Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "MIDI構成が変更されました。現在接続されていない取り外し可能なデバイスが原因であることが考えられます。\r\n\r\n外部デバイスを再接続しますか？"
+

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocaleInfo	language="tr" title="Türkçe">
+	<String x:id="dateFormat" text="%int(3).%int(2).%int(1)"/>				<!-- 9.3.2008 -->
+	<String x:id="friendlyDateFormat" text="%(5), %int(3). %(4) %int(1)"/>	<!-- Sonntag, 9. März 2008 -->
+	<String x:id="timeFormat" text="%int(1:2):%int(2:2):%int(3:2)"/>		<!-- 01:42:00 -->
+
+	<Attributes x:id="weekdays">
+		<Association key="Sun" value="pazar"/>
+		<Association key="Mon" value="pazartesi"/>
+		<Association key="Tue" value="salı"/>
+		<Association key="Wed" value="çarşamba"/>
+		<Association key="Thu" value="perşembe"/>
+		<Association key="Fri" value="cuma"/>
+		<Association key="Sat" value="cumartesi"/>
+	</Attributes>
+	
+	<Attributes x:id="months">
+		<Association key="Jan" value="ocak"/>
+		<Association key="Feb" value="şubat"/>
+		<Association key="Mar" value="mart"/>
+		<Association key="Apr" value="nisan"/>
+		<Association key="May" value="mayıs"/>
+		<Association key="Jun" value="haziran"/>
+		<Association key="Jul" value="temmuz"/>
+		<Association key="Aug" value="ağustos"/>
+		<Association key="Sep" value="eylül"/>
+		<Association key="Oct" value="ekim"/>
+		<Association key="Nov" value="kasım"/>
+		<Association key="Dec" value="aralık"/>
+	</Attributes>
+</LocaleInfo>

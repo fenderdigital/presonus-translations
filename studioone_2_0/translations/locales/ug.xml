@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocaleInfo	language="ug" title="Uyghur">
+	<String x:id="dateFormat" text="%int(3).%int(2).%int(1)"/>				<!-- 9.3.2008 -->
+	<String x:id="friendlyDateFormat" text="%(5), %int(3). %(4) %int(1)"/>	<!-- Sonntag, 9. März 2008 -->
+	<String x:id="timeFormat" text="%int(1:2):%int(2:2):%int(3:2)"/>		<!-- 01:42:00 -->
+
+	<Attributes x:id="weekdays">
+		<Association key="Sun" value="يەكشەنبە"/>
+		<Association key="Mon" value="دۈشەنبە"/>
+		<Association key="Tue" value="سەيشەنبە"/>
+		<Association key="Wed" value="چارشەنبە"/>
+		<Association key="Thu" value="پەيشەنبە"/>
+		<Association key="Fri" value="جۈمە"/>
+		<Association key="Sat" value="شەنبە"/>
+	</Attributes>	
+
+	<Attributes x:id="months">
+		<Association key="Jan" value="一月"/>
+		<Association key="Feb" value="二月"/>
+		<Association key="Mar" value="三月"/>
+		<Association key="Apr" value="四月"/>
+		<Association key="May" value="五月"/>
+		<Association key="Jun" value="六月"/>
+		<Association key="Jul" value="七月"/>
+		<Association key="Aug" value="八月"/>
+		<Association key="Sep" value="九月"/>
+		<Association key="Oct" value="十月"/>
+		<Association key="Nov" value="十一月"/>
+		<Association key="Dec" value="十二月"/>
+	</Attributes>
+</LocaleInfo>

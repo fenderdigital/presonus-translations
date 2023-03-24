@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]%(1) could not be downloaded."
+msgstr "%(1) をダウンロードできませんでした。"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]%(1) exceeds the allowed file size (%(2))."
+msgstr "%(1)が許容ファイルサイズ(%(2))を超えています。"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Acquiring remote lock"
+msgstr "リモートロックを取得しています"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]Action"
+msgstr "アクション"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Another synchronization was started at %(1) by %(2) on %(3). Please wait until the synchronization is finished and try again."
+msgstr "別の同期が%(1)で%(2)により%(3)で開始されました。同期が終了するまで待ち、再試行してください。"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Cancel"
+msgstr "キャンセル"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Canceled"
+msgstr "キャンセル済み"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Canceling..."
+msgstr "キャンセルしています…"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Checking remote location"
+msgstr "リモートロケーションを確認しています"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Checking remote lock"
+msgstr "リモートロックを確認しています"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Command]Collaboration"
+msgstr "コラボレーション"
+
+#: .\cloudsynctypes.cpp
+msgid "[Collaboration]Conflict"
+msgstr "競合"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Continue anyway"
+msgstr "続行"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]Creator"
+msgstr "作成者"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Direction"
+msgstr "指示"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Downloading files..."
+msgstr "ファイルをダウンロードしています…"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Element"
+msgstr "要素"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]Error while acessing local files"
+msgstr "ローカルファイルアクセス中のエラー"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]Everything is up-to-date"
+msgstr "すべて最新です"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Failed to create local folder."
+msgstr "ローカルフォルダーの作成に失敗しました。"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Failed to create remote folder."
+msgstr "リモートフォルダーの作成に失敗しました。"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Failed to read %(1) for upload."
+msgstr "アップロードのための %(1) の読み込みに失敗しました。"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Failed to receive files."
+msgstr "ファイルの受信に失敗しました。"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Failed to send files."
+msgstr "ファイルの送信に失敗しました。"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]Failed to start remote connection"
+msgstr "リモート接続の開始に失敗しました。"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Failed to start remote session."
+msgstr "リモートセッションの開始に失敗しました。"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Failed to update files in workspace."
+msgstr "ワークスペースのファイル更新に失敗しました。"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Failed to update local files."
+msgstr "ローカルファイルの更新に失敗しました。"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Failed to upload %(1)."
+msgstr "%(1) のアップロードに失敗しました。"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]File"
+msgstr "ファイル"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Finalizing file download..."
+msgstr "ファイルのダウンロードの最終処理をしています…"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Finalizing file upload..."
+msgstr "ファイルのアップロードの最終処理をしています…"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Folder"
+msgstr "フォルダー"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Command]Join"
+msgstr "参加"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]Local sync information is corrupted"
+msgstr "ローカル同期情報が破損しています"
+
+#: .\cloudsynctypes.cpp
+msgid "[Collaboration]None"
+msgstr "なし"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]Path"
+msgstr "パス"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Phase"
+msgstr "フェーズ"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Please select the workspace and folder you would like to join. You can start collaborating once all files have been downloaded."
+msgstr "参加したいワークスペースとフォルダーを選択してください。すべてのファイルのダウンロードが完了すると、コラボレーションを開始できます。"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Please select the workspace and folder you would like to share to. All files from your local document folder will be uploaded."
+msgstr "共有先にのワークスペースとフォルダーを選択してください。ローカルのドキュメントフォルダーにあるすべてのファイルがアップロードされます。"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Please wait until your synchronization is finished."
+msgstr "同期が完了するまでお待ちください。"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Preparing file download..."
+msgstr "ファイルのダウンロードの準備をしています…"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Preparing file upload.."
+msgstr "ファイルのアップロードの準備をしています…"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Progress"
+msgstr "進行状況: "
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]Reading file information from the workspace failed"
+msgstr "ワークスペースからのファイル情報の読み込みに失敗しました"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Reading remote lock information"
+msgstr "リモートロック情報を読み込んでいます"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Receive"
+msgstr "受信"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Command]Receive"
+msgstr "受信"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Releasing remote lock"
+msgstr "リモートロックを解除しています"
+
+#: .\cloudsynctypes.cpp
+msgid "[Collaboration]Replace"
+msgstr "置換"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Send"
+msgstr "送信"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Command]Send"
+msgstr "送信"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Send complete."
+msgstr "送信完了。"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Command]Share"
+msgstr "共有"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Shared"
+msgstr "共有済み"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Command]Show Status"
+msgstr "ステータスを表示"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]Size"
+msgstr "サイズ"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Sync files"
+msgstr "ファイルを同期"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Synchronization data is corrupted."
+msgstr "同期データが破損しています。"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]The document is not in the user data location. Please note that everything in the folder '%(1)' will be shared with the document."
+msgstr "ドキュメントがユーザーデータの場所にありません。フォルダー '%(1)' にあるものはすべてドキュメントと共有されますのでご注意ください。"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]The document will be closed for this operation."
+msgstr "この操作のためにドキュメントは閉じられます。"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]The document will be saved for this operation."
+msgstr "この操作のためにドキュメントは保存されます。"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]The remote location cannot be reached. Please check your internet connection and the remote location (%(1)). If the remote location was permanently removed, you might want to unlink your document."
+msgstr "リモートロケーションに到達できません。インターネット接続とリモートロケーションを確認してください（%(1)）。リモートロケーションが完全に削除されている場合、ドキュメントのリンクを解除することをおすすめします。"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]The remote workspace does not allow sending"
+msgstr "リモートワークスペースが送信を許可しません"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]The upload size exceeds the available remote space (%(1))."
+msgstr "アップロードサイズが利用可能なリモートスペース（%(1)）を超えています。"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]This will download new and updated files from your collaborators."
+msgstr "コラボレーターの新規ファイルや更新されたファイルがダウンロードされます。"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]This will unlink your local copy and keep files in the remote location."
+msgstr "ローカルコピーのリンクが解除され、リモートロケーションにファイルが保持されます。"
+
+#: .\snapshotcollector.cpp
+msgid "[Collaboration]This will upload new and updated files to share them with your collaborators."
+msgstr "コラボレーターの新規ファイルや更新されたファイルがアップロードされ、コラボレーターと共有されます。"
+
+#: .\cloudsynctypes.cpp
+msgid "[Collaboration]Transfer"
+msgstr "転送"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Unknown Computer"
+msgstr "不明なコンピューター"
+
+#: .\cloudsynclock.cpp
+msgid "[Collaboration]Unknown User"
+msgstr "不明なユーザー"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Command]Unlink"
+msgstr "リンクを解除"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Unlink document"
+msgstr "ドキュメントのリンクを解除"
+
+#: .\snapshotsynchronizer.cpp
+msgid "[Collaboration]Uploading files..."
+msgstr "ファイルをアップロードしています…"
+
+#: .\cloudcollaborationmanager.cpp
+msgid "[Collaboration]Would you like to proceed?"
+msgstr "続行しますか？"
+

@@ -1,0 +1,2363 @@
+msgid ""
+msgstr ""
+"Last-Translator:  <translator name>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\song\publisherselector.cpp
+msgid "[Engine]\"%(1)\" does not support the selected file format."
+msgstr "\"%(1)\" nie obsługuje wybranego formatu pliku."
+
+#: .\automationediting\paramdraghandler.cpp
+msgid "[Automation]\"%(1)\" is already automated"
+msgstr "\"%(1)\" ma już ustawioną automatykę"
+
+#: .\music\musicclip.cpp
+msgid "[MusicClip]%(1) beats"
+msgstr "%(1) bitów"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]%(1) dB (Diff: %(2) dB)"
+msgstr "%(1) dB (Różnica: %(2) dB)"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]%(1) files are missing."
+msgstr "%(1) brakujących plików."
+
+#: .\music\musicclip.cpp
+msgid "[MusicClip]%(1) notes"
+msgstr "%(1) nut"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]%(2) files were found in %(1)"
+msgstr "Znaleziono %(2) plików w %(1)"
+
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Empty)"
+msgstr "(Puste)"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit](Enter Part)"
+msgstr "(wprowadź partię)"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit](Leave Part)"
+msgstr "(pozostaw partię)"
+
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer](Muted)"
+msgstr "(Wyciszone)"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit](Shared Copy)"
+msgstr "(kopia współzależna)"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles](not used)"
+msgstr "(nieużywane)"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes](not used)"
+msgstr "(nieużywane)"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]1 file is missing."
+msgstr "1 brakujący plik."
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]1 file was found in %(1)"
+msgstr "Znaleziono 1 plik w %(1)"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[EditGroups]A Group with this name already exists."
+msgstr "Grupa o tej nazwie już istnieje."
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Activate Layer"
+msgstr "Aktywuj warstwę"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Activate Layer"
+msgstr "Aktywuj warstwę"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Activate Layer"
+msgstr "Aktywuj warstwę"
+
+#: .\automationediting\automationtrackcomponent.cpp
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Automation]Add / Remove..."
+msgstr "Dodaj / Usuń..."
+
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Add Automation"
+msgstr "Dodaj automatykę"
+
+#: .\audioediting\foldertrackaudiobus.cpp
+msgid "[Engine]Add Bus Channel"
+msgstr "Dodaj kanał szyny"
+
+#: .\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Add Event FX"
+msgstr "Dodaj FX obiektu"
+
+#: .\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Add FX on %(1):"
+msgstr "Dodaj FX na %(1):"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Add Layer"
+msgstr "Dodaj warstwę"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Add Layer"
+msgstr "Dodaj warstwę"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Add Layer"
+msgstr "Dodaj warstwę"
+
+#: .\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Add Send:"
+msgstr "Dodaj wysyłkę:"
+
+#: .\base\model\editfunctions.cpp
+msgid "[Engine:EditFunctions]Add Track"
+msgstr "Dodaj ścieżkę"
+
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Automation]Add..."
+msgstr "Dodaj..."
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Already in Pool:"
+msgstr "Już w puli:"
+
+#: .\audio\audioeventtheme.cpp
+msgid "[Engine]Analyzing..."
+msgstr "Analiza..."
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Apply Audio Bend"
+msgstr "Zastosuj Audio Bend"
+
+#: .\pool\mediapoolnodes.cpp
+msgid ""
+"[PoolNodes]Are you sure you want to delete all attachments of this clip?\n"
+"\n"
+"This action can not be undone."
+msgstr "Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n\nTo działanie jest nieodwracalne."
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Arm"
+msgstr "Nagrywanie i monitoring"
+
+#: .\base\media\mediaattachment.cpp
+msgid "[MediaPool]Attachment"
+msgstr "Załącznik"
+
+#: .\base\media\mediaattachment.cpp
+msgid "[MediaPool]Attachments"
+msgstr "Załączniki"
+
+#: .\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Audio"
+msgstr "Audio"
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[EditAddIn]Audio Bend"
+msgstr "Audio Bend"
+
+#: .\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Audio Bend"
+msgstr "Audio Bend"
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Audio Export"
+msgstr "Eksportuj audio"
+
+#: .\editing\monitorfollower.cpp
+msgid "[Command]Audio Input follows Selection"
+msgstr "Włącz nagrywanie i monitoring po zaznaczeniu ścieżki audio"
+
+#: .\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Audio Parts"
+msgstr "Partie audio"
+
+#: .\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Audio Processing"
+msgstr "Przetwarzanie audio"
+
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Automation"
+msgstr "Automatyka"
+
+#: .\automationediting\automationtrackcomponent.cpp
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Automation"
+msgstr "Automatyka"
+
+#: .\audioediting\audioinspector.cpp
+msgid "[TempoFormatter]Beats"
+msgstr "Bity"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Track]Beats"
+msgstr "Bity"
+
+#: .\application\musicedit\musicbouncedialog.cpp
+msgid "[MusicBounceDialog]Bounce Instrument Parts"
+msgstr "Wygeneruj audio z partii instrumentów"
+
+#: .\application\audioedit\audiobouncetask.cpp
+msgid "[AudioEdit]Bounce Selection"
+msgstr "Wygeneruj audio z zaznaczenia"
+
+#: .\application\musicedit\musicbouncetask.cpp
+msgid "[MusicPartEdit]Bounce Selection"
+msgstr "Wygeneruj audio z zaznaczenia"
+
+#: .\application\audioedit\audiobouncetask.cpp
+msgid "[AudioEdit]Bounce To New Track"
+msgstr "Wygeneruj na nową ścieżkę"
+
+#: .\audio\audioeventtheme.cpp
+msgid "[Engine]Building Preview..."
+msgstr "Podgląd budowania..."
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Event Order"
+msgstr "Zmień kolejność obiektów"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Event Time Format"
+msgstr "Zmień format czasu obiektu"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Layers Follow"
+msgstr "Edycja wpływa na warstwy"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Play Mode"
+msgstr "Zmień tryb odtwarzania"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Timestretch/Pitchshift Method"
+msgstr "Zmień metodę rozciągania/zmiany wysokości"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Change Track Time Format"
+msgstr "Zmień format ścieżki czasu"
+
+#: .\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]Channel \"%(1)\""
+msgstr "Kanał \"%(1)\""
+
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer]Channels"
+msgstr "Kanały"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Click+Drag Parameter"
+msgstr "Kliknij+przeciągnij parametr"
+
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Colorize Automation"
+msgstr "Pokoloruj automatykę"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Colorize Event"
+msgstr "Pokoloruj obiekt"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Colorize Events"
+msgstr "Pokoloruj obiekty"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Console"
+msgstr "Konsoleta"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[Command]Convert Files"
+msgstr "Konwertuj pliki"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Convert Files..."
+msgstr "Konwertuj pliki..."
+
+#: .\application\musicloop\loopextension.cpp
+msgid "[Browser]Convert to Audioloop"
+msgstr "Konwertuj do pętli audio"
+
+#: .\application\musicloop\loopextension.cpp
+msgid "[Browser]Convert to Wave File"
+msgstr "Konwertuj do pliku Wave"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Converting Files"
+msgstr "Konwertowanie plików"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Copy"
+msgstr "Kopiuj"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Event"
+msgstr "Kopiuj obiekt"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Copy Events"
+msgstr "Kopiuj obiekty"
+
+#: .\pool\mediapoolcomponent.cpp
+msgid "[Command]Copy External Files"
+msgstr "Kopiuj zewnętrzne pliki"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Copy External Files..."
+msgstr "Kopiuj zewnętrzne pliki..."
+
+#: .\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Copying external files"
+msgstr "Kopiowanie zewnętrznych plików"
+
+#: .\song\songcontroller.cpp
+msgid "[Song]Could not import file!"
+msgstr "Nie można zaimportować pliku!"
+
+#: .\base\documentrenamer.cpp
+msgid ""
+"[Documents]Could not rename %(1)!\n"
+"\n"
+"The file is in use."
+msgstr "Nie można zmienić nazwy %(1)!\n\nPlik jest w użyciu."
+
+#: .\base\documentrenamer.cpp
+msgid ""
+"[Documents]Could not rename the folder %(1)!\n"
+"\n"
+"A file in this folder is in use."
+msgstr "Nie można zmienić nazwy folderu %(1)!\n\nPlik z tego folder jest w użyciu."
+
+#: .\automationediting\paramdraghandler.cpp
+msgid ""
+"[Automation]Create \"%(1)\" Automation\n"
+"on %(2)"
+msgstr "Utwórz automatykę \"%(1)\"\nna %(2)"
+
+#: .\musicediting\partautomationdraghandler.cpp
+msgid "[Automation]Create \"%(1)\" Part Automation"
+msgstr "Utwórz partię automatyki \"%(1)\""
+
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Create Autofades"
+msgstr "Auto-zanikanie i narastanie"
+
+#: .\automationediting\paramdraghandler.cpp
+msgid "[Automation]Create Automation"
+msgstr "Utwórz automatykę"
+
+#: .\application\audioedit\audiocrossfadetask.cpp
+msgid "[AudioEdit]Create Crossfades"
+msgstr "Utwórz przejście"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Create Ranges"
+msgstr "Utwórz zakresy"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Create Ranges on Tracks"
+msgstr "Utwórz zakresy na ścieżkach"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Date"
+msgstr "Data"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Video]Default Size"
+msgstr "Domyślny rozmiar"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Delete"
+msgstr "Usuń"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Delete Attachments"
+msgstr "Usuń załączniki"
+
+#: .\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Delete Bend Marker"
+msgstr "Usuń marker Audio Bend"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Delete Event"
+msgstr "Usuń obiekt"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Delete Events"
+msgstr "Usuń obiekty"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Delete File permanently"
+msgstr "Usuń trwale plik"
+
+#: .\song\songmarker.cpp
+msgid "[Marker]Delete Marker"
+msgstr "Usuń marker"
+
+#: .\editing\insertsilencetask.cpp .\editing\tracklistcomponent.cpp
+msgid "[Edit]Delete Time"
+msgstr "Usuń czas"
+
+#: .\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Deleting recorded files"
+msgstr "Usuwanie nagranych plików"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Deselect All on Tracks"
+msgstr "Odznacz wszystko na ścieżkach"
+
+#: .\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Detect Transients"
+msgstr "Wykryj transjenty"
+
+#: .\automationediting\automationdialog.cpp
+msgid "[Automation]Device"
+msgstr "Urządzenie"
+
+#: .\song\songdocument.cpp
+msgid "[Engine]Devices"
+msgstr "Urządzenia"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Display: Off"
+msgstr "Niewidoczna"
+
+#: .\application\audioedit\audioparttasks.cpp
+msgid "[AudioEdit]Dissolve Audio Part"
+msgstr "Rozdziel partię audio"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Dissolve Group"
+msgstr "Rozwiąż grupę"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[Command]Dissolve Group"
+msgstr "Rozwiąż grupę"
+
+#: .\song\publisherselector.cpp
+msgid "[Engine]Do not publish"
+msgstr "Nie publikuj"
+
+#: .\pool\mediapoolfunctions.cpp
+msgid ""
+"[MediaPoolFunctions]Do you want to copy these external files to the Media "
+"Folder?"
+msgstr "Czy chcesz skopiować te zewnętrzne pliki do folderu Media?"
+
+#: .\audio\audiocache.cpp
+msgid ""
+"[AudioCache]Do you want to delete all unused temporary audio files in cache "
+"folder?"
+msgstr "Czy chcesz usunąć wszystkie nieużywane, tymczasowe pliki audio z folderu pamięci podręcznej?"
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported file?"
+msgstr "Czy chcesz usunąć wyeksportowany plik?"
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Do you want to delete the exported files?"
+msgstr "Czy chcesz usunąć wyeksportowane pliki?"
+
+#: .\pool\mediapoolfunctions.cpp
+msgid ""
+"[MediaPoolFunctions]Do you want to delete the files that were recorded or "
+"created since the last time you saved?"
+msgstr "Czy chcesz usunąć wszystkie pliki, które zostały nagrane lub utworzone od czasu ostatniego zapisu?"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Video]Do you want to extract the audio to a new track?"
+msgstr "Czy chcesz wyodrębnić audio na nową ścieżkę?"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Do you want to remove all occurrences of these clips?"
+msgstr "Czy chcesz usunąć wszystkie wystąpienia tych klipów?"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Do you want to remove all occurrences of this clip?"
+msgstr "Czy chcesz usunąć wszystkie wystąpienia tego klipu?"
+
+#: .\musicediting\musicenvelopedialog.cpp
+msgid "[Automation]Do you want to remove these parameters from all parts?"
+msgstr "Czy chcesz usunąć te parametry z wszystkich partii?"
+
+#: .\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]Do you want to remove these unused files?"
+msgstr "Czy chcesz usunąć nieużywane pliki?"
+
+#: .\musicediting\musicenvelopedialog.cpp
+msgid "[Automation]Do you want to remove this parameter from all parts?"
+msgstr "Czy chcesz usunąć ten parametr z wszystkich partii?"
+
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Do you want to replace the instrument %(1)?"
+msgstr "Czy chcesz zastąpić instrument %(1)?"
+
+#: .\editing\mediatrackcontroller.cpp
+msgid "[MediaTrack]Don't follow"
+msgstr "Ignoruj"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Video]Double Size"
+msgstr "Podwójny rozmiar"
+
+#: .\web\webeventpainter.cpp
+msgid "[Engine]Download finished"
+msgstr "Zakończono pobieranie"
+
+#: .\web\webeventpainter.cpp
+msgid "[Engine]Downloading..."
+msgstr "Pobieranie..."
+
+#: .\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]Drive full"
+msgstr "Pełny dysk"
+
+#: .\audio\audiotrackrecorder.cpp
+msgid ""
+"[Record]Dropouts occured during record. The drive used for recording might "
+"not be fast enough. Please consult the operating manual for advice on disc "
+"performance."
+msgstr "Wystąpiły przerwy podczas nagrywania. Dysk twardy może być za wolny. Przeczytaj porady dotyczące wydajności dysku zawarte w naszym podręczniku pomocy."
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Duplicate"
+msgstr "Powiel"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Layer"
+msgstr "Powiel warstwę"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Duplicate Layer"
+msgstr "Powiel warstwę"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Duplicate Layer"
+msgstr "Powiel warstwę"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Layers"
+msgstr "Powiel warstwę"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Track"
+msgstr "Powiel ścieżkę"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Edit]Duplicate Track"
+msgstr "Powiel ścieżkę"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Track with Events"
+msgstr "Powiel ścieżkę z obiektami"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Tracks"
+msgstr "Powiel ścieżki"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Edit]Duplicate Tracks"
+msgstr "Powiel ścieżki"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Duplicate Tracks with Events"
+msgstr "Powiel ścieżki z obiektami"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Duplicate with Events"
+msgstr "Powiel z obiektami"
+
+#: .\audioediting\audiobendeditlayer.cpp .\editing\tracklistcomponent.cpp
+msgid "[Command]Edit"
+msgstr "Edytuj"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Edit Fade Length"
+msgstr "Edytuj długość zanikania"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Edit Fade Length & Type"
+msgstr "Edytuj długość i typ zanikania"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Edit Fade Type"
+msgstr "Edytuj typ zanikania"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Edit Level"
+msgstr "Edytuj poziom"
+
+#: .\editing\markereditlayer.cpp
+msgid "[Edit]Edit Name"
+msgstr "Edytuj nazwę"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Track]Edit Track"
+msgstr "Edytuj ścieżkę"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Automation]Edit Value"
+msgstr "Edytuj wartość"
+
+#: .\base\model\markertrack.cpp
+msgid "[Marker]End"
+msgstr "Koniec"
+
+#: .\base\envelopes\enveloperegion.cpp
+msgid "[Engine]Envelopes"
+msgstr "Obwiednie"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Events]Event"
+msgstr "Obiekt"
+
+#: .\editing\eventinspector.cpp
+msgid "[EventInspector]Event Color"
+msgstr "Kolor obiektu"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Track]Expand Envelopes"
+msgstr "Rozwiń obwiednie"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Expand Envelopes"
+msgstr "Rozwiń obwiednie"
+
+#: .\editing\foldertrackcomponent.cpp
+msgid "[Track]Expand Folder Track"
+msgstr "Rozwiń ścieżkę folderu"
+
+#: .\editing\foldertrackcomponent.cpp
+msgid "[Command]Expand Folder Track"
+msgstr "Rozwiń ścieżkę folderu"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Track]Expand Layers"
+msgstr "Rozwiń warstwy"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Expand Layers"
+msgstr "Rozwiń warstwy"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Exponential"
+msgstr "Wykładnicze"
+
+#: .\application\musicloop\loopedittasks.cpp
+msgid "[Engine]Export Audioloop"
+msgstr "Eksportuj pętlę audio"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Export Mixdown"
+msgstr "Eksportuj pełny miks"
+
+#: .\application\musicloop\loopedittasks.cpp
+msgid "[Engine]Export Musicloop"
+msgstr "Eksportuj pętlę muzyczną"
+
+#: .\application\musicedit\musicexporttask.cpp
+msgid "[MusicPartEdit]Export Parts to MIDI File"
+msgstr "Eksportuj partie do pliku MIDI"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Export Stems"
+msgstr "Eksportuj częściowy miks"
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Exporting..."
+msgstr "Eksportowanie..."
+
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer]Exporting:"
+msgstr "Eksportowanie:"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Extract Audio"
+msgstr "Wyodrębnij audio"
+
+#: .\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Extract Audio to %(1):"
+msgstr "Wyodrębnij audio na %(1):"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Video]Extracted Audio Track"
+msgstr "Ścieżka wyodrębnionego audio"
+
+#: .\videoediting\audioextractor.cpp
+msgid "[Video]Extracting Audio"
+msgstr "Wyodrębnianie audio"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Fade-in"
+msgstr "Narastanie"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Fade-out"
+msgstr "Zanikanie"
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Failed to export audio file."
+msgstr "Nie udało się wyeksportować pliku audio."
+
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer]Failed to export audio file."
+msgstr "Nie udało się wyeksportować pliku audio."
+
+#: .\audio\audioeventtheme.cpp
+msgid "[Engine]File not found!"
+msgstr "Nie można odnaleźć pliku!"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Fine"
+msgstr "Precyzyjnie"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]First Event"
+msgstr "Do pierwszego obiektu"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]First Event Extend"
+msgstr "Do pierwszego obiektu z zaznaczeniem"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]First Track"
+msgstr "Do pierwszej ścieżki"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]First Track Extend"
+msgstr "Do pierwszej ścieżki z zaznaczeniem"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Fit Timeline to Contents"
+msgstr "Dopasuj linię czasu do zawartości"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Fit Timeline to Contents"
+msgstr "Dopasuj linię czasu do zawartości"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Flat"
+msgstr "Lista"
+
+#: .\editing\mediatrackcontroller.cpp
+msgid "[MediaTrack]Follow"
+msgstr "Tempo utworu"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Format"
+msgstr "Format"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Events]General operations for events"
+msgstr "Główne działania dla obiektów"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Goto Next Marker"
+msgstr "Przejdź do następnego markera"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Goto Previous Marker"
+msgstr "Przejdź do poprzedniego markera"
+
+#: .\base\model\editgroups.cpp
+msgid "[EditGroups]Group"
+msgstr "Grupa"
+
+#: .\editing\tracklistinspector.cpp
+msgid "[Engine]Group"
+msgstr "Grupa"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[EditGroups]Group Selected Tracks"
+msgstr "Zgrupuj wybrane ścieżki"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[Command]Group Selected Tracks"
+msgstr "Zgrupuj wybrane ścieżki"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Group Tracks"
+msgstr "Grupa ścieżek"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Video]Half Size"
+msgstr "Połowa rozmiaru"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Command]Hide"
+msgstr "Ukryj"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Hide \"%(1)\""
+msgstr "Ukryj \"%(1)\""
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Hide Layer"
+msgstr "Ukryj warstwę"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Track]Hide Track"
+msgstr "Ukryj ścieżkę"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Image"
+msgstr "Obraz"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Import File"
+msgstr "Importuj plik"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Import File"
+msgstr "Importuj plik"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Import Files"
+msgstr "Importuj pliki"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Import Files into Pool:"
+msgstr "Importuj pliki do puli:"
+
+#: .\video\videofunctions.cpp
+msgid "[Video]Import Video"
+msgstr "Importuj wideo"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Import Video"
+msgstr "Importuj wideo"
+
+#: .\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Import Video"
+msgstr "Importuj wideo"
+
+#: .\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Import Video and extract Audio"
+msgstr "Importuj wideo i wyodrębnij audio"
+
+#: .\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Import Video and extract Audio to %(1):"
+msgstr "Importuj wideo i wyodrębnij audio na %(1):"
+
+#: .\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Import Video:"
+msgstr "Importuj wideo:"
+
+#: .\pool\poolimportextension.cpp
+msgid "[Browser]Import to Pool"
+msgstr "Importuj do puli"
+
+#: .\audio\audiocliphandler.cpp
+msgid "[AudioClipImporter]Importing..."
+msgstr "Importowanie..."
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Input Quantize"
+msgstr "Kwantyzacja wejścia"
+
+#: .\base\model\editfunctions.cpp
+msgid "[Engine:EditFunctions]Insert"
+msgstr "Wstaw"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Insert"
+msgstr "Wstaw"
+
+#: .\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Insert Bend Marker"
+msgstr "Wstaw marker Audio Bend"
+
+#: .\audioediting\audiobendeditlayer.cpp
+msgid "[Command]Insert Bend Marker"
+msgstr "Wstaw marker Audio Bend"
+
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Insert Instrument on %(1):"
+msgstr "Wstaw instrument do %(1):"
+
+#: .\base\model\editfunctions.cpp
+msgid "[Engine:EditFunctions]Insert Marker"
+msgstr "Wstaw marker"
+
+#: .\song\songmarker.cpp
+msgid "[Marker]Insert Marker"
+msgstr "Wstaw marker"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Insert Named"
+msgstr "Wstaw z nazwą"
+
+#: .\editing\tracklisteditmodel2.cpp
+msgid "[Events]Insert Points"
+msgstr "Wstaw punkty"
+
+#: .\editing\insertsilencetask.cpp .\editing\tracklistcomponent.cpp
+msgid "[Edit]Insert Silence"
+msgstr "Wstaw ciszę"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Edit]Insert Track"
+msgstr "Wstaw ścieżkę"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Edit]Insert Tracks"
+msgstr "Wstaw ścieżki"
+
+#: .\editing\eventdraghandler.cpp
+msgid "[Edit]Insert on Same Track"
+msgstr "Wstaw na tej samej ścieżce"
+
+#: .\editing\monitorfollower.cpp
+msgid "[Command]Instrument Input follows Selection"
+msgstr "Włącz nagrywanie i monitoring po zaznaczeniu ścieżki instrumentu"
+
+#: .\musicediting\musicparttask.cpp
+msgid "[MusicPartEdit]Instrument Parts"
+msgstr "Partie instrumentu"
+
+#: .\application\musicloop\musicloopdraghandler.cpp
+msgid "[MusicLoopDragHandler]Instrument: %(1)"
+msgstr "Instrument: %(1)"
+
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Keep"
+msgstr "Zachowaj"
+
+#: .\editing\tracklist.cpp
+msgid "[TrackHeights]Large"
+msgstr "Duży"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Last Event"
+msgstr "Ostatni obiekt"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Last Event Extend"
+msgstr "Ostatni obiekt z zaznaczeniem"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Last Track"
+msgstr "Ostatnia ścieżka"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Last Track Extend"
+msgstr "Ostatnia ścieżka z zaznaczeniem"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Latch"
+msgstr "Latch"
+
+#: .\base\model\eventlayer.cpp
+msgid "[Engine]Layer"
+msgstr "Warstwa"
+
+#: .\base\model\eventlayer.cpp
+msgid "[Engine]Layers"
+msgstr "Warstwy"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Length"
+msgstr "Długość"
+
+#: .\editing\eventedithandler.cpp
+msgid "[EventEditHandler]Length: %(1)"
+msgstr "Długość: %(1)"
+
+#: .\editing\eventedithandler.cpp
+msgid "[EventEditHandler]Length: %(1)  Speedup: %(2)"
+msgstr "Długość: %(1)  Szybkość: %(2)"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Linear"
+msgstr "Liniowe"
+
+#: .\music\musicclip.cpp
+msgid "[MusicClip]Loading Performance: %(1)"
+msgstr "Wczytywanie wykonania: %(1)"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[Command]Locate File"
+msgstr "Znajdź plik"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Locate File..."
+msgstr "Znajdź plik..."
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Locate File..."
+msgstr "Znajdź plik..."
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Locate Missing Devices"
+msgstr "Znajdź brakujące urządzenia"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Locate Missing Files"
+msgstr "Znajdź brakujące pliki"
+
+#: .\pool\mediapoolcomponent.cpp
+msgid "[Command]Locate Missing Files"
+msgstr "Znajdź brakujące pliki"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Locate Missing Files..."
+msgstr "Znajdź brakujące pliki..."
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Locate file \"%(1)\""
+msgstr "Znajdź plik \"%(1)\""
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Located %(1) files"
+msgstr "Znaleziono %(1) plików"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Located file: %(1)"
+msgstr "Znaleziony plik: %(1)"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Location"
+msgstr "Lokalizacja"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Logarithmic"
+msgstr "Logarytmiczne"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Loop Record Mix"
+msgstr "Nagrywanie w pętli do miksu"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Loop Record Mix"
+msgstr "Nagrywanie w pętli do miksu"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Loop Record Note Erase"
+msgstr "Nagrywanie w pętli z zastępowaniem tych samych nut"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Loop Record Note Repeat"
+msgstr "Nagrywanie w pętli z powtarzaniem tych samych nut"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Loop Record Takes"
+msgstr "Nagrywanie w pętli do ujęć"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Loop Record Takes"
+msgstr "Nagrywanie w pętli do ujęć"
+
+#: .\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]MIDI"
+msgstr "MIDI"
+
+#: .\automationediting\automationtrackcomponent.cpp
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Manage Parameters"
+msgstr "Zarządzaj parametrami"
+
+#: .\audioediting\audioinspector.cpp
+msgid "[TempoFormatter]Map"
+msgstr "Mapuj"
+
+#: .\base\media\mediamarker.cpp
+msgid "[Engine:MediaMarker]Marker"
+msgstr "Marker"
+
+#: .\base\model\markertrack.cpp
+msgid "[Marker]Marker"
+msgstr "Marker"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Marker"
+msgstr "Markery"
+
+#: .\song\songmarker.cpp
+msgid "[Marker]Marker %(1)"
+msgstr "Marker %(1)"
+
+#: .\pool\mediapoolcomponent.cpp .\pool\mediapoolnodes.cpp
+msgid "[Command]Media"
+msgstr "Media"
+
+#: .\editing\tracklist.cpp
+msgid "[TrackHeights]Medium"
+msgstr "Średni"
+
+#: .\application\musicedit\musicmergetask.cpp
+msgid "[MusicPartEdit]Merge Events"
+msgstr "Scal obiekty"
+
+#: .\application\audioedit\audioparttasks.cpp
+msgid "[AudioEdit]Merge to Audio Part"
+msgstr "Scal do jednej partii audio"
+
+#: .\application\musicloop\loopextension.cpp
+msgid "[Browser]Merge to Stereo File"
+msgstr "Scal do pliku stereo"
+
+#: .\song\songsetup.cpp
+msgid "[SongSetup]Meta Information"
+msgstr "Informacje"
+
+#: .\editing\tracklist.cpp
+msgid "[TrackHeights]Minimal"
+msgstr "Minimalny"
+
+#: .\application\musicloop\musicloopdraghandler.cpp
+msgid "[MusicLoopDragHandler]Missing Instrument: %(1)"
+msgstr "Brakujący instrument: %(1)"
+
+#: .\automationediting\automationdialog.cpp
+msgid "[Automation]Mode"
+msgstr "Tryb"
+
+#: .\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Modify Marker Threshold"
+msgstr "Modyfikuj próg markera"
+
+#: .\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Modify Speed"
+msgstr "Modyfikuj prędkość"
+
+#: .\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Modify Tempo"
+msgstr "Modyfikuj tempo"
+
+#: .\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Modify Tune"
+msgstr "Modyfikuj strój"
+
+#: .\music\musicpartactions.cpp
+msgid "[Engine:MusicActions]Modify Velocity"
+msgstr "Modyfikuj dynamikę"
+
+#: .\video\videofunctions.cpp
+msgid "[Video]Modify Video Offset"
+msgstr "Zmień przesunięcie wideo"
+
+#: .\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Modify Volume Curve"
+msgstr "Modyfikuj krzywą głośności"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Monitor"
+msgstr "Monitor"
+
+#: .\automationediting\paramdraghandler.cpp
+msgid "[Automation]Move \"%(1)\" Automation"
+msgstr "Przenieś automatykę \"%(1)\""
+
+#: .\automationediting\paramdraghandler.cpp
+msgid ""
+"[Automation]Move \"%(1)\" Automation\n"
+"from %(3) to %(2)"
+msgstr "Przenieś automatykę \"%(1)\"\nz %(3) do %(2)"
+
+#: .\automationediting\paramdraghandler.cpp
+msgid ""
+"[Automation]Move \"%(1)\" Automation\n"
+"to %(2)"
+msgstr "Przenieś automatykę \"%(1)\"\ndo %(2)"
+
+#: .\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Move Bend Marker"
+msgstr "Przenieś marker Audio Bend"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Event"
+msgstr "Przenieś obiekt"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Events"
+msgstr "Przenieś obiekty"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Layer"
+msgstr "Przenieś warstwę"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Layers"
+msgstr "Przenieś warstwy"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Track"
+msgstr "Przenieś ścieżkę"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Track into Folder"
+msgstr "Przenieś ścieżkę do folderu"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Track into Folder %(1)"
+msgstr "Przenieś ścieżkę do folderu %(1)"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Track out of Folder"
+msgstr "Przenieś ścieżkę z folderu"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Move Tracks"
+msgstr "Przenieś ścieżki"
+
+#: .\editing\trackdraghandler.cpp
+msgid "[TrackDragHandler]Move not possible"
+msgstr "Przeniesienie nie jest możliwe"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Move to Origin"
+msgstr "Przenieś na początek"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Edit]Move to Origin"
+msgstr "Przenieś na początek"
+
+#: .\pool\mediaclipoperations.cpp
+msgid "[MediaClipOperations]Moving to Trash Bin..."
+msgstr "Przenoszenie do kosza"
+
+#: .\application\musicloop\musicloop.cpp
+msgid "[FileType]Musicloop"
+msgstr "Pętla muzyczna"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Mute"
+msgstr "Wycisz"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Mute Event"
+msgstr "Wycisz obiekt"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Mute Events"
+msgstr "Wycisz obiekty"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Name"
+msgstr "Nazwa"
+
+#: .\song\songmarker.cpp
+msgid "[Marker]Name"
+msgstr "Nazwa"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Navigation"
+msgstr "Nawigacja"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Next Event"
+msgstr "Następny obiekt"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Next Event Extend"
+msgstr "Następny obiekt z zaznaczeniem"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Next Mode"
+msgstr "Następny tryb"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Next Parameter"
+msgstr "Następny parametr"
+
+#: .\editing\tracklistfilter.cpp
+msgid "[Command]Next Scene"
+msgstr "Następna scena"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Next Track"
+msgstr "Następna ścieżka"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Next Track Extend"
+msgstr "Następna ścieżka z zaznaczeniem"
+
+#: .\song\songmaster.cpp
+msgid "[SongMaster]No"
+msgstr "Nie"
+
+#: .\application\musicloop\loopextension.cpp
+msgid "[Browser]No audio files with a name that ends in .L or .R found."
+msgstr "Nie znaleziono plików, których nazwy kończą się na .L lub .R."
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]No files are missing."
+msgstr "Nie ma brakujących plików."
+
+#: .\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]No files are unused."
+msgstr "Nie ma nieużywanych plików."
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]No files to convert."
+msgstr "Brak plików do konwersji."
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]No matching files were found in %(1)"
+msgstr "Nie znaleziono pasujących plików w %(1)"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]None"
+msgstr "Brak"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[EditGroups]None"
+msgstr "Brak"
+
+#: .\audioediting\audioinspector.cpp
+msgid "[AudioPlayMode]Normal"
+msgstr "Normalne"
+
+#: .\base\model\markertrack.cpp
+msgid "[Marker]Normal"
+msgstr "Normalny"
+
+#: .\editing\tracklist.cpp
+msgid "[TrackHeights]Normal"
+msgstr "Normalny"
+
+#: .\audio\audioactions.cpp
+msgid "[Engine:AudioActions]Normalize"
+msgstr "Normalizacja"
+
+#: .\application\audioedit\audionormalizetask.cpp
+msgid "[AudioEdit]Normalize Audio"
+msgstr "Normalizuj audio"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Not Recorded"
+msgstr "Nienagrane"
+
+#: .\audioediting\audioinspector.cpp
+msgid "[TempoFormatter]Not Set"
+msgstr "Brak"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Erase"
+msgstr "Zastępuj nuty"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Note Repeat"
+msgstr "Powtarzaj nuty"
+
+#: .\song\stemrenderer.cpp
+msgid ""
+"[StemRenderer]Nothing to export. Please select one or more tracks and set "
+"Loop or Markers."
+msgstr "Brak danych do eksportu. Wybierz ścieżki i ustaw pętlę lub markery."
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]Nothing to export. Please set Loop or Markers first."
+msgstr "Brak danych do eksportu. Ustaw pętlę lub markery."
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Events]Nudge"
+msgstr "Przesuń"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Off"
+msgstr "Wyłącz"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Only clicked event"
+msgstr "Tylko kliknięty obiekt"
+
+#: .\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]Only extract Audio"
+msgstr "Tylko wyodrębnij audio"
+
+#: .\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Operations specific to audio events"
+msgstr "Operacje określone dla obiektów audio"
+
+#: .\musicediting\musicparttask.cpp
+msgid "[MusicPartEdit]Operations specific to instrument parts"
+msgstr "Operacje określone dla partii instrumentu"
+
+#: .\audioediting\audioinspector.cpp
+msgid "[AudioPlayMode]Overlaps"
+msgstr "Nakładanie"
+
+#: .\editing\tracklist.cpp
+msgid "[TrackHeights]Overview"
+msgstr "Przegląd"
+
+#: .\automationediting\automationdialog.cpp
+msgid "[Automation]Parameter"
+msgstr "Parametr"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Paste"
+msgstr "Wklej"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Path"
+msgstr "Ścieżka"
+
+#: .\audioediting\audioeditor.cpp .\audioediting\audioscaleview.cpp
+msgid "[AudioScale]Percent"
+msgstr "Procenty"
+
+#: .\musicediting\musiceditor.cpp
+msgid "[EnvelopeValuePresentation]Percent"
+msgstr "Procenty"
+
+#: .\song\songdocument.cpp
+msgid "[Engine]Pool"
+msgstr "Pula"
+
+#: .\audio\audioeventtheme.cpp
+msgid "[Engine]Preview creation failed!"
+msgstr "Tworzenie podglądu nie powiodło się!"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Previous Event"
+msgstr "Poprzedni obiekt"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Previous Event Extend"
+msgstr "Poprzedni obiekt z zaznaczeniem"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Previous Mode"
+msgstr "Poprzedni tryb"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Previous Parameter"
+msgstr "Poprzedni parametr"
+
+#: .\editing\tracklistfilter.cpp
+msgid "[Command]Previous Scene"
+msgstr "Poprzednie scena"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Previous Track"
+msgstr "Poprzednia ścieżka"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Command]Previous Track Extend"
+msgstr "Poprzednia ścieżka z zaznaczeniem"
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Quantize"
+msgstr "Kwantyzacja"
+
+#: .\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Quantize"
+msgstr "Kwantyzacja"
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Events]Quantize"
+msgstr "Kwantyzacja"
+
+#: .\editing\quantizepanel.cpp
+msgid "[EditAddIn]Quantize"
+msgstr "Kwantyzacja"
+
+#: .\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Quantize 50%"
+msgstr "Kwantyzacja 50%"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Read"
+msgstr "Read"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 1"
+msgstr "Przywołaj marker 1"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 2"
+msgstr "Przywołaj marker 2"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 3"
+msgstr "Przywołaj marker 3"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 4"
+msgstr "Przywołaj marker 4"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 5"
+msgstr "Przywołaj marker 5"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 6"
+msgstr "Przywołaj marker 6"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 7"
+msgstr "Przywołaj marker 7"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 8"
+msgstr "Przywołaj marker 8"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Recall Marker 9"
+msgstr "Przywołaj marker 9"
+
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Reconnect Automation"
+msgstr "Połącz ponownie automatykę"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Record"
+msgstr "Nagrywaj"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Functions"
+msgstr "Funkcje nagrywania"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Mode"
+msgstr "Tryb nagrywania"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Record Mode Overdub"
+msgstr "Nagrywanie w trybie nakładania"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Mode Overdub"
+msgstr "Nagrywanie w trybie nakładania"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[RecordMode]Record Mode Replace"
+msgstr "Nagrywanie w trybie zastępowania"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Mode Replace"
+msgstr "Nagrywanie w trybie zastępowania"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Record Take"
+msgstr "Nagrane ujęcia"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Record Takes to Layers"
+msgstr "Nagrywaj ujęcia do warstw"
+
+#: .\automationediting\automationtrackcomponent.cpp
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Remove"
+msgstr "Usuń"
+
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Automation]Remove"
+msgstr "Usuń"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Remove \"%(1)\""
+msgstr "Usuń \"%(1)\""
+
+#: .\automation\automationfunctions.cpp
+msgid "[Engine:AutomationFunctions]Remove Automation"
+msgstr "Usuń automatykę"
+
+#: .\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Remove Bend Markers"
+msgstr "Usuń markery Audio Bend"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Remove Clip from Pool"
+msgstr "Usuń klip z puli"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Remove Layer"
+msgstr "Usuń warstwę"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Remove Layer"
+msgstr "Usuń warstwę"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Remove Layer"
+msgstr "Usuń warstwę"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Remove Selected Tracks"
+msgstr "Usuń wybrane ścieżki"
+
+#: .\application\musicedit\musictrackcomponent.cpp
+msgid "[TrackEdit]Remove Selected Tracks and Instruments"
+msgstr "Usuń zaznaczone ścieżki i instrumenty"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Remove Track"
+msgstr "Usuń ścieżkę"
+
+#: .\base\model\editfunctions.cpp
+msgid "[Engine:EditFunctions]Remove Track"
+msgstr "Usuń ścieżkę"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Remove Track"
+msgstr "Usuń ścieżkę"
+
+#: .\application\musicedit\musictrackcomponent.cpp
+msgid "[TrackEdit]Remove Track and Instrument"
+msgstr "Usuń ścieżkę i instrument"
+
+#: .\application\musicedit\musictrackcomponent.cpp
+msgid "[Command]Remove Track and Instrument"
+msgstr "Usuń ścieżkę i instrument"
+
+#: .\pool\mediapoolcomponent.cpp
+msgid "[Command]Remove Unused Files"
+msgstr "Usuń nieużywane pliki"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Remove Unused Files..."
+msgstr "Usuń nieużywane pliki..."
+
+#: .\video\videofunctions.cpp
+msgid "[Video]Remove Video"
+msgstr "Usuń wideo"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Remove Video"
+msgstr "Usuń wideo"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Remove from Pool"
+msgstr "Usuń z puli"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Rename Event"
+msgstr "Zmień nazwę obiektu"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Rename Events"
+msgstr "Zmień nazwy obiektów"
+
+#: .\pool\mediaclipoperations.cpp
+msgid "[MediaClipOperations]Rename Events"
+msgstr "Zmień nazwy obiektów"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[EditGroups]Rename Group"
+msgstr "Zmień nazwę grupy"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[Command]Rename Group"
+msgstr "Zmień nazwę grupy"
+
+#: .\editing\editgroupscomponent.cpp
+msgid "[EditGroups]Rename Group..."
+msgstr "Zmień nazwę grupy..."
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Rename Layer"
+msgstr "Zmień nazwę warstwy"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Rename Layer"
+msgstr "Zmień nazwę warstwy"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Rename Layer..."
+msgstr "Zmień nazwę warstwy..."
+
+#: .\song\clickrenderer.cpp
+msgid "[ClickRenderer]Render Click"
+msgstr "Wygeneruj ścieżkę kliku"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Render Click"
+msgstr "Wygeneruj ścieżkę kliku"
+
+#: .\application\audioedit\audioeventfxtasks.cpp
+msgid "[AudioEdit]Render Event FX"
+msgstr "Wygeneruj FX obiektu"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Render Event FX"
+msgstr "Wygeneruj FX obiektu"
+
+#: .\song\clickrenderer.cpp
+msgid "[ClickRenderer]Rendering Click"
+msgstr "Generowanie kliku"
+
+#: .\music\musicrender.cpp
+msgid "[MusicRenderer]Rendering Envelope: %(1)"
+msgstr "Generowanie obwiedni: %(1)"
+
+#: .\base\model\mediabouncer.cpp
+msgid "[Engine]Rendering Files"
+msgstr "Generowanie plików"
+
+#: .\music\musicrender.cpp
+msgid "[MusicRenderer]Rendering Note Events"
+msgstr "Generowanie obiektów nut"
+
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]Replace"
+msgstr "Zastąp"
+
+#: .\editing\dragoneventhandler.cpp .\editing\eventdraghandler.cpp
+msgid "[Edit]Replace Event"
+msgstr "Zastąp obiekt"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Reset All"
+msgstr "Resetuj wszystko"
+
+#: .\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Reset Bend Marker"
+msgstr "Resetuj marker Audio Bend"
+
+#: .\audioediting\audiobendeditlayer.cpp
+msgid "[Command]Reset Bend Marker"
+msgstr "Resetuj marker Audio Bend"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Reset Fade Length"
+msgstr "Resetuj długość zanikania"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Reset Level"
+msgstr "Resetuj poziom"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Resize Event"
+msgstr "Zmień rozmiar obiektu"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Resize Events"
+msgstr "Zmień rozmiary obiektów"
+
+#: .\application\audioedit\audioeventfxtasks.cpp
+msgid "[AudioEdit]Restore Event FX"
+msgstr "Przywróć FX obiektu"
+
+#: .\audio\eventeffects\audiofxfunctions.cpp
+msgid "[Engine]Restore Event FX"
+msgstr "Przywróć FX obiektu"
+
+#: .\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Restore Timing"
+msgstr "Przywróć timing"
+
+#: .\application\audioedit\audioreversetask.cpp
+msgid "[AudioEdit]Reverse Audio"
+msgstr "Odwróć audio"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Scanning folder: "
+msgstr "Skanowanie folderu: "
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Search was canceled. "
+msgstr "Wyszukiwanie zostało anulowane."
+
+#: .\audioediting\audioinspector.cpp
+msgid "[TempoFormatter]Seconds"
+msgstr "Sekundy"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Track]Seconds"
+msgstr "Sekundy"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select All on Tracks"
+msgstr "Zaznacz wszystko na ścieżkach"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Select Events in Range"
+msgstr "Zaznacz obiekty w zakresie"
+
+#: .\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 1"
+msgstr "Wybierz scenę 1"
+
+#: .\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 2"
+msgstr "Wybierz scenę 2"
+
+#: .\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 3"
+msgstr "Wybierz scenę 3"
+
+#: .\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 4"
+msgstr "Wybierz scenę 4"
+
+#: .\editing\tracklistfilter.cpp
+msgid "[Command]Select Scene 5"
+msgstr "Wybierz scenę 5"
+
+#: .\editing\takelist.cpp
+msgid "[Edit]Select Take"
+msgstr "Wybierz ujęcie"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Select a search folder."
+msgstr "Wybierz przeszukiwany folder."
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Select on Track"
+msgstr "Zaznacz na ścieżce"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]Select on Track"
+msgstr "Zaznacz na ścieżce"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[Command]Select on Track"
+msgstr "Zaznacz na ścieżce"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Set Edit Group"
+msgstr "Ustaw grupę edycji"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Set Marker Type"
+msgstr "Ustaw typ markera"
+
+#: .\song\songmarker.cpp
+msgid "[Marker]Set Markers"
+msgstr "Ustaw markery"
+
+#: .\song\songmarker.cpp
+msgid "[Command]Set Start and End to Selection"
+msgstr "Ustaw start i koniec na zaznaczeniu"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Set Track Delay"
+msgstr "Ustaw opóźnienie ścieżki"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Set Video Offset"
+msgstr "Ustaw przesunięcie wideo"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Show \"%(1)\""
+msgstr "Pokaż \"%(1)\""
+
+#: .\automationediting\automationtrackcomponent.cpp
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Show / Hide"
+msgstr "Pokaż / Ukryj"
+
+#: .\automationediting\automationtrackcomponent.cpp
+msgid "[Automation]Show / Hide Automation"
+msgstr "Pokaż / Ukryj automatykę"
+
+#: .\audio\audiobend\audiobendfunctions.cpp
+msgid "[Engine:AudioBendActions]Show Bend Marker"
+msgstr "Pokaż markery Audio Bend"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Show Channel Editor"
+msgstr "Pokaż edytor kanału"
+
+#: .\automationediting\automationtrackcomponent.cpp
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Show Device"
+msgstr "Pokaż urządzenie"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Show Envelopes"
+msgstr "Pokaż obwiednie"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Show Instrument Editor"
+msgstr "Pokaż edytor instrumentu"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Show Media Folder in Explorer"
+msgstr "Pokaż folder Media w Eksploratorze"
+
+#: .\pool\mediapoolcomponent.cpp
+msgid "[Command]Show Media Folder in Explorer/Finder"
+msgstr "Pokaż folder mediów w Eksploratorze/Szukaczu"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Show Media Folder in Finder"
+msgstr "Pokaż folder mediów w Szukaczu"
+
+#: .\editing\trackcontroller.cpp
+msgid "[Track]Show in Console"
+msgstr "Pokaż w konsolecie"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Show in Console"
+msgstr "Pokaż w konsolecie"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Show in Explorer/Finder"
+msgstr "Pokaż w Eksploratorze/Szukaczu"
+
+#: .\automationediting\paramdraghandler.cpp
+msgid "[Automation]Show the \"%(1)\" Automation on this track"
+msgstr "Pokaż automatykę \"%(1)\" na tej ścieżce"
+
+#: .\musicediting\partautomationdraghandler.cpp
+msgid "[Automation]Show the \"%(1)\" Part Automation"
+msgstr "Pokaż automatykę partii \"%(1)\""
+
+#: .\application\audioedit\audiobendaddin.cpp
+msgid "[Engine]Slice"
+msgstr "Wycinki"
+
+#: .\pool\mediafilenodes.cpp
+msgid "[MediaFileNode]Slice %(1)"
+msgstr "Wycinek %(1)"
+
+#: .\audioediting\audioinspector.cpp
+msgid "[AudioPlayMode]Slices"
+msgstr "Wycinki"
+
+#: .\editing\tracklist.cpp
+msgid "[TrackHeights]Small"
+msgstr "Mały"
+
+#: .\editing\eventsnapper.cpp
+msgid "[TimeSnapper]Snap To Event Hotspots"
+msgstr "Dopasuj do aktywnych punktów obiektu"
+
+#: .\editing\eventsnapper.cpp
+msgid "[TimeSnapper]Snap To Events"
+msgstr "Dopasuj do obiektów"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Solo"
+msgstr "Solo"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[TrackLayers]Solo Layer"
+msgstr "Solo warstwy"
+
+#: .\editing\tracklayercomponent.cpp
+msgid "[Command]Solo Layer"
+msgstr "Solo warstwy"
+
+#: .\editing\monitorfollower.cpp
+msgid "[Command]Solo follows Selection"
+msgstr "Przenoś funkcję solo do wybieranej ścieżki"
+
+#: .\application\musicloop\loopedittasks.cpp
+msgid "[Engine]Some files could not be exported."
+msgstr "Nie można wyeksportować niektórych plików."
+
+#: .\application\musicedit\musictrackcomponent.cpp .\song\songcontroller.cpp
+#: .\song\songmaster.cpp
+msgid "[Command]Song"
+msgstr "Utwór"
+
+#: .\song\songdocument.cpp
+msgid "[Engine]Song"
+msgstr "Utwór"
+
+#: .\song\songcontroller.cpp
+msgid "[Song]Song Setup"
+msgstr "Konfiguracja utworu"
+
+#: .\song\songcontroller.cpp
+msgid "[Command]Song Setup"
+msgstr "Konfiguracja utworu"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Split Event"
+msgstr "Podziel obiekt"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Split Events"
+msgstr "Podziel obiekty"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Split Loop"
+msgstr "Podziel przy końcach pętli"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Edit]Split Loop"
+msgstr "Podziel przy końcach pętli"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Split Range"
+msgstr "Podziel przy końcach zakresu"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Edit]Split Range"
+msgstr "Podziel przy końcach zakresu"
+
+#: .\application\audioedit\audiobendtasks.cpp
+msgid "[AudioEdit]Split at Bend Markers"
+msgstr "Podziel przy markerach Audio Bend"
+
+#: .\application\musicloop\loopextension.cpp
+msgid "[Browser]Split to Mono Files"
+msgstr "Podziel na pliki mono"
+
+#: .\base\model\markertrack.cpp
+msgid "[Marker]Start"
+msgstr "Start"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Status"
+msgstr "Status"
+
+#: .\base\model\markertrack.cpp
+msgid "[Marker]Stop"
+msgstr "Stop"
+
+#: .\application\audioedit\stripsilencetask.cpp
+msgid "[EditAddIn]Strip Silence"
+msgstr "Usuń ciszę"
+
+#: .\application\audioedit\stripsilencetask.cpp
+msgid "[AudioEdit]Strip Silence"
+msgstr "Usuń ciszę"
+
+#: .\song\songdocument.cpp
+msgid ""
+"[Engine]THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY "
+"MATERIAL WITHOUT THE AUTHORS AGREEMENT."
+msgstr "TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻYWAĆ ŻADNYCH MATERIAŁÓW BEZ ZGODY AUTORÓW."
+
+#: .\base\media\mediamarker.cpp
+msgid "[Engine:MediaMarker]Take"
+msgstr "Ujęcie"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Take #%(1:3) (%(2))"
+msgstr "Ujęcie #%(1:3) (%(2))"
+
+#: .\audioediting\audioedithandler.cpp
+msgid "[AudioEditHandler]Tempo: %(1)  Length: %(2)"
+msgstr "Tempo: %(1)  Długość: %(2)"
+
+#: .\audio\audiotrackrecorder.cpp
+msgid "[Record]The drive used for recording is full."
+msgstr "Dysk używany do nagrywania jest pełny."
+
+#: .\audio\recorddiskspaceobserver.cpp
+msgid "[RecordDiskSpaceObserver]The drive used for recording is full."
+msgstr "Dysk używany do nagrywania jest pełny."
+
+#: .\song\publisherselector.cpp
+msgid "[Engine]The file format will be reset to \"%(1)\"."
+msgstr "Format pliku zostanie zresetowany do \"%(1)\"."
+
+#: .\song\songrenderer.cpp
+msgid "[SongRenderer]The following problems occured during export:"
+msgstr "Podczas eksportu wystąpiły następujące problemy:"
+
+#: .\base\media\mediapool.cpp
+msgid "[MediaPool]The format of this file is not supported."
+msgstr "Format tego pliku nie jest obsługiwany."
+
+#: .\song\songmaster.cpp
+msgid "[SongMaster]The mastering file of this song is up-to-date."
+msgstr "Plik masteringu tego utworu jest aktualny."
+
+#: .\base\rootsetup.cpp
+msgid ""
+"[RootSetup]The sample rate does not match your audio device configuration.\n"
+"\n"
+"The rate you set: %(1)\n"
+"The rate the device has: %(2)"
+msgstr "Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n\nUstawiona częstotliwość: %(1)\nCzęstotliwość urządzenia: %(2)"
+
+#: .\song\songmaster.cpp
+msgid "[SongMaster]The song will be saved first.\n"
+msgstr "Najpierw zostanie zapisany utwór.\n"
+
+#: .\music\musictrackinfo.cpp
+msgid "[Engine]The track \"%(1)\" is not connected to a software instrument."
+msgstr "Ścieżka \"%(1)\" nie jest połączona z instrumentem programowym."
+
+#: .\music\musictrackinfo.cpp
+msgid "[Engine]The tracks \"%(1)\" are not connected to a software instrument."
+msgstr "Ścieżki \"%(1)\" nie są połączone z instrumentem programowym."
+
+#: .\pool\mediapoolfunctions.cpp
+msgid "[MediaPoolFunctions]There are no external files."
+msgstr "Brak zewnętrznych plików."
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]These clips are still used."
+msgstr "Te klipy są nadal w użyciu."
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Events]These files could not be imported:"
+msgstr "Nie można zaimportować tych plików:"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]This clip is still used."
+msgstr "Ten klip jest nadal w użyciu."
+
+#: .\editing\eventeditmodel.cpp
+msgid "[Events]This file could not be imported:"
+msgstr "Nie można zaimportować tego pliku:"
+
+#: .\editing\mediatrackcontroller.cpp
+msgid "[MediaTrack]Timestretch"
+msgstr "Rozciąganie"
+
+#: .\editing\tracklist.cpp
+msgid "[TrackHeights]Tiny"
+msgstr "Bardzo mały"
+
+#: .\editing\trackeditor.cpp
+msgid "[Command]Toggle Detached Editor"
+msgstr "Odłącz / Dołącz edytor"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Toggle Read"
+msgstr "Włącz / Wyłącz Read"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Touch"
+msgstr "Touch"
+
+#: .\application\audioedit\audiotracktransformtask.cpp
+#: .\application\musicedit\musictracktransformtask.cpp
+#: .\editing\editgroupscomponent.cpp .\editing\foldertrackcomponent.cpp
+#: .\editing\monitorfollower.cpp .\editing\trackcontroller.cpp
+#: .\editing\tracklayercomponent.cpp .\editing\tracklistcomponent.cpp
+#: .\editing\tracklistfilter.cpp .\song\songcontroller.cpp
+msgid "[Command]Track"
+msgstr "Ścieżka"
+
+#: .\base\model\rootevent.cpp .\editing\tracklisteditmodel.cpp
+#: .\editing\tracklistinspector.cpp
+msgid "[Engine]Track"
+msgstr "Ścieżka"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Track"
+msgstr "Ścieżka"
+
+#: .\editing\targettrackindicator.cpp
+msgid "[TrackIndicator]Track \"%(1)\""
+msgstr "Ścieżka \"%(1)\""
+
+#: .\editing\tracklist.cpp
+msgid "[Command]Track Height %(1)"
+msgstr "Wysokość ścieżki %(1)"
+
+#: .\editing\tracklistfilter.cpp
+msgid "[TrackList]Track Scenes"
+msgstr "Sceny ścieżki"
+
+#: .\song\songdocumentinfo.cpp
+msgid "[SongInfo]Tracks"
+msgstr "Ścieżki"
+
+#: .\song\stemrenderer.cpp
+msgid "[StemRenderer]Tracks"
+msgstr "Ścieżki"
+
+#: .\automationediting\paramdraghandler.cpp
+msgid "[Automation]Transfer Automation"
+msgstr "Prześlij automatykę"
+
+#: .\application\musicedit\musictracktransformtask.cpp
+msgid "[TrackEdit]Transform to Audio Track"
+msgstr "Przekształć na ścieżkę audio"
+
+#: .\application\musicedit\musictracktransformtask.cpp
+msgid "[Command]Transform to Audio Track"
+msgstr "Przekształć na ścieżkę audio"
+
+#: .\application\musicedit\musictracktransformtask.cpp
+msgid "[TrackEdit]Transform to Instrument Track"
+msgstr "Przekształć na ścieżkę instrumentu"
+
+#: .\application\musicedit\musictracktransformtask.cpp
+msgid "[Command]Transform to Instrument Track"
+msgstr "Przekształć na ścieżkę instrumentu"
+
+#: .\application\audioedit\audiotracktransformtask.cpp
+msgid "[TrackEdit]Transform to Realtime Audio"
+msgstr "Przekształć na audio bez wygenerowanych efektów"
+
+#: .\application\audioedit\audiotracktransformtask.cpp
+msgid "[Command]Transform to Realtime Audio"
+msgstr "Przekształć na audio bez wygenerowanych efektów"
+
+#: .\application\audioedit\audiotracktransformtask.cpp
+msgid "[TrackEdit]Transform to Rendered Audio"
+msgstr "Przekształć na audio z wygenerowanymi efektami"
+
+#: .\application\audioedit\audiotracktransformtask.cpp
+msgid "[Command]Transform to Rendered Audio"
+msgstr "Przekształć na audio z wygenerowanymi efektami"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Transpose Event"
+msgstr "Transpozycja obiektu"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Transpose Events"
+msgstr "Transpozycja obiektów"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Type"
+msgstr "Typ"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Undo"
+msgstr "Cofnij"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Undo All"
+msgstr "Cofnij wszystko"
+
+#: .\musicediting\musicrecordcomponent.cpp
+msgid "[Command]Undo Last Loop"
+msgstr "Cofnij ostatnią pętlę"
+
+#: .\audio\audioclip.cpp
+msgid "[AudioClip]Unknown Format!"
+msgstr "Nieznany format!"
+
+#: .\video\videoclip.cpp
+msgid "[VideoClip]Unknown Format!"
+msgstr "Nieznany format!"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unmute Event"
+msgstr "Wyłącz wyciszenie obiektu"
+
+#: .\base\model\actiondescriptions.cpp
+msgid "[ActionDescriptions]Unmute Events"
+msgstr "Wyłącz wyciszenie obiektów"
+
+#: .\editing\takelist.cpp
+msgid "[Edit]Unpack Takes"
+msgstr "Rozpakuj ujęcia"
+
+#: .\editing\takelist.cpp
+msgid "[Edit]Unpack Takes to Tracks"
+msgstr "Rozpakuj ujęcia na ścieżki"
+
+#: .\editing\takelist.cpp
+msgid "[Edit]Unpack Takes to existing Layers"
+msgstr "Rozpakuj ujęcia do istniejących warstw"
+
+#: .\editing\takelist.cpp
+msgid "[Edit]Unpack Takes to new Layers"
+msgstr "Rozpakuj ujęcia do nowych warstw"
+
+#: .\song\songmaster.cpp
+msgid "[Command]Update Mastering File"
+msgstr "Zaktualizuj plik masteringu"
+
+#: .\song\songmaster.cpp
+msgid ""
+"[SongMaster]Update the mastering file of this song:\n"
+"%(6)\n"
+"Output: %(1)\n"
+"Duration: %(3)\n"
+"Resolution: %(4)\n"
+"Realtime Processing: %(5)\n"
+"Include Master Effects: %(7)\n"
+"Filename: %(2)"
+msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
+
+#: .\pool\mediapoolbrowser.cpp
+msgid "[PoolBrowser]Used"
+msgstr "Użycie"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]Used by: "
+msgstr "Używane przez: "
+
+#: .\musicediting\musicenvelopeeditor.cpp
+msgid "[Automation]Velocity"
+msgstr "Dynamika"
+
+#: .\video\videotrack.cpp
+msgid "[Video]Video"
+msgstr "Wideo"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Video"
+msgstr "Wideo"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Video Size Default"
+msgstr "Domyślny rozmiar wideo"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Video Size Double"
+msgstr "Podwójny rozmiar wideo"
+
+#: .\videoediting\songvideo.cpp
+msgid "[Command]Video Size Half"
+msgstr "Połowa rozmiaru wideo"
+
+#: .\editing\trackeditor.cpp .\editing\tracklistcomponent.cpp
+msgid "[Command]View"
+msgstr "Widok"
+
+#: .\audioediting\audioedittask.cpp
+msgid "[AudioEdit]Volume Envelope"
+msgstr "Obwiednia głośności"
+
+#: .\automationediting\automationtracklistcomponent.cpp
+msgid "[Command]Write"
+msgstr "Write"
+
+#: .\automation\automationwriter.cpp
+msgid "[AutomationWriter]Write Automation"
+msgstr "Zapisz automatykę"
+
+#: .\editing\tracklist.cpp
+msgid "[TrackHeights]X-Large"
+msgstr "Bardzo duży"
+
+#: .\song\songmaster.cpp
+msgid "[SongMaster]Yes"
+msgstr "Tak"
+
+#: .\editing\tracklist.cpp .\editing\tracklistcomponent.cpp
+msgid "[Command]Zoom"
+msgstr "Powiększenie"
+
+#: .\editing\tracklistcomponent.cpp
+msgid "[Command]Zoom Selected Track"
+msgstr "Powiększ wybraną ścieżkę"
+
+#: .\audioediting\audioeditor.cpp .\audioediting\audioscaleview.cpp
+msgid "[AudioScale]dB"
+msgstr "dB"
+
+#: .\audioediting\audiofxdraghandler.cpp
+msgid "[AudioFX]new Audio Track"
+msgstr "nowa ścieżka audio"
+
+#: .\automationediting\paramdraghandler.cpp
+msgid "[Automation]new Automation Track"
+msgstr "nowa ścieżka automatyki"
+
+#: .\musicediting\synthdraghandler.cpp
+msgid "[SynthDrag]new Instrument Track"
+msgstr "nowa ścieżka instrumentu"
+
+#: .\videoediting\videodraghandler.cpp
+msgid "[VideoEdit]new Track"
+msgstr "nowa ścieżka"
+
+#: .\pool\locatefilescomponent.cpp
+msgid "[LocateFiles]used %(1) times"
+msgstr "użyto %(1) razy"
+
+#: .\pool\mediapoolnodes.cpp
+msgid "[PoolNodes]used %(1) times"
+msgstr "użyto %(1) razy"
