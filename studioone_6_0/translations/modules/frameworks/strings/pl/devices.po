@@ -22,7 +22,7 @@ msgstr "Makro %(1)"
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "%(1) incomplete - %(2) speakers not connected"
-msgstr ""
+msgstr "%(1) niekompletna - głośniki %(2) nie są podłączone"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
@@ -67,7 +67,7 @@ msgstr "%float(1:1) razy wolniej niż w czasie rzeczywistym"
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "'%(1)' Bypassed"
-msgstr ""
+msgstr "Pominięto '%(1)'"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -618,7 +618,7 @@ msgstr "Podziel kanał"
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Channel is in low latency mode - sends are inactive"
-msgstr ""
+msgstr "Kanał jest w trybie niskiej latencji i wysyłki nie są aktywne"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
@@ -658,12 +658,12 @@ msgstr "Głośność metronomu"
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "Click here to bypass '%(1)'"
-msgstr ""
+msgstr "Kliknij, aby pominąć '%(1)'"
 
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "Click to move channels"
-msgstr ""
+msgstr "Kliknij, aby przenieść kanały"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -1427,7 +1427,7 @@ msgstr "Wejścia"
 #: audiomixer/audioinsertfolder.cpp
 msgctxt "AudioInsert"
 msgid "Insert"
-msgstr "Insert"
+msgstr "Wstaw"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -1635,12 +1635,12 @@ msgstr "Zablokuj do kanału"
 #: transport/transportpanel.cpp
 msgctxt "Transport"
 msgid "Loop Length"
-msgstr ""
+msgstr "Długość pętli"
 
 #: transport/transportpanel.cpp
 msgctxt "Transport"
 msgid "Loop Start / End"
-msgstr ""
+msgstr "Początek / Koniec pętli"
 
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
@@ -2886,7 +2886,7 @@ msgstr "Ustaw przeznaczenie wysyłki"
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
 msgid "Set Speaker Type to %(1)"
-msgstr ""
+msgstr "Ustaw typ głośnika na %(1)"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -3016,7 +3016,7 @@ msgstr "Pokaż wysyłki/submiksy"
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "Show Time Display"
-msgstr ""
+msgstr "Pokaż czas"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -3411,7 +3411,7 @@ msgstr "Włącz / Wyłącz pętlę"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Loop Display"
-msgstr ""
+msgstr "Przełącz wyświetlanie pętli"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
@@ -3577,7 +3577,7 @@ msgstr "VCA"
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "Video Frames"
-msgstr ""
+msgstr "Klatki wideo"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3641,14 +3641,8 @@ msgstr "Write"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n"
-"\n"
-"Czy chcesz je teraz ponownie podłączyć?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n\nCzy chcesz je teraz ponownie podłączyć?"
 
 #~ msgctxt "Automation"
 #~ msgid "Add / Remove Parameters..."
@@ -3753,3 +3747,4 @@ msgstr ""
 #~ msgctxt "MacroControls"
 #~ msgid "Disconnect %(1) from %(2) Macro Control %(3)"
 #~ msgstr "Odłącz %(1) od kontrolki makro %(2) %(3)"
+
