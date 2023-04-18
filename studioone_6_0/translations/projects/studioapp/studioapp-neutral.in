@@ -19,7 +19,7 @@ copyFile: resources.properties
 setInputDir: ./$(language)
 copyFile: metainfo.xml
 setOutputDir: ./$(TempDir)/$(LanguagePack)/resources
-setInputDir: ../../eula
+setInputDir: ../../../build/identities/presonus/eula
 copyFile: EULA-$(language).txt > EULA.txt
 
 print: Copying tables...
