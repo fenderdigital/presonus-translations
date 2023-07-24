@@ -54,7 +54,7 @@ msgctxt "SoundVariations"
 msgid "Activation Sequence"
 msgstr "Sequenza di Attivazione"
 
-#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
 msgstr "Attiva Variazione: %(1)"
@@ -113,6 +113,21 @@ msgstr "Assegna Key Switch Cromatico"
 msgctxt "SoundVariations"
 msgid "Assign Key Switches White Keys"
 msgstr "Assegna Key Switch Tasti bianchi"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Full"
+msgstr "Auto Zoom Full"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Horizontally"
+msgstr "Auto Zoom Orizzontale"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Vertically"
+msgstr "Auto Zoom Verticale"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
@@ -354,10 +369,10 @@ msgctxt "ScoreSymbolMap"
 msgid "Dynamics"
 msgstr "Dinamiche"
 
-#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp
-#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp music/noteplayer.cpp
 #: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Modifica"
@@ -582,7 +597,7 @@ msgctxt "TimeRulerView"
 msgid "Loop Active"
 msgstr "Loop Attivo"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timerulerview.cpp
+#: timeedit/timerulerview.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Loop Follows Selection"
 msgstr "Loop Segue Selezione"
@@ -747,7 +762,7 @@ msgctxt "Command"
 msgid "Next Hotspot"
 msgstr "Hotspot Successivo"
 
-#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
 msgstr "Nessuna Variazione"
@@ -937,13 +952,13 @@ msgctxt "Command"
 msgid "Quantize"
 msgstr "Quantizza"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Edit"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
 msgid "Quantize"
 msgstr "Quantizza"
 
-#: timeedit/timesnapper.cpp
-msgctxt "TimeSnapper"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
 msgid "Quantize"
 msgstr "Quantizza"
 
@@ -1052,6 +1067,11 @@ msgctxt "Envelope"
 msgid "S-Curve"
 msgstr "S-Curve"
 
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Scale"
+msgstr "Scala"
+
 #: tempo/tempoedithandler.cpp
 msgctxt "TempoEdit"
 msgid "Scale Tempo: please set Timeruler to Bars"
@@ -1102,11 +1122,6 @@ msgctxt "Quantize"
 msgid "Septuplet"
 msgstr "Settimina"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Command"
-msgid "Set Loop End"
-msgstr "Imposta Fine Loop"
-
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Loop End"
@@ -1114,11 +1129,16 @@ msgstr "Imposta Fine Loop"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
+msgid "Set Loop End"
+msgstr "Imposta Fine Loop"
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
 msgid "Set Loop Start"
 msgstr "Imposta Inizio Loop"
 
-#: timeedit/timerulerview.cpp
-msgctxt "TimeRulerView"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
 msgid "Set Loop Start"
 msgstr "Imposta Inizio Loop"
 
@@ -1367,6 +1387,26 @@ msgctxt "Edit"
 msgid "Timebase"
 msgstr "Timebase"
 
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom"
+msgstr "Alterna Zoom Automatico"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Full"
+msgstr "Alterna Zoom Automatico Completo"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Horizontally"
+msgstr "Alterna Zoom Automatico Orizzontale"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Vertically"
+msgstr "Alterna Zoom Automatico Verticale"
+
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Toggle Chord Mode"
@@ -1376,6 +1416,11 @@ msgstr "Passa a Modalità Accordo"
 msgctxt "Command"
 msgid "Toggle Edit Mode"
 msgstr "Modalità Modifica Toggle"
+
+#: music/noteplayer.cpp
+msgctxt "Command"
+msgid "Toggle Note Audition"
+msgstr "Alterna Ascolto Nota"
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
@@ -1487,7 +1532,7 @@ msgctxt "Command"
 msgid "View"
 msgstr "Vista"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "Zoom"
@@ -1501,6 +1546,11 @@ msgstr "Zoom Pieno"
 msgctxt "Command"
 msgid "Zoom Full Horizontally"
 msgstr "Zoom Pieno Orizzontale"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Full Vertically"
+msgstr "Zoom Completo Verticale"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
@@ -1539,11 +1589,6 @@ msgstr "Zoom Out Verticale"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
-msgid "Zoom Out Vertical Fine"
-msgstr "Zoom Out Vertical Fine"
-
-#: timeedit/timelinecomponent.cpp
-msgctxt "Command"
 msgid "Zoom to Loop"
 msgstr "Zoom a Loop"
 
@@ -1556,6 +1601,10 @@ msgstr "Zoom a Selezione"
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "Zoom a Selezione Orizzontale"
+
+#~ msgctxt "Command"
+#~ msgid "Zoom Out Vertical Fine"
+#~ msgstr "Zoom Out Vertical Fine"
 
 #~ msgctxt "Command"
 #~ msgid "Set Bar Offset to Cursor"

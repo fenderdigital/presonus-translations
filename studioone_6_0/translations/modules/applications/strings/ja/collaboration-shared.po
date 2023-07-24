@@ -51,6 +51,16 @@ msgstr "%(1) はワークスペース %(2) を退出しました。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
+msgid "%(1) liked \"%(2)\""
+msgstr "%(1) さんが \"%(2)\" に「いいね」をしました"
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) liked your post."
+msgstr "%(1) さんがあなたの投稿に「いいね」をしました。"
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
 msgid "%(1) rejected your invite to collaborate on %(2)."
 msgstr "%(1) は %(2) でのコラボレーションへの招待を拒否しました。"
 
@@ -58,6 +68,16 @@ msgstr "%(1) は %(2) でのコラボレーションへの招待を拒否しま�
 msgctxt "Cloud"
 msgid "%(1) rejected your invite."
 msgstr "%(1) は招待を拒否しました。"
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) replied to your post."
+msgstr "%(1) さんがあなたの投稿に返信しました。"
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "%(1) sent you a direct message."
+msgstr "%(1) さんがあなたにダイレクトメッセージを送信しました。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
@@ -413,6 +433,11 @@ msgstr "リモートバージョン名は %(1) に変更されました。"
 msgctxt "Collaboration"
 msgid "Replace"
 msgstr "置換"
+
+#: collaborationnotificationhandler.cpp
+msgctxt "Cloud"
+msgid "Replying to: %(1)"
+msgstr "%(1) さんに返信"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"

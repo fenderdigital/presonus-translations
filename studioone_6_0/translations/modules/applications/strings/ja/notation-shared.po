@@ -9,10 +9,15 @@ msgctxt "ScoreEdit"
 msgid "Add One Octave"
 msgstr "1オクターブ上"
 
-#: scoredoceditcomponent.cpp
+#: scoredoccontroller.cpp scoredoceditcomponent.cpp
 msgctxt "Notation"
 msgid "Add Part '%(1)'"
 msgstr "パート '%(1)' を追加"
+
+#: scoredoccontroller.cpp
+msgctxt "Notation"
+msgid "Add Parts"
+msgstr "パートを追加"
 
 #: edittasks/transposetask.cpp
 msgctxt "ScoreEdit"
@@ -163,6 +168,11 @@ msgstr "ファイル"
 msgctxt "ScoreEdit"
 msgid "Fill with Rests"
 msgstr "休符で埋める"
+
+#: edittasks/fillwithrhythmslashestask.cpp
+msgctxt "ScoreEdit"
+msgid "Fill with Rhythm Slashes"
+msgstr "リズムスラッシュで埋める"
 
 #: edittasks/transposetask.cpp
 msgctxt "ScoreEdit"
@@ -378,6 +388,11 @@ msgstr "2度"
 msgctxt "Edit"
 msgid "Select"
 msgstr "選択"
+
+#: scoredoccontroller.cpp
+msgctxt "Notation"
+msgid "Select Instrument"
+msgstr "楽器を選択"
 
 #: scoredoceditcomponent.cpp
 msgctxt "Command"

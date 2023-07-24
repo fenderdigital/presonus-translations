@@ -324,7 +324,7 @@ msgctxt "GadgetManager"
 msgid "Gadgets"
 msgstr "ガジェット"
 
-#: analytics/apptrackinghandler.cpp extensions/appupdater.cpp
+#: extensions/appupdater.cpp analytics/apptrackinghandler.cpp
 msgctxt "Command"
 msgid "Help"
 msgstr "ヘルプ"
@@ -369,13 +369,13 @@ msgctxt "Extensions"
 msgid "Installation failed!"
 msgstr "インストールに失敗しました。"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
 msgid "Installed"
 msgstr "インストール済"
 
-#: packages/unifiedpackageaction.cpp
-msgctxt "PackageActions"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Installed"
 msgstr "インストール済"
 
@@ -454,13 +454,13 @@ msgctxt "PackageFilter"
 msgid "Origin"
 msgstr "出処"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
 msgid "Other"
 msgstr "その他"
 
-#: packages/unifiedpackagesource.cpp
-msgctxt "PackageSource"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Other"
 msgstr "その他"
 
@@ -875,4 +875,3 @@ msgstr "ご使用のバージョンは最新です。"
 #~ msgctxt "TransferManager"
 #~ msgid "MB/sec"
 #~ msgstr "MB/秒"
-

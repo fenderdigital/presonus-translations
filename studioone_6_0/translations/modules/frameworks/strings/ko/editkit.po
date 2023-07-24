@@ -54,7 +54,7 @@ msgctxt "SoundVariations"
 msgid "Activation Sequence"
 msgstr "활성화 시퀀스"
 
-#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
 msgstr "유효 바리에이션: %(1)"
@@ -113,6 +113,21 @@ msgstr "키 스위치 크로매틱 할당"
 msgctxt "SoundVariations"
 msgid "Assign Key Switches White Keys"
 msgstr "키 스위치 하얀 건반 할당"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Full"
+msgstr "자동 최대확대"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Horizontally"
+msgstr "자동 가로확대"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Vertically"
+msgstr "자동 세로확대"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
@@ -354,10 +369,10 @@ msgctxt "ScoreSymbolMap"
 msgid "Dynamics"
 msgstr "다이나믹스"
 
-#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp
-#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp music/noteplayer.cpp
 #: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "편집"
@@ -582,7 +597,7 @@ msgctxt "TimeRulerView"
 msgid "Loop Active"
 msgstr "루프 켜짐"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timerulerview.cpp
+#: timeedit/timerulerview.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Loop Follows Selection"
 msgstr "루프가 선택영역을 팔로우"
@@ -747,7 +762,7 @@ msgctxt "Command"
 msgid "Next Hotspot"
 msgstr "다음 핫스팟"
 
-#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
 msgstr "바리에이션 없음"
@@ -937,13 +952,13 @@ msgctxt "Command"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Edit"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
-#: timeedit/timesnapper.cpp
-msgctxt "TimeSnapper"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
@@ -1052,6 +1067,11 @@ msgctxt "Envelope"
 msgid "S-Curve"
 msgstr "S-커브"
 
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Scale"
+msgstr "스케일"
+
 #: tempo/tempoedithandler.cpp
 msgctxt "TempoEdit"
 msgid "Scale Tempo: please set Timeruler to Bars"
@@ -1102,11 +1122,6 @@ msgctxt "Quantize"
 msgid "Septuplet"
 msgstr "일곱잇단음"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Command"
-msgid "Set Loop End"
-msgstr "루프 끝 설정"
-
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Loop End"
@@ -1114,11 +1129,16 @@ msgstr "루프 끝 설정"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
+msgid "Set Loop End"
+msgstr "루프 끝 설정"
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
 msgid "Set Loop Start"
 msgstr "루프 시작점 설정"
 
-#: timeedit/timerulerview.cpp
-msgctxt "TimeRulerView"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
 msgid "Set Loop Start"
 msgstr "루프 시작점 설정"
 
@@ -1367,6 +1387,26 @@ msgctxt "Edit"
 msgid "Timebase"
 msgstr "타임베이스"
 
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom"
+msgstr "자동확대 전환"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Full"
+msgstr "자동 최대확대 전환"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Horizontally"
+msgstr "자동 가로확대 전환"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Vertically"
+msgstr "자동 세로확대 전환"
+
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Toggle Chord Mode"
@@ -1376,6 +1416,11 @@ msgstr "코드 모드 전환"
 msgctxt "Command"
 msgid "Toggle Edit Mode"
 msgstr "에디트 모드 전환"
+
+#: music/noteplayer.cpp
+msgctxt "Command"
+msgid "Toggle Note Audition"
+msgstr "노트오디션 전환"
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
@@ -1487,7 +1532,7 @@ msgctxt "Command"
 msgid "View"
 msgstr "보기"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "확대/축소"
@@ -1501,6 +1546,11 @@ msgstr "최대로 확대"
 msgctxt "Command"
 msgid "Zoom Full Horizontally"
 msgstr "가로로 최대로 확대"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Full Vertically"
+msgstr "최대 세로확대"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
@@ -1539,11 +1589,6 @@ msgstr "세로로 축소"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
-msgid "Zoom Out Vertical Fine"
-msgstr "세로로 미세하게 축소"
-
-#: timeedit/timelinecomponent.cpp
-msgctxt "Command"
 msgid "Zoom to Loop"
 msgstr "루프에 맞추어 확대/축소"
 
@@ -1556,4 +1601,8 @@ msgstr "선택영역에 맞추어 확대/축소"
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "선택영역에 맞추어 가로로 확대/축소"
+
+#~ msgctxt "Command"
+#~ msgid "Zoom Out Vertical Fine"
+#~ msgstr "세로로 미세하게 축소"
 

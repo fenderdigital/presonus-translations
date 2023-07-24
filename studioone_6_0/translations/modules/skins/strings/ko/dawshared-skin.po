@@ -9,11 +9,6 @@ msgctxt "PlugInSelectorMenuWide"
 msgid "$title"
 msgstr "$title"
 
-#: channelpanner.xml
-msgctxt "PanEditorKnobCell"
-msgid "$title"
-msgstr "$title"
-
 #: audiochannel.xml
 msgctxt "SlotPopup.VolumeSlider"
 msgid "$tooltip"
@@ -26,11 +21,6 @@ msgstr "$tooltip"
 
 #: audiochannel.xml
 msgctxt "SendMicroViewSimpleSlider"
-msgid "$tooltip"
-msgstr "$tooltip"
-
-#: channelpanner.xml
-msgctxt "PanEditorKnobCell"
 msgid "$tooltip"
 msgstr "$tooltip"
 
@@ -59,6 +49,16 @@ msgctxt "ChannelMeterDisplay"
 msgid "@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
 
+#: channeleditor.macrocontrols.xml
+msgctxt "MacroControlFocusCell"
+msgid "@value[]"
+msgstr "@value[]"
+
+#: channeleditor.macrocontrols.xml
+msgctxt "DAWMutableMacroControlKnob"
+msgid "@value[]"
+msgstr "@value[]"
+
 #: audiochannel.narrow.xml
 msgctxt "AudioInput.Narrow"
 msgid "@value[]"
@@ -71,16 +71,6 @@ msgstr "@value[]"
 
 #: audiochannel.xml
 msgctxt "AudioSendRackSlotView"
-msgid "@value[]"
-msgstr "@value[]"
-
-#: channeleditor.macrocontrols.xml
-msgctxt "MacroControlFocusCell"
-msgid "@value[]"
-msgstr "@value[]"
-
-#: channeleditor.macrocontrols.xml
-msgctxt "DAWMutableMacroControlKnob"
 msgid "@value[]"
 msgstr "@value[]"
 
@@ -235,17 +225,7 @@ msgid "Automation Mode"
 msgstr "오토메이션 모드"
 
 #: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Binaural Pan: @value[]"
-msgstr "바이노럴 팬: @value[]"
-
-#: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
-msgid "Binaural Width: @value[]"
-msgstr "바이노럴 폭: @value[]"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Binaural Width: @value[]"
 msgstr "바이노럴 폭: @value[]"
 
@@ -309,13 +289,13 @@ msgctxt "ChannelMeterDisplay"
 msgid "Clip / Peak Levels"
 msgstr "클립/피크레벨"
 
-#: channelpanner.xml
-msgctxt "PannerEditorHeadline"
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
 msgid "Close"
 msgstr "닫기"
 
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
+#: channelpanner.xml
+msgctxt "PannerEditorHeadline"
 msgid "Close"
 msgstr "닫기"
 
@@ -484,6 +464,11 @@ msgctxt "ChannelInputFXView"
 msgid "Input Gain"
 msgstr "입력 게인"
 
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
+msgid "Inserts"
+msgstr "인서트"
+
 #: audiochannel.xml
 msgctxt "AudioInserts"
 msgid "Inserts"
@@ -491,11 +476,6 @@ msgstr "인서트"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewInserts"
-msgid "Inserts"
-msgstr "인서트"
-
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
 msgid "Inserts"
 msgstr "인서트"
 
@@ -544,28 +524,18 @@ msgctxt "MacroTargetCurve"
 msgid "Invert Y"
 msgstr "Y 반전"
 
-#: channelpanner.xml
-msgctxt "PannerEditorHeadline"
-msgid "Keep Editor Open"
-msgstr "에디터 열어두기"
-
 #: deviceheader.xml
 msgctxt "DeviceEditorHeadline"
 msgid "Keep Editor Open"
 msgstr "에디터 열어두기"
 
 #: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Left"
-msgstr "왼쪽"
+msgctxt "PannerEditorHeadline"
+msgid "Keep Editor Open"
+msgstr "에디터 열어두기"
 
 #: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
-msgid "Left: @value[]"
-msgstr "왼쪽: @value[]"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Left: @value[]"
 msgstr "왼쪽: @value[]"
 
@@ -639,18 +609,13 @@ msgctxt "AudioChannel.Narrow.Content"
 msgid "Mono"
 msgstr "모노"
 
-#: channeleditor.xml
-msgctxt "ChannelOverviewProjectChannel"
-msgid "Mono"
-msgstr "모노"
-
 #: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
 msgid "Mono"
 msgstr "모노"
 
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
+#: channeleditor.xml
+msgctxt "ChannelOverviewProjectChannel"
 msgid "Mono"
 msgstr "모노"
 
@@ -679,11 +644,6 @@ msgctxt "PannerPopupMonoStereo"
 msgid "No Panning"
 msgstr "패닝 없음"
 
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "No Panning"
-msgstr "패닝 없음"
-
 #: deviceheader.xml
 msgctxt "DeviceEditorTitleBar"
 msgid "Overview"
@@ -691,11 +651,6 @@ msgstr "오버뷰"
 
 #: audiochannel.narrow.xml
 msgctxt "ChannelPanTypeControls.Narrow"
-msgid "Pan"
-msgstr "팬"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Pan"
 msgstr "팬"
 
@@ -716,11 +671,6 @@ msgstr "팬: @value[]"
 
 #: channelpanner.xml
 msgctxt "ChannelPanTypeControls"
-msgid "Pan: @value[]"
-msgstr "팬: @value[]"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Pan: @value[]"
 msgstr "팬: @value[]"
 
@@ -788,6 +738,11 @@ msgstr "극성"
 msgctxt "HardwareInputControlsCompactStereo"
 msgid "Polarity"
 msgstr "극성"
+
+#: audiochannel.xml
+msgctxt "ChannelInputFXView"
+msgid "Polarity (Press Shift for Individual State)"
+msgstr "폴라리티 (Shift 키를 눌러 개별적용)"
 
 #: audiochannel.xml
 msgctxt "PostFaderInserts"
@@ -875,17 +830,7 @@ msgid "Reset"
 msgstr "리셋"
 
 #: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Right"
-msgstr "오른쪽"
-
-#: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
-msgid "Right: @value[]"
-msgstr "오른쪽: @value[]"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Right: @value[]"
 msgstr "오른쪽: @value[]"
 
@@ -1070,11 +1015,6 @@ msgid "Volume"
 msgstr "볼륨"
 
 #: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Width"
-msgstr "폭"
-
-#: channelpanner.xml
 msgctxt "ChannelPanTypeControls"
 msgid "Width: @value[]"
 msgstr "폭: @value[]"
@@ -1084,8 +1024,59 @@ msgctxt "PannerPopupMonoStereo"
 msgid "Width: @value[]"
 msgstr "폭: @value[]"
 
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Width: @value[]"
-msgstr "폭: @value[]"
+#~ msgctxt "PanEditorKnobCell"
+#~ msgid "$title"
+#~ msgstr "$title"
+
+#~ msgctxt "PanEditorKnobCell"
+#~ msgid "$tooltip"
+#~ msgstr "$tooltip"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Binaural Pan: @value[]"
+#~ msgstr "바이노럴 팬: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Binaural Width: @value[]"
+#~ msgstr "바이노럴 폭: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Left"
+#~ msgstr "왼쪽"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Left: @value[]"
+#~ msgstr "왼쪽: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Mono"
+#~ msgstr "모노"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "No Panning"
+#~ msgstr "패닝 없음"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Pan"
+#~ msgstr "팬"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Pan: @value[]"
+#~ msgstr "팬: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Right"
+#~ msgstr "오른쪽"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Right: @value[]"
+#~ msgstr "오른쪽: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Width"
+#~ msgstr "폭"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Width: @value[]"
+#~ msgstr "폭: @value[]"
 

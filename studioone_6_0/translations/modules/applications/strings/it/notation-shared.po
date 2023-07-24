@@ -9,10 +9,15 @@ msgctxt "ScoreEdit"
 msgid "Add One Octave"
 msgstr "Aggiungi Una Ottava"
 
-#: scoredoceditcomponent.cpp
+#: scoredoccontroller.cpp scoredoceditcomponent.cpp
 msgctxt "Notation"
 msgid "Add Part '%(1)'"
 msgstr "Aggiungi Parte '%(1)'"
+
+#: scoredoccontroller.cpp
+msgctxt "Notation"
+msgid "Add Parts"
+msgstr "Aggiungi Parti"
 
 #: edittasks/transposetask.cpp
 msgctxt "ScoreEdit"
@@ -163,6 +168,11 @@ msgstr "File"
 msgctxt "ScoreEdit"
 msgid "Fill with Rests"
 msgstr "Riempi con pause"
+
+#: edittasks/fillwithrhythmslashestask.cpp
+msgctxt "ScoreEdit"
+msgid "Fill with Rhythm Slashes"
+msgstr "Riempi con ritmica Slash"
 
 #: edittasks/transposetask.cpp
 msgctxt "ScoreEdit"
@@ -378,6 +388,11 @@ msgstr "Seconda"
 msgctxt "Edit"
 msgid "Select"
 msgstr "Seleziona"
+
+#: scoredoccontroller.cpp
+msgctxt "Notation"
+msgid "Select Instrument"
+msgstr "Seleziona lo strumento"
 
 #: scoredoceditcomponent.cpp
 msgctxt "Command"

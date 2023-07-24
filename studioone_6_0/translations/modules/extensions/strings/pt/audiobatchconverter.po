@@ -14,6 +14,11 @@ msgctxt "AudioProcess"
 msgid "Adjust volume of audio file"
 msgstr "Ajustar volume do arquivo de áudio"
 
+#: processes/phase.cpp
+msgctxt "AudioProcess"
+msgid "All Channels"
+msgstr "Todos os Canais"
+
 #: plugversion.h
 msgctxt "AudioBatchConverter"
 msgid "Audio Batch Converter"
@@ -58,16 +63,6 @@ msgstr "Retrair Tudo"
 msgctxt "Fade"
 msgid "Concave"
 msgstr "Côncavo"
-
-#: processes/fileformat.cpp
-msgctxt "AudioProcess"
-msgid "Convert Format"
-msgstr "Formato da Conversão"
-
-#: processes/fileformat.cpp
-msgctxt "AudioProcess"
-msgid "Convert type, rate, resolution, and channels"
-msgstr "Tipo de conversão, taxa, resolução e canais"
 
 #: processes/fade.cpp
 msgctxt "Fade"
@@ -228,6 +223,11 @@ msgstr "Unir Arquivos"
 msgctxt "AudioProcess"
 msgid "Join all input files sequentially"
 msgstr "Unir todos os arquivos de entrada em sequencia"
+
+#: processes/phase.cpp
+msgctxt "AudioProcess"
+msgid "Left Channel Only"
+msgstr "Apenas Canal Esquerdo"
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
@@ -394,6 +394,11 @@ msgctxt "Command"
 msgid "Return to Zero"
 msgstr "Retornar a Zero"
 
+#: processes/phase.cpp
+msgctxt "AudioProcess"
+msgid "Right Channel Only"
+msgstr "Apenas Canal Direito"
+
 #: processlist.cpp
 msgctxt "Audio Conveter"
 msgid "Save Rack Preset"
@@ -498,6 +503,14 @@ msgstr "Volume"
 msgctxt "AudioBatchConverter"
 msgid "analyzing..."
 msgstr "Analisando..."
+
+#~ msgctxt "AudioProcess"
+#~ msgid "Convert Format"
+#~ msgstr "Formato da Conversão"
+
+#~ msgctxt "AudioProcess"
+#~ msgid "Convert type, rate, resolution, and channels"
+#~ msgstr "Tipo de conversão, taxa, resolução e canais"
 
 #~ msgctxt "OuputLocationComponent"
 #~ msgid "Select..."

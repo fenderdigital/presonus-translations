@@ -324,7 +324,7 @@ msgctxt "GadgetManager"
 msgid "Gadgets"
 msgstr "Gadżety"
 
-#: analytics/apptrackinghandler.cpp extensions/appupdater.cpp
+#: extensions/appupdater.cpp analytics/apptrackinghandler.cpp
 msgctxt "Command"
 msgid "Help"
 msgstr "Pomoc"
@@ -369,13 +369,13 @@ msgctxt "Extensions"
 msgid "Installation failed!"
 msgstr "Instalacja nie powiodła się!"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
 msgid "Installed"
 msgstr "Zainstalowane"
 
-#: packages/unifiedpackageaction.cpp
-msgctxt "PackageActions"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Installed"
 msgstr "Zainstalowane"
 
@@ -454,15 +454,15 @@ msgctxt "PackageFilter"
 msgid "Origin"
 msgstr "Źródło"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
-msgid "Other"
-msgstr "Pozostałe"
-
 #: packages/unifiedpackagesource.cpp
 msgctxt "PackageSource"
 msgid "Other"
 msgstr "Inne"
+
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Other"
+msgstr "Pozostałe"
 
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"
@@ -843,4 +843,3 @@ msgstr "Twoja wersja jest aktualna."
 #~ msgctxt "ExtensionManager"
 #~ msgid "There are updates available for your Extensions."
 #~ msgstr "Są dostępne aktualizacje dla Twoich rozszerzeń."
-

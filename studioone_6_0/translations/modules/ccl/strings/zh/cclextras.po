@@ -324,7 +324,7 @@ msgctxt "GadgetManager"
 msgid "Gadgets"
 msgstr "小工具"
 
-#: analytics/apptrackinghandler.cpp extensions/appupdater.cpp
+#: extensions/appupdater.cpp analytics/apptrackinghandler.cpp
 msgctxt "Command"
 msgid "Help"
 msgstr "帮助"
@@ -369,13 +369,13 @@ msgctxt "Extensions"
 msgid "Installation failed!"
 msgstr "安装失败！"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
 msgid "Installed"
 msgstr "已安装"
 
-#: packages/unifiedpackageaction.cpp
-msgctxt "PackageActions"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Installed"
 msgstr "已安装"
 
@@ -454,13 +454,13 @@ msgctxt "PackageFilter"
 msgid "Origin"
 msgstr "来源"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
 msgid "Other"
 msgstr "其他"
 
-#: packages/unifiedpackagesource.cpp
-msgctxt "PackageSource"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Other"
 msgstr "其他"
 
@@ -875,4 +875,3 @@ msgstr "您使用的是最新版本。"
 #~ msgctxt "TransferManager"
 #~ msgid "MB/sec"
 #~ msgstr "MB/秒"
-

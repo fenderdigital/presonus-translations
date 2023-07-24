@@ -139,6 +139,16 @@ msgctxt "ChildActionButton"
 msgid "$actionTitle"
 msgstr "$actionTitle"
 
+#: ccl/packages/packagemanager.xml
+msgctxt "CompactPackageInfo"
+msgid "$description"
+msgstr "$description"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "ChildrenListItemCompactContent"
+msgid "$description"
+msgstr "$description"
+
 #: ccl/common.xml
 msgctxt "DocumentDiagnosticTab"
 msgid "$description"
@@ -151,16 +161,6 @@ msgstr "$description"
 
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
-msgid "$description"
-msgstr "$description"
-
-#: ccl/packages/packagemanager.xml
-msgctxt "CompactPackageInfo"
-msgid "$description"
-msgstr "$description"
-
-#: ccl/packages/packagemanager.xml
-msgctxt "ChildrenListItemCompactContent"
 msgid "$description"
 msgstr "$description"
 
@@ -213,6 +213,11 @@ msgstr "$message"
 msgctxt "SafetyOptionsContent"
 msgid "$module"
 msgstr "$module"
+
+#: devices/audiofxeditor.xml
+msgctxt "SplitterLevel"
+msgid "$speaker"
+msgstr ""
 
 #: ccl/browser.xml
 msgctxt "TagPalette"
@@ -294,11 +299,6 @@ msgctxt "HUDPopup"
 msgid "$title"
 msgstr "$title"
 
-#: ccl/common.xml
-msgctxt "default.safetyoption"
-msgid "$title"
-msgstr "$title"
-
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageSort"
 msgid "$title"
@@ -334,18 +334,13 @@ msgctxt "SectionHeader"
 msgid "$title"
 msgstr "$title"
 
-#: devices/audiofxeditor.xml
-msgctxt "PlugInSelectorMenuWideRouting"
+#: ccl/common.xml
+msgctxt "default.safetyoption"
 msgid "$title"
 msgstr "$title"
 
 #: devices/editgroups.xml
 msgctxt "EditGroupLinkAspect"
-msgid "$title"
-msgstr "$title"
-
-#: devices/musicdevices.xml
-msgctxt "MutableNoteRepeatSlider"
 msgid "$title"
 msgstr "$title"
 
@@ -356,6 +351,16 @@ msgstr "$title"
 
 #: devices/surfaces.xml
 msgctxt "SurfaceEditorToggle"
+msgid "$title"
+msgstr "$title"
+
+#: devices/musicdevices.xml
+msgctxt "MutableNoteRepeatSlider"
+msgid "$title"
+msgstr "$title"
+
+#: devices/audiofxeditor.xml
+msgctxt "PlugInSelectorMenuWideRouting"
 msgid "$title"
 msgstr "$title"
 
@@ -524,13 +529,13 @@ msgctxt "TrackExport"
 msgid "..."
 msgstr "..."
 
-#: engine/songdialogs.xml
-msgctxt "SongMetaInfoOption"
+#: engine/videoplayer.xml
+msgctxt "VideoExport"
 msgid "..."
 msgstr "..."
 
-#: engine/videoplayer.xml
-msgctxt "VideoExport"
+#: engine/songdialogs.xml
+msgctxt "SongMetaInfoOption"
 msgid "..."
 msgstr "..."
 
@@ -554,13 +559,13 @@ msgctxt "NewProject"
 msgid "..."
 msgstr "..."
 
-#: show/show.xml
-msgctxt "SetListHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "..."
 msgstr "..."
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "SetListHeader"
 msgid "..."
 msgstr "..."
 
@@ -609,11 +614,6 @@ msgctxt "SetFramesAtCursor"
 msgid "1.00.00.00"
 msgstr "1.00.00.00"
 
-#: engine/editor.xml
-msgctxt "MusicStepRecordPanel"
-msgid "1/1"
-msgstr "1/1"
-
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.BasePart"
 msgid "1/1"
@@ -621,8 +621,8 @@ msgstr "1/1"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
-msgid "1/16"
-msgstr "1/16"
+msgid "1/1"
+msgstr "1/1"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.BasePart"
@@ -631,8 +631,8 @@ msgstr "1/16"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
-msgid "1/2"
-msgstr "1/2"
+msgid "1/16"
+msgstr "1/16"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.BasePart"
@@ -641,8 +641,8 @@ msgstr "1/2"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
-msgid "1/32"
-msgstr "1/32"
+msgid "1/2"
+msgstr "1/2"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.BasePart"
@@ -651,8 +651,8 @@ msgstr "1/32"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
-msgid "1/4"
-msgstr "1/4"
+msgid "1/32"
+msgstr "1/32"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.BasePart"
@@ -661,8 +661,8 @@ msgstr "1/4"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
-msgid "1/64"
-msgstr "1/64"
+msgid "1/4"
+msgstr "1/4"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.BasePart"
@@ -671,11 +671,16 @@ msgstr "1/64"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
+msgid "1/64"
+msgstr "1/64"
+
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.BasePart"
 msgid "1/8"
 msgstr "1/8"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.BasePart"
+#: engine/editor.xml
+msgctxt "MusicStepRecordPanel"
 msgid "1/8"
 msgstr "1/8"
 
@@ -959,6 +964,11 @@ msgctxt "TrackList"
 msgid "@cmd.title[Devices|Activate All Inserts]"
 msgstr "@cmd.title[Devices|Activate All Inserts]"
 
+#: engine/song.xml
+msgctxt "SongToolbarContent"
+msgid "@cmd.title[Edit|Autoscroll]"
+msgstr "@cmd.title[Edit|Autoscroll]"
+
 #: engine/editor.xml
 msgctxt "ScoreEditorToolBar"
 msgid "@cmd.title[Edit|Autoscroll]"
@@ -966,11 +976,6 @@ msgstr "@cmd.title[Edit|Autoscroll]"
 
 #: engine/editor.xml
 msgctxt "EditorToolBar"
-msgid "@cmd.title[Edit|Autoscroll]"
-msgstr "@cmd.title[Edit|Autoscroll]"
-
-#: engine/song.xml
-msgctxt "SongToolbarContent"
 msgid "@cmd.title[Edit|Autoscroll]"
 msgstr "@cmd.title[Edit|Autoscroll]"
 
@@ -989,13 +994,13 @@ msgctxt "SongToolbarContent"
 msgid "@cmd.title[Edit|Toggle Ripple Edit]"
 msgstr "@cmd.title[Edit|Toggle Ripple Edit]"
 
-#: engine/editor.xml
-msgctxt "EditorToolBar"
+#: engine/song.xml
+msgctxt "SongToolbarContent"
 msgid "@cmd.title[Edit|Toggle Snap]"
 msgstr "@cmd.title[Edit|Toggle Snap]"
 
-#: engine/song.xml
-msgctxt "SongToolbarContent"
+#: engine/editor.xml
+msgctxt "EditorToolBar"
 msgid "@cmd.title[Edit|Toggle Snap]"
 msgstr "@cmd.title[Edit|Toggle Snap]"
 
@@ -1264,6 +1269,11 @@ msgctxt "EditorToolBar"
 msgid "@cmd.title[View|Step Record]"
 msgstr "@cmd.title[View|Step Record]"
 
+#: engine/tracklistinspector.xml
+msgctxt "TrackListInspectorPanel"
+msgid "@cmd.title[View|Track List]"
+msgstr "@cmd.title[View|Track List]"
+
 #: engine/inspector.xml
 msgctxt "InspectorPanel"
 msgid "@cmd.title[View|Track List]"
@@ -1271,11 +1281,6 @@ msgstr "@cmd.title[View|Track List]"
 
 #: engine/song.xml
 msgctxt "TrackControlsButtonsHeader"
-msgid "@cmd.title[View|Track List]"
-msgstr "@cmd.title[View|Track List]"
-
-#: engine/tracklistinspector.xml
-msgctxt "TrackListInspectorPanel"
 msgid "@cmd.title[View|Track List]"
 msgstr "@cmd.title[View|Track List]"
 
@@ -1288,6 +1293,16 @@ msgstr "@cmd.title[View|Video Player]"
 msgctxt "VideoTrackControls"
 msgid "@cmd.title[View|Video Player]"
 msgstr "@cmd.title[View|Video Player]"
+
+#: engine/song.xml
+msgctxt "SongToolbarContent"
+msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
+msgstr ""
+
+#: engine/editor.xml
+msgctxt "EditorToolBar"
+msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
+msgstr ""
 
 #: app/homepage.xml
 msgctxt "HomePageHeader"
@@ -1304,11 +1319,6 @@ msgctxt "PerspectiveSelector"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "@cmd.title[]"
-msgstr "@cmd.title[]"
-
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageManager.Packages"
 msgid "@cmd.title[]"
@@ -1316,6 +1326,11 @@ msgstr "@cmd.title[]"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
+msgid "@cmd.title[]"
+msgstr "@cmd.title[]"
+
+#: ccl/browser.xml
+msgctxt "BrowserHomeContent"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
@@ -1549,13 +1564,13 @@ msgctxt "Command"
 msgid "About"
 msgstr "O programie"
 
-#: app/about.xml
-msgctxt "AboutApplication"
+#: app/homepage.xml
+msgctxt "HomePage"
 msgid "About $APPNAME"
 msgstr "O $APPNAME"
 
-#: app/homepage.xml
-msgctxt "HomePage"
+#: app/about.xml
+msgctxt "AboutApplication"
 msgid "About $APPNAME"
 msgstr "O $APPNAME"
 
@@ -1589,13 +1604,13 @@ msgctxt "AudioBendPanel.ActionPart"
 msgid "Action"
 msgstr "Działanie"
 
-#: engine/editor.xml
-msgctxt "ToolBar.TasksMenu"
+#: engine/inspector.xml
+msgctxt "VideoTrackInspector"
 msgid "Action"
 msgstr "Działanie"
 
-#: engine/inspector.xml
-msgctxt "VideoTrackInspector"
+#: engine/editor.xml
+msgctxt "ToolBar.TasksMenu"
 msgid "Action"
 msgstr "Działanie"
 
@@ -1619,16 +1634,6 @@ msgctxt "ActivationMode.Retail"
 msgid "Activate"
 msgstr "Aktywuj"
 
-#: devices/audiofxeditor.xml
-msgctxt "FXEditorHeaderRow1"
-msgid "Activate"
-msgstr "Aktywuj"
-
-#: devices/audiofxeditor.xml
-msgctxt "SlotNodeEditHeader"
-msgid "Activate"
-msgstr "Aktywuj"
-
 #: devices/musicfxeditor.xml
 msgctxt "MusicFXRackSlotView"
 msgid "Activate"
@@ -1636,6 +1641,16 @@ msgstr "Aktywuj"
 
 #: devices/synthrack.xml
 msgctxt "AudioSynthRackSlotViewCompact"
+msgid "Activate"
+msgstr "Aktywuj"
+
+#: devices/audiofxeditor.xml
+msgctxt "FXEditorHeaderRow1"
+msgid "Activate"
+msgstr "Aktywuj"
+
+#: devices/audiofxeditor.xml
+msgctxt "SlotNodeEditHeader"
 msgid "Activate"
 msgstr "Aktywuj"
 
@@ -1679,15 +1694,15 @@ msgctxt "PerformanceMonitor"
 msgid "Activate All"
 msgstr "Aktywuj wszystkie"
 
-#: engine/eventinspector.xml
-msgctxt "AudioEventFXInserts"
-msgid "Activate All"
-msgstr "Aktywuj wszystkie"
-
 #: engine/inspector.xml
 msgctxt "MusicTrackInspector.FX"
 msgid "Activate All"
 msgstr "Aktywuj wszystko"
+
+#: engine/eventinspector.xml
+msgctxt "AudioEventFXInserts"
+msgid "Activate All"
+msgstr "Aktywuj wszystkie"
 
 #: app/licenser.xml
 msgctxt "ActivationMode.Demo"
@@ -1752,15 +1767,17 @@ msgstr "Aktywna personalizacja"
 #: ccl/navigator.xml
 msgctxt "AppSafetyOptionsIndicator"
 msgid "Active Safety Options:&#13;&#10;$safetyOptions"
-msgstr "Aktywne opcje bezpieczeństwa:\r\n$safetyOptions"
-
-#: engine/editor.xml
-msgctxt "ScoreEditorSoundVariationControls"
-msgid "Active Sound Variation"
-msgstr "Aktywna wariacja brzmienia"
+msgstr ""
+"Aktywne opcje bezpieczeństwa:\r\n"
+"$safetyOptions"
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspectorContent"
+msgid "Active Sound Variation"
+msgstr "Aktywna wariacja brzmienia"
+
+#: engine/editor.xml
+msgctxt "ScoreEditorSoundVariationControls"
 msgid "Active Sound Variation"
 msgstr "Aktywna wariacja brzmienia"
 
@@ -1829,13 +1846,13 @@ msgctxt "MusicTrackInspector.FX"
 msgid "Add Note FX"
 msgstr "Dodaj efekt MIDI"
 
-#: show/show.xml
-msgctxt "Command"
+#: show/showdialogs.xml
+msgctxt "AddPlayerDialog"
 msgid "Add Player"
 msgstr "Dodaj odtwarzacz"
 
-#: show/showdialogs.xml
-msgctxt "AddPlayerDialog"
+#: show/show.xml
+msgctxt "Command"
 msgid "Add Player"
 msgstr "Dodaj odtwarzacz"
 
@@ -2034,7 +2051,7 @@ msgctxt "AudioBendPanel.MarkerPart"
 msgid "Analyze"
 msgstr "Analizuj"
 
-#: app/homepage.xml app/toolbar.xml app/windowclasses.xml
+#: app/windowclasses.xml app/homepage.xml app/toolbar.xml
 #: ccl/packages/packagemanager.xml
 msgctxt "Command"
 msgid "Application"
@@ -2150,13 +2167,13 @@ msgctxt "DetailedInfoTable"
 msgid "Artist"
 msgstr "Artysta"
 
-#: show/show.xml
-msgctxt "SetListHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "Artist"
 msgstr "Artysta"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "SetListHeader"
 msgid "Artist"
 msgstr "Artysta"
 
@@ -2340,13 +2357,13 @@ msgctxt "AudioIOSetup"
 msgid "Audition"
 msgstr "Odtwarzacz"
 
-#: engine/eventinspector.xml
-msgctxt "ChordSelectorParts"
+#: engine/inspector.xml
+msgctxt "ChordTrackInspector"
 msgid "Audition Chords"
 msgstr "Odsłuchiwanie akordów"
 
-#: engine/inspector.xml
-msgctxt "ChordTrackInspector"
+#: engine/eventinspector.xml
+msgctxt "ChordSelectorParts"
 msgid "Audition Chords"
 msgstr "Odsłuchiwanie akordów"
 
@@ -2399,6 +2416,11 @@ msgstr "Automatyczny ogon"
 msgctxt "MusicTransformDialog"
 msgid "Auto Tail"
 msgstr "Automatyczny ogon"
+
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Auto Zoom"
+msgstr ""
 
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog"
@@ -2470,13 +2492,13 @@ msgctxt "AutomationTrackDialog"
 msgid "Automation"
 msgstr "Automatyka"
 
-#: engine/editor.xml
-msgctxt "Command"
+#: engine/inspector.xml
+msgctxt "TrackInspectorAutomationControls"
 msgid "Automation"
 msgstr "Automatyka"
 
-#: engine/inspector.xml
-msgctxt "TrackInspectorAutomationControls"
+#: engine/editor.xml
+msgctxt "Command"
 msgid "Automation"
 msgstr "Automatyka"
 
@@ -2660,6 +2682,11 @@ msgctxt "AudioBendPanel.MarkerPart"
 msgid "Bend Marker"
 msgstr "Markery Audio Bend"
 
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Bend Marker"
+msgstr "Markery Audio Bend"
+
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "Bend Marker"
@@ -2667,11 +2694,6 @@ msgstr "Markery Audio Bend"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
-msgid "Bend Marker"
-msgstr "Markery Audio Bend"
-
-#: engine/song.xml
-msgctxt "SongCustomization"
 msgid "Bend Marker"
 msgstr "Markery Audio Bend"
 
@@ -2770,13 +2792,13 @@ msgctxt "BrowserHomeContent"
 msgid "Browse $APPNAME loop libraries"
 msgstr "Przeglądaj biblioteki pętli $APPNAME"
 
-#: devices/audiofxeditor.xml
-msgctxt "SlotNodeEditHeader"
+#: devices/soundvariationmap.xml
+msgctxt "SoundVariationEditorMain"
 msgid "Browse Presets"
 msgstr "Przeglądaj zestawy"
 
-#: devices/soundvariationmap.xml
-msgctxt "SoundVariationEditorMain"
+#: devices/audiofxeditor.xml
+msgctxt "SlotNodeEditHeader"
 msgid "Browse Presets"
 msgstr "Przeglądaj zestawy"
 
@@ -2795,13 +2817,13 @@ msgctxt "BrowserHomeContent"
 msgid "Browse files and folders"
 msgstr "Przeglądaj pliki i foldery"
 
-#: app/homepage.xml app/windowclasses.xml ccl/browser.xml
-msgctxt "Command"
+#: app/windowclasses.xml ccl/browser.xml
+msgctxt "Browser"
 msgid "Browser"
 msgstr "Przeglądarka"
 
-#: app/windowclasses.xml ccl/browser.xml
-msgctxt "Browser"
+#: app/windowclasses.xml app/homepage.xml ccl/browser.xml
+msgctxt "Command"
 msgid "Browser"
 msgstr "Przeglądarka"
 
@@ -2887,6 +2909,16 @@ msgstr "Pomiń (automatyzowalne)"
 
 #: engine/audioexport.xml
 msgctxt "AudioExport"
+msgid "Bypass fader and post effects"
+msgstr ""
+
+#: engine/videoplayer.xml
+msgctxt "VideoExport"
+msgid "Bypass fader and post effects"
+msgstr ""
+
+#: engine/audioexport.xml
+msgctxt "AudioExport"
 msgid "Bypass master effects"
 msgstr "Pomiń efekty sumy"
 
@@ -2915,13 +2947,13 @@ msgctxt "CDProtocol"
 msgid "CD Protocol"
 msgstr "Protokół CD"
 
-#: devices/synthrack.xml
-msgctxt "AudioSynthRackSlotViewCompact"
+#: devices/transport.xml
+msgctxt "PerformanceMonitor.Meters"
 msgid "CPU"
 msgstr "CPU"
 
-#: devices/transport.xml
-msgctxt "PerformanceMonitor.Meters"
+#: devices/synthrack.xml
+msgctxt "AudioSynthRackSlotViewCompact"
 msgid "CPU"
 msgstr "CPU"
 
@@ -3190,13 +3222,13 @@ msgctxt "AddPlayerDialog"
 msgid "Choose this type to use a microphone, guitar, or other instrument and apply effects."
 msgstr "Wybierz ten typ, aby użyć mikrofonu, gitary lub innego instrumentu oraz zastosować efekty."
 
-#: engine/editor.xml
-msgctxt "AudioChordEventProperties"
+#: engine/eventinspector.xml
+msgctxt "ChordEventInspector"
 msgid "Chord"
 msgstr "Akord"
 
-#: engine/eventinspector.xml
-msgctxt "ChordEventInspector"
+#: engine/editor.xml
+msgctxt "AudioChordEventProperties"
 msgid "Chord"
 msgstr "Akord"
 
@@ -3235,13 +3267,13 @@ msgctxt "ChordDisplay"
 msgid "Chord Track"
 msgstr "Ścieżka akordów"
 
-#: engine/editor.xml
-msgctxt "AudioEditor.ToolGroup2"
+#: engine/inspector.xml
+msgctxt "ChordTrackInspector"
 msgid "Chords"
 msgstr "Akordy"
 
-#: engine/inspector.xml
-msgctxt "ChordTrackInspector"
+#: engine/editor.xml
+msgctxt "AudioEditor.ToolGroup2"
 msgid "Chords"
 msgstr "Akordy"
 
@@ -3265,6 +3297,11 @@ msgctxt "PerformanceMonitor.CacheOptions"
 msgid "Cleanup Cache"
 msgstr "Wyczyść pamięć podręczną"
 
+#: app/startup.xml
+msgctxt "MessageWindow"
+msgid "Clear"
+msgstr "Wyczyść"
+
 #: app/homepage.xml
 msgctxt "DocumentBlocks"
 msgid "Clear"
@@ -3282,11 +3319,6 @@ msgstr "Wyczyść"
 
 #: app/shared.xml
 msgctxt "SearchBar"
-msgid "Clear"
-msgstr "Wyczyść"
-
-#: app/startup.xml
-msgctxt "MessageWindow"
 msgid "Clear"
 msgstr "Wyczyść"
 
@@ -3350,11 +3382,6 @@ msgctxt "ParamMapper.LeftPart.Inner"
 msgid "Click+Drag Parameter"
 msgstr "Kliknij + przeciągnij parametr"
 
-#: engine/trackcontrols.xml
-msgctxt "InputLevelsContent"
-msgid "Clip"
-msgstr "Przester"
-
 #: project/analyser.xml
 msgctxt "HoldValues"
 msgid "Clip"
@@ -3395,18 +3422,13 @@ msgctxt "AttachedFrameControlsNoInvert"
 msgid "Close"
 msgstr "Zamknij"
 
-#: devices/audiomixer.xml
-msgctxt "MixerManager"
-msgid "Close"
-msgstr "Zamknij"
-
 #: devices/synthcombinator.xml
 msgctxt "CombinatorContentTitleBar"
 msgid "Close"
 msgstr "Zamknij"
 
-#: engine/editor.xml
-msgctxt "MusicStepRecordPanel"
+#: devices/audiomixer.xml
+msgctxt "MixerManager"
 msgid "Close"
 msgstr "Zamknij"
 
@@ -3417,6 +3439,11 @@ msgstr "Zamknij"
 
 #: engine/videoplayer.xml
 msgctxt "VideoPlayer"
+msgid "Close"
+msgstr "Zamknij"
+
+#: engine/editor.xml
+msgctxt "MusicStepRecordPanel"
 msgid "Close"
 msgstr "Zamknij"
 
@@ -3480,31 +3507,6 @@ msgctxt "InspectorSectionFolder"
 msgid "Color Selector"
 msgstr "Selektor kolorów"
 
-#: engine/editor.xml
-msgctxt "EditorLeftPanelHeader"
-msgid "Color Selector"
-msgstr "Selektor kolorów"
-
-#: engine/editor.xml
-msgctxt "EditorLeftPanelHeader_TrackColor"
-msgid "Color Selector"
-msgstr "Selektor kolorów"
-
-#: engine/eventinspector.xml
-msgctxt "EventHeadline"
-msgid "Color Selector"
-msgstr "Selektor kolorów"
-
-#: engine/eventinspector.xml
-msgctxt "EventNodeMiniProperties.MenuControl"
-msgid "Color Selector"
-msgstr "Selektor kolorów"
-
-#: engine/eventinspector.xml
-msgctxt "ChordEventMiniProperties"
-msgid "Color Selector"
-msgstr "Selektor kolorów"
-
 #: engine/inspector.xml
 msgctxt "AudioTrackInspector"
 msgid "Color Selector"
@@ -3542,6 +3544,31 @@ msgstr "Selektor kolorów"
 
 #: engine/inspector.xml
 msgctxt "VideoTrackInspector"
+msgid "Color Selector"
+msgstr "Selektor kolorów"
+
+#: engine/eventinspector.xml
+msgctxt "EventHeadline"
+msgid "Color Selector"
+msgstr "Selektor kolorów"
+
+#: engine/eventinspector.xml
+msgctxt "EventNodeMiniProperties.MenuControl"
+msgid "Color Selector"
+msgstr "Selektor kolorów"
+
+#: engine/eventinspector.xml
+msgctxt "ChordEventMiniProperties"
+msgid "Color Selector"
+msgstr "Selektor kolorów"
+
+#: engine/editor.xml
+msgctxt "EditorLeftPanelHeader"
+msgid "Color Selector"
+msgstr "Selektor kolorów"
+
+#: engine/editor.xml
+msgctxt "EditorLeftPanelHeader_TrackColor"
 msgid "Color Selector"
 msgstr "Selektor kolorów"
 
@@ -3840,13 +3867,13 @@ msgctxt "SendToNotionInner"
 msgid "Create lead sheet"
 msgstr "Utwórz główny arkusz"
 
-#: ccl/extensionmanager.xml
-msgctxt "ExtensionPropertiesInplace"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageVendor"
 msgid "Created by"
 msgstr "Utworzony przez"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "PackageVendor"
+#: ccl/extensionmanager.xml
+msgctxt "ExtensionPropertiesInplace"
 msgid "Created by"
 msgstr "Utworzony przez"
 
@@ -3955,13 +3982,13 @@ msgctxt "TimeScrollBar+Zoom"
 msgid "Data Zoom"
 msgstr "Powiększenie danych"
 
-#: engine/editor.xml
-msgctxt "MusicPatternPartEditorContent"
+#: engine/mediapool.xml
+msgctxt "MediaPoolHeader"
 msgid "Data Zoom"
 msgstr "Powiększenie danych"
 
-#: engine/mediapool.xml
-msgctxt "MediaPoolHeader"
+#: engine/editor.xml
+msgctxt "MusicPatternPartEditorContent"
 msgid "Data Zoom"
 msgstr "Powiększenie danych"
 
@@ -4263,7 +4290,9 @@ msgstr "Konfiguracja dokumentu"
 #: app/shared.xml
 msgctxt "DocumentSafetyOptionsIndicator"
 msgid "Document loaded with Safety Options:&#13;&#10;$safetyOptions"
-msgstr "Dokument otwarty z opcjami bezpieczeństwa:\r\n$safetyOptions"
+msgstr ""
+"Dokument otwarty z opcjami bezpieczeństwa:\r\n"
+"$safetyOptions"
 
 #: app/toolbar.xml
 msgctxt "PerspectiveSelector"
@@ -4485,6 +4514,11 @@ msgctxt "EditGroupSelector"
 msgid "Edit Group"
 msgstr "Grupa edycji"
 
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Edit Lock"
+msgstr "Blokada edycji"
+
 #: engine/eventinspector.xml
 msgctxt "EventPropertiesTarget"
 msgid "Edit Lock"
@@ -4522,11 +4556,6 @@ msgstr "Blokada edycji"
 
 #: engine/eventinspector.xml
 msgctxt "MusicPartMiniProperties.Table"
-msgid "Edit Lock"
-msgstr "Blokada edycji"
-
-#: engine/song.xml
-msgctxt "SongCustomization"
 msgid "Edit Lock"
 msgstr "Blokada edycji"
 
@@ -4600,13 +4629,13 @@ msgctxt "AudioFXEditorEmbedded"
 msgid "Editor"
 msgstr "Edytor"
 
-#: engine/editor.xml
-msgctxt "Editor"
+#: engine/eventinspector.xml
+msgctxt "ChordDisplay"
 msgid "Editor"
 msgstr "Edytor"
 
-#: engine/eventinspector.xml
-msgctxt "ChordDisplay"
+#: engine/editor.xml
+msgctxt "Editor"
 msgid "Editor"
 msgstr "Edytor"
 
@@ -4640,15 +4669,20 @@ msgctxt "BurnerSelectDialog"
 msgid "Eject"
 msgstr "Wysuń"
 
+#: engine/eventinspector.xml
+msgctxt "AudioEventFXHeader"
+msgid "Enable"
+msgstr "Włącz"
+
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
 msgid "Enable"
 msgstr "Włącz"
 
-#: engine/eventinspector.xml
-msgctxt "AudioEventFXHeader"
-msgid "Enable"
-msgstr "Włącz"
+#: app/options.xml
+msgctxt "AudioEngineOption"
+msgid "Enable &apos;Layers follow events&apos; for new tracks"
+msgstr ""
 
 #: app/options.xml
 msgctxt "AudioEngineOption"
@@ -4675,13 +4709,13 @@ msgctxt "ChannelOrganizerSetup"
 msgid "Enable Listen Bus"
 msgstr "Włącz szynę odsłuchiwania"
 
-#: devices/audiofxeditor.xml
-msgctxt "FXEditorHeaderRow1"
+#: devices/synthrack.xml
+msgctxt "SynthRack"
 msgid "Enable Low Latency Monitoring"
 msgstr "Włącz monitoring o niskiej latencji"
 
-#: devices/synthrack.xml
-msgctxt "SynthRack"
+#: devices/audiofxeditor.xml
+msgctxt "FXEditorHeaderRow1"
 msgid "Enable Low Latency Monitoring"
 msgstr "Włącz monitoring o niskiej latencji"
 
@@ -4760,8 +4794,8 @@ msgctxt "ConsoleOptionContent"
 msgid "Enable undo"
 msgstr "Włącz cofanie"
 
-#: engine/editor.xml
-msgctxt "NoteEventProperties"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.OptionsPart"
 msgid "End"
 msgstr "Koniec"
 
@@ -4795,8 +4829,8 @@ msgctxt "MusicPartPropertiesTarget"
 msgid "End"
 msgstr "Koniec"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.OptionsPart"
+#: engine/editor.xml
+msgctxt "NoteEventProperties"
 msgid "End"
 msgstr "Koniec"
 
@@ -5025,13 +5059,13 @@ msgctxt "StripSilencePanel.EventsPart"
 msgid "Fade Out"
 msgstr "Zanikanie"
 
-#: engine/eventinspector.xml
-msgctxt "AudioEventPropertiesListTarget"
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Fade-In"
 msgstr "Narastanie"
 
-#: engine/song.xml
-msgctxt "SongCustomization"
+#: engine/eventinspector.xml
+msgctxt "AudioEventPropertiesListTarget"
 msgid "Fade-In"
 msgstr "Narastanie"
 
@@ -5040,13 +5074,13 @@ msgctxt "ProjectEventMiniProperties.Table"
 msgid "Fade-In"
 msgstr "Narastanie"
 
-#: engine/eventinspector.xml
-msgctxt "AudioEventPropertiesListTarget"
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Fade-Out"
 msgstr "Zanikanie"
 
-#: engine/song.xml
-msgctxt "SongCustomization"
+#: engine/eventinspector.xml
+msgctxt "AudioEventPropertiesListTarget"
 msgid "Fade-Out"
 msgstr "Zanikanie"
 
@@ -5085,6 +5119,11 @@ msgctxt "Command"
 msgid "File"
 msgstr "Plik"
 
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "File Tempo"
+msgstr "Tempo pliku"
+
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "File Tempo"
@@ -5092,11 +5131,6 @@ msgstr "Tempo pliku"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
-msgid "File Tempo"
-msgstr "Tempo pliku"
-
-#: engine/song.xml
-msgctxt "SongCustomization"
 msgid "File Tempo"
 msgstr "Tempo pliku"
 
@@ -5260,6 +5294,11 @@ msgctxt "LyricsDisplaySetup"
 msgid "Font Size"
 msgstr "Rozmiar czcionki"
 
+#: engine/mediapool.xml
+msgctxt "ConvertFilesDialog"
+msgid "Format"
+msgstr "Format"
+
 #: engine/audioexport.xml
 msgctxt "AudioExport"
 msgid "Format"
@@ -5267,11 +5306,6 @@ msgstr "Format"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
-msgid "Format"
-msgstr "Format"
-
-#: engine/mediapool.xml
-msgctxt "ConvertFilesDialog"
 msgid "Format"
 msgstr "Format"
 
@@ -5355,13 +5389,13 @@ msgctxt "GadgetNavigator"
 msgid "Gadgets"
 msgstr "Gadżety"
 
-#: engine/eventinspector.xml
-msgctxt "AudioEventPropertiesListTarget"
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Gain"
 msgstr "Wzmocnienie"
 
-#: engine/song.xml
-msgctxt "SongCustomization"
+#: engine/eventinspector.xml
+msgctxt "AudioEventPropertiesListTarget"
 msgid "Gain"
 msgstr "Wzmocnienie"
 
@@ -5370,6 +5404,11 @@ msgctxt "ProjectEventMiniProperties.Table"
 msgid "Gain"
 msgstr "Wzmocnienie"
 
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Gain Envelope"
+msgstr "Obwiednia wzmocnienia"
+
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "Gain Envelope"
@@ -5377,11 +5416,6 @@ msgstr "Obwiednia wzmocnienia"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
-msgid "Gain Envelope"
-msgstr "Obwiednia wzmocnienia"
-
-#: engine/song.xml
-msgctxt "SongCustomization"
 msgid "Gain Envelope"
 msgstr "Obwiednia wzmocnienia"
 
@@ -5415,13 +5449,13 @@ msgctxt "ShowSetup"
 msgid "Generator"
 msgstr "Generator"
 
-#: app/homepage.xml
-msgctxt "ArtistProfile"
+#: app/multitrack.xml
+msgctxt "MultitrackPropertyEditor"
 msgid "Genre"
 msgstr "Gatunek"
 
-#: app/multitrack.xml
-msgctxt "MultitrackPropertyEditor"
+#: app/homepage.xml
+msgctxt "ArtistProfile"
 msgid "Genre"
 msgstr "Gatunek"
 
@@ -5450,6 +5484,11 @@ msgctxt "TrackList"
 msgid "Global Solo @cmd[Console|Global Solo]"
 msgstr "Globalne solo @cmd[Console|Global Solo]"
 
+#: engine/song.xml
+msgctxt "TrackControlsButtonsHeader"
+msgid "Global Track Visibility"
+msgstr "Widoczność ścieżek globalnych"
+
 #: engine/editor.xml
 msgctxt "MusicEditor"
 msgid "Global Track Visibility"
@@ -5457,11 +5496,6 @@ msgstr "Widoczność ścieżek globalnych"
 
 #: engine/editor.xml
 msgctxt "AudioEditor"
-msgid "Global Track Visibility"
-msgstr "Widoczność ścieżek globalnych"
-
-#: engine/song.xml
-msgctxt "TrackControlsButtonsHeader"
 msgid "Global Track Visibility"
 msgstr "Widoczność ścieżek globalnych"
 
@@ -5495,11 +5529,6 @@ msgctxt "Command"
 msgid "Goto Previous Marker"
 msgstr "Przejdź do poprzedniego markera"
 
-#: engine/eventinspector.xml
-msgctxt "LyricsDisplay"
-msgid "Grid"
-msgstr "Siatka"
-
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.Inplace"
 msgid "Grid"
@@ -5507,6 +5536,11 @@ msgstr "Siatka"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.Detached"
+msgid "Grid"
+msgstr "Siatka"
+
+#: engine/eventinspector.xml
+msgctxt "LyricsDisplay"
 msgid "Grid"
 msgstr "Siatka"
 
@@ -5590,7 +5624,7 @@ msgctxt "SpectrumMeterSettings"
 msgid "Height"
 msgstr "Wysokość"
 
-#: app/about.xml app/homepage.xml app/toolbar.xml
+#: app/homepage.xml app/toolbar.xml app/about.xml
 msgctxt "Command"
 msgid "Help"
 msgstr "Pomoc"
@@ -5605,7 +5639,7 @@ msgctxt "PlugInManager"
 msgid "Hide All"
 msgstr "Ukryj wszystkie"
 
-#: app/toolbar.xml app/windowclasses.xml
+#: app/windowclasses.xml app/toolbar.xml
 msgctxt "HistoryPanel"
 msgid "History"
 msgstr "Historia"
@@ -5795,16 +5829,6 @@ msgctxt "SongPropertiesExpanded"
 msgid "Initial time signature of song"
 msgstr "Początkowe metrum utworu"
 
-#: show/show.xml
-msgctxt "FxRackPlayerControls"
-msgid "Input"
-msgstr "Wejście"
-
-#: show/show.xml
-msgctxt "VirtualInstrumentPlayerControls"
-msgid "Input"
-msgstr "Wejście"
-
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog.AudioOptions"
 msgid "Input"
@@ -5815,13 +5839,23 @@ msgctxt "AddPlayerDialog.InstrumentOptions"
 msgid "Input"
 msgstr "Wejście"
 
-#: engine/editor.xml
-msgctxt "MusicEditorLeftPanel"
-msgid "Input Chord"
-msgstr "Zagrany akord"
+#: show/show.xml
+msgctxt "FxRackPlayerControls"
+msgid "Input"
+msgstr "Wejście"
+
+#: show/show.xml
+msgctxt "VirtualInstrumentPlayerControls"
+msgid "Input"
+msgstr "Wejście"
 
 #: engine/eventinspector.xml
 msgctxt "ChordDisplay"
+msgid "Input Chord"
+msgstr "Zagrany akord"
+
+#: engine/editor.xml
+msgctxt "MusicEditorLeftPanel"
 msgid "Input Chord"
 msgstr "Zagrany akord"
 
@@ -5905,11 +5939,6 @@ msgctxt "ImportSongDataOptions"
 msgid "Inserts"
 msgstr "Inserty"
 
-#: devices/audiofxeditor.xml
-msgctxt "RoutingEditNodeView"
-msgid "Inserts"
-msgstr "Inserty"
-
 #: devices/editgroups.xml
 msgctxt "SnapshotRecallOptionsContent"
 msgid "Inserts"
@@ -5917,6 +5946,11 @@ msgstr "Inserty"
 
 #: devices/editgroups.xml
 msgctxt "EditGroupMiniProperties"
+msgid "Inserts"
+msgstr "Inserty"
+
+#: devices/audiofxeditor.xml
+msgctxt "RoutingEditNodeView"
 msgid "Inserts"
 msgstr "Inserty"
 
@@ -5985,7 +6019,7 @@ msgctxt "LocateMissingFiles"
 msgid "Install..."
 msgstr "Zainstaluj..."
 
-#: app/homepage.xml app/windowclasses.xml
+#: app/windowclasses.xml app/homepage.xml
 msgctxt "Command"
 msgid "Installation"
 msgstr "Instalacja"
@@ -6005,6 +6039,11 @@ msgctxt "AudioSetup.Engine"
 msgid "Instrument"
 msgstr "Instrumenty"
 
+#: engine/inspector.xml
+msgctxt "ChordTrackInspector"
+msgid "Instrument"
+msgstr "Instrument"
+
 #: engine/editor.xml
 msgctxt "MusicEditorChannelControls"
 msgid "Instrument"
@@ -6012,11 +6051,6 @@ msgstr "Instrument"
 
 #: engine/editor.xml
 msgctxt "PatternInspector"
-msgid "Instrument"
-msgstr "Instrument"
-
-#: engine/inspector.xml
-msgctxt "ChordTrackInspector"
 msgid "Instrument"
 msgstr "Instrument"
 
@@ -6050,16 +6084,6 @@ msgctxt "SoundVariationEditorHeader"
 msgid "Instrument Editor"
 msgstr "Edytor instrumentu"
 
-#: engine/editor.xml
-msgctxt "MusicEditorChannelControls"
-msgid "Instrument Editor"
-msgstr "Edytor instrumentu"
-
-#: engine/editor.xml
-msgctxt "PatternInspector"
-msgid "Instrument Editor"
-msgstr "Edytor instrumentu"
-
 #: engine/inspector.xml
 msgctxt "MusicTrackInspector"
 msgid "Instrument Editor"
@@ -6067,6 +6091,16 @@ msgstr "Edytor instrumentu"
 
 #: engine/inspector.xml
 msgctxt "ChordTrackInspector"
+msgid "Instrument Editor"
+msgstr "Edytor instrumentu"
+
+#: engine/editor.xml
+msgctxt "MusicEditorChannelControls"
+msgid "Instrument Editor"
+msgstr "Edytor instrumentu"
+
+#: engine/editor.xml
+msgctxt "PatternInspector"
 msgid "Instrument Editor"
 msgstr "Edytor instrumentu"
 
@@ -6095,13 +6129,13 @@ msgctxt "IconMuteSoloName"
 msgid "Instrument Editor"
 msgstr "Edytor instrumentu"
 
-#: engine/eventinspector.xml
-msgctxt "ChordSelectorParts"
+#: engine/inspector.xml
+msgctxt "MusicTrackInspector"
 msgid "Instrument Input"
 msgstr "Wejście instrumentu"
 
-#: engine/inspector.xml
-msgctxt "MusicTrackInspector"
+#: engine/eventinspector.xml
+msgctxt "ChordSelectorParts"
 msgid "Instrument Input"
 msgstr "Wejście instrumentu"
 
@@ -6170,13 +6204,13 @@ msgctxt "BrowserHomeContent"
 msgid "Instruments"
 msgstr "Instrumenty"
 
-#: devices/audiomixer.xml
-msgctxt "ChannelSelector"
+#: devices/synthcombinator.xml
+msgctxt "SynthCombinatorEditNodeView"
 msgid "Instruments"
 msgstr "Instrumenty"
 
-#: devices/synthcombinator.xml
-msgctxt "SynthCombinatorEditNodeView"
+#: devices/audiomixer.xml
+msgctxt "ChannelSelector"
 msgid "Instruments"
 msgstr "Instrumenty"
 
@@ -6395,6 +6429,11 @@ msgctxt "ImportSongDataOptions"
 msgid "Layers"
 msgstr "Warstwy"
 
+#: engine/tracklistinspector.xml
+msgctxt "TrackListEmbeddedInspector"
+msgid "Layers"
+msgstr "Warstwy"
+
 #: engine/inspector.xml
 msgctxt "AudioTrackInspectorContent"
 msgid "Layers"
@@ -6417,11 +6456,6 @@ msgstr "Warstwy"
 
 #: engine/trackcontrols.xml
 msgctxt "TrackNameAndLayer"
-msgid "Layers"
-msgstr "Warstwy"
-
-#: engine/tracklistinspector.xml
-msgctxt "TrackListEmbeddedInspector"
 msgid "Layers"
 msgstr "Warstwy"
 
@@ -6490,6 +6524,11 @@ msgctxt "LoudnessInfoTable"
 msgid "Left Channel True Peak"
 msgstr "Rzeczywisty szczytowy poziom lewego kanału"
 
+#: engine/eventediting.xml
+msgctxt "SpotEventsDialog"
+msgid "Length"
+msgstr "Długość"
+
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "Length"
@@ -6497,11 +6536,6 @@ msgstr "Długość"
 
 #: engine/editor.xml
 msgctxt "NoteEventProperties"
-msgid "Length"
-msgstr "Długość"
-
-#: engine/eventediting.xml
-msgctxt "SpotEventsDialog"
 msgid "Length"
 msgstr "Długość"
 
@@ -7305,13 +7339,13 @@ msgctxt "MutablePlainButton"
 msgid "Mute"
 msgstr "Wycisz"
 
-#: devices/audiofxeditor.xml
-msgctxt "SplitterEditView"
+#: devices/editgroups.xml
+msgctxt "SnapshotRecallOptionsContent"
 msgid "Mute"
 msgstr "Wycisz"
 
-#: devices/editgroups.xml
-msgctxt "SnapshotRecallOptionsContent"
+#: devices/audiofxeditor.xml
+msgctxt "SplitterEditView"
 msgid "Mute"
 msgstr "Wycisz"
 
@@ -7335,23 +7369,23 @@ msgctxt "VideoPlayer"
 msgid "Mute Audio"
 msgstr "Wycisz audio"
 
-#: ccl/common.xml
-msgctxt "NewDocumentNameAndPath"
-msgid "Name"
-msgstr "Nazwa"
-
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Name"
 msgstr "Nazwa"
 
-#: engine/editor.xml
-msgctxt "ScorePartSetup"
+#: ccl/common.xml
+msgctxt "NewDocumentNameAndPath"
 msgid "Name"
 msgstr "Nazwa"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.PatternPart"
+msgid "Name"
+msgstr "Nazwa"
+
+#: engine/editor.xml
+msgctxt "ScorePartSetup"
 msgid "Name"
 msgstr "Nazwa"
 
@@ -7530,23 +7564,23 @@ msgctxt "NoSetListItemProperties"
 msgid "No Setlist item selected"
 msgstr "Nie zaznaczono pozycji setlisty"
 
-#: engine/editor.xml
-msgctxt "AudioChordEventInspector"
-msgid "No chord selected"
-msgstr "Nie wybrano akordu"
-
 #: engine/eventinspector.xml
 msgctxt "ChordInspectorContent"
 msgid "No chord selected"
 msgstr "Nie wybrano akordu"
 
 #: engine/editor.xml
-msgctxt "NoteEventInspector"
-msgid "No event selected"
-msgstr "Nie wybrano obiektu"
+msgctxt "AudioChordEventInspector"
+msgid "No chord selected"
+msgstr "Nie wybrano akordu"
 
 #: engine/eventinspector.xml
 msgctxt "NoEventProperties"
+msgid "No event selected"
+msgstr "Nie wybrano obiektu"
+
+#: engine/editor.xml
+msgctxt "NoteEventInspector"
 msgid "No event selected"
 msgstr "Nie wybrano obiektu"
 
@@ -7575,11 +7609,6 @@ msgctxt "SideChainSourceEmpty"
 msgid "No sources available"
 msgstr "Brak dostępnych źródeł"
 
-#: engine/editor.xml
-msgctxt "NoTrackEditor"
-msgid "No track selected"
-msgstr "Nie wybrano ścieżki"
-
 #: engine/inspector.xml
 msgctxt "NoTrackInspector"
 msgid "No track selected"
@@ -7587,6 +7616,11 @@ msgstr "Nie wybrano ścieżki"
 
 #: engine/mediapreview.xml
 msgctxt "MusicClipPreview"
+msgid "No track selected"
+msgstr "Nie wybrano ścieżki"
+
+#: engine/editor.xml
+msgctxt "NoTrackEditor"
 msgid "No track selected"
 msgstr "Nie wybrano ścieżki"
 
@@ -7620,13 +7654,13 @@ msgctxt "SetList"
 msgid "Normal"
 msgstr "Normalny"
 
-#: engine/eventinspector.xml
-msgctxt "AudioEventPropertiesListTarget"
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Normalize"
 msgstr "Normalizacja"
 
-#: engine/song.xml
-msgctxt "SongCustomization"
+#: engine/eventinspector.xml
+msgctxt "AudioEventPropertiesListTarget"
 msgid "Normalize"
 msgstr "Normalizacja"
 
@@ -7795,13 +7829,13 @@ msgctxt "TransportPanel.Sync"
 msgid "On"
 msgstr "Wł."
 
-#: app/homepage.xml
-msgctxt "Command"
+#: app/soundselector.xml
+msgctxt "SoundSetFileSelector"
 msgid "Open"
 msgstr "Otwórz"
 
-#: app/soundselector.xml
-msgctxt "SoundSetFileSelector"
+#: app/homepage.xml
+msgctxt "Command"
 msgid "Open"
 msgstr "Otwórz"
 
@@ -7940,13 +7974,18 @@ msgctxt "TrackExport"
 msgid "Options"
 msgstr "Opcje"
 
+#: engine/song.xml
+msgctxt "TrackControlsButtonsHeader"
+msgid "Options"
+msgstr "Opcje"
+
 #: engine/eventinspector.xml
 msgctxt "LyricsDisplay"
 msgid "Options"
 msgstr "Opcje"
 
-#: engine/song.xml
-msgctxt "TrackControlsButtonsHeader"
+#: project/burn.xml
+msgctxt "BurnerSelectDialog"
 msgid "Options"
 msgstr "Opcje"
 
@@ -7957,11 +7996,6 @@ msgstr "Opcje"
 
 #: project/audiofile.xml
 msgctxt "ImageMaker"
-msgid "Options"
-msgstr "Opcje"
-
-#: project/burn.xml
-msgctxt "BurnerSelectDialog"
 msgid "Options"
 msgstr "Opcje"
 
@@ -8005,16 +8039,6 @@ msgctxt "VideoExport"
 msgid "Output"
 msgstr "Wyjście"
 
-#: show/show.xml
-msgctxt "BackingTrackPlayerControls"
-msgid "Output"
-msgstr "Wyjście"
-
-#: show/show.xml
-msgctxt "FxRackPlayerControls"
-msgid "Output"
-msgstr "Wyjście"
-
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog.AudioOptions"
 msgid "Output"
@@ -8025,15 +8049,20 @@ msgctxt "AddPlayerDialog.InstrumentOptions"
 msgid "Output"
 msgstr "Wyjście"
 
+#: show/show.xml
+msgctxt "BackingTrackPlayerControls"
+msgid "Output"
+msgstr "Wyjście"
+
+#: show/show.xml
+msgctxt "FxRackPlayerControls"
+msgid "Output"
+msgstr "Wyjście"
+
 #: devices/devices.xml
 msgctxt "AudioSetup.Device"
 msgid "Output Latency"
 msgstr "Latencja wyjścia"
-
-#: devices/audiofxeditor.xml
-msgctxt "FXEditorHeaderRow1"
-msgid "Outputs"
-msgstr "Wyjścia"
 
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup"
@@ -8042,6 +8071,11 @@ msgstr "Wyjścia"
 
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceEditorHeaderView"
+msgid "Outputs"
+msgstr "Wyjścia"
+
+#: devices/audiofxeditor.xml
+msgctxt "FXEditorHeaderRow1"
 msgid "Outputs"
 msgstr "Wyjścia"
 
@@ -8260,6 +8294,11 @@ msgctxt "MusicDeviceSetup"
 msgid "Placement..."
 msgstr "Grupa..."
 
+#: engine/musicdialogs.xml
+msgctxt "MusicBounceDialog"
+msgid "Play"
+msgstr "Odtwarzaj"
+
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "AudioPreviewPlayer"
 msgid "Play"
@@ -8267,11 +8306,6 @@ msgstr "Odtwarzaj"
 
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "MusicPreviewPlayer"
-msgid "Play"
-msgstr "Odtwarzaj"
-
-#: engine/musicdialogs.xml
-msgctxt "MusicBounceDialog"
 msgid "Play"
 msgstr "Odtwarzaj"
 
@@ -8285,13 +8319,13 @@ msgctxt "Metronome"
 msgid "Play 6/8 click like 2 x 3/8 etc."
 msgstr "Odtwarzaj klik 6/8 jak 2 x 3/8 itp."
 
-#: engine/eventinspector.xml
-msgctxt "AudioPartPropertiesTarget"
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Play Mode"
 msgstr "Tryb odtwarzania"
 
-#: engine/song.xml
-msgctxt "SongCustomization"
+#: engine/eventinspector.xml
+msgctxt "AudioPartPropertiesTarget"
 msgid "Play Mode"
 msgstr "Tryb odtwarzania"
 
@@ -8390,13 +8424,13 @@ msgctxt "Command"
 msgid "Plug-In Manager"
 msgstr "Menadżer wtyczek"
 
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
 msgid "Plug-In Manager"
 msgstr "Menadżer wtyczek"
 
-#: ccl/pluginmanager.xml
-msgctxt "PlugInManager"
+#: ccl/browser.xml
+msgctxt "BrowserHomeContent"
 msgid "Plug-In Manager"
 msgstr "Menadżer wtyczek"
 
@@ -8415,13 +8449,13 @@ msgctxt "PresetFileInfo"
 msgid "Plug-In:"
 msgstr "Wtyczka:"
 
-#: ccl/common.xml
-msgctxt "ColorSchemeOption.Plugins"
+#: ccl/pluginmanager.xml
+msgctxt "PlugInInfo"
 msgid "Plug-Ins"
 msgstr "Wtyczki"
 
-#: ccl/pluginmanager.xml
-msgctxt "PlugInInfo"
+#: ccl/common.xml
+msgctxt "ColorSchemeOption.Plugins"
 msgid "Plug-Ins"
 msgstr "Wtyczki"
 
@@ -8545,7 +8579,7 @@ msgctxt "AddPlayerDialog.AudioOptions"
 msgid "Preset"
 msgstr "Zestaw"
 
-#: ccl/browser.xml ccl/pluginmanager.xml devices/audiofxeditor.xml
+#: ccl/pluginmanager.xml ccl/browser.xml devices/audiofxeditor.xml
 msgctxt "Command"
 msgid "Presets"
 msgstr "Zestawy"
@@ -8725,11 +8759,6 @@ msgctxt "AudioBendPanel.ActionPart"
 msgid "Quantize"
 msgstr "Kwantyzacja"
 
-#: engine/editor.xml
-msgctxt "EditorToolBar"
-msgid "Quantize"
-msgstr "Kwantyzacja"
-
 #: engine/quantize.xml
 msgctxt "QuantizePanel"
 msgid "Quantize"
@@ -8745,18 +8774,23 @@ msgctxt "SongToolbarContent"
 msgid "Quantize"
 msgstr "Kwantyzacja"
 
+#: engine/editor.xml
+msgctxt "EditorToolBar"
+msgid "Quantize"
+msgstr "Kwantyzacja"
+
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.ActionPart"
 msgid "Quantize Strength"
 msgstr "Siła kwantyzacji"
 
-#: engine/editor.xml
-msgctxt "EditorToolBar"
+#: engine/song.xml
+msgctxt "SongToolbarContent"
 msgid "Quantize Value"
 msgstr "Wartość kwantyzacji"
 
-#: engine/song.xml
-msgctxt "SongToolbarContent"
+#: engine/editor.xml
+msgctxt "EditorToolBar"
 msgid "Quantize Value"
 msgstr "Wartość kwantyzacji"
 
@@ -8765,13 +8799,13 @@ msgctxt "RecordPanel.Horizontal"
 msgid "Quantize played notes during record"
 msgstr "Kwantyzuj nuty podczas nagrywania"
 
-#: engine/editor.xml
-msgctxt "MusicStepRecordPanel"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.TypePart"
 msgid "Quintuplet"
 msgstr "Kwintola"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.TypePart"
+#: engine/editor.xml
+msgctxt "MusicStepRecordPanel"
 msgid "Quintuplet"
 msgstr "Kwintola"
 
@@ -8825,13 +8859,13 @@ msgctxt "HoldValues"
 msgid "RMS Right [dB]"
 msgstr "Prawy RMS [dB]"
 
-#: devices/musicdevices.xml
-msgctxt "NoteRepeater"
+#: devices/synthcombinator.xml
+msgctxt "SynthNodeEditView"
 msgid "Range"
 msgstr "Zakres"
 
-#: devices/synthcombinator.xml
-msgctxt "SynthNodeEditView"
+#: devices/musicdevices.xml
+msgctxt "NoteRepeater"
 msgid "Range"
 msgstr "Zakres"
 
@@ -9100,6 +9134,11 @@ msgctxt "PlugInManager"
 msgid "Remove"
 msgstr "Usuń"
 
+#: devices/soundvariationmap.xml
+msgctxt "SoundVariationEditorMain"
+msgid "Remove"
+msgstr "Usuń"
+
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup"
 msgid "Remove"
@@ -9107,11 +9146,6 @@ msgstr "Usuń"
 
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceSetup"
-msgid "Remove"
-msgstr "Usuń"
-
-#: devices/soundvariationmap.xml
-msgctxt "SoundVariationEditorMain"
 msgid "Remove"
 msgstr "Usuń"
 
@@ -9150,13 +9184,13 @@ msgctxt "LocateMissingFiles"
 msgid "Remove File..."
 msgstr "Usuń plik..."
 
-#: app/homepage.xml
-msgctxt "ArtistProfile"
+#: app/multitrack.xml
+msgctxt "MultitrackPropertyEditor"
 msgid "Remove Image"
 msgstr "Usuń obraz"
 
-#: app/multitrack.xml
-msgctxt "MultitrackPropertyEditor"
+#: app/homepage.xml
+msgctxt "ArtistProfile"
 msgid "Remove Image"
 msgstr "Usuń obraz"
 
@@ -9175,13 +9209,13 @@ msgctxt "DetailedInfoTable"
 msgid "Remove Image"
 msgstr "Usuń obraz"
 
-#: show/show.xml
-msgctxt "SetListHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "Remove Image"
 msgstr "Usuń obraz"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "SetListHeader"
 msgid "Remove Image"
 msgstr "Usuń obraz"
 
@@ -9320,13 +9354,13 @@ msgctxt "ColorSchemePresetOption"
 msgid "Reset"
 msgstr "Resetuj"
 
-#: engine/editor.xml
-msgctxt "ScorePageLayout"
+#: engine/musicdialogs.xml
+msgctxt "PitchNameEditor"
 msgid "Reset"
 msgstr "Resetuj"
 
-#: engine/musicdialogs.xml
-msgctxt "PitchNameEditor"
+#: engine/editor.xml
+msgctxt "ScorePageLayout"
 msgid "Reset"
 msgstr "Resetuj"
 
@@ -9500,11 +9534,6 @@ msgctxt "LoudnessInfoTable"
 msgid "Right Channel True Peak"
 msgstr "Rzeczywisty szczytowy poziom lewego kanału"
 
-#: engine/editor.xml
-msgctxt "MusicEditorLeftPanel"
-msgid "Root"
-msgstr "Podstawa"
-
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorMiniParts"
 msgid "Root"
@@ -9517,6 +9546,11 @@ msgstr "Podstawa akordu"
 
 #: engine/eventinspector.xml
 msgctxt "ChordEventMiniProperties"
+msgid "Root"
+msgstr "Podstawa"
+
+#: engine/editor.xml
+msgctxt "MusicEditorLeftPanel"
 msgid "Root"
 msgstr "Podstawa"
 
@@ -9780,13 +9814,13 @@ msgctxt "PackageManager.Packages"
 msgid "Select All"
 msgstr "Zaznacz wszystko"
 
-#: app/homepage.xml
-msgctxt "ArtistProfile"
+#: app/multitrack.xml
+msgctxt "MultitrackPropertyEditor"
 msgid "Select Image"
 msgstr "Wybierz obraz"
 
-#: app/multitrack.xml
-msgctxt "MultitrackPropertyEditor"
+#: app/homepage.xml
+msgctxt "ArtistProfile"
 msgid "Select Image"
 msgstr "Wybierz obraz"
 
@@ -9805,13 +9839,13 @@ msgctxt "DetailedInfoTable"
 msgid "Select Image"
 msgstr "Wybierz obraz"
 
-#: show/show.xml
-msgctxt "SetListHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "Select Image"
 msgstr "Wybierz obraz"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "SetListHeader"
 msgid "Select Image"
 msgstr "Wybierz obraz"
 
@@ -9985,13 +10019,13 @@ msgctxt "MidiMonitor"
 msgid "Sent"
 msgstr "Wysłane"
 
-#: engine/editor.xml
-msgctxt "MusicStepRecordPanel"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.TypePart"
 msgid "Septuplet"
 msgstr "Septola"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.TypePart"
+#: engine/editor.xml
+msgctxt "MusicStepRecordPanel"
 msgid "Septuplet"
 msgstr "Septola"
 
@@ -10530,11 +10564,6 @@ msgctxt "SpectrumMeterSettings"
 msgid "Smooth"
 msgstr "Wygładź"
 
-#: engine/editor.xml
-msgctxt "EditorToolBar"
-msgid "Snap"
-msgstr "Dopasowanie"
-
 #: engine/song.xml
 msgctxt "SongToolbarContent"
 msgid "Snap"
@@ -10542,11 +10571,16 @@ msgstr "Dopasowanie"
 
 #: engine/editor.xml
 msgctxt "EditorToolBar"
+msgid "Snap"
+msgstr "Dopasowanie"
+
+#: engine/song.xml
+msgctxt "SongToolbarContent"
 msgid "Snap Timebase"
 msgstr "Format czasu dopasowania"
 
-#: engine/song.xml
-msgctxt "SongToolbarContent"
+#: engine/editor.xml
+msgctxt "EditorToolBar"
 msgid "Snap Timebase"
 msgstr "Format czasu dopasowania"
 
@@ -10765,6 +10799,11 @@ msgctxt "BurnerSelectDialog"
 msgid "Speed"
 msgstr "Prędkość"
 
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Speedup"
+msgstr "Przyspieszenie"
+
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "Speedup"
@@ -10772,11 +10811,6 @@ msgstr "Przyspieszenie"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
-msgid "Speedup"
-msgstr "Przyspieszenie"
-
-#: engine/song.xml
-msgctxt "SongCustomization"
 msgid "Speedup"
 msgstr "Przyspieszenie"
 
@@ -10800,13 +10834,13 @@ msgctxt "SplitterEditView"
 msgid "Splits"
 msgstr "Podziały"
 
-#: devices/audiofxeditor.xml
-msgctxt "PlugInSplitterDragView"
+#: devices/synthcombinator.xml
+msgctxt "SynthSplitterDragView"
 msgid "Splitter"
 msgstr "Rozdzielacz"
 
-#: devices/synthcombinator.xml
-msgctxt "SynthSplitterDragView"
+#: devices/audiofxeditor.xml
+msgctxt "PlugInSplitterDragView"
 msgid "Splitter"
 msgstr "Rozdzielacz"
 
@@ -10845,8 +10879,8 @@ msgctxt "AppSafetyOptionsDialog"
 msgid "Start"
 msgstr "Uruchom"
 
-#: engine/editor.xml
-msgctxt "NoteEventProperties"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.OptionsPart"
 msgid "Start"
 msgstr "Początek"
 
@@ -10885,8 +10919,8 @@ msgctxt "MusicPartPropertiesTarget"
 msgid "Start"
 msgstr "Początek"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.OptionsPart"
+#: engine/editor.xml
+msgctxt "NoteEventProperties"
 msgid "Start"
 msgstr "Początek"
 
@@ -10910,13 +10944,13 @@ msgctxt "ShowTransport"
 msgid "Start @cmd[Transport|Start]"
 msgstr "Start @cmd[Transport|Start]"
 
-#: app/toolbar.xml
-msgctxt "Command"
+#: app/windowclasses.xml
+msgctxt "Start"
 msgid "Start Page"
 msgstr "Strona startowa"
 
-#: app/windowclasses.xml
-msgctxt "Start"
+#: app/toolbar.xml
+msgctxt "Command"
 msgid "Start Page"
 msgstr "Strona startowa"
 
@@ -10980,6 +11014,11 @@ msgctxt "MusicPatternToolsHeader"
 msgid "Steps"
 msgstr "Kroki"
 
+#: engine/musicdialogs.xml
+msgctxt "MusicBounceDialog"
+msgid "Stop"
+msgstr "Stop"
+
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "AudioPreviewPlayer"
 msgid "Stop"
@@ -10987,11 +11026,6 @@ msgstr "Zatrzymaj"
 
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "MusicPreviewPlayer"
-msgid "Stop"
-msgstr "Stop"
-
-#: engine/musicdialogs.xml
-msgctxt "MusicBounceDialog"
 msgid "Stop"
 msgstr "Stop"
 
@@ -11055,13 +11089,13 @@ msgctxt "QuantizeSetup.PresetPart"
 msgid "Store Preset"
 msgstr "Zapisz zestaw"
 
-#: engine/editor.xml
-msgctxt "MusicStepRecordPanel"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.TypePart"
 msgid "Straight"
 msgstr "Prosta"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.TypePart"
+#: engine/editor.xml
+msgctxt "MusicStepRecordPanel"
 msgid "Straight"
 msgstr "Prosta"
 
@@ -11080,13 +11114,13 @@ msgctxt "SongSetup"
 msgid "Stretch audio files to tempo"
 msgstr "Dopasuj pliki audio do tempa utworu"
 
-#: engine/eventinspector.xml
-msgctxt "AudioPartPropertiesTarget"
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Stretch events"
 msgstr "Rozciągnij obiekty"
 
-#: engine/song.xml
-msgctxt "SongCustomization"
+#: engine/eventinspector.xml
+msgctxt "AudioPartPropertiesTarget"
 msgid "Stretch events"
 msgstr "Rozciągnij obiekty"
 
@@ -11140,13 +11174,13 @@ msgctxt "SuspendGroupPopup"
 msgid "Suspend group"
 msgstr "Zawieś grupę"
 
-#: engine/editor.xml
-msgctxt "MusicPatternToolsHeader"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.TypePart"
 msgid "Swing"
 msgstr "Swing"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.TypePart"
+#: engine/editor.xml
+msgctxt "MusicPatternToolsHeader"
 msgid "Swing"
 msgstr "Swing"
 
@@ -11195,6 +11229,11 @@ msgctxt "SpotEventsDialog"
 msgid "Sync Point"
 msgstr "Punkt synchronizacji"
 
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Sync Point"
+msgstr "Punkt synchronizacji"
+
 #: engine/eventinspector.xml
 msgctxt "EventPropertiesTarget"
 msgid "Sync Point"
@@ -11222,11 +11261,6 @@ msgstr "Punkt synchronizacji"
 
 #: engine/eventinspector.xml
 msgctxt "MusicPartMiniProperties.Table"
-msgid "Sync Point"
-msgstr "Punkt synchronizacji"
-
-#: engine/song.xml
-msgctxt "SongCustomization"
 msgid "Sync Point"
 msgstr "Punkt synchronizacji"
 
@@ -11295,13 +11329,13 @@ msgctxt "TagListEditBox"
 msgid "Tag Search"
 msgstr "Wyszukiwanie tagów"
 
-#: app/shared.xml
-msgctxt "SearchBar"
+#: app/windowclasses.xml
+msgctxt "TagPalette"
 msgid "Tags"
 msgstr "Tagi"
 
-#: app/windowclasses.xml
-msgctxt "TagPalette"
+#: app/shared.xml
+msgctxt "SearchBar"
 msgid "Tags"
 msgstr "Tagi"
 
@@ -11540,6 +11574,11 @@ msgctxt "BigTime"
 msgid "Time Display"
 msgstr "Wyświetl czas"
 
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Time Lock"
+msgstr "Blokada czasu"
+
 #: engine/eventinspector.xml
 msgctxt "EventPropertiesTarget"
 msgid "Time Lock"
@@ -11577,11 +11616,6 @@ msgstr "Blokada czasu"
 
 #: engine/eventinspector.xml
 msgctxt "MusicPartMiniProperties.Table"
-msgid "Time Lock"
-msgstr "Blokada czasu"
-
-#: engine/song.xml
-msgctxt "SongCustomization"
 msgid "Time Lock"
 msgstr "Blokada czasu"
 
@@ -11625,20 +11659,15 @@ msgctxt "ProjectTransport"
 msgid "Time in current Track"
 msgstr "Czas bieżącego utworu"
 
-#: ccl/overlays.xml
-msgctxt "ProgressStepView"
-msgid "Time remaining:"
-msgstr "Pozostało:"
-
 #: ccl/packages/packagemanager.xml
 msgctxt "AnyAction"
 msgid "Time remaining:"
 msgstr "Pozostało:"
 
-#: engine/editor.xml
-msgctxt "EditorToolBar"
-msgid "Timebase"
-msgstr "Format czasu"
+#: ccl/overlays.xml
+msgctxt "ProgressStepView"
+msgid "Time remaining:"
+msgstr "Pozostało:"
 
 #: engine/eventediting.xml
 msgctxt "SpotEventsDialog"
@@ -11667,6 +11696,11 @@ msgstr "Format czasu"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
+msgid "Timebase"
+msgstr "Format czasu"
+
+#: engine/editor.xml
+msgctxt "EditorToolBar"
 msgid "Timebase"
 msgstr "Format czasu"
 
@@ -11705,13 +11739,13 @@ msgctxt "RenderClick"
 msgid "Timeline Start To Song End"
 msgstr "Od początku lini czasu do końca utworu"
 
-#: engine/editor.xml
-msgctxt "EditorToolBar"
+#: engine/song.xml
+msgctxt "SongToolbarContent"
 msgid "Timeruler Format"
 msgstr "Format linijki czasu"
 
-#: engine/song.xml
-msgctxt "SongToolbarContent"
+#: engine/editor.xml
+msgctxt "EditorToolBar"
 msgid "Timeruler Format"
 msgstr "Format linijki czasu"
 
@@ -11755,13 +11789,13 @@ msgctxt "TitleAlbumNotes"
 msgid "Title"
 msgstr "Tytuł"
 
-#: show/show.xml
-msgctxt "ShowPlayerHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "Title"
 msgstr "Tytuł"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "ShowPlayerHeader"
 msgid "Title"
 msgstr "Tytuł"
 
@@ -11825,13 +11859,13 @@ msgctxt "AudioBendPanel.TrackPart"
 msgid "Track"
 msgstr "Ścieżka"
 
-#: engine/editor.xml
-msgctxt "ScoreEditorLeftPanel"
+#: engine/song.xml
+msgctxt "Command"
 msgid "Track"
 msgstr "Ścieżka"
 
-#: engine/song.xml
-msgctxt "Command"
+#: engine/editor.xml
+msgctxt "ScoreEditorLeftPanel"
 msgid "Track"
 msgstr "Ścieżka"
 
@@ -11844,6 +11878,11 @@ msgstr "Ścieżka"
 msgctxt "SongCustomization"
 msgid "Track (common)"
 msgstr "Ścieżka (współne)"
+
+#: app/options.xml
+msgctxt "EditingOptionsContent"
+msgid "Track / Channel names follow active layer"
+msgstr ""
 
 #: project/project.xml
 msgctxt "ProjectTrackControlsLength"
@@ -11860,11 +11899,6 @@ msgctxt "Command"
 msgid "Track List"
 msgstr "Lista ścieżek"
 
-#: engine/editor.xml
-msgctxt "EditorLeftPanelHeader_TrackList"
-msgid "Track List"
-msgstr "Lista ścieżek"
-
 #: engine/tracklistinspector.xml
 msgctxt "MusicTrackListInspectorPanel"
 msgid "Track List"
@@ -11872,6 +11906,11 @@ msgstr "Lista ścieżek"
 
 #: engine/tracklistinspector.xml
 msgctxt "ScoreTrackListInspectorPanel"
+msgid "Track List"
+msgstr "Lista ścieżek"
+
+#: engine/editor.xml
+msgctxt "EditorLeftPanelHeader_TrackList"
 msgid "Track List"
 msgstr "Lista ścieżek"
 
@@ -12025,6 +12064,16 @@ msgctxt "SynthNodeEditView"
 msgid "Transpose"
 msgstr "Transpozycja"
 
+#: engine/inspector.xml
+msgctxt "MusicTrackInspectorContent"
+msgid "Transpose"
+msgstr "Transpozycja"
+
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Transpose"
+msgstr "Transpozycja"
+
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "Transpose"
@@ -12045,16 +12094,6 @@ msgctxt "MusicPartMiniProperties.Table"
 msgid "Transpose"
 msgstr "Transpozycja"
 
-#: engine/inspector.xml
-msgctxt "MusicTrackInspectorContent"
-msgid "Transpose"
-msgstr "Transpozycja"
-
-#: engine/song.xml
-msgctxt "SongCustomization"
-msgid "Transpose"
-msgstr "Transpozycja"
-
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Transpose / Velocity"
@@ -12065,13 +12104,13 @@ msgctxt "ScorePartSetup"
 msgid "Transposition"
 msgstr "Transpozycja"
 
-#: engine/editor.xml
-msgctxt "MusicStepRecordPanel"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.TypePart"
 msgid "Triplet"
 msgstr "Triola"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.TypePart"
+#: engine/editor.xml
+msgctxt "MusicStepRecordPanel"
 msgid "Triplet"
 msgstr "Triola"
 
@@ -12085,6 +12124,11 @@ msgctxt "UserLicenseDialog.ActivationOptions"
 msgid "Try the full version for a time limited demo period"
 msgstr "Wypróbuj ograniczoną czasowo pełną wersję"
 
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Tune"
+msgstr "Strój"
+
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "Tune"
@@ -12092,11 +12136,6 @@ msgstr "Strój"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
-msgid "Tune"
-msgstr "Strój"
-
-#: engine/song.xml
-msgctxt "SongCustomization"
 msgid "Tune"
 msgstr "Strój"
 
@@ -12112,11 +12151,6 @@ msgstr "Włącz lub wyłącz format wtyczki"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
-msgid "Type"
-msgstr "Typ"
-
-#: engine/editor.xml
-msgctxt "NoteControllerLaneHeader"
 msgid "Type"
 msgstr "Typ"
 
@@ -12137,6 +12171,11 @@ msgstr "Typ"
 
 #: engine/eventinspector.xml
 msgctxt "EnvelopeBendMiniProperties"
+msgid "Type"
+msgstr "Typ"
+
+#: engine/editor.xml
+msgctxt "NoteControllerLaneHeader"
 msgid "Type"
 msgstr "Typ"
 
@@ -12365,6 +12404,11 @@ msgctxt "ChannelOrganizerSetup"
 msgid "VCA connections"
 msgstr "Połączenia VCA"
 
+#: engine/inspector.xml
+msgctxt "AutomationTrackInspectorContent"
+msgid "Value"
+msgstr "Wartość"
+
 #: engine/eventinspector.xml
 msgctxt "EnvelopePointMiniProperties.Table"
 msgid "Value"
@@ -12372,11 +12416,6 @@ msgstr "Wartość"
 
 #: engine/eventinspector.xml
 msgctxt "EnvelopeBendMiniProperties"
-msgid "Value"
-msgstr "Wartość"
-
-#: engine/inspector.xml
-msgctxt "AutomationTrackInspectorContent"
 msgid "Value"
 msgstr "Wartość"
 
@@ -12405,18 +12444,8 @@ msgctxt "InspectorSectionFolder"
 msgid "Variations Folder"
 msgstr "Folder wariacji"
 
-#: engine/editor.xml
-msgctxt "NoteEventProperties"
-msgid "Velocity"
-msgstr "Dynamika"
-
-#: engine/eventinspector.xml
-msgctxt "MusicPartPropertiesTarget"
-msgid "Velocity"
-msgstr "Dynamika"
-
-#: engine/eventinspector.xml
-msgctxt "MusicPartMiniProperties.Table"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.OptionsPart"
 msgid "Velocity"
 msgstr "Dynamika"
 
@@ -12430,13 +12459,23 @@ msgctxt "ChordTrackInspector"
 msgid "Velocity"
 msgstr "Dynamika"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.OptionsPart"
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Velocity"
 msgstr "Dynamika"
 
-#: engine/song.xml
-msgctxt "SongCustomization"
+#: engine/eventinspector.xml
+msgctxt "MusicPartPropertiesTarget"
+msgid "Velocity"
+msgstr "Dynamika"
+
+#: engine/eventinspector.xml
+msgctxt "MusicPartMiniProperties.Table"
+msgid "Velocity"
+msgstr "Dynamika"
+
+#: engine/editor.xml
+msgctxt "NoteEventProperties"
 msgid "Velocity"
 msgstr "Dynamika"
 
@@ -12450,23 +12489,23 @@ msgctxt "PlugInFileInfo"
 msgid "Vendor:"
 msgstr "Dostawca:"
 
-#: show/show.xml
-msgctxt "SetListHeader"
-msgid "Venue"
-msgstr "Miejsce"
-
 #: show/showdialogs.xml
 msgctxt "ShowMetaInfoOption"
 msgid "Venue"
 msgstr "Miejsce"
 
-#: ccl/extensionmanager.xml
-msgctxt "ExtensionPropertiesInplace"
-msgid "Version"
-msgstr "Wersja"
+#: show/show.xml
+msgctxt "SetListHeader"
+msgid "Venue"
+msgstr "Miejsce"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageVersion"
+msgid "Version"
+msgstr "Wersja"
+
+#: ccl/extensionmanager.xml
+msgctxt "ExtensionPropertiesInplace"
 msgid "Version"
 msgstr "Wersja"
 
@@ -12475,13 +12514,13 @@ msgctxt "NoteEventProperties"
 msgid "Vertical Snap On/Off"
 msgstr "Włącz/Wyłącz dopasowanie w pionie"
 
-#: engine/trackcontrols.xml
-msgctxt "VideoTrackControls"
+#: engine/videoplayer.xml
+msgctxt "VideoExport"
 msgid "Video"
 msgstr "Wideo"
 
-#: engine/videoplayer.xml
-msgctxt "VideoExport"
+#: engine/trackcontrols.xml
+msgctxt "VideoTrackControls"
 msgid "Video"
 msgstr "Wideo"
 
@@ -12505,7 +12544,7 @@ msgctxt "SongCustomization"
 msgid "Video Player"
 msgstr "Odtwarzacz wideo"
 
-#: app/toolbar.xml app/windowclasses.xml ccl/browser.xml devices/transport.xml
+#: app/windowclasses.xml app/toolbar.xml ccl/browser.xml devices/transport.xml
 #: engine/editor.xml
 msgctxt "Command"
 msgid "View"
@@ -12521,13 +12560,13 @@ msgctxt "AddPlayerDialog"
 msgid "Virtual Instrument"
 msgstr "Wirtualny instrument"
 
-#: devices/audiomixer.xml
-msgctxt "ChannelOrganizerSetup"
+#: devices/editgroups.xml
+msgctxt "SnapshotRecallOptionsContent"
 msgid "Visibility"
 msgstr "Widoczność"
 
-#: devices/editgroups.xml
-msgctxt "SnapshotRecallOptionsContent"
+#: devices/audiomixer.xml
+msgctxt "ChannelOrganizerSetup"
 msgid "Visibility"
 msgstr "Widoczność"
 
@@ -12591,13 +12630,13 @@ msgctxt "Analyser"
 msgid "WF"
 msgstr "WF"
 
-#: app/about.xml
-msgctxt "Command"
+#: app/homepage.xml
+msgctxt "ArtistProfile"
 msgid "Website"
 msgstr "Strona internetowa"
 
-#: app/homepage.xml
-msgctxt "ArtistProfile"
+#: app/about.xml
+msgctxt "Command"
 msgid "Website"
 msgstr "Strona internetowa"
 
@@ -12771,15 +12810,19 @@ msgctxt "DetailedInfoTable"
 msgid "x"
 msgstr "X"
 
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
+msgid "x"
+msgstr "X"
+
 #: show/show.xml
 msgctxt "SetListHeader"
 msgid "x"
 msgstr "X"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
-msgid "x"
-msgstr "X"
+#~ msgctxt "InputLevelsContent"
+#~ msgid "Clip"
+#~ msgstr "Przester"
 
 #~ msgctxt "UserLicenseExpired"
 #~ msgid "$APPCOMPANY Shop"
@@ -14600,4 +14643,3 @@ msgstr "X"
 #~ msgctxt "ChordEventMiniProperties"
 #~ msgid "Time Lock"
 #~ msgstr "Blokada czasu"
-

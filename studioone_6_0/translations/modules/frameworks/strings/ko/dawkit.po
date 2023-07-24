@@ -511,8 +511,16 @@ msgstr "모든 트랙에 인크리멘팅 ISRC 코드를 적용하시겠습니까
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
-msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
-msgstr "DDP 이미지를 만드시겠습니까?\n\n이미지: %(1)\n위치: %(2)"
+msgid ""
+"Do you want to create a DDP image?\n"
+"\n"
+"Image: %(1)\n"
+"Location: %(2)"
+msgstr ""
+"DDP 이미지를 만드시겠습니까?\n"
+"\n"
+"이미지: %(1)\n"
+"위치: %(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -651,13 +659,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "익스포트하는 중:"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "오디오 파일로 익스포트에 실패했습니다."
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "오디오 파일로 익스포트에 실패했습니다."
 
@@ -1293,9 +1301,9 @@ msgid "Print"
 msgstr "인쇄"
 
 #: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp
-#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
-#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
+#: project/publish/ddpimagemaker.cpp project/publish/imagemaker.cpp
+#: project/publish/audiofilepublisher.cpp
 msgctxt "Command"
 msgid "Project"
 msgstr "프로젝트"
@@ -1857,8 +1865,8 @@ msgid "Setup Page"
 msgstr "페이지 설정"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
-#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
+#: show/editing/showeditmodel.cpp show/editing/setlistcomponent.cpp
+#: show/editing/showeditcomponent.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1992,8 +2000,12 @@ msgstr "%(1) 배속으로 DDP 이미지 쓰기 시작"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
-msgid "Start: %(1) (%(2))\nPause: %(3)"
-msgstr "시작: %(1) (%(2))\n일시정지: %(3)"
+msgid ""
+"Start: %(1) (%(2))\n"
+"Pause: %(3)"
+msgstr ""
+"시작: %(1) (%(2))\n"
+"일시정지: %(3)"
 
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
@@ -2022,13 +2034,37 @@ msgstr "이 SONG에는 저작권법의 보호를 받는 소스가 포함되어 �
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
-msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr "EAN 코드가 올바르게 포맷되지 않았습니다.\n\n13자리 숫자만 허용됩니다.\n\n예: 036000291452\n\nUPC가 유효하다면 맨 앞자리에 0을 더하여 유효한 EAN 코드를 얻을 수 있습니다."
+msgid ""
+"The EAN code is not formatted correctly.\n"
+"\n"
+"It should be 13 characters long and should only contain numeric characters.\n"
+"\n"
+"Example: 036000291452\n"
+"\n"
+"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr ""
+"EAN 코드가 올바르게 포맷되지 않았습니다.\n"
+"\n"
+"13자리 숫자만 허용됩니다.\n"
+"\n"
+"예: 036000291452\n"
+"\n"
+"UPC가 유효하다면 맨 앞자리에 0을 더하여 유효한 EAN 코드를 얻을 수 있습니다."
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
-msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
-msgstr "ISRC 코드가 올바르게 포맷되지 않았습니다.\n\n12자리 알파벳과 숫자만 허용됩니다.\n\n예: USPR37300012"
+msgid ""
+"The ISRC code is not formatted correctly.\n"
+"\n"
+"It should be 12 characters long and should only contain alphanumeric characters.\n"
+"\n"
+"Example: USPR37300012"
+msgstr ""
+"ISRC 코드가 올바르게 포맷되지 않았습니다.\n"
+"\n"
+"12자리 알파벳과 숫자만 허용됩니다.\n"
+"\n"
+"예: USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2239,8 +2275,24 @@ msgstr "제목 업데이트"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
-msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "이 Song의 마스터링 파일 업데이트:\n%(6)\n출력: %(1)\n듀레이션: %(3)\n레졸루션: %(4)\n리얼타임 프로세싱: %(5)\n마스터이펙트 포함: %(7)\n파일명: %(2)"
+msgid ""
+"Update the mastering file of this song:\n"
+"%(6)\n"
+"Output: %(1)\n"
+"Duration: %(3)\n"
+"Resolution: %(4)\n"
+"Realtime Processing: %(5)\n"
+"Include Master Effects: %(7)\n"
+"Filename: %(2)"
+msgstr ""
+"이 Song의 마스터링 파일 업데이트:\n"
+"%(6)\n"
+"출력: %(1)\n"
+"듀레이션: %(3)\n"
+"레졸루션: %(4)\n"
+"리얼타임 프로세싱: %(5)\n"
+"마스터이펙트 포함: %(7)\n"
+"파일명: %(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2363,4 +2415,3 @@ msgstr "새로운 플레이어"
 #~ msgctxt "FileType"
 #~ msgid "Add Tracks from Preset"
 #~ msgstr "프리셋에서 트랙 추가"
-

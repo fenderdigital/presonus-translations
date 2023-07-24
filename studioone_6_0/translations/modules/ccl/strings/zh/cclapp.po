@@ -124,6 +124,11 @@ msgctxt "TagStore"
 msgid "Adding Tags..."
 msgstr "添加标签中..."
 
+#: documents/documentblocks.cpp
+msgctxt "Documents"
+msgid "Additional versions available."
+msgstr "有其他版本可供选择。"
+
 #: options/useroption.cpp
 msgctxt "UserOption"
 msgid "Advanced"
@@ -214,7 +219,7 @@ msgctxt "PlugInManagement"
 msgid "Avg. Save Time"
 msgstr "Avg. 保存时间"
 
-#: application.cpp browser/browser.cpp navigation/navigatorbase.cpp
+#: browser/browser.cpp navigation/navigatorbase.cpp application.cpp
 msgctxt "Command"
 msgid "Back"
 msgstr "返回"
@@ -454,13 +459,13 @@ msgctxt "TrashBin"
 msgid "Delete"
 msgstr "删除"
 
-#: components/stringlistcomponent.cpp editing/editor.cpp
-msgctxt "Command"
+#: editing/editor.cpp
+msgctxt "Edit"
 msgid "Delete"
 msgstr "删除"
 
-#: editing/editor.cpp
-msgctxt "Edit"
+#: editing/editor.cpp components/stringlistcomponent.cpp
+msgctxt "Command"
 msgid "Delete"
 msgstr "删除"
 
@@ -759,8 +764,8 @@ msgctxt "ToolHelp"
 msgid "Draw Selection (add)"
 msgstr "绘制所选 (添加)"
 
-#: browser/searchcomponent.cpp components/stringlistcomponent.cpp
-#: documents/documentmanager.cpp editing/editor.cpp
+#: browser/searchcomponent.cpp documents/documentmanager.cpp editing/editor.cpp
+#: components/stringlistcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "编辑"
@@ -880,7 +885,7 @@ msgctxt "Browser"
 msgid "Favorites"
 msgstr "收藏夹"
 
-#: application.cpp documents/documentmanager.cpp
+#: documents/documentmanager.cpp application.cpp
 msgctxt "Command"
 msgid "File"
 msgstr "文件"
@@ -1030,13 +1035,18 @@ msgctxt "SliderMode"
 msgid "Jump"
 msgstr "跳进"
 
-#: application.cpp
-msgctxt "Command"
-msgid "Keyboard Shortcuts"
-msgstr "键盘快捷键"
+#: options/customization.cpp
+msgctxt "Customization"
+msgid "Keep"
+msgstr "保持"
 
 #: options/commandoption.cpp
 msgctxt "UserOption"
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: application.cpp
+msgctxt "Command"
 msgid "Keyboard Shortcuts"
 msgstr "键盘快捷键"
 
@@ -1185,8 +1195,8 @@ msgctxt "DocumentDiagnostics"
 msgid "Name"
 msgstr "名称"
 
-#: application.cpp browser/browser.cpp editing/editor.cpp
-#: itemlist/listitemcomponent.cpp navigation/navigatorbase.cpp
+#: browser/browser.cpp editing/editor.cpp itemlist/listitemcomponent.cpp
+#: navigation/navigatorbase.cpp application.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "导航"
@@ -1326,13 +1336,13 @@ msgctxt "Command"
 msgid "Open with Options"
 msgstr "用选项打开"
 
-#: application.cpp
-msgctxt "Command"
+#: options/useroption.cpp
+msgctxt "UserOption"
 msgid "Options"
 msgstr "选项"
 
-#: options/useroption.cpp
-msgctxt "UserOption"
+#: application.cpp
+msgctxt "Command"
 msgid "Options"
 msgstr "选项"
 
@@ -1426,14 +1436,14 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr "预置:"
 
-#: presets/presetbrowser.cpp presets/presetcomponent.cpp
-#: presets/presetmanager.cpp presets/presettrader.cpp
-msgctxt "Command"
+#: presets/presetfile.cpp
+msgctxt "FileType"
 msgid "Presets"
 msgstr "预置"
 
-#: presets/presetfile.cpp
-msgctxt "FileType"
+#: presets/presetcomponent.cpp presets/presetbrowser.cpp
+#: presets/presetmanager.cpp presets/presettrader.cpp
+msgctxt "Command"
 msgid "Presets"
 msgstr "预置"
 
@@ -1652,6 +1662,11 @@ msgctxt "Command"
 msgid "Revert"
 msgstr "恢复"
 
+#: options/customization.cpp
+msgctxt "Customization"
+msgid "Revert"
+msgstr "恢复"
+
 #: documents/documentmanager.cpp
 msgctxt "Command"
 msgid "Save"
@@ -1707,13 +1722,13 @@ msgctxt "Application"
 msgid "Scanning Languages..."
 msgstr "正在扫描语言..."
 
-#: application.cpp
-msgctxt "Application"
+#: presets/presetmanager.cpp
+msgctxt "Presets"
 msgid "Scanning Plug-Ins..."
 msgstr "正在扫描插件..."
 
-#: presets/presetmanager.cpp
-msgctxt "Presets"
+#: application.cpp
+msgctxt "Application"
 msgid "Scanning Plug-Ins..."
 msgstr "正在扫描插件..."
 
@@ -1737,13 +1752,13 @@ msgctxt "PathList"
 msgid "Searching the root folder of a volume might be very slow.\n\nDo you really want to add %(1)?"
 msgstr "从根目录下开始搜索可能耗时很长。\n\n确认要添加%(1)吗?"
 
-#: components/pathselector.cpp
-msgctxt "PathList"
+#: editing/tools/selecttool.cpp
+msgctxt "ToolHelp"
 msgid "Select"
 msgstr "选择"
 
-#: editing/tools/selecttool.cpp
-msgctxt "ToolHelp"
+#: components/pathselector.cpp
+msgctxt "PathList"
 msgid "Select"
 msgstr "选择"
 
@@ -1876,6 +1891,11 @@ msgstr "存储为默认预置"
 msgctxt "Documents"
 msgid "Templates"
 msgstr " 模板"
+
+#: options/customization.cpp
+msgctxt "Customization"
+msgid "The customization was changed to %(1). Do you want to keep the new customization?"
+msgstr "自定义更改为 %(1)。是否保留新的自定义？"
 
 #: fileinfo/fileoperations.cpp
 msgctxt "FileOperations"
@@ -2207,13 +2227,13 @@ msgctxt "UserOption"
 msgid "Your changes will be applied next time you start $APPNAME."
 msgstr "改变将在重新启动$APPNAME后生效。"
 
-#: editing/scaleview.cpp
-msgctxt "Scale"
+#: editing/tools/selecttool.cpp
+msgctxt "ToolHelp"
 msgid "Zoom"
 msgstr "缩放"
 
-#: editing/tools/selecttool.cpp
-msgctxt "ToolHelp"
+#: editing/scaleview.cpp
+msgctxt "Scale"
 msgid "Zoom"
 msgstr "缩放"
 

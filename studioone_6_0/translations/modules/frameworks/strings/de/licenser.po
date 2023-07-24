@@ -79,8 +79,8 @@ msgctxt "WebAPI"
 msgid "An error occurred at the server (Status %(1))."
 msgstr "Auf dem Server ist ein Fehler aufgetreten (Status %(1))."
 
-#: application/freemiumapp.cpp application/licensedapp.cpp
-#: application/loginhandler.cpp application/purchasehandler.cpp
+#: application/loginhandler.cpp application/licensedapp.cpp
+#: application/purchasehandler.cpp application/freemiumapp.cpp
 msgctxt "Command"
 msgid "Application"
 msgstr "Anwendung"
@@ -112,8 +112,12 @@ msgstr "%(1) Artikel deaktivieren"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
-msgid "Failed to connect to the server.\nPlease check your Internet connection and try again."
-msgstr "Verbindung zum Server fehlgeschlagen.\nBitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
+msgid ""
+"Failed to connect to the server.\n"
+"Please check your Internet connection and try again."
+msgstr ""
+"Verbindung zum Server fehlgeschlagen.\n"
+"Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
 
 #: application/userlicense.cpp
 msgctxt "FileType"
@@ -387,4 +391,3 @@ msgstr "Ihre gekauften Artikel wurden aktiviert."
 #~ msgctxt "Licenser"
 #~ msgid "Activation failed."
 #~ msgstr "Aktivierung fehlgeschlagen."
-

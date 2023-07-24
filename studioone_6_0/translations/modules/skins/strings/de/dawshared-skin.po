@@ -9,11 +9,6 @@ msgctxt "PlugInSelectorMenuWide"
 msgid "$title"
 msgstr "$title"
 
-#: channelpanner.xml
-msgctxt "PanEditorKnobCell"
-msgid "$title"
-msgstr "$title"
-
 #: audiochannel.xml
 msgctxt "SlotPopup.VolumeSlider"
 msgid "$tooltip"
@@ -26,11 +21,6 @@ msgstr "$tooltip"
 
 #: audiochannel.xml
 msgctxt "SendMicroViewSimpleSlider"
-msgid "$tooltip"
-msgstr "$tooltip"
-
-#: channelpanner.xml
-msgctxt "PanEditorKnobCell"
 msgid "$tooltip"
 msgstr "$tooltip"
 
@@ -59,6 +49,16 @@ msgctxt "ChannelMeterDisplay"
 msgid "@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
 
+#: channeleditor.macrocontrols.xml
+msgctxt "MacroControlFocusCell"
+msgid "@value[]"
+msgstr "@value[]"
+
+#: channeleditor.macrocontrols.xml
+msgctxt "DAWMutableMacroControlKnob"
+msgid "@value[]"
+msgstr "@value[]"
+
 #: audiochannel.narrow.xml
 msgctxt "AudioInput.Narrow"
 msgid "@value[]"
@@ -71,16 +71,6 @@ msgstr "@value[]"
 
 #: audiochannel.xml
 msgctxt "AudioSendRackSlotView"
-msgid "@value[]"
-msgstr "@value[]"
-
-#: channeleditor.macrocontrols.xml
-msgctxt "MacroControlFocusCell"
-msgid "@value[]"
-msgstr "@value[]"
-
-#: channeleditor.macrocontrols.xml
-msgctxt "DAWMutableMacroControlKnob"
 msgid "@value[]"
 msgstr "@value[]"
 
@@ -235,17 +225,7 @@ msgid "Automation Mode"
 msgstr "Automationsmodus"
 
 #: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Binaural Pan: @value[]"
-msgstr "Binauraler Pan: @value[]"
-
-#: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
-msgid "Binaural Width: @value[]"
-msgstr "Binaurale Breite: @value[]"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Binaural Width: @value[]"
 msgstr "Binaurale Breite: @value[]"
 
@@ -309,13 +289,13 @@ msgctxt "ChannelMeterDisplay"
 msgid "Clip / Peak Levels"
 msgstr "Clip/Spitzenpegel"
 
-#: channelpanner.xml
-msgctxt "PannerEditorHeadline"
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
 msgid "Close"
 msgstr "Schließen"
 
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
+#: channelpanner.xml
+msgctxt "PannerEditorHeadline"
 msgid "Close"
 msgstr "Schließen"
 
@@ -484,6 +464,11 @@ msgctxt "ChannelInputFXView"
 msgid "Input Gain"
 msgstr "Eingangs-Gain"
 
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
+msgid "Inserts"
+msgstr "Inserts"
+
 #: audiochannel.xml
 msgctxt "AudioInserts"
 msgid "Inserts"
@@ -491,11 +476,6 @@ msgstr "Inserts"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewInserts"
-msgid "Inserts"
-msgstr "Inserts"
-
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
 msgid "Inserts"
 msgstr "Inserts"
 
@@ -544,28 +524,18 @@ msgctxt "MacroTargetCurve"
 msgid "Invert Y"
 msgstr "Umkehren (Y)"
 
-#: channelpanner.xml
-msgctxt "PannerEditorHeadline"
-msgid "Keep Editor Open"
-msgstr "Editor geöffnet halten"
-
 #: deviceheader.xml
 msgctxt "DeviceEditorHeadline"
 msgid "Keep Editor Open"
 msgstr "Editor geöffnet halten"
 
 #: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Left"
-msgstr "Nach links"
+msgctxt "PannerEditorHeadline"
+msgid "Keep Editor Open"
+msgstr "Editor geöffnet halten"
 
 #: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
-msgid "Left: @value[]"
-msgstr "Links: @value[]"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Left: @value[]"
 msgstr "Links: @value[]"
 
@@ -639,18 +609,13 @@ msgctxt "AudioChannel.Narrow.Content"
 msgid "Mono"
 msgstr "Mono"
 
-#: channeleditor.xml
-msgctxt "ChannelOverviewProjectChannel"
-msgid "Mono"
-msgstr "Mono"
-
 #: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
 msgid "Mono"
 msgstr "Mono"
 
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
+#: channeleditor.xml
+msgctxt "ChannelOverviewProjectChannel"
 msgid "Mono"
 msgstr "Mono"
 
@@ -679,11 +644,6 @@ msgctxt "PannerPopupMonoStereo"
 msgid "No Panning"
 msgstr "Kein Panning"
 
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "No Panning"
-msgstr "Kein Panning"
-
 #: deviceheader.xml
 msgctxt "DeviceEditorTitleBar"
 msgid "Overview"
@@ -691,11 +651,6 @@ msgstr "Übersicht"
 
 #: audiochannel.narrow.xml
 msgctxt "ChannelPanTypeControls.Narrow"
-msgid "Pan"
-msgstr "Pan"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Pan"
 msgstr "Pan"
 
@@ -716,11 +671,6 @@ msgstr "Pan: @value[]"
 
 #: channelpanner.xml
 msgctxt "ChannelPanTypeControls"
-msgid "Pan: @value[]"
-msgstr "Pan: @value[]"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Pan: @value[]"
 msgstr "Pan: @value[]"
 
@@ -788,6 +738,11 @@ msgstr "Polarität"
 msgctxt "HardwareInputControlsCompactStereo"
 msgid "Polarity"
 msgstr "Polarität"
+
+#: audiochannel.xml
+msgctxt "ChannelInputFXView"
+msgid "Polarity (Press Shift for Individual State)"
+msgstr "Polarität (Umschalt-Taste für individuelle Einstellung)"
 
 #: audiochannel.xml
 msgctxt "PostFaderInserts"
@@ -875,17 +830,7 @@ msgid "Reset"
 msgstr "Zurücksetzen"
 
 #: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Right"
-msgstr "Nach rechts"
-
-#: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
-msgid "Right: @value[]"
-msgstr "Rechts: @value[]"
-
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
 msgid "Right: @value[]"
 msgstr "Rechts: @value[]"
 
@@ -1070,11 +1015,6 @@ msgid "Volume"
 msgstr "Lautstärke"
 
 #: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Width"
-msgstr "Breite"
-
-#: channelpanner.xml
 msgctxt "ChannelPanTypeControls"
 msgid "Width: @value[]"
 msgstr "Breite: @value[]"
@@ -1084,10 +1024,61 @@ msgctxt "PannerPopupMonoStereo"
 msgid "Width: @value[]"
 msgstr "Breite: @value[]"
 
-#: channelpanner.xml
-msgctxt "PannerEditorMonoStereo"
-msgid "Width: @value[]"
-msgstr "Breite: @value[]"
+#~ msgctxt "PanEditorKnobCell"
+#~ msgid "$title"
+#~ msgstr "$title"
+
+#~ msgctxt "PanEditorKnobCell"
+#~ msgid "$tooltip"
+#~ msgstr "$tooltip"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Binaural Pan: @value[]"
+#~ msgstr "Binauraler Pan: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Binaural Width: @value[]"
+#~ msgstr "Binaurale Breite: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Left"
+#~ msgstr "Nach links"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Left: @value[]"
+#~ msgstr "Links: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Mono"
+#~ msgstr "Mono"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "No Panning"
+#~ msgstr "Kein Panning"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Pan"
+#~ msgstr "Pan"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Pan: @value[]"
+#~ msgstr "Pan: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Right"
+#~ msgstr "Nach rechts"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Right: @value[]"
+#~ msgstr "Rechts: @value[]"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Width"
+#~ msgstr "Breite"
+
+#~ msgctxt "PannerEditorMonoStereo"
+#~ msgid "Width: @value[]"
+#~ msgstr "Breite: @value[]"
 
 #~ msgctxt "AudioOutputChannel.Basics"
 #~ msgid "Automation Mode"

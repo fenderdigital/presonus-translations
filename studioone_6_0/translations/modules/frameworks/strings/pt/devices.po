@@ -64,11 +64,6 @@ msgctxt "AudioRenderEngine"
 msgid "%float(1:1) times slower than realtime"
 msgstr "%float(1:1) vezes mais lento que em tempo real"
 
-#: audiomixer/audioinsertspeakermapcomponent.cpp
-msgctxt "InsertSpeakerMapper"
-msgid "'%(1)' Bypassed"
-msgstr "'%(1)' Desativado"
-
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "(Press <Shift> to append target)"
@@ -254,13 +249,13 @@ msgctxt "Command"
 msgid "Add Scene"
 msgstr "Adicionar Cena"
 
-#: audiomixer/audiosendfolder.cpp
-msgctxt "AudioSendSlot"
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
 msgid "Add Send"
 msgstr "Adicionar Envio (Send)"
 
-#: audiomixer/setup/audiomixersetup.cpp
-msgctxt "Command"
+#: audiomixer/audiosendfolder.cpp
+msgctxt "AudioSendSlot"
 msgid "Add Send"
 msgstr "Adicionar Envio (Send)"
 
@@ -440,6 +435,11 @@ msgctxt "AudioSetup"
 msgid "Audio Setup"
 msgstr "Configurações de Áudio"
 
+#: audio/audioengine.cpp
+msgctxt "Devices"
+msgid "Audio device realtime thread priority could not be set."
+msgstr "Não foi possível definir a prioridade de encadeamento em tempo real do dispositivo de áudio."
+
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Audio engine dropout has occurred."
@@ -449,6 +449,16 @@ msgstr "Ocorreu falha no mecanismo de áudio."
 msgctxt "Devices"
 msgid "Audio engine overload."
 msgstr "Sobrecarga no Motor de Áudio."
+
+#: audio/audioengine.cpp
+msgctxt "Devices"
+msgid "Audio processing realtime thread priority could not be set."
+msgstr "A prioridade do encadeamento em tempo real do processamento de áudio não pôde ser definida."
+
+#: audio/audioengine.cpp
+msgctxt "Devices"
+msgid "Audio sublevel processing realtime thread priority could not be set."
+msgstr "Não foi possível definir a prioridade de encadeamento em tempo real do processamento de subnível de áudio."
 
 #: base/automationunit.cpp
 msgctxt "Automation"
@@ -462,6 +472,11 @@ msgstr "Automação"
 
 #: base/automationhandler.cpp
 msgctxt "Command"
+msgid "Automation"
+msgstr "Automação"
+
+#: editor/devicerack.cpp
+msgctxt "DeviceRack"
 msgid "Automation"
 msgstr "Automação"
 
@@ -509,6 +524,11 @@ msgstr "Disponível"
 msgctxt "AudioPanner"
 msgid "Balance"
 msgstr "Equilíbrio"
+
+#: audio/audioengine.cpp
+msgctxt "DropoutProtection"
+msgid "Basic"
+msgstr "Básico"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
@@ -570,13 +590,13 @@ msgctxt "AudioMixer"
 msgid "Channel"
 msgstr "Canal"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Channel"
 msgstr "Canal"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Channel"
 msgstr "Canal"
 
@@ -655,16 +675,6 @@ msgctxt "AudioClick"
 msgid "Click Volume"
 msgstr "Volume do Metrônomo"
 
-#: audiomixer/audioinsertspeakermapcomponent.cpp
-msgctxt "InsertSpeakerMapper"
-msgid "Click here to bypass '%(1)'"
-msgstr "Clique aqui para desativar '%(1)'"
-
-#: audiomixer/audioinsertspeakermapcomponent.cpp
-msgctxt "InsertSpeakerMapper"
-msgid "Click to move channels"
-msgstr "Clique para mover canais"
-
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Clipping has occurred. The signal was %float(1:2) dB over."
@@ -720,9 +730,9 @@ msgctxt "UCMixerConnector"
 msgid "Connected to %(1)."
 msgstr "Conectado a %(1)."
 
+#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
 #: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
-#: audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp
-#: audiomixer/setup/audiomixersetup.cpp mixerconsole/mixerconsole.cpp
+#: audiomixer/audiosendfolder.cpp mixerconsole/mixerconsole.cpp
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Console"
@@ -919,13 +929,13 @@ msgctxt "Command"
 msgid "Dim"
 msgstr "Dim"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/processgraph.cpp
+msgctxt "ProcessGraph"
 msgid "Disable"
 msgstr "Desativar"
 
-#: base/processgraph.cpp
-msgctxt "ProcessGraph"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Disable"
 msgstr "Desativar"
 
@@ -999,13 +1009,13 @@ msgctxt "AudioPanner"
 msgid "Edit"
 msgstr "Edição"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/processgraph.cpp
+msgctxt "ProcessGraph"
 msgid "Edit"
 msgstr "Edição"
 
-#: base/processgraph.cpp
-msgctxt "ProcessGraph"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Edit"
 msgstr "Edição"
 
@@ -1079,13 +1089,13 @@ msgctxt "Channels"
 msgid "Effects"
 msgstr "Efeitos"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/processgraph.cpp
+msgctxt "ProcessGraph"
 msgid "Enable"
 msgstr "Ativar"
 
-#: base/processgraph.cpp
-msgctxt "ProcessGraph"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Enable"
 msgstr "Ativar"
 
@@ -1470,14 +1480,14 @@ msgctxt "EditGroups"
 msgid "Inserts"
 msgstr "Inserts"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
-msgid "Instrument"
-msgstr "Instrumento"
-
 #: audiosynths/combinator/combinatorsynthfolder.cpp
 #: audiosynths/combinator/synthcombinatorcomponent.cpp
 msgctxt "SynthCombinator"
+msgid "Instrument"
+msgstr "Instrumento"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instrument"
 msgstr "Instrumento"
 
@@ -1501,14 +1511,14 @@ msgctxt "Channels"
 msgid "Instruments"
 msgstr "Instrumentos"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
-msgid "Instruments"
-msgstr "Instrumentos"
-
 #: audiosynths/combinator/combinatorsynthfolder.cpp
 #: audiosynths/combinator/synthcombinatorcomponent.cpp
 msgctxt "SynthCombinator"
+msgid "Instruments"
+msgstr "Instrumentos"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instruments"
 msgstr "Instrumentos"
 
@@ -1612,17 +1622,17 @@ msgctxt "CueMixSlot"
 msgid "Lock"
 msgstr "Bloquear"
 
-#: audiomixer/audiosendfolder.cpp
-msgctxt "AudioSendSlot"
-msgid "Lock Pan to Channel"
-msgstr "Bloquear Pan ao Canal"
-
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Lock Pan to Channel"
 msgstr "Bloquear Pan ao Canal"
 
-#: audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp
+#: audiomixer/audiosendfolder.cpp
+msgctxt "AudioSendSlot"
+msgid "Lock Pan to Channel"
+msgstr "Bloquear Pan ao Canal"
+
+#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/audiosendfolder.cpp
 msgctxt "Command"
 msgid "Lock Panning"
 msgstr "Bloquear Pan"
@@ -1773,11 +1783,6 @@ msgctxt "AudioSynth"
 msgid "Multi Instrument"
 msgstr "Multi Instrumento"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
-msgid "Mute"
-msgstr "Silenciar (Mute)"
-
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Mute"
@@ -1787,6 +1792,11 @@ msgstr "Silenciar"
 msgctxt "Command"
 msgid "Mute"
 msgstr "Silenciar"
+
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
+msgid "Mute"
+msgstr "Silenciar (Mute)"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
@@ -1998,6 +2008,11 @@ msgctxt "Command"
 msgid "Nudge Up Fine"
 msgstr "Nudge Preciso Acima"
 
+#: audio/audioengine.cpp
+msgctxt "DropoutProtection"
+msgid "Off"
+msgstr "Deslilgado"
+
 #: hardware/remotefxfolder.cpp
 msgctxt "Hardware"
 msgid "Onboard DSP"
@@ -2048,13 +2063,13 @@ msgctxt "Command"
 msgid "Page Up Skip"
 msgstr "Pular Page Up"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
 msgid "Pan"
 msgstr "Pan"
 
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Pan"
 msgstr "Pan"
 
@@ -2143,11 +2158,6 @@ msgctxt "AudioFX"
 msgid "Plug-in Nap"
 msgstr "Suspensão de Plug-Ins"
 
-#: audiomixer/audiochannelinputfx.cpp
-msgctxt "AudioChannelInputFX"
-msgid "Polarity"
-msgstr "Polaridade"
-
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "Polarity"
@@ -2155,11 +2165,16 @@ msgstr "Polaridade"
 
 #: audiomixer/audiochannelinputfx.cpp
 msgctxt "AudioChannelInputFX"
+msgid "Polarity"
+msgstr "Polaridade"
+
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
+msgctxt "Hardware"
 msgid "Polarity Right"
 msgstr "Polaridade Direita"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
-msgctxt "Hardware"
+#: audiomixer/audiochannelinputfx.cpp
+msgctxt "AudioChannelInputFX"
 msgid "Polarity Right"
 msgstr "Polaridade Direita"
 
@@ -2177,6 +2192,16 @@ msgstr "Porta não encontrada!"
 msgctxt "AudioInsert"
 msgid "Post Fader"
 msgstr "Pós-Fader"
+
+#: audiomixer/audiochannelmeter.cpp
+msgctxt "AudioChannelMeter"
+msgid "Post-Fader Metering"
+msgstr "Medição Pós Fader"
+
+#: audiomixer/audiochannelmeter.cpp
+msgctxt "AudioChannelMeter"
+msgid "Post-Panner Metering"
+msgstr "Medição Pós Pan"
 
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
@@ -2338,13 +2363,13 @@ msgctxt "SynthCombinator"
 msgid "Remove"
 msgstr "Remover"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/processgraph.cpp
+msgctxt "ProcessGraph"
 msgid "Remove"
 msgstr "Remover"
 
-#: base/processgraph.cpp
-msgctxt "ProcessGraph"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Remove"
 msgstr "Remover"
 
@@ -2473,13 +2498,13 @@ msgctxt "AudioSynth"
 msgid "Remove Unused Instruments"
 msgstr "Remover Instrumentos Não Utilizados"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/processgraph.cpp
+msgctxt "ProcessGraph"
 msgid "Rename"
 msgstr "Renomear"
 
-#: base/processgraph.cpp
-msgctxt "ProcessGraph"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Rename"
 msgstr "Renomear"
 
@@ -2668,13 +2693,13 @@ msgctxt "Command"
 msgid "Select Fader Flip Target"
 msgstr "Selecionar Destino de Alternar Faders"
 
-#: audiomixer/audiomixfxcomponent.cpp
-msgctxt "Devices"
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
 msgid "Select Mix FX"
 msgstr "Selecionar Mix FX"
 
-#: audiomixer/setup/audiomixersetup.cpp
-msgctxt "Command"
+#: audiomixer/audiomixfxcomponent.cpp
+msgctxt "Devices"
 msgid "Select Mix FX"
 msgstr "Selecionar Mix FX"
 
@@ -2743,13 +2768,13 @@ msgctxt "SideChain"
 msgid "Select Sidechain Source"
 msgstr "Selecione Fonte de Sidechain"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Send"
 msgstr "Enviar"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Send"
 msgstr "Enviar"
 
@@ -2892,6 +2917,11 @@ msgstr "Definir Tipo de Falante para %(1)"
 msgctxt "AudioFXGraph"
 msgid "Set Split Count"
 msgstr "Configurar Contagem da Divisão"
+
+#: audioeffects/audiofxgraph.cpp
+msgctxt "AudioFXGraph"
+msgid "Set Split Mode"
+msgstr "Ajustar Modo de Divisão"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
@@ -3509,20 +3539,20 @@ msgctxt "UserCommandSection"
 msgid "Unassign"
 msgstr "Desfazer atribuição"
 
-#: audiomixer/audiosendfolder.cpp
-msgctxt "AudioSendSlot"
-msgid "Unlock Panning"
-msgstr "Desbloquear Pan"
-
-#: audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "Command"
-msgid "Unlock Panning"
-msgstr "Destravar Pan"
-
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Unlock Panning"
 msgstr "Destravar Pan"
+
+#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/audiosendfolder.cpp
+msgctxt "Command"
+msgid "Unlock Panning"
+msgstr "Destravar Pan"
+
+#: audiomixer/audiosendfolder.cpp
+msgctxt "AudioSendSlot"
+msgid "Unlock Panning"
+msgstr "Desbloquear Pan"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
@@ -3604,8 +3634,13 @@ msgctxt "MixerSnapshots"
 msgid "Visibility only"
 msgstr "Apenas visibilidade"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/channels/audiovcachannel.cpp
+msgctxt "AudioVCAChannel"
+msgid "Volume"
+msgstr "Volume"
+
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
 msgid "Volume"
 msgstr "Volume"
 
@@ -3614,13 +3649,8 @@ msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "Volume"
 
-#: audiomixer/channels/audiovcachannel.cpp
-msgctxt "AudioVCAChannel"
-msgid "Volume"
-msgstr "Volume"
-
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Volume"
 msgstr "Volume"
 

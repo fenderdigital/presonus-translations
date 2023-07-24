@@ -79,8 +79,8 @@ msgctxt "WebAPI"
 msgid "An error occurred at the server (Status %(1))."
 msgstr "서버에서 오류가 발생했습니다(스테이터스 %(1))."
 
-#: application/freemiumapp.cpp application/licensedapp.cpp
-#: application/loginhandler.cpp application/purchasehandler.cpp
+#: application/loginhandler.cpp application/licensedapp.cpp
+#: application/purchasehandler.cpp application/freemiumapp.cpp
 msgctxt "Command"
 msgid "Application"
 msgstr "어플리케이션"
@@ -112,8 +112,12 @@ msgstr "%(1) 아이템 비활성화"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
-msgid "Failed to connect to the server.\nPlease check your Internet connection and try again."
-msgstr "서버 연결에 실패했습니다.\n인터넷 연결상태를 확인한 후 다시 시도해주십시오."
+msgid ""
+"Failed to connect to the server.\n"
+"Please check your Internet connection and try again."
+msgstr ""
+"서버 연결에 실패했습니다.\n"
+"인터넷 연결상태를 확인한 후 다시 시도해주십시오."
 
 #: application/userlicense.cpp
 msgctxt "FileType"
@@ -319,4 +323,3 @@ msgstr "인가가 만료되었습니다. 다시 로그인해주십시오."
 msgctxt "Licenser"
 msgid "Your purchased items have been activated."
 msgstr "구입제품이 활성화 되었습니다."
-

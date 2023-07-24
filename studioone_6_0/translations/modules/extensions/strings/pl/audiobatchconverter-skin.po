@@ -239,16 +239,6 @@ msgctxt "Denoiser"
 msgid "Intensity"
 msgstr "Intensywność"
 
-#: repair.xml
-msgctxt "InvertPhase"
-msgid "Invert Left"
-msgstr "Odwróć lewy"
-
-#: repair.xml
-msgctxt "InvertPhase"
-msgid "Invert Right"
-msgstr "Odwróć prawy"
-
 #: format.xml
 msgctxt "KeepFormat"
 msgid "Keep"
@@ -298,6 +288,11 @@ msgstr "Tryb"
 msgctxt "Normalize"
 msgid "Mode"
 msgstr "Tryb"
+
+#: repair.xml
+msgctxt "InvertPhase"
+msgid "Mode"
+msgstr ""
 
 #: converter.xml
 msgctxt "PresetFileInfo"
@@ -419,13 +414,13 @@ msgctxt "SourceResultFilesSection"
 msgid "Show Peak / RMS / R128"
 msgstr "Wartość szczytowa / RMS / R128"
 
-#: converter.xml
-msgctxt "ProcessRackSection"
+#: format.xml
+msgctxt "Concatenator"
 msgid "Source Folder"
 msgstr "Folder źródłowy"
 
-#: format.xml
-msgctxt "Concatenator"
+#: converter.xml
+msgctxt "ProcessRackSection"
 msgid "Source Folder"
 msgstr "Folder źródłowy"
 
@@ -494,6 +489,14 @@ msgctxt "AudioFilePreview"
 msgid "Volume"
 msgstr "Głośność"
 
+#~ msgctxt "InvertPhase"
+#~ msgid "Invert Left"
+#~ msgstr "Odwróć lewy"
+
+#~ msgctxt "InvertPhase"
+#~ msgid "Invert Right"
+#~ msgstr "Odwróć prawy"
+
 #~ msgctxt "SearchBar"
 #~ msgid "(Not searchable)"
 #~ msgstr "(nie można wyszukać)"
@@ -513,4 +516,3 @@ msgstr "Głośność"
 #~ msgctxt "BrowseNavigator"
 #~ msgid "Show Thumbnails"
 #~ msgstr "Pokaż miniatury"
-

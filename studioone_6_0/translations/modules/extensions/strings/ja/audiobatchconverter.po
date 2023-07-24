@@ -14,6 +14,11 @@ msgctxt "AudioProcess"
 msgid "Adjust volume of audio file"
 msgstr "オーディオファイルのボリュームを調整"
 
+#: processes/phase.cpp
+msgctxt "AudioProcess"
+msgid "All Channels"
+msgstr "すべてのチャンネル"
+
 #: plugversion.h
 msgctxt "AudioBatchConverter"
 msgid "Audio Batch Converter"
@@ -58,16 +63,6 @@ msgstr "すべて折りたたむ"
 msgctxt "Fade"
 msgid "Concave"
 msgstr "凹"
-
-#: processes/fileformat.cpp
-msgctxt "AudioProcess"
-msgid "Convert Format"
-msgstr "フォーマットを変換"
-
-#: processes/fileformat.cpp
-msgctxt "AudioProcess"
-msgid "Convert type, rate, resolution, and channels"
-msgstr "タイプ、レート、解像度、チャンネルを変換"
 
 #: processes/fade.cpp
 msgctxt "Fade"
@@ -228,6 +223,11 @@ msgstr "ファイルを結合"
 msgctxt "AudioProcess"
 msgid "Join all input files sequentially"
 msgstr "すべての入力ファイルを順に結合"
+
+#: processes/phase.cpp
+msgctxt "AudioProcess"
+msgid "Left Channel Only"
+msgstr "左チャンネルのみ"
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
@@ -394,6 +394,11 @@ msgctxt "Command"
 msgid "Return to Zero"
 msgstr "ゼロに戻る"
 
+#: processes/phase.cpp
+msgctxt "AudioProcess"
+msgid "Right Channel Only"
+msgstr "右チャンネルのみ"
+
 #: processlist.cpp
 msgctxt "Audio Conveter"
 msgid "Save Rack Preset"
@@ -498,6 +503,14 @@ msgstr "ボリューム"
 msgctxt "AudioBatchConverter"
 msgid "analyzing..."
 msgstr "分析しています..."
+
+#~ msgctxt "AudioProcess"
+#~ msgid "Convert Format"
+#~ msgstr "フォーマットを変換"
+
+#~ msgctxt "AudioProcess"
+#~ msgid "Convert type, rate, resolution, and channels"
+#~ msgstr "タイプ、レート、解像度、チャンネルを変換"
 
 #~ msgctxt "OuputLocationComponent"
 #~ msgid "Select..."

@@ -118,6 +118,11 @@ msgctxt "TagStore"
 msgid "Adding Tags..."
 msgstr ""
 
+#: ./documents/documentblocks.cpp
+msgctxt "Documents"
+msgid "Additional versions available."
+msgstr ""
+
 #: ./options/useroption.cpp
 msgctxt "UserOption"
 msgid "Advanced"
@@ -208,9 +213,9 @@ msgctxt "PlugInManagement"
 msgid "Avg. Save Time"
 msgstr ""
 
-#: ./application.cpp
 #: ./browser/browser.cpp
 #: ./navigation/navigatorbase.cpp
+#: ./application.cpp
 msgctxt "Command"
 msgid "Back"
 msgstr ""
@@ -453,14 +458,14 @@ msgctxt "TrashBin"
 msgid "Delete"
 msgstr ""
 
-#: ./components/stringlistcomponent.cpp
 #: ./editing/editor.cpp
-msgctxt "Command"
+msgctxt "Edit"
 msgid "Delete"
 msgstr ""
 
 #: ./editing/editor.cpp
-msgctxt "Edit"
+#: ./components/stringlistcomponent.cpp
+msgctxt "Command"
 msgid "Delete"
 msgstr ""
 
@@ -761,9 +766,9 @@ msgid "Draw Selection (add)"
 msgstr ""
 
 #: ./browser/searchcomponent.cpp
-#: ./components/stringlistcomponent.cpp
 #: ./documents/documentmanager.cpp
 #: ./editing/editor.cpp
+#: ./components/stringlistcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr ""
@@ -883,8 +888,8 @@ msgctxt "Browser"
 msgid "Favorites"
 msgstr ""
 
-#: ./application.cpp
 #: ./documents/documentmanager.cpp
+#: ./application.cpp
 msgctxt "Command"
 msgid "File"
 msgstr ""
@@ -1034,13 +1039,18 @@ msgctxt "SliderMode"
 msgid "Jump"
 msgstr ""
 
-#: ./application.cpp
-msgctxt "Command"
-msgid "Keyboard Shortcuts"
+#: ./options/customization.cpp
+msgctxt "Customization"
+msgid "Keep"
 msgstr ""
 
 #: ./options/commandoption.cpp
 msgctxt "UserOption"
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: ./application.cpp
+msgctxt "Command"
 msgid "Keyboard Shortcuts"
 msgstr ""
 
@@ -1191,11 +1201,11 @@ msgctxt "DocumentDiagnostics"
 msgid "Name"
 msgstr ""
 
-#: ./application.cpp
 #: ./browser/browser.cpp
 #: ./editing/editor.cpp
 #: ./itemlist/listitemcomponent.cpp
 #: ./navigation/navigatorbase.cpp
+#: ./application.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr ""
@@ -1336,13 +1346,13 @@ msgctxt "Command"
 msgid "Open with Options"
 msgstr ""
 
-#: ./application.cpp
-msgctxt "Command"
+#: ./options/useroption.cpp
+msgctxt "UserOption"
 msgid "Options"
 msgstr ""
 
-#: ./options/useroption.cpp
-msgctxt "UserOption"
+#: ./application.cpp
+msgctxt "Command"
 msgid "Options"
 msgstr ""
 
@@ -1436,16 +1446,16 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr ""
 
-#: ./presets/presetbrowser.cpp
-#: ./presets/presetcomponent.cpp
-#: ./presets/presetmanager.cpp
-#: ./presets/presettrader.cpp
-msgctxt "Command"
+#: ./presets/presetfile.cpp
+msgctxt "FileType"
 msgid "Presets"
 msgstr ""
 
-#: ./presets/presetfile.cpp
-msgctxt "FileType"
+#: ./presets/presetcomponent.cpp
+#: ./presets/presetbrowser.cpp
+#: ./presets/presetmanager.cpp
+#: ./presets/presettrader.cpp
+msgctxt "Command"
 msgid "Presets"
 msgstr ""
 
@@ -1666,6 +1676,11 @@ msgctxt "Command"
 msgid "Revert"
 msgstr ""
 
+#: ./options/customization.cpp
+msgctxt "Customization"
+msgid "Revert"
+msgstr ""
+
 #: ./documents/documentmanager.cpp
 msgctxt "Command"
 msgid "Save"
@@ -1721,13 +1736,13 @@ msgctxt "Application"
 msgid "Scanning Languages..."
 msgstr ""
 
-#: ./application.cpp
-msgctxt "Application"
+#: ./presets/presetmanager.cpp
+msgctxt "Presets"
 msgid "Scanning Plug-Ins..."
 msgstr ""
 
-#: ./presets/presetmanager.cpp
-msgctxt "Presets"
+#: ./application.cpp
+msgctxt "Application"
 msgid "Scanning Plug-Ins..."
 msgstr ""
 
@@ -1751,13 +1766,13 @@ msgctxt "PathList"
 msgid "Searching the root folder of a volume might be very slow.\n\nDo you really want to add %(1)?"
 msgstr ""
 
-#: ./components/pathselector.cpp
-msgctxt "PathList"
+#: ./editing/tools/selecttool.cpp
+msgctxt "ToolHelp"
 msgid "Select"
 msgstr ""
 
-#: ./editing/tools/selecttool.cpp
-msgctxt "ToolHelp"
+#: ./components/pathselector.cpp
+msgctxt "PathList"
 msgid "Select"
 msgstr ""
 
@@ -1889,6 +1904,11 @@ msgstr ""
 #: ./documents/documenttemplates.cpp
 msgctxt "Documents"
 msgid "Templates"
+msgstr ""
+
+#: ./options/customization.cpp
+msgctxt "Customization"
+msgid "The customization was changed to %(1). Do you want to keep the new customization?"
 msgstr ""
 
 #: ./fileinfo/fileoperations.cpp
@@ -2222,13 +2242,13 @@ msgctxt "UserOption"
 msgid "Your changes will be applied next time you start $APPNAME."
 msgstr ""
 
-#: ./editing/scaleview.cpp
-msgctxt "Scale"
+#: ./editing/tools/selecttool.cpp
+msgctxt "ToolHelp"
 msgid "Zoom"
 msgstr ""
 
-#: ./editing/tools/selecttool.cpp
-msgctxt "ToolHelp"
+#: ./editing/scaleview.cpp
+msgctxt "Scale"
 msgid "Zoom"
 msgstr ""
 

@@ -58,11 +58,6 @@ msgctxt "AudioRenderEngine"
 msgid "%float(1:1) times slower than realtime"
 msgstr ""
 
-#: ./audiomixer/audioinsertspeakermapcomponent.cpp
-msgctxt "InsertSpeakerMapper"
-msgid "'%(1)' Bypassed"
-msgstr ""
-
 #: ./macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "(Press <Shift> to append target)"
@@ -434,6 +429,11 @@ msgctxt "AudioSetup"
 msgid "Audio Setup"
 msgstr ""
 
+#: ./audio/audioengine.cpp
+msgctxt "Devices"
+msgid "Audio device realtime thread priority could not be set."
+msgstr ""
+
 #: ./audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Audio engine dropout has occurred."
@@ -442,6 +442,16 @@ msgstr ""
 #: ./audio/watchdogcomponent.cpp
 msgctxt "Devices"
 msgid "Audio engine overload."
+msgstr ""
+
+#: ./audio/audioengine.cpp
+msgctxt "Devices"
+msgid "Audio processing realtime thread priority could not be set."
+msgstr ""
+
+#: ./audio/audioengine.cpp
+msgctxt "Devices"
+msgid "Audio sublevel processing realtime thread priority could not be set."
 msgstr ""
 
 #: ./base/automationunit.cpp
@@ -456,6 +466,11 @@ msgstr ""
 
 #: ./base/automationhandler.cpp
 msgctxt "Command"
+msgid "Automation"
+msgstr ""
+
+#: ./editor/devicerack.cpp
+msgctxt "DeviceRack"
 msgid "Automation"
 msgstr ""
 
@@ -502,6 +517,11 @@ msgstr ""
 #: ./audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Balance"
+msgstr ""
+
+#: ./audio/audioengine.cpp
+msgctxt "DropoutProtection"
+msgid "Basic"
 msgstr ""
 
 #: ./audiomixer/audiopanner.cpp
@@ -650,16 +670,6 @@ msgctxt "AudioClick"
 msgid "Click Volume"
 msgstr ""
 
-#: ./audiomixer/audioinsertspeakermapcomponent.cpp
-msgctxt "InsertSpeakerMapper"
-msgid "Click here to bypass '%(1)'"
-msgstr ""
-
-#: ./audiomixer/audioinsertspeakermapcomponent.cpp
-msgctxt "InsertSpeakerMapper"
-msgid "Click to move channels"
-msgstr ""
-
 #: ./audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Clipping has occurred. The signal was %float(1:2) dB over."
@@ -720,8 +730,8 @@ msgstr ""
 #: ./audiomixer/audiofaderswitcher.cpp
 #: ./audiomixer/audiolistenbus.cpp
 #: ./audiomixer/audiosendfolder.cpp
-#: ./mixerconsole/mixersnapshot.cpp
 #: ./mixerconsole/mixerconsole.cpp
+#: ./mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Console"
 msgstr ""
@@ -2001,6 +2011,11 @@ msgctxt "Command"
 msgid "Nudge Up Fine"
 msgstr ""
 
+#: ./audio/audioengine.cpp
+msgctxt "DropoutProtection"
+msgid "Off"
+msgstr ""
+
 #: ./hardware/remotefxfolder.cpp
 msgctxt "Hardware"
 msgid "Onboard DSP"
@@ -2096,13 +2111,13 @@ msgctxt "ActionDescriptions"
 msgid "Parameter"
 msgstr ""
 
-#: ./editor/paramselector.cpp
-msgctxt "ParamSelector"
+#: ./editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Parameter"
 msgstr ""
 
-#: ./editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: ./editor/paramselector.cpp
+msgctxt "ParamSelector"
 msgid "Parameter"
 msgstr ""
 
@@ -2179,6 +2194,16 @@ msgstr ""
 #: ./audiomixer/audioinsertfolder.cpp
 msgctxt "AudioInsert"
 msgid "Post Fader"
+msgstr ""
+
+#: ./audiomixer/audiochannelmeter.cpp
+msgctxt "AudioChannelMeter"
+msgid "Post-Fader Metering"
+msgstr ""
+
+#: ./audiomixer/audiochannelmeter.cpp
+msgctxt "AudioChannelMeter"
+msgid "Post-Panner Metering"
 msgstr ""
 
 #: ./audiomixer/audiochannelmeter.cpp
@@ -2291,13 +2316,13 @@ msgctxt "Command"
 msgid "Recently Touched"
 msgstr ""
 
-#: ./mixer/mixercontrollable.cpp
-msgctxt "Channel"
+#: ./mixer/editgroupmanager.cpp
+msgctxt "EditGroups"
 msgid "Record"
 msgstr ""
 
-#: ./mixer/editgroupmanager.cpp
-msgctxt "EditGroups"
+#: ./mixer/mixercontrollable.cpp
+msgctxt "Channel"
 msgid "Record"
 msgstr ""
 
@@ -2896,6 +2921,11 @@ msgctxt "AudioFXGraph"
 msgid "Set Split Count"
 msgstr ""
 
+#: ./audioeffects/audiofxgraph.cpp
+msgctxt "AudioFXGraph"
+msgid "Set Split Mode"
+msgstr ""
+
 #: ./music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "Setup"
@@ -3471,8 +3501,8 @@ msgctxt "SurfaceControl"
 msgid "Transmit value"
 msgstr ""
 
-#: ./transport/transportoptions.cpp
 #: ./transport/metronome.cpp
+#: ./transport/transportoptions.cpp
 #: ./transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Transport"
@@ -3488,13 +3518,13 @@ msgctxt "FaderFlip"
 msgid "Turn Off Fader Flip"
 msgstr ""
 
-#: ./editor/performancemonitor.cpp
-msgctxt "PerformanceMonitor"
+#: ./editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Type"
 msgstr ""
 
-#: ./editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: ./editor/performancemonitor.cpp
+msgctxt "PerformanceMonitor"
 msgid "Type"
 msgstr ""
 

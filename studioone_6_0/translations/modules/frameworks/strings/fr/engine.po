@@ -124,13 +124,13 @@ msgctxt "Command"
 msgid "Activate Previous Layer"
 msgstr "Activer la couche précédente"
 
-#: musicediting/musiccontrollane.cpp
-msgctxt "Automation"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Add"
 msgstr "Ajouter"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiccontrollane.cpp
+msgctxt "Automation"
 msgid "Add"
 msgstr "Ajouter"
 
@@ -155,10 +155,25 @@ msgctxt "Engine"
 msgid "Add Bus Channel"
 msgstr "Ajouter un canal de bus"
 
+#: audioediting/foldertrackaudiobus.cpp
+msgctxt "Command"
+msgid "Add Bus for Folder Track"
+msgstr "Ajouter un bus pour la piste dossier"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Add Effect"
+msgstr "Ajouter un effet"
+
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Add Event FX"
 msgstr "Ajouter un effet d'événement"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Add Event FX: %(1)"
+msgstr "Ajouter un effet d'événement: %(1)"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -169,6 +184,11 @@ msgstr "Ajouter un effet à %(1):"
 msgctxt "MusicFX"
 msgid "Add FX on %(1):"
 msgstr "Ajouter un effet à %(1):"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Add FX on Channel"
+msgstr "Ajouter un effet au canal"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -214,6 +234,11 @@ msgstr "Ajouter une piste"
 msgctxt "Engine"
 msgid "Add VCA Channel"
 msgstr "Ajouter un canal VCA"
+
+#: audioediting/foldertrackaudiobus.cpp
+msgctxt "Command"
+msgid "Add VCA for Folder Track"
+msgstr "Ajouter un VCA pour la piste dossier"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -415,7 +440,7 @@ msgctxt "GlobalTrack"
 msgid "Arranger"
 msgstr "Arrangeur"
 
-#: editing/arrangereditlayer.cpp editing/arrangerplaybackhandler.cpp
+#: editing/arrangerplaybackhandler.cpp editing/arrangereditlayer.cpp
 msgctxt "Command"
 msgid "Arranger"
 msgstr "Arrangeur"
@@ -434,6 +459,11 @@ msgstr "Assigner un canal au dossier"
 msgctxt "SynthDrag"
 msgid "Assign Instrument to %(1):"
 msgstr "Assigner instrument à %(1):"
+
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Assign in Ascending Order"
+msgstr "Affecter par ordre croissant"
 
 #: base/media/mediaattachment.cpp
 msgctxt "MediaPool"
@@ -813,13 +843,13 @@ msgctxt "ActionDescriptions"
 msgid "Copy Events Shared"
 msgstr "Copier les événements jumelés"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Copy External Files"
 msgstr "Copier des fichiers externes"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Copy External Files"
 msgstr "Copier des fichiers externes"
 
@@ -1353,9 +1383,9 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "Dupliquer la variation"
 
-#: audioediting/audiobendeditlayer.cpp editing/chordeditlayer.cpp
-#: editing/eventsnapper.cpp editing/trackchannelnamefilter.cpp
-#: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
+#: audioediting/audiobendeditlayer.cpp editing/tracklistcomponent.cpp
+#: editing/chordeditlayer.cpp editing/trackvisibilityhandler.cpp
+#: editing/trackchannelnamefilter.cpp editing/eventsnapper.cpp
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
@@ -1426,10 +1456,15 @@ msgctxt "Automation"
 msgid "Edit Value"
 msgstr "Éditer la valeur"
 
-#: editing/globaltrackscomponent.cpp editing/trackeditor.cpp
+#: editing/trackeditor.cpp editing/globaltrackscomponent.cpp
 msgctxt "Command"
 msgid "Editor"
 msgstr "Éditeur"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Effects"
+msgstr "Effets"
 
 #: editing/tracklist.cpp
 msgctxt "TrackInfo"
@@ -1495,6 +1530,11 @@ msgstr "Événement"
 msgctxt "EventInspector"
 msgid "Event Color"
 msgstr "Couleur de l'événement"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Event Editors"
+msgstr "Éditeurs d'événement"
 
 #: audioediting/audioeditextension.cpp
 msgctxt "Engine"
@@ -2046,13 +2086,13 @@ msgctxt "Edit"
 msgid "Insert Chord"
 msgstr "Insérer un accord"
 
-#: musicediting/musiceditextension.cpp
-msgctxt "Edit"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Insert Instrument"
 msgstr "Insérer un instrument"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
 msgid "Insert Instrument"
 msgstr "Insérer un instrument"
 
@@ -2186,6 +2226,11 @@ msgctxt "Engine"
 msgid "Layers"
 msgstr "Couches"
 
+#: editing/tracklayercomponent.cpp
+msgctxt "Command"
+msgid "Layers follow Events"
+msgstr "Couches asservies aux événem."
+
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
 msgid "Length"
@@ -2266,6 +2311,11 @@ msgctxt "Command"
 msgid "Locate File"
 msgstr "Localiser le fichier"
 
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
+msgid "Locate Missing Files"
+msgstr "Localiser les fichiers manquants"
+
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Locate Missing Files"
@@ -2273,11 +2323,6 @@ msgstr "Localiser les fichiers manquants"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
-msgid "Locate Missing Files"
-msgstr "Localiser les fichiers manquants"
-
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
 msgid "Locate Missing Files"
 msgstr "Localiser les fichiers manquants"
 
@@ -2758,6 +2803,11 @@ msgctxt "Command"
 msgid "Next Variation"
 msgstr "Variation suivante"
 
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "No Event Editor"
+msgstr "Pas d'éditeur d'événement"
+
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
 msgid "No audio files with a name that ends in .L or .R found."
@@ -2954,7 +3004,7 @@ msgctxt "MusicPatternPartEditor"
 msgid "Pattern Automation"
 msgstr "Automation de pattern"
 
-#: audioediting/audioeditor.cpp audioediting/audioscaleview.cpp
+#: audioediting/audioscaleview.cpp audioediting/audioeditor.cpp
 msgctxt "AudioScale"
 msgid "Percent"
 msgstr "Pourcentage"
@@ -3355,6 +3405,11 @@ msgctxt "AudioEdit"
 msgid "Remove Crossfades"
 msgstr "Supprimer les fondus-enchaînés"
 
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Remove Event FX"
+msgstr "Supprimer effet d'événement"
+
 #: application/eventedit/removegapstask.cpp
 msgctxt "Edit"
 msgid "Remove Gaps"
@@ -3435,15 +3490,15 @@ msgctxt "Command"
 msgid "Remove Track and Instrument"
 msgstr "Supprimer la piste et l'instrument"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
-msgid "Remove Unused Files"
-msgstr "Supprimer les fichiers inutiles"
-
 #: pool/mediapoolcomponent.cpp
 msgctxt "Command"
 msgid "Remove Unused Files"
 msgstr "Retirer les fichiers inutiles"
+
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
+msgid "Remove Unused Files"
+msgstr "Supprimer les fichiers inutiles"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
@@ -3864,6 +3919,11 @@ msgstr "Activer 1 pas sur 4"
 msgctxt "ActionDescriptions"
 msgid "Set Icon"
 msgstr "Choisir l'icône"
+
+#: base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
+msgid "Set Marker Stop"
+msgstr "Définir l'arrêt au marqueur"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -4590,17 +4650,18 @@ msgstr "Toucher"
 
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
-#: editing/editgroupscomponent.cpp editing/foldertrackcomponent.cpp
-#: editing/layereditlayer.cpp editing/mediatrackcontroller.cpp
-#: editing/monitorfollower.cpp editing/trackcontroller.cpp
+#: audioediting/foldertrackaudiobus.cpp editing/foldertrackcomponent.cpp
+#: editing/layereditlayer.cpp editing/trackcontroller.cpp
 #: editing/tracklayercomponent.cpp editing/tracklistcomponent.cpp
+#: editing/editgroupscomponent.cpp editing/takelist.cpp
+#: editing/mediatrackcontroller.cpp editing/monitorfollower.cpp
 #: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "Piste"
 
-#: base/model/rootevent.cpp editing/tracklisteditmodel.cpp
-#: editing/tracklistinspector.cpp
+#: base/model/rootevent.cpp editing/tracklistinspector.cpp
+#: editing/tracklisteditmodel.cpp
 msgctxt "Engine"
 msgid "Track"
 msgstr "Piste"
@@ -4705,6 +4766,11 @@ msgctxt "ActionDescriptions"
 msgid "Transpose Events"
 msgstr "Transposer les événements"
 
+#: editing/eventedithandler.cpp
+msgctxt "EventEditHandler"
+msgid "Transpose: %(1)  Tune: %(2)"
+msgstr "Transposer: %(1)  Accorder: %(2)"
+
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
 msgid "Trim End to Cursor"
@@ -4794,6 +4860,16 @@ msgstr "Réactiver l'événement"
 msgctxt "ActionDescriptions"
 msgid "Unmute Events"
 msgstr "Réactiver les événements"
+
+#: editing/takelist.cpp
+msgctxt "Edit"
+msgid "Unpack Last Take to Layer"
+msgstr "Extraire la dernière prise sur la couche"
+
+#: editing/takelist.cpp
+msgctxt "Command"
+msgid "Unpack Last Take to Layer"
+msgstr "Extraire la dernière prise sur la couche"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -4910,8 +4986,8 @@ msgctxt "Command"
 msgid "Video"
 msgstr "Vidéo"
 
-#: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
 #: editing/trackeditor.cpp editing/tracklistcomponent.cpp
+#: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
 #: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "View"
@@ -4952,7 +5028,7 @@ msgctxt "Command"
 msgid "Zoom Selected Track"
 msgstr "Zoom sur la piste sélectionnée"
 
-#: audioediting/audioeditor.cpp audioediting/audioscaleview.cpp
+#: audioediting/audioscaleview.cpp audioediting/audioeditor.cpp
 msgctxt "AudioScale"
 msgid "dB"
 msgstr "dB"

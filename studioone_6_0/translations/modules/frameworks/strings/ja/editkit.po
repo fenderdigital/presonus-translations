@@ -54,7 +54,7 @@ msgctxt "SoundVariations"
 msgid "Activation Sequence"
 msgstr "アクティベーションシーケンス"
 
-#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
 msgstr "アクティブなバリエーション: %(1)"
@@ -113,6 +113,21 @@ msgstr "キースイッチ半音をアサイン"
 msgctxt "SoundVariations"
 msgid "Assign Key Switches White Keys"
 msgstr "キースイッチ白鍵をアサイン"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Full"
+msgstr "フルに自動ズーム"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Horizontally"
+msgstr "水平方向に自動ズーム"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Vertically"
+msgstr "垂直方向に自動ズーム"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
@@ -354,10 +369,10 @@ msgctxt "ScoreSymbolMap"
 msgid "Dynamics"
 msgstr "強弱記号"
 
-#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp
-#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp music/noteplayer.cpp
 #: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "編集"
@@ -582,7 +597,7 @@ msgctxt "TimeRulerView"
 msgid "Loop Active"
 msgstr "ループ有効"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timerulerview.cpp
+#: timeedit/timerulerview.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Loop Follows Selection"
 msgstr "選択したトラックでループを有効"
@@ -747,7 +762,7 @@ msgctxt "Command"
 msgid "Next Hotspot"
 msgstr "次のホットスポット"
 
-#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
 msgstr "バリエーションなし"
@@ -937,13 +952,13 @@ msgctxt "Command"
 msgid "Quantize"
 msgstr "クオンタイズ"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Edit"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
 msgid "Quantize"
 msgstr "クオンタイズ"
 
-#: timeedit/timesnapper.cpp
-msgctxt "TimeSnapper"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
 msgid "Quantize"
 msgstr "クオンタイズ"
 
@@ -1052,6 +1067,11 @@ msgctxt "Envelope"
 msgid "S-Curve"
 msgstr "Sカーブ"
 
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Scale"
+msgstr "スケール"
+
 #: tempo/tempoedithandler.cpp
 msgctxt "TempoEdit"
 msgid "Scale Tempo: please set Timeruler to Bars"
@@ -1102,11 +1122,6 @@ msgctxt "Quantize"
 msgid "Septuplet"
 msgstr "7連符"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Command"
-msgid "Set Loop End"
-msgstr "ループエンドを設定"
-
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Loop End"
@@ -1114,11 +1129,16 @@ msgstr "ループエンドを設定"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
+msgid "Set Loop End"
+msgstr "ループエンドを設定"
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
 msgid "Set Loop Start"
 msgstr "ループスタートを設定"
 
-#: timeedit/timerulerview.cpp
-msgctxt "TimeRulerView"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
 msgid "Set Loop Start"
 msgstr "ループスタートを設定"
 
@@ -1367,6 +1387,26 @@ msgctxt "Edit"
 msgid "Timebase"
 msgstr "タイムベース"
 
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom"
+msgstr "自動ズームを切り替え"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Full"
+msgstr "自動ズームをフルに切り替え"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Horizontally"
+msgstr "自動ズームを水平方向に切り替え"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Vertically"
+msgstr "自動ズームを垂直方向に切り替え"
+
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Toggle Chord Mode"
@@ -1376,6 +1416,11 @@ msgstr "コードモードを切り替え"
 msgctxt "Command"
 msgid "Toggle Edit Mode"
 msgstr "編集モードを切り替え"
+
+#: music/noteplayer.cpp
+msgctxt "Command"
+msgid "Toggle Note Audition"
+msgstr "ノート試聴を切り替え"
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
@@ -1487,7 +1532,7 @@ msgctxt "Command"
 msgid "View"
 msgstr "表示"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "ズーム"
@@ -1501,6 +1546,11 @@ msgstr "フルズーム"
 msgctxt "Command"
 msgid "Zoom Full Horizontally"
 msgstr "水平にフルズーム"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Full Vertically"
+msgstr "垂直方向にフルズーム"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
@@ -1539,11 +1589,6 @@ msgstr "垂直ズームアウト"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
-msgid "Zoom Out Vertical Fine"
-msgstr "細かく垂直ズームアウト"
-
-#: timeedit/timelinecomponent.cpp
-msgctxt "Command"
 msgid "Zoom to Loop"
 msgstr "ループへズーム"
 
@@ -1556,6 +1601,10 @@ msgstr "選択へズーム"
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "選択へ水平ズーム"
+
+#~ msgctxt "Command"
+#~ msgid "Zoom Out Vertical Fine"
+#~ msgstr "細かく垂直ズームアウト"
 
 #~ msgctxt "Command"
 #~ msgid "Set Bar Offset to Cursor"

@@ -124,6 +124,11 @@ msgctxt "TagStore"
 msgid "Adding Tags..."
 msgstr "タグを追加しています..."
 
+#: documents/documentblocks.cpp
+msgctxt "Documents"
+msgid "Additional versions available."
+msgstr "追加バージョンがあります。"
+
 #: options/useroption.cpp
 msgctxt "UserOption"
 msgid "Advanced"
@@ -214,7 +219,7 @@ msgctxt "PlugInManagement"
 msgid "Avg. Save Time"
 msgstr "平均保存時間"
 
-#: application.cpp browser/browser.cpp navigation/navigatorbase.cpp
+#: browser/browser.cpp navigation/navigatorbase.cpp application.cpp
 msgctxt "Command"
 msgid "Back"
 msgstr "戻る"
@@ -454,13 +459,13 @@ msgctxt "TrashBin"
 msgid "Delete"
 msgstr "削除"
 
-#: components/stringlistcomponent.cpp editing/editor.cpp
-msgctxt "Command"
+#: editing/editor.cpp
+msgctxt "Edit"
 msgid "Delete"
 msgstr "削除"
 
-#: editing/editor.cpp
-msgctxt "Edit"
+#: editing/editor.cpp components/stringlistcomponent.cpp
+msgctxt "Command"
 msgid "Delete"
 msgstr "削除"
 
@@ -759,8 +764,8 @@ msgctxt "ToolHelp"
 msgid "Draw Selection (add)"
 msgstr "選択を描画（追加）"
 
-#: browser/searchcomponent.cpp components/stringlistcomponent.cpp
-#: documents/documentmanager.cpp editing/editor.cpp
+#: browser/searchcomponent.cpp documents/documentmanager.cpp editing/editor.cpp
+#: components/stringlistcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "編集"
@@ -880,7 +885,7 @@ msgctxt "Browser"
 msgid "Favorites"
 msgstr "お気に入り"
 
-#: application.cpp documents/documentmanager.cpp
+#: documents/documentmanager.cpp application.cpp
 msgctxt "Command"
 msgid "File"
 msgstr "ファイル"
@@ -1030,13 +1035,18 @@ msgctxt "SliderMode"
 msgid "Jump"
 msgstr "ジャンプ"
 
-#: application.cpp
-msgctxt "Command"
-msgid "Keyboard Shortcuts"
-msgstr "キーボードショートカット"
+#: options/customization.cpp
+msgctxt "Customization"
+msgid "Keep"
+msgstr "保持"
 
 #: options/commandoption.cpp
 msgctxt "UserOption"
+msgid "Keyboard Shortcuts"
+msgstr "キーボードショートカット"
+
+#: application.cpp
+msgctxt "Command"
 msgid "Keyboard Shortcuts"
 msgstr "キーボードショートカット"
 
@@ -1185,8 +1195,8 @@ msgctxt "DocumentDiagnostics"
 msgid "Name"
 msgstr "名前"
 
-#: application.cpp browser/browser.cpp editing/editor.cpp
-#: itemlist/listitemcomponent.cpp navigation/navigatorbase.cpp
+#: browser/browser.cpp editing/editor.cpp itemlist/listitemcomponent.cpp
+#: navigation/navigatorbase.cpp application.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "ナビゲーション"
@@ -1326,13 +1336,13 @@ msgctxt "Command"
 msgid "Open with Options"
 msgstr "オプションで開く"
 
-#: application.cpp
-msgctxt "Command"
+#: options/useroption.cpp
+msgctxt "UserOption"
 msgid "Options"
 msgstr "オプション"
 
-#: options/useroption.cpp
-msgctxt "UserOption"
+#: application.cpp
+msgctxt "Command"
 msgid "Options"
 msgstr "オプション"
 
@@ -1426,14 +1436,14 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr "プリセット:"
 
-#: presets/presetbrowser.cpp presets/presetcomponent.cpp
-#: presets/presetmanager.cpp presets/presettrader.cpp
-msgctxt "Command"
+#: presets/presetfile.cpp
+msgctxt "FileType"
 msgid "Presets"
 msgstr "プリセット"
 
-#: presets/presetfile.cpp
-msgctxt "FileType"
+#: presets/presetcomponent.cpp presets/presetbrowser.cpp
+#: presets/presetmanager.cpp presets/presettrader.cpp
+msgctxt "Command"
 msgid "Presets"
 msgstr "プリセット"
 
@@ -1652,6 +1662,11 @@ msgctxt "Command"
 msgid "Revert"
 msgstr "元に戻す"
 
+#: options/customization.cpp
+msgctxt "Customization"
+msgid "Revert"
+msgstr "元に戻す"
+
 #: documents/documentmanager.cpp
 msgctxt "Command"
 msgid "Save"
@@ -1707,13 +1722,13 @@ msgctxt "Application"
 msgid "Scanning Languages..."
 msgstr "言語をスキャンしています..."
 
-#: application.cpp
-msgctxt "Application"
+#: presets/presetmanager.cpp
+msgctxt "Presets"
 msgid "Scanning Plug-Ins..."
 msgstr "プラグインをスキャンしています..."
 
-#: presets/presetmanager.cpp
-msgctxt "Presets"
+#: application.cpp
+msgctxt "Application"
 msgid "Scanning Plug-Ins..."
 msgstr "プラグインをスキャンしています..."
 
@@ -1737,13 +1752,13 @@ msgctxt "PathList"
 msgid "Searching the root folder of a volume might be very slow.\n\nDo you really want to add %(1)?"
 msgstr "ボリュームのルートフォルダーの検索は非常に遅い場合があります。%(1) を追加しますか？"
 
-#: components/pathselector.cpp
-msgctxt "PathList"
+#: editing/tools/selecttool.cpp
+msgctxt "ToolHelp"
 msgid "Select"
 msgstr "選択"
 
-#: editing/tools/selecttool.cpp
-msgctxt "ToolHelp"
+#: components/pathselector.cpp
+msgctxt "PathList"
 msgid "Select"
 msgstr "選択"
 
@@ -1876,6 +1891,11 @@ msgstr "デフォルトプリセットとして保存"
 msgctxt "Documents"
 msgid "Templates"
 msgstr "テンプレート"
+
+#: options/customization.cpp
+msgctxt "Customization"
+msgid "The customization was changed to %(1). Do you want to keep the new customization?"
+msgstr "カスタマイズが %(1) に変更されました。新しいカスタマイズを保持しますか?"
 
 #: fileinfo/fileoperations.cpp
 msgctxt "FileOperations"
@@ -2207,13 +2227,13 @@ msgctxt "UserOption"
 msgid "Your changes will be applied next time you start $APPNAME."
 msgstr "変更は $APPNAME の次回起動時に適用されます。"
 
-#: editing/scaleview.cpp
-msgctxt "Scale"
+#: editing/tools/selecttool.cpp
+msgctxt "ToolHelp"
 msgid "Zoom"
 msgstr "ズーム"
 
-#: editing/tools/selecttool.cpp
-msgctxt "ToolHelp"
+#: editing/scaleview.cpp
+msgctxt "Scale"
 msgid "Zoom"
 msgstr "ズーム"
 

@@ -124,13 +124,13 @@ msgctxt "Command"
 msgid "Activate Previous Layer"
 msgstr "이전 레이어 활성화"
 
-#: musicediting/musiccontrollane.cpp
-msgctxt "Automation"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Add"
 msgstr "더하기"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiccontrollane.cpp
+msgctxt "Automation"
 msgid "Add"
 msgstr "더하기"
 
@@ -155,10 +155,25 @@ msgctxt "Engine"
 msgid "Add Bus Channel"
 msgstr "버스 채널 추가"
 
+#: audioediting/foldertrackaudiobus.cpp
+msgctxt "Command"
+msgid "Add Bus for Folder Track"
+msgstr "폴더트랙에 Bus 추가"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Add Effect"
+msgstr "이펙트 추가"
+
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Add Event FX"
 msgstr "이벤트 FX 추가"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Add Event FX: %(1)"
+msgstr "이벤트 FX 추가: %(1)"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -169,6 +184,11 @@ msgstr "%(1)에 FX 추가:"
 msgctxt "MusicFX"
 msgid "Add FX on %(1):"
 msgstr "%(1)에 FX 추가:"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Add FX on Channel"
+msgstr "채널에 FX 추가"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -214,6 +234,11 @@ msgstr "트랙 추가"
 msgctxt "Engine"
 msgid "Add VCA Channel"
 msgstr "VCA 채널 추가"
+
+#: audioediting/foldertrackaudiobus.cpp
+msgctxt "Command"
+msgid "Add VCA for Folder Track"
+msgstr "폴더트랙에 VCA 추가"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -415,7 +440,7 @@ msgctxt "GlobalTrack"
 msgid "Arranger"
 msgstr "어레인저"
 
-#: editing/arrangereditlayer.cpp editing/arrangerplaybackhandler.cpp
+#: editing/arrangerplaybackhandler.cpp editing/arrangereditlayer.cpp
 msgctxt "Command"
 msgid "Arranger"
 msgstr "어레인저"
@@ -434,6 +459,11 @@ msgstr "폴더로 채널 할당"
 msgctxt "SynthDrag"
 msgid "Assign Instrument to %(1):"
 msgstr "악기를 %(1)에 할당:"
+
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Assign in Ascending Order"
+msgstr "오름차순으로 할당"
 
 #: base/media/mediaattachment.cpp
 msgctxt "MediaPool"
@@ -813,13 +843,13 @@ msgctxt "ActionDescriptions"
 msgid "Copy Events Shared"
 msgstr "공유 이벤트 복사"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Copy External Files"
 msgstr "외부 파일 복사해오기"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Copy External Files"
 msgstr "외부 파일 복사해오기"
 
@@ -1353,9 +1383,9 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "바리에이션 복제"
 
-#: audioediting/audiobendeditlayer.cpp editing/chordeditlayer.cpp
-#: editing/eventsnapper.cpp editing/trackchannelnamefilter.cpp
-#: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
+#: audioediting/audiobendeditlayer.cpp editing/tracklistcomponent.cpp
+#: editing/chordeditlayer.cpp editing/trackvisibilityhandler.cpp
+#: editing/trackchannelnamefilter.cpp editing/eventsnapper.cpp
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
@@ -1426,10 +1456,15 @@ msgctxt "Automation"
 msgid "Edit Value"
 msgstr "값 편집"
 
-#: editing/globaltrackscomponent.cpp editing/trackeditor.cpp
+#: editing/trackeditor.cpp editing/globaltrackscomponent.cpp
 msgctxt "Command"
 msgid "Editor"
 msgstr "에디터"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Effects"
+msgstr "이펙트"
 
 #: editing/tracklist.cpp
 msgctxt "TrackInfo"
@@ -1495,6 +1530,11 @@ msgstr "이벤트"
 msgctxt "EventInspector"
 msgid "Event Color"
 msgstr "이벤트 컬러"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Event Editors"
+msgstr "이벤트 에디터"
 
 #: audioediting/audioeditextension.cpp
 msgctxt "Engine"
@@ -2046,13 +2086,13 @@ msgctxt "Edit"
 msgid "Insert Chord"
 msgstr "코드 삽입"
 
-#: musicediting/musiceditextension.cpp
-msgctxt "Edit"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Insert Instrument"
 msgstr "악기 삽입"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
 msgid "Insert Instrument"
 msgstr "악기 삽입"
 
@@ -2186,6 +2226,11 @@ msgctxt "Engine"
 msgid "Layers"
 msgstr "레이어"
 
+#: editing/tracklayercomponent.cpp
+msgctxt "Command"
+msgid "Layers follow Events"
+msgstr "레이어가 이벤트를 팔로우"
+
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
 msgid "Length"
@@ -2266,6 +2311,11 @@ msgctxt "Command"
 msgid "Locate File"
 msgstr "파일 탐색"
 
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
+msgid "Locate Missing Files"
+msgstr "누락된 파일 탐색"
+
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Locate Missing Files"
@@ -2273,11 +2323,6 @@ msgstr "누락된 파일 탐색"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
-msgid "Locate Missing Files"
-msgstr "누락된 파일 탐색"
-
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
 msgid "Locate Missing Files"
 msgstr "누락된 파일 탐색"
 
@@ -2758,6 +2803,11 @@ msgctxt "Command"
 msgid "Next Variation"
 msgstr "다음 바리에이션"
 
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "No Event Editor"
+msgstr "이벤트 에디터 없음"
+
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
 msgid "No audio files with a name that ends in .L or .R found."
@@ -2954,7 +3004,7 @@ msgctxt "MusicPatternPartEditor"
 msgid "Pattern Automation"
 msgstr "패턴 오토메이션"
 
-#: audioediting/audioeditor.cpp audioediting/audioscaleview.cpp
+#: audioediting/audioscaleview.cpp audioediting/audioeditor.cpp
 msgctxt "AudioScale"
 msgid "Percent"
 msgstr "퍼센트"
@@ -3355,6 +3405,11 @@ msgctxt "AudioEdit"
 msgid "Remove Crossfades"
 msgstr "크로스페이드 제거"
 
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Remove Event FX"
+msgstr "이벤트 FX 제거"
+
 #: application/eventedit/removegapstask.cpp
 msgctxt "Edit"
 msgid "Remove Gaps"
@@ -3435,13 +3490,13 @@ msgctxt "Command"
 msgid "Remove Track and Instrument"
 msgstr "트랙과 악기 제거"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Remove Unused Files"
 msgstr "미사용 파일 제거"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Remove Unused Files"
 msgstr "미사용 파일 제거"
 
@@ -3864,6 +3919,11 @@ msgstr "4 스텝마다 설정"
 msgctxt "ActionDescriptions"
 msgid "Set Icon"
 msgstr "아이콘 설정"
+
+#: base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
+msgid "Set Marker Stop"
+msgstr "마커스탑 설정"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -4590,17 +4650,18 @@ msgstr "터치"
 
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
-#: editing/editgroupscomponent.cpp editing/foldertrackcomponent.cpp
-#: editing/layereditlayer.cpp editing/mediatrackcontroller.cpp
-#: editing/monitorfollower.cpp editing/trackcontroller.cpp
+#: audioediting/foldertrackaudiobus.cpp editing/foldertrackcomponent.cpp
+#: editing/layereditlayer.cpp editing/trackcontroller.cpp
 #: editing/tracklayercomponent.cpp editing/tracklistcomponent.cpp
+#: editing/editgroupscomponent.cpp editing/takelist.cpp
+#: editing/mediatrackcontroller.cpp editing/monitorfollower.cpp
 #: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "트랙"
 
-#: base/model/rootevent.cpp editing/tracklisteditmodel.cpp
-#: editing/tracklistinspector.cpp
+#: base/model/rootevent.cpp editing/tracklistinspector.cpp
+#: editing/tracklisteditmodel.cpp
 msgctxt "Engine"
 msgid "Track"
 msgstr "트랙"
@@ -4705,6 +4766,11 @@ msgctxt "ActionDescriptions"
 msgid "Transpose Events"
 msgstr "이벤트 트랜스포즈"
 
+#: editing/eventedithandler.cpp
+msgctxt "EventEditHandler"
+msgid "Transpose: %(1)  Tune: %(2)"
+msgstr "트랜스포즈: %(1)  튠: %(2)"
+
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
 msgid "Trim End to Cursor"
@@ -4794,6 +4860,16 @@ msgstr "이벤트 뮤트 해제"
 msgctxt "ActionDescriptions"
 msgid "Unmute Events"
 msgstr "이벤트 뮤트 해제"
+
+#: editing/takelist.cpp
+msgctxt "Edit"
+msgid "Unpack Last Take to Layer"
+msgstr "마지막 테이크를 레이어에 풀기"
+
+#: editing/takelist.cpp
+msgctxt "Command"
+msgid "Unpack Last Take to Layer"
+msgstr "마지막 테이크를 레이어에 풀기"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -4910,8 +4986,8 @@ msgctxt "Command"
 msgid "Video"
 msgstr "비디오"
 
-#: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
 #: editing/trackeditor.cpp editing/tracklistcomponent.cpp
+#: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
 #: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "View"
@@ -4952,7 +5028,7 @@ msgctxt "Command"
 msgid "Zoom Selected Track"
 msgstr "선택된 트랙 확대/축소"
 
-#: audioediting/audioeditor.cpp audioediting/audioscaleview.cpp
+#: audioediting/audioscaleview.cpp audioediting/audioeditor.cpp
 msgctxt "AudioScale"
 msgid "dB"
 msgstr "dB"

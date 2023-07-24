@@ -239,16 +239,6 @@ msgctxt "Denoiser"
 msgid "Intensity"
 msgstr "强度"
 
-#: repair.xml
-msgctxt "InvertPhase"
-msgid "Invert Left"
-msgstr "反转左"
-
-#: repair.xml
-msgctxt "InvertPhase"
-msgid "Invert Right"
-msgstr "反转右"
-
 #: format.xml
 msgctxt "KeepFormat"
 msgid "Keep"
@@ -296,6 +286,11 @@ msgstr "模式"
 
 #: gain.xml
 msgctxt "Normalize"
+msgid "Mode"
+msgstr "模式"
+
+#: repair.xml
+msgctxt "InvertPhase"
 msgid "Mode"
 msgstr "模式"
 
@@ -419,13 +414,13 @@ msgctxt "SourceResultFilesSection"
 msgid "Show Peak / RMS / R128"
 msgstr "显示峰值 / RMS / R128"
 
-#: converter.xml
-msgctxt "ProcessRackSection"
+#: format.xml
+msgctxt "Concatenator"
 msgid "Source Folder"
 msgstr "源文件夹"
 
-#: format.xml
-msgctxt "Concatenator"
+#: converter.xml
+msgctxt "ProcessRackSection"
 msgid "Source Folder"
 msgstr "源文件夹"
 
@@ -493,6 +488,14 @@ msgstr "供应商:"
 msgctxt "AudioFilePreview"
 msgid "Volume"
 msgstr "音量"
+
+#~ msgctxt "InvertPhase"
+#~ msgid "Invert Left"
+#~ msgstr "反转左"
+
+#~ msgctxt "InvertPhase"
+#~ msgid "Invert Right"
+#~ msgstr "反转右"
 
 #~ msgctxt "SearchBar"
 #~ msgid "(Not searchable)"

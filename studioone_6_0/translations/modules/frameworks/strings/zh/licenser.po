@@ -79,8 +79,8 @@ msgctxt "WebAPI"
 msgid "An error occurred at the server (Status %(1))."
 msgstr "服务器发生错误(状态 %(1))。"
 
-#: application/freemiumapp.cpp application/licensedapp.cpp
-#: application/loginhandler.cpp application/purchasehandler.cpp
+#: application/loginhandler.cpp application/licensedapp.cpp
+#: application/purchasehandler.cpp application/freemiumapp.cpp
 msgctxt "Command"
 msgid "Application"
 msgstr "应用程序"
@@ -112,8 +112,12 @@ msgstr "禁用 %(1) 项目"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
-msgid "Failed to connect to the server.\nPlease check your Internet connection and try again."
-msgstr "无法连接服务器。\n请检查您的网络连接并重试。"
+msgid ""
+"Failed to connect to the server.\n"
+"Please check your Internet connection and try again."
+msgstr ""
+"无法连接服务器。\n"
+"请检查您的网络连接并重试。"
 
 #: application/userlicense.cpp
 msgctxt "FileType"
@@ -387,4 +391,3 @@ msgstr "您所购买的项目已被激活。"
 #~ msgctxt "Licenser"
 #~ msgid "Activation failed."
 #~ msgstr "激活失败。"
-

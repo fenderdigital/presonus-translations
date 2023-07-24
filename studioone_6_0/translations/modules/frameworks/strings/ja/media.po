@@ -459,6 +459,11 @@ msgctxt "FileType"
 msgid "MIDI File"
 msgstr "MIDIファイル"
 
+#: music/musicalscale.cpp
+msgctxt "MusicalScale"
+msgid "Major"
+msgstr "メジャー"
+
 #: music/chordclassifier.cpp
 msgctxt "Chords"
 msgid "Major"
@@ -466,11 +471,6 @@ msgstr "メジャー"
 
 #: music/keysignature.cpp
 msgctxt "KeySignature"
-msgid "Major"
-msgstr "メジャー"
-
-#: music/musicalscale.cpp
-msgctxt "MusicalScale"
 msgid "Major"
 msgstr "メジャー"
 
@@ -589,13 +589,13 @@ msgctxt "ActionDescriptions"
 msgid "Modify Step Count"
 msgstr "ステップ数を変更"
 
-#: time/mediatimeactions.cpp
-msgctxt "MediaTimeAction"
+#: time/tempomanipulator.cpp
+msgctxt "TempoManipulator"
 msgid "Modify Tempo"
 msgstr "テンポを変更"
 
-#: time/tempomanipulator.cpp
-msgctxt "TempoManipulator"
+#: time/mediatimeactions.cpp
+msgctxt "MediaTimeAction"
 msgid "Modify Tempo"
 msgstr "テンポを変更"
 

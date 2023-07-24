@@ -511,8 +511,16 @@ msgstr "Você deseja aplicar códigos ISRC incrementais para todas as Músicas?"
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
-msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
-msgstr "Você deseja criar uma imagem DDP?\n\nImage: %(1)\nLocation: %(2)"
+msgid ""
+"Do you want to create a DDP image?\n"
+"\n"
+"Image: %(1)\n"
+"Location: %(2)"
+msgstr ""
+"Você deseja criar uma imagem DDP?\n"
+"\n"
+"Image: %(1)\n"
+"Location: %(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -651,13 +659,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "Exportando:"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "Falha ao exportar arquivo de áudio."
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "Falha ao exportar arquivo de áudio."
 
@@ -1293,9 +1301,9 @@ msgid "Print"
 msgstr "Impressão"
 
 #: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp
-#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
-#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
+#: project/publish/ddpimagemaker.cpp project/publish/imagemaker.cpp
+#: project/publish/audiofilepublisher.cpp
 msgctxt "Command"
 msgid "Project"
 msgstr "Projeto"
@@ -1857,8 +1865,8 @@ msgid "Setup Page"
 msgstr "Configuração de Página"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
-#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
+#: show/editing/showeditmodel.cpp show/editing/setlistcomponent.cpp
+#: show/editing/showeditcomponent.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1992,8 +2000,12 @@ msgstr "Criando imagem DDP a %(1) vezes"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
-msgid "Start: %(1) (%(2))\nPause: %(3)"
-msgstr "Início: %(1) (%(2))\nPausa: %(3)"
+msgid ""
+"Start: %(1) (%(2))\n"
+"Pause: %(3)"
+msgstr ""
+"Início: %(1) (%(2))\n"
+"Pausa: %(3)"
 
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
@@ -2022,13 +2034,37 @@ msgstr "ESTE SONG CONTÉM MATERIAL REGISTRADO. VOCÊ NÃO PODE UTILIZAR QUALQUER
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
-msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr "O código EAN não está formatado corretamente.\n\nEle deve conter 13 caracteres apenas numéricos.\n\nExemplo: 036000291452\n\nSe você dispõe de UPC, precisa somente inserir um 0 no início para formar um código EAN válido."
+msgid ""
+"The EAN code is not formatted correctly.\n"
+"\n"
+"It should be 13 characters long and should only contain numeric characters.\n"
+"\n"
+"Example: 036000291452\n"
+"\n"
+"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr ""
+"O código EAN não está formatado corretamente.\n"
+"\n"
+"Ele deve conter 13 caracteres apenas numéricos.\n"
+"\n"
+"Exemplo: 036000291452\n"
+"\n"
+"Se você dispõe de UPC, precisa somente inserir um 0 no início para formar um código EAN válido."
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
-msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
-msgstr "O código ISRC não está formatado corretamente.\n\nEle deve conter 12 caracteres apenas alfanuméricos.\n\nExemplo: USPR37300012"
+msgid ""
+"The ISRC code is not formatted correctly.\n"
+"\n"
+"It should be 12 characters long and should only contain alphanumeric characters.\n"
+"\n"
+"Example: USPR37300012"
+msgstr ""
+"O código ISRC não está formatado corretamente.\n"
+"\n"
+"Ele deve conter 12 caracteres apenas alfanuméricos.\n"
+"\n"
+"Exemplo: USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2239,8 +2275,24 @@ msgstr "Atualizar Título"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
-msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "Atualização do arquivo de masterização deste Song:\n%(6)\nSaída: %(1)\nDuração: %(3)\nResolução: %(4)\nProcessamento em Tempo Real: %(5)\nIncluir Efeitos da Master: %(7)\nNome do Arquivo: %(2)"
+msgid ""
+"Update the mastering file of this song:\n"
+"%(6)\n"
+"Output: %(1)\n"
+"Duration: %(3)\n"
+"Resolution: %(4)\n"
+"Realtime Processing: %(5)\n"
+"Include Master Effects: %(7)\n"
+"Filename: %(2)"
+msgstr ""
+"Atualização do arquivo de masterização deste Song:\n"
+"%(6)\n"
+"Saída: %(1)\n"
+"Duração: %(3)\n"
+"Resolução: %(4)\n"
+"Processamento em Tempo Real: %(5)\n"
+"Incluir Efeitos da Master: %(7)\n"
+"Nome do Arquivo: %(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2555,4 +2607,3 @@ msgstr "novo Player"
 #~ msgctxt "Project"
 #~ msgid "Reset Marker"
 #~ msgstr "Reiniciar Marcador"
-

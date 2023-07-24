@@ -324,7 +324,7 @@ msgctxt "GadgetManager"
 msgid "Gadgets"
 msgstr "Gadgets"
 
-#: analytics/apptrackinghandler.cpp extensions/appupdater.cpp
+#: extensions/appupdater.cpp analytics/apptrackinghandler.cpp
 msgctxt "Command"
 msgid "Help"
 msgstr "Hilfe"
@@ -369,13 +369,13 @@ msgctxt "Extensions"
 msgid "Installation failed!"
 msgstr "Installation fehlgeschlagen!"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
 msgid "Installed"
 msgstr "Installiert"
 
-#: packages/unifiedpackageaction.cpp
-msgctxt "PackageActions"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Installed"
 msgstr "Installiert"
 
@@ -454,13 +454,13 @@ msgctxt "PackageFilter"
 msgid "Origin"
 msgstr "Herkunft"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
 msgid "Other"
 msgstr "Andere"
 
-#: packages/unifiedpackagesource.cpp
-msgctxt "PackageSource"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Other"
 msgstr "Andere"
 
@@ -875,4 +875,3 @@ msgstr "Ihre Version ist aktuell."
 #~ msgctxt "TransferManager"
 #~ msgid "MB/sec"
 #~ msgstr "MB/Sek"
-

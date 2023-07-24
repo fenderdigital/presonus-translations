@@ -109,13 +109,13 @@ msgctxt "StudioApp"
 msgid "Artist Profile"
 msgstr "Künstlerprofil"
 
-#: appoptions.cpp
-msgctxt "Options"
+#: samplerextension.cpp
+msgctxt "Command"
 msgid "Audio"
 msgstr "Audio"
 
-#: samplerextension.cpp
-msgctxt "Command"
+#: appoptions.cpp
+msgctxt "Options"
 msgid "Audio"
 msgstr "Audio"
 
@@ -306,6 +306,11 @@ msgstr "Netzwerkadapter"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
+msgid "Event Editors"
+msgstr "Event-Editoren"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
 msgid "External Instruments"
 msgstr "Externe Instrumente"
 
@@ -484,13 +489,13 @@ msgctxt "Sidebar"
 msgid "New Multi Instrument"
 msgstr "Neues Multi-Instrument"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: projectdocument.cpp
+msgctxt "StudioApp"
 msgid "New Project"
 msgstr "Neues Projekt"
 
-#: projectdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Project"
 msgstr "Neues Projekt"
 
@@ -499,13 +504,13 @@ msgctxt "StudioApp"
 msgid "New Project \"%(1)\""
 msgstr "Neues Projekt \"%(1)\""
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: showdocument.cpp
+msgctxt "StudioApp"
 msgid "New Show"
 msgstr "Neue Show"
 
-#: showdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Show"
 msgstr "Neue Show"
 
@@ -514,13 +519,13 @@ msgctxt "StudioApp"
 msgid "New Show \"%(1)\""
 msgstr "Neue Show \"%(1)\""
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: songdocument.cpp
+msgctxt "StudioApp"
 msgid "New Song"
 msgstr "Neuer Song"
 
-#: songdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Song"
 msgstr "Neuer Song"
 
@@ -869,7 +874,7 @@ msgctxt "Command"
 msgid "Video Player"
 msgstr "Video-Player"
 
-#: appfeatures.cpp documenthandler.cpp
+#: documenthandler.cpp appfeatures.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Ansicht"

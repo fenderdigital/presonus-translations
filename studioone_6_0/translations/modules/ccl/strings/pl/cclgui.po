@@ -244,13 +244,13 @@ msgctxt "Command"
 msgid "End Skip"
 msgstr "Na koniec bez zaznaczenia"
 
-#: keyevent.cpp
-msgctxt "VirtualKey"
+#: views/focusnavigator.cpp
+msgctxt "Command"
 msgid "Enter"
 msgstr "Enter"
 
-#: views/focusnavigator.cpp
-msgctxt "Command"
+#: keyevent.cpp
+msgctxt "VirtualKey"
 msgid "Enter"
 msgstr "Enter"
 
@@ -471,8 +471,12 @@ msgstr "Plik JPEG"
 
 #: dialogs/commandeditor.cpp
 msgctxt "CommandEditor"
-msgid "Key is already assigned to:\n%(1)"
-msgstr "Klawisz jest już przypisany do:\n%(1)"
+msgid ""
+"Key is already assigned to:\n"
+"%(1)"
+msgstr ""
+"Klawisz jest już przypisany do:\n"
+"%(1)"
 
 #: commands.cpp
 msgctxt "FileType"
@@ -1012,4 +1016,3 @@ msgstr "~"
 #~ msgctxt "CommandBar"
 #~ msgid "Assign Command..."
 #~ msgstr "Przypisz polecenie..."
-

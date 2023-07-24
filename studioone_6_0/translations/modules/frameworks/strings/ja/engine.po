@@ -124,13 +124,13 @@ msgctxt "Command"
 msgid "Activate Previous Layer"
 msgstr "前のレイヤーを有効化"
 
-#: musicediting/musiccontrollane.cpp
-msgctxt "Automation"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Add"
 msgstr "加算"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiccontrollane.cpp
+msgctxt "Automation"
 msgid "Add"
 msgstr "加算"
 
@@ -155,10 +155,25 @@ msgctxt "Engine"
 msgid "Add Bus Channel"
 msgstr "バスチャンネルを追加"
 
+#: audioediting/foldertrackaudiobus.cpp
+msgctxt "Command"
+msgid "Add Bus for Folder Track"
+msgstr "フォルダートラックにバスを追加"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Add Effect"
+msgstr "エフェクトを追加"
+
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Add Event FX"
 msgstr "イベントFXを追加"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Add Event FX: %(1)"
+msgstr "イベントFXを追加: %(1)"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -169,6 +184,11 @@ msgstr "FXを %(1) に追加:"
 msgctxt "MusicFX"
 msgid "Add FX on %(1):"
 msgstr "FXを %(1) に追加:"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Add FX on Channel"
+msgstr "チャンネルにFXを追加"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -214,6 +234,11 @@ msgstr "トラックを追加"
 msgctxt "Engine"
 msgid "Add VCA Channel"
 msgstr "VCAチャンネルを追加"
+
+#: audioediting/foldertrackaudiobus.cpp
+msgctxt "Command"
+msgid "Add VCA for Folder Track"
+msgstr "フォルダートラックにVCAを追加"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -415,7 +440,7 @@ msgctxt "GlobalTrack"
 msgid "Arranger"
 msgstr "アレンジ"
 
-#: editing/arrangereditlayer.cpp editing/arrangerplaybackhandler.cpp
+#: editing/arrangerplaybackhandler.cpp editing/arrangereditlayer.cpp
 msgctxt "Command"
 msgid "Arranger"
 msgstr "アレンジ"
@@ -434,6 +459,11 @@ msgstr "チャンネルをフォルダーにアサイン"
 msgctxt "SynthDrag"
 msgid "Assign Instrument to %(1):"
 msgstr "インストゥルメントを %(1) にアサイン: "
+
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Assign in Ascending Order"
+msgstr "昇順で割り当てる"
 
 #: base/media/mediaattachment.cpp
 msgctxt "MediaPool"
@@ -813,13 +843,13 @@ msgctxt "ActionDescriptions"
 msgid "Copy Events Shared"
 msgstr "共有イベントをコピー"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Copy External Files"
 msgstr "外部ファイルをコピー"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Copy External Files"
 msgstr "外部ファイルをコピー"
 
@@ -1353,9 +1383,9 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "バリエーションを複製"
 
-#: audioediting/audiobendeditlayer.cpp editing/chordeditlayer.cpp
-#: editing/eventsnapper.cpp editing/trackchannelnamefilter.cpp
-#: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
+#: audioediting/audiobendeditlayer.cpp editing/tracklistcomponent.cpp
+#: editing/chordeditlayer.cpp editing/trackvisibilityhandler.cpp
+#: editing/trackchannelnamefilter.cpp editing/eventsnapper.cpp
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
@@ -1426,10 +1456,15 @@ msgctxt "Automation"
 msgid "Edit Value"
 msgstr "値を編集"
 
-#: editing/globaltrackscomponent.cpp editing/trackeditor.cpp
+#: editing/trackeditor.cpp editing/globaltrackscomponent.cpp
 msgctxt "Command"
 msgid "Editor"
 msgstr "エディター"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Effects"
+msgstr "エフェクト"
 
 #: editing/tracklist.cpp
 msgctxt "TrackInfo"
@@ -1495,6 +1530,11 @@ msgstr "イベント"
 msgctxt "EventInspector"
 msgid "Event Color"
 msgstr "イベント色"
+
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Event Editors"
+msgstr "イベントエディター"
 
 #: audioediting/audioeditextension.cpp
 msgctxt "Engine"
@@ -2046,13 +2086,13 @@ msgctxt "Edit"
 msgid "Insert Chord"
 msgstr "コードを挿入"
 
-#: musicediting/musiceditextension.cpp
-msgctxt "Edit"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Insert Instrument"
 msgstr "インストゥルメントを挿入"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
 msgid "Insert Instrument"
 msgstr "インストゥルメントを挿入"
 
@@ -2186,6 +2226,11 @@ msgctxt "Engine"
 msgid "Layers"
 msgstr "レイヤー"
 
+#: editing/tracklayercomponent.cpp
+msgctxt "Command"
+msgid "Layers follow Events"
+msgstr "レイヤーはイベントに従う"
+
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
 msgid "Length"
@@ -2266,6 +2311,11 @@ msgctxt "Command"
 msgid "Locate File"
 msgstr "ファイルを検索"
 
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
+msgid "Locate Missing Files"
+msgstr "行方不明のファイルを検索"
+
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Locate Missing Files"
@@ -2273,11 +2323,6 @@ msgstr "行方不明のファイルを検索"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
-msgid "Locate Missing Files"
-msgstr "行方不明のファイルを検索"
-
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
 msgid "Locate Missing Files"
 msgstr "行方不明のファイルを検索"
 
@@ -2758,6 +2803,11 @@ msgctxt "Command"
 msgid "Next Variation"
 msgstr "次のバリエーション"
 
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "No Event Editor"
+msgstr "イベントエディターなし"
+
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
 msgid "No audio files with a name that ends in .L or .R found."
@@ -2954,7 +3004,7 @@ msgctxt "MusicPatternPartEditor"
 msgid "Pattern Automation"
 msgstr "パターンオートメーション"
 
-#: audioediting/audioeditor.cpp audioediting/audioscaleview.cpp
+#: audioediting/audioscaleview.cpp audioediting/audioeditor.cpp
 msgctxt "AudioScale"
 msgid "Percent"
 msgstr "パーセント"
@@ -3355,6 +3405,11 @@ msgctxt "AudioEdit"
 msgid "Remove Crossfades"
 msgstr "クロスフェードを削除"
 
+#: audioediting/audioeditextension.cpp
+msgctxt "Engine"
+msgid "Remove Event FX"
+msgstr "イベントFXを削除"
+
 #: application/eventedit/removegapstask.cpp
 msgctxt "Edit"
 msgid "Remove Gaps"
@@ -3435,13 +3490,13 @@ msgctxt "Command"
 msgid "Remove Track and Instrument"
 msgstr "トラックとインストゥルメントを削除"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Remove Unused Files"
 msgstr "使用されていないファイルを削除"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Remove Unused Files"
 msgstr "使用されていないファイルを削除"
 
@@ -3864,6 +3919,11 @@ msgstr "4ステップ毎に設定"
 msgctxt "ActionDescriptions"
 msgid "Set Icon"
 msgstr "アイコンを設定"
+
+#: base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
+msgid "Set Marker Stop"
+msgstr "マーカーを停止に設定"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -4590,17 +4650,18 @@ msgstr "タッチ"
 
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
-#: editing/editgroupscomponent.cpp editing/foldertrackcomponent.cpp
-#: editing/layereditlayer.cpp editing/mediatrackcontroller.cpp
-#: editing/monitorfollower.cpp editing/trackcontroller.cpp
+#: audioediting/foldertrackaudiobus.cpp editing/foldertrackcomponent.cpp
+#: editing/layereditlayer.cpp editing/trackcontroller.cpp
 #: editing/tracklayercomponent.cpp editing/tracklistcomponent.cpp
+#: editing/editgroupscomponent.cpp editing/takelist.cpp
+#: editing/mediatrackcontroller.cpp editing/monitorfollower.cpp
 #: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "トラック"
 
-#: base/model/rootevent.cpp editing/tracklisteditmodel.cpp
-#: editing/tracklistinspector.cpp
+#: base/model/rootevent.cpp editing/tracklistinspector.cpp
+#: editing/tracklisteditmodel.cpp
 msgctxt "Engine"
 msgid "Track"
 msgstr "トラック"
@@ -4705,6 +4766,11 @@ msgctxt "ActionDescriptions"
 msgid "Transpose Events"
 msgstr "イベントをトランスポーズ"
 
+#: editing/eventedithandler.cpp
+msgctxt "EventEditHandler"
+msgid "Transpose: %(1)  Tune: %(2)"
+msgstr "トランスポーズ: %(1) チューン: %(2)"
+
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
 msgid "Trim End to Cursor"
@@ -4794,6 +4860,16 @@ msgstr "イベントのミュートを解除"
 msgctxt "ActionDescriptions"
 msgid "Unmute Events"
 msgstr "イベントのミュートを解除"
+
+#: editing/takelist.cpp
+msgctxt "Edit"
+msgid "Unpack Last Take to Layer"
+msgstr "最後のテイクをレイヤーに展開"
+
+#: editing/takelist.cpp
+msgctxt "Command"
+msgid "Unpack Last Take to Layer"
+msgstr "最後のテイクをレイヤーに展開"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -4910,8 +4986,8 @@ msgctxt "Command"
 msgid "Video"
 msgstr "ビデオ"
 
-#: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
 #: editing/trackeditor.cpp editing/tracklistcomponent.cpp
+#: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
 #: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "View"
@@ -4952,7 +5028,7 @@ msgctxt "Command"
 msgid "Zoom Selected Track"
 msgstr "選択されているトラックをズーム"
 
-#: audioediting/audioeditor.cpp audioediting/audioscaleview.cpp
+#: audioediting/audioscaleview.cpp audioediting/audioeditor.cpp
 msgctxt "AudioScale"
 msgid "dB"
 msgstr "dB"
@@ -5338,7 +5414,7 @@ msgstr "%(1) 回使用"
 
 #~ msgctxt "Edit"
 #~ msgid "Mixdown Selection"
-#~ msgstr "ミックスダウン選択"
+#~ msgstr "選択をミックスダウン"
 
 #~ msgctxt "SongMaster"
 #~ msgid "No"

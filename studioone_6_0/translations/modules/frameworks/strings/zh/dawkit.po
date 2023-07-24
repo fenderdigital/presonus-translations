@@ -511,8 +511,16 @@ msgstr "是否希望将递增的ISRC编码应用到所有音轨上？"
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
-msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
-msgstr "是否创建DDP映像?\n\n映像: %(1)\n位置: %(2)"
+msgid ""
+"Do you want to create a DDP image?\n"
+"\n"
+"Image: %(1)\n"
+"Location: %(2)"
+msgstr ""
+"是否创建DDP映像?\n"
+"\n"
+"映像: %(1)\n"
+"位置: %(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -651,13 +659,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "正在导出:"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "音频文件导出失败。"
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "音频文件导出失败。"
 
@@ -1293,9 +1301,9 @@ msgid "Print"
 msgstr "打印"
 
 #: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp
-#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
-#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
+#: project/publish/ddpimagemaker.cpp project/publish/imagemaker.cpp
+#: project/publish/audiofilepublisher.cpp
 msgctxt "Command"
 msgid "Project"
 msgstr "项目"
@@ -1857,8 +1865,8 @@ msgid "Setup Page"
 msgstr "设置页面"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
-#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
+#: show/editing/showeditmodel.cpp show/editing/setlistcomponent.cpp
+#: show/editing/showeditcomponent.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1992,8 +2000,12 @@ msgstr "开始%(1)倍速写入DDP映像"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
-msgid "Start: %(1) (%(2))\nPause: %(3)"
-msgstr " 开始：%(1) (%(2)) \n暂停：%(3)"
+msgid ""
+"Start: %(1) (%(2))\n"
+"Pause: %(3)"
+msgstr ""
+" 开始：%(1) (%(2)) \n"
+"暂停：%(3)"
 
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
@@ -2022,13 +2034,37 @@ msgstr "此乐曲包含版权素材，未经作者许可，不得使用这些素
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
-msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr "EAN码格式不正确。\n\n应为13个字符并只包含数字。\n\n例如: 036000291452\n\n如果你有一个UPC码，则只需在前面增加一个0即可得到有效的EAN码。"
+msgid ""
+"The EAN code is not formatted correctly.\n"
+"\n"
+"It should be 13 characters long and should only contain numeric characters.\n"
+"\n"
+"Example: 036000291452\n"
+"\n"
+"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr ""
+"EAN码格式不正确。\n"
+"\n"
+"应为13个字符并只包含数字。\n"
+"\n"
+"例如: 036000291452\n"
+"\n"
+"如果你有一个UPC码，则只需在前面增加一个0即可得到有效的EAN码。"
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
-msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
-msgstr "ISRC编码格式不正确。\n\n应为12个字符且仅包含字母和数字。\n\n例如: USPR37300012"
+msgid ""
+"The ISRC code is not formatted correctly.\n"
+"\n"
+"It should be 12 characters long and should only contain alphanumeric characters.\n"
+"\n"
+"Example: USPR37300012"
+msgstr ""
+"ISRC编码格式不正确。\n"
+"\n"
+"应为12个字符且仅包含字母和数字。\n"
+"\n"
+"例如: USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2239,8 +2275,24 @@ msgstr "更新标题"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
-msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "更新此歌曲的母带文件:\n%(6)\n输出: %(1)\n时长: %(3)\n分辨率: %(4)\n实时进度: %(5)\n包含主效果: %(7)\n文件名: %(2)"
+msgid ""
+"Update the mastering file of this song:\n"
+"%(6)\n"
+"Output: %(1)\n"
+"Duration: %(3)\n"
+"Resolution: %(4)\n"
+"Realtime Processing: %(5)\n"
+"Include Master Effects: %(7)\n"
+"Filename: %(2)"
+msgstr ""
+"更新此歌曲的母带文件:\n"
+"%(6)\n"
+"输出: %(1)\n"
+"时长: %(3)\n"
+"分辨率: %(4)\n"
+"实时进度: %(5)\n"
+"包含主效果: %(7)\n"
+"文件名: %(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2555,4 +2607,3 @@ msgstr " 新播放器"
 #~ msgctxt "Project"
 #~ msgid "Reset Marker"
 #~ msgstr "重设标记"
-

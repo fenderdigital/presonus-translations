@@ -14,6 +14,11 @@ msgctxt "AudioProcess"
 msgid "Adjust volume of audio file"
 msgstr "Ses dosyasının seviyesini ayarla"
 
+#: processes/phase.cpp
+msgctxt "AudioProcess"
+msgid "All Channels"
+msgstr ""
+
 #: plugversion.h
 msgctxt "AudioBatchConverter"
 msgid "Audio Batch Converter"
@@ -58,16 +63,6 @@ msgstr "Hepsini Daralt"
 msgctxt "Fade"
 msgid "Concave"
 msgstr "Konkav"
-
-#: processes/fileformat.cpp
-msgctxt "AudioProcess"
-msgid "Convert Format"
-msgstr "Konkav Format"
-
-#: processes/fileformat.cpp
-msgctxt "AudioProcess"
-msgid "Convert type, rate, resolution, and channels"
-msgstr "Tip, örnekleme oranı, çözünürlük ve kanalları dönüştür"
 
 #: processes/fade.cpp
 msgctxt "Fade"
@@ -228,6 +223,11 @@ msgstr "Dosyaları Birleştir"
 msgctxt "AudioProcess"
 msgid "Join all input files sequentially"
 msgstr "Tüm giriş dosyalarını sırası ile birleştir"
+
+#: processes/phase.cpp
+msgctxt "AudioProcess"
+msgid "Left Channel Only"
+msgstr ""
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
@@ -394,6 +394,11 @@ msgctxt "Command"
 msgid "Return to Zero"
 msgstr "Sıfıra Dön"
 
+#: processes/phase.cpp
+msgctxt "AudioProcess"
+msgid "Right Channel Only"
+msgstr ""
+
 #: processlist.cpp
 msgctxt "Audio Conveter"
 msgid "Save Rack Preset"
@@ -498,6 +503,14 @@ msgstr "Seviye"
 msgctxt "AudioBatchConverter"
 msgid "analyzing..."
 msgstr "analiz ediliyor..."
+
+#~ msgctxt "AudioProcess"
+#~ msgid "Convert Format"
+#~ msgstr "Konkav Format"
+
+#~ msgctxt "AudioProcess"
+#~ msgid "Convert type, rate, resolution, and channels"
+#~ msgstr "Tip, örnekleme oranı, çözünürlük ve kanalları dönüştür"
 
 #~ msgctxt "OuputLocationComponent"
 #~ msgid "Select..."

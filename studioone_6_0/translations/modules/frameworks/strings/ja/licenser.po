@@ -79,8 +79,8 @@ msgctxt "WebAPI"
 msgid "An error occurred at the server (Status %(1))."
 msgstr "サーバーにエラーが発生しました（ステータス %(1) ）。"
 
-#: application/freemiumapp.cpp application/licensedapp.cpp
-#: application/loginhandler.cpp application/purchasehandler.cpp
+#: application/loginhandler.cpp application/licensedapp.cpp
+#: application/purchasehandler.cpp application/freemiumapp.cpp
 msgctxt "Command"
 msgid "Application"
 msgstr "アプリケーション"
@@ -112,8 +112,12 @@ msgstr "%(1) アイテムを無効化"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
-msgid "Failed to connect to the server.\nPlease check your Internet connection and try again."
-msgstr "サーバーへの接続に失敗しました。\nインターネット接続を確認し、再試行してください。"
+msgid ""
+"Failed to connect to the server.\n"
+"Please check your Internet connection and try again."
+msgstr ""
+"サーバーへの接続に失敗しました。\n"
+"インターネット接続を確認し、再試行してください。"
 
 #: application/userlicense.cpp
 msgctxt "FileType"
@@ -387,4 +391,3 @@ msgstr "購入済みアイテムはアクティベートされました。"
 #~ msgctxt "Licenser"
 #~ msgid "Activation failed."
 #~ msgstr "アップロードに失敗しました。"
-

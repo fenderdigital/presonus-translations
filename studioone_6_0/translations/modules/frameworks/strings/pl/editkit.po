@@ -54,7 +54,7 @@ msgctxt "SoundVariations"
 msgid "Activation Sequence"
 msgstr "Sekwencja aktywacji"
 
-#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
 msgstr "Aktywna wariacja: %(1)"
@@ -113,6 +113,21 @@ msgstr "Przypisz chromatyczne przełączniki nutowe"
 msgctxt "SoundVariations"
 msgid "Assign Key Switches White Keys"
 msgstr "Przypisz diatoniczne przełączniki nutowe"
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Full"
+msgstr ""
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Horizontally"
+msgstr ""
+
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
+msgid "Auto Zoom Vertically"
+msgstr ""
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
@@ -354,10 +369,10 @@ msgctxt "ScoreSymbolMap"
 msgid "Dynamics"
 msgstr "Dynamika"
 
-#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp
-#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp music/noteplayer.cpp
 #: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Edycja"
@@ -582,7 +597,7 @@ msgctxt "TimeRulerView"
 msgid "Loop Active"
 msgstr "Aktywuj pętlę"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timerulerview.cpp
+#: timeedit/timerulerview.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Loop Follows Selection"
 msgstr "Pętla podąża za zaznaczeniem"
@@ -747,7 +762,7 @@ msgctxt "Command"
 msgid "Next Hotspot"
 msgstr "Następny aktywny punkt"
 
-#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
+#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
 msgstr "Brak wariacji"
@@ -937,13 +952,13 @@ msgctxt "Command"
 msgid "Quantize"
 msgstr "Kwantyzacja"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Edit"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
 msgid "Quantize"
 msgstr "Kwantyzacja"
 
-#: timeedit/timesnapper.cpp
-msgctxt "TimeSnapper"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
 msgid "Quantize"
 msgstr "Kwantyzacja"
 
@@ -1052,6 +1067,11 @@ msgctxt "Envelope"
 msgid "S-Curve"
 msgstr "Krzywa S"
 
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Scale"
+msgstr ""
+
 #: tempo/tempoedithandler.cpp
 msgctxt "TempoEdit"
 msgid "Scale Tempo: please set Timeruler to Bars"
@@ -1102,11 +1122,6 @@ msgctxt "Quantize"
 msgid "Septuplet"
 msgstr "Septola"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Command"
-msgid "Set Loop End"
-msgstr "Ustaw koniec pętli"
-
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Loop End"
@@ -1114,11 +1129,16 @@ msgstr "Ustaw koniec pętli"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
+msgid "Set Loop End"
+msgstr "Ustaw koniec pętli"
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
 msgid "Set Loop Start"
 msgstr "Ustaw początek pętli"
 
-#: timeedit/timerulerview.cpp
-msgctxt "TimeRulerView"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Command"
 msgid "Set Loop Start"
 msgstr "Ustaw początek pętli"
 
@@ -1339,13 +1359,21 @@ msgstr "Tempo"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid "The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
-msgstr "Zestaw został wygenerowany dla '%(1)' i nie jest zgodny z docelowym instrumentem.\nCzy mimo to chcesz wczytać mapę wariacji?"
+msgid ""
+"The preset was generated for '%(1)' and does not match the target instrument.\n"
+"Do you want to load the variation map anyway?"
+msgstr ""
+"Zestaw został wygenerowany dla '%(1)' i nie jest zgodny z docelowym instrumentem.\n"
+"Czy mimo to chcesz wczytać mapę wariacji?"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid "The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
-msgstr "Zestaw został wygenerowany dla brzmienia '%(1)' i nie jest zgodny z bieżącym zestawem instrumentu.\nCzy mimo to chcesz wczytać mapę wariacji?"
+msgid ""
+"The preset was generated for sound '%(1)' and does not match the current instrument preset.\n"
+"Do you want to load the variation map anyway?"
+msgstr ""
+"Zestaw został wygenerowany dla brzmienia '%(1)' i nie jest zgodny z bieżącym zestawem instrumentu.\n"
+"Czy mimo to chcesz wczytać mapę wariacji?"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -1367,6 +1395,26 @@ msgctxt "Edit"
 msgid "Timebase"
 msgstr "Format czasu"
 
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom"
+msgstr ""
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Full"
+msgstr ""
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Horizontally"
+msgstr ""
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Toggle Auto Zoom Vertically"
+msgstr ""
+
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Toggle Chord Mode"
@@ -1376,6 +1424,11 @@ msgstr "Tryb akordu"
 msgctxt "Command"
 msgid "Toggle Edit Mode"
 msgstr "Przełącz tryb edycji"
+
+#: music/noteplayer.cpp
+msgctxt "Command"
+msgid "Toggle Note Audition"
+msgstr ""
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
@@ -1487,7 +1540,7 @@ msgctxt "Command"
 msgid "View"
 msgstr "Widok"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "Powiększenie"
@@ -1501,6 +1554,11 @@ msgstr "Pełne pomniejszenie"
 msgctxt "Command"
 msgid "Zoom Full Horizontally"
 msgstr "Pełne pomniejszenie w poziomie"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Zoom Full Vertically"
+msgstr ""
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
@@ -1539,11 +1597,6 @@ msgstr "Pomniejsz w pionie"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
-msgid "Zoom Out Vertical Fine"
-msgstr "Pomniejsz precyzyjnie w pionie"
-
-#: timeedit/timelinecomponent.cpp
-msgctxt "Command"
 msgid "Zoom to Loop"
 msgstr "Powiększ pętlę"
 
@@ -1556,6 +1609,10 @@ msgstr "Powiększ zaznaczenie"
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "Powiększ zaznaczenie w poziomie"
+
+#~ msgctxt "Command"
+#~ msgid "Zoom Out Vertical Fine"
+#~ msgstr "Pomniejsz precyzyjnie w pionie"
 
 #~ msgctxt "Command"
 #~ msgid "Set Bar Offset to Cursor"
@@ -1632,4 +1689,3 @@ msgstr "Powiększ zaznaczenie w poziomie"
 #~ msgctxt "TimeRulerView"
 #~ msgid "Zoom"
 #~ msgstr "Powiększenie"
-

@@ -119,6 +119,11 @@ msgctxt "ShowMeasureNumberSelector"
 msgid "Always Show Measure Number"
 msgstr "Mostra Sempre il Numero della Battuta"
 
+#: sharedforms.xml
+msgctxt "InstrumentSelector"
+msgid "Apply to Voices"
+msgstr "Applica alle Voci"
+
 #: contextmenuforms.xml
 msgctxt "ArticulationSideSelector"
 msgid "Articulations Above"
@@ -214,6 +219,16 @@ msgctxt "ChordBassNoteButtonsInnerContent"
 msgid "D"
 msgstr "D"
 
+#: sharedforms.xml
+msgctxt "ScoreInstrumentItem"
+msgid "Decrement Amount"
+msgstr "Quantità del decremento"
+
+#: scoreedittasks.xml
+msgctxt "MakeTupletDialog"
+msgid "Default"
+msgstr "Default"
+
 #: contextmenuforms.xml
 msgctxt "ArticulationSideSelector"
 msgid "Default Articulation Side"
@@ -222,7 +237,7 @@ msgstr "Articolazione nella Posizione Default"
 #: contextmenuforms.xml
 msgctxt "AttachmentSideSelector"
 msgid "Default Attachment Side"
-msgstr " Espressione nella Posizione Default"
+msgstr "Espressione nella Posizione Default"
 
 #: contextmenuforms.xml
 msgctxt "StemDirectionSelector"
@@ -345,9 +360,14 @@ msgid "Hide Resting Staves"
 msgstr "Nascondi Righi Vuoti"
 
 #: sharedforms.xml
+msgctxt "ScoreInstrumentItem"
+msgid "Increment Amount"
+msgstr "Quantità dell'incremento"
+
+#: sharedforms.xml
 msgctxt "ChordHeaderHorizontal"
 msgid "Insert"
-msgstr "Insert"
+msgstr "Inserisci"
 
 #: sharedforms.xml
 msgctxt "ChordHeaderHorizontal"
@@ -410,6 +430,11 @@ msgid "Next Chord"
 msgstr "Accordo Successivo"
 
 #: scoreedittasks.xml
+msgctxt "MakeTupletDialog"
+msgid "Number"
+msgstr "Numero"
+
+#: scoreedittasks.xml
 msgctxt "InsertMeasuresDialog"
 msgid "Number of measures"
 msgstr "Numero di misure"
@@ -434,6 +459,11 @@ msgctxt "ChordHeaderHorizontal"
 msgid "Previous Chord"
 msgstr "Accordo Precedente"
 
+#: scoreedittasks.xml
+msgctxt "MakeTupletDialog"
+msgid "Ratio"
+msgstr "Ratio"
+
 #: contextmenuforms.xml
 msgctxt "MeasureTypeSelector"
 msgid "Regular Measure"
@@ -453,6 +483,11 @@ msgstr "Secondi"
 msgctxt "NotesPropertiesSelector"
 msgid "Set as Tacet"
 msgstr "Imposta come Tacet"
+
+#: contextmenuforms.xml
+msgctxt "AbbreviateTempoSelector"
+msgid "Shorten Tempos"
+msgstr "Accorcia i tempi"
 
 #: scoreedittasks.xml
 msgctxt "MakeTupletDialog"
@@ -524,15 +559,10 @@ msgctxt "NotesPropertiesSelector"
 msgid "Show as Rhythm Slash"
 msgstr "Mostra come Ritmo Slash"
 
-#: scoreedittasks.xml
-msgctxt "MakeTupletDialog"
-msgid "Show as ratio"
-msgstr "Mostra come ratio"
-
 #: sharedforms.xml
 msgctxt "FullKeySignatureSelector"
 msgid "Show cancellation naturals"
-msgstr "Show cancellazioni naturali"
+msgstr "Mostra cancellazioni naturali"
 
 #: sharedforms.xml
 msgctxt "TempoSelector"
@@ -613,6 +643,10 @@ msgstr "sus2"
 msgctxt "ChordTypeButtons"
 msgid "sus4"
 msgstr "sus4"
+
+#~ msgctxt "MakeTupletDialog"
+#~ msgid "Show as ratio"
+#~ msgstr "Mostra come ratio"
 
 #~ msgctxt "MakeTupletDialog"
 #~ msgid "+"

@@ -324,7 +324,7 @@ msgctxt "GadgetManager"
 msgid "Gadgets"
 msgstr "가젯"
 
-#: analytics/apptrackinghandler.cpp extensions/appupdater.cpp
+#: extensions/appupdater.cpp analytics/apptrackinghandler.cpp
 msgctxt "Command"
 msgid "Help"
 msgstr "도움말"
@@ -369,13 +369,13 @@ msgctxt "Extensions"
 msgid "Installation failed!"
 msgstr "설치에 실패했습니다!"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
 msgid "Installed"
 msgstr "설치됨"
 
-#: packages/unifiedpackageaction.cpp
-msgctxt "PackageActions"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Installed"
 msgstr "설치됨"
 
@@ -454,13 +454,13 @@ msgctxt "PackageFilter"
 msgid "Origin"
 msgstr "출처"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
 msgid "Other"
 msgstr "그 외"
 
-#: packages/unifiedpackagesource.cpp
-msgctxt "PackageSource"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Other"
 msgstr "그 외"
 
@@ -703,4 +703,3 @@ msgstr "새로운 버전의 $APPNAME(이)가 필요합니다."
 msgctxt "Updater"
 msgid "Your version is up-to-date."
 msgstr "현재 버전이 최신입니다."
-

@@ -651,13 +651,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "Exportiere:"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "Export der Audiodatei fehlgeschlagen."
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "Export der Audiodatei fehlgeschlagen."
 
@@ -877,12 +877,12 @@ msgstr "Neues Element"
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Keep Output Speaker Setup"
-msgstr ""
+msgstr "Aufnahmelautsprecheranordnung verwenden"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "Keep Stem Speaker Setup"
-msgstr ""
+msgstr "Stem-Lautsprecheranordnung verwenden"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1293,9 +1293,9 @@ msgid "Print"
 msgstr "Drucken"
 
 #: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp
-#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
-#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
+#: project/publish/ddpimagemaker.cpp project/publish/imagemaker.cpp
+#: project/publish/audiofilepublisher.cpp
 msgctxt "Command"
 msgid "Project"
 msgstr "Projekt"
@@ -1857,8 +1857,8 @@ msgid "Setup Page"
 msgstr "Seite einrichten"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
-#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
+#: show/editing/showeditmodel.cpp show/editing/setlistcomponent.cpp
+#: show/editing/showeditcomponent.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1948,12 +1948,12 @@ msgstr "Event am Cursor schneiden"
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Split Speakers to Mono Files"
-msgstr ""
+msgstr "Lautsprecher in Monodateien schreiben"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "Split Stem Speakers to Mono Files"
-msgstr ""
+msgstr "Stem-Lautsprecher in Monodateien schreiben"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -2023,7 +2023,7 @@ msgstr "DIESER SONG ENTHÄLT URHEBERRECHTLICH GESCHÜTZTES MATERIAL. SIE DÜRFEN
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
 msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr "Der EAN-Code wurde nicht richtig eingegeben.\n\nEr sollte aus genau 13 Ziffern bestehen.\n\nBeispiel: 036000291452\n\nWenn Sie einen UPC haben, müssen Sie lediglich eine 0 am Anfang einfügen um einen gültigen EAN-Code zu erzeugen."
+msgstr "Der EAN-Code wurde nicht richtig eingegeben.\n\nEr sollte aus genau 13 Ziffern bestehen.\n\nBeispiel: 036000291452\n\nWenn Sie einen UPC haben, müssen Sie lediglich eine 0 am Anfang einfügen, um einen gültigen EAN-Code zu erzeugen."
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
@@ -2310,22 +2310,22 @@ msgstr "Virtuelles Instrument"
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Write Mono File"
-msgstr ""
+msgstr "Schreibe Monodatei"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "Write Mono Stems"
-msgstr ""
+msgstr "Schreibe Mono-Stems"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Write Stereo File"
-msgstr ""
+msgstr "Schreibe Stereodatei"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "Write Stereo Stems"
-msgstr ""
+msgstr "Schreibe Stereo-Stems"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"

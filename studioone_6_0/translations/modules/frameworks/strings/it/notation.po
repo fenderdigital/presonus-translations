@@ -14,6 +14,11 @@ msgctxt "ScoreAdjustment"
 msgid "(%(1) half steps)"
 msgstr "(%(1) semitoni)"
 
+#: editor/scorechangeinstrumentcomponent.cpp
+msgctxt "Notation"
+msgid "1"
+msgstr "1"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "1 octave down"
@@ -43,6 +48,11 @@ msgstr "15ma"
 msgctxt "ScoreOctaves"
 msgid "15vb"
 msgstr "15vb"
+
+#: editor/scorechangeinstrumentcomponent.cpp
+msgctxt "Notation"
+msgid "2"
+msgstr "2"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -79,6 +89,11 @@ msgctxt "ScoreOctaves"
 msgid "29vb"
 msgstr "29vb"
 
+#: editor/scorechangeinstrumentcomponent.cpp
+msgctxt "Notation"
+msgid "3"
+msgstr "3"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "32nd Note"
@@ -88,6 +103,11 @@ msgstr "Nota 32mo"
 msgctxt "ScoreSymbols"
 msgid "32nd Rest"
 msgstr "Pausa 32mo"
+
+#: editor/scorechangeinstrumentcomponent.cpp
+msgctxt "Notation"
+msgid "4"
+msgstr "4"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -149,16 +169,6 @@ msgctxt "Notation"
 msgid "Add Page Text"
 msgstr "Aggiungi il Testo della Pagina"
 
-#: editor/scoreinstrumentpicker.cpp
-msgctxt "Notation"
-msgid "Add Part '%(1)'"
-msgstr "Aggiungi Parte '%(1)'"
-
-#: editor/scoreinstrumentpicker.cpp
-msgctxt "Notation"
-msgid "Add Parts"
-msgstr "Aggiungi Parti"
-
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Add Tenuto"
@@ -173,6 +183,16 @@ msgstr "Regola al Preset Drumset"
 msgctxt "Command"
 msgid "Align Chord Symbols"
 msgstr "Allinea i Simboli degli Accordi"
+
+#: editor/scorecommandcomponent.cpp
+msgctxt "Command"
+msgid "Align Fingerings"
+msgstr "Allinea le diteggiature"
+
+#: editor/scorechangeinstrumentcomponent.cpp
+msgctxt "Notation"
+msgid "All"
+msgstr "Tutto"
 
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
@@ -449,6 +469,11 @@ msgctxt "Notation"
 msgid "Concert Pitch"
 msgstr "Concert Pitch"
 
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "ScoreInstrument"
+msgid "Concert Toms"
+msgstr "Tom da concerto"
+
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
 msgid "Concert Tuning"
@@ -468,6 +493,36 @@ msgstr "Vista Continua"
 msgctxt "Notation"
 msgid "Copyright"
 msgstr "Copyright"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Crash 16 hit"
+msgstr "Crash 16 hit"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Crash 16 roll"
+msgstr "Crash 16 roll"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Crash 16 stopped"
+msgstr "Crash 16 stopped"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Crash 18 hit"
+msgstr "Crash 18 hit"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Crash 18 roll"
+msgstr "Crash 18 roll"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Crash 18 stopped"
+msgstr "Crash 18 stopped"
 
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
@@ -684,6 +739,11 @@ msgctxt "Notation"
 msgid "Drumset"
 msgstr "Drumset"
 
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "ScoreInstrument"
+msgid "Drumset"
+msgstr "Drumset"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Duplet"
@@ -719,7 +779,8 @@ msgctxt "Notation"
 msgid "Each System"
 msgstr "Stessa Accollatura"
 
-#: editor/scoreeditcomponent.cpp editor/scoresteprecord.cpp
+#: editor/scorenotepreviewplayer.cpp editor/scoresteprecord.cpp
+#: editor/scoreeditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Modifica"
@@ -739,13 +800,13 @@ msgctxt "Notation"
 msgid "Edit Articulation"
 msgstr "Modifica Articolazione"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/tools/editnoteaction.cpp
+msgctxt "Notation"
 msgid "Edit Beaming"
 msgstr "Modifica Travature"
 
-#: editor/tools/editnoteaction.cpp
-msgctxt "Notation"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Edit Beaming"
 msgstr "Modifica Travature"
 
@@ -794,13 +855,13 @@ msgctxt "Command"
 msgid "Enharmonic Respell Tool"
 msgstr "Strumento di Riscrittura Enarmonica"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/tools/editnoteaction.cpp
+msgctxt "Notation"
 msgid "Enharmonic spelling"
 msgstr "Scrittura Enarmonica"
 
-#: editor/tools/editnoteaction.cpp
-msgctxt "Notation"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Enharmonic spelling"
 msgstr "Scrittura Enarmonica"
 
@@ -1006,6 +1067,11 @@ msgstr "Chitarre / Bassi"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
+msgid "H.H."
+msgstr "H.H."
+
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Hairpins"
 msgstr "Forcelle"
 
@@ -1034,10 +1100,50 @@ msgctxt "ScoreSymbols"
 msgid "Harmonic"
 msgstr "Armonico"
 
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Hi Hat closed"
+msgstr "Hi Hat closed"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Hi Hat foot close"
+msgstr "Hi Hat foot close"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Hi Hat foot splash"
+msgstr "Hi Hat foot splash"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Hi Hat full open"
+msgstr "Hi Hat full open"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Hi Hat half-open"
+msgstr "Hi Hat half-open"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Hi Hat open"
+msgstr "Hi Hat open"
+
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
 msgid "Hide Cuts"
 msgstr "Nascondi Tagli"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Hide Shortened Tempos"
+msgstr "Nascondi tempi abbreviati"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "High"
+msgstr "High"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -1111,6 +1217,11 @@ msgstr "Inserisci Espressione"
 
 #: editor/tools/insertsymbolaction.cpp
 msgctxt "Notation"
+msgid "Insert Finger Number"
+msgstr "Inserisci il numero del dito"
+
+#: editor/tools/insertsymbolaction.cpp
+msgctxt "Notation"
 msgid "Insert Flow Direction"
 msgstr "Inserisci direzione di flusso"
 
@@ -1123,6 +1234,11 @@ msgstr "Inserisci Tecnica di Chitarra"
 msgctxt "Notation"
 msgid "Insert Hairpin"
 msgstr "Inserisci Forcella"
+
+#: editor/scorechangeinstrumentcomponent.cpp
+msgctxt "Notation"
+msgid "Insert Instrument Change"
+msgstr "Inserire il cambio di strumento"
 
 #: editor/tools/insertsymbolaction.cpp
 msgctxt "Notation"
@@ -1164,13 +1280,13 @@ msgctxt "Notation"
 msgid "Insert Repeat Ending"
 msgstr "Inserisci Ripetizione Finale"
 
-#: editor/scoresteprecord.cpp
-msgctxt "Command"
+#: editor/tools/insertnoterestaction.cpp
+msgctxt "Notation"
 msgid "Insert Rest"
 msgstr "Inserisci Pausa"
 
-#: editor/tools/insertnoterestaction.cpp
-msgctxt "Notation"
+#: editor/scoresteprecord.cpp
+msgctxt "Command"
 msgid "Insert Rest"
 msgstr "Inserisci Pausa"
 
@@ -1189,7 +1305,7 @@ msgctxt "Notation"
 msgid "Insert Slur"
 msgstr "Inserisci Legatura"
 
-#: editor/scoreswingcomponent.cpp editor/tools/insertsymbolaction.cpp
+#: editor/tools/insertsymbolaction.cpp editor/scoreswingcomponent.cpp
 msgctxt "Notation"
 msgid "Insert Swing"
 msgstr "Inserisci Swing"
@@ -1213,6 +1329,11 @@ msgstr "Inserisci Trillo"
 msgctxt "Notation"
 msgid "Insert Tuning / Capo"
 msgstr "Inserisci Accordatura / Capo"
+
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
+msgid "Instrument Change"
+msgstr "Cambia Strumento"
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
@@ -1254,6 +1375,11 @@ msgctxt "Command"
 msgid "Keysignature Tool"
 msgstr "Strumento di Armatura di Chiave"
 
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Kick"
+msgstr "Kick"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "L (Sticking)"
@@ -1274,13 +1400,13 @@ msgctxt "Notation"
 msgid "Loading Sound '%(1)'"
 msgstr "Caricamento Suono '%(1)'"
 
-#: editor/scorecontinuousheaderview.cpp
-msgctxt "ScoreView"
+#: editor/tools/scoreselecttool.cpp
+msgctxt "ScoreSelectTool"
 msgid "Locate"
 msgstr "Individua"
 
-#: editor/tools/scoreselecttool.cpp
-msgctxt "ScoreSelectTool"
+#: editor/scorecontinuousheaderview.cpp
+msgctxt "ScoreView"
 msgid "Locate"
 msgstr "Individua"
 
@@ -1289,10 +1415,20 @@ msgctxt "Command"
 msgid "Locate Selection"
 msgstr "Individua Selezione"
 
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "ScoreInstrument"
+msgid "Log Drum"
+msgstr "Log Drum"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Long Fall"
 msgstr "Long Fallito"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Low"
+msgstr "Basso"
 
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
@@ -1314,6 +1450,21 @@ msgctxt "ScoreEdit"
 msgid "Measure %(1)"
 msgstr "Misura %(1)"
 
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Medium"
+msgstr "Medium"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Medium High"
+msgstr "Medium High"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Medium Low"
+msgstr "Medium Low"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Mezzo-staccato"
@@ -1328,6 +1479,11 @@ msgstr "Mezzoforte"
 msgctxt "ScoreSymbols"
 msgid "Mezzopiano"
 msgstr "Mezzopiano"
+
+#: editor/scorechangeinstrumentcomponent.cpp
+msgctxt "Notation"
+msgid "Modify Instrument Change"
+msgstr "Modifica il Cambio Strumento"
 
 #: editor/tools/scoreitemdraghandler.cpp
 msgctxt "Notation"
@@ -1344,13 +1500,13 @@ msgctxt "ScoreSelectTool"
 msgid "Move Score Item"
 msgstr "Sposta Elemento Paritura"
 
-#: editor/scorecontinuousheaderview.cpp
-msgctxt "ScoreView"
+#: editor/tools/scoreselecttool.cpp
+msgctxt "ScoreSelectTool"
 msgid "Move, Zoom"
 msgstr "Sposta, Zoom"
 
-#: editor/tools/scoreselecttool.cpp
-msgctxt "ScoreSelectTool"
+#: editor/scorecontinuousheaderview.cpp
+msgctxt "ScoreView"
 msgid "Move, Zoom"
 msgstr "Sposta, Zoom"
 
@@ -1359,7 +1515,7 @@ msgctxt "ScoreSymbols"
 msgid "Natural"
 msgstr "Bequadro"
 
-#: editor/scoreeditcomponent.cpp editor/scoresteprecord.cpp
+#: editor/scoresteprecord.cpp editor/scoreeditcomponent.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "Navigazione"
@@ -1472,17 +1628,22 @@ msgstr "Ornamento"
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
 msgid "Other"
-msgstr "altro"
+msgstr "Altro"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Other"
-msgstr "altro"
+msgstr "Altro"
 
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "ScoreInstrument"
 msgid "Other Percussion"
 msgstr "Altra Percussione"
+
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
+msgid "P.H."
+msgstr "P.H."
 
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
@@ -1794,6 +1955,26 @@ msgctxt "Notation"
 msgid "Reveal Hidden Items"
 msgstr "Mostra Oggetti Nascosti"
 
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Ride"
+msgstr "Ride"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Ride dome"
+msgstr "Ride dome"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Ride roll"
+msgstr "Ride roll"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Ride stopped"
+msgstr "Ride stopped"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Rip"
@@ -1948,11 +2129,6 @@ msgstr "Nota da Intero"
 msgctxt "Command"
 msgid "Select Highest Notes"
 msgstr "Seleziona Note più Alte"
-
-#: editor/scoreinstrumentpicker.cpp
-msgctxt "Notation"
-msgid "Select Instrument"
-msgstr "Seleziona Strumento"
 
 #: editor/scorecommandcomponent.cpp
 msgctxt "Command"
@@ -2374,6 +2550,11 @@ msgctxt "ScoreSymbols"
 msgid "Slashed"
 msgstr "Slash"
 
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "ScoreInstrument"
+msgid "Slide Whistle"
+msgstr "Slide Whistle"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Slide down"
@@ -2399,6 +2580,36 @@ msgctxt "Command"
 msgid "Slur Tool"
 msgstr "Strumento Legatura di Frase"
 
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Snare cross-stick"
+msgstr "Rullante cross-stick"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Snare hit"
+msgstr "Rullante hit"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Snare rim"
+msgstr "Rullante rim"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Snare rim-shot"
+msgstr "Rullante rim-shot"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Snare roll"
+msgstr "Rullante roll"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Snare stick-shot"
+msgstr "Rullante stick-shot"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Soprano Clef"
@@ -2418,6 +2629,11 @@ msgstr "Staccatissimo"
 msgctxt "ScoreSymbols"
 msgid "Staccato"
 msgstr "Staccato"
+
+#: editor/scorechangeinstrumentcomponent.cpp
+msgctxt "Notation"
+msgid "Staff"
+msgstr "Rigo"
 
 #: editor/scorecommandcomponent.cpp
 msgctxt "ScoreEdit"
@@ -2528,6 +2744,11 @@ msgstr "Inverti Voci"
 msgctxt "ScoreSymbols"
 msgid "Swing"
 msgstr "Swing"
+
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
+msgid "T.H."
+msgstr "T.H."
 
 #: editor/scorepartsetup.cpp
 msgctxt "Notation"
@@ -2709,6 +2930,11 @@ msgctxt "Command"
 msgid "Toggle Naturals"
 msgstr "Attiva/Disattiva Bequadri"
 
+#: editor/scorenotepreviewplayer.cpp
+msgctxt "Command"
+msgid "Toggle Note Audition"
+msgstr "Alterna Ascolto Nota"
+
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
 msgid "Toggle Noteheads"
@@ -2798,6 +3024,66 @@ msgstr "Attiva/Disattiva Vibrati"
 msgctxt "Command"
 msgid "Toggle Whammy Bars"
 msgstr "Attiva/Disattiva Leva del Vibrato"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 10 hit"
+msgstr "Tom 10 hit"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 10 rim-shot"
+msgstr "Tom 10 rim-shot"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 10 roll"
+msgstr "Tom 10 roll"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 12 hit"
+msgstr "Tom 12 hit"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 12 rim-shot"
+msgstr "Tom 12 rim-shot"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 12 roll"
+msgstr "Tom 12 roll"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 14 hit"
+msgstr "Tom 14 hit"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 14 rim-shot"
+msgstr "Tom 14 rim-shot"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 14 roll"
+msgstr "Tom 14 roll"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 16 hit"
+msgstr "Tom 16 hit"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 16 rim-shot"
+msgstr "Tom 16 rim-shot"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "Drum labels"
+msgid "Tom 16 roll"
+msgstr "Tom 16 roll"
 
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
@@ -3081,6 +3367,11 @@ msgstr "vibrato Ampio"
 
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "ScoreInstrument"
+msgid "Wood Blocks"
+msgstr "Wood Blocks"
+
+#: scoredata/scoreinstrumentregistry.cpp
+msgctxt "ScoreInstrument"
 msgid "Woodwinds"
 msgstr "Legni"
 
@@ -3094,6 +3385,11 @@ msgctxt "ScoreSymbols"
 msgid "X-Symbol"
 msgstr "Simbolo X"
 
+#: editor/tools/scoreselecttool.cpp
+msgctxt "ScoreSelectTool"
+msgid "Zoom"
+msgstr "Zoom"
+
 #: editor/scorecontinuousheaderview.cpp
 msgctxt "ScoreView"
 msgid "Zoom"
@@ -3101,11 +3397,6 @@ msgstr "Zoom"
 
 #: editor/scoreeditcomponent.cpp
 msgctxt "Command"
-msgid "Zoom"
-msgstr "Zoom"
-
-#: editor/tools/scoreselecttool.cpp
-msgctxt "ScoreSelectTool"
 msgid "Zoom"
 msgstr "Zoom"
 
@@ -3195,6 +3486,18 @@ msgid "transpose up"
 msgstr "Trasponi su"
 
 #~ msgctxt "Notation"
+#~ msgid "Add Part '%(1)'"
+#~ msgstr "Aggiungi Parte '%(1)'"
+
+#~ msgctxt "Notation"
+#~ msgid "Add Parts"
+#~ msgstr "Aggiungi Parti"
+
+#~ msgctxt "Notation"
+#~ msgid "Select Instrument"
+#~ msgstr "Seleziona Strumento"
+
+#~ msgctxt "Notation"
 #~ msgid " - Tuplet"
 #~ msgstr "- Gruppo irregolare"
 
@@ -3240,7 +3543,7 @@ msgstr "Trasponi su"
 
 #~ msgctxt "Command"
 #~ msgid "Default Attachment Side"
-#~ msgstr " Espressione nella Posizione Predefinita"
+#~ msgstr "Espressione nella Posizione Predefinita"
 
 #~ msgctxt "Command"
 #~ msgid "Default Stem Direction"
