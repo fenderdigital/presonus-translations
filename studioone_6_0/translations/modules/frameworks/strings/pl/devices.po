@@ -438,7 +438,7 @@ msgstr "Konfiguracja audio"
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Audio device realtime thread priority could not be set."
-msgstr ""
+msgstr "Nie można ustawić priorytetu wątku czasu rzeczywistego urządzenia audio."
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -453,12 +453,12 @@ msgstr "Silnik audio jest przeciążony."
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Audio processing realtime thread priority could not be set."
-msgstr ""
+msgstr "Nie można ustawić priorytetu wątku czasu rzeczywistego przetwarzania audio."
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Audio sublevel processing realtime thread priority could not be set."
-msgstr ""
+msgstr "Nie można ustawić podpoziomu priorytetu wątku czasu rzeczywistego przetwarzania audio."
 
 #: base/automationunit.cpp
 msgctxt "Automation"
@@ -478,7 +478,7 @@ msgstr "Automatyka"
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
 msgid "Automation"
-msgstr ""
+msgstr "Automatyka"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -528,7 +528,7 @@ msgstr "Balans"
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Basic"
-msgstr ""
+msgstr "Podstawowa"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
@@ -2011,7 +2011,7 @@ msgstr "Przesuń precyzyjnie w górę"
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Off"
-msgstr ""
+msgstr "Wyłączona"
 
 #: hardware/remotefxfolder.cpp
 msgctxt "Hardware"
@@ -2196,12 +2196,12 @@ msgstr "Za tłumikiem"
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
 msgid "Post-Fader Metering"
-msgstr ""
+msgstr "Miernik po tłumiku"
 
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
 msgid "Post-Panner Metering"
-msgstr ""
+msgstr "Miernik po panoramie"
 
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
@@ -2921,7 +2921,7 @@ msgstr "Ustaw liczbę podziałów"
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Set Split Mode"
-msgstr ""
+msgstr "Ustaw tryb podziału"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
@@ -3671,14 +3671,8 @@ msgstr "Write"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n"
-"\n"
-"Czy chcesz je teraz ponownie podłączyć?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n\nCzy chcesz je teraz ponownie podłączyć?"
 
 #~ msgctxt "Automation"
 #~ msgid "Add / Remove Parameters..."
@@ -3783,3 +3777,4 @@ msgstr ""
 #~ msgctxt "MacroControls"
 #~ msgid "Disconnect %(1) from %(2) Macro Control %(3)"
 #~ msgstr "Odłącz %(1) od kontrolki makro %(2) %(3)"
+
