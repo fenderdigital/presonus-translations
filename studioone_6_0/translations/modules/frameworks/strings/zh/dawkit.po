@@ -269,11 +269,6 @@ msgctxt "ProjectEdit"
 msgid "Bounce Track"
 msgstr "混缩音轨"
 
-#: song/songsetup.cpp
-msgctxt "SongSetup"
-msgid "Built-In"
-msgstr "内置式"
-
 #: project/publish/projectburner.cpp
 msgctxt "Command"
 msgid "Burn Audio CD"
@@ -308,6 +303,11 @@ msgstr "取消"
 msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "无法使用受保护内容创建混音。"
+
+#: song/spatialaudioexporter.cpp
+msgctxt "SpatialAudioExporter"
+msgid "Cannot export spatial audio file."
+msgstr "无法导出空间音频文件。"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
@@ -629,7 +629,7 @@ msgctxt "SongSetup"
 msgid "Error: %(1) requires sample rate %(2)"
 msgstr "错误：%(1)要求采样率%(2)"
 
-#: show/editing/showeditcomponent.cpp
+#: score/scoreeditor.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Event"
 msgstr "事件"
@@ -638,6 +638,11 @@ msgstr "事件"
 msgctxt "Command"
 msgid "Export Mixdown"
 msgstr "导出混音"
+
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Export Spatial Audio"
+msgstr "导出空间音频"
 
 #: song/songcontroller.cpp
 msgctxt "Command"
@@ -659,13 +664,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "正在导出:"
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "音频文件导出失败。"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "音频文件导出失败。"
 
@@ -882,16 +887,6 @@ msgctxt "SetListItem"
 msgid "Item"
 msgstr "歌曲"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Keep Output Speaker Setup"
-msgstr "保持输出音箱设置"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Keep Stem Speaker Setup"
-msgstr "保持 Stem 音箱设置"
-
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Large"
@@ -1008,6 +1003,11 @@ msgstr "混音速度: %float(1:1)"
 msgctxt "ProjectFunctions"
 msgid "Modify Attribute"
 msgstr "修改属性"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Mono"
+msgstr "单声道"
 
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
@@ -1185,10 +1185,20 @@ msgctxt "Command"
 msgid "Open Tempo Track"
 msgstr "打开节奏轨道"
 
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Open Video Track"
+msgstr "打开视频轨"
+
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Opening the CD Burning Engine failed."
 msgstr "打开CD刻录引擎失败"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Original"
+msgstr "原创"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1300,16 +1310,16 @@ msgctxt "Command"
 msgid "Print"
 msgstr "打印"
 
-#: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
-#: project/publish/ddpimagemaker.cpp project/publish/imagemaker.cpp
-#: project/publish/audiofilepublisher.cpp
-msgctxt "Command"
+#: project/document/projectdocument.cpp
+msgctxt "Project"
 msgid "Project"
 msgstr "项目"
 
-#: project/document/projectdocument.cpp
-msgctxt "Project"
+#: project/document/projectcomponent.cpp
+#: project/editing/projecteditcomponent.cpp
+#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
+#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+msgctxt "Command"
 msgid "Project"
 msgstr "项目"
 
@@ -1865,8 +1875,8 @@ msgid "Setup Page"
 msgstr "设置页面"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/showeditmodel.cpp show/editing/setlistcomponent.cpp
-#: show/editing/showeditcomponent.cpp show/editing/showplayerinspector.cpp
+#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
+#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1918,6 +1928,11 @@ msgctxt "Command"
 msgid "Solo"
 msgstr "独奏"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Some items will be exported in stereo because their speaker setup is not supported by the selected format."
+msgstr "某些项目将以立体声输出，因为所选格式不支持其扬声器设置。"
+
 #: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Song"
@@ -1948,6 +1963,16 @@ msgctxt "Command"
 msgid "Sound Variation"
 msgstr "声音变化"
 
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Spatial Audio Setup"
+msgstr "空间音频设置"
+
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Speaker"
+msgstr "扬声器"
+
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
 msgid "Split Event at Cursor"
@@ -1955,13 +1980,8 @@ msgstr "在光标处拆分事件"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
-msgid "Split Speakers to Mono Files"
-msgstr "将音箱分离至单声道文件"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Split Stem Speakers to Mono Files"
-msgstr "分离 Stem 音箱至单声道文件"
+msgid "Split Mono"
+msgstr "分体式单声道/分割单声道"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -2007,6 +2027,16 @@ msgstr ""
 " 开始：%(1) (%(2)) \n"
 "暂停：%(3)"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Stem export not possible for some items because they are incompatible with the %(1) output setup."
+msgstr "由于某些项目与 %(1) 输出设置不兼容，因此无法进行干输出。"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Stereo"
+msgstr "立体声"
+
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
 msgid "Stop at End"
@@ -2026,6 +2056,11 @@ msgstr "存储轨道预设"
 msgctxt "Command"
 msgid "Store Track Preset"
 msgstr "存储轨道预设"
+
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Surround"
+msgstr "环绕"
 
 #: song/songdocument.cpp
 msgctxt "Engine"
@@ -2101,6 +2136,16 @@ msgctxt "SongUpdater"
 msgid "The mastering files are up-to-date."
 msgstr "母带文件为最新。"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "The selected format does not support %(1)"
+msgstr "所选格式不支持 %(1)"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "The selected format does not support %(1). The format will be exported in stereo."
+msgstr "所选格式不支持 %(1)。格式将以立体声输出。"
+
 #: song/songmaster.cpp
 msgctxt "SongMaster"
 msgid "The song will be saved first.\n"
@@ -2125,6 +2170,11 @@ msgstr "极小"
 msgctxt "AudioDiscPublisher"
 msgid "Title"
 msgstr "标题"
+
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Toggle Mute"
+msgstr "切换静音"
 
 #: score/scoreeditor.cpp
 msgctxt "Command"
@@ -2350,6 +2400,7 @@ msgid "Video frame rate %(1) is not supported as song frame rate."
 msgstr "视频帧率 %(1) 不支持歌曲帧率。"
 
 #: show/editing/globaltracklistcomponent.cpp song/songmarker.cpp
+#: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "查看"
@@ -2358,26 +2409,6 @@ msgstr "查看"
 msgctxt "Player"
 msgid "Virtual Instrument"
 msgstr " 虚拟乐器"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Mono File"
-msgstr "书写单声道文件"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Mono Stems"
-msgstr "书写单声道 Stems"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Stereo File"
-msgstr "书写立体声文件"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Stereo Stems"
-msgstr "书写立体声 Stems"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2403,6 +2434,42 @@ msgstr "缩放"
 msgctxt "ShowDragHandler"
 msgid "new Player"
 msgstr " 新播放器"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Built-In"
+#~ msgstr "内置式"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Keep Output Speaker Setup"
+#~ msgstr "保持输出音箱设置"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Keep Stem Speaker Setup"
+#~ msgstr "保持 Stem 音箱设置"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Split Speakers to Mono Files"
+#~ msgstr "将音箱分离至单声道文件"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Split Stem Speakers to Mono Files"
+#~ msgstr "分离 Stem 音箱至单声道文件"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Mono File"
+#~ msgstr "书写单声道文件"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Mono Stems"
+#~ msgstr "书写单声道 Stems"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Stereo File"
+#~ msgstr "书写立体声文件"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Stereo Stems"
+#~ msgstr "书写立体声 Stems"
 
 #~ msgctxt "Song"
 #~ msgid "Could not import file!"

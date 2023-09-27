@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "Czcionka bitmapowa"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "Anuluj"
 
@@ -471,8 +471,12 @@ msgstr "Plik JPEG"
 
 #: dialogs/commandeditor.cpp
 msgctxt "CommandEditor"
-msgid "Key is already assigned to:\n%(1)"
-msgstr "Klawisz jest już przypisany do:\n%(1)"
+msgid ""
+"Key is already assigned to:\n"
+"%(1)"
+msgstr ""
+"Klawisz jest już przypisany do:\n"
+"%(1)"
 
 #: commands.cpp
 msgctxt "FileType"
@@ -654,13 +658,13 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "NumPad9"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "OK"
 msgstr "OK"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "OK"
 msgstr "OK"
 
@@ -929,6 +933,11 @@ msgctxt "VirtualKey"
 msgid "Tab"
 msgstr "Tab"
 
+#: graphics/nativegraphics.cpp
+msgctxt "GraphicsEngine"
+msgid "This application requires 3D graphics support, but no 3D graphics backend could be initialized."
+msgstr ""
+
 #: layout/workspace.cpp
 msgctxt "Command"
 msgid "Toggle Floating Windows"
@@ -989,6 +998,11 @@ msgctxt "VirtualKey"
 msgid "Volume Up"
 msgstr "Volume Up"
 
+#: graphics/imaging/codecs/webpcodec.cpp
+msgctxt "FileType"
+msgid "WebP File"
+msgstr ""
+
 #: dialogs/alert.cpp
 msgctxt "Alert"
 msgid "Yes"
@@ -1012,4 +1026,3 @@ msgstr "~"
 #~ msgctxt "CommandBar"
 #~ msgid "Assign Command..."
 #~ msgstr "Przypisz polecenie..."
-

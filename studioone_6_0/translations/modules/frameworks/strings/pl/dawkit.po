@@ -269,11 +269,6 @@ msgctxt "ProjectEdit"
 msgid "Bounce Track"
 msgstr "Wygeneruj audio z utworu"
 
-#: song/songsetup.cpp
-msgctxt "SongSetup"
-msgid "Built-In"
-msgstr "Wbudowane"
-
 #: project/publish/projectburner.cpp
 msgctxt "Command"
 msgid "Burn Audio CD"
@@ -308,6 +303,11 @@ msgstr "Anuluj"
 msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "Nie można wygenerować miksu z chronioną zawartością."
+
+#: song/spatialaudioexporter.cpp
+msgctxt "SpatialAudioExporter"
+msgid "Cannot export spatial audio file."
+msgstr ""
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
@@ -511,8 +511,16 @@ msgstr "Czy chcesz zastosować przyrostowe kody ISRC dla wszystkich utworów?"
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
-msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
-msgstr "Czy chcesz utworzyć obraz DDP?\n\nObraz: %(1)\nLokalizacja: %(2)"
+msgid ""
+"Do you want to create a DDP image?\n"
+"\n"
+"Image: %(1)\n"
+"Location: %(2)"
+msgstr ""
+"Czy chcesz utworzyć obraz DDP?\n"
+"\n"
+"Obraz: %(1)\n"
+"Lokalizacja: %(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -621,7 +629,7 @@ msgctxt "SongSetup"
 msgid "Error: %(1) requires sample rate %(2)"
 msgstr "Błąd: %(1) wymaga częstotliwości %(2)"
 
-#: show/editing/showeditcomponent.cpp
+#: score/scoreeditor.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Event"
 msgstr "Obiekt"
@@ -630,6 +638,11 @@ msgstr "Obiekt"
 msgctxt "Command"
 msgid "Export Mixdown"
 msgstr "Eksportuj miks"
+
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Export Spatial Audio"
+msgstr ""
 
 #: song/songcontroller.cpp
 msgctxt "Command"
@@ -651,13 +664,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "Eksportowanie:"
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "Nie udało się wyeksportować pliku audio."
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "Nie udało się wyeksportować pliku audio."
 
@@ -874,16 +887,6 @@ msgctxt "SetListItem"
 msgid "Item"
 msgstr "Pozycja"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Keep Output Speaker Setup"
-msgstr "Zachowaj konfigurację głośników"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Keep Stem Speaker Setup"
-msgstr "Zachowaj konfigurację sygnału głośnika"
-
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Large"
@@ -1000,6 +1003,11 @@ msgstr "Szybkość tworzenia miksu: %float(1:1)"
 msgctxt "ProjectFunctions"
 msgid "Modify Attribute"
 msgstr "Modyfikuj atrybut"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Mono"
+msgstr ""
 
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
@@ -1177,10 +1185,20 @@ msgctxt "Command"
 msgid "Open Tempo Track"
 msgstr "Otwórz ścieżkę tempa"
 
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Open Video Track"
+msgstr ""
+
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Opening the CD Burning Engine failed."
 msgstr "Uruchomienie silnika nagrywania CD nie powiodło się."
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Original"
+msgstr ""
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1292,16 +1310,16 @@ msgctxt "Command"
 msgid "Print"
 msgstr "Wydruk"
 
-#: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
-#: project/publish/ddpimagemaker.cpp project/publish/imagemaker.cpp
-#: project/publish/audiofilepublisher.cpp
-msgctxt "Command"
+#: project/document/projectdocument.cpp
+msgctxt "Project"
 msgid "Project"
 msgstr "Projekt"
 
-#: project/document/projectdocument.cpp
-msgctxt "Project"
+#: project/document/projectcomponent.cpp
+#: project/editing/projecteditcomponent.cpp
+#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
+#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+msgctxt "Command"
 msgid "Project"
 msgstr "Projekt"
 
@@ -1857,8 +1875,8 @@ msgid "Setup Page"
 msgstr "Strona konfiguracji"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/showeditmodel.cpp show/editing/setlistcomponent.cpp
-#: show/editing/showeditcomponent.cpp show/editing/showplayerinspector.cpp
+#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
+#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1910,6 +1928,11 @@ msgctxt "Command"
 msgid "Solo"
 msgstr "Solo"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Some items will be exported in stereo because their speaker setup is not supported by the selected format."
+msgstr ""
+
 #: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Song"
@@ -1940,6 +1963,16 @@ msgctxt "Command"
 msgid "Sound Variation"
 msgstr "Wariacja brzmienia"
 
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Spatial Audio Setup"
+msgstr ""
+
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Speaker"
+msgstr ""
+
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
 msgid "Split Event at Cursor"
@@ -1947,13 +1980,8 @@ msgstr "Podziel obiekt przy kursorze"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
-msgid "Split Speakers to Mono Files"
-msgstr "Podziel głośniki na mono"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Split Stem Speakers to Mono Files"
-msgstr "Podziel sygnał głośników na mono"
+msgid "Split Mono"
+msgstr ""
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -1992,8 +2020,22 @@ msgstr "Zapisz obraz DDP %(1) razy"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
-msgid "Start: %(1) (%(2))\nPause: %(3)"
-msgstr "Start: %(1) (%(2))\nPauza: %(3)"
+msgid ""
+"Start: %(1) (%(2))\n"
+"Pause: %(3)"
+msgstr ""
+"Start: %(1) (%(2))\n"
+"Pauza: %(3)"
+
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Stem export not possible for some items because they are incompatible with the %(1) output setup."
+msgstr ""
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Stereo"
+msgstr ""
 
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
@@ -2015,6 +2057,11 @@ msgctxt "Command"
 msgid "Store Track Preset"
 msgstr "Zapisz zestaw ścieżki"
 
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Surround"
+msgstr ""
+
 #: song/songdocument.cpp
 msgctxt "Engine"
 msgid "THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
@@ -2022,13 +2069,37 @@ msgstr "TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻY
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
-msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr "Kod EAN nie jest poprawnie sformatowany.\n\nPowinien on zawierać 13 znaków numerycznych.\n\nPrzykład: 036000291452\n\nJeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
+msgid ""
+"The EAN code is not formatted correctly.\n"
+"\n"
+"It should be 13 characters long and should only contain numeric characters.\n"
+"\n"
+"Example: 036000291452\n"
+"\n"
+"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr ""
+"Kod EAN nie jest poprawnie sformatowany.\n"
+"\n"
+"Powinien on zawierać 13 znaków numerycznych.\n"
+"\n"
+"Przykład: 036000291452\n"
+"\n"
+"Jeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
-msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
-msgstr "Kod ISRC jest niepoprawnie sformatowany.\n\nPowinien on zawierać 12 znaków alfanumerycznych.\n\nPrzykład: USPR37300012"
+msgid ""
+"The ISRC code is not formatted correctly.\n"
+"\n"
+"It should be 12 characters long and should only contain alphanumeric characters.\n"
+"\n"
+"Example: USPR37300012"
+msgstr ""
+"Kod ISRC jest niepoprawnie sformatowany.\n"
+"\n"
+"Powinien on zawierać 12 znaków alfanumerycznych.\n"
+"\n"
+"Przykład: USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2065,6 +2136,16 @@ msgctxt "SongUpdater"
 msgid "The mastering files are up-to-date."
 msgstr "Pliki masteringu są aktualne."
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "The selected format does not support %(1)"
+msgstr ""
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "The selected format does not support %(1). The format will be exported in stereo."
+msgstr ""
+
 #: song/songmaster.cpp
 msgctxt "SongMaster"
 msgid "The song will be saved first.\n"
@@ -2089,6 +2170,11 @@ msgstr "Bardzo mały"
 msgctxt "AudioDiscPublisher"
 msgid "Title"
 msgstr "Tytuł"
+
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Toggle Mute"
+msgstr ""
 
 #: score/scoreeditor.cpp
 msgctxt "Command"
@@ -2239,8 +2325,24 @@ msgstr "Zaktualizuj tytuł"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
-msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
+msgid ""
+"Update the mastering file of this song:\n"
+"%(6)\n"
+"Output: %(1)\n"
+"Duration: %(3)\n"
+"Resolution: %(4)\n"
+"Realtime Processing: %(5)\n"
+"Include Master Effects: %(7)\n"
+"Filename: %(2)"
+msgstr ""
+"Zaktualizuj plik masteringu dla tego utworu:\n"
+"%(6)\n"
+"Wyjście: %(1)\n"
+"Długość %(3)\n"
+"Rozdzielczość: %(4)\n"
+"Przetwarzanie w czasie rzeczywistym: %(5)\n"
+"Dołącz efekty sumy: %(7)\n"
+"Nazwa pliku: %(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2298,6 +2400,7 @@ msgid "Video frame rate %(1) is not supported as song frame rate."
 msgstr "Częstotliwość klatek wideo %(1) nie jest obsługiwana jako częstotliwość klatek utworu."
 
 #: show/editing/globaltracklistcomponent.cpp song/songmarker.cpp
+#: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Widok"
@@ -2306,26 +2409,6 @@ msgstr "Widok"
 msgctxt "Player"
 msgid "Virtual Instrument"
 msgstr "Wirtualny instrument"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Mono File"
-msgstr "Zapisz plik mono"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Mono Stems"
-msgstr "Zapisz sygnał mono"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Stereo File"
-msgstr "Zapisz plik stereo"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Stereo Stems"
-msgstr "Zapisz sygnał stereo"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2351,6 +2434,42 @@ msgstr "Powiększenie"
 msgctxt "ShowDragHandler"
 msgid "new Player"
 msgstr "nowy odtwarzacz"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Built-In"
+#~ msgstr "Wbudowane"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Keep Output Speaker Setup"
+#~ msgstr "Zachowaj konfigurację głośników"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Keep Stem Speaker Setup"
+#~ msgstr "Zachowaj konfigurację sygnału głośnika"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Split Speakers to Mono Files"
+#~ msgstr "Podziel głośniki na mono"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Split Stem Speakers to Mono Files"
+#~ msgstr "Podziel sygnał głośników na mono"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Mono File"
+#~ msgstr "Zapisz plik mono"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Mono Stems"
+#~ msgstr "Zapisz sygnał mono"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Stereo File"
+#~ msgstr "Zapisz plik stereo"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Stereo Stems"
+#~ msgstr "Zapisz sygnał stereo"
 
 #~ msgctxt "Song"
 #~ msgid "Could not import file!"
@@ -2551,4 +2670,3 @@ msgstr "nowy odtwarzacz"
 #~ msgctxt "Command"
 #~ msgid "Split Track and Event"
 #~ msgstr "Podziel utwór i obiekt"
-

@@ -30,7 +30,7 @@ msgid "0"
 msgstr "0"
 
 #: audiochannel.small.xml
-msgctxt "OutputChannelLevelSection"
+msgctxt "OutputClippingDisplay"
 msgid "0"
 msgstr "0"
 
@@ -45,9 +45,14 @@ msgid "@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
 
 #: audiochannel.small.xml
-msgctxt "ChannelMeterDisplay"
+msgctxt "ChannelMeterDisplayContent"
 msgid "@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
+
+#: audiochannel.xml
+msgctxt "SendPanTypeControls"
+msgid "@value[]"
+msgstr "@value[]"
 
 #: channeleditor.macrocontrols.xml
 msgctxt "MacroControlFocusCell"
@@ -69,11 +74,6 @@ msgctxt "AudioInput.Small.Narrow"
 msgid "@value[]"
 msgstr "@value[]"
 
-#: audiochannel.xml
-msgctxt "AudioSendRackSlotView"
-msgid "@value[]"
-msgstr "@value[]"
-
 #: audiochannel.narrow.xml
 msgctxt "AudioMeter.Narrow"
 msgid "A device produced invalid data"
@@ -85,9 +85,9 @@ msgid "A device produced invalid data"
 msgstr "Urządzenie wygenerowało nieprawidłowe dane"
 
 #: audiochannel.small.xml
-msgctxt "MixerChannelRightStrip"
-msgid "Activate"
-msgstr "Aktywuj"
+msgctxt "OutputClippingDisplay"
+msgid "A device produced invalid data"
+msgstr ""
 
 #: audiochannel.xml
 msgctxt "AudioFXRackSlotView"
@@ -111,6 +111,11 @@ msgstr "Aktywuj"
 
 #: audiochannel.xml
 msgctxt "MixFXRackSlotView"
+msgid "Activate"
+msgstr "Aktywuj"
+
+#: audiochannel.small.xml
+msgctxt "MixerChannelRightStrip"
 msgid "Activate"
 msgstr "Aktywuj"
 
@@ -199,6 +204,11 @@ msgctxt "HardwareInputFXCompactView"
 msgid "Audio Device Controls"
 msgstr "Kontrolki urządzenia audio"
 
+#: channeleditor.xml
+msgctxt "ChannelOverviewProjectChannel"
+msgid "Automation Mode"
+msgstr "Tryb automatyki"
+
 #: audiochannel.narrow.xml
 msgctxt "AudioChannel.Narrow.Content"
 msgid "Automation Mode"
@@ -216,11 +226,6 @@ msgstr "Tryb automatyki"
 
 #: audiochannel.small.xml
 msgctxt "AudioOutputChannel.BasicsContent"
-msgid "Automation Mode"
-msgstr "Tryb automatyki"
-
-#: channeleditor.xml
-msgctxt "ChannelOverviewProjectChannel"
 msgid "Automation Mode"
 msgstr "Tryb automatyki"
 
@@ -285,17 +290,22 @@ msgid "Clip / Peak Levels"
 msgstr "Przestery / Poziomy szczytowe"
 
 #: audiochannel.small.xml
-msgctxt "ChannelMeterDisplay"
+msgctxt "OutputClippingDisplay"
 msgid "Clip / Peak Levels"
-msgstr "Przestery / Poziomy szczytowe"
+msgstr ""
 
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
-msgid "Close"
-msgstr "Zamknij"
+#: audiochannel.small.xml
+msgctxt "ChannelMeterDisplayContent"
+msgid "Clip / Peak Levels"
+msgstr ""
 
 #: channelpanner.xml
 msgctxt "PannerEditorHeadline"
+msgid "Close"
+msgstr "Zamknij"
+
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
 msgid "Close"
 msgstr "Zamknij"
 
@@ -329,30 +339,15 @@ msgctxt "CueMixRackSlotView"
 msgid "Cue mix Level: @value[]"
 msgstr "Poziom submiksu: @value[]"
 
-#: audiochannel.xml
-msgctxt "CueMixRackSlotView"
-msgid "Cue mix Pan: @value[]"
-msgstr "Panorama submiksu: @value[]"
-
-#: audiochannel.small.xml
-msgctxt "ChannelLabel"
-msgid "Double Click: Edit Name"
-msgstr "Podwójne kliknięcie: edycja nazwy"
-
 #: channeleditor.xml
 msgctxt "ChannelOverviewColoredHeaderView"
 msgid "Double Click: Edit Name"
 msgstr "Podwójne kliknięcie: edycja nazwy"
 
-#: audiochannel.narrow.xml
-msgctxt "ChannelLabelNarrow"
-msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "Podwójne kliknięcie: edycja nazwy, przytrzymane kliknięcie: wybór koloru kanału"
-
 #: audiochannel.small.xml
 msgctxt "ChannelLabel"
-msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "Podwójne kliknięcie: edycja nazwy, przytrzymane kliknięcie: wybór koloru kanału"
+msgid "Double Click: Edit Name"
+msgstr "Podwójne kliknięcie: edycja nazwy"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewEditChannel"
@@ -361,6 +356,16 @@ msgstr "Podwójne kliknięcie: edycja nazwy, przytrzymane kliknięcie: wybór ko
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewColoredHeaderView"
+msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgstr "Podwójne kliknięcie: edycja nazwy, przytrzymane kliknięcie: wybór koloru kanału"
+
+#: audiochannel.narrow.xml
+msgctxt "ChannelLabelNarrow"
+msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgstr "Podwójne kliknięcie: edycja nazwy, przytrzymane kliknięcie: wybór koloru kanału"
+
+#: audiochannel.small.xml
+msgctxt "ChannelLabel"
 msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "Podwójne kliknięcie: edycja nazwy, przytrzymane kliknięcie: wybór koloru kanału"
 
@@ -464,11 +469,6 @@ msgctxt "ChannelInputFXView"
 msgid "Input Gain"
 msgstr "Wzmocnienie wejścia"
 
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
-msgid "Inserts"
-msgstr "Inserty"
-
 #: audiochannel.xml
 msgctxt "AudioInserts"
 msgid "Inserts"
@@ -476,6 +476,11 @@ msgstr "Inserty"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewInserts"
+msgid "Inserts"
+msgstr "Inserty"
+
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
 msgid "Inserts"
 msgstr "Inserty"
 
@@ -524,13 +529,13 @@ msgctxt "MacroTargetCurve"
 msgid "Invert Y"
 msgstr "Odwróć Y"
 
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
+#: channelpanner.xml
+msgctxt "PannerEditorHeadline"
 msgid "Keep Editor Open"
 msgstr "Zachowaj otwarty edytor"
 
-#: channelpanner.xml
-msgctxt "PannerEditorHeadline"
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
 msgid "Keep Editor Open"
 msgstr "Zachowaj otwarty edytor"
 
@@ -604,8 +609,8 @@ msgctxt "MixerChannelButtonBlock"
 msgid "Monitor"
 msgstr "Monitor"
 
-#: audiochannel.narrow.xml
-msgctxt "AudioChannel.Narrow.Content"
+#: channeleditor.xml
+msgctxt "ChannelOverviewProjectChannel"
 msgid "Mono"
 msgstr "Mono"
 
@@ -614,8 +619,8 @@ msgctxt "PannerPopupMonoStereo"
 msgid "Mono"
 msgstr "Mono"
 
-#: channeleditor.xml
-msgctxt "ChannelOverviewProjectChannel"
+#: audiochannel.narrow.xml
+msgctxt "AudioChannel.Narrow.Content"
 msgid "Mono"
 msgstr "Mono"
 
@@ -650,34 +655,24 @@ msgid "Overview"
 msgstr "Przegląd"
 
 #: audiochannel.narrow.xml
-msgctxt "ChannelPanTypeControls.Narrow"
+msgctxt "PanSliderNarrowTextBox"
 msgid "Pan"
-msgstr "Panorama"
+msgstr ""
 
-#: audiochannel.narrow.xml
-msgctxt "AudioChannel.Narrow.Pan"
+#: channelpanner.xml
+msgctxt "ChannelPanTypeControls"
 msgid "Pan: @value[]"
 msgstr "Panorama: @value[]"
+
+#: audiochannel.narrow.xml
+msgctxt "ChannelPanFlipped.Narrow"
+msgid "Pan: @value[]"
+msgstr ""
 
 #: audiochannel.narrow.xml
 msgctxt "ChannelPanTypeControls.Narrow"
 msgid "Pan: @value[]"
 msgstr "Panorama: @value[]"
-
-#: channelpanner.xml
-msgctxt "ChannelPanFlipped"
-msgid "Pan: @value[]"
-msgstr "Panorama: @value[]"
-
-#: channelpanner.xml
-msgctxt "ChannelPanTypeControls"
-msgid "Pan: @value[]"
-msgstr "Panorama: @value[]"
-
-#: channelpanner.xml
-msgctxt "ChannelPanTypeControls"
-msgid "Panner"
-msgstr "Panorama"
 
 #: channeleditor.macrocontrols.xml
 msgctxt "MacroTargetCurve"
@@ -688,6 +683,11 @@ msgstr "Wklej"
 msgctxt "AudioInputChannel.Basics"
 msgid "Peak Hold (dB)"
 msgstr "Zatrzymanie wartości szczytowej (dB)"
+
+#: audiochannel.small.xml
+msgctxt "DefaultStereoLevelView"
+msgid "Peak Hold (dB)"
+msgstr ""
 
 #: audiochannel.small.xml
 msgctxt "OutputChannelLevelSection"
@@ -906,8 +906,8 @@ msgstr "Czułość"
 
 #: audiochannel.small.xml
 msgctxt "Command"
-msgid "Setup"
-msgstr "Konfiguracja"
+msgid "Setup.Outputs"
+msgstr "Setup.Outputs"
 
 #: deviceheader.xml
 msgctxt "DeviceEditorTitleBar"
@@ -965,9 +965,9 @@ msgid "Speaker Setup"
 msgstr "Konfiguracja głośnika"
 
 #: audiochannel.narrow.xml
-msgctxt "ChannelPanTypeControls.Narrow"
+msgctxt "PanSliderNarrowTextBox"
 msgid "Surround Panner"
-msgstr "Surround"
+msgstr ""
 
 #: audiochannel.small.xml
 msgctxt "ChannelConnectionsFirstRow"
@@ -994,6 +994,11 @@ msgctxt "AudioCustomChannel.BasicsContent"
 msgid "VCA"
 msgstr "VCA"
 
+#: channeleditor.xml
+msgctxt "ChannelOverviewProjectChannel"
+msgid "Volume"
+msgstr "Głośność"
+
 #: audiochannel.narrow.xml
 msgctxt "NarrowVolumeSlider"
 msgid "Volume"
@@ -1009,11 +1014,6 @@ msgctxt "AudioOutputChannel.BasicsContent"
 msgid "Volume"
 msgstr "Głośność"
 
-#: channeleditor.xml
-msgctxt "ChannelOverviewProjectChannel"
-msgid "Volume"
-msgstr "Głośność"
-
 #: channelpanner.xml
 msgctxt "ChannelPanTypeControls"
 msgid "Width: @value[]"
@@ -1023,6 +1023,50 @@ msgstr "Szerokość: @value[]"
 msgctxt "PannerPopupMonoStereo"
 msgid "Width: @value[]"
 msgstr "Szerokość: @value[]"
+
+#~ msgctxt "ChannelMeterDisplay"
+#~ msgid "@property[parent.controller.editGroup]"
+#~ msgstr "@property[parent.controller.editGroup]"
+
+#~ msgctxt "ChannelMeterDisplay"
+#~ msgid "Clip / Peak Levels"
+#~ msgstr "Przestery / Poziomy szczytowe"
+
+#~ msgctxt "OutputChannelLevelSection"
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgctxt "AudioSendRackSlotView"
+#~ msgid "@value[]"
+#~ msgstr "@value[]"
+
+#~ msgctxt "CueMixRackSlotView"
+#~ msgid "Cue mix Pan: @value[]"
+#~ msgstr "Panorama submiksu: @value[]"
+
+#~ msgctxt "ChannelPanTypeControls.Narrow"
+#~ msgid "Pan"
+#~ msgstr "Panorama"
+
+#~ msgctxt "AudioChannel.Narrow.Pan"
+#~ msgid "Pan: @value[]"
+#~ msgstr "Panorama: @value[]"
+
+#~ msgctxt "ChannelPanFlipped"
+#~ msgid "Pan: @value[]"
+#~ msgstr "Panorama: @value[]"
+
+#~ msgctxt "ChannelPanTypeControls"
+#~ msgid "Panner"
+#~ msgstr "Panorama"
+
+#~ msgctxt "Command"
+#~ msgid "Setup"
+#~ msgstr "Konfiguracja"
+
+#~ msgctxt "ChannelPanTypeControls.Narrow"
+#~ msgid "Surround Panner"
+#~ msgstr "Surround"
 
 #~ msgctxt "PanEditorKnobCell"
 #~ msgid "$title"

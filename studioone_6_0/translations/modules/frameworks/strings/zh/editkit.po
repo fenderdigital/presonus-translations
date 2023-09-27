@@ -54,7 +54,7 @@ msgctxt "SoundVariations"
 msgid "Activation Sequence"
 msgstr "激活序列"
 
-#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
 msgstr "主动变奏：%(1)"
@@ -369,10 +369,10 @@ msgctxt "ScoreSymbolMap"
 msgid "Dynamics"
 msgstr "动态学"
 
-#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp music/noteplayer.cpp
-#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: events/eventeditcomponent.cpp music/noteplayer.cpp music/lyricsdisplay.cpp
 #: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
-#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timesnapper.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "编辑"
@@ -617,13 +617,13 @@ msgctxt "Command"
 msgid "Loop Selection Snapped"
 msgstr "循环吸附选区"
 
-#: music/lyricsdisplay.cpp
-msgctxt "Command"
+#: music/lyricseditlayerbase.cpp
+msgctxt "Music"
 msgid "Lyrics"
 msgstr "歌词"
 
-#: music/lyricseditlayerbase.cpp
-msgctxt "Music"
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
 msgid "Lyrics"
 msgstr "歌词"
 
@@ -762,7 +762,7 @@ msgctxt "Command"
 msgid "Next Hotspot"
 msgstr "下一个热点"
 
-#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
 msgstr "无变化"
@@ -927,11 +927,6 @@ msgctxt "SoundVariations"
 msgid "Program Change"
 msgstr "音色改变"
 
-#: music/lyricsdisplay.cpp
-msgctxt "LyricsDisplaySetup"
-msgid "Quantize"
-msgstr "量化"
-
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
 msgid "Quantize"
@@ -939,6 +934,11 @@ msgstr "量化"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
+msgid "Quantize"
+msgstr "量化"
+
+#: music/lyricsdisplay.cpp
+msgctxt "LyricsDisplaySetup"
 msgid "Quantize"
 msgstr "量化"
 
@@ -1359,13 +1359,21 @@ msgstr "速度"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid "The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
-msgstr "预设是为 '%(1)' 生成的，与目标乐器不匹配。\n是否要加载变化地图？"
+msgid ""
+"The preset was generated for '%(1)' and does not match the target instrument.\n"
+"Do you want to load the variation map anyway?"
+msgstr ""
+"预设是为 '%(1)' 生成的，与目标乐器不匹配。\n"
+"是否要加载变化地图？"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid "The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
-msgstr "预设是为 '%(1)' 生成的，与当前的乐器不匹配。\n是否要加载变化地图？"
+msgid ""
+"The preset was generated for sound '%(1)' and does not match the current instrument preset.\n"
+"Do you want to load the variation map anyway?"
+msgstr ""
+"预设是为 '%(1)' 生成的，与当前的乐器不匹配。\n"
+"是否要加载变化地图？"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -1589,6 +1597,11 @@ msgstr "垂直缩小"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
+msgid "Zoom Out Vertical Fine"
+msgstr "缩小垂直精细"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
 msgid "Zoom to Loop"
 msgstr "缩放到循环"
 
@@ -1601,10 +1614,6 @@ msgstr "缩放到所选"
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "水平缩放到所选"
-
-#~ msgctxt "Command"
-#~ msgid "Zoom Out Vertical Fine"
-#~ msgstr "缩小垂直精细"
 
 #~ msgctxt "Command"
 #~ msgid "Set Bar Offset to Cursor"
@@ -1749,4 +1758,3 @@ msgstr "水平缩放到所选"
 #~ msgctxt "MusicalScale"
 #~ msgid "Phrygian"
 #~ msgstr "佛里吉亚音阶"
-

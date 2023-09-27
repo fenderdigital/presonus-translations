@@ -277,13 +277,13 @@ msgctxt "PathList"
 msgid "Clear History"
 msgstr ""
 
-#: ./documents/documentmanager.cpp
-msgctxt "Command"
+#: ./documents/recentdocuments.cpp
+msgctxt "Documents"
 msgid "Clear Recent Files"
 msgstr ""
 
-#: ./documents/recentdocuments.cpp
-msgctxt "Documents"
+#: ./documents/documentmanager.cpp
+msgctxt "Command"
 msgid "Clear Recent Files"
 msgstr ""
 
@@ -458,14 +458,14 @@ msgctxt "TrashBin"
 msgid "Delete"
 msgstr ""
 
+#: ./components/stringlistcomponent.cpp
 #: ./editing/editor.cpp
-msgctxt "Edit"
+msgctxt "Command"
 msgid "Delete"
 msgstr ""
 
 #: ./editing/editor.cpp
-#: ./components/stringlistcomponent.cpp
-msgctxt "Command"
+msgctxt "Edit"
 msgid "Delete"
 msgstr ""
 
@@ -519,8 +519,8 @@ msgctxt "FileOperations"
 msgid "Deleting Files"
 msgstr ""
 
-#: ./documents/documentmanager.cpp
 #: ./documents/documentversions.cpp
+#: ./documents/documentmanager.cpp
 msgctxt "Documents"
 msgid "Description"
 msgstr ""
@@ -766,9 +766,9 @@ msgid "Draw Selection (add)"
 msgstr ""
 
 #: ./browser/searchcomponent.cpp
+#: ./components/stringlistcomponent.cpp
 #: ./documents/documentmanager.cpp
 #: ./editing/editor.cpp
-#: ./components/stringlistcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr ""
@@ -1446,16 +1446,16 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr ""
 
-#: ./presets/presetfile.cpp
-msgctxt "FileType"
-msgid "Presets"
-msgstr ""
-
-#: ./presets/presetcomponent.cpp
 #: ./presets/presetbrowser.cpp
+#: ./presets/presetcomponent.cpp
 #: ./presets/presetmanager.cpp
 #: ./presets/presettrader.cpp
 msgctxt "Command"
+msgid "Presets"
+msgstr ""
+
+#: ./presets/presetfile.cpp
+msgctxt "FileType"
 msgid "Presets"
 msgstr ""
 
@@ -1766,13 +1766,13 @@ msgctxt "PathList"
 msgid "Searching the root folder of a volume might be very slow.\n\nDo you really want to add %(1)?"
 msgstr ""
 
-#: ./editing/tools/selecttool.cpp
-msgctxt "ToolHelp"
+#: ./components/pathselector.cpp
+msgctxt "PathList"
 msgid "Select"
 msgstr ""
 
-#: ./components/pathselector.cpp
-msgctxt "PathList"
+#: ./editing/tools/selecttool.cpp
+msgctxt "ToolHelp"
 msgid "Select"
 msgstr ""
 

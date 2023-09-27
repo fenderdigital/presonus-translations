@@ -4,6 +4,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: audiofile/audiocodecselector.cpp
+msgctxt "AudioCodecSelector"
+msgid "%(1) not supported by %(2)"
+msgstr "%(1) non supportato da %(2)"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "1 octave down"
@@ -23,6 +28,101 @@ msgstr "2 ottave giù"
 msgctxt "MusicSymbols"
 msgid "2 octaves up"
 msgstr "2 ottave su"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.0 Cine"
+msgstr "3.0 Cine"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.0 Music"
+msgstr "3.0 Musica"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.1 Cine"
+msgstr "3.1 Cine"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.1 Music"
+msgstr "3.1 Musica"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.0 Cine"
+msgstr "4.0 Cine"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.0 Music"
+msgstr "4.0 Musica"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.1 Cine"
+msgstr "4.1 Cine"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.1 Music"
+msgstr "4.1 Musica"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.0"
+msgstr "5.0"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1"
+msgstr "5.1"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1 (ITU)"
+msgstr "5.1 (ITU)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1.2"
+msgstr "5.1.2"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1.4"
+msgstr "5.1.4"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.0"
+msgstr "7.0"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.0.2"
+msgstr "7.0.2"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.1"
+msgstr "7.1"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.1.2"
+msgstr "7.1.2"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.1.4"
+msgstr "7.1.4"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "9.1.6"
+msgstr "9.1.6"
 
 #: audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
@@ -144,6 +244,21 @@ msgctxt "MusicalScale"
 msgid "Blues"
 msgstr "Blues"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Center"
+msgstr "Centro"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Center Top Front"
+msgstr "Centro superiore anteriore"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Center Top Rear"
+msgstr "Centro superiore posteriore"
+
 #: music/chordevent.cpp
 msgctxt "FileType"
 msgid "Chord File"
@@ -228,6 +343,11 @@ msgstr "Diminuendo"
 msgctxt "MusicSymbols"
 msgid "Diminuendo Hairpin"
 msgstr "Forcella Diminuendo"
+
+#: audiofile/audiofileconverter.cpp
+msgctxt "AudioFileConverter"
+msgid "Do you want to merge the files as %(1)?"
+msgstr "Desideri unire i file come %(1)?"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -344,6 +464,16 @@ msgctxt "ActionDescriptions"
 msgid "Freeze Velocity"
 msgstr "Freeze Velocity"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Front Left of Center"
+msgstr "Anteriore a sinistra dal centro"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Front Right of Center"
+msgstr "Anteriore a destra dal centro"
+
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Generate Notes"
@@ -444,10 +574,50 @@ msgctxt "Media"
 msgid "LUFS"
 msgstr "LUFS"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left"
+msgstr "A sinistra"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Rear Surround"
+msgstr "Surround posteriore sinistro"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Surround"
+msgstr "Sinistra Surround"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Top Front"
+msgstr "Anteriore superiore a sinistra"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Top Middle"
+msgstr "A sinistra in alto al centro"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Top Rear"
+msgstr "A sinistra in alto posteriore"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Wide"
+msgstr "Wide a sinistra"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Let Ring"
 msgstr "Let Ring"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Low Frequency"
+msgstr "Bassa frequenza"
 
 #: music/musicparams.cpp
 msgctxt "Media.Music"
@@ -483,6 +653,11 @@ msgstr "Maggiore Pentatonica"
 msgctxt "MusicalScale"
 msgid "Major Triad"
 msgstr "Triade Maggiore"
+
+#: audio/audiospeakermapcomponent.cpp
+msgctxt "AudioSpeakerMap"
+msgid "Map Channels to Speakers"
+msgstr "Mappa i canali sui diffusori"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -589,13 +764,13 @@ msgctxt "ActionDescriptions"
 msgid "Modify Step Count"
 msgstr "Modifica Conteggio a Step"
 
-#: time/tempomanipulator.cpp
-msgctxt "TempoManipulator"
+#: time/mediatimeactions.cpp
+msgctxt "MediaTimeAction"
 msgid "Modify Tempo"
 msgstr "Modifica Tempo"
 
-#: time/mediatimeactions.cpp
-msgctxt "MediaTimeAction"
+#: time/tempomanipulator.cpp
+msgctxt "TempoManipulator"
 msgid "Modify Tempo"
 msgstr "Modifica Tempo"
 
@@ -604,7 +779,7 @@ msgctxt "ActionDescriptions"
 msgid "Modify Velocity"
 msgstr "Modifica Velocity"
 
-#: public/mediaformatter.cpp
+#: public/audio/speakers.cpp public/mediaformatter.cpp
 msgctxt "Media"
 msgid "Mono"
 msgstr "Mono"
@@ -809,6 +984,11 @@ msgctxt "Resolution"
 msgid "Quintuplet"
 msgstr "Quintina"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Rear Center"
+msgstr "Al centro posteriore"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Release string"
@@ -858,6 +1038,41 @@ msgstr "Ridimensiona Evento"
 msgctxt "EventFunctions"
 msgid "Resize Events"
 msgstr "Ridimensiona Eventi"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right"
+msgstr "Destra"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Rear Surround"
+msgstr "Surround posteriore destro"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Surround"
+msgstr "Surround destro"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Top Front"
+msgstr "Anteriore in alto a destra"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Top Middle"
+msgstr "A destra in alto al centro"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Top Rear"
+msgstr "Posteriore superiore a destra"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Wide"
+msgstr "Wide a destra"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
@@ -974,10 +1189,30 @@ msgctxt "MusicSymbols"
 msgid "Staccato"
 msgstr "Staccato"
 
-#: public/mediaformatter.cpp
+#: public/audio/speakers.cpp public/mediaformatter.cpp
 msgctxt "Media"
 msgid "Stereo"
 msgstr "Stereo"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (C Lfe)"
+msgstr "Stereo (C Lfe)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (Lc Rc)"
+msgstr "Stereo (Lc Rc)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (Ls Rs)"
+msgstr "Stereo (Ls Rs)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (Sl Sr)"
+msgstr "Stereo (Sl Sr)"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
@@ -1069,6 +1304,11 @@ msgctxt "MusicSymbols"
 msgid "Tenuto"
 msgstr "Tenuto"
 
+#: audiofile/audiofileconverter.cpp
+msgctxt "AudioFileConverter"
+msgid "The speaker setup could not be determined from the file names."
+msgstr "Non è stato possibile determinare la configurazione del diffusore dai nomi dei file."
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Thumb"
@@ -1083,6 +1323,11 @@ msgstr "Timbro"
 msgctxt "MediaTime"
 msgid "Time-Linear"
 msgstr "Time-Linear"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Top Center"
+msgstr "Superiore al centro"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"

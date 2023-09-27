@@ -269,11 +269,6 @@ msgctxt "ProjectEdit"
 msgid "Bounce Track"
 msgstr "Consolidar Pista"
 
-#: song/songsetup.cpp
-msgctxt "SongSetup"
-msgid "Built-In"
-msgstr "Incluso"
-
 #: project/publish/projectburner.cpp
 msgctxt "Command"
 msgid "Burn Audio CD"
@@ -308,6 +303,11 @@ msgstr "Cancelar"
 msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "Não permitido criar consolidação com conteúdo protegido."
+
+#: song/spatialaudioexporter.cpp
+msgctxt "SpatialAudioExporter"
+msgid "Cannot export spatial audio file."
+msgstr "Não é possível exportar arquivo de áudio espacial."
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
@@ -629,7 +629,7 @@ msgctxt "SongSetup"
 msgid "Error: %(1) requires sample rate %(2)"
 msgstr "Erro: %(1) requer taxa de amostragem %(2)"
 
-#: show/editing/showeditcomponent.cpp
+#: score/scoreeditor.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Event"
 msgstr "Evento"
@@ -638,6 +638,11 @@ msgstr "Evento"
 msgctxt "Command"
 msgid "Export Mixdown"
 msgstr "Exportar Consolidação (Mixdown)"
+
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Export Spatial Audio"
+msgstr "Exportar Áudio Espacial"
 
 #: song/songcontroller.cpp
 msgctxt "Command"
@@ -659,13 +664,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "Exportando:"
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "Falha ao exportar arquivo de áudio."
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "Falha ao exportar arquivo de áudio."
 
@@ -882,16 +887,6 @@ msgctxt "SetListItem"
 msgid "Item"
 msgstr "Item"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Keep Output Speaker Setup"
-msgstr "Manter Configuração de Falantes de Saída"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Keep Stem Speaker Setup"
-msgstr "Manter Configuração de Falantes de Stems (Partes)"
-
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Large"
@@ -1008,6 +1003,11 @@ msgstr "Velocidade da Consolidação: %float(1:1)"
 msgctxt "ProjectFunctions"
 msgid "Modify Attribute"
 msgstr "Modificar Atributo"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Mono"
+msgstr "Mono"
 
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
@@ -1185,10 +1185,20 @@ msgctxt "Command"
 msgid "Open Tempo Track"
 msgstr "Abrir Pista de Andamento"
 
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Open Video Track"
+msgstr "Abrir Faixa de Vídeo"
+
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Opening the CD Burning Engine failed."
 msgstr "Falha na abertura do dispositivo de gravação de CD."
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Original"
+msgstr "Original"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1300,16 +1310,16 @@ msgctxt "Command"
 msgid "Print"
 msgstr "Impressão"
 
-#: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
-#: project/publish/ddpimagemaker.cpp project/publish/imagemaker.cpp
-#: project/publish/audiofilepublisher.cpp
-msgctxt "Command"
+#: project/document/projectdocument.cpp
+msgctxt "Project"
 msgid "Project"
 msgstr "Projeto"
 
-#: project/document/projectdocument.cpp
-msgctxt "Project"
+#: project/document/projectcomponent.cpp
+#: project/editing/projecteditcomponent.cpp
+#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
+#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+msgctxt "Command"
 msgid "Project"
 msgstr "Projeto"
 
@@ -1865,8 +1875,8 @@ msgid "Setup Page"
 msgstr "Configuração de Página"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/showeditmodel.cpp show/editing/setlistcomponent.cpp
-#: show/editing/showeditcomponent.cpp show/editing/showplayerinspector.cpp
+#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
+#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1918,6 +1928,11 @@ msgctxt "Command"
 msgid "Solo"
 msgstr "Solo"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Some items will be exported in stereo because their speaker setup is not supported by the selected format."
+msgstr "Alguns itens serão exportados em estéreo porque a sua configuração de alto-falantes não é compatível com o formato selecionado."
+
 #: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Song"
@@ -1948,6 +1963,16 @@ msgctxt "Command"
 msgid "Sound Variation"
 msgstr "Variação de Som"
 
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Spatial Audio Setup"
+msgstr "Configuração de Áudio Espacial"
+
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Speaker"
+msgstr "Falante"
+
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
 msgid "Split Event at Cursor"
@@ -1955,13 +1980,8 @@ msgstr "Dividir Evento no Cursor"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
-msgid "Split Speakers to Mono Files"
-msgstr "Dividir Falantes em Arquivos Mono"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Split Stem Speakers to Mono Files"
-msgstr "Dividir Falantes de Stems (Partes) em Arquivos Mono"
+msgid "Split Mono"
+msgstr "Dividir em Mono"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -2007,6 +2027,16 @@ msgstr ""
 "Início: %(1) (%(2))\n"
 "Pausa: %(3)"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Stem export not possible for some items because they are incompatible with the %(1) output setup."
+msgstr "A exportação de faixa não é possível para alguns itens porque eles são incompatíveis com a configuração de saída %(1)."
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Stereo"
+msgstr "Estéreo"
+
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
 msgid "Stop at End"
@@ -2026,6 +2056,11 @@ msgstr "Armazenar Preset de Pista"
 msgctxt "Command"
 msgid "Store Track Preset"
 msgstr "Armazenar Preset de Pista"
+
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Surround"
+msgstr "Surround"
 
 #: song/songdocument.cpp
 msgctxt "Engine"
@@ -2101,6 +2136,16 @@ msgctxt "SongUpdater"
 msgid "The mastering files are up-to-date."
 msgstr "Os arquivos de masterização estão atualizados."
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "The selected format does not support %(1)"
+msgstr "O formato selecionado não suporta %(1)"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "The selected format does not support %(1). The format will be exported in stereo."
+msgstr "O formato selecionado não suporta %(1). O formato será exportado em estéreo."
+
 #: song/songmaster.cpp
 msgctxt "SongMaster"
 msgid "The song will be saved first.\n"
@@ -2125,6 +2170,11 @@ msgstr "Minúsculo"
 msgctxt "AudioDiscPublisher"
 msgid "Title"
 msgstr "Título"
+
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Toggle Mute"
+msgstr "Alternar Silêncio (Mute)"
 
 #: score/scoreeditor.cpp
 msgctxt "Command"
@@ -2350,6 +2400,7 @@ msgid "Video frame rate %(1) is not supported as song frame rate."
 msgstr "A taxa de quadros de vídeo %(1) não é suportada como taxa de quadros do Song."
 
 #: show/editing/globaltracklistcomponent.cpp song/songmarker.cpp
+#: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Visualizar"
@@ -2358,26 +2409,6 @@ msgstr "Visualizar"
 msgctxt "Player"
 msgid "Virtual Instrument"
 msgstr "Instrumento Virtual"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Mono File"
-msgstr "Escrever Arquivo Mono"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Mono Stems"
-msgstr "Escrever Stems (Partes) Mono"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Stereo File"
-msgstr "Escrever Arquivo Estéreo"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Stereo Stems"
-msgstr "Escrever Stems (Partes) Estéreo"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2403,6 +2434,42 @@ msgstr "Zoom"
 msgctxt "ShowDragHandler"
 msgid "new Player"
 msgstr "novo Player"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Built-In"
+#~ msgstr "Incluso"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Keep Output Speaker Setup"
+#~ msgstr "Manter Configuração de Falantes de Saída"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Keep Stem Speaker Setup"
+#~ msgstr "Manter Configuração de Falantes de Stems (Partes)"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Split Speakers to Mono Files"
+#~ msgstr "Dividir Falantes em Arquivos Mono"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Split Stem Speakers to Mono Files"
+#~ msgstr "Dividir Falantes de Stems (Partes) em Arquivos Mono"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Mono File"
+#~ msgstr "Escrever Arquivo Mono"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Mono Stems"
+#~ msgstr "Escrever Stems (Partes) Mono"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Stereo File"
+#~ msgstr "Escrever Arquivo Estéreo"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Stereo Stems"
+#~ msgstr "Escrever Stems (Partes) Estéreo"
 
 #~ msgctxt "Song"
 #~ msgid "Could not import file!"

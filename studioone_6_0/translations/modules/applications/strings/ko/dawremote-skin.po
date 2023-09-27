@@ -24,6 +24,11 @@ msgctxt "HardwareInputControlsSingle"
 msgid "$title"
 msgstr "$title"
 
+#: client/panner.xml
+msgctxt "MutablePannerSlider"
+msgid "$title"
+msgstr "$title"
+
 #: shared.xml
 msgctxt "MutableSlider"
 msgid "$title"
@@ -64,6 +69,26 @@ msgctxt "CommandBarItem"
 msgid "Add Page"
 msgstr "페이지 추가"
 
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Balance"
+msgstr "Balance"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Balance Amount"
+msgstr "Balance Amount"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Balance Direction"
+msgstr "Balance Direction"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Center Level"
+msgstr "Center Level"
+
 #: client/mixer.xml
 msgctxt "MixerNavigation"
 msgid "Channels"
@@ -100,9 +125,9 @@ msgid "Control Macro Panel for selected channel"
 msgstr "선택된 채널의 컨트롤 매크로 패널"
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Cue mix"
-msgstr "큐 믹스"
+msgstr "큐믹스"
 
 #: client/mixer.xml
 msgctxt "MixerNavigation"
@@ -115,7 +140,7 @@ msgid "DAW Sync"
 msgstr "DAW 동기화"
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "DSP"
 msgstr "DSP"
 
@@ -129,10 +154,25 @@ msgctxt "CommandBarItem"
 msgid "Delete Page"
 msgstr "페이지 삭제"
 
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Direction"
+msgstr "Direction"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Disable Center"
+msgstr "Disable Center"
+
 #: client/commands.xml
 msgctxt "Commands"
 msgid "Edit"
 msgstr "편집"
+
+#: client/panner.xml
+msgctxt "ElevationSliderSection"
+msgid "Elevation"
+msgstr "Elevation"
 
 #: tutorial.xml
 msgctxt "Page7TopRow"
@@ -175,7 +215,7 @@ msgid "Inputs"
 msgstr "입력"
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Inserts"
 msgstr "인서트"
 
@@ -209,6 +249,16 @@ msgctxt "HardwareInputControlsStereo"
 msgid "L Gain"
 msgstr "L 게인"
 
+#: client/panner.xml
+msgctxt "LFESendMuteButtonView"
+msgid "LFE"
+msgstr "LFE"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "LFE Level"
+msgstr "LFE Level"
+
 #: client/channeleditor.xml
 msgctxt "LevelAndPan"
 msgid "Level"
@@ -226,6 +276,11 @@ msgstr "라이트"
 
 #: client/channeleditor.xml
 msgctxt "SendEditor"
+msgid "Lock Pan"
+msgstr "Pan 락"
+
+#: client/channeleditor.xml
+msgctxt "CueMixEditor"
 msgid "Lock Pan"
 msgstr "Pan 락"
 
@@ -255,7 +310,7 @@ msgid "Make sure your tablet is connected to the same network as your Studio One
 msgstr "귀하의 태블릿이 스튜디오원이 실행되고 있는 컴퓨터와 동일한 네트워크에 연결되어 있는지 확인하십시오."
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Mix FX"
 msgstr "믹스 FX"
 
@@ -263,6 +318,11 @@ msgstr "믹스 FX"
 msgctxt "Page3TopRow"
 msgid "Mix Page"
 msgstr "Mix 페이지"
+
+#: client/panner.xml
+msgctxt "LFESendMuteButtonView"
+msgid "Mute LFE speaker (@key[Option]: Solo)"
+msgstr "Mute LFE speaker (@key[Option]: Solo)"
 
 #: tutorial.xml
 msgctxt "Page4CenterColumn"
@@ -290,9 +350,14 @@ msgid "Pads"
 msgstr "패드"
 
 #: client/channeleditor.xml
-msgctxt "ChannelPanTypeControls"
+msgctxt "AudioPanTypeControls"
 msgid "Pan"
 msgstr "팬"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Pan"
+msgstr "Pan"
 
 #: client/channeleditor.xml
 msgctxt "InsertSlotEditor"
@@ -330,7 +395,7 @@ msgid "Plug-in Editor"
 msgstr "플러그인 에디터"
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Post"
 msgstr "포스트"
 
@@ -409,15 +474,60 @@ msgctxt "Page2CenterColumn"
 msgid "Select the Studio One application you want to control from this list"
 msgstr "이 목록에서 컨트롤하려는 스튜디오원 어플리케이션을 선택합니다."
 
+#: client/panner.xml
+msgctxt "LFESendMuteButtonView"
+msgid "Send mix to LFE Speaker (@key[Option]: Solo)"
+msgstr "Send mix to LFE Speaker (@key[Option]: Solo)"
+
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Sends"
-msgstr "보내기"
+msgstr "센드"
 
 #: client/mixer.xml
 msgctxt "MixerNavigation"
 msgid "Sends"
 msgstr "보내기"
+
+#: client/panner.xml
+msgctxt "PannerCircleLeftSide"
+msgid "Size"
+msgstr "Size"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Size"
+msgstr "Size"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Size"
+msgstr "Size"
+
+#: client/panner.xml
+msgctxt "PannerCircleLeftSide"
+msgid "Size is locked (Use Shift to bypass)"
+msgstr "Size is locked (Use Shift to bypass)"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Snap"
+msgstr "Snap"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Snap"
+msgstr "Snap"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Spread"
+msgstr "Spread"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Spread"
+msgstr "Spread"
 
 #: client/dawclient.xml
 msgctxt "ViewSelector"
@@ -550,9 +660,24 @@ msgid "Welcome to Studio One Remote!"
 msgstr "스튜디오원 리모트에 오신 것을 환영합니다!"
 
 #: client/channeleditor.xml
-msgctxt "ChannelPanTypeControls"
+msgctxt "AudioPanTypeControls"
 msgid "Width"
 msgstr "폭"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "X"
+msgstr "X"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Y"
+msgstr "Y"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Z"
+msgstr "Z"
 
 #: client/commands.xml
 msgctxt "Command"
@@ -569,6 +694,62 @@ msgctxt "Command"
 msgid "deleteItem:$itemID"
 msgstr "deleteItem:$itemID"
 
+#~ msgctxt "PannerControlsRightSide"
+#~ msgid "Elevation"
+#~ msgstr "Elevation"
+
+#~ msgctxt "SurroundPan.ChannelDetails"
+#~ msgid "Direction"
+#~ msgstr "방향"
+
+#~ msgctxt "PanEffectControl"
+#~ msgid "Edit"
+#~ msgstr "에디트"
+
+#~ msgctxt "SurroundPan.ChannelDetails"
+#~ msgid "Elevation"
+#~ msgstr "엘리베이션"
+
+#~ msgctxt "SurroundPan.ChannelDetails"
+#~ msgid "Size"
+#~ msgstr "사이즈"
+
+#~ msgctxt "SurroundPan.ChannelDetails"
+#~ msgid "Spread"
+#~ msgstr "스프레드"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Cue mix"
+#~ msgstr "큐 믹스"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "DSP"
+#~ msgstr "DSP"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Inserts"
+#~ msgstr "인서트"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Mix FX"
+#~ msgstr "믹스 FX"
+
+#~ msgctxt "ChannelPanTypeControls"
+#~ msgid "Pan"
+#~ msgstr "팬"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Post"
+#~ msgstr "포스트"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Sends"
+#~ msgstr "보내기"
+
+#~ msgctxt "ChannelPanTypeControls"
+#~ msgid "Width"
+#~ msgstr "폭"
+
 #~ msgctxt "ChannelPanTypeControls"
 #~ msgid "Mode"
 #~ msgstr "모드"
@@ -576,3 +757,4 @@ msgstr "deleteItem:$itemID"
 #~ msgctxt "LevelAndPan"
 #~ msgid "Pan"
 #~ msgstr "팬"
+

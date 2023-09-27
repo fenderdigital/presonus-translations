@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "비트맵 폰트"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "취소"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "취소"
 
@@ -658,13 +658,13 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "숫자패드 9"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "OK"
 msgstr "확인"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "OK"
 msgstr "확인"
 
@@ -933,6 +933,11 @@ msgctxt "VirtualKey"
 msgid "Tab"
 msgstr "Tab"
 
+#: graphics/nativegraphics.cpp
+msgctxt "GraphicsEngine"
+msgid "This application requires 3D graphics support, but no 3D graphics backend could be initialized."
+msgstr "이 어플리케이션이 3D 그래픽스 지원을 요구하지만 초기화할 수 있는 3D 그래픽스 백엔드가 존재하지 않습니다."
+
 #: layout/workspace.cpp
 msgctxt "Command"
 msgid "Toggle Floating Windows"
@@ -992,6 +997,11 @@ msgstr "Volume Mute"
 msgctxt "VirtualKey"
 msgid "Volume Up"
 msgstr "Volume Up"
+
+#: graphics/imaging/codecs/webpcodec.cpp
+msgctxt "FileType"
+msgid "WebP File"
+msgstr "WebP 파일"
 
 #: dialogs/alert.cpp
 msgctxt "Alert"

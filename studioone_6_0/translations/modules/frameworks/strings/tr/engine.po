@@ -124,13 +124,13 @@ msgctxt "Command"
 msgid "Activate Previous Layer"
 msgstr "Önceki Katmanı Etkinleştir"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiccontrollane.cpp
+msgctxt "Automation"
 msgid "Add"
 msgstr "Ekle"
 
-#: musicediting/musiccontrollane.cpp
-msgctxt "Automation"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Add"
 msgstr "Ekle"
 
@@ -177,6 +177,11 @@ msgstr ""
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
+msgid "Add FX + Automation on %(1):"
+msgstr ""
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
 msgid "Add FX on %(1):"
 msgstr "%(1)'e FX ekle:"
 
@@ -219,6 +224,11 @@ msgstr "Not Defteri Ekle"
 msgctxt "ScratchPad"
 msgid "Add Scratch Pad"
 msgstr "Not Defteri Ekle"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Add Send + Automation:"
+msgstr ""
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -449,7 +459,7 @@ msgctxt "GlobalTrack"
 msgid "Arranger"
 msgstr "Aranjör"
 
-#: editing/arrangerplaybackhandler.cpp editing/arrangereditlayer.cpp
+#: editing/arrangereditlayer.cpp editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Arranger"
 msgstr "Aranjör"
@@ -531,8 +541,8 @@ msgstr "Otomasyon"
 
 #: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
-#: musicediting/musiccontrollane.cpp musicediting/musiceditor.cpp
-#: musicediting/patterncontrollane.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
+#: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Automation"
 msgstr "Otomasyon"
@@ -762,6 +772,11 @@ msgctxt "SynthDrag"
 msgid "Combine"
 msgstr "Birleştir"
 
+#: audioediting/audioclipcomponent.cpp
+msgctxt "AudioSpeakerMap"
+msgid "Confirm Speaker Format"
+msgstr ""
+
 #: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Console"
@@ -832,6 +847,11 @@ msgctxt "PitchEdit"
 msgid "Copy '%(1)' to '%(2)'"
 msgstr "'%(1)' i '%(2)'ye Kopyala"
 
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Copy Automation"
+msgstr ""
+
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Copy Event"
@@ -852,13 +872,13 @@ msgctxt "ActionDescriptions"
 msgid "Copy Events Shared"
 msgstr "Paylaşılan Klip'i Kopyala"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Copy External Files"
 msgstr "Harici Dosyaları Kopyala"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Copy External Files"
 msgstr "Harici Dosyaları Kopyala"
 
@@ -1292,7 +1312,7 @@ msgctxt "MusicPatternClip"
 msgid "Drum Pattern"
 msgstr "Davul Patterni"
 
-#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Drum View"
 msgstr "Davul Görünümü"
@@ -1397,9 +1417,9 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "Variasyon Kopyala"
 
-#: audioediting/audiobendeditlayer.cpp editing/tracklistcomponent.cpp
-#: editing/chordeditlayer.cpp editing/trackvisibilityhandler.cpp
+#: audioediting/audiobendeditlayer.cpp editing/chordeditlayer.cpp
 #: editing/trackchannelnamefilter.cpp editing/eventsnapper.cpp
+#: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
@@ -1470,7 +1490,7 @@ msgctxt "Automation"
 msgid "Edit Value"
 msgstr "Değeri DÜzenle"
 
-#: editing/trackeditor.cpp editing/globaltrackscomponent.cpp
+#: editing/globaltrackscomponent.cpp editing/trackeditor.cpp
 msgctxt "Command"
 msgid "Editor"
 msgstr "Düzenle"
@@ -1585,7 +1605,7 @@ msgctxt "Track"
 msgid "Expand Folder Track"
 msgstr "Klasör İzini Genişlet"
 
-#: editing/foldertrackcomponent.cpp
+#: editing/trackcontroller.cpp
 msgctxt "Command"
 msgid "Expand Folder Track"
 msgstr "Klasör İzini Genişlet"
@@ -1987,6 +2007,11 @@ msgstr ""
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
+msgid "Hide Object Channels"
+msgstr ""
+
+#: editing/trackvisibilityhandler.cpp
+msgctxt "Command"
 msgid "Hide Selected Channels"
 msgstr ""
 
@@ -2100,13 +2125,13 @@ msgctxt "Edit"
 msgid "Insert Chord"
 msgstr "Akor Ekle"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
 msgid "Insert Instrument"
 msgstr "Enstrüman Ekle"
 
-#: musicediting/musiceditextension.cpp
-msgctxt "Edit"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Insert Instrument"
 msgstr "Enstrüman Ekle"
 
@@ -2325,11 +2350,6 @@ msgctxt "Command"
 msgid "Locate File"
 msgstr "Dosyanın Yerini Bul"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
-msgid "Locate Missing Files"
-msgstr "Kayıp Dosyaların Yerini Bul"
-
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Locate Missing Files"
@@ -2337,6 +2357,11 @@ msgstr "Kayıp Dosyaların Yerini Bul"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
+msgid "Locate Missing Files"
+msgstr "Kayıp Dosyaların Yerini Bul"
+
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Locate Missing Files"
 msgstr "Kayıp Dosyaların Yerini Bul"
 
@@ -2514,8 +2539,8 @@ msgstr "Ses Partlarını Birleştir"
 
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
-msgid "Merge to Stereo File"
-msgstr "Stereo Dosyaya Birleştir"
+msgid "Merge to Multichannel File"
+msgstr ""
 
 #: editing/tracklist.cpp
 msgctxt "TrackHeights"
@@ -2597,6 +2622,11 @@ msgctxt "Command"
 msgid "Monitor"
 msgstr "Dinleme"
 
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move"
+msgstr ""
+
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
 msgid "Move"
@@ -2660,6 +2690,16 @@ msgctxt "ActionDescriptions"
 msgid "Move Events"
 msgstr "Kliplerin Yerini Değiştir"
 
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move FX + Automation to %(1):"
+msgstr ""
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move FX to %(1):"
+msgstr ""
+
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Move Layer"
@@ -2669,6 +2709,16 @@ msgstr "Katmanın Yerini Değiştir"
 msgctxt "ActionDescriptions"
 msgid "Move Layers"
 msgstr "Katmanların Yerini Değiştir"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move Send + Automation:"
+msgstr ""
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move Send:"
+msgstr ""
 
 #: application/eventedit/movetoorigintask.cpp
 msgctxt "Edit"
@@ -2829,11 +2879,6 @@ msgstr "Sonraki Variasyon"
 msgctxt "Engine"
 msgid "No Event Editor"
 msgstr ""
-
-#: application/musicloop/loopextension.cpp
-msgctxt "Browser"
-msgid "No audio files with a name that ends in .L or .R found."
-msgstr ".L veya .R ile bitenses dosyası yok"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -3031,7 +3076,7 @@ msgctxt "AudioScale"
 msgid "Percent"
 msgstr "Yüzde"
 
-#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Piano View"
 msgstr "Piyano Görünümü"
@@ -3512,13 +3557,13 @@ msgctxt "Command"
 msgid "Remove Track and Instrument"
 msgstr "İzi ve Enstrümanı Kaldır"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Remove Unused Files"
 msgstr "Kullanılmayan DOsyaları Kaldır"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Remove Unused Files"
 msgstr "Kullanılmayan DOsyaları Kaldır"
 
@@ -4194,6 +4239,11 @@ msgctxt "Command"
 msgid "Show Note FX Editor"
 msgstr "Nota FX Düzenleyiciyi Göster"
 
+#: editing/trackvisibilityhandler.cpp
+msgctxt "Command"
+msgid "Show Object Channels"
+msgstr ""
+
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
 msgid "Show Routing Editor"
@@ -4234,13 +4284,13 @@ msgctxt "Command"
 msgid "Show Tracks with Events under Cursor"
 msgstr ""
 
-#: editing/trackcontroller.cpp
-msgctxt "Track"
+#: editing/tracklistcomponent.cpp
+msgctxt "Command"
 msgid "Show in Console"
 msgstr "Konsol İçinde Göster"
 
-#: editing/tracklistcomponent.cpp
-msgctxt "Command"
+#: editing/trackcontroller.cpp
+msgctxt "Track"
 msgid "Show in Console"
 msgstr "Konsol İçinde Göster"
 
@@ -4365,7 +4415,7 @@ msgctxt "ScratchPad"
 msgid "Song"
 msgstr "Şarkı"
 
-#: musicediting/musiceditor.cpp musicediting/musictracksoundvariation.cpp
+#: musicediting/musictracksoundvariation.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Sound Variation"
 msgstr ""
@@ -4684,18 +4734,17 @@ msgstr "Dokun"
 
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
-#: audioediting/foldertrackaudiobus.cpp editing/foldertrackcomponent.cpp
-#: editing/layereditlayer.cpp editing/trackcontroller.cpp
+#: audioediting/foldertrackaudiobus.cpp editing/editgroupscomponent.cpp
+#: editing/layereditlayer.cpp editing/mediatrackcontroller.cpp
+#: editing/monitorfollower.cpp editing/takelist.cpp
 #: editing/tracklayercomponent.cpp editing/tracklistcomponent.cpp
-#: editing/editgroupscomponent.cpp editing/takelist.cpp
-#: editing/mediatrackcontroller.cpp editing/monitorfollower.cpp
-#: musicediting/musiceditor.cpp
+#: editing/trackcontroller.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "İz"
 
-#: base/model/rootevent.cpp editing/tracklistinspector.cpp
-#: editing/tracklisteditmodel.cpp
+#: base/model/rootevent.cpp editing/tracklisteditmodel.cpp
+#: editing/tracklistinspector.cpp
 msgctxt "Engine"
 msgid "Track"
 msgstr "İz"
@@ -5020,9 +5069,9 @@ msgctxt "Command"
 msgid "Video"
 msgstr "Video"
 
-#: editing/trackeditor.cpp editing/tracklistcomponent.cpp
 #: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
-#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
+#: editing/tracklistcomponent.cpp editing/trackeditor.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Görünüm"
@@ -5101,6 +5150,14 @@ msgstr "%(1) kez kullanılmış"
 msgctxt "PoolNodes"
 msgid "used %(1) times"
 msgstr "%(1) kez kullanılmış"
+
+#~ msgctxt "Browser"
+#~ msgid "Merge to Stereo File"
+#~ msgstr "Stereo Dosyaya Birleştir"
+
+#~ msgctxt "Browser"
+#~ msgid "No audio files with a name that ends in .L or .R found."
+#~ msgstr ".L veya .R ile bitenses dosyası yok"
 
 #~ msgctxt "LyricsTrackComponent"
 #~ msgid "Bars"

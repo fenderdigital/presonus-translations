@@ -283,13 +283,13 @@ msgctxt "PathList"
 msgid "Clear History"
 msgstr "Tarihçeyi Temizle"
 
-#: documents/documentmanager.cpp
-msgctxt "Command"
+#: documents/recentdocuments.cpp
+msgctxt "Documents"
 msgid "Clear Recent Files"
 msgstr "Son kullanılan dosya listesini temizle"
 
-#: documents/recentdocuments.cpp
-msgctxt "Documents"
+#: documents/documentmanager.cpp
+msgctxt "Command"
 msgid "Clear Recent Files"
 msgstr "Son kullanılan dosya listesini temizle"
 
@@ -475,13 +475,13 @@ msgctxt "TrashBin"
 msgid "Delete"
 msgstr "Sil"
 
-#: editing/editor.cpp
-msgctxt "Edit"
+#: components/stringlistcomponent.cpp editing/editor.cpp
+msgctxt "Command"
 msgid "Delete"
 msgstr "Sil"
 
-#: editing/editor.cpp components/stringlistcomponent.cpp
-msgctxt "Command"
+#: editing/editor.cpp
+msgctxt "Edit"
 msgid "Delete"
 msgstr "Sil"
 
@@ -535,7 +535,7 @@ msgctxt "FileOperations"
 msgid "Deleting Files"
 msgstr "Dosyalar Siliniyor"
 
-#: documents/documentmanager.cpp documents/documentversions.cpp
+#: documents/documentversions.cpp documents/documentmanager.cpp
 msgctxt "Documents"
 msgid "Description"
 msgstr "Açıklama"
@@ -790,8 +790,8 @@ msgctxt "ToolHelp"
 msgid "Draw Selection (add)"
 msgstr "Seçim Çiz (Ekle)"
 
-#: browser/searchcomponent.cpp documents/documentmanager.cpp editing/editor.cpp
-#: components/stringlistcomponent.cpp
+#: browser/searchcomponent.cpp components/stringlistcomponent.cpp
+#: documents/documentmanager.cpp editing/editor.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Düzenle"
@@ -1462,14 +1462,14 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr "Preset:"
 
-#: presets/presetfile.cpp
-msgctxt "FileType"
+#: presets/presetbrowser.cpp presets/presetcomponent.cpp
+#: presets/presetmanager.cpp presets/presettrader.cpp
+msgctxt "Command"
 msgid "Presets"
 msgstr "Presetler"
 
-#: presets/presetcomponent.cpp presets/presetbrowser.cpp
-#: presets/presetmanager.cpp presets/presettrader.cpp
-msgctxt "Command"
+#: presets/presetfile.cpp
+msgctxt "FileType"
 msgid "Presets"
 msgstr "Presetler"
 
@@ -1790,13 +1790,13 @@ msgstr ""
 "\n"
 " Gerçekten %(1)' e eklemek istiyormusunuz ?"
 
-#: editing/tools/selecttool.cpp
-msgctxt "ToolHelp"
+#: components/pathselector.cpp
+msgctxt "PathList"
 msgid "Select"
 msgstr "Seç"
 
-#: components/pathselector.cpp
-msgctxt "PathList"
+#: editing/tools/selecttool.cpp
+msgctxt "ToolHelp"
 msgid "Select"
 msgstr "Seç"
 

@@ -16,8 +16,8 @@ msgstr "$APPCOMPANY使用条件"
 
 #: login.xml
 msgctxt "LoginFormInternal"
-msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
-msgstr "$APPNAME は $APPCOMPANY アカウントにアクセスする必要があります。メールアドレス/ユーザー名とパスワードを使用してログインしてください。"
+msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your email and password below."
+msgstr "$APPNAME は $APPCOMPANY アカウントにアクセスする必要があります。メールアドレスとパスワードを使用してログインしてください。"
 
 #: subscription.xml
 msgctxt "SubscriptionStatus"
@@ -135,14 +135,14 @@ msgid "Don&apos;t have a $APPCOMPANY Account yet?"
 msgstr "$APPCOMPANY アカウントをお持ちでない場合"
 
 #: login.xml
+msgctxt "LoginFormInternal"
+msgid "Email"
+msgstr "メール"
+
+#: login.xml
 msgctxt "RegistrationFormInternal"
 msgid "Email"
 msgstr "メールアドレス"
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "Email or username"
-msgstr "メールまたはユーザー名"
 
 #: cclcommon.xml
 msgctxt "CommandEditorOption"
@@ -334,6 +334,14 @@ msgctxt "UserSelection"
 msgid "User Account"
 msgstr "ユーザーアカウント"
 
+#~ msgctxt "LoginFormInternal"
+#~ msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
+#~ msgstr "$APPNAME は $APPCOMPANY アカウントにアクセスする必要があります。メールアドレス/ユーザー名とパスワードを使用してログインしてください。"
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Email or username"
+#~ msgstr "メールまたはユーザー名"
+
 #~ msgctxt "CommandEditorOption"
 #~ msgid "Search:"
 #~ msgstr "検索:"
@@ -413,4 +421,3 @@ msgstr "ユーザーアカウント"
 #~ msgctxt "LicenseServerLogin"
 #~ msgid "Country"
 #~ msgstr "国"
-

@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "Bitmap-Font"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -658,13 +658,13 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "Num9"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "OK"
 msgstr "OK"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "OK"
 msgstr "OK"
 
@@ -933,6 +933,11 @@ msgctxt "VirtualKey"
 msgid "Tab"
 msgstr "Tab"
 
+#: graphics/nativegraphics.cpp
+msgctxt "GraphicsEngine"
+msgid "This application requires 3D graphics support, but no 3D graphics backend could be initialized."
+msgstr "Diese Anwendung erfordert 3D-Grafikunterstützung, aber es konnte kein 3D-Grafiksystem initialisiert werden."
+
 #: layout/workspace.cpp
 msgctxt "Command"
 msgid "Toggle Floating Windows"
@@ -992,6 +997,11 @@ msgstr "Stummschalten"
 msgctxt "VirtualKey"
 msgid "Volume Up"
 msgstr "Lautstärke auf"
+
+#: graphics/imaging/codecs/webpcodec.cpp
+msgctxt "FileType"
+msgid "WebP File"
+msgstr "WebP-Datei"
 
 #: dialogs/alert.cpp
 msgctxt "Alert"

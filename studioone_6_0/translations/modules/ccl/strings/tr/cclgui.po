@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "Bitmap Font"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "Vazgeç"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "Vazgeç"
 
@@ -658,13 +658,13 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "NumPad9"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "OK"
 msgstr "Tamam"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "OK"
 msgstr "Tamam"
 
@@ -933,6 +933,11 @@ msgctxt "VirtualKey"
 msgid "Tab"
 msgstr "Tab"
 
+#: graphics/nativegraphics.cpp
+msgctxt "GraphicsEngine"
+msgid "This application requires 3D graphics support, but no 3D graphics backend could be initialized."
+msgstr ""
+
 #: layout/workspace.cpp
 msgctxt "Command"
 msgid "Toggle Floating Windows"
@@ -992,6 +997,11 @@ msgstr "Sessiz"
 msgctxt "VirtualKey"
 msgid "Volume Up"
 msgstr "Seviye Yukarı"
+
+#: graphics/imaging/codecs/webpcodec.cpp
+msgctxt "FileType"
+msgid "WebP File"
+msgstr ""
 
 #: dialogs/alert.cpp
 msgctxt "Alert"

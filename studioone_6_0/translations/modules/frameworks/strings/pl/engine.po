@@ -124,13 +124,13 @@ msgctxt "Command"
 msgid "Activate Previous Layer"
 msgstr "Aktywuj poprzednią warstwę"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiccontrollane.cpp
+msgctxt "Automation"
 msgid "Add"
 msgstr "Dodaj"
 
-#: musicediting/musiccontrollane.cpp
-msgctxt "Automation"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Add"
 msgstr "Dodaj"
 
@@ -177,6 +177,11 @@ msgstr "Dodaj FX obiektu: %(1)"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
+msgid "Add FX + Automation on %(1):"
+msgstr ""
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
 msgid "Add FX on %(1):"
 msgstr "Dodaj FX na %(1):"
 
@@ -219,6 +224,11 @@ msgstr "Dodaj Scratch Pad"
 msgctxt "ScratchPad"
 msgid "Add Scratch Pad"
 msgstr "Dodaj Scratch Pad"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Add Send + Automation:"
+msgstr ""
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -422,13 +432,25 @@ msgstr "Zatwierdź tempo"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid "Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
-msgstr "Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n\nTo działanie jest nieodwracalne."
+msgid ""
+"Are you sure you want to delete all attachments of this clip?\n"
+"\n"
+"This action can not be undone."
+msgstr ""
+"Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n"
+"\n"
+"To działanie jest nieodwracalne."
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid "Are you sure you want to delete all attachments of this version?\n\nThis action can not be undone."
-msgstr "Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n\nTo działanie jest nieodwracalne."
+msgid ""
+"Are you sure you want to delete all attachments of this version?\n"
+"\n"
+"This action can not be undone."
+msgstr ""
+"Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n"
+"\n"
+"To działanie jest nieodwracalne."
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -440,7 +462,7 @@ msgctxt "GlobalTrack"
 msgid "Arranger"
 msgstr "Aranżer"
 
-#: editing/arrangerplaybackhandler.cpp editing/arrangereditlayer.cpp
+#: editing/arrangereditlayer.cpp editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Arranger"
 msgstr "Aranżer"
@@ -522,8 +544,8 @@ msgstr "Automatyka"
 
 #: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
-#: musicediting/musiccontrollane.cpp musicediting/musiceditor.cpp
-#: musicediting/patterncontrollane.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
+#: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Automation"
 msgstr "Automatyka"
@@ -753,6 +775,11 @@ msgctxt "SynthDrag"
 msgid "Combine"
 msgstr "Połącz"
 
+#: audioediting/audioclipcomponent.cpp
+msgctxt "AudioSpeakerMap"
+msgid "Confirm Speaker Format"
+msgstr ""
+
 #: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Console"
@@ -823,6 +850,11 @@ msgctxt "PitchEdit"
 msgid "Copy '%(1)' to '%(2)'"
 msgstr "Kopiuj %(1) do '%(2)'"
 
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Copy Automation"
+msgstr ""
+
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Copy Event"
@@ -843,13 +875,13 @@ msgctxt "ActionDescriptions"
 msgid "Copy Events Shared"
 msgstr "Kopiuj współdzielone obiekty"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Copy External Files"
 msgstr "Kopiuj zewnętrzne pliki"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Copy External Files"
 msgstr "Kopiuj zewnętrzne pliki"
 
@@ -910,8 +942,12 @@ msgstr "Utwórz automatykę \"%(1)"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid "Create \"%(1)\" Automation\non %(2)"
-msgstr "Utwórz automatykę \"%(1)\"\nna %(2)"
+msgid ""
+"Create \"%(1)\" Automation\n"
+"on %(2)"
+msgstr ""
+"Utwórz automatykę \"%(1)\"\n"
+"na %(2)"
 
 #: musicediting/partautomationdraghandler.cpp
 msgctxt "Automation"
@@ -1278,7 +1314,7 @@ msgctxt "MusicPatternClip"
 msgid "Drum Pattern"
 msgstr "Schemat perkusji"
 
-#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Drum View"
 msgstr "Widok perkusji"
@@ -1383,9 +1419,9 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "Powiel wariację"
 
-#: audioediting/audiobendeditlayer.cpp editing/tracklistcomponent.cpp
-#: editing/chordeditlayer.cpp editing/trackvisibilityhandler.cpp
+#: audioediting/audiobendeditlayer.cpp editing/chordeditlayer.cpp
 #: editing/trackchannelnamefilter.cpp editing/eventsnapper.cpp
+#: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
@@ -1456,7 +1492,7 @@ msgctxt "Automation"
 msgid "Edit Value"
 msgstr "Edytuj wartość"
 
-#: editing/trackeditor.cpp editing/globaltrackscomponent.cpp
+#: editing/globaltrackscomponent.cpp editing/trackeditor.cpp
 msgctxt "Command"
 msgid "Editor"
 msgstr "Edytor"
@@ -1571,7 +1607,7 @@ msgctxt "Track"
 msgid "Expand Folder Track"
 msgstr "Rozwiń ścieżkę folderu"
 
-#: editing/foldertrackcomponent.cpp
+#: editing/trackcontroller.cpp
 msgctxt "Command"
 msgid "Expand Folder Track"
 msgstr "Rozwiń ścieżkę folderu"
@@ -1973,6 +2009,11 @@ msgstr "Ukryj wyciszone ścieżki"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
+msgid "Hide Object Channels"
+msgstr ""
+
+#: editing/trackvisibilityhandler.cpp
+msgctxt "Command"
 msgid "Hide Selected Channels"
 msgstr "Ukryj zaznaczone kanały"
 
@@ -2086,13 +2127,13 @@ msgctxt "Edit"
 msgid "Insert Chord"
 msgstr "Wstaw akord"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
 msgid "Insert Instrument"
 msgstr "Wstaw instrument"
 
-#: musicediting/musiceditextension.cpp
-msgctxt "Edit"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Insert Instrument"
 msgstr "Wstaw instrument"
 
@@ -2311,11 +2352,6 @@ msgctxt "Command"
 msgid "Locate File"
 msgstr "Znajdź plik"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
-msgid "Locate Missing Files"
-msgstr "Znajdź brakujące pliki"
-
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Locate Missing Files"
@@ -2323,6 +2359,11 @@ msgstr "Znajdź brakujące pliki"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
+msgid "Locate Missing Files"
+msgstr "Znajdź brakujące pliki"
+
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Locate Missing Files"
 msgstr "Znajdź brakujące pliki"
 
@@ -2500,8 +2541,8 @@ msgstr "Scal do jednej partii audio"
 
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
-msgid "Merge to Stereo File"
-msgstr "Scal do pliku stereo"
+msgid "Merge to Multichannel File"
+msgstr ""
 
 #: editing/tracklist.cpp
 msgctxt "TrackHeights"
@@ -2583,6 +2624,11 @@ msgctxt "Command"
 msgid "Monitor"
 msgstr "Monitor"
 
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move"
+msgstr ""
+
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
 msgid "Move"
@@ -2595,13 +2641,21 @@ msgstr "Przenieś automatykę \"%(1)\""
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid "Move \"%(1)\" Automation\nfrom %(3) to %(2)"
-msgstr "Przenieś automatykę \"%(1)\"\nz %(3) do %(2)"
+msgid ""
+"Move \"%(1)\" Automation\n"
+"from %(3) to %(2)"
+msgstr ""
+"Przenieś automatykę \"%(1)\"\n"
+"z %(3) do %(2)"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid "Move \"%(1)\" Automation\nto %(2)"
-msgstr "Przenieś automatykę \"%(1)\"\ndo %(2)"
+msgid ""
+"Move \"%(1)\" Automation\n"
+"to %(2)"
+msgstr ""
+"Przenieś automatykę \"%(1)\"\n"
+"do %(2)"
 
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
@@ -2638,6 +2692,16 @@ msgctxt "ActionDescriptions"
 msgid "Move Events"
 msgstr "Przenieś obiekty"
 
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move FX + Automation to %(1):"
+msgstr ""
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move FX to %(1):"
+msgstr ""
+
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Move Layer"
@@ -2647,6 +2711,16 @@ msgstr "Przenieś warstwę"
 msgctxt "ActionDescriptions"
 msgid "Move Layers"
 msgstr "Przenieś warstwy"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move Send + Automation:"
+msgstr ""
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move Send:"
+msgstr ""
 
 #: application/eventedit/movetoorigintask.cpp
 msgctxt "Edit"
@@ -2807,11 +2881,6 @@ msgstr "Następna wariacja"
 msgctxt "Engine"
 msgid "No Event Editor"
 msgstr "Brak edytora obiektu"
-
-#: application/musicloop/loopextension.cpp
-msgctxt "Browser"
-msgid "No audio files with a name that ends in .L or .R found."
-msgstr "Nie znaleziono plików, których nazwy kończą się na .L lub .R."
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -3009,7 +3078,7 @@ msgctxt "AudioScale"
 msgid "Percent"
 msgstr "Procenty"
 
-#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Piano View"
 msgstr "Widok klawiatury"
@@ -3490,13 +3559,13 @@ msgctxt "Command"
 msgid "Remove Track and Instrument"
 msgstr "Usuń ścieżkę i instrument"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Remove Unused Files"
 msgstr "Usuń nieużywane pliki"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Remove Unused Files"
 msgstr "Usuń nieużywane pliki"
 
@@ -4172,6 +4241,11 @@ msgctxt "Command"
 msgid "Show Note FX Editor"
 msgstr "Pokaż edytor efektu MIDI"
 
+#: editing/trackvisibilityhandler.cpp
+msgctxt "Command"
+msgid "Show Object Channels"
+msgstr ""
+
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
 msgid "Show Routing Editor"
@@ -4212,13 +4286,13 @@ msgctxt "Command"
 msgid "Show Tracks with Events under Cursor"
 msgstr "Pokaż ścieżki z obiektami pod kursorem"
 
-#: editing/trackcontroller.cpp
-msgctxt "Track"
+#: editing/tracklistcomponent.cpp
+msgctxt "Command"
 msgid "Show in Console"
 msgstr "Pokaż w konsolecie"
 
-#: editing/tracklistcomponent.cpp
-msgctxt "Command"
+#: editing/trackcontroller.cpp
+msgctxt "Track"
 msgid "Show in Console"
 msgstr "Pokaż w konsolecie"
 
@@ -4343,7 +4417,7 @@ msgctxt "ScratchPad"
 msgid "Song"
 msgstr "Utwór"
 
-#: musicediting/musiceditor.cpp musicediting/musictracksoundvariation.cpp
+#: musicediting/musictracksoundvariation.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Sound Variation"
 msgstr "Wariacja brzmienia"
@@ -4530,8 +4604,16 @@ msgstr "Format tego pliku nie jest obsługiwany."
 
 #: base/rootsetup.cpp
 msgctxt "RootSetup"
-msgid "The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
-msgstr "Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n\nUstawiona częstotliwość: %(1)\nCzęstotliwość urządzenia: %(2)"
+msgid ""
+"The sample rate does not match your audio device configuration.\n"
+"\n"
+"The rate you set: %(1)\n"
+"The rate the device has: %(2)"
+msgstr ""
+"Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n"
+"\n"
+"Ustawiona częstotliwość: %(1)\n"
+"Częstotliwość urządzenia: %(2)"
 
 #: music/musictrackinfo.cpp
 msgctxt "Engine"
@@ -4575,8 +4657,12 @@ msgstr "Nie można zaimportować tego pliku:"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
-msgid "This will delete notes or automation data.\nDo you want to continue?"
-msgstr "Usunie to nuty lub dane automatyki.\nCzy chcesz kontynuować?"
+msgid ""
+"This will delete notes or automation data.\n"
+"Do you want to continue?"
+msgstr ""
+"Usunie to nuty lub dane automatyki.\n"
+"Czy chcesz kontynuować?"
 
 #: editing/mediatrackcontroller.cpp
 msgctxt "MediaTrack"
@@ -4650,18 +4736,17 @@ msgstr "Touch"
 
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
-#: audioediting/foldertrackaudiobus.cpp editing/foldertrackcomponent.cpp
-#: editing/layereditlayer.cpp editing/trackcontroller.cpp
+#: audioediting/foldertrackaudiobus.cpp editing/editgroupscomponent.cpp
+#: editing/layereditlayer.cpp editing/mediatrackcontroller.cpp
+#: editing/monitorfollower.cpp editing/takelist.cpp
 #: editing/tracklayercomponent.cpp editing/tracklistcomponent.cpp
-#: editing/editgroupscomponent.cpp editing/takelist.cpp
-#: editing/mediatrackcontroller.cpp editing/monitorfollower.cpp
-#: musicediting/musiceditor.cpp
+#: editing/trackcontroller.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "Ścieżka"
 
-#: base/model/rootevent.cpp editing/tracklistinspector.cpp
-#: editing/tracklisteditmodel.cpp
+#: base/model/rootevent.cpp editing/tracklisteditmodel.cpp
+#: editing/tracklistinspector.cpp
 msgctxt "Engine"
 msgid "Track"
 msgstr "Ścieżka"
@@ -4986,9 +5071,9 @@ msgctxt "Command"
 msgid "Video"
 msgstr "Wideo"
 
-#: editing/trackeditor.cpp editing/tracklistcomponent.cpp
 #: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
-#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
+#: editing/tracklistcomponent.cpp editing/trackeditor.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Widok"
@@ -5067,6 +5152,14 @@ msgstr "użyto %(1) razy"
 msgctxt "PoolNodes"
 msgid "used %(1) times"
 msgstr "użyto %(1) razy"
+
+#~ msgctxt "Browser"
+#~ msgid "Merge to Stereo File"
+#~ msgstr "Scal do pliku stereo"
+
+#~ msgctxt "Browser"
+#~ msgid "No audio files with a name that ends in .L or .R found."
+#~ msgstr "Nie znaleziono plików, których nazwy kończą się na .L lub .R."
 
 #~ msgctxt "LyricsTrackComponent"
 #~ msgid "Bars"
@@ -5165,12 +5258,24 @@ msgstr "użyto %(1) razy"
 #~ msgstr "Zmień nazwę warstwy..."
 
 #~ msgctxt "Documents"
-#~ msgid "Could not rename %(1)!\n\nThe file is in use."
-#~ msgstr "Nie można zmienić nazwy %(1)!\n\nPlik jest w użyciu."
+#~ msgid ""
+#~ "Could not rename %(1)!\n"
+#~ "\n"
+#~ "The file is in use."
+#~ msgstr ""
+#~ "Nie można zmienić nazwy %(1)!\n"
+#~ "\n"
+#~ "Plik jest w użyciu."
 
 #~ msgctxt "Documents"
-#~ msgid "Could not rename the folder %(1)!\n\nA file in this folder is in use."
-#~ msgstr "Nie można zmienić nazwy folderu %(1)!\n\nPlik z tego folder jest w użyciu."
+#~ msgid ""
+#~ "Could not rename the folder %(1)!\n"
+#~ "\n"
+#~ "A file in this folder is in use."
+#~ msgstr ""
+#~ "Nie można zmienić nazwy folderu %(1)!\n"
+#~ "\n"
+#~ "Plik z tego folder jest w użyciu."
 
 #~ msgctxt "Engine"
 #~ msgid "Export Audioloop"
@@ -5525,8 +5630,24 @@ msgstr "użyto %(1) razy"
 #~ msgstr "Zaktualizuj plik masteringu"
 
 #~ msgctxt "SongMaster"
-#~ msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-#~ msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
+#~ msgid ""
+#~ "Update the mastering file of this song:\n"
+#~ "%(6)\n"
+#~ "Output: %(1)\n"
+#~ "Duration: %(3)\n"
+#~ "Resolution: %(4)\n"
+#~ "Realtime Processing: %(5)\n"
+#~ "Include Master Effects: %(7)\n"
+#~ "Filename: %(2)"
+#~ msgstr ""
+#~ "Zaktualizuj plik masteringu dla tego utworu:\n"
+#~ "%(6)\n"
+#~ "Wyjście: %(1)\n"
+#~ "Długość %(3)\n"
+#~ "Rozdzielczość: %(4)\n"
+#~ "Przetwarzanie w czasie rzeczywistym: %(5)\n"
+#~ "Dołącz efekty sumy: %(7)\n"
+#~ "Nazwa pliku: %(2)"
 
 #~ msgctxt "Video"
 #~ msgid "Using different codecs might affect the export speed."
@@ -5551,4 +5672,3 @@ msgstr "użyto %(1) razy"
 #~ msgctxt "SongMaster"
 #~ msgid "Yes"
 #~ msgstr "Tak"
-

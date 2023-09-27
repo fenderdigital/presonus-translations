@@ -109,6 +109,11 @@ msgctxt "Sampler"
 msgid "Preset in %(1)"
 msgstr "Preset en %(1)"
 
+#: sampler/storage/presethandler.cpp
+msgctxt "Sampler"
+msgid "Preset sampler type does not match: %(1)"
+msgstr "El tipo de presets del sampler no coincide: %(1)"
+
 #: sampler/samplerutils.cpp
 msgctxt "SamplerUtitlities"
 msgid "Render Slices"
@@ -124,7 +129,7 @@ msgctxt "SampleDragHandler"
 msgid "Replace Samples"
 msgstr "Sustituir muestras"
 
-#: sampler/storage/soundfontcodec.cpp sampler/storage/presonuscodec.cpp
+#: sampler/storage/presonuscodec.cpp sampler/storage/soundfontcodec.cpp
 msgctxt "FileType"
 msgid "Sampler File"
 msgstr "Archivo de sampler"

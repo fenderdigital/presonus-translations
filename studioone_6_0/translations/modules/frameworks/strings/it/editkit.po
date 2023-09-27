@@ -54,7 +54,7 @@ msgctxt "SoundVariations"
 msgid "Activation Sequence"
 msgstr "Sequenza di Attivazione"
 
-#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
 msgstr "Attiva Variazione: %(1)"
@@ -369,10 +369,10 @@ msgctxt "ScoreSymbolMap"
 msgid "Dynamics"
 msgstr "Dinamiche"
 
-#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp music/noteplayer.cpp
-#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: events/eventeditcomponent.cpp music/noteplayer.cpp music/lyricsdisplay.cpp
 #: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
-#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timesnapper.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Modifica"
@@ -617,13 +617,13 @@ msgctxt "Command"
 msgid "Loop Selection Snapped"
 msgstr "Loop  della Selezione Agganciata"
 
-#: music/lyricsdisplay.cpp
-msgctxt "Command"
+#: music/lyricseditlayerbase.cpp
+msgctxt "Music"
 msgid "Lyrics"
 msgstr "Testo"
 
-#: music/lyricseditlayerbase.cpp
-msgctxt "Music"
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
 msgid "Lyrics"
 msgstr "Testo"
 
@@ -762,7 +762,7 @@ msgctxt "Command"
 msgid "Next Hotspot"
 msgstr "Hotspot Successivo"
 
-#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
 msgstr "Nessuna Variazione"
@@ -927,11 +927,6 @@ msgctxt "SoundVariations"
 msgid "Program Change"
 msgstr "Program Change"
 
-#: music/lyricsdisplay.cpp
-msgctxt "LyricsDisplaySetup"
-msgid "Quantize"
-msgstr "Quantizza"
-
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
 msgid "Quantize"
@@ -939,6 +934,11 @@ msgstr "Quantizza"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
+msgid "Quantize"
+msgstr "Quantizza"
+
+#: music/lyricsdisplay.cpp
+msgctxt "LyricsDisplaySetup"
 msgid "Quantize"
 msgstr "Quantizza"
 
@@ -1359,13 +1359,21 @@ msgstr "Tempo"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid "The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
-msgstr "Il preset  è stato generato per '%(1)' e non corrisponde allo strumento di destinazione.\nSi desidera comunque caricare la mappa della variazione?"
+msgid ""
+"The preset was generated for '%(1)' and does not match the target instrument.\n"
+"Do you want to load the variation map anyway?"
+msgstr ""
+"Il preset  è stato generato per '%(1)' e non corrisponde allo strumento di destinazione.\n"
+"Si desidera comunque caricare la mappa della variazione?"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid "The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
-msgstr "Il preset è stato generato per il suono '%(1)' e non corrisponde al presete dello strumento corrente.\nVuoi comunque caricare la variazione?"
+msgid ""
+"The preset was generated for sound '%(1)' and does not match the current instrument preset.\n"
+"Do you want to load the variation map anyway?"
+msgstr ""
+"Il preset è stato generato per il suono '%(1)' e non corrisponde al presete dello strumento corrente.\n"
+"Vuoi comunque caricare la variazione?"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -1589,6 +1597,11 @@ msgstr "Zoom Out Verticale"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
+msgid "Zoom Out Vertical Fine"
+msgstr "Zoom Out Vertical Fine"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
 msgid "Zoom to Loop"
 msgstr "Zoom a Loop"
 
@@ -1601,10 +1614,6 @@ msgstr "Zoom a Selezione"
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "Zoom a Selezione Orizzontale"
-
-#~ msgctxt "Command"
-#~ msgid "Zoom Out Vertical Fine"
-#~ msgstr "Zoom Out Vertical Fine"
 
 #~ msgctxt "Command"
 #~ msgid "Set Bar Offset to Cursor"
@@ -1749,4 +1758,3 @@ msgstr "Zoom a Selezione Orizzontale"
 #~ msgctxt "MusicalScale"
 #~ msgid "Phrygian"
 #~ msgstr "Frigio"
-

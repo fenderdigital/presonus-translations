@@ -83,7 +83,11 @@ print: Copying tables...
 @copyTable
 #define: $(table)=aafhandler
 @copyTable
+#define: $(table)=dawprojecthandler
+@copyTable
 #define: $(table)=elastique
+@copyTable
+#define: $(table)=spatialaudio
 @copyTable
 
 ; Services (Windows only)

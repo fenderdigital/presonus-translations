@@ -16,8 +16,8 @@ msgstr "Conditions d'utilisation $APPCOMPANY"
 
 #: login.xml
 msgctxt "LoginFormInternal"
-msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
-msgstr "$APPNAME a besoin d'accéder à votre compte $APPCOMPANY. Veuillez vous connecter en donnant ci-dessous votre e-mail/nom d'utilisateur et votre mot de passe."
+msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your email and password below."
+msgstr "$APPNAME a besoin d'accéder à votre compte $APPCOMPANY. Veuillez vous connecter ci-dessous avec votre e-mail et votre mot de passe."
 
 #: subscription.xml
 msgctxt "SubscriptionStatus"
@@ -135,14 +135,14 @@ msgid "Don&apos;t have a $APPCOMPANY Account yet?"
 msgstr "Pas encore de compte $APPCOMPANY?"
 
 #: login.xml
-msgctxt "RegistrationFormInternal"
+msgctxt "LoginFormInternal"
 msgid "Email"
 msgstr "E-mail"
 
 #: login.xml
-msgctxt "LoginFormInternal"
-msgid "Email or username"
-msgstr "E-mail ou nom d'utilisateur"
+msgctxt "RegistrationFormInternal"
+msgid "Email"
+msgstr "E-mail"
 
 #: cclcommon.xml
 msgctxt "CommandEditorOption"
@@ -334,6 +334,14 @@ msgctxt "UserSelection"
 msgid "User Account"
 msgstr "Compte utilisateur"
 
+#~ msgctxt "LoginFormInternal"
+#~ msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
+#~ msgstr "$APPNAME a besoin d'accéder à votre compte $APPCOMPANY. Veuillez vous connecter en donnant ci-dessous votre e-mail/nom d'utilisateur et votre mot de passe."
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Email or username"
+#~ msgstr "E-mail ou nom d'utilisateur"
+
 #~ msgctxt "CommandEditorOption"
 #~ msgid "Search:"
 #~ msgstr "Chercher:"
@@ -413,4 +421,3 @@ msgstr "Compte utilisateur"
 #~ msgctxt "LicenseServerLogin"
 #~ msgid "Country"
 #~ msgstr "Pays"
-

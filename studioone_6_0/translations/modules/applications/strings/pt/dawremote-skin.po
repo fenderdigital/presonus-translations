@@ -24,6 +24,11 @@ msgctxt "HardwareInputControlsSingle"
 msgid "$title"
 msgstr "$title"
 
+#: client/panner.xml
+msgctxt "MutablePannerSlider"
+msgid "$title"
+msgstr "$title"
+
 #: shared.xml
 msgctxt "MutableSlider"
 msgid "$title"
@@ -64,6 +69,26 @@ msgctxt "CommandBarItem"
 msgid "Add Page"
 msgstr "Adicionar Pág."
 
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Balance"
+msgstr "Balance"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Balance Amount"
+msgstr "Balance Amount"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Balance Direction"
+msgstr "Balance Direction"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Center Level"
+msgstr "Center Level"
+
 #: client/mixer.xml
 msgctxt "MixerNavigation"
 msgid "Channels"
@@ -100,9 +125,9 @@ msgid "Control Macro Panel for selected channel"
 msgstr "Controle do Painel de Macros para o canal selecionado"
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Cue mix"
-msgstr "Mix Guia"
+msgstr "Mixagem guia"
 
 #: client/mixer.xml
 msgctxt "MixerNavigation"
@@ -115,7 +140,7 @@ msgid "DAW Sync"
 msgstr "Sincronização de DAW"
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "DSP"
 msgstr "DSP"
 
@@ -129,10 +154,25 @@ msgctxt "CommandBarItem"
 msgid "Delete Page"
 msgstr "Excluir Página"
 
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Direction"
+msgstr "Direction"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Disable Center"
+msgstr "Disable Center"
+
 #: client/commands.xml
 msgctxt "Commands"
 msgid "Edit"
 msgstr "Edição"
+
+#: client/panner.xml
+msgctxt "ElevationSliderSection"
+msgid "Elevation"
+msgstr "Elevation"
 
 #: tutorial.xml
 msgctxt "Page7TopRow"
@@ -175,9 +215,9 @@ msgid "Inputs"
 msgstr "Entradas"
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Inserts"
-msgstr "Inserts"
+msgstr "Inserções"
 
 #: client/mixer.xml
 msgctxt "MixerNavigation"
@@ -209,6 +249,16 @@ msgctxt "HardwareInputControlsStereo"
 msgid "L Gain"
 msgstr "Ganho E"
 
+#: client/panner.xml
+msgctxt "LFESendMuteButtonView"
+msgid "LFE"
+msgstr "LFE"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "LFE Level"
+msgstr "LFE Level"
+
 #: client/channeleditor.xml
 msgctxt "LevelAndPan"
 msgid "Level"
@@ -226,6 +276,11 @@ msgstr "Brilhante"
 
 #: client/channeleditor.xml
 msgctxt "SendEditor"
+msgid "Lock Pan"
+msgstr "Bloquear Pan"
+
+#: client/channeleditor.xml
+msgctxt "CueMixEditor"
 msgid "Lock Pan"
 msgstr "Bloquear Pan"
 
@@ -255,7 +310,7 @@ msgid "Make sure your tablet is connected to the same network as your Studio One
 msgstr "Certifique-se de que seu tablet está conectado à mesma rede que o computador com Studio One"
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Mix FX"
 msgstr "Mix FX"
 
@@ -263,6 +318,11 @@ msgstr "Mix FX"
 msgctxt "Page3TopRow"
 msgid "Mix Page"
 msgstr "Página Mix"
+
+#: client/panner.xml
+msgctxt "LFESendMuteButtonView"
+msgid "Mute LFE speaker (@key[Option]: Solo)"
+msgstr "Mute LFE speaker (@key[Option]: Solo)"
 
 #: tutorial.xml
 msgctxt "Page4CenterColumn"
@@ -290,7 +350,12 @@ msgid "Pads"
 msgstr "Pads"
 
 #: client/channeleditor.xml
-msgctxt "ChannelPanTypeControls"
+msgctxt "AudioPanTypeControls"
+msgid "Pan"
+msgstr "Pan"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
 msgid "Pan"
 msgstr "Pan"
 
@@ -330,7 +395,7 @@ msgid "Plug-in Editor"
 msgstr "Editor de Plug-in"
 
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Post"
 msgstr "Pós"
 
@@ -409,8 +474,13 @@ msgctxt "Page2CenterColumn"
 msgid "Select the Studio One application you want to control from this list"
 msgstr "Selecione nesta lista o aplicativo Studio One que deseja controlar"
 
+#: client/panner.xml
+msgctxt "LFESendMuteButtonView"
+msgid "Send mix to LFE Speaker (@key[Option]: Solo)"
+msgstr "Send mix to LFE Speaker (@key[Option]: Solo)"
+
 #: client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Sends"
 msgstr "Envios"
 
@@ -418,6 +488,46 @@ msgstr "Envios"
 msgctxt "MixerNavigation"
 msgid "Sends"
 msgstr "Envios"
+
+#: client/panner.xml
+msgctxt "PannerCircleLeftSide"
+msgid "Size"
+msgstr "Size"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Size"
+msgstr "Size"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Size"
+msgstr "Size"
+
+#: client/panner.xml
+msgctxt "PannerCircleLeftSide"
+msgid "Size is locked (Use Shift to bypass)"
+msgstr "Size is locked (Use Shift to bypass)"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Snap"
+msgstr "Snap"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Snap"
+msgstr "Snap"
+
+#: client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Spread"
+msgstr "Spread"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Spread"
+msgstr "Spread"
 
 #: client/dawclient.xml
 msgctxt "ViewSelector"
@@ -550,9 +660,24 @@ msgid "Welcome to Studio One Remote!"
 msgstr "Bem-vindo ao Studio One Remote!"
 
 #: client/channeleditor.xml
-msgctxt "ChannelPanTypeControls"
+msgctxt "AudioPanTypeControls"
 msgid "Width"
 msgstr "Largura"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "X"
+msgstr "X"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Y"
+msgstr "Y"
+
+#: client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Z"
+msgstr "Z"
 
 #: client/commands.xml
 msgctxt "Command"
@@ -568,6 +693,42 @@ msgstr "addItem:$itemID"
 msgctxt "Command"
 msgid "deleteItem:$itemID"
 msgstr "deleteItem:$itemID"
+
+#~ msgctxt "PannerControlsRightSide"
+#~ msgid "Elevation"
+#~ msgstr "Elevation"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Cue mix"
+#~ msgstr "Mix Guia"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "DSP"
+#~ msgstr "DSP"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Inserts"
+#~ msgstr "Inserts"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Mix FX"
+#~ msgstr "Mix FX"
+
+#~ msgctxt "ChannelPanTypeControls"
+#~ msgid "Pan"
+#~ msgstr "Pan"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Post"
+#~ msgstr "Pós"
+
+#~ msgctxt "ChannelEditorDetailsDelegate"
+#~ msgid "Sends"
+#~ msgstr "Envios"
+
+#~ msgctxt "ChannelPanTypeControls"
+#~ msgid "Width"
+#~ msgstr "Largura"
 
 #~ msgctxt "ChannelPanTypeControls"
 #~ msgid "Mode"
@@ -612,3 +773,4 @@ msgstr "deleteItem:$itemID"
 #~ msgctxt "StartPage"
 #~ msgid "demo"
 #~ msgstr "demo"
+

@@ -344,6 +344,11 @@ msgctxt "EditGroupLinkAspect"
 msgid "$title"
 msgstr "$title"
 
+#: devices/musicdevices.xml
+msgctxt "MutableNoteRepeatSlider"
+msgid "$title"
+msgstr "$title"
+
 #: devices/surfaces.xml
 msgctxt "SurfaceEditorButton"
 msgid "$title"
@@ -351,11 +356,6 @@ msgstr "$title"
 
 #: devices/surfaces.xml
 msgctxt "SurfaceEditorToggle"
-msgid "$title"
-msgstr "$title"
-
-#: devices/musicdevices.xml
-msgctxt "MutableNoteRepeatSlider"
 msgid "$title"
 msgstr "$title"
 
@@ -419,6 +419,11 @@ msgctxt "MutableInspectorProperty"
 msgid "$tooltip2"
 msgstr "$tooltip2"
 
+#: devices/audiofxeditor.xml
+msgctxt "InsertSpeakerMap"
+msgid "&#10132;"
+msgstr "&#10132;"
+
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
 msgid "&#10226;"
@@ -429,10 +434,20 @@ msgctxt "SoundVariationEditorMain"
 msgid "&#10227;"
 msgstr "&#10227;"
 
+#: engine/eventinspector.xml
+msgctxt "ChordSelectorParts"
+msgid "&#176;7"
+msgstr "&#176;7"
+
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "&#8226;"
 msgstr "&#8226;"
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
+msgid "&#8646;"
+msgstr "&#8646;"
 
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
@@ -529,13 +544,18 @@ msgctxt "TrackExport"
 msgid "..."
 msgstr "..."
 
-#: engine/videoplayer.xml
-msgctxt "VideoExport"
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
 msgid "..."
 msgstr "..."
 
 #: engine/songdialogs.xml
 msgctxt "SongMetaInfoOption"
+msgid "..."
+msgstr "..."
+
+#: engine/videoplayer.xml
+msgctxt "VideoExport"
 msgid "..."
 msgstr "..."
 
@@ -559,13 +579,13 @@ msgctxt "NewProject"
 msgid "..."
 msgstr "..."
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "SetListHeader"
 msgid "..."
 msgstr "..."
 
-#: show/show.xml
-msgctxt "SetListHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "..."
 msgstr "..."
 
@@ -1014,13 +1034,13 @@ msgctxt "AudioBendPanel.ActionPart"
 msgid "@cmd.title[Event|Fill Gaps]"
 msgstr "@cmd.title[Event|Fill Gaps]"
 
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.ActionPart"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.ApplyPart"
 msgid "@cmd.title[Event|Quantize on Track]"
 msgstr "@cmd.title[Event|Quantize on Track]"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.ApplyPart"
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.ActionPart"
 msgid "@cmd.title[Event|Quantize on Track]"
 msgstr "@cmd.title[Event|Quantize on Track]"
 
@@ -1169,6 +1189,11 @@ msgctxt "TransportPanel"
 msgid "@cmd.title[View|Editor]"
 msgstr "@cmd.title[View|Editor]"
 
+#: devices/transport.xml
+msgctxt "ProjectTransport"
+msgid "@cmd.title[View|Editor]"
+msgstr "@cmd.title[View|Editor]"
+
 #: engine/song.xml
 msgctxt "SongToolbarContent"
 msgid "@cmd.title[View|Info View]"
@@ -1191,6 +1216,11 @@ msgstr "@cmd.title[View|Inspector]"
 
 #: engine/song.xml
 msgctxt "TrackControlsButtonsHeader"
+msgid "@cmd.title[View|Inspector]"
+msgstr "@cmd.title[View|Inspector]"
+
+#: project/project.xml
+msgctxt "ProjectEditorContent"
 msgid "@cmd.title[View|Inspector]"
 msgstr "@cmd.title[View|Inspector]"
 
@@ -1269,11 +1299,6 @@ msgctxt "EditorToolBar"
 msgid "@cmd.title[View|Step Record]"
 msgstr "@cmd.title[View|Step Record]"
 
-#: engine/tracklistinspector.xml
-msgctxt "TrackListInspectorPanel"
-msgid "@cmd.title[View|Track List]"
-msgstr "@cmd.title[View|Track List]"
-
 #: engine/inspector.xml
 msgctxt "InspectorPanel"
 msgid "@cmd.title[View|Track List]"
@@ -1281,6 +1306,11 @@ msgstr "@cmd.title[View|Track List]"
 
 #: engine/song.xml
 msgctxt "TrackControlsButtonsHeader"
+msgid "@cmd.title[View|Track List]"
+msgstr "@cmd.title[View|Track List]"
+
+#: engine/tracklistinspector.xml
+msgctxt "TrackListInspectorPanel"
 msgid "@cmd.title[View|Track List]"
 msgstr "@cmd.title[View|Track List]"
 
@@ -1304,6 +1334,11 @@ msgctxt "EditorToolBar"
 msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
 msgstr "@cmd.title[Zoom|Toggle Auto Zoom]"
 
+#: app/toolbar.xml
+msgctxt "PerspectiveSelector"
+msgid "@cmd.title[]"
+msgstr "@cmd.title[]"
+
 #: app/homepage.xml
 msgctxt "HomePageHeader"
 msgid "@cmd.title[]"
@@ -1314,8 +1349,8 @@ msgctxt "DocumentBlocks"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
-#: app/toolbar.xml
-msgctxt "PerspectiveSelector"
+#: ccl/browser.xml
+msgctxt "BrowserHomeContent"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
@@ -1326,11 +1361,6 @@ msgstr "@cmd.title[]"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
-msgid "@cmd.title[]"
-msgstr "@cmd.title[]"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
@@ -1356,11 +1386,6 @@ msgstr "@cmd.title[]"
 
 #: devices/transport.xml
 msgctxt "Metronome"
-msgid "@cmd.title[]"
-msgstr "@cmd.title[]"
-
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.MarkerPart"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
@@ -1391,6 +1416,11 @@ msgstr "@cmd.title[]"
 
 #: engine/editor.xml
 msgctxt "MPControlLaneControls"
+msgid "@cmd.title[]"
+msgstr "@cmd.title[]"
+
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.MarkerPart"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
@@ -1564,13 +1594,13 @@ msgctxt "Command"
 msgid "About"
 msgstr "정보"
 
-#: app/homepage.xml
-msgctxt "HomePage"
+#: app/about.xml
+msgctxt "AboutApplication"
 msgid "About $APPNAME"
 msgstr "$APPNAME에 대하여"
 
-#: app/about.xml
-msgctxt "AboutApplication"
+#: app/homepage.xml
+msgctxt "HomePage"
 msgid "About $APPNAME"
 msgstr "$APPNAME에 대하여"
 
@@ -1599,11 +1629,6 @@ msgctxt "MusicalSymbolSection"
 msgid "Action"
 msgstr "액션"
 
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.ActionPart"
-msgid "Action"
-msgstr "액션"
-
 #: engine/inspector.xml
 msgctxt "VideoTrackInspector"
 msgid "Action"
@@ -1611,6 +1636,11 @@ msgstr "액션"
 
 #: engine/editor.xml
 msgctxt "ToolBar.TasksMenu"
+msgid "Action"
+msgstr "액션"
+
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.ActionPart"
 msgid "Action"
 msgstr "액션"
 
@@ -1774,11 +1804,6 @@ msgctxt "MusicTrackInspectorContent"
 msgid "Active Sound Variation"
 msgstr "유효 사운드 바리에이션"
 
-#: engine/editor.xml
-msgctxt "ScoreEditorSoundVariationControls"
-msgid "Active Sound Variation"
-msgstr "유효 사운드 바리에이션"
-
 #: engine/trackcontrols.xml
 msgctxt "MusicTrackControls"
 msgid "Activity Meter"
@@ -1844,13 +1869,13 @@ msgctxt "MusicTrackInspector.FX"
 msgid "Add Note FX"
 msgstr "노트 FX 추가"
 
-#: show/showdialogs.xml
-msgctxt "AddPlayerDialog"
+#: show/show.xml
+msgctxt "Command"
 msgid "Add Player"
 msgstr "플레이어 추가"
 
-#: show/show.xml
-msgctxt "Command"
+#: show/showdialogs.xml
+msgctxt "AddPlayerDialog"
 msgid "Add Player"
 msgstr "플레이어 추가"
 
@@ -1904,13 +1929,13 @@ msgctxt "BrowserFileTypesOption"
 msgid "Add..."
 msgstr "추가..."
 
-#: devices/audiomixer.xml
-msgctxt "AudioIOSetup"
+#: devices/musicdevices.xml
+msgctxt "MusicDeviceSetup"
 msgid "Add..."
 msgstr "추가..."
 
-#: devices/musicdevices.xml
-msgctxt "MusicDeviceSetup"
+#: devices/audiomixer.xml
+msgctxt "AudioIOSetup"
 msgid "Add..."
 msgstr "추가..."
 
@@ -1960,7 +1985,7 @@ msgid "Album"
 msgstr "앨범"
 
 #: project/project.xml
-msgctxt "Project"
+msgctxt "ProjectTrackList"
 msgid "Album"
 msgstr "앨범"
 
@@ -1970,7 +1995,7 @@ msgid "Album Mode"
 msgstr "앨범 모드"
 
 #: project/project.xml
-msgctxt "Project"
+msgctxt "ProjectTrackList"
 msgid "Album Title"
 msgstr "앨범 제목"
 
@@ -2049,7 +2074,7 @@ msgctxt "AudioBendPanel.MarkerPart"
 msgid "Analyze"
 msgstr "분석"
 
-#: app/windowclasses.xml app/homepage.xml app/toolbar.xml
+#: app/toolbar.xml app/windowclasses.xml app/homepage.xml
 #: ccl/packages/packagemanager.xml
 msgctxt "Command"
 msgid "Application"
@@ -2065,13 +2090,13 @@ msgctxt "DiagnosticsDialog"
 msgid "Application settings"
 msgstr "어플리케이션 설정"
 
-#: engine/audioediting.xml
-msgctxt "EditPanel.ApplyPart"
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.ApplyPart"
 msgid "Apply"
 msgstr "적용"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.ApplyPart"
+#: engine/audioediting.xml
+msgctxt "EditPanel.ApplyPart"
 msgid "Apply"
 msgstr "적용"
 
@@ -2156,7 +2181,7 @@ msgid "Artist"
 msgstr "아티스트"
 
 #: project/project.xml
-msgctxt "Project"
+msgctxt "ProjectTrackList"
 msgid "Artist"
 msgstr "아티스트"
 
@@ -2165,13 +2190,13 @@ msgctxt "DetailedInfoTable"
 msgid "Artist"
 msgstr "아티스트"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "SetListHeader"
 msgid "Artist"
 msgstr "아티스트"
 
-#: show/show.xml
-msgctxt "SetListHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "Artist"
 msgstr "아티스트"
 
@@ -2186,7 +2211,7 @@ msgid "Artist Presets"
 msgstr "아티스트 프리셋"
 
 #: project/project.xml
-msgctxt "Project"
+msgctxt "ProjectTrackList"
 msgid "Artist(s) or Performer(s)"
 msgstr "아티스트 또는 퍼포머"
 
@@ -2284,6 +2309,16 @@ msgstr "오디오 이벤트"
 msgctxt "AudioEventProperties"
 msgid "Audio Event Properties"
 msgstr "오디오 이벤트 속성"
+
+#: project/project.xml
+msgctxt "ProjectEventProperties"
+msgid "Audio Event Properties"
+msgstr "오디오 이벤트 속성"
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
+msgid "Audio File Channels"
+msgstr "오디오 파일 채널"
 
 #: app/multitrack.xml
 msgctxt "SongContestDialog"
@@ -2500,13 +2535,13 @@ msgctxt "Command"
 msgid "Automation"
 msgstr "오토메이션"
 
-#: project/project.xml
-msgctxt "ProjectAutomationPanel"
-msgid "Automation"
-msgstr "오토메이션"
-
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRow2"
+msgid "Automation Mode"
+msgstr "오토메이션 모드"
+
+#: devices/audiofxeditor.xml
+msgctxt "SpatialAudioEditorHeaderView"
 msgid "Automation Mode"
 msgstr "오토메이션 모드"
 
@@ -2631,12 +2666,17 @@ msgid "Bar Numbers"
 msgstr "마디 번호"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.Timeline"
 msgid "Bar Offset"
 msgstr "마디 옵셋"
 
 #: devices/transport.xml
 msgctxt "Metronome"
+msgid "Bars"
+msgstr "마디"
+
+#: engine/songdialogs.xml
+msgctxt "SongSetup.Timeline"
 msgid "Bars"
 msgstr "마디"
 
@@ -2675,10 +2715,25 @@ msgctxt "Metronome"
 msgid "Beat"
 msgstr "비트"
 
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.MarkerPart"
-msgid "Bend Marker"
-msgstr "벤드 마커"
+#: engine/songdialogs.xml
+msgctxt "NewSongSettings"
+msgid "Bed Format"
+msgstr "베드 포맷"
+
+#: engine/songdialogs.xml
+msgctxt "SongSetup.SpatialAudio"
+msgid "Bed Format"
+msgstr "베드 포맷"
+
+#: engine/songdialogs.xml
+msgctxt "NewSongSettings"
+msgid "Bed Speaker Format"
+msgstr "베드 스피커 포맷"
+
+#: engine/songdialogs.xml
+msgctxt "SongSetup.SpatialAudio"
+msgid "Bed Speaker Format"
+msgstr "베드 스피커 포맷"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
@@ -2695,6 +2750,11 @@ msgctxt "AudioEventMiniProperties.Table"
 msgid "Bend Marker"
 msgstr "벤드 마커"
 
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.MarkerPart"
+msgid "Bend Marker"
+msgstr "벤드 마커"
+
 #: engine/audioexport.xml
 msgctxt "AudioExport"
 msgid "Between Each Marker"
@@ -2712,6 +2772,11 @@ msgstr "루프 사이"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
+msgid "Between Loop"
+msgstr "루프 사이"
+
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
 msgid "Between Loop"
 msgstr "루프 사이"
 
@@ -2727,6 +2792,11 @@ msgstr "선택된 마커 사이"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
+msgid "Between Selected Markers"
+msgstr "선택된 마커 사이"
+
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
 msgid "Between Selected Markers"
 msgstr "선택된 마커 사이"
 
@@ -2742,6 +2812,11 @@ msgstr "Song 스타트/엔드 마커 사이"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
+msgid "Between Song Start/End Marker"
+msgstr "Song 스타트/엔드 마커 사이"
+
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
 msgid "Between Song Start/End Marker"
 msgstr "Song 스타트/엔드 마커 사이"
 
@@ -2872,8 +2947,8 @@ msgstr "Notion 구매하기"
 
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
-msgid "By sharing anonymous usage data with $APPCOMPANY, you can help us make better decisions on new features and workflow improvements."
-msgstr "$APPCOMPANY에 익명으로 제공되는 여러분의 사용데이터는 새로운 기능과 워크플로우 개선을 위한 중요한 결정에 큰 도움이 됩니다."
+msgid "By sharing completely anonymous usage data with $APPCOMPANY, you are helping us make better decisions on new features and workflow improvements."
+msgstr "익명의 사용데이터를 $APPCOMPANY에 제공하면 새로운 기능과 워크플로우 개선을 위한 더 나은 결정을 내리는데 도움이 됩니다."
 
 #: app/microviews.xml
 msgctxt "MutableMicroViewBypass"
@@ -2887,6 +2962,11 @@ msgstr "바이패스"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
+msgid "Bypass"
+msgstr "바이패스"
+
+#: project/project.xml
+msgctxt "ProjectEventPropertiesListTarget"
 msgid "Bypass"
 msgstr "바이패스"
 
@@ -2945,13 +3025,13 @@ msgctxt "CDProtocol"
 msgid "CD Protocol"
 msgstr "CD 프로토콜"
 
-#: devices/transport.xml
-msgctxt "PerformanceMonitor.Meters"
+#: devices/synthrack.xml
+msgctxt "AudioSynthRackSlotViewCompact"
 msgid "CPU"
 msgstr "CPU"
 
-#: devices/synthrack.xml
-msgctxt "AudioSynthRackSlotViewCompact"
+#: devices/transport.xml
+msgctxt "PerformanceMonitor.Meters"
 msgid "CPU"
 msgstr "CPU"
 
@@ -3090,6 +3170,21 @@ msgctxt "ConsoleOptionContent"
 msgid "Channel Editor follows Selection"
 msgstr "채널 에디터가 선택영역을 팔로우"
 
+#: engine/trackcontrols.xml
+msgctxt "AudioTrackControlsContent"
+msgid "Channel Format"
+msgstr "채널 포맷"
+
+#: engine/trackcontrols.xml
+msgctxt "AudioTrackControlsContent"
+msgid "Channel Format: @value[]"
+msgstr "채널 포맷: @value[]"
+
+#: engine/trackcontrols.xml
+msgctxt "MonoStereoSurroundMenu"
+msgid "Channel Format: @value[]"
+msgstr "채널 포맷: @value[]"
+
 #: devices/audiomixer.xml
 msgctxt "MixerManager"
 msgid "Channel List"
@@ -3097,11 +3192,6 @@ msgstr "채널 리스트"
 
 #: app/shared.xml
 msgctxt "MutablePlainButton"
-msgid "Channel Mode"
-msgstr "채널 모드"
-
-#: engine/trackcontrols.xml
-msgctxt "AudioTrackControlsContent"
 msgid "Channel Mode"
 msgstr "채널 모드"
 
@@ -3134,11 +3224,6 @@ msgstr "채널 번호"
 msgctxt "TrackControlsMainContent"
 msgid "Channel Number"
 msgstr "채널 번호"
-
-#: engine/trackcontrols.xml
-msgctxt "AudioTrackControlsContent"
-msgid "Channel Speaker Setup"
-msgstr "채널 스피커 설정"
 
 #: devices/audiofxeditor.xml
 msgctxt "SplitterEditView"
@@ -3185,6 +3270,11 @@ msgctxt "Command"
 msgid "Check for Available Downloads"
 msgstr "이용가능한 다운로드 확인"
 
+#: app/options.xml
+msgctxt "StartupOption"
+msgid "Check for Updates"
+msgstr "업데이트 확인"
+
 #: app/homepage.xml
 msgctxt "HomePage"
 msgid "Check for Updates"
@@ -3192,11 +3282,6 @@ msgstr "업데이트 확인"
 
 #: app/homepage.xml ccl/packages/packagemanager.xml
 msgctxt "Command"
-msgid "Check for Updates"
-msgstr "업데이트 확인"
-
-#: app/options.xml
-msgctxt "StartupOption"
 msgid "Check for Updates"
 msgstr "업데이트 확인"
 
@@ -3220,13 +3305,13 @@ msgctxt "AddPlayerDialog"
 msgid "Choose this type to use a microphone, guitar, or other instrument and apply effects."
 msgstr "마이크, 기타, 혹은 다른 악기를 사용하고 이펙트를 적용하기 위해 이 타입을 선택합니다."
 
-#: engine/eventinspector.xml
-msgctxt "ChordEventInspector"
+#: engine/editor.xml
+msgctxt "AudioChordEventProperties"
 msgid "Chord"
 msgstr "코드"
 
-#: engine/editor.xml
-msgctxt "AudioChordEventProperties"
+#: engine/eventinspector.xml
+msgctxt "ChordEventInspector"
 msgid "Chord"
 msgstr "코드"
 
@@ -3290,20 +3375,15 @@ msgctxt "TrackControls.Chords"
 msgid "Chords"
 msgstr "코드"
 
+#: engine/editor.xml
+msgctxt "ScorePartSetup"
+msgid "Circles in TAB"
+msgstr "TAB에 동그라미 표시"
+
 #: devices/transport.xml
 msgctxt "PerformanceMonitor.CacheOptions"
 msgid "Cleanup Cache"
 msgstr "캐시 비우기"
-
-#: app/startup.xml
-msgctxt "MessageWindow"
-msgid "Clear"
-msgstr "클리어"
-
-#: app/homepage.xml
-msgctxt "DocumentBlocks"
-msgid "Clear"
-msgstr "클리어"
 
 #: app/shared.xml
 msgctxt "FilterBar"
@@ -3317,6 +3397,16 @@ msgstr "클리어"
 
 #: app/shared.xml
 msgctxt "SearchBar"
+msgid "Clear"
+msgstr "클리어"
+
+#: app/startup.xml
+msgctxt "MessageWindow"
+msgid "Clear"
+msgstr "클리어"
+
+#: app/homepage.xml
+msgctxt "DocumentBlocks"
 msgid "Clear"
 msgstr "클리어"
 
@@ -3376,7 +3466,7 @@ msgid "Click in Precount Only"
 msgstr "예비카운트에서만 클릭"
 
 #: devices/devices.xml
-msgctxt "ParamMapper.LeftPart.Inner"
+msgctxt "ParamMapper.LeftPart"
 msgid "Click+Drag Parameter"
 msgstr "클릭+드래그 파라미터"
 
@@ -3392,6 +3482,11 @@ msgstr "클립 버전"
 
 #: engine/eventinspector.xml
 msgctxt "EventNodeMiniProperties.MenuControl"
+msgid "Clip Version"
+msgstr "클립 버전"
+
+#: project/project.xml
+msgctxt "ProjectEventProperties"
 msgid "Clip Version"
 msgstr "클립 버전"
 
@@ -3430,6 +3525,11 @@ msgctxt "MixerManager"
 msgid "Close"
 msgstr "닫기"
 
+#: devices/audiofxeditor.xml
+msgctxt "SpatialAudioEditorHeaderView"
+msgid "Close"
+msgstr "닫기"
+
 #: engine/recordpanel.xml
 msgctxt "RecordPanel"
 msgid "Close"
@@ -3442,6 +3542,11 @@ msgstr "닫기"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
+msgid "Close"
+msgstr "닫기"
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
 msgid "Close"
 msgstr "닫기"
 
@@ -3545,6 +3650,16 @@ msgctxt "VideoTrackInspector"
 msgid "Color Selector"
 msgstr "컬러 셀렉터"
 
+#: engine/editor.xml
+msgctxt "EditorLeftPanelHeader"
+msgid "Color Selector"
+msgstr "컬러 셀렉터"
+
+#: engine/editor.xml
+msgctxt "EditorLeftPanelHeader_TrackColor"
+msgid "Color Selector"
+msgstr "컬러 셀렉터"
+
 #: engine/eventinspector.xml
 msgctxt "EventHeadline"
 msgid "Color Selector"
@@ -3557,16 +3672,6 @@ msgstr "컬러 셀렉터"
 
 #: engine/eventinspector.xml
 msgctxt "ChordEventMiniProperties"
-msgid "Color Selector"
-msgstr "컬러 셀렉터"
-
-#: engine/editor.xml
-msgctxt "EditorLeftPanelHeader"
-msgid "Color Selector"
-msgstr "컬러 셀렉터"
-
-#: engine/editor.xml
-msgctxt "EditorLeftPanelHeader_TrackColor"
 msgid "Color Selector"
 msgstr "컬러 셀렉터"
 
@@ -3587,6 +3692,11 @@ msgstr "컬러 셀렉터"
 
 #: project/project.xml
 msgctxt "ProjectTrackMiniProperties"
+msgid "Color Selector"
+msgstr "컬러 셀렉터"
+
+#: project/project.xml
+msgctxt "ProjectEventProperties"
 msgid "Color Selector"
 msgstr "컬러 셀렉터"
 
@@ -3689,6 +3799,16 @@ msgstr "오디오 장치 환경설정..."
 msgctxt "Setup"
 msgid "Configure External Devices..."
 msgstr "외장 장치 환경 설정..."
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
+msgid "Confirm"
+msgstr "확인"
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
+msgid "Confirm Speaker Format"
+msgstr "스피커 포맷 확인"
 
 #: app/windowclasses.xml
 msgctxt "Console"
@@ -3865,13 +3985,13 @@ msgctxt "SendToNotionInner"
 msgid "Create lead sheet"
 msgstr "리드 시트 만들기"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "PackageVendor"
+#: ccl/extensionmanager.xml
+msgctxt "ExtensionPropertiesInplace"
 msgid "Created by"
 msgstr "작성자"
 
-#: ccl/extensionmanager.xml
-msgctxt "ExtensionPropertiesInplace"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageVendor"
 msgid "Created by"
 msgstr "작성자"
 
@@ -4271,7 +4391,7 @@ msgid "Discard Message"
 msgstr "메시지 삭제"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.Timeline"
 msgid "Display Mode"
 msgstr "디스플레이 모드"
 
@@ -4435,6 +4555,11 @@ msgctxt "TrackExport"
 msgid "Duration"
 msgstr "듀레이션"
 
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
+msgid "Duration"
+msgstr "듀레이션"
+
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
 msgid "Duration"
@@ -4485,6 +4610,11 @@ msgctxt "TransportPanel"
 msgid "Edit"
 msgstr "편집"
 
+#: devices/transport.xml
+msgctxt "ProjectTransport"
+msgid "Edit"
+msgstr "에디트"
+
 #: engine/editor.xml
 msgctxt "MusicEditor"
 msgid "Edit"
@@ -4496,7 +4626,7 @@ msgid "Edit"
 msgstr "편집"
 
 #: devices/devices.xml
-msgctxt "ParamMapper.LeftPart.Inner"
+msgctxt "ParamMapper.LeftPart"
 msgid "Edit Automation @cmd[Automation|Show Current Parameter]"
 msgstr "오토메이션 편집 @cmd[Automation|Show Current Parameter]"
 
@@ -4605,6 +4735,16 @@ msgctxt "ChannelSelector"
 msgid "Edit Remote Bank"
 msgstr "리모트 뱅크 편집"
 
+#: engine/eventinspector.xml
+msgctxt "AudioEventPropertiesListTarget"
+msgid "Edit Speaker Mapping"
+msgstr "스피커 매핑 에디트"
+
+#: engine/eventinspector.xml
+msgctxt "AudioEventMiniProperties.Table"
+msgid "Edit Speaker Mapping"
+msgstr "스피커 매핑 에디트"
+
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceSetup"
 msgid "Edit..."
@@ -4620,13 +4760,13 @@ msgctxt "InplaceOptions"
 msgid "Editing"
 msgstr "에디팅"
 
-#: devices/audiofxeditor.xml
-msgctxt "AudioFXEditorEmbedded"
+#: app/windowclasses.xml
+msgctxt "Command"
 msgid "Editor"
 msgstr "에디터"
 
-#: engine/eventinspector.xml
-msgctxt "ChordDisplay"
+#: devices/audiofxeditor.xml
+msgctxt "AudioFXEditorEmbedded"
 msgid "Editor"
 msgstr "에디터"
 
@@ -4635,8 +4775,18 @@ msgctxt "Editor"
 msgid "Editor"
 msgstr "에디터"
 
+#: engine/eventinspector.xml
+msgctxt "ChordDisplay"
+msgid "Editor"
+msgstr "에디터"
+
 #: project/project.xml
 msgctxt "ProjectFader"
+msgid "Editor"
+msgstr "에디터"
+
+#: project/project.xml
+msgctxt "ProjectEventEditor"
 msgid "Editor"
 msgstr "에디터"
 
@@ -4665,13 +4815,13 @@ msgctxt "BurnerSelectDialog"
 msgid "Eject"
 msgstr "꺼내기"
 
-#: engine/eventinspector.xml
-msgctxt "AudioEventFXHeader"
+#: engine/editor.xml
+msgctxt "MusicStepRecordPanel"
 msgid "Enable"
 msgstr "켜기"
 
-#: engine/editor.xml
-msgctxt "MusicStepRecordPanel"
+#: engine/eventinspector.xml
+msgctxt "AudioEventFXHeader"
 msgid "Enable"
 msgstr "켜기"
 
@@ -4790,13 +4940,18 @@ msgctxt "ConsoleOptionContent"
 msgid "Enable undo"
 msgstr "되돌리기 켜기"
 
+#: engine/eventediting.xml
+msgctxt "SpotEventsDialog"
+msgid "End"
+msgstr "끝"
+
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.OptionsPart"
 msgid "End"
 msgstr "끝"
 
-#: engine/eventediting.xml
-msgctxt "SpotEventsDialog"
+#: engine/editor.xml
+msgctxt "NoteEventProperties"
 msgid "End"
 msgstr "끝"
 
@@ -4825,8 +4980,8 @@ msgctxt "MusicPartPropertiesTarget"
 msgid "End"
 msgstr "끝"
 
-#: engine/editor.xml
-msgctxt "NoteEventProperties"
+#: project/project.xml
+msgctxt "ProjectEventPropertiesListTarget"
 msgid "End"
 msgstr "끝"
 
@@ -4980,10 +5135,20 @@ msgctxt "TrackExport"
 msgid "Export Range"
 msgstr "익스포트 레인지"
 
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
+msgid "Export Range"
+msgstr "익스포트 레인지"
+
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
 msgid "Export Range"
 msgstr "익스포트 레인지"
+
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
+msgid "Export Spatial Audio"
+msgstr "공간감 오디오(Spatial Audio) 익스포트"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
@@ -5040,6 +5205,16 @@ msgctxt "ChannelSelector"
 msgid "FX"
 msgstr "FX"
 
+#: devices/audiofxeditor.xml
+msgctxt "InsertSpeakerMap"
+msgid "FX"
+msgstr "FX"
+
+#: devices/audiofxeditor.xml
+msgctxt "FXEditorHeaderRow1"
+msgid "FX Speaker Type"
+msgstr "FX 스피커 타입"
+
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.EventsPart"
 msgid "Fade In"
@@ -5066,6 +5241,11 @@ msgid "Fade-In"
 msgstr "페이드인"
 
 #: project/project.xml
+msgctxt "ProjectEventPropertiesListTarget"
+msgid "Fade-In"
+msgstr "페이드인"
+
+#: project/project.xml
 msgctxt "ProjectEventMiniProperties.Table"
 msgid "Fade-In"
 msgstr "페이드인"
@@ -5077,6 +5257,11 @@ msgstr "페이드아웃"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
+msgid "Fade-Out"
+msgstr "페이드아웃"
+
+#: project/project.xml
+msgctxt "ProjectEventPropertiesListTarget"
 msgid "Fade-Out"
 msgstr "페이드아웃"
 
@@ -5152,6 +5337,11 @@ msgstr "파일명"
 
 #: engine/audioexport.xml
 msgctxt "AudioExport"
+msgid "Filename"
+msgstr "파일명"
+
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
 msgid "Filename"
 msgstr "파일명"
 
@@ -5290,11 +5480,6 @@ msgctxt "LyricsDisplaySetup"
 msgid "Font Size"
 msgstr "폰트 크기"
 
-#: engine/mediapool.xml
-msgctxt "ConvertFilesDialog"
-msgid "Format"
-msgstr "포맷"
-
 #: engine/audioexport.xml
 msgctxt "AudioExport"
 msgid "Format"
@@ -5302,6 +5487,21 @@ msgstr "포맷"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
+msgid "Format"
+msgstr "포맷"
+
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
+msgid "Format"
+msgstr "포맷"
+
+#: engine/mediapool.xml
+msgctxt "ConvertFilesDialog"
+msgid "Format"
+msgstr "포맷"
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
 msgid "Format"
 msgstr "포맷"
 
@@ -5321,12 +5521,17 @@ msgid "Format of ruler and main time display"
 msgstr "룰러와 메인 타임 디스플레이 설정"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.Timeline"
 msgid "Frame Offset"
 msgstr "프레임 옵셋"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.General"
+msgid "Frame Rate"
+msgstr "프레임 레이트"
+
+#: engine/songdialogs.xml
+msgctxt "SongSetup.Timeline"
 msgid "Frame Rate"
 msgstr "프레임 레이트"
 
@@ -5356,7 +5561,7 @@ msgid "Frequency Split"
 msgstr "프리퀀시 스플릿"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.General"
 msgid "From Video"
 msgstr "비디오로부터"
 
@@ -5396,6 +5601,11 @@ msgid "Gain"
 msgstr "게인"
 
 #: project/project.xml
+msgctxt "ProjectEventPropertiesListTarget"
+msgid "Gain"
+msgstr "게인"
+
+#: project/project.xml
 msgctxt "ProjectEventMiniProperties.Table"
 msgid "Gain"
 msgstr "게인"
@@ -5416,6 +5626,11 @@ msgid "Gain Envelope"
 msgstr "게인 엔벨롭"
 
 #: project/project.xml
+msgctxt "ProjectEventPropertiesListTarget"
+msgid "Gain Envelope"
+msgstr "게인 엔벨롭"
+
+#: project/project.xml
 msgctxt "ProjectEventMiniProperties.Table"
 msgid "Gain Envelope"
 msgstr "게인 엔벨롭"
@@ -5429,6 +5644,11 @@ msgstr "게이트"
 msgctxt "MusicPatternToolsHeader"
 msgid "Gate"
 msgstr "게이트"
+
+#: engine/songdialogs.xml
+msgctxt "SongSetup.General"
+msgid "General"
+msgstr "일반"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup"
@@ -5550,11 +5770,6 @@ msgctxt "QuantizeSetup.Detached"
 msgid "Groove"
 msgstr "그루브"
 
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.TrackPart"
-msgid "Group"
-msgstr "그룹"
-
 #: engine/inspector.xml
 msgctxt "AudioTrackInspectorContent"
 msgid "Group"
@@ -5567,6 +5782,11 @@ msgstr "그룹"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
+msgid "Group"
+msgstr "그룹"
+
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.TrackPart"
 msgid "Group"
 msgstr "그룹"
 
@@ -5620,7 +5840,7 @@ msgctxt "SpectrumMeterSettings"
 msgid "Height"
 msgstr "높이"
 
-#: app/homepage.xml app/toolbar.xml app/about.xml
+#: app/toolbar.xml app/about.xml app/homepage.xml
 msgctxt "Command"
 msgid "Help"
 msgstr "도움말"
@@ -5635,7 +5855,7 @@ msgctxt "PlugInManager"
 msgid "Hide All"
 msgstr "모두 숨김"
 
-#: app/windowclasses.xml app/toolbar.xml
+#: app/toolbar.xml app/windowclasses.xml
 msgctxt "HistoryPanel"
 msgid "History"
 msgstr "기록"
@@ -5771,7 +5991,7 @@ msgid "In"
 msgstr "In"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.General"
 msgid "Include effects when updating mastering file"
 msgstr "마스터링 파일 업데이트시 이펙트 포함"
 
@@ -5825,16 +6045,6 @@ msgctxt "SongPropertiesExpanded"
 msgid "Initial time signature of song"
 msgstr "Song의 시작 박자표"
 
-#: show/showdialogs.xml
-msgctxt "AddPlayerDialog.AudioOptions"
-msgid "Input"
-msgstr "입력"
-
-#: show/showdialogs.xml
-msgctxt "AddPlayerDialog.InstrumentOptions"
-msgid "Input"
-msgstr "입력"
-
 #: show/show.xml
 msgctxt "FxRackPlayerControls"
 msgid "Input"
@@ -5845,13 +6055,23 @@ msgctxt "VirtualInstrumentPlayerControls"
 msgid "Input"
 msgstr "입력"
 
-#: engine/eventinspector.xml
-msgctxt "ChordDisplay"
-msgid "Input Chord"
-msgstr "코드 입력"
+#: show/showdialogs.xml
+msgctxt "AddPlayerDialog.AudioOptions"
+msgid "Input"
+msgstr "입력"
+
+#: show/showdialogs.xml
+msgctxt "AddPlayerDialog.InstrumentOptions"
+msgid "Input"
+msgstr "입력"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
+msgid "Input Chord"
+msgstr "코드 입력"
+
+#: engine/eventinspector.xml
+msgctxt "ChordDisplay"
 msgid "Input Chord"
 msgstr "코드 입력"
 
@@ -6205,13 +6425,13 @@ msgctxt "SynthCombinatorEditNodeView"
 msgid "Instruments"
 msgstr "악기"
 
-#: devices/audiomixer.xml
-msgctxt "ChannelSelector"
+#: devices/synthrack.xml
+msgctxt "SynthRack"
 msgid "Instruments"
 msgstr "악기"
 
-#: devices/synthrack.xml
-msgctxt "SynthRack"
+#: devices/audiomixer.xml
+msgctxt "ChannelSelector"
 msgid "Instruments"
 msgstr "악기"
 
@@ -6425,11 +6645,6 @@ msgctxt "ImportSongDataOptions"
 msgid "Layers"
 msgstr "레이어"
 
-#: engine/tracklistinspector.xml
-msgctxt "TrackListEmbeddedInspector"
-msgid "Layers"
-msgstr "레이어"
-
 #: engine/inspector.xml
 msgctxt "AudioTrackInspectorContent"
 msgid "Layers"
@@ -6442,6 +6657,11 @@ msgstr "레이어"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
+msgid "Layers"
+msgstr "레이어"
+
+#: engine/tracklistinspector.xml
+msgctxt "TrackListEmbeddedInspector"
 msgid "Layers"
 msgstr "레이어"
 
@@ -6485,20 +6705,20 @@ msgctxt "ActivationMode.Subscription"
 msgid "Learn more about $CLOUDNAME"
 msgstr "$CLOUDNAME에 대해 더 알아보기"
 
+#: app/apptracking.xml
+msgctxt "AppTrackingDialog"
+msgid "Learn more about the anonymous usage data we collect"
+msgstr "익명으로 수집되는 데이터에 대해 더 알아보려면 클릭"
+
 #: app/multitrack.xml
 msgctxt "SongContestDialog"
 msgid "Learn more about this contest"
 msgstr "이 콘테스트에 대해 더 알아보기"
 
-#: app/apptracking.xml
-msgctxt "AppTrackingDialog"
-msgid "Learn more about usage data we collect"
-msgstr "수집하는 사용데이터에 대해 더 자세히 알아보기"
-
 #: engine/eventinspector.xml
 msgctxt "Command"
 msgid "Left"
-msgstr "왼쪽"
+msgstr "레프트"
 
 #: engine/eventinspector.xml
 msgctxt "LyricsDisplaySetup"
@@ -6525,6 +6745,11 @@ msgctxt "SpotEventsDialog"
 msgid "Length"
 msgstr "길이"
 
+#: engine/songdialogs.xml
+msgctxt "SongPropertiesExpanded"
+msgid "Length"
+msgstr "길이"
+
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "Length"
@@ -6532,11 +6757,6 @@ msgstr "길이"
 
 #: engine/editor.xml
 msgctxt "NoteEventProperties"
-msgid "Length"
-msgstr "길이"
-
-#: engine/songdialogs.xml
-msgctxt "SongPropertiesExpanded"
 msgid "Length"
 msgstr "길이"
 
@@ -6651,7 +6871,7 @@ msgid "Listen Bus"
 msgstr "리슨 버스"
 
 #: project/project.xml
-msgctxt "Project"
+msgctxt "ProjectInspector"
 msgid "Listen Bus"
 msgstr "리슨 버스"
 
@@ -6712,6 +6932,11 @@ msgstr "위치"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
+msgid "Location"
+msgstr "위치"
+
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
 msgid "Location"
 msgstr "위치"
 
@@ -6975,6 +7200,11 @@ msgctxt "MusicDeviceEditDialog"
 msgid "Manufacturer"
 msgstr "제조사"
 
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
+msgid "Map Audio File Channels"
+msgstr "오디오 파일 채널 매핑"
+
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Margins"
@@ -7006,7 +7236,7 @@ msgid "Marker Track"
 msgstr "마커 트랙"
 
 #: project/project.xml
-msgctxt "Project"
+msgctxt "ProjectInspector"
 msgid "Master"
 msgstr "마스터링"
 
@@ -7205,6 +7435,11 @@ msgctxt "ColorSchemeOption.Levels"
 msgid "Mode"
 msgstr "모드"
 
+#: engine/songdialogs.xml
+msgctxt "SongSetup.SpatialAudio"
+msgid "Mode"
+msgstr "모드"
+
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.MarkerPart"
 msgid "Mode"
@@ -7245,6 +7480,11 @@ msgctxt "MutablePlainButton"
 msgid "Monitor"
 msgstr "모니터"
 
+#: engine/songdialogs.xml
+msgctxt "NewSongSettings"
+msgid "Monitoring Format"
+msgstr "모니터링 포맷"
+
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
 msgid "Monitoring Latencies"
@@ -7259,11 +7499,6 @@ msgstr "모니터링이 레코딩 트랙을 팔로우"
 msgctxt "InplaceOptions"
 msgid "Monitoring mutes playback (Tape style)"
 msgstr "모니터링 중에 재생 뮤트 (테이프 스타일)"
-
-#: engine/audioexport.xml
-msgctxt "AudioExport"
-msgid "Mono"
-msgstr "모노"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
@@ -7560,23 +7795,23 @@ msgctxt "NoSetListItemProperties"
 msgid "No Setlist item selected"
 msgstr "선택된 셋리스트 아이템이 없습니다."
 
-#: engine/eventinspector.xml
-msgctxt "ChordInspectorContent"
-msgid "No chord selected"
-msgstr "선택된 코드가 없습니다."
-
 #: engine/editor.xml
 msgctxt "AudioChordEventInspector"
 msgid "No chord selected"
 msgstr "선택된 코드가 없습니다."
 
 #: engine/eventinspector.xml
-msgctxt "NoEventProperties"
-msgid "No event selected"
-msgstr "선택된 이벤트가 없습니다."
+msgctxt "ChordInspectorContent"
+msgid "No chord selected"
+msgstr "선택된 코드가 없습니다."
 
 #: engine/editor.xml
 msgctxt "NoteEventInspector"
+msgid "No event selected"
+msgstr "선택된 이벤트가 없습니다."
+
+#: engine/eventinspector.xml
+msgctxt "NoEventProperties"
 msgid "No event selected"
 msgstr "선택된 이벤트가 없습니다."
 
@@ -7641,7 +7876,7 @@ msgid "Normal"
 msgstr "노멀"
 
 #: project/project.xml
-msgctxt "Project"
+msgctxt "ProjectTrackList"
 msgid "Normal"
 msgstr "노멀"
 
@@ -7657,6 +7892,11 @@ msgstr "노멀라이즈"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
+msgid "Normalize"
+msgstr "노멀라이즈"
+
+#: project/project.xml
+msgctxt "ProjectEventPropertiesListTarget"
 msgid "Normalize"
 msgstr "노멀라이즈"
 
@@ -7945,11 +8185,6 @@ msgctxt "UserOptionDialog"
 msgid "Options"
 msgstr "옵션"
 
-#: devices/audiomixer.xml
-msgctxt "MixerManager"
-msgid "Options"
-msgstr "옵션"
-
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Options"
@@ -7957,6 +8192,11 @@ msgstr "옵션"
 
 #: devices/transport.xml
 msgctxt "PerformanceMonitor.Cache"
+msgid "Options"
+msgstr "옵션"
+
+#: devices/audiomixer.xml
+msgctxt "MixerManager"
 msgid "Options"
 msgstr "옵션"
 
@@ -7970,6 +8210,11 @@ msgctxt "TrackExport"
 msgid "Options"
 msgstr "옵션"
 
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
+msgid "Options"
+msgstr "옵션"
+
 #: engine/song.xml
 msgctxt "TrackControlsButtonsHeader"
 msgid "Options"
@@ -7980,11 +8225,6 @@ msgctxt "LyricsDisplay"
 msgid "Options"
 msgstr "옵션"
 
-#: project/burn.xml
-msgctxt "BurnerSelectDialog"
-msgid "Options"
-msgstr "옵션"
-
 #: project/audiofile.xml
 msgctxt "AudioFilePublisher"
 msgid "Options"
@@ -7992,6 +8232,11 @@ msgstr "옵션"
 
 #: project/audiofile.xml
 msgctxt "ImageMaker"
+msgid "Options"
+msgstr "옵션"
+
+#: project/burn.xml
+msgctxt "BurnerSelectDialog"
 msgid "Options"
 msgstr "옵션"
 
@@ -8035,16 +8280,6 @@ msgctxt "VideoExport"
 msgid "Output"
 msgstr "출력"
 
-#: show/showdialogs.xml
-msgctxt "AddPlayerDialog.AudioOptions"
-msgid "Output"
-msgstr "출력"
-
-#: show/showdialogs.xml
-msgctxt "AddPlayerDialog.InstrumentOptions"
-msgid "Output"
-msgstr "출력"
-
 #: show/show.xml
 msgctxt "BackingTrackPlayerControls"
 msgid "Output"
@@ -8055,18 +8290,43 @@ msgctxt "FxRackPlayerControls"
 msgid "Output"
 msgstr "출력"
 
+#: show/showdialogs.xml
+msgctxt "AddPlayerDialog.AudioOptions"
+msgid "Output"
+msgstr "출력"
+
+#: show/showdialogs.xml
+msgctxt "AddPlayerDialog.InstrumentOptions"
+msgid "Output"
+msgstr "출력"
+
+#: engine/songdialogs.xml
+msgctxt "NewSongSettings"
+msgid "Output Format"
+msgstr "출력포맷"
+
+#: engine/songdialogs.xml
+msgctxt "SongSetup.SpatialAudio"
+msgid "Output Format"
+msgstr "출력포맷"
+
 #: devices/devices.xml
 msgctxt "AudioSetup.Device"
 msgid "Output Latency"
 msgstr "출력 레이턴시"
 
-#: devices/audiomixer.xml
-msgctxt "AudioIOSetup"
-msgid "Outputs"
-msgstr "출력"
+#: engine/songdialogs.xml
+msgctxt "NewSongSettings"
+msgid "Output Speaker Format"
+msgstr "출력 스피커 포맷"
 
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceEditorHeaderView"
+msgid "Outputs"
+msgstr "출력"
+
+#: devices/audiomixer.xml
+msgctxt "AudioIOSetup"
 msgid "Outputs"
 msgstr "출력"
 
@@ -8082,6 +8342,11 @@ msgstr "오버랩"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
+msgid "Overlap"
+msgstr "오버랩"
+
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
 msgid "Overlap"
 msgstr "오버랩"
 
@@ -8121,7 +8386,7 @@ msgid "Pan"
 msgstr "팬"
 
 #: devices/devices.xml
-msgctxt "ParamMapper.LeftPart.Inner"
+msgctxt "ParamMapper.LeftPart"
 msgid "Parameter"
 msgstr "파라미터"
 
@@ -8132,6 +8397,11 @@ msgstr "파라미터"
 
 #: devices/devices.xml
 msgctxt "ParamMapper"
+msgid "Parameter Mapping Control"
+msgstr "파라미터 매핑 컨트롤"
+
+#: devices/devices.xml
+msgctxt "ParamMapperSizable"
 msgid "Parameter Mapping Control"
 msgstr "파라미터 매핑 컨트롤"
 
@@ -8290,11 +8560,6 @@ msgctxt "MusicDeviceSetup"
 msgid "Placement..."
 msgstr "배치..."
 
-#: engine/musicdialogs.xml
-msgctxt "MusicBounceDialog"
-msgid "Play"
-msgstr "재생"
-
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "AudioPreviewPlayer"
 msgid "Play"
@@ -8302,6 +8567,11 @@ msgstr "재생"
 
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "MusicPreviewPlayer"
+msgid "Play"
+msgstr "재생"
+
+#: engine/musicdialogs.xml
+msgctxt "MusicBounceDialog"
 msgid "Play"
 msgstr "재생"
 
@@ -8420,13 +8690,13 @@ msgctxt "Command"
 msgid "Plug-In Manager"
 msgstr "플러그인 매니저"
 
-#: ccl/pluginmanager.xml
-msgctxt "PlugInManager"
+#: ccl/browser.xml
+msgctxt "BrowserHomeContent"
 msgid "Plug-In Manager"
 msgstr "플러그인 매니저"
 
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
 msgid "Plug-In Manager"
 msgstr "플러그인 매니저"
 
@@ -8550,11 +8820,6 @@ msgctxt "AudioTransformDialog"
 msgid "Preserve Realtime State"
 msgstr "리얼타임 상태유지"
 
-#: engine/audioexport.xml
-msgctxt "TrackExport"
-msgid "Preserve mono tracks"
-msgstr "모노트랙 유지"
-
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Preserve order of channels with folder track"
@@ -8575,7 +8840,7 @@ msgctxt "AddPlayerDialog.AudioOptions"
 msgid "Preset"
 msgstr "프리셋"
 
-#: ccl/pluginmanager.xml ccl/browser.xml devices/audiofxeditor.xml
+#: ccl/browser.xml ccl/pluginmanager.xml devices/audiofxeditor.xml
 msgctxt "Command"
 msgid "Presets"
 msgstr "프리셋"
@@ -8696,9 +8961,24 @@ msgid "Project"
 msgstr "Project"
 
 #: app/windowclasses.xml
+msgctxt "ProjectAnalyser"
+msgid "Project Analyser"
+msgstr "프로젝트 아날라이저"
+
+#: app/windowclasses.xml
 msgctxt "ProjectEditor"
 msgid "Project Editor"
 msgstr "Project 에디터"
+
+#: app/windowclasses.xml
+msgctxt "ProjectEventEditor"
+msgid "Project Event Editor"
+msgstr "프로젝트 이벤트 에디터"
+
+#: app/windowclasses.xml
+msgctxt "ProjectEventInspector"
+msgid "Project Event Inspector"
+msgstr "프로젝트 이벤트 인스펙터"
 
 #: ccl/overlays.xml
 msgctxt "UserOptionDialog"
@@ -8750,11 +9030,6 @@ msgctxt "NoteRepeater"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.ActionPart"
-msgid "Quantize"
-msgstr "퀀타이즈"
-
 #: engine/quantize.xml
 msgctxt "QuantizePanel"
 msgid "Quantize"
@@ -8772,6 +9047,11 @@ msgstr "퀀타이즈"
 
 #: engine/editor.xml
 msgctxt "EditorToolBar"
+msgid "Quantize"
+msgstr "퀀타이즈"
+
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.ActionPart"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
@@ -8855,13 +9135,13 @@ msgctxt "HoldValues"
 msgid "RMS Right [dB]"
 msgstr "RMS Right [dB]"
 
-#: devices/synthcombinator.xml
-msgctxt "SynthNodeEditView"
+#: devices/musicdevices.xml
+msgctxt "NoteRepeater"
 msgid "Range"
 msgstr "레인지"
 
-#: devices/musicdevices.xml
-msgctxt "NoteRepeater"
+#: devices/synthcombinator.xml
+msgctxt "SynthNodeEditView"
 msgid "Range"
 msgstr "레인지"
 
@@ -8941,7 +9221,7 @@ msgid "Recent Files"
 msgstr "최근 사용한 파일"
 
 #: devices/devices.xml
-msgctxt "ParamMapper.LeftPart.Inner"
+msgctxt "ParamMapper.LeftPart"
 msgid "Recent Parameters"
 msgstr "최근 사용한 파라미터"
 
@@ -8985,6 +9265,11 @@ msgctxt "TransportPanel"
 msgid "Record @cmd[Transport|Record]"
 msgstr "레코딩 @cmd[Transport|Record]"
 
+#: engine/songdialogs.xml
+msgctxt "SongSetup.General"
+msgid "Record Format"
+msgstr "레코드 포맷"
+
 #: engine/musicdialogs.xml
 msgctxt "MusicBounceDialog"
 msgid "Record Input"
@@ -8994,6 +9279,11 @@ msgstr "레코딩 입력"
 msgctxt "AudioTrackControlsContent"
 msgid "Record Input"
 msgstr "레코딩 입력"
+
+#: engine/trackcontrols.xml
+msgctxt "AudioTrackControlsContent"
+msgid "Record Input Format: @value[]"
+msgstr "레코드 인풋 포맷: @value[]"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
@@ -9039,11 +9329,6 @@ msgstr "레코딩 패널"
 msgctxt "Command"
 msgid "Record Panel"
 msgstr "레코딩 패널"
-
-#: engine/trackcontrols.xml
-msgctxt "AudioTrackControlsContent"
-msgid "Record Speaker Setup"
-msgstr "레코딩 스피커 설정"
 
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
@@ -9130,6 +9415,11 @@ msgctxt "PlugInManager"
 msgid "Remove"
 msgstr "제거"
 
+#: devices/musicdevices.xml
+msgctxt "MusicDeviceSetup"
+msgid "Remove"
+msgstr "제거"
+
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
 msgid "Remove"
@@ -9137,11 +9427,6 @@ msgstr "제거"
 
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup"
-msgid "Remove"
-msgstr "제거"
-
-#: devices/musicdevices.xml
-msgctxt "MusicDeviceSetup"
 msgid "Remove"
 msgstr "제거"
 
@@ -9205,13 +9490,13 @@ msgctxt "DetailedInfoTable"
 msgid "Remove Image"
 msgstr "이미지 제거"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "SetListHeader"
 msgid "Remove Image"
 msgstr "이미지 제거"
 
-#: show/show.xml
-msgctxt "SetListHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "Remove Image"
 msgstr "이미지 제거"
 
@@ -9356,7 +9641,17 @@ msgid "Reset"
 msgstr "리셋"
 
 #: engine/editor.xml
+msgctxt "ScorePartSetup"
+msgid "Reset"
+msgstr "리셋"
+
+#: engine/editor.xml
 msgctxt "ScorePageLayout"
+msgid "Reset"
+msgstr "리셋"
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
 msgid "Reset"
 msgstr "리셋"
 
@@ -9380,6 +9675,11 @@ msgctxt "PlugInManager"
 msgid "Reset Filter"
 msgstr "필터 리셋"
 
+#: engine/editor.xml
+msgctxt "ScorePartSetup"
+msgid "Reset Notation Data for Pitch"
+msgstr "피치 기보 데이터 리셋"
+
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup"
 msgid "Reset to Default"
@@ -9395,18 +9695,13 @@ msgctxt "PCMEncoderOption"
 msgid "Resolution"
 msgstr "레졸루션"
 
-#: engine/editor.xml
-msgctxt "MusicPatternToolsHeader"
-msgid "Resolution"
-msgstr "레졸루션"
-
 #: engine/songdialogs.xml
 msgctxt "SongPropertiesExpanded"
 msgid "Resolution"
 msgstr "레졸루션"
 
-#: engine/songdialogs.xml
-msgctxt "SongSetup"
+#: engine/editor.xml
+msgctxt "MusicPatternToolsHeader"
 msgid "Resolution"
 msgstr "레졸루션"
 
@@ -9425,13 +9720,13 @@ msgctxt "Messages"
 msgid "Restart now"
 msgstr "지금 다시 시작"
 
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.MarkerPart"
+#: engine/eventinspector.xml
+msgctxt "AudioEventFXHeader"
 msgid "Restore"
 msgstr "복원"
 
-#: engine/eventinspector.xml
-msgctxt "AudioEventFXHeader"
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.MarkerPart"
 msgid "Restore"
 msgstr "복원"
 
@@ -9444,6 +9739,11 @@ msgstr "기본값 복원"
 msgctxt "RestoreDocumentVersion"
 msgid "Restore Version"
 msgstr "버전 복원"
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
+msgid "Restore original mapping"
+msgstr "오리지널 매핑 복원"
 
 #: app/homepage.xml
 msgctxt "DemosFeed"
@@ -9513,7 +9813,7 @@ msgstr "리드믹 그리드"
 #: engine/eventinspector.xml
 msgctxt "Command"
 msgid "Right"
-msgstr "오른쪽"
+msgstr "라이트"
 
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
@@ -9530,6 +9830,11 @@ msgctxt "LoudnessInfoTable"
 msgid "Right Channel True Peak"
 msgstr "오른쪽 채널 트루 피크"
 
+#: engine/editor.xml
+msgctxt "MusicEditorLeftPanel"
+msgid "Root"
+msgstr "루트"
+
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorMiniParts"
 msgid "Root"
@@ -9542,11 +9847,6 @@ msgstr "루트"
 
 #: engine/eventinspector.xml
 msgctxt "ChordEventMiniProperties"
-msgid "Root"
-msgstr "루트"
-
-#: engine/editor.xml
-msgctxt "MusicEditorLeftPanel"
 msgid "Root"
 msgstr "루트"
 
@@ -9611,7 +9911,12 @@ msgid "Sample Rate"
 msgstr "샘플레이트"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.General"
+msgid "Sample Rate"
+msgstr "샘플레이트"
+
+#: engine/songdialogs.xml
+msgctxt "SongSetup.SpatialAudio"
 msgid "Sample Rate"
 msgstr "샘플레이트"
 
@@ -9735,11 +10040,6 @@ msgctxt "SongCustomization"
 msgid "Scratch Pad"
 msgstr "스크래치 패드"
 
-#: app/homepage.xml
-msgctxt "DocumentBlocks"
-msgid "Search"
-msgstr "검색"
-
 #: app/shared.xml
 msgctxt "SearchNavigationBar"
 msgid "Search"
@@ -9747,6 +10047,11 @@ msgstr "검색"
 
 #: app/shared.xml
 msgctxt "SearchBar"
+msgid "Search"
+msgstr "검색"
+
+#: app/homepage.xml
+msgctxt "DocumentBlocks"
 msgid "Search"
 msgstr "검색"
 
@@ -9774,6 +10079,11 @@ msgstr "세컨더리 타임 디스플레이"
 msgctxt "SongCustomization"
 msgid "Secondary Transport Controls"
 msgstr "세컨더리 트랜스포트 컨트롤"
+
+#: engine/songdialogs.xml
+msgctxt "SongSetup.Timeline"
+msgid "Seconds"
+msgstr "초"
 
 #: show/show.xml
 msgctxt "TrackControls.Sections"
@@ -9835,13 +10145,13 @@ msgctxt "DetailedInfoTable"
 msgid "Select Image"
 msgstr "이미지 선택"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "SetListHeader"
 msgid "Select Image"
 msgstr "이미지 선택"
 
-#: show/show.xml
-msgctxt "SetListHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "Select Image"
 msgstr "이미지 선택"
 
@@ -10165,6 +10475,11 @@ msgctxt "Command"
 msgid "Show Channel Banks"
 msgstr "채널 뱅크 표시"
 
+#: engine/editor.xml
+msgctxt "ScorePartSetup"
+msgid "Show Chords"
+msgstr "코드 표시"
+
 #: ccl/browser.xml
 msgctxt "Command"
 msgid "Show Cloud"
@@ -10320,6 +10635,11 @@ msgctxt "Command"
 msgid "Show Shop"
 msgstr "샵 표시"
 
+#: engine/editor.xml
+msgctxt "ScorePartSetup"
+msgid "Show Stems in TAB"
+msgstr "TAB에 음표기둥 표시"
+
 #: ccl/browser.xml
 msgctxt "BrowserViewModeButtons.NoInvert"
 msgid "Show Thumbnails"
@@ -10441,7 +10761,7 @@ msgid "Show/hide Loudness Information"
 msgstr "라우드니스 정보 표시/숨기기"
 
 #: project/project.xml
-msgctxt "Project"
+msgctxt "ProjectTrackList"
 msgid "Show/hide more"
 msgstr "더 보기/숨기기"
 
@@ -10536,7 +10856,7 @@ msgid "Slope"
 msgstr "슬로프"
 
 #: project/project.xml
-msgctxt "Project"
+msgctxt "ProjectTrackList"
 msgid "Small"
 msgstr "스몰"
 
@@ -10661,9 +10981,9 @@ msgid "Song"
 msgstr "Song"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.Timeline"
 msgid "Song End"
-msgstr "Sone 끝"
+msgstr "Song 끝"
 
 #: app/windowclasses.xml
 msgctxt "SongInformation"
@@ -10691,9 +11011,9 @@ msgid "Song Setup"
 msgstr "Song 설정"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.Timeline"
 msgid "Song Start"
-msgstr "Song 재생"
+msgstr "Song 시작"
 
 #: app/homepage.xml
 msgctxt "DocumentBlocks"
@@ -10785,6 +11105,46 @@ msgctxt "VolumeFileInfo"
 msgid "Space used:"
 msgstr "사용한 저장공간:"
 
+#: engine/songdialogs.xml
+msgctxt "SongSetup.SpatialAudio"
+msgid "Spatial Audio"
+msgstr "공간감 오디오(Spatial Audio)"
+
+#: devices/audiofxeditor.xml
+msgctxt "InsertSpeakerMap"
+msgid "Speaker Bypass"
+msgstr "스피커 바이패스"
+
+#: engine/audioexport.xml
+msgctxt "AudioExport"
+msgid "Speaker Format"
+msgstr "스피커 포맷"
+
+#: engine/audioexport.xml
+msgctxt "TrackExport"
+msgid "Speaker Format"
+msgstr "스피커 포맷"
+
+#: devices/audiofxeditor.xml
+msgctxt "FXEditorHeaderRow1"
+msgid "Speaker Mapping"
+msgstr "스피커 매핑"
+
+#: engine/eventinspector.xml
+msgctxt "AudioEventPropertiesListTarget"
+msgid "Speakers"
+msgstr "스피커"
+
+#: engine/eventinspector.xml
+msgctxt "AudioEventMiniProperties.Table"
+msgid "Speakers"
+msgstr "스피커"
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
+msgid "Speakers"
+msgstr "스피커"
+
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Spectrum Mode"
@@ -10875,15 +11235,20 @@ msgctxt "AppSafetyOptionsDialog"
 msgid "Start"
 msgstr "시작"
 
+#: engine/eventediting.xml
+msgctxt "SpotEventsDialog"
+msgid "Start"
+msgstr "재생"
+
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.OptionsPart"
 msgid "Start"
 msgstr "시작"
 
-#: engine/eventediting.xml
-msgctxt "SpotEventsDialog"
+#: engine/editor.xml
+msgctxt "NoteEventProperties"
 msgid "Start"
-msgstr "재생"
+msgstr "시작"
 
 #: engine/eventinspector.xml
 msgctxt "EventPropertiesTarget"
@@ -10915,10 +11280,10 @@ msgctxt "MusicPartPropertiesTarget"
 msgid "Start"
 msgstr "재생"
 
-#: engine/editor.xml
-msgctxt "NoteEventProperties"
+#: project/project.xml
+msgctxt "ProjectEventPropertiesListTarget"
 msgid "Start"
-msgstr "시작"
+msgstr "스타트"
 
 #: show/show.xml
 msgctxt "SetListItemProperties"
@@ -10940,13 +11305,13 @@ msgctxt "ShowTransport"
 msgid "Start @cmd[Transport|Start]"
 msgstr "시작 @cmd[Transport|Start]"
 
-#: app/windowclasses.xml
-msgctxt "Start"
+#: app/toolbar.xml
+msgctxt "Command"
 msgid "Start Page"
 msgstr "시작 페이지"
 
-#: app/toolbar.xml
-msgctxt "Command"
+#: app/windowclasses.xml
+msgctxt "Start"
 msgid "Start Page"
 msgstr "시작 페이지"
 
@@ -11010,11 +11375,6 @@ msgctxt "MusicPatternToolsHeader"
 msgid "Steps"
 msgstr "스텝"
 
-#: engine/musicdialogs.xml
-msgctxt "MusicBounceDialog"
-msgid "Stop"
-msgstr "정지"
-
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "AudioPreviewPlayer"
 msgid "Stop"
@@ -11022,6 +11382,11 @@ msgstr "정지"
 
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "MusicPreviewPlayer"
+msgid "Stop"
+msgstr "정지"
+
+#: engine/musicdialogs.xml
+msgctxt "MusicBounceDialog"
 msgid "Stop"
 msgstr "정지"
 
@@ -11106,7 +11471,7 @@ msgid "Stretch audio files to tempo"
 msgstr "템포에 맞추어 오디오 파일 스트레치"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.General"
 msgid "Stretch audio files to tempo"
 msgstr "템포에 맞추어 오디오 파일 스트레치"
 
@@ -11169,6 +11534,11 @@ msgstr "모든 그룹 중단"
 msgctxt "SuspendGroupPopup"
 msgid "Suspend group"
 msgstr "그룹 중단"
+
+#: engine/audioediting.xml
+msgctxt "AudioSpeakerMap"
+msgid "Swap Sides"
+msgstr "사이드 교체"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.TypePart"
@@ -11325,13 +11695,13 @@ msgctxt "TagListEditBox"
 msgid "Tag Search"
 msgstr "검색 태그"
 
-#: app/windowclasses.xml
-msgctxt "TagPalette"
+#: app/shared.xml
+msgctxt "SearchBar"
 msgid "Tags"
 msgstr "태그"
 
-#: app/shared.xml
-msgctxt "SearchBar"
+#: app/windowclasses.xml
+msgctxt "TagPalette"
 msgid "Tags"
 msgstr "태그"
 
@@ -11517,6 +11887,11 @@ msgstr "예상되는 원인:"
 
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRow1"
+msgid "This device does not support the required speaker format."
+msgstr "이 장치는 필요한 스피커 포맷을 지원하지 않습니다."
+
+#: devices/audiofxeditor.xml
+msgctxt "FXEditorHeaderRow1"
 msgid "This device has been deactivated because it produced invalid data."
 msgstr "이 장치는 유효하지 않은 데이터를 생성하였으므로 비활성화되었습니다."
 
@@ -11540,11 +11915,6 @@ msgctxt "PlugInManager"
 msgid "This won&apos;t affect your favorites or visibility settings."
 msgstr "이 조작은 기호나 표시방법 설정에 영향을 미치지 않습니다."
 
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.MarkerPart"
-msgid "Threshold"
-msgstr "스레숄드"
-
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "Threshold"
@@ -11552,6 +11922,11 @@ msgstr "스레숄드"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
+msgid "Threshold"
+msgstr "스레숄드"
+
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.MarkerPart"
 msgid "Threshold"
 msgstr "스레숄드"
 
@@ -11616,7 +11991,7 @@ msgid "Time Lock"
 msgstr "타임 락"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.Timeline"
 msgid "Time Offset"
 msgstr "시간 옵셋"
 
@@ -11655,13 +12030,13 @@ msgctxt "ProjectTransport"
 msgid "Time in current Track"
 msgstr "현재 트랙의 타임"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "AnyAction"
+#: ccl/overlays.xml
+msgctxt "ProgressStepView"
 msgid "Time remaining:"
 msgstr "남은 시간:"
 
-#: ccl/overlays.xml
-msgctxt "ProgressStepView"
+#: ccl/packages/packagemanager.xml
+msgctxt "AnyAction"
 msgid "Time remaining:"
 msgstr "남은 시간:"
 
@@ -11695,18 +12070,18 @@ msgctxt "SongCustomization"
 msgid "Timebase"
 msgstr "타임베이스"
 
-#: engine/editor.xml
-msgctxt "EditorToolBar"
-msgid "Timebase"
-msgstr "타임베이스"
-
 #: engine/songdialogs.xml
 msgctxt "SongPropertiesExpanded"
 msgid "Timebase"
 msgstr "타임베이스"
 
 #: engine/songdialogs.xml
-msgctxt "SongSetup"
+msgctxt "SongSetup.Timeline"
+msgid "Timebase"
+msgstr "타임베이스"
+
+#: engine/editor.xml
+msgctxt "EditorToolBar"
 msgid "Timebase"
 msgstr "타임베이스"
 
@@ -11730,6 +12105,11 @@ msgctxt "MusicOption"
 msgid "Timecode follows loop"
 msgstr "타임코드가 루프를 팔로우"
 
+#: engine/songdialogs.xml
+msgctxt "SongSetup.Timeline"
+msgid "Timeline"
+msgstr "타임라인"
+
 #: engine/audioexport.xml
 msgctxt "RenderClick"
 msgid "Timeline Start To Song End"
@@ -11745,13 +12125,13 @@ msgctxt "EditorToolBar"
 msgid "Timeruler Format"
 msgstr "타임룰러 설정"
 
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.TrackPart"
+#: engine/inspector.xml
+msgctxt "AudioTrackInspectorContent"
 msgid "Timestretch"
 msgstr "타임스트레치"
 
-#: engine/inspector.xml
-msgctxt "AudioTrackInspectorContent"
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.TrackPart"
 msgid "Timestretch"
 msgstr "타임스트레치"
 
@@ -11785,13 +12165,13 @@ msgctxt "TitleAlbumNotes"
 msgid "Title"
 msgstr "제목"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
+#: show/show.xml
+msgctxt "ShowPlayerHeader"
 msgid "Title"
 msgstr "제목"
 
-#: show/show.xml
-msgctxt "ShowPlayerHeader"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
 msgid "Title"
 msgstr "제목"
 
@@ -11850,11 +12230,6 @@ msgctxt "VolumeFileInfo"
 msgid "Total size:"
 msgstr "전체 크기:"
 
-#: engine/audioediting.xml
-msgctxt "AudioBendPanel.TrackPart"
-msgid "Track"
-msgstr "트랙"
-
 #: engine/song.xml
 msgctxt "Command"
 msgid "Track"
@@ -11862,6 +12237,11 @@ msgstr "트랙"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorLeftPanel"
+msgid "Track"
+msgstr "트랙"
+
+#: engine/audioediting.xml
+msgctxt "AudioBendPanel.TrackPart"
 msgid "Track"
 msgstr "트랙"
 
@@ -12150,6 +12530,11 @@ msgctxt "PlugInManager"
 msgid "Type"
 msgstr "타입"
 
+#: engine/editor.xml
+msgctxt "NoteControllerLaneHeader"
+msgid "Type"
+msgstr "타입"
+
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorMiniParts"
 msgid "Type"
@@ -12167,11 +12552,6 @@ msgstr "타입"
 
 #: engine/eventinspector.xml
 msgctxt "EnvelopeBendMiniProperties"
-msgid "Type"
-msgstr "타입"
-
-#: engine/editor.xml
-msgctxt "NoteControllerLaneHeader"
 msgid "Type"
 msgstr "타입"
 
@@ -12272,8 +12652,8 @@ msgstr "사용데이터 설정"
 
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
-msgid "Usage data from $APPNAME does not contain personal information and is not linked to your identity."
-msgstr "$APPNAME로부터의 사용데이터에는 개인정보가 포함되지 않으며 본인확인을 위한 개인정보와 연동되지 않습니다."
+msgid "Usage data from $APPNAME does not contain personal information of any kind, and is not linked to your identity in any way."
+msgstr "$APPNAME의 사용 데이터는 개인정보를 포함되거나 어떠한 형태로도 연결되지 않습니다."
 
 #: project/burn.xml
 msgctxt "BurnerSelectDialog"
@@ -12325,6 +12705,11 @@ msgctxt "TrackExport"
 msgid "Use realtime processing"
 msgstr "리얼타임 프로세싱 사용"
 
+#: engine/audioexport.xml
+msgctxt "SpatialAudioExport"
+msgid "Use realtime processing"
+msgstr "리얼타임 프로세싱 사용"
+
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
 msgid "Use realtime processing"
@@ -12355,6 +12740,11 @@ msgctxt "BurnerSelectDialog"
 msgid "Use temporary image file"
 msgstr "임시 이미지 파일 사용"
 
+#: devices/transport.xml
+msgctxt "PerformanceMonitor.Cache"
+msgid "Used"
+msgstr "사용됨"
+
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup.InputDeviceInfo"
 msgid "Used"
@@ -12362,11 +12752,6 @@ msgstr "사용됨"
 
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup.OutputDeviceInfo"
-msgid "Used"
-msgstr "사용됨"
-
-#: devices/transport.xml
-msgctxt "PerformanceMonitor.Cache"
 msgid "Used"
 msgstr "사용됨"
 
@@ -12440,11 +12825,6 @@ msgctxt "InspectorSectionFolder"
 msgid "Variations Folder"
 msgstr "바리에이션 폴더"
 
-#: engine/quantize.xml
-msgctxt "QuantizeSetup.OptionsPart"
-msgid "Velocity"
-msgstr "벨로시티"
-
 #: engine/inspector.xml
 msgctxt "MusicTrackInspectorContent"
 msgid "Velocity"
@@ -12455,8 +12835,18 @@ msgctxt "ChordTrackInspector"
 msgid "Velocity"
 msgstr "벨로시티"
 
+#: engine/quantize.xml
+msgctxt "QuantizeSetup.OptionsPart"
+msgid "Velocity"
+msgstr "벨로시티"
+
 #: engine/song.xml
 msgctxt "SongCustomization"
+msgid "Velocity"
+msgstr "벨로시티"
+
+#: engine/editor.xml
+msgctxt "NoteEventProperties"
 msgid "Velocity"
 msgstr "벨로시티"
 
@@ -12470,11 +12860,6 @@ msgctxt "MusicPartMiniProperties.Table"
 msgid "Velocity"
 msgstr "벨로시티"
 
-#: engine/editor.xml
-msgctxt "NoteEventProperties"
-msgid "Velocity"
-msgstr "벨로시티"
-
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Vendor"
@@ -12485,23 +12870,23 @@ msgctxt "PlugInFileInfo"
 msgid "Vendor:"
 msgstr "제조사:"
 
-#: show/showdialogs.xml
-msgctxt "ShowMetaInfoOption"
-msgid "Venue"
-msgstr "장소"
-
 #: show/show.xml
 msgctxt "SetListHeader"
 msgid "Venue"
 msgstr "장소"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "PackageVersion"
-msgid "Version"
-msgstr "버전"
+#: show/showdialogs.xml
+msgctxt "ShowMetaInfoOption"
+msgid "Venue"
+msgstr "장소"
 
 #: ccl/extensionmanager.xml
 msgctxt "ExtensionPropertiesInplace"
+msgid "Version"
+msgstr "버전"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageVersion"
 msgid "Version"
 msgstr "버전"
 
@@ -12540,7 +12925,7 @@ msgctxt "SongCustomization"
 msgid "Video Player"
 msgstr "비디오 플레이어"
 
-#: app/windowclasses.xml app/toolbar.xml ccl/browser.xml devices/transport.xml
+#: app/toolbar.xml app/windowclasses.xml ccl/browser.xml devices/transport.xml
 #: engine/editor.xml
 msgctxt "Command"
 msgid "View"
@@ -12626,13 +13011,13 @@ msgctxt "Analyser"
 msgid "WF"
 msgstr "WF"
 
-#: app/homepage.xml
-msgctxt "ArtistProfile"
+#: app/about.xml
+msgctxt "Command"
 msgid "Website"
 msgstr "웹사이트"
 
-#: app/about.xml
-msgctxt "Command"
+#: app/homepage.xml
+msgctxt "ArtistProfile"
 msgid "Website"
 msgstr "웹사이트"
 
@@ -12708,6 +13093,11 @@ msgstr "예"
 
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
+msgid "Yes, continue to share anonymously"
+msgstr "네, 익명으로 공유하겠습니다."
+
+#: app/apptracking.xml
+msgctxt "AppTrackingDialog"
 msgid "Yes, share anonymously"
 msgstr "네, 익명으로 공유하겠습니다"
 
@@ -12750,11 +13140,6 @@ msgstr "제로 레이턴시 모니터링"
 msgctxt "ScoreEditorScrollBar"
 msgid "Zoom"
 msgstr "확대/축소"
-
-#: engine/eventinspector.xml
-msgctxt "ChordSelectorParts"
-msgid "b7"
-msgstr "b7"
 
 #: project/analyser.xml
 msgctxt "FixedEBUR128Display"
@@ -12806,15 +13191,163 @@ msgctxt "DetailedInfoTable"
 msgid "x"
 msgstr "x"
 
+#: show/show.xml
+msgctxt "SetListHeader"
+msgid "x"
+msgstr "x"
+
 #: show/showdialogs.xml
 msgctxt "ShowMetaInfoOption"
 msgid "x"
 msgstr "x"
 
-#: show/show.xml
-msgctxt "SetListHeader"
-msgid "x"
-msgstr "x"
+#~ msgctxt "AppTrackingDialog"
+#~ msgid "By sharing anonymous usage data with $APPCOMPANY, you can help us make better decisions on new features and workflow improvements."
+#~ msgstr "$APPCOMPANY에 익명으로 제공되는 여러분의 사용데이터는 새로운 기능과 워크플로우 개선을 위한 중요한 결정에 큰 도움이 됩니다."
+
+#~ msgctxt "AppTrackingDialog"
+#~ msgid "Learn more about usage data we collect"
+#~ msgstr "수집하는 사용데이터에 대해 더 자세히 알아보기"
+
+#~ msgctxt "AppTrackingDialog"
+#~ msgid "Usage data from $APPNAME does not contain personal information and is not linked to your identity."
+#~ msgstr "$APPNAME로부터의 사용데이터에는 개인정보가 포함되지 않으며 본인확인을 위한 개인정보와 연동되지 않습니다."
+
+#~ msgctxt "ScoreEditorSoundVariationControls"
+#~ msgid "Active Sound Variation"
+#~ msgstr "유효 사운드 바리에이션"
+
+#~ msgctxt "Project"
+#~ msgid "Album"
+#~ msgstr "앨범"
+
+#~ msgctxt "Project"
+#~ msgid "Album Title"
+#~ msgstr "앨범 제목"
+
+#~ msgctxt "Project"
+#~ msgid "Artist"
+#~ msgstr "아티스트"
+
+#~ msgctxt "Project"
+#~ msgid "Artist(s) or Performer(s)"
+#~ msgstr "아티스트 또는 퍼포머"
+
+#~ msgctxt "ProjectAutomationPanel"
+#~ msgid "Automation"
+#~ msgstr "오토메이션"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Bar Offset"
+#~ msgstr "마디 옵셋"
+
+#~ msgctxt "AudioTrackControlsContent"
+#~ msgid "Channel Mode"
+#~ msgstr "채널 모드"
+
+#~ msgctxt "AudioTrackControlsContent"
+#~ msgid "Channel Speaker Setup"
+#~ msgstr "채널 스피커 설정"
+
+#~ msgctxt "ParamMapper.LeftPart.Inner"
+#~ msgid "Click+Drag Parameter"
+#~ msgstr "클릭+드래그 파라미터"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Display Mode"
+#~ msgstr "디스플레이 모드"
+
+#~ msgctxt "ParamMapper.LeftPart.Inner"
+#~ msgid "Edit Automation @cmd[Automation|Show Current Parameter]"
+#~ msgstr "오토메이션 편집 @cmd[Automation|Show Current Parameter]"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Frame Offset"
+#~ msgstr "프레임 옵셋"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Frame Rate"
+#~ msgstr "프레임 레이트"
+
+#~ msgctxt "SongSetup"
+#~ msgid "From Video"
+#~ msgstr "비디오로부터"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Include effects when updating mastering file"
+#~ msgstr "마스터링 파일 업데이트시 이펙트 포함"
+
+#~ msgctxt "Project"
+#~ msgid "Listen Bus"
+#~ msgstr "리슨 버스"
+
+#~ msgctxt "Project"
+#~ msgid "Master"
+#~ msgstr "마스터링"
+
+#~ msgctxt "AudioExport"
+#~ msgid "Mono"
+#~ msgstr "모노"
+
+#~ msgctxt "Project"
+#~ msgid "Normal"
+#~ msgstr "노멀"
+
+#~ msgctxt "ParamMapper.LeftPart.Inner"
+#~ msgid "Parameter"
+#~ msgstr "파라미터"
+
+#~ msgctxt "TrackExport"
+#~ msgid "Preserve mono tracks"
+#~ msgstr "모노트랙 유지"
+
+#~ msgctxt "ParamMapper.LeftPart.Inner"
+#~ msgid "Recent Parameters"
+#~ msgstr "최근 사용한 파라미터"
+
+#~ msgctxt "AudioTrackControlsContent"
+#~ msgid "Record Speaker Setup"
+#~ msgstr "레코딩 스피커 설정"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Resolution"
+#~ msgstr "레졸루션"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Sample Rate"
+#~ msgstr "샘플레이트"
+
+#~ msgctxt "Project"
+#~ msgid "Show/hide more"
+#~ msgstr "더 보기/숨기기"
+
+#~ msgctxt "Project"
+#~ msgid "Small"
+#~ msgstr "스몰"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Song End"
+#~ msgstr "Sone 끝"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Song Start"
+#~ msgstr "Song 재생"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Stretch audio files to tempo"
+#~ msgstr "템포에 맞추어 오디오 파일 스트레치"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Time Offset"
+#~ msgstr "시간 옵셋"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Timebase"
+#~ msgstr "타임베이스"
+
+#~ msgctxt "ChordSelectorParts"
+#~ msgid "b7"
+#~ msgstr "b7"
 
 #~ msgctxt "InputLevelsContent"
 #~ msgid "Clip"
@@ -13071,4 +13604,3 @@ msgstr "x"
 #~ msgctxt "ProjectToolbar"
 #~ msgid "Update"
 #~ msgstr "업데이트"
-

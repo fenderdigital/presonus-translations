@@ -4,6 +4,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: audiofile/audiocodecselector.cpp
+msgctxt "AudioCodecSelector"
+msgid "%(1) not supported by %(2)"
+msgstr "%(1) 不支持 %(2)"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "1 octave down"
@@ -23,6 +28,101 @@ msgstr " 低两个八度"
 msgctxt "MusicSymbols"
 msgid "2 octaves up"
 msgstr " 高两个八度"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.0 Cine"
+msgstr "3.0 胶片"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.0 Music"
+msgstr "3.0 音乐"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.1 Cine"
+msgstr "3.1 胶片"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.1 Music"
+msgstr "3.1 音乐"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.0 Cine"
+msgstr "4.0 胶片"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.0 Music"
+msgstr "4.0 音乐"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.1 Cine"
+msgstr "4.1 胶片"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.1 Music"
+msgstr "4.1 音乐"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.0"
+msgstr "5.0"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1"
+msgstr "5.1"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1 (ITU)"
+msgstr "5.1 (ITU)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1.2"
+msgstr "5.1.2"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1.4"
+msgstr "5.1.4"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.0"
+msgstr "7.0"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.0.2"
+msgstr "7.0.2"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.1"
+msgstr "7.1"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.1.2"
+msgstr "7.1.2"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.1.4"
+msgstr "7.1.4"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "9.1.6"
+msgstr "9.1.6"
 
 #: audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
@@ -144,6 +244,21 @@ msgctxt "MusicalScale"
 msgid "Blues"
 msgstr "布鲁斯音阶"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Center"
+msgstr "中间"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Center Top Front"
+msgstr "居中顶部前侧"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Center Top Rear"
+msgstr "居中顶部后侧"
+
 #: music/chordevent.cpp
 msgctxt "FileType"
 msgid "Chord File"
@@ -228,6 +343,11 @@ msgstr " 渐弱"
 msgctxt "MusicSymbols"
 msgid "Diminuendo Hairpin"
 msgstr " 渐弱符号"
+
+#: audiofile/audiofileconverter.cpp
+msgctxt "AudioFileConverter"
+msgid "Do you want to merge the files as %(1)?"
+msgstr "您想将文件合并为 %(1)吗？"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -344,6 +464,16 @@ msgctxt "ActionDescriptions"
 msgid "Freeze Velocity"
 msgstr "冻结力度"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Front Left of Center"
+msgstr "中心前左侧"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Front Right of Center"
+msgstr "中心前右侧"
+
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Generate Notes"
@@ -444,10 +574,50 @@ msgctxt "Media"
 msgid "LUFS"
 msgstr "LUFS"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left"
+msgstr "左"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Rear Surround"
+msgstr "左后环绕"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Surround"
+msgstr "左环绕"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Top Front"
+msgstr "左上前面"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Top Middle"
+msgstr "左上中间"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Top Rear"
+msgstr "左上后部"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Wide"
+msgstr "左宽"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Let Ring"
 msgstr "延长发音"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Low Frequency"
+msgstr "低频"
 
 #: music/musicparams.cpp
 msgctxt "Media.Music"
@@ -483,6 +653,11 @@ msgstr "五声大调"
 msgctxt "MusicalScale"
 msgid "Major Triad"
 msgstr "大三和弦"
+
+#: audio/audiospeakermapcomponent.cpp
+msgctxt "AudioSpeakerMap"
+msgid "Map Channels to Speakers"
+msgstr "将通道映射到扬声器"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -589,13 +764,13 @@ msgctxt "ActionDescriptions"
 msgid "Modify Step Count"
 msgstr "更改步数"
 
-#: time/tempomanipulator.cpp
-msgctxt "TempoManipulator"
+#: time/mediatimeactions.cpp
+msgctxt "MediaTimeAction"
 msgid "Modify Tempo"
 msgstr "更改速度"
 
-#: time/mediatimeactions.cpp
-msgctxt "MediaTimeAction"
+#: time/tempomanipulator.cpp
+msgctxt "TempoManipulator"
 msgid "Modify Tempo"
 msgstr "更改速度"
 
@@ -604,7 +779,7 @@ msgctxt "ActionDescriptions"
 msgid "Modify Velocity"
 msgstr "更改力度"
 
-#: public/mediaformatter.cpp
+#: public/audio/speakers.cpp public/mediaformatter.cpp
 msgctxt "Media"
 msgid "Mono"
 msgstr "单声道"
@@ -809,6 +984,11 @@ msgctxt "Resolution"
 msgid "Quintuplet"
 msgstr "五连音"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Rear Center"
+msgstr "后部中间"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Release string"
@@ -858,6 +1038,41 @@ msgstr "调整事件大小"
 msgctxt "EventFunctions"
 msgid "Resize Events"
 msgstr "调整事件大小"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right"
+msgstr "右"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Rear Surround"
+msgstr "右后环绕"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Surround"
+msgstr "右环绕"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Top Front"
+msgstr "右侧顶部前面"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Top Middle"
+msgstr "右侧顶部中间"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Top Rear"
+msgstr "右侧顶部后部"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Wide"
+msgstr "右宽"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
@@ -974,10 +1189,30 @@ msgctxt "MusicSymbols"
 msgid "Staccato"
 msgstr " 断音"
 
-#: public/mediaformatter.cpp
+#: public/audio/speakers.cpp public/mediaformatter.cpp
 msgctxt "Media"
 msgid "Stereo"
 msgstr "立体声"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (C Lfe)"
+msgstr "立体声 (C Lfe)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (Lc Rc)"
+msgstr "立体声 (Lc Rc)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (Ls Rs)"
+msgstr "立体声 (Ls Rs)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (Sl Sr)"
+msgstr "立体声（Sl Sr）"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
@@ -1069,6 +1304,11 @@ msgctxt "MusicSymbols"
 msgid "Tenuto"
 msgstr " 保持音"
 
+#: audiofile/audiofileconverter.cpp
+msgctxt "AudioFileConverter"
+msgid "The speaker setup could not be determined from the file names."
+msgstr "根据文件名无法确定扬声器设置。"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Thumb"
@@ -1083,6 +1323,11 @@ msgstr " 音色"
 msgctxt "MediaTime"
 msgid "Time-Linear"
 msgstr "时间-线性"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Top Center"
+msgstr "上居中"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"

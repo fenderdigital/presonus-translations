@@ -269,11 +269,6 @@ msgctxt "ProjectEdit"
 msgid "Bounce Track"
 msgstr "トラックをバウンス"
 
-#: song/songsetup.cpp
-msgctxt "SongSetup"
-msgid "Built-In"
-msgstr "内蔵"
-
 #: project/publish/projectburner.cpp
 msgctxt "Command"
 msgid "Burn Audio CD"
@@ -308,6 +303,11 @@ msgstr "キャンセル"
 msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "保護されたコンテンツでミックスダウンを作成することはできません。"
+
+#: song/spatialaudioexporter.cpp
+msgctxt "SpatialAudioExporter"
+msgid "Cannot export spatial audio file."
+msgstr "空間オーディオファイルをエクスポートできません。"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
@@ -511,8 +511,16 @@ msgstr "昇順のISRCコードをすべてのトラックに適用しますか�
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
-msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
-msgstr "DDPイメージを作成しますか？\n\nイメージ: %(1)\nロケーション: %(2)"
+msgid ""
+"Do you want to create a DDP image?\n"
+"\n"
+"Image: %(1)\n"
+"Location: %(2)"
+msgstr ""
+"DDPイメージを作成しますか？\n"
+"\n"
+"イメージ: %(1)\n"
+"ロケーション: %(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -621,7 +629,7 @@ msgctxt "SongSetup"
 msgid "Error: %(1) requires sample rate %(2)"
 msgstr "エラー: %(1) にはサンプルレート %(2) が必要です"
 
-#: show/editing/showeditcomponent.cpp
+#: score/scoreeditor.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Event"
 msgstr "イベント"
@@ -630,6 +638,11 @@ msgstr "イベント"
 msgctxt "Command"
 msgid "Export Mixdown"
 msgstr "ミックスダウンをエクスポート"
+
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Export Spatial Audio"
+msgstr "空間オーディオをエクスポート"
 
 #: song/songcontroller.cpp
 msgctxt "Command"
@@ -651,13 +664,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "エクスポートしています:"
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "オーディオファイルのエクスポートに失敗しました。"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "オーディオファイルのエクスポートに失敗しました。"
 
@@ -872,17 +885,7 @@ msgstr "名前の付いたマーカーを挿入"
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
 msgid "Item"
-msgstr "歌"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Keep Output Speaker Setup"
-msgstr "出力スピーカー設定を保持"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Keep Stem Speaker Setup"
-msgstr "ステムスピーカー設定を保持"
+msgstr "項目"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1000,6 +1003,11 @@ msgstr "ミックスダウンスピード: %float(1:1)"
 msgctxt "ProjectFunctions"
 msgid "Modify Attribute"
 msgstr "属性を変更"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Mono"
+msgstr "モノ"
 
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
@@ -1177,10 +1185,20 @@ msgctxt "Command"
 msgid "Open Tempo Track"
 msgstr "テンポトラックを開く"
 
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Open Video Track"
+msgstr "ビデオトラックを開く"
+
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Opening the CD Burning Engine failed."
 msgstr "CD書き込みエンジンを開くのに失敗しました。"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Original"
+msgstr "オリジナル"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1292,16 +1310,16 @@ msgctxt "Command"
 msgid "Print"
 msgstr "印刷"
 
-#: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
-#: project/publish/ddpimagemaker.cpp project/publish/imagemaker.cpp
-#: project/publish/audiofilepublisher.cpp
-msgctxt "Command"
+#: project/document/projectdocument.cpp
+msgctxt "Project"
 msgid "Project"
 msgstr "プロジェクト"
 
-#: project/document/projectdocument.cpp
-msgctxt "Project"
+#: project/document/projectcomponent.cpp
+#: project/editing/projecteditcomponent.cpp
+#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
+#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+msgctxt "Command"
 msgid "Project"
 msgstr "プロジェクト"
 
@@ -1857,8 +1875,8 @@ msgid "Setup Page"
 msgstr "設定ページ"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/showeditmodel.cpp show/editing/setlistcomponent.cpp
-#: show/editing/showeditcomponent.cpp show/editing/showplayerinspector.cpp
+#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
+#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1910,6 +1928,11 @@ msgctxt "Command"
 msgid "Solo"
 msgstr "ソロ"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Some items will be exported in stereo because their speaker setup is not supported by the selected format."
+msgstr "一部のアイテムは、そのスピーカー設定が選択されているフォーマットによりサポートされていないため、ステレオでエクスポートされます。"
+
 #: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Song"
@@ -1940,6 +1963,16 @@ msgctxt "Command"
 msgid "Sound Variation"
 msgstr "サウンドバリエーション"
 
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Spatial Audio Setup"
+msgstr "空間オーディオ設定"
+
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Speaker"
+msgstr "スピーカー"
+
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
 msgid "Split Event at Cursor"
@@ -1947,13 +1980,8 @@ msgstr "イベントをカーソル位置で分割"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
-msgid "Split Speakers to Mono Files"
-msgstr "スピーカーをモノファイルに分割"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Split Stem Speakers to Mono Files"
-msgstr "ステムスピーカーをモノファイルに分割"
+msgid "Split Mono"
+msgstr "スプリットモノ"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -1992,8 +2020,22 @@ msgstr " %(1) 倍速でオーディオディスクの書き込みを開始"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
-msgid "Start: %(1) (%(2))\nPause: %(3)"
-msgstr "開始: %(1) (%(2))\n一時停止: %(3)"
+msgid ""
+"Start: %(1) (%(2))\n"
+"Pause: %(3)"
+msgstr ""
+"開始: %(1) (%(2))\n"
+"一時停止: %(3)"
+
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Stem export not possible for some items because they are incompatible with the %(1) output setup."
+msgstr "一部のアイテムは、 %(1) 出力設定と互換していないため、ステムのエクスポートができません。"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Stereo"
+msgstr "ステレオ"
 
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
@@ -2015,6 +2057,11 @@ msgctxt "Command"
 msgid "Store Track Preset"
 msgstr "トラックプリセットを保存"
 
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Surround"
+msgstr "サラウンド"
+
 #: song/songdocument.cpp
 msgctxt "Engine"
 msgid "THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
@@ -2022,13 +2069,37 @@ msgstr "このソングには著作権で保護されている素材が含まれ
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
-msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr "EANコードが正しくフォーマットされていません。\n\nコードは13文字で、数字のみで構成されています。\n\n例: 036000291452\n\nUPCがある場合、先頭に0を加えれば有効なEANコードになります。"
+msgid ""
+"The EAN code is not formatted correctly.\n"
+"\n"
+"It should be 13 characters long and should only contain numeric characters.\n"
+"\n"
+"Example: 036000291452\n"
+"\n"
+"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr ""
+"EANコードが正しくフォーマットされていません。\n"
+"\n"
+"コードは13文字で、数字のみで構成されています。\n"
+"\n"
+"例: 036000291452\n"
+"\n"
+"UPCがある場合、先頭に0を加えれば有効なEANコードになります。"
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
-msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
-msgstr "ISRCコードが正しくフォーマットされていません。\r\n\r\nコードは12文字で、英数字のみで構成されています。\r\n\r\n例: USPR37300012"
+msgid ""
+"The ISRC code is not formatted correctly.\n"
+"\n"
+"It should be 12 characters long and should only contain alphanumeric characters.\n"
+"\n"
+"Example: USPR37300012"
+msgstr ""
+"ISRCコードが正しくフォーマットされていません。\r\n"
+"\r\n"
+"コードは12文字で、英数字のみで構成されています。\r\n"
+"\r\n"
+"例: USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2065,6 +2136,16 @@ msgctxt "SongUpdater"
 msgid "The mastering files are up-to-date."
 msgstr "マスタリングファイルは最新です。"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "The selected format does not support %(1)"
+msgstr "選択されているフォーマットは %(1) をサポートしていません"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "The selected format does not support %(1). The format will be exported in stereo."
+msgstr "選択されているフォーマットは %(1) をサポートしていません。フォーマットはステレオでエクスポートされます。"
+
 #: song/songmaster.cpp
 msgctxt "SongMaster"
 msgid "The song will be saved first.\n"
@@ -2089,6 +2170,11 @@ msgstr "極小"
 msgctxt "AudioDiscPublisher"
 msgid "Title"
 msgstr "タイトル"
+
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Toggle Mute"
+msgstr "ミュートを切り替え"
 
 #: score/scoreeditor.cpp
 msgctxt "Command"
@@ -2239,8 +2325,24 @@ msgstr "タイトルを更新"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
-msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "このソングのマスタリングファイルを更新します:\n%(6)\n出力: %(1)\n長さ: %(3)\n解像度: %(4)\nリアルタイムプロセッシング: %(5)\nマスターエフェクトを含める: %(7)\nファイル名: %(2)"
+msgid ""
+"Update the mastering file of this song:\n"
+"%(6)\n"
+"Output: %(1)\n"
+"Duration: %(3)\n"
+"Resolution: %(4)\n"
+"Realtime Processing: %(5)\n"
+"Include Master Effects: %(7)\n"
+"Filename: %(2)"
+msgstr ""
+"このソングのマスタリングファイルを更新します:\n"
+"%(6)\n"
+"出力: %(1)\n"
+"長さ: %(3)\n"
+"解像度: %(4)\n"
+"リアルタイムプロセッシング: %(5)\n"
+"マスターエフェクトを含める: %(7)\n"
+"ファイル名: %(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2298,6 +2400,7 @@ msgid "Video frame rate %(1) is not supported as song frame rate."
 msgstr "ビデオフレームレート %(1) はソングフレームレートとしてサポートされていません。"
 
 #: show/editing/globaltracklistcomponent.cpp song/songmarker.cpp
+#: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "表示"
@@ -2306,26 +2409,6 @@ msgstr "表示"
 msgctxt "Player"
 msgid "Virtual Instrument"
 msgstr "バーチャルインストゥルメント"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Mono File"
-msgstr "モノファイルを書き込む"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Mono Stems"
-msgstr "モノステムを書き込む"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Stereo File"
-msgstr "ステレオファイルを書き込む"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Stereo Stems"
-msgstr "ステレオステムを書き込む"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2351,6 +2434,42 @@ msgstr "ズーム"
 msgctxt "ShowDragHandler"
 msgid "new Player"
 msgstr "新規プレイヤー"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Built-In"
+#~ msgstr "内蔵"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Keep Output Speaker Setup"
+#~ msgstr "出力スピーカー設定を保持"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Keep Stem Speaker Setup"
+#~ msgstr "ステムスピーカー設定を保持"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Split Speakers to Mono Files"
+#~ msgstr "スピーカーをモノファイルに分割"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Split Stem Speakers to Mono Files"
+#~ msgstr "ステムスピーカーをモノファイルに分割"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Mono File"
+#~ msgstr "モノファイルを書き込む"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Mono Stems"
+#~ msgstr "モノステムを書き込む"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Stereo File"
+#~ msgstr "ステレオファイルを書き込む"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Stereo Stems"
+#~ msgstr "ステレオステムを書き込む"
 
 #~ msgctxt "Song"
 #~ msgid "Could not import file!"
@@ -2426,7 +2545,7 @@ msgstr "新規プレイヤー"
 
 #~ msgctxt "SetList"
 #~ msgid "Item"
-#~ msgstr "歌"
+#~ msgstr "項目"
 
 #~ msgctxt "Marker"
 #~ msgid "Insert Marker"

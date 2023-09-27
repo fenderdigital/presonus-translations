@@ -54,7 +54,7 @@ msgctxt "SoundVariations"
 msgid "Activation Sequence"
 msgstr "アクティベーションシーケンス"
 
-#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
 msgstr "アクティブなバリエーション: %(1)"
@@ -369,10 +369,10 @@ msgctxt "ScoreSymbolMap"
 msgid "Dynamics"
 msgstr "強弱記号"
 
-#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp music/noteplayer.cpp
-#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: events/eventeditcomponent.cpp music/noteplayer.cpp music/lyricsdisplay.cpp
 #: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
-#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timesnapper.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "編集"
@@ -617,13 +617,13 @@ msgctxt "Command"
 msgid "Loop Selection Snapped"
 msgstr "選択をループ"
 
-#: music/lyricsdisplay.cpp
-msgctxt "Command"
+#: music/lyricseditlayerbase.cpp
+msgctxt "Music"
 msgid "Lyrics"
 msgstr "歌詞"
 
-#: music/lyricseditlayerbase.cpp
-msgctxt "Music"
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
 msgid "Lyrics"
 msgstr "歌詞"
 
@@ -762,7 +762,7 @@ msgctxt "Command"
 msgid "Next Hotspot"
 msgstr "次のホットスポット"
 
-#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
 msgstr "バリエーションなし"
@@ -927,11 +927,6 @@ msgctxt "SoundVariations"
 msgid "Program Change"
 msgstr "プログラムチェンジ"
 
-#: music/lyricsdisplay.cpp
-msgctxt "LyricsDisplaySetup"
-msgid "Quantize"
-msgstr "クオンタイズ"
-
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
 msgid "Quantize"
@@ -939,6 +934,11 @@ msgstr "クオンタイズ"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
+msgid "Quantize"
+msgstr "クオンタイズ"
+
+#: music/lyricsdisplay.cpp
+msgctxt "LyricsDisplaySetup"
 msgid "Quantize"
 msgstr "クオンタイズ"
 
@@ -1359,13 +1359,21 @@ msgstr "テンポ"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid "The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
-msgstr "プリセットが '%(1)' に対して生成されましたがターゲットインストゥルメントと一致しません。\nこのままバリエーションマップを読み込みますか？"
+msgid ""
+"The preset was generated for '%(1)' and does not match the target instrument.\n"
+"Do you want to load the variation map anyway?"
+msgstr ""
+"プリセットが '%(1)' に対して生成されましたがターゲットインストゥルメントと一致しません。\n"
+"このままバリエーションマップを読み込みますか？"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid "The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
-msgstr "プリセットがサウンド '%(1)' に対して生成されましたが現在のインストゥルメントプリセットと一致しません。\nこのままバリエーションマップを読み込みますか？"
+msgid ""
+"The preset was generated for sound '%(1)' and does not match the current instrument preset.\n"
+"Do you want to load the variation map anyway?"
+msgstr ""
+"プリセットがサウンド '%(1)' に対して生成されましたが現在のインストゥルメントプリセットと一致しません。\n"
+"このままバリエーションマップを読み込みますか？"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -1589,6 +1597,11 @@ msgstr "垂直ズームアウト"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
+msgid "Zoom Out Vertical Fine"
+msgstr "細かく垂直ズームアウト"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
 msgid "Zoom to Loop"
 msgstr "ループへズーム"
 
@@ -1601,10 +1614,6 @@ msgstr "選択へズーム"
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "選択へ水平ズーム"
-
-#~ msgctxt "Command"
-#~ msgid "Zoom Out Vertical Fine"
-#~ msgstr "細かく垂直ズームアウト"
 
 #~ msgctxt "Command"
 #~ msgid "Set Bar Offset to Cursor"
@@ -1753,4 +1762,3 @@ msgstr "選択へ水平ズーム"
 #~ msgctxt "MusicalScale"
 #~ msgid "Phrygian"
 #~ msgstr "フリジアン"
-

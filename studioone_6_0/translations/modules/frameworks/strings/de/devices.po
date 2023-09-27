@@ -44,6 +44,16 @@ msgctxt "AudioSetup"
 msgid "%(1) of %(2)"
 msgstr "%(1) von %(2)"
 
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1) benötigt eine Blockgröße von %(2).\nDas Audiogerät unterstützt diese Blockgröße nicht.\nWenn möglich, wählen Sie bitte ein anderes Audiogerät."
+
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1) erfordert eine Abtastrate von %(2).\nWenn möglich, ändern Sie bitte die Abtastrate."
+
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "%(1) samples"
@@ -63,6 +73,11 @@ msgstr "%float(1:1) mal schneller als Echtzeit"
 msgctxt "AudioRenderEngine"
 msgid "%float(1:1) times slower than realtime"
 msgstr "%float(1:1) mal langsamer als Echtzeit"
+
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "'%(1)' Bypassed"
+msgstr "'%(1)' auf Bypass geschaltet"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -525,6 +540,11 @@ msgctxt "AudioPanner"
 msgid "Balance"
 msgstr "Balance"
 
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Balance View"
+msgstr "Balance-Ansicht"
+
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Basic"
@@ -565,6 +585,11 @@ msgctxt "DeviceFolder"
 msgid "Bypass"
 msgstr "Bypass"
 
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Bypassed"
+msgstr "Bypass"
+
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "CH:"
@@ -590,13 +615,13 @@ msgctxt "AudioMixer"
 msgid "Channel"
 msgstr "Kanal"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Channel"
 msgstr "Kanal"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Channel"
 msgstr "Kanal"
 
@@ -675,6 +700,16 @@ msgctxt "AudioClick"
 msgid "Click Volume"
 msgstr "Clicklautstärke"
 
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Click here to bypass '%(1)'"
+msgstr "Klicken Sie hier um '%(1)' auf Bypass zu schalten"
+
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Click to move channels"
+msgstr "Klicken um Kanäle zu bewegen"
+
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Clipping has occurred. The signal was %float(1:2) dB over."
@@ -684,6 +719,11 @@ msgstr "Übersteuerung ist aufgetreten. Das Signal war um %float(1:2) dB überst
 msgctxt "DeviceFolder"
 msgid "Collapse"
 msgstr "Ausblenden"
+
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Collapse all Micro Views"
+msgstr "Alle Mikroansichten einklappen"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -730,10 +770,10 @@ msgctxt "UCMixerConnector"
 msgid "Connected to %(1)."
 msgstr "Verbunden mit %(1)."
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
 #: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
-#: audiomixer/audiosendfolder.cpp mixerconsole/mixerconsole.cpp
-#: mixerconsole/mixersnapshot.cpp
+#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
+#: audiomixer/audiosendfolder.cpp audiomixer/audiopanner.cpp
+#: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Console"
 msgstr "Konsole"
@@ -1064,6 +1104,11 @@ msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr "Mehrfache Parameterveränderungen"
 
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Edit Panner"
+msgstr "Panner bearbeiten"
+
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Edit as Switch"
@@ -1163,6 +1208,11 @@ msgstr "Event-FX"
 msgctxt "DeviceFolder"
 msgid "Expand"
 msgstr "Einblenden"
+
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Expand all Micro Views"
+msgstr "Alle Mikroansichten ausklappen"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1480,14 +1530,14 @@ msgctxt "EditGroups"
 msgid "Inserts"
 msgstr "Inserts"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instrument"
 msgstr "Instrument"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instrument"
 msgstr "Instrument"
 
@@ -1511,14 +1561,14 @@ msgctxt "Channels"
 msgid "Instruments"
 msgstr "Instrumente"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instruments"
 msgstr "Instrumente"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instruments"
 msgstr "Instrumente"
 
@@ -1636,6 +1686,11 @@ msgstr "Pan an Kanal binden"
 msgctxt "Command"
 msgid "Lock Panning"
 msgstr "Pan binden"
+
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
+msgid "Lock Volume to Channel"
+msgstr "Pegel an Kanal binden"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -1888,6 +1943,11 @@ msgctxt "Command"
 msgid "Next Fader Flip Target"
 msgstr "Nächstes Fader-Flip-Ziel"
 
+#: audiomixer/audiopanner.cpp
+msgctxt "Command"
+msgid "Next Panner Stereo Mode"
+msgstr "Nächster Panner-Stereomodus"
+
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Next Scene"
@@ -1912,6 +1972,11 @@ msgstr "Kein Eingang"
 msgctxt "Studio"
 msgid "No devices are missing."
 msgstr "Keine fehlenden Geräte."
+
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "No match"
+msgstr "Keine Übereinstimmung"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
@@ -2033,6 +2098,11 @@ msgctxt "Command"
 msgid "Open Qwerty Keyboard"
 msgstr "Qwerty-Keyboard öffnen"
 
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Other"
+msgstr "Andere"
+
 #: mixer/mixercontrollable.cpp
 msgctxt "Channel"
 msgid "Output"
@@ -2100,6 +2170,16 @@ msgstr "Pan Rechts"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
+msgid "Pan View"
+msgstr "Pan-Ansicht"
+
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Panner"
+msgstr "Panner"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
 msgid "Panner"
 msgstr "Panner"
 
@@ -2108,13 +2188,13 @@ msgctxt "ActionDescriptions"
 msgid "Parameter"
 msgstr "Parameter"
 
-#: editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: editor/paramselector.cpp
+msgctxt "ParamSelector"
 msgid "Parameter"
 msgstr "Parameter"
 
-#: editor/paramselector.cpp
-msgctxt "ParamSelector"
+#: editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Parameter"
 msgstr "Parameter"
 
@@ -2158,11 +2238,6 @@ msgctxt "AudioFX"
 msgid "Plug-in Nap"
 msgstr "Plug-in-Nap"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
-msgctxt "Hardware"
-msgid "Polarity"
-msgstr "Polarität"
-
 #: audiomixer/audiochannelinputfx.cpp
 msgctxt "AudioChannelInputFX"
 msgid "Polarity"
@@ -2170,11 +2245,16 @@ msgstr "Polarität"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
+msgid "Polarity"
+msgstr "Polarität"
+
+#: audiomixer/audiochannelinputfx.cpp
+msgctxt "AudioChannelInputFX"
 msgid "Polarity Right"
 msgstr "Polarität rechts"
 
-#: audiomixer/audiochannelinputfx.cpp
-msgctxt "AudioChannelInputFX"
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
+msgctxt "Hardware"
 msgid "Polarity Right"
 msgstr "Polarität rechts"
 
@@ -2768,13 +2848,13 @@ msgctxt "SideChain"
 msgid "Select Sidechain Source"
 msgstr "Sidechain-Quelle auswählen"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Send"
 msgstr "Senden"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Send"
 msgstr "Senden"
 
@@ -2893,6 +2973,11 @@ msgctxt "Channel"
 msgid "Set Output"
 msgstr "Ausgang setzen"
 
+#: audiomixer/audiomixereditfunctions.cpp
+msgctxt "AudioMixerEditFunctions"
+msgid "Set Panner Type"
+msgstr "Panner-Typ einstellen"
+
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Set Play Start Marker"
@@ -2907,6 +2992,16 @@ msgstr "Rate setzen: %(1)"
 msgctxt "AudioSendSlot"
 msgid "Set Send Target"
 msgstr "Sendziel setzen"
+
+#: audiomixer/audiomixereditfunctions.cpp
+msgctxt "AudioMixerEditFunctions"
+msgid "Set Spatial Object Panner"
+msgstr "3D-Objekt-Panner verwenden"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Set Spatial Object Panner"
+msgstr "3D-Objekt-Panner verwenden"
 
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
@@ -3163,6 +3258,16 @@ msgctxt "AudioSynth"
 msgid "Sound Variation Editor"
 msgstr "Sound-Variationen bearbeiten"
 
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "Spatial Audio"
+msgstr "3D-Audio"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Spatial Object Panner"
+msgstr "3D-Objekt-Panner"
+
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Speaker A"
@@ -3363,6 +3468,11 @@ msgctxt "MusicDeviceSetup"
 msgid "The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
 msgstr "Das Gerätemodell \"%(1)\" wird nicht mehr verwendet. Möchten Sie es aus der Bibliothek entfernen?"
 
+#: audiomixer/audiomixfxcomponent.cpp
+msgctxt "Devices"
+msgid "The Mix FX does not support speaker format %(1). It will be processed on the left and right channel."
+msgstr "Dieser Mix FX unterstützt die Lautsprecheranordnung %(1) nicht und wird nur auf den linken und rechten Kanal angewendet."
+
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
@@ -3372,6 +3482,11 @@ msgstr "Das Audiogerät %(1) konnte nicht initialisiert werden. Bitte überprüf
 msgctxt "Devices"
 msgid "The audio device %(1) has failed to start correctly before. Do you want to try it again?"
 msgstr "Das Audiogerät %(1) konnte zuvor nicht gestartet werden. Möchten Sie es erneut versuchen?"
+
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "Das Audiogerät hat nicht genügend Ausgänge.\nMöchten Sie trotzdem fortfahren?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3442,6 +3557,11 @@ msgstr "Loop aktiv"
 msgctxt "Command"
 msgid "Toggle Loop Display"
 msgstr "Loopanzeige umschalten"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "Command"
+msgid "Toggle Panner Object Mode"
+msgstr "Panner-Objektmodus umschalten"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
@@ -3514,13 +3634,13 @@ msgctxt "FaderFlip"
 msgid "Turn Off Fader Flip"
 msgstr "Fader-Flip ausschalten"
 
-#: editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: editor/performancemonitor.cpp
+msgctxt "PerformanceMonitor"
 msgid "Type"
 msgstr "Typ"
 
-#: editor/performancemonitor.cpp
-msgctxt "PerformanceMonitor"
+#: editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Type"
 msgstr "Typ"
 
@@ -3634,6 +3754,11 @@ msgctxt "MixerSnapshots"
 msgid "Visibility only"
 msgstr "Nur Sichbarkeit"
 
+#: audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
+msgid "Volume"
+msgstr "Lautstärke"
+
 #: audiomixer/channels/audiovcachannel.cpp
 msgctxt "AudioVCAChannel"
 msgid "Volume"
@@ -3641,11 +3766,6 @@ msgstr "Lautstärke"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
-msgid "Volume"
-msgstr "Lautstärke"
-
-#: audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "Lautstärke"
 

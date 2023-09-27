@@ -269,11 +269,6 @@ msgctxt "ProjectEdit"
 msgid "Bounce Track"
 msgstr "트랙 바운스"
 
-#: song/songsetup.cpp
-msgctxt "SongSetup"
-msgid "Built-In"
-msgstr "빌트인"
-
 #: project/publish/projectburner.cpp
 msgctxt "Command"
 msgid "Burn Audio CD"
@@ -308,6 +303,11 @@ msgstr "취소"
 msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "보호된 콘텐츠에서 믹스다운을 작성할 수 없습니다."
+
+#: song/spatialaudioexporter.cpp
+msgctxt "SpatialAudioExporter"
+msgid "Cannot export spatial audio file."
+msgstr "공간감 오디오(Spatial Audio) 파일을 익스포트할 수 없습니다."
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
@@ -629,7 +629,7 @@ msgctxt "SongSetup"
 msgid "Error: %(1) requires sample rate %(2)"
 msgstr "에러: %(1)에는 %(2) 샘플레이트가 요구됩니다"
 
-#: show/editing/showeditcomponent.cpp
+#: score/scoreeditor.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Event"
 msgstr "이벤트"
@@ -638,6 +638,11 @@ msgstr "이벤트"
 msgctxt "Command"
 msgid "Export Mixdown"
 msgstr "믹스다운 익스포트"
+
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Export Spatial Audio"
+msgstr "공간감 오디오(Spatial Audio) 익스포트"
 
 #: song/songcontroller.cpp
 msgctxt "Command"
@@ -659,13 +664,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "익스포트하는 중:"
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "오디오 파일로 익스포트에 실패했습니다."
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "오디오 파일로 익스포트에 실패했습니다."
 
@@ -882,16 +887,6 @@ msgctxt "SetListItem"
 msgid "Item"
 msgstr "아이템"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Keep Output Speaker Setup"
-msgstr "아웃풋 스피커 설정 유지"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Keep Stem Speaker Setup"
-msgstr "스템 스피커 설정 유지"
-
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Large"
@@ -1008,6 +1003,11 @@ msgstr "믹스다운 속도: %float(1:1)"
 msgctxt "ProjectFunctions"
 msgid "Modify Attribute"
 msgstr "속성 수정"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Mono"
+msgstr "모노"
 
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
@@ -1185,10 +1185,20 @@ msgctxt "Command"
 msgid "Open Tempo Track"
 msgstr "템포 트랙 열기"
 
+#: song/songvideohandler.cpp
+msgctxt "Command"
+msgid "Open Video Track"
+msgstr "비디오트랙 열기"
+
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Opening the CD Burning Engine failed."
 msgstr "CD 버닝 엔진 열기에 실패했습니다."
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Original"
+msgstr "오리지널"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1300,16 +1310,16 @@ msgctxt "Command"
 msgid "Print"
 msgstr "인쇄"
 
-#: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
-#: project/publish/ddpimagemaker.cpp project/publish/imagemaker.cpp
-#: project/publish/audiofilepublisher.cpp
-msgctxt "Command"
+#: project/document/projectdocument.cpp
+msgctxt "Project"
 msgid "Project"
 msgstr "프로젝트"
 
-#: project/document/projectdocument.cpp
-msgctxt "Project"
+#: project/document/projectcomponent.cpp
+#: project/editing/projecteditcomponent.cpp
+#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
+#: project/publish/imagemaker.cpp project/publish/projectburner.cpp
+msgctxt "Command"
 msgid "Project"
 msgstr "프로젝트"
 
@@ -1865,8 +1875,8 @@ msgid "Setup Page"
 msgstr "페이지 설정"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/showeditmodel.cpp show/editing/setlistcomponent.cpp
-#: show/editing/showeditcomponent.cpp show/editing/showplayerinspector.cpp
+#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
+#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1918,6 +1928,11 @@ msgctxt "Command"
 msgid "Solo"
 msgstr "솔로"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Some items will be exported in stereo because their speaker setup is not supported by the selected format."
+msgstr "선택된 포맷이 해당 스피커 설정을 지원하지 않으므로 일부 아이템은 스테레오로 익스포트됩니다."
+
 #: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Song"
@@ -1948,6 +1963,16 @@ msgctxt "Command"
 msgid "Sound Variation"
 msgstr "사운드 바리에이션"
 
+#: song/songcontroller.cpp
+msgctxt "Command"
+msgid "Spatial Audio Setup"
+msgstr "공간감 오디오(Spatial Audio) 설정"
+
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Speaker"
+msgstr "스피커"
+
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
 msgid "Split Event at Cursor"
@@ -1955,13 +1980,8 @@ msgstr "커서위치에서 이벤트 스플릿"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
-msgid "Split Speakers to Mono Files"
-msgstr "모노파일로 스피커 스플릿"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Split Stem Speakers to Mono Files"
-msgstr "모노파일로 스템스피커 스플릿"
+msgid "Split Mono"
+msgstr "모노로 스플릿"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -2007,6 +2027,16 @@ msgstr ""
 "시작: %(1) (%(2))\n"
 "일시정지: %(3)"
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "Stem export not possible for some items because they are incompatible with the %(1) output setup."
+msgstr "일부 아이템은 %(1) 출력 설정과 호환되지 않으므로 스템 익스포트할 수 없습니다."
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Stereo"
+msgstr "스테레오"
+
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
 msgid "Stop at End"
@@ -2026,6 +2056,11 @@ msgstr "트랙 프리셋 저장"
 msgctxt "Command"
 msgid "Store Track Preset"
 msgstr "트랙 프리셋 저장"
+
+#: song/songsetup.cpp
+msgctxt "SongSetup"
+msgid "Surround"
+msgstr "서라운드"
 
 #: song/songdocument.cpp
 msgctxt "Engine"
@@ -2101,6 +2136,16 @@ msgctxt "SongUpdater"
 msgid "The mastering files are up-to-date."
 msgstr "마스터링 파일이 최신입니다."
 
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
+msgid "The selected format does not support %(1)"
+msgstr "선택된 포맷이 %(1)을(를) 지원하지 않습니다."
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "The selected format does not support %(1). The format will be exported in stereo."
+msgstr "선택된 포맷이 %(1)을(를) 지원하지 않습니다. 포맷이 스테레오 형식으로 익스포트 됩니다."
+
 #: song/songmaster.cpp
 msgctxt "SongMaster"
 msgid "The song will be saved first.\n"
@@ -2125,6 +2170,11 @@ msgstr "극소"
 msgctxt "AudioDiscPublisher"
 msgid "Title"
 msgstr "제목"
+
+#: score/scoreeditor.cpp
+msgctxt "Command"
+msgid "Toggle Mute"
+msgstr "뮤트 전환"
 
 #: score/scoreeditor.cpp
 msgctxt "Command"
@@ -2350,6 +2400,7 @@ msgid "Video frame rate %(1) is not supported as song frame rate."
 msgstr "비디오의 %(1) 프레임레이트는 Song 프레임레이트에서 지원되지 않습니다."
 
 #: show/editing/globaltracklistcomponent.cpp song/songmarker.cpp
+#: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "보기"
@@ -2358,26 +2409,6 @@ msgstr "보기"
 msgctxt "Player"
 msgid "Virtual Instrument"
 msgstr "가상악기"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Mono File"
-msgstr "모노 파일 쓰기"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Mono Stems"
-msgstr "모노 스템 쓰기"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Write Stereo File"
-msgstr "스테레오 파일 쓰기"
-
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
-msgid "Write Stereo Stems"
-msgstr "스테레오 스템 쓰기"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2403,6 +2434,42 @@ msgstr "확대/축소"
 msgctxt "ShowDragHandler"
 msgid "new Player"
 msgstr "새로운 플레이어"
+
+#~ msgctxt "SongSetup"
+#~ msgid "Built-In"
+#~ msgstr "빌트인"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Keep Output Speaker Setup"
+#~ msgstr "아웃풋 스피커 설정 유지"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Keep Stem Speaker Setup"
+#~ msgstr "스템 스피커 설정 유지"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Split Speakers to Mono Files"
+#~ msgstr "모노파일로 스피커 스플릿"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Split Stem Speakers to Mono Files"
+#~ msgstr "모노파일로 스템스피커 스플릿"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Mono File"
+#~ msgstr "모노 파일 쓰기"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Mono Stems"
+#~ msgstr "모노 스템 쓰기"
+
+#~ msgctxt "SongRenderer"
+#~ msgid "Write Stereo File"
+#~ msgstr "스테레오 파일 쓰기"
+
+#~ msgctxt "StemRenderer"
+#~ msgid "Write Stereo Stems"
+#~ msgstr "스테레오 스템 쓰기"
 
 #~ msgctxt "Song"
 #~ msgid "Could not import file!"

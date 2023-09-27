@@ -99,6 +99,21 @@ msgctxt "SystemInfo"
 msgid "Application"
 msgstr "アプリケーション"
 
+#: automationhandler.cpp
+msgctxt "AutomationHandler"
+msgid "Apply Current Automation"
+msgstr "現在のオートメーションを適用"
+
+#: automationhandler.cpp
+msgctxt "Command"
+msgid "Apply Current Automation to Song End"
+msgstr "現在のオートメーションをソングエンドに適用"
+
+#: automationhandler.cpp
+msgctxt "Command"
+msgid "Apply Current Automation to Song Start"
+msgstr "現在のオートメーションをソングスタートに適用"
+
 #: studioapp.cpp
 msgctxt "StudioApp"
 msgid "Arrow Tool"
@@ -109,13 +124,13 @@ msgctxt "StudioApp"
 msgid "Artist Profile"
 msgstr "アーティストプロフィール"
 
-#: samplerextension.cpp
-msgctxt "Command"
+#: appoptions.cpp
+msgctxt "Options"
 msgid "Audio"
 msgstr "オーディオ"
 
-#: appoptions.cpp
-msgctxt "Options"
+#: samplerextension.cpp
+msgctxt "Command"
 msgid "Audio"
 msgstr "オーディオ"
 
@@ -126,6 +141,11 @@ msgstr "オーディオファイル"
 
 #: appoptions.cpp
 msgctxt "Options"
+msgid "Automation"
+msgstr "オートメーション"
+
+#: automationhandler.cpp
+msgctxt "Command"
 msgid "Automation"
 msgstr "オートメーション"
 
@@ -489,13 +509,13 @@ msgctxt "Sidebar"
 msgid "New Multi Instrument"
 msgstr "新規マルチインストゥルメント"
 
-#: projectdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Project"
 msgstr "新規プロジェクト"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: projectdocument.cpp
+msgctxt "StudioApp"
 msgid "New Project"
 msgstr "新規プロジェクト"
 
@@ -504,13 +524,13 @@ msgctxt "StudioApp"
 msgid "New Project \"%(1)\""
 msgstr "新規プロジェクト \"%(1)\""
 
-#: showdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Show"
 msgstr "新規ショー"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: showdocument.cpp
+msgctxt "StudioApp"
 msgid "New Show"
 msgstr "新規ショー"
 
@@ -519,13 +539,13 @@ msgctxt "StudioApp"
 msgid "New Show \"%(1)\""
 msgstr "新規ショー \"%(1)\"…"
 
-#: songdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Song"
 msgstr "新規ソング"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: songdocument.cpp
+msgctxt "StudioApp"
 msgid "New Song"
 msgstr "新規ソング"
 
@@ -874,7 +894,7 @@ msgctxt "Command"
 msgid "Video Player"
 msgstr "ビデオプレイヤー"
 
-#: documenthandler.cpp appfeatures.cpp
+#: appfeatures.cpp documenthandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "表示"
@@ -1023,4 +1043,3 @@ msgstr "ワークスペース"
 #~ msgctxt "StudioApp"
 #~ msgid "Files are being transferred in background."
 #~ msgstr "ファイルはバックグラウンドで転送中です。"
-

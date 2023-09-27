@@ -99,6 +99,21 @@ msgctxt "SystemInfo"
 msgid "Application"
 msgstr "Applicazione"
 
+#: automationhandler.cpp
+msgctxt "AutomationHandler"
+msgid "Apply Current Automation"
+msgstr "Applicare l'automazione corrente"
+
+#: automationhandler.cpp
+msgctxt "Command"
+msgid "Apply Current Automation to Song End"
+msgstr "Applica l'automazione corrente alla fine del brano"
+
+#: automationhandler.cpp
+msgctxt "Command"
+msgid "Apply Current Automation to Song Start"
+msgstr "Applica l'automazione corrente all'inizio del brano"
+
 #: studioapp.cpp
 msgctxt "StudioApp"
 msgid "Arrow Tool"
@@ -109,13 +124,13 @@ msgctxt "StudioApp"
 msgid "Artist Profile"
 msgstr "Profilo Artista"
 
-#: samplerextension.cpp
-msgctxt "Command"
+#: appoptions.cpp
+msgctxt "Options"
 msgid "Audio"
 msgstr "Audio"
 
-#: appoptions.cpp
-msgctxt "Options"
+#: samplerextension.cpp
+msgctxt "Command"
 msgid "Audio"
 msgstr "Audio"
 
@@ -126,6 +141,11 @@ msgstr "Files Audio"
 
 #: appoptions.cpp
 msgctxt "Options"
+msgid "Automation"
+msgstr "Automazione"
+
+#: automationhandler.cpp
+msgctxt "Command"
 msgid "Automation"
 msgstr "Automazione"
 
@@ -489,13 +509,13 @@ msgctxt "Sidebar"
 msgid "New Multi Instrument"
 msgstr "Nuovo Multi Strumento"
 
-#: projectdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Project"
 msgstr "Nuovo Progetto"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: projectdocument.cpp
+msgctxt "StudioApp"
 msgid "New Project"
 msgstr "Nuovo Progetto"
 
@@ -504,13 +524,13 @@ msgctxt "StudioApp"
 msgid "New Project \"%(1)\""
 msgstr "Nuovo Progetto \"%(1)\""
 
-#: showdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Show"
 msgstr "Nuovo Show"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: showdocument.cpp
+msgctxt "StudioApp"
 msgid "New Show"
 msgstr "Nuovo Show"
 
@@ -519,13 +539,13 @@ msgctxt "StudioApp"
 msgid "New Show \"%(1)\""
 msgstr "Nuovo Show \"%(1)\""
 
-#: songdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Song"
 msgstr "Nuova Song"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: songdocument.cpp
+msgctxt "StudioApp"
 msgid "New Song"
 msgstr "Nuova Song"
 
@@ -874,7 +894,7 @@ msgctxt "Command"
 msgid "Video Player"
 msgstr "Player Video"
 
-#: documenthandler.cpp appfeatures.cpp
+#: appfeatures.cpp documenthandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Vista"
@@ -1023,4 +1043,3 @@ msgstr "Spazio di Lavoro"
 #~ msgctxt "StudioApp"
 #~ msgid "Files are being transferred in background."
 #~ msgstr "I file vengono trasferiti in background."
-

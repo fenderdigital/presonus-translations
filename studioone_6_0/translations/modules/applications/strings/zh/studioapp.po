@@ -99,6 +99,21 @@ msgctxt "SystemInfo"
 msgid "Application"
 msgstr "应用程序"
 
+#: automationhandler.cpp
+msgctxt "AutomationHandler"
+msgid "Apply Current Automation"
+msgstr "应用当前的自动化"
+
+#: automationhandler.cpp
+msgctxt "Command"
+msgid "Apply Current Automation to Song End"
+msgstr "将当前自动化应用于歌曲结尾"
+
+#: automationhandler.cpp
+msgctxt "Command"
+msgid "Apply Current Automation to Song Start"
+msgstr "将当前自动化应用于歌曲开始"
+
 #: studioapp.cpp
 msgctxt "StudioApp"
 msgid "Arrow Tool"
@@ -109,13 +124,13 @@ msgctxt "StudioApp"
 msgid "Artist Profile"
 msgstr "作者资料"
 
-#: samplerextension.cpp
-msgctxt "Command"
+#: appoptions.cpp
+msgctxt "Options"
 msgid "Audio"
 msgstr "音频"
 
-#: appoptions.cpp
-msgctxt "Options"
+#: samplerextension.cpp
+msgctxt "Command"
 msgid "Audio"
 msgstr "音频"
 
@@ -128,6 +143,11 @@ msgstr "音频文件"
 msgctxt "Options"
 msgid "Automation"
 msgstr "自动控制"
+
+#: automationhandler.cpp
+msgctxt "Command"
+msgid "Automation"
+msgstr "自动化"
 
 #: appoptions.cpp
 msgctxt "Options"
@@ -489,13 +509,13 @@ msgctxt "Sidebar"
 msgid "New Multi Instrument"
 msgstr "新建多重乐器"
 
-#: projectdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Project"
 msgstr "新建项目"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: projectdocument.cpp
+msgctxt "StudioApp"
 msgid "New Project"
 msgstr "新建项目"
 
@@ -504,13 +524,13 @@ msgctxt "StudioApp"
 msgid "New Project \"%(1)\""
 msgstr "新建项目 \"%(1)\""
 
-#: showdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Show"
 msgstr " 新显示页"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: showdocument.cpp
+msgctxt "StudioApp"
 msgid "New Show"
 msgstr " 新显示页"
 
@@ -519,13 +539,13 @@ msgctxt "StudioApp"
 msgid "New Show \"%(1)\""
 msgstr " 新显示页\"%(1)\"……"
 
-#: songdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Song"
 msgstr "新建乐曲"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: songdocument.cpp
+msgctxt "StudioApp"
 msgid "New Song"
 msgstr "新建乐曲"
 
@@ -874,7 +894,7 @@ msgctxt "Command"
 msgid "Video Player"
 msgstr "视频播放器"
 
-#: documenthandler.cpp appfeatures.cpp
+#: appfeatures.cpp documenthandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "查看"
@@ -1023,4 +1043,3 @@ msgstr "工作区"
 #~ msgctxt "StudioApp"
 #~ msgid "Files are being transferred in background."
 #~ msgstr "文件将在后台进行传送。"
-

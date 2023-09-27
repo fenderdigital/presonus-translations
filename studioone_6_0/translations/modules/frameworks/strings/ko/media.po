@@ -4,6 +4,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: audiofile/audiocodecselector.cpp
+msgctxt "AudioCodecSelector"
+msgid "%(1) not supported by %(2)"
+msgstr "%(2)이(가) %(1)을(를) 지원하지 않습니다."
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "1 octave down"
@@ -23,6 +28,101 @@ msgstr "2옥타브 아래"
 msgctxt "MusicSymbols"
 msgid "2 octaves up"
 msgstr "2옥타브 위"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.0 Cine"
+msgstr "3.0 Cine"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.0 Music"
+msgstr "3.0 Music"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.1 Cine"
+msgstr "3.1 Cine"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "3.1 Music"
+msgstr "3.1 Music"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.0 Cine"
+msgstr "4.0 Cine"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.0 Music"
+msgstr "4.0 Music"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.1 Cine"
+msgstr "4.1 Cine"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "4.1 Music"
+msgstr "4.1 Music"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.0"
+msgstr "5.0"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1"
+msgstr "5.1"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1 (ITU)"
+msgstr "5.1 (ITU)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1.2"
+msgstr "5.1.2"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "5.1.4"
+msgstr "5.1.4"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.0"
+msgstr "7.0"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.0.2"
+msgstr "7.0.2"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.1"
+msgstr "7.1"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.1.2"
+msgstr "7.1.2"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "7.1.4"
+msgstr "7.1.4"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "9.1.6"
+msgstr "9.1.6"
 
 #: audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
@@ -144,6 +244,21 @@ msgctxt "MusicalScale"
 msgid "Blues"
 msgstr "블루스"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Center"
+msgstr "센터"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Center Top Front"
+msgstr "센터 탑 프론트"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Center Top Rear"
+msgstr "센터 탑 리어"
+
 #: music/chordevent.cpp
 msgctxt "FileType"
 msgid "Chord File"
@@ -228,6 +343,11 @@ msgstr "디미누엔도"
 msgctxt "MusicSymbols"
 msgid "Diminuendo Hairpin"
 msgstr "디미누엔도 헤어핀"
+
+#: audiofile/audiofileconverter.cpp
+msgctxt "AudioFileConverter"
+msgid "Do you want to merge the files as %(1)?"
+msgstr "파일들을 %(1)(으)로 합치시겠습니까?"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -344,6 +464,16 @@ msgctxt "ActionDescriptions"
 msgid "Freeze Velocity"
 msgstr "벨로시티 고정"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Front Left of Center"
+msgstr "센터 프론트 레프트"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Front Right of Center"
+msgstr "센터 프론트 라이트"
+
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Generate Notes"
@@ -444,10 +574,50 @@ msgctxt "Media"
 msgid "LUFS"
 msgstr "LUFS"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left"
+msgstr "레프트"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Rear Surround"
+msgstr "레프트 리어 서라운드"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Surround"
+msgstr "레프트 서라운드"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Top Front"
+msgstr "레프트 탑 프론트"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Top Middle"
+msgstr "레프트 탑 미들"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Top Rear"
+msgstr "레프트 탑 리어"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Left Wide"
+msgstr "레프트 와이드"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Let Ring"
 msgstr "울림유지"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Low Frequency"
+msgstr "로우 프리퀀시"
 
 #: music/musicparams.cpp
 msgctxt "Media.Music"
@@ -483,6 +653,11 @@ msgstr "메이저 펜타토닉"
 msgctxt "MusicalScale"
 msgid "Major Triad"
 msgstr "메이저 트라이어드"
+
+#: audio/audiospeakermapcomponent.cpp
+msgctxt "AudioSpeakerMap"
+msgid "Map Channels to Speakers"
+msgstr "스피커로 채널 매핑"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -589,13 +764,13 @@ msgctxt "ActionDescriptions"
 msgid "Modify Step Count"
 msgstr "스텝 카운트 수정"
 
-#: time/tempomanipulator.cpp
-msgctxt "TempoManipulator"
+#: time/mediatimeactions.cpp
+msgctxt "MediaTimeAction"
 msgid "Modify Tempo"
 msgstr "템포 수정"
 
-#: time/mediatimeactions.cpp
-msgctxt "MediaTimeAction"
+#: time/tempomanipulator.cpp
+msgctxt "TempoManipulator"
 msgid "Modify Tempo"
 msgstr "템포 수정"
 
@@ -604,7 +779,7 @@ msgctxt "ActionDescriptions"
 msgid "Modify Velocity"
 msgstr "벨로시티 수정"
 
-#: public/mediaformatter.cpp
+#: public/audio/speakers.cpp public/mediaformatter.cpp
 msgctxt "Media"
 msgid "Mono"
 msgstr "모노"
@@ -809,6 +984,11 @@ msgctxt "Resolution"
 msgid "Quintuplet"
 msgstr "다섯잇단음"
 
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Rear Center"
+msgstr "리어 센터"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Release string"
@@ -858,6 +1038,41 @@ msgstr "이벤트사이즈 변경"
 msgctxt "EventFunctions"
 msgid "Resize Events"
 msgstr "이벤트사이즈 변경"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right"
+msgstr "라이트"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Rear Surround"
+msgstr "라이트 리어 서라운드"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Surround"
+msgstr "라이트 서라운드"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Top Front"
+msgstr "라이트 탑 프론트"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Top Middle"
+msgstr "라이트 탑 미들"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Top Rear"
+msgstr "라이트 탑 리어"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Right Wide"
+msgstr "라이트 와이드"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
@@ -974,10 +1189,30 @@ msgctxt "MusicSymbols"
 msgid "Staccato"
 msgstr "스타카토"
 
-#: public/mediaformatter.cpp
+#: public/audio/speakers.cpp public/mediaformatter.cpp
 msgctxt "Media"
 msgid "Stereo"
 msgstr "스테레오"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (C Lfe)"
+msgstr "스테레오 (C Lfe)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (Lc Rc)"
+msgstr "스테레오 (Lc Rc)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (Ls Rs)"
+msgstr "스테레오 (Ls Rs)"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Stereo (Sl Sr)"
+msgstr "스테레오 (Sl Sr)"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
@@ -1069,6 +1304,11 @@ msgctxt "MusicSymbols"
 msgid "Tenuto"
 msgstr "테누토"
 
+#: audiofile/audiofileconverter.cpp
+msgctxt "AudioFileConverter"
+msgid "The speaker setup could not be determined from the file names."
+msgstr "파일명에서 스피커 설정을 확인할 수 없습니다."
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Thumb"
@@ -1083,6 +1323,11 @@ msgstr "음색"
 msgctxt "MediaTime"
 msgid "Time-Linear"
 msgstr "타임리니어"
+
+#: public/audio/speakers.cpp
+msgctxt "Media"
+msgid "Top Center"
+msgstr "탑 센터"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"

@@ -30,7 +30,7 @@ msgid "0"
 msgstr "0"
 
 #: audiochannel.small.xml
-msgctxt "OutputChannelLevelSection"
+msgctxt "OutputClippingDisplay"
 msgid "0"
 msgstr "0"
 
@@ -45,9 +45,14 @@ msgid "@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
 
 #: audiochannel.small.xml
-msgctxt "ChannelMeterDisplay"
+msgctxt "ChannelMeterDisplayContent"
 msgid "@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
+
+#: audiochannel.xml
+msgctxt "SendPanTypeControls"
+msgid "@value[]"
+msgstr "@value[]"
 
 #: channeleditor.macrocontrols.xml
 msgctxt "MacroControlFocusCell"
@@ -69,11 +74,6 @@ msgctxt "AudioInput.Small.Narrow"
 msgid "@value[]"
 msgstr "@value[]"
 
-#: audiochannel.xml
-msgctxt "AudioSendRackSlotView"
-msgid "@value[]"
-msgstr "@value[]"
-
 #: audiochannel.narrow.xml
 msgctxt "AudioMeter.Narrow"
 msgid "A device produced invalid data"
@@ -85,9 +85,9 @@ msgid "A device produced invalid data"
 msgstr "장치가 유효하지 않은 데이터를 생성하였습니다."
 
 #: audiochannel.small.xml
-msgctxt "MixerChannelRightStrip"
-msgid "Activate"
-msgstr "활성화"
+msgctxt "OutputClippingDisplay"
+msgid "A device produced invalid data"
+msgstr "장치가 유효하지 않은 데이터를 생성하였습니다."
 
 #: audiochannel.xml
 msgctxt "AudioFXRackSlotView"
@@ -111,6 +111,11 @@ msgstr "활성화"
 
 #: audiochannel.xml
 msgctxt "MixFXRackSlotView"
+msgid "Activate"
+msgstr "활성화"
+
+#: audiochannel.small.xml
+msgctxt "MixerChannelRightStrip"
 msgid "Activate"
 msgstr "활성화"
 
@@ -199,6 +204,11 @@ msgctxt "HardwareInputFXCompactView"
 msgid "Audio Device Controls"
 msgstr "오디오 장치 컨트롤"
 
+#: channeleditor.xml
+msgctxt "ChannelOverviewProjectChannel"
+msgid "Automation Mode"
+msgstr "오토메이션 모드"
+
 #: audiochannel.narrow.xml
 msgctxt "AudioChannel.Narrow.Content"
 msgid "Automation Mode"
@@ -216,11 +226,6 @@ msgstr "오토메이션 모드"
 
 #: audiochannel.small.xml
 msgctxt "AudioOutputChannel.BasicsContent"
-msgid "Automation Mode"
-msgstr "오토메이션 모드"
-
-#: channeleditor.xml
-msgctxt "ChannelOverviewProjectChannel"
 msgid "Automation Mode"
 msgstr "오토메이션 모드"
 
@@ -285,17 +290,22 @@ msgid "Clip / Peak Levels"
 msgstr "클립/피크레벨"
 
 #: audiochannel.small.xml
-msgctxt "ChannelMeterDisplay"
+msgctxt "OutputClippingDisplay"
 msgid "Clip / Peak Levels"
 msgstr "클립/피크레벨"
 
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
-msgid "Close"
-msgstr "닫기"
+#: audiochannel.small.xml
+msgctxt "ChannelMeterDisplayContent"
+msgid "Clip / Peak Levels"
+msgstr "클립/피크레벨"
 
 #: channelpanner.xml
 msgctxt "PannerEditorHeadline"
+msgid "Close"
+msgstr "닫기"
+
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
 msgid "Close"
 msgstr "닫기"
 
@@ -329,30 +339,15 @@ msgctxt "CueMixRackSlotView"
 msgid "Cue mix Level: @value[]"
 msgstr "큐믹스 레벨: @value[]"
 
-#: audiochannel.xml
-msgctxt "CueMixRackSlotView"
-msgid "Cue mix Pan: @value[]"
-msgstr "큐믹스 팬: @value[]"
-
-#: audiochannel.small.xml
-msgctxt "ChannelLabel"
-msgid "Double Click: Edit Name"
-msgstr "더블클릭: 이름 편집"
-
 #: channeleditor.xml
 msgctxt "ChannelOverviewColoredHeaderView"
 msgid "Double Click: Edit Name"
 msgstr "더블클릭: 이름 편집"
 
-#: audiochannel.narrow.xml
-msgctxt "ChannelLabelNarrow"
-msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "더블클릭: 이름 편집, 누른 상태 유지: 채널 컬러 선택"
-
 #: audiochannel.small.xml
 msgctxt "ChannelLabel"
-msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "더블클릭: 이름 편집, 누른 상태 유지: 채널 컬러 선택"
+msgid "Double Click: Edit Name"
+msgstr "더블클릭: 이름 편집"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewEditChannel"
@@ -363,6 +358,16 @@ msgstr "더블 클릭: 이름 편집, 누른 상태 유지: 채널 컬러 선택
 msgctxt "ChannelOverviewColoredHeaderView"
 msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
 msgstr "더블 클릭: 이름 편집, 누른 상태 유지: 채널 컬러 선택"
+
+#: audiochannel.narrow.xml
+msgctxt "ChannelLabelNarrow"
+msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgstr "더블클릭: 이름 편집, 누른 상태 유지: 채널 컬러 선택"
+
+#: audiochannel.small.xml
+msgctxt "ChannelLabel"
+msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
+msgstr "더블클릭: 이름 편집, 누른 상태 유지: 채널 컬러 선택"
 
 #: channeleditor.macrocontrols.xml
 msgctxt "DAWMacroControlEditBox"
@@ -464,11 +469,6 @@ msgctxt "ChannelInputFXView"
 msgid "Input Gain"
 msgstr "입력 게인"
 
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
-msgid "Inserts"
-msgstr "인서트"
-
 #: audiochannel.xml
 msgctxt "AudioInserts"
 msgid "Inserts"
@@ -476,6 +476,11 @@ msgstr "인서트"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewInserts"
+msgid "Inserts"
+msgstr "인서트"
+
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
 msgid "Inserts"
 msgstr "인서트"
 
@@ -524,13 +529,13 @@ msgctxt "MacroTargetCurve"
 msgid "Invert Y"
 msgstr "Y 반전"
 
-#: deviceheader.xml
-msgctxt "DeviceEditorHeadline"
+#: channelpanner.xml
+msgctxt "PannerEditorHeadline"
 msgid "Keep Editor Open"
 msgstr "에디터 열어두기"
 
-#: channelpanner.xml
-msgctxt "PannerEditorHeadline"
+#: deviceheader.xml
+msgctxt "DeviceEditorHeadline"
 msgid "Keep Editor Open"
 msgstr "에디터 열어두기"
 
@@ -604,8 +609,8 @@ msgctxt "MixerChannelButtonBlock"
 msgid "Monitor"
 msgstr "모니터"
 
-#: audiochannel.narrow.xml
-msgctxt "AudioChannel.Narrow.Content"
+#: channeleditor.xml
+msgctxt "ChannelOverviewProjectChannel"
 msgid "Mono"
 msgstr "모노"
 
@@ -614,8 +619,8 @@ msgctxt "PannerPopupMonoStereo"
 msgid "Mono"
 msgstr "모노"
 
-#: channeleditor.xml
-msgctxt "ChannelOverviewProjectChannel"
+#: audiochannel.narrow.xml
+msgctxt "AudioChannel.Narrow.Content"
 msgid "Mono"
 msgstr "모노"
 
@@ -650,12 +655,17 @@ msgid "Overview"
 msgstr "오버뷰"
 
 #: audiochannel.narrow.xml
-msgctxt "ChannelPanTypeControls.Narrow"
+msgctxt "PanSliderNarrowTextBox"
 msgid "Pan"
 msgstr "팬"
 
+#: channelpanner.xml
+msgctxt "ChannelPanTypeControls"
+msgid "Pan: @value[]"
+msgstr "팬: @value[]"
+
 #: audiochannel.narrow.xml
-msgctxt "AudioChannel.Narrow.Pan"
+msgctxt "ChannelPanFlipped.Narrow"
 msgid "Pan: @value[]"
 msgstr "팬: @value[]"
 
@@ -663,21 +673,6 @@ msgstr "팬: @value[]"
 msgctxt "ChannelPanTypeControls.Narrow"
 msgid "Pan: @value[]"
 msgstr "팬: @value[]"
-
-#: channelpanner.xml
-msgctxt "ChannelPanFlipped"
-msgid "Pan: @value[]"
-msgstr "팬: @value[]"
-
-#: channelpanner.xml
-msgctxt "ChannelPanTypeControls"
-msgid "Pan: @value[]"
-msgstr "팬: @value[]"
-
-#: channelpanner.xml
-msgctxt "ChannelPanTypeControls"
-msgid "Panner"
-msgstr "패너"
 
 #: channeleditor.macrocontrols.xml
 msgctxt "MacroTargetCurve"
@@ -686,6 +681,11 @@ msgstr "붙여넣기"
 
 #: audiochannel.small.xml
 msgctxt "AudioInputChannel.Basics"
+msgid "Peak Hold (dB)"
+msgstr "피크 홀드 (dB)"
+
+#: audiochannel.small.xml
+msgctxt "DefaultStereoLevelView"
 msgid "Peak Hold (dB)"
 msgstr "피크 홀드 (dB)"
 
@@ -906,8 +906,8 @@ msgstr "감도"
 
 #: audiochannel.small.xml
 msgctxt "Command"
-msgid "Setup"
-msgstr "설정"
+msgid "Setup.Outputs"
+msgstr "Setup.Outputs"
 
 #: deviceheader.xml
 msgctxt "DeviceEditorTitleBar"
@@ -965,7 +965,7 @@ msgid "Speaker Setup"
 msgstr "스피커 설정"
 
 #: audiochannel.narrow.xml
-msgctxt "ChannelPanTypeControls.Narrow"
+msgctxt "PanSliderNarrowTextBox"
 msgid "Surround Panner"
 msgstr "서라운드 패너"
 
@@ -994,6 +994,11 @@ msgctxt "AudioCustomChannel.BasicsContent"
 msgid "VCA"
 msgstr "VCA"
 
+#: channeleditor.xml
+msgctxt "ChannelOverviewProjectChannel"
+msgid "Volume"
+msgstr "볼륨"
+
 #: audiochannel.narrow.xml
 msgctxt "NarrowVolumeSlider"
 msgid "Volume"
@@ -1009,11 +1014,6 @@ msgctxt "AudioOutputChannel.BasicsContent"
 msgid "Volume"
 msgstr "볼륨"
 
-#: channeleditor.xml
-msgctxt "ChannelOverviewProjectChannel"
-msgid "Volume"
-msgstr "볼륨"
-
 #: channelpanner.xml
 msgctxt "ChannelPanTypeControls"
 msgid "Width: @value[]"
@@ -1023,6 +1023,50 @@ msgstr "폭: @value[]"
 msgctxt "PannerPopupMonoStereo"
 msgid "Width: @value[]"
 msgstr "폭: @value[]"
+
+#~ msgctxt "ChannelMeterDisplay"
+#~ msgid "@property[parent.controller.editGroup]"
+#~ msgstr "@property[parent.controller.editGroup]"
+
+#~ msgctxt "ChannelMeterDisplay"
+#~ msgid "Clip / Peak Levels"
+#~ msgstr "클립/피크레벨"
+
+#~ msgctxt "OutputChannelLevelSection"
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgctxt "AudioSendRackSlotView"
+#~ msgid "@value[]"
+#~ msgstr "@value[]"
+
+#~ msgctxt "CueMixRackSlotView"
+#~ msgid "Cue mix Pan: @value[]"
+#~ msgstr "큐믹스 팬: @value[]"
+
+#~ msgctxt "ChannelPanTypeControls.Narrow"
+#~ msgid "Pan"
+#~ msgstr "팬"
+
+#~ msgctxt "AudioChannel.Narrow.Pan"
+#~ msgid "Pan: @value[]"
+#~ msgstr "팬: @value[]"
+
+#~ msgctxt "ChannelPanFlipped"
+#~ msgid "Pan: @value[]"
+#~ msgstr "팬: @value[]"
+
+#~ msgctxt "ChannelPanTypeControls"
+#~ msgid "Panner"
+#~ msgstr "패너"
+
+#~ msgctxt "Command"
+#~ msgid "Setup"
+#~ msgstr "설정"
+
+#~ msgctxt "ChannelPanTypeControls.Narrow"
+#~ msgid "Surround Panner"
+#~ msgstr "서라운드 패너"
 
 #~ msgctxt "PanEditorKnobCell"
 #~ msgid "$title"

@@ -93,6 +93,21 @@ msgctxt "SystemInfo"
 msgid "Application"
 msgstr ""
 
+#: ./automationhandler.cpp
+msgctxt "AutomationHandler"
+msgid "Apply Current Automation"
+msgstr ""
+
+#: ./automationhandler.cpp
+msgctxt "Command"
+msgid "Apply Current Automation to Song End"
+msgstr ""
+
+#: ./automationhandler.cpp
+msgctxt "Command"
+msgid "Apply Current Automation to Song Start"
+msgstr ""
+
 #: ./studioapp.cpp
 msgctxt "StudioApp"
 msgid "Arrow Tool"
@@ -103,13 +118,13 @@ msgctxt "StudioApp"
 msgid "Artist Profile"
 msgstr ""
 
-#: ./samplerextension.cpp
-msgctxt "Command"
+#: ./appoptions.cpp
+msgctxt "Options"
 msgid "Audio"
 msgstr ""
 
-#: ./appoptions.cpp
-msgctxt "Options"
+#: ./samplerextension.cpp
+msgctxt "Command"
 msgid "Audio"
 msgstr ""
 
@@ -120,6 +135,11 @@ msgstr ""
 
 #: ./appoptions.cpp
 msgctxt "Options"
+msgid "Automation"
+msgstr ""
+
+#: ./automationhandler.cpp
+msgctxt "Command"
 msgid "Automation"
 msgstr ""
 
@@ -483,13 +503,13 @@ msgctxt "Sidebar"
 msgid "New Multi Instrument"
 msgstr ""
 
-#: ./projectdocument.cpp
-msgctxt "StudioApp"
+#: ./documenthandler.cpp
+msgctxt "Command"
 msgid "New Project"
 msgstr ""
 
-#: ./documenthandler.cpp
-msgctxt "Command"
+#: ./projectdocument.cpp
+msgctxt "StudioApp"
 msgid "New Project"
 msgstr ""
 
@@ -498,13 +518,13 @@ msgctxt "StudioApp"
 msgid "New Project \"%(1)\""
 msgstr ""
 
-#: ./showdocument.cpp
-msgctxt "StudioApp"
+#: ./documenthandler.cpp
+msgctxt "Command"
 msgid "New Show"
 msgstr ""
 
-#: ./documenthandler.cpp
-msgctxt "Command"
+#: ./showdocument.cpp
+msgctxt "StudioApp"
 msgid "New Show"
 msgstr ""
 
@@ -513,13 +533,13 @@ msgctxt "StudioApp"
 msgid "New Show \"%(1)\""
 msgstr ""
 
-#: ./songdocument.cpp
-msgctxt "StudioApp"
+#: ./documenthandler.cpp
+msgctxt "Command"
 msgid "New Song"
 msgstr ""
 
-#: ./documenthandler.cpp
-msgctxt "Command"
+#: ./songdocument.cpp
+msgctxt "StudioApp"
 msgid "New Song"
 msgstr ""
 
@@ -869,8 +889,8 @@ msgctxt "Command"
 msgid "Video Player"
 msgstr ""
 
-#: ./documenthandler.cpp
 #: ./appfeatures.cpp
+#: ./documenthandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr ""

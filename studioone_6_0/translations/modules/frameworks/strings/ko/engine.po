@@ -124,13 +124,13 @@ msgctxt "Command"
 msgid "Activate Previous Layer"
 msgstr "이전 레이어 활성화"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiccontrollane.cpp
+msgctxt "Automation"
 msgid "Add"
 msgstr "더하기"
 
-#: musicediting/musiccontrollane.cpp
-msgctxt "Automation"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Add"
 msgstr "더하기"
 
@@ -177,6 +177,11 @@ msgstr "이벤트 FX 추가: %(1)"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
+msgid "Add FX + Automation on %(1):"
+msgstr "%(1)에 FX + 오토메이션 추가:"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
 msgid "Add FX on %(1):"
 msgstr "%(1)에 FX 추가:"
 
@@ -219,6 +224,11 @@ msgstr "스크래치 패드 추가"
 msgctxt "ScratchPad"
 msgid "Add Scratch Pad"
 msgstr "스크래치 패드 추가"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Add Send + Automation:"
+msgstr "센드 + 오토메이션 추가:"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -422,13 +432,25 @@ msgstr "템포 승인"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid "Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
-msgstr "정말로 이 클립의 모든 어태치먼트를 삭제하시겠습니까?\n\n이 작업은 실행 취소할 수 없습니다."
+msgid ""
+"Are you sure you want to delete all attachments of this clip?\n"
+"\n"
+"This action can not be undone."
+msgstr ""
+"정말로 이 클립의 모든 어태치먼트를 삭제하시겠습니까?\n"
+"\n"
+"이 작업은 실행 취소할 수 없습니다."
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid "Are you sure you want to delete all attachments of this version?\n\nThis action can not be undone."
-msgstr "정말로 이 버전의 모든 어태치먼트를 삭제하시겠습니까?\n\n이 작업은 실행 취소할 수 없습니다."
+msgid ""
+"Are you sure you want to delete all attachments of this version?\n"
+"\n"
+"This action can not be undone."
+msgstr ""
+"정말로 이 버전의 모든 어태치먼트를 삭제하시겠습니까?\n"
+"\n"
+"이 작업은 실행 취소할 수 없습니다."
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -440,7 +462,7 @@ msgctxt "GlobalTrack"
 msgid "Arranger"
 msgstr "어레인저"
 
-#: editing/arrangerplaybackhandler.cpp editing/arrangereditlayer.cpp
+#: editing/arrangereditlayer.cpp editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Arranger"
 msgstr "어레인저"
@@ -522,8 +544,8 @@ msgstr "오토메이션"
 
 #: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
-#: musicediting/musiccontrollane.cpp musicediting/musiceditor.cpp
-#: musicediting/patterncontrollane.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
+#: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Automation"
 msgstr "오토메이션"
@@ -753,6 +775,11 @@ msgctxt "SynthDrag"
 msgid "Combine"
 msgstr "결합"
 
+#: audioediting/audioclipcomponent.cpp
+msgctxt "AudioSpeakerMap"
+msgid "Confirm Speaker Format"
+msgstr "스피커 포맷 확인"
+
 #: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Console"
@@ -823,6 +850,11 @@ msgctxt "PitchEdit"
 msgid "Copy '%(1)' to '%(2)'"
 msgstr "'%(1)'(을)를 '%(2)'에 복사"
 
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Copy Automation"
+msgstr "오토메이션 복사"
+
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Copy Event"
@@ -843,13 +875,13 @@ msgctxt "ActionDescriptions"
 msgid "Copy Events Shared"
 msgstr "공유 이벤트 복사"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Copy External Files"
 msgstr "외부 파일 복사해오기"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Copy External Files"
 msgstr "외부 파일 복사해오기"
 
@@ -910,8 +942,12 @@ msgstr " \"%(1)\" 오토메이션"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid "Create \"%(1)\" Automation\non %(2)"
-msgstr "\"%(1)\" 오토메이션을 \r\n%(2)에 만들기"
+msgid ""
+"Create \"%(1)\" Automation\n"
+"on %(2)"
+msgstr ""
+"\"%(1)\" 오토메이션을 \r\n"
+"%(2)에 만들기"
 
 #: musicediting/partautomationdraghandler.cpp
 msgctxt "Automation"
@@ -1278,7 +1314,7 @@ msgctxt "MusicPatternClip"
 msgid "Drum Pattern"
 msgstr "드럼 패턴"
 
-#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Drum View"
 msgstr "드럼 보기"
@@ -1383,9 +1419,9 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "바리에이션 복제"
 
-#: audioediting/audiobendeditlayer.cpp editing/tracklistcomponent.cpp
-#: editing/chordeditlayer.cpp editing/trackvisibilityhandler.cpp
+#: audioediting/audiobendeditlayer.cpp editing/chordeditlayer.cpp
 #: editing/trackchannelnamefilter.cpp editing/eventsnapper.cpp
+#: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
@@ -1456,7 +1492,7 @@ msgctxt "Automation"
 msgid "Edit Value"
 msgstr "값 편집"
 
-#: editing/trackeditor.cpp editing/globaltrackscomponent.cpp
+#: editing/globaltrackscomponent.cpp editing/trackeditor.cpp
 msgctxt "Command"
 msgid "Editor"
 msgstr "에디터"
@@ -1571,7 +1607,7 @@ msgctxt "Track"
 msgid "Expand Folder Track"
 msgstr "폴더 트랙 펼치기"
 
-#: editing/foldertrackcomponent.cpp
+#: editing/trackcontroller.cpp
 msgctxt "Command"
 msgid "Expand Folder Track"
 msgstr "폴더 트랙 펼치기"
@@ -1973,6 +2009,11 @@ msgstr "뮤트된 트랙 숨김"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
+msgid "Hide Object Channels"
+msgstr "오브젝트 채널 숨기기"
+
+#: editing/trackvisibilityhandler.cpp
+msgctxt "Command"
 msgid "Hide Selected Channels"
 msgstr "선택된 채널 숨기기"
 
@@ -2086,13 +2127,13 @@ msgctxt "Edit"
 msgid "Insert Chord"
 msgstr "코드 삽입"
 
-#: musicediting/synthdraghandler.cpp
-msgctxt "SynthDrag"
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
 msgid "Insert Instrument"
 msgstr "악기 삽입"
 
-#: musicediting/musiceditextension.cpp
-msgctxt "Edit"
+#: musicediting/synthdraghandler.cpp
+msgctxt "SynthDrag"
 msgid "Insert Instrument"
 msgstr "악기 삽입"
 
@@ -2311,11 +2352,6 @@ msgctxt "Command"
 msgid "Locate File"
 msgstr "파일 탐색"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
-msgid "Locate Missing Files"
-msgstr "누락된 파일 탐색"
-
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Locate Missing Files"
@@ -2323,6 +2359,11 @@ msgstr "누락된 파일 탐색"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
+msgid "Locate Missing Files"
+msgstr "누락된 파일 탐색"
+
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Locate Missing Files"
 msgstr "누락된 파일 탐색"
 
@@ -2500,8 +2541,8 @@ msgstr "오디오 파트로 병합"
 
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
-msgid "Merge to Stereo File"
-msgstr "스테레오 파일로 병합"
+msgid "Merge to Multichannel File"
+msgstr "멀티채널 파일로 합치기"
 
 #: editing/tracklist.cpp
 msgctxt "TrackHeights"
@@ -2583,6 +2624,11 @@ msgctxt "Command"
 msgid "Monitor"
 msgstr "모니터"
 
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move"
+msgstr "이동"
+
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
 msgid "Move"
@@ -2595,13 +2641,21 @@ msgstr "\"%(1)\" 오토메이션 이동"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid "Move \"%(1)\" Automation\nfrom %(3) to %(2)"
-msgstr "\"%(1)\" 오토메이션을 \n%(3)에서 %(2) 로 이동"
+msgid ""
+"Move \"%(1)\" Automation\n"
+"from %(3) to %(2)"
+msgstr ""
+"\"%(1)\" 오토메이션을 \n"
+"%(3)에서 %(2) 로 이동"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid "Move \"%(1)\" Automation\nto %(2)"
-msgstr "\"%(1)\" 오토메이션을\n %(2)(으)로 이동"
+msgid ""
+"Move \"%(1)\" Automation\n"
+"to %(2)"
+msgstr ""
+"\"%(1)\" 오토메이션을\n"
+" %(2)(으)로 이동"
 
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
@@ -2638,6 +2692,16 @@ msgctxt "ActionDescriptions"
 msgid "Move Events"
 msgstr "이벤트 이동"
 
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move FX + Automation to %(1):"
+msgstr "FX + 오토메이션을 %(1)(으)로 옮기기:"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move FX to %(1):"
+msgstr "FX를 %(1)(으)로 옮기기:"
+
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Move Layer"
@@ -2647,6 +2711,16 @@ msgstr "레이어 이동"
 msgctxt "ActionDescriptions"
 msgid "Move Layers"
 msgstr "레이어 이동"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move Send + Automation:"
+msgstr "센드 + 오토메이션 옮기기:"
+
+#: audioediting/audiofxdraghandler.cpp
+msgctxt "AudioFX"
+msgid "Move Send:"
+msgstr "센드 옮기기:"
 
 #: application/eventedit/movetoorigintask.cpp
 msgctxt "Edit"
@@ -2807,11 +2881,6 @@ msgstr "다음 바리에이션"
 msgctxt "Engine"
 msgid "No Event Editor"
 msgstr "이벤트 에디터 없음"
-
-#: application/musicloop/loopextension.cpp
-msgctxt "Browser"
-msgid "No audio files with a name that ends in .L or .R found."
-msgstr ".L 또는 .R로 파일명이 끝나는 오디오 파일을 찾을 수 없습니다."
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -3009,7 +3078,7 @@ msgctxt "AudioScale"
 msgid "Percent"
 msgstr "퍼센트"
 
-#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Piano View"
 msgstr "피아노 보기"
@@ -3490,13 +3559,13 @@ msgctxt "Command"
 msgid "Remove Track and Instrument"
 msgstr "트랙과 악기 제거"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Remove Unused Files"
 msgstr "미사용 파일 제거"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Remove Unused Files"
 msgstr "미사용 파일 제거"
 
@@ -4172,6 +4241,11 @@ msgctxt "Command"
 msgid "Show Note FX Editor"
 msgstr "노트 FX 에디터 표시"
 
+#: editing/trackvisibilityhandler.cpp
+msgctxt "Command"
+msgid "Show Object Channels"
+msgstr "오브젝트 채널 보이기:"
+
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
 msgid "Show Routing Editor"
@@ -4212,13 +4286,13 @@ msgctxt "Command"
 msgid "Show Tracks with Events under Cursor"
 msgstr "커서에 이벤트가 있는 트랙 표시"
 
-#: editing/trackcontroller.cpp
-msgctxt "Track"
+#: editing/tracklistcomponent.cpp
+msgctxt "Command"
 msgid "Show in Console"
 msgstr "콘솔에서 보기"
 
-#: editing/tracklistcomponent.cpp
-msgctxt "Command"
+#: editing/trackcontroller.cpp
+msgctxt "Track"
 msgid "Show in Console"
 msgstr "콘솔에서 보기"
 
@@ -4343,7 +4417,7 @@ msgctxt "ScratchPad"
 msgid "Song"
 msgstr "Song"
 
-#: musicediting/musiceditor.cpp musicediting/musictracksoundvariation.cpp
+#: musicediting/musictracksoundvariation.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Sound Variation"
 msgstr "사운드 바리에이션"
@@ -4530,8 +4604,16 @@ msgstr "이 파일의 포맷은 지원되지 않습니다."
 
 #: base/rootsetup.cpp
 msgctxt "RootSetup"
-msgid "The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
-msgstr "샘플레이트가 오디오 장치 설정과 일치하지 않습니다.\n\n설정한 샘플레이트: %(1)\n오디오 장치 샘플레이트: %(2)"
+msgid ""
+"The sample rate does not match your audio device configuration.\n"
+"\n"
+"The rate you set: %(1)\n"
+"The rate the device has: %(2)"
+msgstr ""
+"샘플레이트가 오디오 장치 설정과 일치하지 않습니다.\n"
+"\n"
+"설정한 샘플레이트: %(1)\n"
+"오디오 장치 샘플레이트: %(2)"
 
 #: music/musictrackinfo.cpp
 msgctxt "Engine"
@@ -4575,8 +4657,12 @@ msgstr "이 파일을 임포트할 수 없습니다:"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
-msgid "This will delete notes or automation data.\nDo you want to continue?"
-msgstr "노트나 오토메이션 데이터가 삭제됩니다.\n계속하시겠습니까?"
+msgid ""
+"This will delete notes or automation data.\n"
+"Do you want to continue?"
+msgstr ""
+"노트나 오토메이션 데이터가 삭제됩니다.\n"
+"계속하시겠습니까?"
 
 #: editing/mediatrackcontroller.cpp
 msgctxt "MediaTrack"
@@ -4650,18 +4736,17 @@ msgstr "터치"
 
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
-#: audioediting/foldertrackaudiobus.cpp editing/foldertrackcomponent.cpp
-#: editing/layereditlayer.cpp editing/trackcontroller.cpp
+#: audioediting/foldertrackaudiobus.cpp editing/editgroupscomponent.cpp
+#: editing/layereditlayer.cpp editing/mediatrackcontroller.cpp
+#: editing/monitorfollower.cpp editing/takelist.cpp
 #: editing/tracklayercomponent.cpp editing/tracklistcomponent.cpp
-#: editing/editgroupscomponent.cpp editing/takelist.cpp
-#: editing/mediatrackcontroller.cpp editing/monitorfollower.cpp
-#: musicediting/musiceditor.cpp
+#: editing/trackcontroller.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "트랙"
 
-#: base/model/rootevent.cpp editing/tracklistinspector.cpp
-#: editing/tracklisteditmodel.cpp
+#: base/model/rootevent.cpp editing/tracklisteditmodel.cpp
+#: editing/tracklistinspector.cpp
 msgctxt "Engine"
 msgid "Track"
 msgstr "트랙"
@@ -4986,9 +5071,9 @@ msgctxt "Command"
 msgid "Video"
 msgstr "비디오"
 
-#: editing/trackeditor.cpp editing/tracklistcomponent.cpp
 #: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
-#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
+#: editing/tracklistcomponent.cpp editing/trackeditor.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "보기"
@@ -5068,6 +5153,14 @@ msgctxt "PoolNodes"
 msgid "used %(1) times"
 msgstr "%(1)회 사용"
 
+#~ msgctxt "Browser"
+#~ msgid "Merge to Stereo File"
+#~ msgstr "스테레오 파일로 병합"
+
+#~ msgctxt "Browser"
+#~ msgid "No audio files with a name that ends in .L or .R found."
+#~ msgstr ".L 또는 .R로 파일명이 끝나는 오디오 파일을 찾을 수 없습니다."
+
 #~ msgctxt "LyricsTrackComponent"
 #~ msgid "Bars"
 #~ msgstr "마디"
@@ -5095,4 +5188,3 @@ msgstr "%(1)회 사용"
 #~ msgctxt "Edit"
 #~ msgid "Import Tempo"
 #~ msgstr "템포 임포트"
-

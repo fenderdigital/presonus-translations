@@ -44,6 +44,26 @@ msgctxt "AudioSetup"
 msgid "%(1) of %(2)"
 msgstr "%(1) de %(2)"
 
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid ""
+"%(1) requires a block size of %(2).\n"
+"The audio device does not support this value.\n"
+"Please select a different audio device if possible."
+msgstr ""
+"%(1) necessita de um tamanho de bloco de %(2).\n"
+"O dispositivo de audio não suporta esse valor.\n"
+"Selecione um dispositivo de audio diferente se for possível."
+
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid ""
+"%(1) requires a sample rate of %(2).\n"
+"Please change the sample rate if possible."
+msgstr ""
+"%(1) necessita de uma taxa de amostragem de %(2).\n"
+"Altere a taxa de amostragem se for possível."
+
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "%(1) samples"
@@ -63,6 +83,11 @@ msgstr "%float(1:1) vezes mais rápido que em tempo real"
 msgctxt "AudioRenderEngine"
 msgid "%float(1:1) times slower than realtime"
 msgstr "%float(1:1) vezes mais lento que em tempo real"
+
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "'%(1)' Bypassed"
+msgstr "'%(1)' Desativado"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -525,6 +550,11 @@ msgctxt "AudioPanner"
 msgid "Balance"
 msgstr "Equilíbrio"
 
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Balance View"
+msgstr "Visualização do Equilíbrio"
+
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Basic"
@@ -565,6 +595,11 @@ msgctxt "DeviceFolder"
 msgid "Bypass"
 msgstr "Ignorar"
 
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Bypassed"
+msgstr "Desativado"
+
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "CH:"
@@ -590,13 +625,13 @@ msgctxt "AudioMixer"
 msgid "Channel"
 msgstr "Canal"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Channel"
 msgstr "Canal"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Channel"
 msgstr "Canal"
 
@@ -675,6 +710,16 @@ msgctxt "AudioClick"
 msgid "Click Volume"
 msgstr "Volume do Metrônomo"
 
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Click here to bypass '%(1)'"
+msgstr "Clique aqui para desativar '%(1)'"
+
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Click to move channels"
+msgstr "Clique para mover canais"
+
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Clipping has occurred. The signal was %float(1:2) dB over."
@@ -684,6 +729,11 @@ msgstr "Ocorreu clipagem. O sinal foi %excedido(1:2) dB acima."
 msgctxt "DeviceFolder"
 msgid "Collapse"
 msgstr "Retrair"
+
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Collapse all Micro Views"
+msgstr "Recolher todas as Microvisualizações"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -730,10 +780,10 @@ msgctxt "UCMixerConnector"
 msgid "Connected to %(1)."
 msgstr "Conectado a %(1)."
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
 #: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
-#: audiomixer/audiosendfolder.cpp mixerconsole/mixerconsole.cpp
-#: mixerconsole/mixersnapshot.cpp
+#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
+#: audiomixer/audiosendfolder.cpp audiomixer/audiopanner.cpp
+#: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Console"
 msgstr "Console"
@@ -1064,6 +1114,11 @@ msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr "Editar Múltiplos Parâmetros"
 
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Edit Panner"
+msgstr "Edição de Pan"
+
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Edit as Switch"
@@ -1163,6 +1218,11 @@ msgstr "FX Evento"
 msgctxt "DeviceFolder"
 msgid "Expand"
 msgstr "Expandir"
+
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Expand all Micro Views"
+msgstr "Expandir todas as Microvisualizações"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1480,14 +1540,14 @@ msgctxt "EditGroups"
 msgid "Inserts"
 msgstr "Inserts"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instrument"
 msgstr "Instrumento"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instrument"
 msgstr "Instrumento"
 
@@ -1511,14 +1571,14 @@ msgctxt "Channels"
 msgid "Instruments"
 msgstr "Instrumentos"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instruments"
 msgstr "Instrumentos"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instruments"
 msgstr "Instrumentos"
 
@@ -1636,6 +1696,11 @@ msgstr "Bloquear Pan ao Canal"
 msgctxt "Command"
 msgid "Lock Panning"
 msgstr "Bloquear Pan"
+
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
+msgid "Lock Volume to Channel"
+msgstr "Bloquear Volume ao Canal"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -1888,6 +1953,11 @@ msgctxt "Command"
 msgid "Next Fader Flip Target"
 msgstr "Próximo Destino de Alternar Faders"
 
+#: audiomixer/audiopanner.cpp
+msgctxt "Command"
+msgid "Next Panner Stereo Mode"
+msgstr "Próximo Modo Panorâmico Estéreo "
+
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Next Scene"
@@ -1912,6 +1982,11 @@ msgstr "Sem Entrada"
 msgctxt "Studio"
 msgid "No devices are missing."
 msgstr "Não há dispositivos perdidos."
+
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "No match"
+msgstr "Nenhuma correspondência"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
@@ -2033,6 +2108,11 @@ msgctxt "Command"
 msgid "Open Qwerty Keyboard"
 msgstr "Abrir Teclado QWERTY"
 
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Other"
+msgstr "Outro"
+
 #: mixer/mixercontrollable.cpp
 msgctxt "Channel"
 msgid "Output"
@@ -2100,6 +2180,16 @@ msgstr "Pan Direito"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
+msgid "Pan View"
+msgstr "Visão Panorâmica"
+
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Panner"
+msgstr "Controle de Pan"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
 msgid "Panner"
 msgstr "Panner"
 
@@ -2108,13 +2198,13 @@ msgctxt "ActionDescriptions"
 msgid "Parameter"
 msgstr "Parâmetro"
 
-#: editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: editor/paramselector.cpp
+msgctxt "ParamSelector"
 msgid "Parameter"
 msgstr "Parâmetro"
 
-#: editor/paramselector.cpp
-msgctxt "ParamSelector"
+#: editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Parameter"
 msgstr "Parâmetro"
 
@@ -2158,11 +2248,6 @@ msgctxt "AudioFX"
 msgid "Plug-in Nap"
 msgstr "Suspensão de Plug-Ins"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
-msgctxt "Hardware"
-msgid "Polarity"
-msgstr "Polaridade"
-
 #: audiomixer/audiochannelinputfx.cpp
 msgctxt "AudioChannelInputFX"
 msgid "Polarity"
@@ -2170,11 +2255,16 @@ msgstr "Polaridade"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
+msgid "Polarity"
+msgstr "Polaridade"
+
+#: audiomixer/audiochannelinputfx.cpp
+msgctxt "AudioChannelInputFX"
 msgid "Polarity Right"
 msgstr "Polaridade Direita"
 
-#: audiomixer/audiochannelinputfx.cpp
-msgctxt "AudioChannelInputFX"
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
+msgctxt "Hardware"
 msgid "Polarity Right"
 msgstr "Polaridade Direita"
 
@@ -2768,13 +2858,13 @@ msgctxt "SideChain"
 msgid "Select Sidechain Source"
 msgstr "Selecione Fonte de Sidechain"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Send"
 msgstr "Enviar"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Send"
 msgstr "Enviar"
 
@@ -2893,6 +2983,11 @@ msgctxt "Channel"
 msgid "Set Output"
 msgstr "Configurar Saída"
 
+#: audiomixer/audiomixereditfunctions.cpp
+msgctxt "AudioMixerEditFunctions"
+msgid "Set Panner Type"
+msgstr "Definir Tipo de Controle de Pan"
+
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Set Play Start Marker"
@@ -2907,6 +3002,16 @@ msgstr "Ajuste Taxa %(1)"
 msgctxt "AudioSendSlot"
 msgid "Set Send Target"
 msgstr "Configurar Objetivo do Envio"
+
+#: audiomixer/audiomixereditfunctions.cpp
+msgctxt "AudioMixerEditFunctions"
+msgid "Set Spatial Object Panner"
+msgstr "Definir Controle de Pan de Objetos Espaciais"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Set Spatial Object Panner"
+msgstr "Definir Controle de Pan de Objetos Espaciais"
 
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
@@ -3163,6 +3268,16 @@ msgctxt "AudioSynth"
 msgid "Sound Variation Editor"
 msgstr "Editor de Variação de Som"
 
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "Spatial Audio"
+msgstr "Áudio Espacial"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Spatial Object Panner"
+msgstr "Controle de Pan de Objeto Espaciai"
+
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Speaker A"
@@ -3363,6 +3478,11 @@ msgctxt "MusicDeviceSetup"
 msgid "The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
 msgstr "O Modelo de Dispositivo \"%(1)\" não é mais utilizado. Deseja removê-lo dos Dispositivos de Usuário?"
 
+#: audiomixer/audiomixfxcomponent.cpp
+msgctxt "Devices"
+msgid "The Mix FX does not support speaker format %(1). It will be processed on the left and right channel."
+msgstr "O FX de Mix não suporta o formato de alto-falante %(1). Ele será processado no canal esquerdo e direito."
+
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
@@ -3372,6 +3492,15 @@ msgstr "O dispositivo de áudio %(1) não pode ser iniciado. Verifique suas conf
 msgctxt "Devices"
 msgid "The audio device %(1) has failed to start correctly before. Do you want to try it again?"
 msgstr "O dispositivo de áudio %(1) falhou na inicialização anterior. Deseja tentar novamente?"
+
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid ""
+"The audio device does not have enough outputs.\n"
+"Do you want to continue?"
+msgstr ""
+"O dispositivo de áudio não possui saídas suficientes.\n"
+"Deseja continuar?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3442,6 +3571,11 @@ msgstr "Alternar Loop"
 msgctxt "Command"
 msgid "Toggle Loop Display"
 msgstr "Alternar Exibição de Loop"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "Command"
+msgid "Toggle Panner Object Mode"
+msgstr "Alternar Modo de Pan de Objeto"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
@@ -3514,13 +3648,13 @@ msgctxt "FaderFlip"
 msgid "Turn Off Fader Flip"
 msgstr "Desativar Alternar Faders"
 
-#: editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: editor/performancemonitor.cpp
+msgctxt "PerformanceMonitor"
 msgid "Type"
 msgstr "Tipo"
 
-#: editor/performancemonitor.cpp
-msgctxt "PerformanceMonitor"
+#: editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Type"
 msgstr "Tipo"
 
@@ -3634,6 +3768,11 @@ msgctxt "MixerSnapshots"
 msgid "Visibility only"
 msgstr "Apenas visibilidade"
 
+#: audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
+msgid "Volume"
+msgstr "Volume"
+
 #: audiomixer/channels/audiovcachannel.cpp
 msgctxt "AudioVCAChannel"
 msgid "Volume"
@@ -3641,11 +3780,6 @@ msgstr "Volume"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
-msgid "Volume"
-msgstr "Volume"
-
-#: audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "Volume"
 
@@ -3671,8 +3805,14 @@ msgstr "Escrita"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
-msgstr "Sua configuração MIDI foi alterada. Podem haver dispositivos removíveis não conectados atualmente. \n\nDeseja reconectar seus dispositivos externos agora?"
+msgid ""
+"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
+"\n"
+"Do you want to reconnect your external devices now?"
+msgstr ""
+"Sua configuração MIDI foi alterada. Podem haver dispositivos removíveis não conectados atualmente. \n"
+"\n"
+"Deseja reconectar seus dispositivos externos agora?"
 
 #~ msgctxt "Automation"
 #~ msgid "Add / Remove Parameters..."
@@ -3877,4 +4017,3 @@ msgstr "Sua configuração MIDI foi alterada. Podem haver dispositivos removíve
 #~ msgctxt "Devices"
 #~ msgid "Reset requested by Audio Device!"
 #~ msgstr "Reinício solicitado pelo Dispositivo de Áudio!"
-

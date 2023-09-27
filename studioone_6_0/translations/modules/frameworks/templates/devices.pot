@@ -38,6 +38,16 @@ msgctxt "AudioSetup"
 msgid "%(1) of %(2)"
 msgstr ""
 
+#: ./audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr ""
+
+#: ./audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr ""
+
 #: ./audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "%(1) samples"
@@ -56,6 +66,11 @@ msgstr ""
 #: ./audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "%float(1:1) times slower than realtime"
+msgstr ""
+
+#: ./audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "'%(1)' Bypassed"
 msgstr ""
 
 #: ./macrocontrol/macrocontrolsetup.cpp
@@ -519,6 +534,11 @@ msgctxt "AudioPanner"
 msgid "Balance"
 msgstr ""
 
+#: ./audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Balance View"
+msgstr ""
+
 #: ./audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Basic"
@@ -560,6 +580,11 @@ msgctxt "DeviceFolder"
 msgid "Bypass"
 msgstr ""
 
+#: ./audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Bypassed"
+msgstr ""
+
 #: ./music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "CH:"
@@ -585,13 +610,13 @@ msgctxt "AudioMixer"
 msgid "Channel"
 msgstr ""
 
-#: ./audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: ./audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Channel"
 msgstr ""
 
-#: ./audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: ./audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Channel"
 msgstr ""
 
@@ -670,6 +695,16 @@ msgctxt "AudioClick"
 msgid "Click Volume"
 msgstr ""
 
+#: ./audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Click here to bypass '%(1)'"
+msgstr ""
+
+#: ./audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Click to move channels"
+msgstr ""
+
 #: ./audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Clipping has occurred. The signal was %float(1:2) dB over."
@@ -678,6 +713,11 @@ msgstr ""
 #: ./base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Collapse"
+msgstr ""
+
+#: ./audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Collapse all Micro Views"
 msgstr ""
 
 #: ./audioeffects/audiofxgraph.cpp
@@ -725,11 +765,12 @@ msgctxt "UCMixerConnector"
 msgid "Connected to %(1)."
 msgstr ""
 
-#: ./audiomixer/cuemix/cuemixfolder.cpp
-#: ./audiomixer/setup/audiomixersetup.cpp
 #: ./audiomixer/audiofaderswitcher.cpp
 #: ./audiomixer/audiolistenbus.cpp
+#: ./audiomixer/cuemix/cuemixfolder.cpp
+#: ./audiomixer/setup/audiomixersetup.cpp
 #: ./audiomixer/audiosendfolder.cpp
+#: ./audiomixer/audiopanner.cpp
 #: ./mixerconsole/mixerconsole.cpp
 #: ./mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -1064,6 +1105,11 @@ msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr ""
 
+#: ./audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Edit Panner"
+msgstr ""
+
 #: ./editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Edit as Switch"
@@ -1162,6 +1208,11 @@ msgstr ""
 #: ./base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Expand"
+msgstr ""
+
+#: ./audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Expand all Micro Views"
 msgstr ""
 
 #: ./audiosynths/audiosynthfolder.cpp
@@ -1480,14 +1531,14 @@ msgctxt "EditGroups"
 msgid "Inserts"
 msgstr ""
 
-#: ./audiosynths/combinator/combinatorsynthfolder.cpp
-#: ./audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: ./audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instrument"
 msgstr ""
 
-#: ./audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: ./audiosynths/combinator/combinatorsynthfolder.cpp
+#: ./audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instrument"
 msgstr ""
 
@@ -1512,14 +1563,14 @@ msgctxt "Channels"
 msgid "Instruments"
 msgstr ""
 
-#: ./audiosynths/combinator/combinatorsynthfolder.cpp
-#: ./audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: ./audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instruments"
 msgstr ""
 
-#: ./audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: ./audiosynths/combinator/combinatorsynthfolder.cpp
+#: ./audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instruments"
 msgstr ""
 
@@ -1637,6 +1688,11 @@ msgstr ""
 #: ./audiomixer/audiosendfolder.cpp
 msgctxt "Command"
 msgid "Lock Panning"
+msgstr ""
+
+#: ./audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
+msgid "Lock Volume to Channel"
 msgstr ""
 
 #: ./audiomixer/cuemix/cuemixfolder.cpp
@@ -1891,6 +1947,11 @@ msgctxt "Command"
 msgid "Next Fader Flip Target"
 msgstr ""
 
+#: ./audiomixer/audiopanner.cpp
+msgctxt "Command"
+msgid "Next Panner Stereo Mode"
+msgstr ""
+
 #: ./mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Next Scene"
@@ -1914,6 +1975,11 @@ msgstr ""
 #: ./studio/missingdevices.cpp
 msgctxt "Studio"
 msgid "No devices are missing."
+msgstr ""
+
+#: ./audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "No match"
 msgstr ""
 
 #: ./hardware/ucmixerconnector.cpp
@@ -2036,6 +2102,11 @@ msgctxt "Command"
 msgid "Open Qwerty Keyboard"
 msgstr ""
 
+#: ./audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Other"
+msgstr ""
+
 #: ./mixer/mixercontrollable.cpp
 msgctxt "Channel"
 msgid "Output"
@@ -2103,6 +2174,16 @@ msgstr ""
 
 #: ./audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
+msgid "Pan View"
+msgstr ""
+
+#: ./audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Panner"
+msgstr ""
+
+#: ./audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
 msgid "Panner"
 msgstr ""
 
@@ -2111,13 +2192,13 @@ msgctxt "ActionDescriptions"
 msgid "Parameter"
 msgstr ""
 
-#: ./editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: ./editor/paramselector.cpp
+msgctxt "ParamSelector"
 msgid "Parameter"
 msgstr ""
 
-#: ./editor/paramselector.cpp
-msgctxt "ParamSelector"
+#: ./editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Parameter"
 msgstr ""
 
@@ -2161,11 +2242,6 @@ msgctxt "AudioFX"
 msgid "Plug-in Nap"
 msgstr ""
 
-#: ./audiomixer/hardwareintegration/hardwarecontrols.cpp
-msgctxt "Hardware"
-msgid "Polarity"
-msgstr ""
-
 #: ./audiomixer/audiochannelinputfx.cpp
 msgctxt "AudioChannelInputFX"
 msgid "Polarity"
@@ -2173,11 +2249,16 @@ msgstr ""
 
 #: ./audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
+msgid "Polarity"
+msgstr ""
+
+#: ./audiomixer/audiochannelinputfx.cpp
+msgctxt "AudioChannelInputFX"
 msgid "Polarity Right"
 msgstr ""
 
-#: ./audiomixer/audiochannelinputfx.cpp
-msgctxt "AudioChannelInputFX"
+#: ./audiomixer/hardwareintegration/hardwarecontrols.cpp
+msgctxt "Hardware"
 msgid "Polarity Right"
 msgstr ""
 
@@ -2771,13 +2852,13 @@ msgctxt "SideChain"
 msgid "Select Sidechain Source"
 msgstr ""
 
-#: ./audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: ./audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Send"
 msgstr ""
 
-#: ./audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: ./audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Send"
 msgstr ""
 
@@ -2896,6 +2977,11 @@ msgctxt "Channel"
 msgid "Set Output"
 msgstr ""
 
+#: ./audiomixer/audiomixereditfunctions.cpp
+msgctxt "AudioMixerEditFunctions"
+msgid "Set Panner Type"
+msgstr ""
+
 #: ./transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Set Play Start Marker"
@@ -2909,6 +2995,16 @@ msgstr ""
 #: ./audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Set Send Target"
+msgstr ""
+
+#: ./audiomixer/audiomixereditfunctions.cpp
+msgctxt "AudioMixerEditFunctions"
+msgid "Set Spatial Object Panner"
+msgstr ""
+
+#: ./audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Set Spatial Object Panner"
 msgstr ""
 
 #: ./audiomixer/audiomixereditfunctions.cpp
@@ -3166,6 +3262,16 @@ msgctxt "AudioSynth"
 msgid "Sound Variation Editor"
 msgstr ""
 
+#: ./audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "Spatial Audio"
+msgstr ""
+
+#: ./audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Spatial Object Panner"
+msgstr ""
+
 #: ./audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Speaker A"
@@ -3366,6 +3472,11 @@ msgctxt "MusicDeviceSetup"
 msgid "The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
 msgstr ""
 
+#: ./audiomixer/audiomixfxcomponent.cpp
+msgctxt "Devices"
+msgid "The Mix FX does not support speaker format %(1). It will be processed on the left and right channel."
+msgstr ""
+
 #: ./audio/audioengine.cpp
 msgctxt "Devices"
 msgid "The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
@@ -3374,6 +3485,11 @@ msgstr ""
 #: ./audio/audioengine.cpp
 msgctxt "Devices"
 msgid "The audio device %(1) has failed to start correctly before. Do you want to try it again?"
+msgstr ""
+
+#: ./audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
 msgstr ""
 
 #: ./audio/watchdogcomponent.cpp
@@ -3444,6 +3560,11 @@ msgstr ""
 #: ./transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Loop Display"
+msgstr ""
+
+#: ./audiomixer/audiopanner.cpp
+msgctxt "Command"
+msgid "Toggle Panner Object Mode"
 msgstr ""
 
 #: ./audiomixer/audiosidechain.cpp
@@ -3518,13 +3639,13 @@ msgctxt "FaderFlip"
 msgid "Turn Off Fader Flip"
 msgstr ""
 
-#: ./editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: ./editor/performancemonitor.cpp
+msgctxt "PerformanceMonitor"
 msgid "Type"
 msgstr ""
 
-#: ./editor/performancemonitor.cpp
-msgctxt "PerformanceMonitor"
+#: ./editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Type"
 msgstr ""
 
@@ -3639,6 +3760,11 @@ msgctxt "MixerSnapshots"
 msgid "Visibility only"
 msgstr ""
 
+#: ./audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
+msgid "Volume"
+msgstr ""
+
 #: ./audiomixer/channels/audiovcachannel.cpp
 msgctxt "AudioVCAChannel"
 msgid "Volume"
@@ -3646,11 +3772,6 @@ msgstr ""
 
 #: ./audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
-msgid "Volume"
-msgstr ""
-
-#: ./audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
 msgid "Volume"
 msgstr ""
 

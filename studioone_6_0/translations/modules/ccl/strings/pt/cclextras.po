@@ -324,7 +324,7 @@ msgctxt "GadgetManager"
 msgid "Gadgets"
 msgstr "Gadgets"
 
-#: extensions/appupdater.cpp analytics/apptrackinghandler.cpp
+#: analytics/apptrackinghandler.cpp extensions/appupdater.cpp
 msgctxt "Command"
 msgid "Help"
 msgstr "Ajuda"
@@ -369,13 +369,13 @@ msgctxt "Extensions"
 msgid "Installation failed!"
 msgstr "Instalação falhou!"
 
-#: packages/unifiedpackageaction.cpp
-msgctxt "PackageActions"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Installed"
 msgstr "Instalado"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/unifiedpackageaction.cpp
+msgctxt "PackageActions"
 msgid "Installed"
 msgstr "Instalado"
 
@@ -454,15 +454,15 @@ msgctxt "PackageFilter"
 msgid "Origin"
 msgstr "Origem"
 
-#: packages/unifiedpackagesource.cpp
-msgctxt "PackageSource"
-msgid "Other"
-msgstr "outro"
-
 #: packages/packagefilter.cpp
 msgctxt "PackageFilter"
 msgid "Other"
 msgstr "Outro"
+
+#: packages/unifiedpackagesource.cpp
+msgctxt "PackageSource"
+msgid "Other"
+msgstr "outro"
 
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"

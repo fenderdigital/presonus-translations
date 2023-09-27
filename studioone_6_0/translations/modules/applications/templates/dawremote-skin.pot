@@ -18,6 +18,11 @@ msgctxt "HardwareInputControlsSingle"
 msgid "$title"
 msgstr ""
 
+#: ./client/panner.xml
+msgctxt "MutablePannerSlider"
+msgid "$title"
+msgstr ""
+
 #: ./shared.xml
 msgctxt "MutableSlider"
 msgid "$title"
@@ -58,6 +63,26 @@ msgctxt "CommandBarItem"
 msgid "Add Page"
 msgstr ""
 
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Balance"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Balance Amount"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Balance Direction"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Center Level"
+msgstr ""
+
 #: ./client/mixer.xml
 msgctxt "MixerNavigation"
 msgid "Channels"
@@ -94,7 +119,7 @@ msgid "Control Macro Panel for selected channel"
 msgstr ""
 
 #: ./client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Cue mix"
 msgstr ""
 
@@ -109,7 +134,7 @@ msgid "DAW Sync"
 msgstr ""
 
 #: ./client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "DSP"
 msgstr ""
 
@@ -123,9 +148,24 @@ msgctxt "CommandBarItem"
 msgid "Delete Page"
 msgstr ""
 
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Direction"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Disable Center"
+msgstr ""
+
 #: ./client/commands.xml
 msgctxt "Commands"
 msgid "Edit"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "ElevationSliderSection"
+msgid "Elevation"
 msgstr ""
 
 #: ./tutorial.xml
@@ -169,7 +209,7 @@ msgid "Inputs"
 msgstr ""
 
 #: ./client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Inserts"
 msgstr ""
 
@@ -203,6 +243,16 @@ msgctxt "HardwareInputControlsStereo"
 msgid "L Gain"
 msgstr ""
 
+#: ./client/panner.xml
+msgctxt "LFESendMuteButtonView"
+msgid "LFE"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "LFE Level"
+msgstr ""
+
 #: ./client/channeleditor.xml
 msgctxt "LevelAndPan"
 msgid "Level"
@@ -220,6 +270,11 @@ msgstr ""
 
 #: ./client/channeleditor.xml
 msgctxt "SendEditor"
+msgid "Lock Pan"
+msgstr ""
+
+#: ./client/channeleditor.xml
+msgctxt "CueMixEditor"
 msgid "Lock Pan"
 msgstr ""
 
@@ -249,13 +304,18 @@ msgid "Make sure your tablet is connected to the same network as your Studio One
 msgstr ""
 
 #: ./client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Mix FX"
 msgstr ""
 
 #: ./tutorial.xml
 msgctxt "Page3TopRow"
 msgid "Mix Page"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "LFESendMuteButtonView"
+msgid "Mute LFE speaker (@key[Option]: Solo)"
 msgstr ""
 
 #: ./tutorial.xml
@@ -284,7 +344,12 @@ msgid "Pads"
 msgstr ""
 
 #: ./client/channeleditor.xml
-msgctxt "ChannelPanTypeControls"
+msgctxt "AudioPanTypeControls"
+msgid "Pan"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
 msgid "Pan"
 msgstr ""
 
@@ -324,7 +389,7 @@ msgid "Plug-in Editor"
 msgstr ""
 
 #: ./client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Post"
 msgstr ""
 
@@ -403,14 +468,59 @@ msgctxt "Page2CenterColumn"
 msgid "Select the Studio One application you want to control from this list"
 msgstr ""
 
+#: ./client/panner.xml
+msgctxt "LFESendMuteButtonView"
+msgid "Send mix to LFE Speaker (@key[Option]: Solo)"
+msgstr ""
+
 #: ./client/channeleditor.xml
-msgctxt "ChannelEditorDetailsDelegate"
+msgctxt "ChannelEditorDetailsRight"
 msgid "Sends"
 msgstr ""
 
 #: ./client/mixer.xml
 msgctxt "MixerNavigation"
 msgid "Sends"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerCircleLeftSide"
+msgid "Size"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Size"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Size"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerCircleLeftSide"
+msgid "Size is locked (Use Shift to bypass)"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Snap"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Snap"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "PannerControlsRightSide"
+msgid "Spread"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Spread"
 msgstr ""
 
 #: ./client/dawclient.xml
@@ -544,8 +654,23 @@ msgid "Welcome to Studio One Remote!"
 msgstr ""
 
 #: ./client/channeleditor.xml
-msgctxt "ChannelPanTypeControls"
+msgctxt "AudioPanTypeControls"
 msgid "Width"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "X"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Y"
+msgstr ""
+
+#: ./client/panner.xml
+msgctxt "ObjectPannerControlsRightSide"
+msgid "Z"
 msgstr ""
 
 #: ./client/commands.xml

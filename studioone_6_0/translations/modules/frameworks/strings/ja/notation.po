@@ -779,8 +779,8 @@ msgctxt "Notation"
 msgid "Each System"
 msgstr "組段ごと"
 
-#: editor/scorenotepreviewplayer.cpp editor/scoresteprecord.cpp
-#: editor/scoreeditcomponent.cpp
+#: editor/scoreeditcomponent.cpp editor/scoresteprecord.cpp
+#: editor/scorenotepreviewplayer.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "編集"
@@ -800,13 +800,13 @@ msgctxt "Notation"
 msgid "Edit Articulation"
 msgstr "アーティキュレーションを編集"
 
-#: editor/tools/editnoteaction.cpp
-msgctxt "Notation"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Edit Beaming"
 msgstr "連桁を編集"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/tools/editnoteaction.cpp
+msgctxt "Notation"
 msgid "Edit Beaming"
 msgstr "連桁を編集"
 
@@ -855,13 +855,13 @@ msgctxt "Command"
 msgid "Enharmonic Respell Tool"
 msgstr "異名同音ツール"
 
-#: editor/tools/editnoteaction.cpp
-msgctxt "Notation"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Enharmonic spelling"
 msgstr "異名同音"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/tools/editnoteaction.cpp
+msgctxt "Notation"
 msgid "Enharmonic spelling"
 msgstr "異名同音"
 
@@ -939,6 +939,11 @@ msgstr "先頭ページのみ"
 msgctxt "ScoreSymbols"
 msgid "Flat"
 msgstr "フラット"
+
+#: editor/scorecommandcomponent.cpp
+msgctxt "Command"
+msgid "Flip Attachments"
+msgstr "添付をフリップ"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -1030,7 +1035,7 @@ msgctxt "Notation"
 msgid "Grand Staff"
 msgstr "大譜表"
 
-#: editor/scorenoterecorder.cpp editor/scorepartsetup.cpp
+#: editor/scorepartsetup.cpp editor/scorenoterecorder.cpp
 msgctxt "Notation"
 msgid "Guitar"
 msgstr "ギター"
@@ -1280,13 +1285,13 @@ msgctxt "Notation"
 msgid "Insert Repeat Ending"
 msgstr "反復終了を挿入"
 
-#: editor/tools/insertnoterestaction.cpp
-msgctxt "Notation"
+#: editor/scoresteprecord.cpp
+msgctxt "Command"
 msgid "Insert Rest"
 msgstr "休符を挿入"
 
-#: editor/scoresteprecord.cpp
-msgctxt "Command"
+#: editor/tools/insertnoterestaction.cpp
+msgctxt "Notation"
 msgid "Insert Rest"
 msgstr "休符を挿入"
 
@@ -1305,7 +1310,7 @@ msgctxt "Notation"
 msgid "Insert Slur"
 msgstr "スラーを挿入"
 
-#: editor/tools/insertsymbolaction.cpp editor/scoreswingcomponent.cpp
+#: editor/scoreswingcomponent.cpp editor/tools/insertsymbolaction.cpp
 msgctxt "Notation"
 msgid "Insert Swing"
 msgstr "スウィングを挿入"
@@ -1334,6 +1339,11 @@ msgstr "トリル/カポを挿入"
 msgctxt "ScoreSymbols"
 msgid "Instrument Change"
 msgstr "楽器変更"
+
+#: editor/scoretoolcommandcomponent.cpp
+msgctxt "Command"
+msgid "Instrument Change Tool"
+msgstr "楽器変更ツール"
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
@@ -1400,13 +1410,13 @@ msgctxt "Notation"
 msgid "Loading Sound '%(1)'"
 msgstr "サウンド '%(1)' をロードしています"
 
-#: editor/tools/scoreselecttool.cpp
-msgctxt "ScoreSelectTool"
+#: editor/scorecontinuousheaderview.cpp
+msgctxt "ScoreView"
 msgid "Locate"
 msgstr "検索"
 
-#: editor/scorecontinuousheaderview.cpp
-msgctxt "ScoreView"
+#: editor/tools/scoreselecttool.cpp
+msgctxt "ScoreSelectTool"
 msgid "Locate"
 msgstr "検索"
 
@@ -1500,13 +1510,13 @@ msgctxt "ScoreSelectTool"
 msgid "Move Score Item"
 msgstr "スコアアイテムを移動"
 
-#: editor/tools/scoreselecttool.cpp
-msgctxt "ScoreSelectTool"
+#: editor/scorecontinuousheaderview.cpp
+msgctxt "ScoreView"
 msgid "Move, Zoom"
 msgstr "移動、ズーム"
 
-#: editor/scorecontinuousheaderview.cpp
-msgctxt "ScoreView"
+#: editor/tools/scoreselecttool.cpp
+msgctxt "ScoreSelectTool"
 msgid "Move, Zoom"
 msgstr "移動、ズーム"
 
@@ -1515,7 +1525,7 @@ msgctxt "ScoreSymbols"
 msgid "Natural"
 msgstr "ナチュラル"
 
-#: editor/scoresteprecord.cpp editor/scoreeditcomponent.cpp
+#: editor/scoreeditcomponent.cpp editor/scoresteprecord.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "ナビゲーション"
@@ -2260,22 +2270,22 @@ msgctxt "Command"
 msgid "Select Tuplet Fit 9"
 msgstr "連符数9を選択"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 1"
 msgstr "声部1を選択"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 2"
 msgstr "声部2を選択"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 3"
 msgstr "声部3を選択"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 4"
 msgstr "声部4を選択"
@@ -2775,13 +2785,13 @@ msgctxt "ScoreSymbols"
 msgid "Tenuto"
 msgstr "テヌート"
 
-#: editor/scorecommandcomponent.cpp
-msgctxt "ScoreEdit"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Text"
 msgstr "テキスト"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/scorecommandcomponent.cpp
+msgctxt "ScoreEdit"
 msgid "Text"
 msgstr "テキスト"
 
@@ -2974,6 +2984,11 @@ msgstr "ピアノを切り替え"
 msgctxt "Command"
 msgid "Toggle Plucking"
 msgstr "プラッキングを切り替え"
+
+#: editor/scorecommandcomponent.cpp
+msgctxt "Command"
+msgid "Toggle Rhythm Slash"
+msgstr "リズムスラッシュを切り替え"
 
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
@@ -3385,11 +3400,6 @@ msgctxt "ScoreSymbols"
 msgid "X-Symbol"
 msgstr "X記号"
 
-#: editor/tools/scoreselecttool.cpp
-msgctxt "ScoreSelectTool"
-msgid "Zoom"
-msgstr "ズーム"
-
 #: editor/scorecontinuousheaderview.cpp
 msgctxt "ScoreView"
 msgid "Zoom"
@@ -3397,6 +3407,11 @@ msgstr "ズーム"
 
 #: editor/scoreeditcomponent.cpp
 msgctxt "Command"
+msgid "Zoom"
+msgstr "ズーム"
+
+#: editor/tools/scoreselecttool.cpp
+msgctxt "ScoreSelectTool"
 msgid "Zoom"
 msgstr "ズーム"
 
@@ -3840,4 +3855,3 @@ msgstr "上に移調"
 #~ msgctxt "ScorePasteUp"
 #~ msgid "in"
 #~ msgstr "In"
-

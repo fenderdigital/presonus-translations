@@ -54,7 +54,7 @@ msgctxt "SoundVariations"
 msgid "Activation Sequence"
 msgstr ""
 
-#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
 msgstr ""
@@ -369,10 +369,10 @@ msgctxt "ScoreSymbolMap"
 msgid "Dynamics"
 msgstr ""
 
-#: events/eventeditcomponent.cpp music/lyricsdisplay.cpp music/noteplayer.cpp
-#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: events/eventeditcomponent.cpp music/noteplayer.cpp music/lyricsdisplay.cpp
 #: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
-#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timelinecomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timesnapper.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Düzenle"
@@ -617,15 +617,15 @@ msgctxt "Command"
 msgid "Loop Selection Snapped"
 msgstr "Seçimi Snap ile Döngüre AL"
 
-#: music/lyricsdisplay.cpp
-msgctxt "Command"
-msgid "Lyrics"
-msgstr ""
-
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
 msgid "Lyrics"
 msgstr "Şarkı Sözleri"
+
+#: music/lyricsdisplay.cpp
+msgctxt "Command"
+msgid "Lyrics"
+msgstr ""
 
 #: music/chordselector.cpp
 msgctxt "Notation"
@@ -762,7 +762,7 @@ msgctxt "Command"
 msgid "Next Hotspot"
 msgstr "Sonraki Hotspot"
 
-#: music/soundvariationmenubuilder.cpp music/soundvariationlane.cpp
+#: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
 msgstr ""
@@ -927,11 +927,6 @@ msgctxt "SoundVariations"
 msgid "Program Change"
 msgstr ""
 
-#: music/lyricsdisplay.cpp
-msgctxt "LyricsDisplaySetup"
-msgid "Quantize"
-msgstr ""
-
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
 msgid "Quantize"
@@ -941,6 +936,11 @@ msgstr "Quantize"
 msgctxt "MusicEdit"
 msgid "Quantize"
 msgstr "Quantize"
+
+#: music/lyricsdisplay.cpp
+msgctxt "LyricsDisplaySetup"
+msgid "Quantize"
+msgstr ""
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Quantize"
@@ -1593,6 +1593,11 @@ msgstr "Dikey Zoom Out"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
+msgid "Zoom Out Vertical Fine"
+msgstr "Dikey Hassas Zoom Out"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
 msgid "Zoom to Loop"
 msgstr "Döngüye Zoom"
 
@@ -1605,10 +1610,6 @@ msgstr "Seçime Zoom"
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "Seçime Yatay Olarak Zoom"
-
-#~ msgctxt "Command"
-#~ msgid "Zoom Out Vertical Fine"
-#~ msgstr "Dikey Hassas Zoom Out"
 
 #~ msgctxt "Command"
 #~ msgid "Set Bar Offset to Cursor"

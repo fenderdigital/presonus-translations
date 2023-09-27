@@ -44,6 +44,26 @@ msgctxt "AudioSetup"
 msgid "%(1) of %(2)"
 msgstr "%(1) / %(2)"
 
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid ""
+"%(1) requires a block size of %(2).\n"
+"The audio device does not support this value.\n"
+"Please select a different audio device if possible."
+msgstr ""
+"%(1) 要求块大小为 %(2)。\n"
+"音频设备不支持此值。\n"
+"请尽可能选择其他音频设备。"
+
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid ""
+"%(1) requires a sample rate of %(2).\n"
+"Please change the sample rate if possible."
+msgstr ""
+"%(1) 需要 %(2) 的采样率。\n"
+"如果可能，请更改采样率。"
+
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "%(1) samples"
@@ -63,6 +83,11 @@ msgstr "%float(1:1) 倍快于实时"
 msgctxt "AudioRenderEngine"
 msgid "%float(1:1) times slower than realtime"
 msgstr "%float(1:1) 倍慢于实时"
+
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "'%(1)' Bypassed"
+msgstr "'%(1)' 旁通"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -525,6 +550,11 @@ msgctxt "AudioPanner"
 msgid "Balance"
 msgstr "平衡"
 
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Balance View"
+msgstr "平衡视图"
+
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Basic"
@@ -565,6 +595,11 @@ msgctxt "DeviceFolder"
 msgid "Bypass"
 msgstr "取消效果"
 
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Bypassed"
+msgstr "旁路"
+
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "CH:"
@@ -590,13 +625,13 @@ msgctxt "AudioMixer"
 msgid "Channel"
 msgstr "通道"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Channel"
 msgstr "通道"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Channel"
 msgstr "通道"
 
@@ -675,6 +710,16 @@ msgctxt "AudioClick"
 msgid "Click Volume"
 msgstr "节拍器音量"
 
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Click here to bypass '%(1)'"
+msgstr "点击这里到旁通'%(1)'"
+
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "Click to move channels"
+msgstr "点击这里移动通道"
+
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Clipping has occurred. The signal was %float(1:2) dB over."
@@ -684,6 +729,11 @@ msgstr " 已进行剪辑。信号 %float(1:2) dB 结束。"
 msgctxt "DeviceFolder"
 msgid "Collapse"
 msgstr "折叠"
+
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Collapse all Micro Views"
+msgstr "折叠所有微观视图"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -730,10 +780,10 @@ msgctxt "UCMixerConnector"
 msgid "Connected to %(1)."
 msgstr "连接至%(1)。"
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
 #: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
-#: audiomixer/audiosendfolder.cpp mixerconsole/mixerconsole.cpp
-#: mixerconsole/mixersnapshot.cpp
+#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
+#: audiomixer/audiosendfolder.cpp audiomixer/audiopanner.cpp
+#: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Console"
 msgstr "控制台"
@@ -1064,6 +1114,11 @@ msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr "编辑多个参数"
 
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Edit Panner"
+msgstr "编辑声像器"
+
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Edit as Switch"
@@ -1163,6 +1218,11 @@ msgstr "事件FX"
 msgctxt "DeviceFolder"
 msgid "Expand"
 msgstr "展开"
+
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Expand all Micro Views"
+msgstr "展开所有微型视图"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1480,14 +1540,14 @@ msgctxt "EditGroups"
 msgid "Inserts"
 msgstr "插入"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instrument"
 msgstr "乐器"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instrument"
 msgstr "乐器"
 
@@ -1511,14 +1571,14 @@ msgctxt "Channels"
 msgid "Instruments"
 msgstr "乐器"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instruments"
 msgstr "乐器"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instruments"
 msgstr "乐器"
 
@@ -1636,6 +1696,11 @@ msgstr "锁定轨道平移"
 msgctxt "Command"
 msgid "Lock Panning"
 msgstr "锁定平移"
+
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
+msgid "Lock Volume to Channel"
+msgstr "将音量锁定到通道/锁定轨道音量"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -1888,6 +1953,11 @@ msgctxt "Command"
 msgid "Next Fader Flip Target"
 msgstr "下一个推子翻转目标"
 
+#: audiomixer/audiopanner.cpp
+msgctxt "Command"
+msgid "Next Panner Stereo Mode"
+msgstr "下一个声像器立体声模式"
+
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Next Scene"
@@ -1912,6 +1982,11 @@ msgstr "无输入"
 msgctxt "Studio"
 msgid "No devices are missing."
 msgstr "无缺失的设备。"
+
+#: audiomixer/audioinsertspeakermapcomponent.cpp
+msgctxt "InsertSpeakerMapper"
+msgid "No match"
+msgstr "不匹配"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
@@ -2033,6 +2108,11 @@ msgctxt "Command"
 msgid "Open Qwerty Keyboard"
 msgstr "打开全键盘"
 
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Other"
+msgstr "其他"
+
 #: mixer/mixercontrollable.cpp
 msgctxt "Channel"
 msgid "Output"
@@ -2100,6 +2180,16 @@ msgstr "平移至右"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
+msgid "Pan View"
+msgstr "声像图"
+
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Panner"
+msgstr "声像器"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
 msgid "Panner"
 msgstr "平移器"
 
@@ -2108,13 +2198,13 @@ msgctxt "ActionDescriptions"
 msgid "Parameter"
 msgstr "参数"
 
-#: editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: editor/paramselector.cpp
+msgctxt "ParamSelector"
 msgid "Parameter"
 msgstr "参数"
 
-#: editor/paramselector.cpp
-msgctxt "ParamSelector"
+#: editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Parameter"
 msgstr "参数"
 
@@ -2158,11 +2248,6 @@ msgctxt "AudioFX"
 msgid "Plug-in Nap"
 msgstr "Plug-in Nap"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
-msgctxt "Hardware"
-msgid "Polarity"
-msgstr "极性"
-
 #: audiomixer/audiochannelinputfx.cpp
 msgctxt "AudioChannelInputFX"
 msgid "Polarity"
@@ -2170,11 +2255,16 @@ msgstr "极性"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
+msgid "Polarity"
+msgstr "极性"
+
+#: audiomixer/audiochannelinputfx.cpp
+msgctxt "AudioChannelInputFX"
 msgid "Polarity Right"
 msgstr "右侧极性"
 
-#: audiomixer/audiochannelinputfx.cpp
-msgctxt "AudioChannelInputFX"
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
+msgctxt "Hardware"
 msgid "Polarity Right"
 msgstr "右侧极性"
 
@@ -2768,13 +2858,13 @@ msgctxt "SideChain"
 msgid "Select Sidechain Source"
 msgstr "选择侧链源"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Send"
 msgstr "发送"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Send"
 msgstr "发送"
 
@@ -2893,6 +2983,11 @@ msgctxt "Channel"
 msgid "Set Output"
 msgstr "设置输出"
 
+#: audiomixer/audiomixereditfunctions.cpp
+msgctxt "AudioMixerEditFunctions"
+msgid "Set Panner Type"
+msgstr "设置声像类型"
+
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Set Play Start Marker"
@@ -2907,6 +3002,16 @@ msgstr "设置速率 %(1)"
 msgctxt "AudioSendSlot"
 msgid "Set Send Target"
 msgstr "设置发送目标"
+
+#: audiomixer/audiomixereditfunctions.cpp
+msgctxt "AudioMixerEditFunctions"
+msgid "Set Spatial Object Panner"
+msgstr "设置空间物体声像器"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Set Spatial Object Panner"
+msgstr "设置空间物体声像器"
 
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
@@ -3163,6 +3268,16 @@ msgctxt "AudioSynth"
 msgid "Sound Variation Editor"
 msgstr "声音变化编辑器"
 
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid "Spatial Audio"
+msgstr "空间音频"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
+msgid "Spatial Object Panner"
+msgstr "空间物体声像器"
+
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Speaker A"
@@ -3363,6 +3478,11 @@ msgctxt "MusicDeviceSetup"
 msgid "The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
 msgstr "设备型号\"%(1)\"已不再使用，是否从用户设备中移除?"
 
+#: audiomixer/audiomixfxcomponent.cpp
+msgctxt "Devices"
+msgid "The Mix FX does not support speaker format %(1). It will be processed on the left and right channel."
+msgstr "Mix FX效果不支持扬声器格式 %(1)。它将在左右声道上进行处理。"
+
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
@@ -3372,6 +3492,15 @@ msgstr "音频设备%(1)无法初始化。请检查硬件配置并重试。"
 msgctxt "Devices"
 msgid "The audio device %(1) has failed to start correctly before. Do you want to try it again?"
 msgstr "音频设备%(1)启动失败。是否重试?"
+
+#: audiomixer/spatialaudiomanager.cpp
+msgctxt "SpatialAudio"
+msgid ""
+"The audio device does not have enough outputs.\n"
+"Do you want to continue?"
+msgstr ""
+"此音频设备没有足够的输出。\n"
+" 您是否继续？"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3442,6 +3571,11 @@ msgstr "切换循环"
 msgctxt "Command"
 msgid "Toggle Loop Display"
 msgstr "切换循环显示"
+
+#: audiomixer/audiopanner.cpp
+msgctxt "Command"
+msgid "Toggle Panner Object Mode"
+msgstr "切换声像器对象模式"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
@@ -3514,13 +3648,13 @@ msgctxt "FaderFlip"
 msgid "Turn Off Fader Flip"
 msgstr "关闭推子翻转"
 
-#: editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: editor/performancemonitor.cpp
+msgctxt "PerformanceMonitor"
 msgid "Type"
 msgstr "类型"
 
-#: editor/performancemonitor.cpp
-msgctxt "PerformanceMonitor"
+#: editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Type"
 msgstr "类型"
 
@@ -3634,6 +3768,11 @@ msgctxt "MixerSnapshots"
 msgid "Visibility only"
 msgstr " 仅供查看"
 
+#: audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
+msgid "Volume"
+msgstr "音量"
+
 #: audiomixer/channels/audiovcachannel.cpp
 msgctxt "AudioVCAChannel"
 msgid "Volume"
@@ -3641,11 +3780,6 @@ msgstr "音量"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
-msgid "Volume"
-msgstr "音量"
-
-#: audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "音量"
 
@@ -3671,8 +3805,14 @@ msgstr "写入"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
-msgstr "MIDI配置已改变。这也许由于外部设备当前未插入。\n\n是否立即重新连接外部设备?"
+msgid ""
+"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
+"\n"
+"Do you want to reconnect your external devices now?"
+msgstr ""
+"MIDI配置已改变。这也许由于外部设备当前未插入。\n"
+"\n"
+"是否立即重新连接外部设备?"
 
 #~ msgctxt "Automation"
 #~ msgid "Add / Remove Parameters..."
@@ -3877,4 +4017,3 @@ msgstr "MIDI配置已改变。这也许由于外部设备当前未插入。\n\n�
 #~ msgctxt "Devices"
 #~ msgid "Reset requested by Audio Device!"
 #~ msgstr "按所需重置音频设备!"
-
