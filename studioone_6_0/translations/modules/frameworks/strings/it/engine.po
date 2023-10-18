@@ -432,25 +432,13 @@ msgstr "Approva Tempo"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid ""
-"Are you sure you want to delete all attachments of this clip?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"Sei sicuro di voler eliminare tutti gli allegati di questa clip?\n"
-"\n"
-"Questa azione non può essere annullata."
+msgid "Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
+msgstr "Sei sicuro di voler eliminare tutti gli allegati di questa clip?\n\nQuesta azione non può essere annullata."
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid ""
-"Are you sure you want to delete all attachments of this version?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"Sei sicuro di voler eliminare tutti gli allegati di questa versione?\n"
-"\n"
-" Questa azione non può essere annullata."
+msgid "Are you sure you want to delete all attachments of this version?\n\nThis action can not be undone."
+msgstr "Sei sicuro di voler eliminare tutti gli allegati di questa versione?\n\n Questa azione non può essere annullata."
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -853,7 +841,7 @@ msgstr "Copia da '%(1)' a '%(2)'"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Copy Automation"
-msgstr "Copia l'automazione"
+msgstr "Copia l'Automazione"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -942,12 +930,8 @@ msgstr "Crea Automazione \"%(1)\""
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Create \"%(1)\" Automation\n"
-"on %(2)"
-msgstr ""
-"Crea \"%(1)\" Automazione\n"
-"su %(2)"
+msgid "Create \"%(1)\" Automation\non %(2)"
+msgstr "Crea \"%(1)\" Automazione\nsu %(2)"
 
 #: musicediting/partautomationdraghandler.cpp
 msgctxt "Automation"
@@ -2542,7 +2526,7 @@ msgstr "Unisci alla Parte Audio"
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
 msgid "Merge to Multichannel File"
-msgstr "Unisci a un file multicanale"
+msgstr "Unisci a un File Multicanale"
 
 #: editing/tracklist.cpp
 msgctxt "TrackHeights"
@@ -2641,21 +2625,13 @@ msgstr "Sposta \"%(1)\" Automazione"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Move \"%(1)\" Automation\n"
-"from %(3) to %(2)"
-msgstr ""
-"Sposta \"%(1)\" Automazione\n"
-"da %(3) a %(2)"
+msgid "Move \"%(1)\" Automation\nfrom %(3) to %(2)"
+msgstr "Sposta \"%(1)\" Automazione\nda %(3) a %(2)"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Move \"%(1)\" Automation\n"
-"to %(2)"
-msgstr ""
-"Sposta \"%(1)\" Automazione\n"
-"a %(2)"
+msgid "Move \"%(1)\" Automation\nto %(2)"
+msgstr "Sposta \"%(1)\" Automazione\na %(2)"
 
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
@@ -4244,7 +4220,7 @@ msgstr "Mostra Editor Note FX"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Show Object Channels"
-msgstr "Mostra i canali degli oggetti"
+msgstr "Mostra Canali Oggetto"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -4604,16 +4580,8 @@ msgstr "Il formato di questo file non è supportato."
 
 #: base/rootsetup.cpp
 msgctxt "RootSetup"
-msgid ""
-"The sample rate does not match your audio device configuration.\n"
-"\n"
-"The rate you set: %(1)\n"
-"The rate the device has: %(2)"
-msgstr ""
-"La frequenza di campionamento non corrisponde alla configurazione del dispositivo audio.\n"
-"\n"
-"La frequenza scelta è: %(1)\n"
-"La frequenza del dispositivo è: %(2)"
+msgid "The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
+msgstr "La frequenza di campionamento non corrisponde alla configurazione del dispositivo audio.\n\nLa frequenza scelta è: %(1)\nLa frequenza del dispositivo è: %(2)"
 
 #: music/musictrackinfo.cpp
 msgctxt "Engine"
@@ -4657,12 +4625,8 @@ msgstr "Questo file non può essere importato:"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
-msgid ""
-"This will delete notes or automation data.\n"
-"Do you want to continue?"
-msgstr ""
-"Questo cancellerà note o dati di automazione.\n"
-"Vuoi continuare?"
+msgid "This will delete notes or automation data.\nDo you want to continue?"
+msgstr "Questo cancellerà note o dati di automazione.\nVuoi continuare?"
 
 #: editing/mediatrackcontroller.cpp
 msgctxt "MediaTrack"
@@ -5258,24 +5222,12 @@ msgstr "usato %(1) volte"
 #~ msgstr "Rinomina Layer..."
 
 #~ msgctxt "Documents"
-#~ msgid ""
-#~ "Could not rename %(1)!\n"
-#~ "\n"
-#~ "The file is in use."
-#~ msgstr ""
-#~ "Non posso rinominare %(1)!\n"
-#~ "\n"
-#~ "Il file è in uso."
+#~ msgid "Could not rename %(1)!\n\nThe file is in use."
+#~ msgstr "Non posso rinominare %(1)!\n\nIl file è in uso."
 
 #~ msgctxt "Documents"
-#~ msgid ""
-#~ "Could not rename the folder %(1)!\n"
-#~ "\n"
-#~ "A file in this folder is in use."
-#~ msgstr ""
-#~ "Non posso rinominare la cartella %(1)!\n"
-#~ "\n"
-#~ "Un file di questa cartella è in uso."
+#~ msgid "Could not rename the folder %(1)!\n\nA file in this folder is in use."
+#~ msgstr "Non posso rinominare la cartella %(1)!\n\nUn file di questa cartella è in uso."
 
 #~ msgctxt "Engine"
 #~ msgid "Export Audioloop"
@@ -5630,24 +5582,8 @@ msgstr "usato %(1) volte"
 #~ msgstr "Aggiorna File Mastering"
 
 #~ msgctxt "SongMaster"
-#~ msgid ""
-#~ "Update the mastering file of this song:\n"
-#~ "%(6)\n"
-#~ "Output: %(1)\n"
-#~ "Duration: %(3)\n"
-#~ "Resolution: %(4)\n"
-#~ "Realtime Processing: %(5)\n"
-#~ "Include Master Effects: %(7)\n"
-#~ "Filename: %(2)"
-#~ msgstr ""
-#~ "Aggiorna il file mastering della Song:\n"
-#~ "%(6)\n"
-#~ "Uscita: %(1)\n"
-#~ "Durata: %(3)\n"
-#~ "Risoluzione: %(4)\n"
-#~ "Processa in tempo reale: %(5)\n"
-#~ "Include Master Effetti: %(7)\n"
-#~ "Nome del file: %(2)"
+#~ msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+#~ msgstr "Aggiorna il file mastering della Song:\n%(6)\nUscita: %(1)\nDurata: %(3)\nRisoluzione: %(4)\nProcessa in tempo reale: %(5)\nInclude Master Effetti: %(7)\nNome del file: %(2)"
 
 #~ msgctxt "Video"
 #~ msgid "Using different codecs might affect the export speed."
@@ -5724,3 +5660,4 @@ msgstr "usato %(1) volte"
 #~ msgctxt "Automation"
 #~ msgid "Transfer Automation"
 #~ msgstr "Trasferisci Automazione"
+

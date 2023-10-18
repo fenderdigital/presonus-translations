@@ -46,23 +46,13 @@ msgstr "%(1) di %(2)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
-msgstr ""
-"%(1) richiede una dimensione di blocco di %(2).\n"
-" Il dispositivo audio non supporta questo valore.\n"
-" Se possibile, seleziona un altro dispositivo audio."
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1) richiede una dimensione di blocco di %(2).\n Il dispositivo audio non supporta questo valore.\n Se possibile, seleziona un altro dispositivo audio."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
-msgstr ""
-"%(1) richiede una frequenza di campionamento di %(2).\n"
-" Se possibile, cambia la frequenza di campionamento."
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1) richiede una frequenza di campionamento di %(2).\n Se possibile, cambia la frequenza di campionamento."
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -733,7 +723,7 @@ msgstr "Richiudi"
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Collapse all Micro Views"
-msgstr "Chiudi tutte le microvisualizzazioni"
+msgstr "Chiudi tutte le Microvisualizzazioni"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -1222,7 +1212,7 @@ msgstr "Espandi"
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Expand all Micro Views"
-msgstr "Espandi tutte le microvisualizzazioni"
+msgstr "Espandi tutte le Microvisualizzazioni"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1700,7 +1690,7 @@ msgstr "Blocca Panning"
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Lock Volume to Channel"
-msgstr "Blocca il volume sul canale"
+msgstr "Blocco Volume sul Canale"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -3481,7 +3471,7 @@ msgstr "Il Modello del Dispositivo \"% (1)\" non è più utilizzato. Vuoi rimuov
 #: audiomixer/audiomixfxcomponent.cpp
 msgctxt "Devices"
 msgid "The Mix FX does not support speaker format %(1). It will be processed on the left and right channel."
-msgstr "Il Mix FX non supporta il formato dell'altoparlante %(1). Verrà elaborato sul canale destro e sinistro."
+msgstr "Il Mix FX non supporta il formato del diffusore %(1). Verrà elaborato sul canale destro e sinistro."
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
@@ -3495,12 +3485,8 @@ msgstr "Il dispositivo audio %(1) non è stato avviato correttamente. Vuoi prova
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
-msgstr ""
-"Il dispositivo audio non ha abbastanza uscite.\n"
-"Vuoi continuare?"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "Il dispositivo audio non ha abbastanza uscite.\nVuoi continuare?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3575,7 +3561,7 @@ msgstr "Alterna Display Loop"
 #: audiomixer/audiopanner.cpp
 msgctxt "Command"
 msgid "Toggle Panner Object Mode"
-msgstr "Alterna la modalità oggetto Panner"
+msgstr "Alterna la modalità Panner Oggetto"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
@@ -3805,14 +3791,8 @@ msgstr "Scrivi"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"La configurazione MIDI è cambiata. Questo potrebbe essere dovuto a dispositivi rimossi e attualmente non inseriti. \n"
-"\n"
-" Vuoi ricollegare i dispositivi esterni ora?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "La configurazione MIDI è cambiata. Questo potrebbe essere dovuto a dispositivi rimossi e attualmente non inseriti. \n\n Vuoi ricollegare i dispositivi esterni ora?"
 
 #~ msgctxt "Automation"
 #~ msgid "Add / Remove Parameters..."
@@ -4017,3 +3997,4 @@ msgstr ""
 #~ msgctxt "Devices"
 #~ msgid "Reset requested by Audio Device!"
 #~ msgstr "E' richiesto il reset dal Dispositivo Audio!"
+
