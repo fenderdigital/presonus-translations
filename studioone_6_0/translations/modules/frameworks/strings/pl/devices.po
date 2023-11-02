@@ -46,18 +46,13 @@ msgstr "%(1) z %(2)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
-msgstr ""
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1) wymaga wielkości %(2) buforu.\nUrządzenie audio nie obsługuje tej wartości.\nJeżeli to możliwe, zmień urządzenie audio."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
-msgstr ""
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1) wymaga częstotliwości %(2).\nJeżeli to możliwe, zmień częstotliwość próbkowania.."
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -548,7 +543,7 @@ msgstr "Balans"
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Balance View"
-msgstr ""
+msgstr "Widok balansu"
 
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
@@ -593,7 +588,7 @@ msgstr "Pomiń"
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "Bypassed"
-msgstr ""
+msgstr "Pominięto"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
@@ -708,7 +703,7 @@ msgstr "Głośność metronomu"
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "Click here to bypass '%(1)'"
-msgstr "Kliknij, aby pominąć '%(1)'"
+msgstr "Kliknij tutaj, aby pominąć '%(1)'"
 
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
@@ -728,7 +723,7 @@ msgstr "Zwiń"
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Collapse all Micro Views"
-msgstr ""
+msgstr "Zwiń wszystkie mikrowidoki"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -1112,7 +1107,7 @@ msgstr "Edycja wielu parametrów"
 #: audiomixer/audiosendcomponent.cpp
 msgctxt "AudioSendComponent"
 msgid "Edit Panner"
-msgstr ""
+msgstr "Edytuj panoramę"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
@@ -1217,7 +1212,7 @@ msgstr "Rozwiń"
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Expand all Micro Views"
-msgstr ""
+msgstr "Rozwiń wszystkie mikrowidoki"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1695,7 +1690,7 @@ msgstr "Zablokuj panoramę"
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Lock Volume to Channel"
-msgstr ""
+msgstr "Zablokuj głośność do kanału"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -1951,7 +1946,7 @@ msgstr "Następny cel przestawienia na tłumiki"
 #: audiomixer/audiopanner.cpp
 msgctxt "Command"
 msgid "Next Panner Stereo Mode"
-msgstr ""
+msgstr "Następny tryb panoramy stereo"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -1981,7 +1976,7 @@ msgstr "Nie ma brakujących urządzeń."
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "No match"
-msgstr ""
+msgstr "Brak zgosności"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
@@ -2106,7 +2101,7 @@ msgstr "Otwórz klawiaturę Qwerty"
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Other"
-msgstr ""
+msgstr "Inne"
 
 #: mixer/mixercontrollable.cpp
 msgctxt "Channel"
@@ -2176,12 +2171,12 @@ msgstr "Pan - Prawy"
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Pan View"
-msgstr ""
+msgstr "Widok panoramy"
 
 #: audiomixer/audiosendcomponent.cpp
 msgctxt "AudioSendComponent"
 msgid "Panner"
-msgstr ""
+msgstr "Panorama"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
@@ -2981,7 +2976,7 @@ msgstr "Ustaw wyjście"
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
 msgid "Set Panner Type"
-msgstr ""
+msgstr "Ustaw typ panoramy"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -3001,12 +2996,12 @@ msgstr "Ustaw przeznaczenie wysyłki"
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
 msgid "Set Spatial Object Panner"
-msgstr ""
+msgstr "Ustaw panoramę obiektu przestrzennego"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Set Spatial Object Panner"
-msgstr ""
+msgstr "Ustaw panoramę obiektu przestrzennego"
 
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
@@ -3266,12 +3261,12 @@ msgstr "Edytor wariacji brzmienia"
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
 msgid "Spatial Audio"
-msgstr ""
+msgstr "Dźwięk przestrzenny"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Spatial Object Panner"
-msgstr ""
+msgstr "Panorama obiektu przestrzennego"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
@@ -3476,7 +3471,7 @@ msgstr "Model urządzenia\"%(1)\" nie jest już używany. Czy chcesz je usunąć
 #: audiomixer/audiomixfxcomponent.cpp
 msgctxt "Devices"
 msgid "The Mix FX does not support speaker format %(1). It will be processed on the left and right channel."
-msgstr ""
+msgstr "FX miksu nie obsługuje formatu głośników %(1). Sygnał będzie przetwarzany na lewym i prawym kanale."
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
@@ -3490,10 +3485,8 @@ msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbo
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
-msgstr ""
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "To urządzenie audio ma za mało wyjść.\nCzy chcesz kontynuować?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3568,7 +3561,7 @@ msgstr "Przełącz wyświetlanie pętli"
 #: audiomixer/audiopanner.cpp
 msgctxt "Command"
 msgid "Toggle Panner Object Mode"
-msgstr ""
+msgstr "Przełącz tryb panoramy obiektu"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
@@ -3798,14 +3791,8 @@ msgstr "Write"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n"
-"\n"
-"Czy chcesz je teraz ponownie podłączyć?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n\nCzy chcesz je teraz ponownie podłączyć?"
 
 #~ msgctxt "Automation"
 #~ msgid "Add / Remove Parameters..."
@@ -3910,3 +3897,4 @@ msgstr ""
 #~ msgctxt "MacroControls"
 #~ msgid "Disconnect %(1) from %(2) Macro Control %(3)"
 #~ msgstr "Odłącz %(1) od kontrolki makro %(2) %(3)"
+

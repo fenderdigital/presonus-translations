@@ -178,7 +178,7 @@ msgstr "Dodaj FX obiektu: %(1)"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Add FX + Automation on %(1):"
-msgstr ""
+msgstr "Dodaj FX i automatykę na %(1):"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -228,7 +228,7 @@ msgstr "Dodaj Scratch Pad"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Add Send + Automation:"
-msgstr ""
+msgstr "Dodaj FX i automatykę:"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -432,25 +432,13 @@ msgstr "Zatwierdź tempo"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid ""
-"Are you sure you want to delete all attachments of this clip?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n"
-"\n"
-"To działanie jest nieodwracalne."
+msgid "Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
+msgstr "Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n\nTo działanie jest nieodwracalne."
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid ""
-"Are you sure you want to delete all attachments of this version?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n"
-"\n"
-"To działanie jest nieodwracalne."
+msgid "Are you sure you want to delete all attachments of this version?\n\nThis action can not be undone."
+msgstr "Czy na pewno chcesz usunąć wszystkie załączniki z tego klipu?\n\nTo działanie jest nieodwracalne."
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -778,7 +766,7 @@ msgstr "Połącz"
 #: audioediting/audioclipcomponent.cpp
 msgctxt "AudioSpeakerMap"
 msgid "Confirm Speaker Format"
-msgstr ""
+msgstr "Potwierdź format głośnika"
 
 #: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -853,7 +841,7 @@ msgstr "Kopiuj %(1) do '%(2)'"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Copy Automation"
-msgstr ""
+msgstr "Kopiuj automatykę"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -942,12 +930,8 @@ msgstr "Utwórz automatykę \"%(1)"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Create \"%(1)\" Automation\n"
-"on %(2)"
-msgstr ""
-"Utwórz automatykę \"%(1)\"\n"
-"na %(2)"
+msgid "Create \"%(1)\" Automation\non %(2)"
+msgstr "Utwórz automatykę \"%(1)\"\nna %(2)"
 
 #: musicediting/partautomationdraghandler.cpp
 msgctxt "Automation"
@@ -2010,7 +1994,7 @@ msgstr "Ukryj wyciszone ścieżki"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Hide Object Channels"
-msgstr ""
+msgstr "Ukryj obiekty kanału"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -2542,7 +2526,7 @@ msgstr "Scal do jednej partii audio"
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
 msgid "Merge to Multichannel File"
-msgstr ""
+msgstr "Scal do pliku wielokanałowego"
 
 #: editing/tracklist.cpp
 msgctxt "TrackHeights"
@@ -2627,7 +2611,7 @@ msgstr "Monitor"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Move"
-msgstr ""
+msgstr "Przenieś"
 
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
@@ -2641,21 +2625,13 @@ msgstr "Przenieś automatykę \"%(1)\""
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Move \"%(1)\" Automation\n"
-"from %(3) to %(2)"
-msgstr ""
-"Przenieś automatykę \"%(1)\"\n"
-"z %(3) do %(2)"
+msgid "Move \"%(1)\" Automation\nfrom %(3) to %(2)"
+msgstr "Przenieś automatykę \"%(1)\"\nz %(3) do %(2)"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Move \"%(1)\" Automation\n"
-"to %(2)"
-msgstr ""
-"Przenieś automatykę \"%(1)\"\n"
-"do %(2)"
+msgid "Move \"%(1)\" Automation\nto %(2)"
+msgstr "Przenieś automatykę \"%(1)\"\ndo %(2)"
 
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
@@ -2695,12 +2671,12 @@ msgstr "Przenieś obiekty"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Move FX + Automation to %(1):"
-msgstr ""
+msgstr "Przeń FX z automatyką do %(1):"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Move FX to %(1):"
-msgstr ""
+msgstr "Przeń FX do %(1):"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -2715,12 +2691,12 @@ msgstr "Przenieś warstwy"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Move Send + Automation:"
-msgstr ""
+msgstr "Przenieś wysyłkę z automatyką:"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Move Send:"
-msgstr ""
+msgstr "Przenieś wysyłkę:"
 
 #: application/eventedit/movetoorigintask.cpp
 msgctxt "Edit"
@@ -4244,7 +4220,7 @@ msgstr "Pokaż edytor efektu MIDI"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Show Object Channels"
-msgstr ""
+msgstr "Pokaż obiekty kanału"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -4604,16 +4580,8 @@ msgstr "Format tego pliku nie jest obsługiwany."
 
 #: base/rootsetup.cpp
 msgctxt "RootSetup"
-msgid ""
-"The sample rate does not match your audio device configuration.\n"
-"\n"
-"The rate you set: %(1)\n"
-"The rate the device has: %(2)"
-msgstr ""
-"Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n"
-"\n"
-"Ustawiona częstotliwość: %(1)\n"
-"Częstotliwość urządzenia: %(2)"
+msgid "The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
+msgstr "Częstotliwość nie zgadza się z konfiguracją urządzenia audio.\n\nUstawiona częstotliwość: %(1)\nCzęstotliwość urządzenia: %(2)"
 
 #: music/musictrackinfo.cpp
 msgctxt "Engine"
@@ -4657,12 +4625,8 @@ msgstr "Nie można zaimportować tego pliku:"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
-msgid ""
-"This will delete notes or automation data.\n"
-"Do you want to continue?"
-msgstr ""
-"Usunie to nuty lub dane automatyki.\n"
-"Czy chcesz kontynuować?"
+msgid "This will delete notes or automation data.\nDo you want to continue?"
+msgstr "Usunie to nuty lub dane automatyki.\nCzy chcesz kontynuować?"
 
 #: editing/mediatrackcontroller.cpp
 msgctxt "MediaTrack"
@@ -5258,24 +5222,12 @@ msgstr "użyto %(1) razy"
 #~ msgstr "Zmień nazwę warstwy..."
 
 #~ msgctxt "Documents"
-#~ msgid ""
-#~ "Could not rename %(1)!\n"
-#~ "\n"
-#~ "The file is in use."
-#~ msgstr ""
-#~ "Nie można zmienić nazwy %(1)!\n"
-#~ "\n"
-#~ "Plik jest w użyciu."
+#~ msgid "Could not rename %(1)!\n\nThe file is in use."
+#~ msgstr "Nie można zmienić nazwy %(1)!\n\nPlik jest w użyciu."
 
 #~ msgctxt "Documents"
-#~ msgid ""
-#~ "Could not rename the folder %(1)!\n"
-#~ "\n"
-#~ "A file in this folder is in use."
-#~ msgstr ""
-#~ "Nie można zmienić nazwy folderu %(1)!\n"
-#~ "\n"
-#~ "Plik z tego folder jest w użyciu."
+#~ msgid "Could not rename the folder %(1)!\n\nA file in this folder is in use."
+#~ msgstr "Nie można zmienić nazwy folderu %(1)!\n\nPlik z tego folder jest w użyciu."
 
 #~ msgctxt "Engine"
 #~ msgid "Export Audioloop"
@@ -5630,24 +5582,8 @@ msgstr "użyto %(1) razy"
 #~ msgstr "Zaktualizuj plik masteringu"
 
 #~ msgctxt "SongMaster"
-#~ msgid ""
-#~ "Update the mastering file of this song:\n"
-#~ "%(6)\n"
-#~ "Output: %(1)\n"
-#~ "Duration: %(3)\n"
-#~ "Resolution: %(4)\n"
-#~ "Realtime Processing: %(5)\n"
-#~ "Include Master Effects: %(7)\n"
-#~ "Filename: %(2)"
-#~ msgstr ""
-#~ "Zaktualizuj plik masteringu dla tego utworu:\n"
-#~ "%(6)\n"
-#~ "Wyjście: %(1)\n"
-#~ "Długość %(3)\n"
-#~ "Rozdzielczość: %(4)\n"
-#~ "Przetwarzanie w czasie rzeczywistym: %(5)\n"
-#~ "Dołącz efekty sumy: %(7)\n"
-#~ "Nazwa pliku: %(2)"
+#~ msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+#~ msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
 
 #~ msgctxt "Video"
 #~ msgid "Using different codecs might affect the export speed."
@@ -5672,3 +5608,4 @@ msgstr "użyto %(1) razy"
 #~ msgctxt "SongMaster"
 #~ msgid "Yes"
 #~ msgstr "Tak"
+
