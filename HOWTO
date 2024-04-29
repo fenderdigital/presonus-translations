@@ -1,5 +1,5 @@
 PreSonus Software Localization Guide
-Copyright (c)2023 PreSonus Software Ltd. All Rights Reserved.
+Copyright (c)2024 PreSonus Software Ltd. All Rights Reserved.
 
 INTRODUCTION
 
@@ -9,13 +9,21 @@ String tables are based on the GNU gettext file formats. For more information on
 
 GETTING STARTED
 
-The file and folder structure for a new language will be setup in the translations repository by PreSonus. The first place to look at are the string folders for your language. For Studio One version 6 and above they are located in the "translations/modules/<module>/strings/<language-code>" folders and contain all .po files for the given language that make up the main part of the translation effort. For prior versions they are located in the folder "translations/strings/<language-code>". 
+The file and folder structure for a new language will be setup in the translations repository by PreSonus. The first place to look at are the string folders for your language. For Studio One version 6.6 and later, these are located in the following folders:
 
-For Studio One, there are currently about 4000 strings which need to be translated. Additionally, it is required to translate the device descriptions found in "translations/resources/devices" and the EULA in "build/identities/presonus/eula".
+"translations/modules/strings/<language-code>" 
+"framework/translations/modules/strings/<language-code>"
+"foundation/translations/modules/strings/<language-code>"
+
+These folders contain all .po files for the given language that make up the main part of the translation effort. 
+
+Please note that for versions 6.0 to 6.5 they are located in "translations/modules/<module>/strings/<language-code>" and for versions prior to version 6, they are located in "translations/strings/<language-code>".
+
+For Studio One, there are currently about 4000 strings which need to be translated. Additionally, it is required to translate the device descriptions found in "foundation/translations/resources/devices/<language-code>" and the EULA in "foundation/build/identities/presonus/eula".
 
 LOCALIZATION TOOLS
 
-You can use any software localization tool compatible with the .po file format. However, if you do not have a preferred translation workflow yet, we recommend using the CCL Localizer application available at https://ccl.dev/tools. Besides translation editing, it also enables you to build language packs on your local system for testing purpose. The prepared CCL Localizer project file for Studio One version 6 and above can be found in the path translations/projects/studioapp/studioapp.lzproject.
+You can use any software localization tool compatible with the .po file format. However, if you do not have a preferred translation workflow yet, we recommend using the latest version of the CCL Localizer application available at https://ccl.dev/tools. Besides translation editing, it also enables you to build language packs on your local system for testing purpose. The CCL Localizer project file for Studio One version 6 and later can be found in the path translations/projects/studioapp/studioapp.lzproject. Opening this file requires the whole directory tree to be copied/cloned to your local system. Please update to the latest version of CCL Localizer before starting the translation as it might contain new features that are necessary to load the project file.
 
 DEPLOYMENT
 
