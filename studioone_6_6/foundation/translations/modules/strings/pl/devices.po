@@ -46,23 +46,13 @@ msgstr "%(1) z %(2)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
-msgstr ""
-"%(1) wymaga wielkości %(2) buforu.\n"
-"Urządzenie audio nie obsługuje tej wartości.\n"
-"Jeżeli to możliwe, zmień urządzenie audio."
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1) wymaga wielkości %(2) buforu.\nUrządzenie audio nie obsługuje tej wartości.\nJeżeli to możliwe, zmień urządzenie audio."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
-msgstr ""
-"%(1) wymaga częstotliwości %(2).\n"
-"Jeżeli to możliwe, zmień częstotliwość próbkowania.."
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1) wymaga częstotliwości %(2).\nJeżeli to możliwe, zmień częstotliwość próbkowania.."
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -488,12 +478,12 @@ msgstr "Nie można ustawić podpoziomu priorytetu wątku czasu rzeczywistego prz
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "Auto Gain"
-msgstr ""
+msgstr "Auto Gain"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "Auto Gain Status"
-msgstr ""
+msgstr "Status Auto Gain"
 
 #: base/automationunit.cpp
 msgctxt "Automation"
@@ -1437,7 +1427,7 @@ msgstr "Wysoka"
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "High Pass Filter"
-msgstr ""
+msgstr "Filtr górnoprzepustowy"
 
 #: audiomixer/audioioassignment.cpp
 msgctxt "FileType"
@@ -2146,7 +2136,7 @@ msgstr "ZAKTUALIZUJ FIRMWARE URZĄDZENIA!"
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "Pad"
-msgstr ""
+msgstr "Pad"
 
 #: editor/deviceslotselector.cpp
 msgctxt "Command"
@@ -2796,7 +2786,7 @@ msgstr "Zaznacz"
 #: audiomixer/audiochannelconnections.cpp
 msgctxt "Channels"
 msgid "Select All"
-msgstr ""
+msgstr "Zaznacz wszystko"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "Command"
@@ -3296,7 +3286,7 @@ msgstr "Dźwięk przestrzenny"
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Spatial Audio"
-msgstr ""
+msgstr "Dźwięk przestrzenny"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
@@ -3520,12 +3510,8 @@ msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbo
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
-msgstr ""
-"To urządzenie audio ma za mało wyjść.\n"
-"Czy chcesz kontynuować?"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "To urządzenie audio ma za mało wyjść.\nCzy chcesz kontynuować?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3590,7 +3576,7 @@ msgstr "Odłącz / Dołącz konsoletę"
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Toggle Editor"
-msgstr ""
+msgstr "Przełącz edytor"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -3835,14 +3821,8 @@ msgstr "Write"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n"
-"\n"
-"Czy chcesz je teraz ponownie podłączyć?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n\nCzy chcesz je teraz ponownie podłączyć?"
 
 #~ msgctxt "Command"
 #~ msgid "Delete"
@@ -3951,3 +3931,4 @@ msgstr ""
 #~ msgctxt "MacroControls"
 #~ msgid "Disconnect %(1) from %(2) Macro Control %(3)"
 #~ msgstr "Odłącz %(1) od kontrolki makro %(2) %(3)"
+

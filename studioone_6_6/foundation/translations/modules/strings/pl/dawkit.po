@@ -511,16 +511,8 @@ msgstr "Czy chcesz zastosować przyrostowe kody ISRC dla wszystkich utworów?"
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
-msgid ""
-"Do you want to create a DDP image?\n"
-"\n"
-"Image: %(1)\n"
-"Location: %(2)"
-msgstr ""
-"Czy chcesz utworzyć obraz DDP?\n"
-"\n"
-"Obraz: %(1)\n"
-"Lokalizacja: %(2)"
+msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
+msgstr "Czy chcesz utworzyć obraz DDP?\n\nObraz: %(1)\nLokalizacja: %(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -733,12 +725,12 @@ msgstr "Przejdź do poprzedniej sekcji"
 #: show/editing/showeditcomponent.cpp
 msgctxt "ShowEditComponent"
 msgid "Goto Section"
-msgstr ""
+msgstr "Przejdź do sekcji"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section"
-msgstr ""
+msgstr "Przejdź do sekcji"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
@@ -900,7 +892,7 @@ msgstr "Pozycja"
 #: show/editing/setlistcomponent.cpp
 msgctxt "Setlist"
 msgid "Item Number"
-msgstr ""
+msgstr "Numer pozycji"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1243,7 +1235,7 @@ msgstr "Zestaw"
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Patch Number"
-msgstr ""
+msgstr "Numer zestawu"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
@@ -1273,7 +1265,7 @@ msgstr "Odtwarzacz \"%(1)\""
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "PlayerList"
 msgid "Player Number"
-msgstr ""
+msgstr "Numer odtwarzacza"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -1552,7 +1544,7 @@ msgstr "Partytura"
 #: show/editing/showeditcomponent.cpp
 msgctxt "ShowEditComponent"
 msgid "Section Number"
-msgstr ""
+msgstr "Numer secji"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1592,12 +1584,12 @@ msgstr "Wybierz zestaw wyciszenia"
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Patch"
-msgstr ""
+msgstr "Wybierz zestaw"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Select Patch"
-msgstr ""
+msgstr "Wybierz zestaw"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
@@ -1652,12 +1644,12 @@ msgstr "Wybierz zestaw 9"
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "PlayerList"
 msgid "Select Player"
-msgstr ""
+msgstr "Wybierz odtwarzacz"
 
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Player"
-msgstr ""
+msgstr "Wybierz odtwarzacz"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -1712,12 +1704,12 @@ msgstr "Wybierz odtwarzacz 9"
 #: show/editing/setlistcomponent.cpp
 msgctxt "Setlist"
 msgid "Select Setlist Item"
-msgstr ""
+msgstr "Wybierz pozycje setlisty"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item"
-msgstr ""
+msgstr "Wybierz pozycje setlisty"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
@@ -2080,12 +2072,8 @@ msgstr "Zapisz obraz DDP %(1) razy"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
-msgid ""
-"Start: %(1) (%(2))\n"
-"Pause: %(3)"
-msgstr ""
-"Start: %(1) (%(2))\n"
-"Pauza: %(3)"
+msgid "Start: %(1) (%(2))\nPause: %(3)"
+msgstr "Start: %(1) (%(2))\nPauza: %(3)"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
@@ -2129,37 +2117,13 @@ msgstr "TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻY
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
-msgid ""
-"The EAN code is not formatted correctly.\n"
-"\n"
-"It should be 13 characters long and should only contain numeric characters.\n"
-"\n"
-"Example: 036000291452\n"
-"\n"
-"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr ""
-"Kod EAN nie jest poprawnie sformatowany.\n"
-"\n"
-"Powinien on zawierać 13 znaków numerycznych.\n"
-"\n"
-"Przykład: 036000291452\n"
-"\n"
-"Jeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
+msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr "Kod EAN nie jest poprawnie sformatowany.\n\nPowinien on zawierać 13 znaków numerycznych.\n\nPrzykład: 036000291452\n\nJeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
-msgid ""
-"The ISRC code is not formatted correctly.\n"
-"\n"
-"It should be 12 characters long and should only contain alphanumeric characters.\n"
-"\n"
-"Example: USPR37300012"
-msgstr ""
-"Kod ISRC jest niepoprawnie sformatowany.\n"
-"\n"
-"Powinien on zawierać 12 znaków alfanumerycznych.\n"
-"\n"
-"Przykład: USPR37300012"
+msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
+msgstr "Kod ISRC jest niepoprawnie sformatowany.\n\nPowinien on zawierać 12 znaków alfanumerycznych.\n\nPrzykład: USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2169,7 +2133,7 @@ msgstr "Kodek audio nie obsługuje bieżącej częstotliwości próbkowania. Cz�
 #: song/songvideorenderer.cpp
 msgctxt "Video"
 msgid "The audio codec does not support the output speaker format. It will be converted to %(1)."
-msgstr ""
+msgstr "Kodek audio nie obsługuje formatu głośników wyjściowych. Zostanie on przekonwertowany na %(1)."
 
 #: project/publish/burnerdialog.cpp
 msgctxt "BurnerDialog"
@@ -2390,24 +2354,8 @@ msgstr "Zaktualizuj tytuł"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
-msgid ""
-"Update the mastering file of this song:\n"
-"%(6)\n"
-"Output: %(1)\n"
-"Duration: %(3)\n"
-"Resolution: %(4)\n"
-"Realtime Processing: %(5)\n"
-"Include Master Effects: %(7)\n"
-"Filename: %(2)"
-msgstr ""
-"Zaktualizuj plik masteringu dla tego utworu:\n"
-"%(6)\n"
-"Wyjście: %(1)\n"
-"Długość %(3)\n"
-"Rozdzielczość: %(4)\n"
-"Przetwarzanie w czasie rzeczywistym: %(5)\n"
-"Dołącz efekty sumy: %(7)\n"
-"Nazwa pliku: %(2)"
+msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2735,3 +2683,4 @@ msgstr "nowy odtwarzacz"
 #~ msgctxt "Command"
 #~ msgid "Split Track and Event"
 #~ msgstr "Podziel utwór i obiekt"
+
