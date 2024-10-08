@@ -1,0 +1,160 @@
+findPath: $(cclTranslationsDir) translations projects/shared/languagepack.macros
+#include: $(cclTranslationsDir)/projects/shared/languagepack.macros
+
+#define: $(TempDir)=~temp
+#define: $(OutDir)=languages
+
+print: Building "$(LanguagePack)"...
+print:
+
+print: Copying prototypes...
+setOutputDir: ./$(TempDir)/$(LanguagePack)
+findPath: $(LocalesDir) translations locales
+setInputDir: $(LocalesDir)/locales
+copyFile: $(language).xml > localeinfo.xml
+findPath: $(IconsDir) translations icons
+setInputDir: $(IconsDir)/icons
+copyFile: $(language).png > language.png
+copyFile: $(language)@2x.png > language@2x.png
+setInputDir: ./
+copyFile: tables.properties
+copyFile: resources.properties
+setInputDir: ./$(language)
+copyFile: metainfo.xml
+setOutputDir: ./$(TempDir)/$(LanguagePack)/resources
+findPath: $(EulaDir) identities presonus/eula
+setInputDir: $(EulaDir)/presonus/eula
+copyFile: EULA-$(language).txt > EULA.txt
+
+print: Copying tables...
+; Application
+#define: $(hint_file)=studioapp.mo
+#define: $(table)=studioapp
+@copyTable
+#define: $(table)=studioapp-audioedit
+@copyTable
+#define: $(table)=studioapp-musicedit
+@copyTable
+#define: $(table)=studioapp-projectedit
+@copyTable
+#define: $(table)=studioapp-toolset
+@copyTable
+#define: $(table)=studioapp-trackedit
+@copyTable
+#define: $(table)=studioapp-launcheredit
+@copyTable
+
+; CCL
+#define: $(hint_file)=cclgui.mo
+#define: $(table)=cclgui
+@copyTable
+#define: $(table)=cclsystem
+@copyTable
+#define: $(table)=tuioservice
+@copyTable
+
+; Services
+#define: $(hint_file)=araservice.mo
+#define: $(table)=araservice
+@copyTable
+#define: $(table)=alsa
+@copyTable
+#define: $(table)=audiocodecs
+@copyTable
+#define: $(table)=audioanalysis
+@copyTable
+#define: $(table)=cdburn
+@copyTable
+#define: $(table)=cubasehandler
+@copyTable
+#define: $(table)=sessionhandler
+@copyTable
+#define: $(table)=hardwareservice
+@copyTable
+#define: $(table)=jackaudio
+@copyTable
+#define: $(table)=midifile
+@copyTable
+#define: $(table)=mp3handler
+@copyTable
+#define: $(table)=musicdevices
+@copyTable
+#define: $(table)=videoengine
+@copyTable
+#define: $(table)=rewireservice
+@copyTable
+#define: $(table)=rexcodec
+@copyTable
+#define: $(table)=vstservice
+@copyTable
+#define: $(table)=dspshell
+@copyTable
+#define: $(table)=remoteservice
+@copyTable
+#define: $(table)=aafhandler
+@copyTable
+#define: $(table)=dawprojecthandler
+@copyTable
+#define: $(table)=elastique
+@copyTable
+#define: $(table)=spatialaudio
+@copyTable
+#define: $(table)=clapservice
+@copyTable
+#define: $(table)=abletonlinkservice
+@copyTable
+#define: $(table)=stemservice
+@copyTable
+
+; Services (Windows only)
+#define: $(table)=asioservice
+@copyTable
+#define: $(table)=midiservice
+@copyTable
+#define: $(table)=windowsaudio
+@copyTable
+
+; Services (macOS only)
+#define: $(table)=auservice
+@copyTable
+#define: $(table)=coreaudio
+@copyTable
+#define: $(table)=coremidi
+@copyTable
+
+; Plug-ins
+#define: $(hint_file)=instruments.mo
+#define: $(table)=instruments
+@copyTable
+
+; Extensions
+#define: $(hint_file)=soundcloud.mo
+#define: $(table)=soundcloud
+@copyTable
+#define: $(table)=soundsetbuilder
+@copyTable
+#define: $(table)=presonusstore
+@copyTable
+#define: $(table)=studioonemacros
+@copyTable
+#define: $(table)=studioonetemplates
+@copyTable
+#define: $(table)=audiobatchconverter
+@copyTable
+#define: $(table)=tunecore
+@copyTable
+#define: $(table)=stemseparation
+@copyTable
+
+print: Copying resources...
+; External Devices
+findPath: $(DevicesDir) translations /resources/devices/$(language)
+setInputDir: $(DevicesDir)/resources/devices/$(language)
+setOutputDir: ./$(TempDir)/$(LanguagePack)/resources/devices
+copyFolder
+
+print: Packaging files...
+setInputDir: ./$(TempDir)/$(LanguagePack)
+setOutputDir: ./$(OutDir)
+packageFolder-r-z: $(LanguagePack).langpack
+return: $(LanguagePack).langpack
