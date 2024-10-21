@@ -1907,7 +1907,7 @@ msgstr "添加自动通道"
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
 msgid "Add Automation Track"
-msgstr "添加自动音轨"
+msgstr "添加自动化轨道"
 
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceSlotAuxSetup"
@@ -2208,7 +2208,7 @@ msgstr "应用谱行预设"
 #: ccl/common.xml
 msgctxt "NewDocumentAssistant"
 msgid "Apply customization:"
-msgstr "实施自定义："
+msgstr "应用自定义界面："
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
@@ -2598,7 +2598,7 @@ msgstr "从视频中自动为音轨创建声音"
 #: app/options.xml
 msgctxt "AutomationOption"
 msgid "Automatically create automation tracks for channels"
-msgstr "为通道自动创建自动音轨"
+msgstr "为通道自动创建自动化轨道"
 
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
@@ -3313,7 +3313,7 @@ msgstr "轨道可见性"
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Channel icons"
-msgstr "轨道图标"
+msgstr "通道图标"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
@@ -4503,7 +4503,7 @@ msgstr "禁用"
 #: app/options.xml
 msgctxt "AutomationOption"
 msgid "Disable events under automation envelopes"
-msgstr "禁用自动包络下的事件"
+msgstr "自动化包络下的事件不可编辑"
 
 #: devices/transport.xml
 msgctxt "PerformanceMonitor.Meters"
@@ -4603,7 +4603,7 @@ msgstr "将文件拖曳至此以选择附加声音"
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "Draw events translucent (grid shines through)"
-msgstr "绘制透明事件 (透过栅格)"
+msgstr "绘制半透明事件（透过栅格）"
 
 #: ccl/common.xml
 msgctxt "NewDocumentAssistant.DropZone"
@@ -4833,7 +4833,7 @@ msgstr "编辑下一個模式"
 #: engine/inspector.xml
 msgctxt "InspectorNotesForm"
 msgid "Edit Note..."
-msgstr "编辑音符…"
+msgstr "编辑注释…"
 
 #: engine/musicdialogs.xml
 msgctxt "PitchNameEditor"
@@ -4958,7 +4958,7 @@ msgstr "启用"
 #: app/options.xml
 msgctxt "AudioEngineOption"
 msgid "Enable &apos;Layers follow events&apos; for new tracks"
-msgstr "启用 &apos;层跟随事件&apos; 为新轨道"
+msgstr "为新轨道启用&quot;层跟随时间&quot;"
 
 #: app/options.xml
 msgctxt "AudioEngineOption"
@@ -5038,12 +5038,12 @@ msgstr "启用移调"
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "Enable crosshair cursor for tools"
-msgstr "启用工具十字光标"
+msgstr "为鼠标工具启用十字光标"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Enable crosshair cursor for tools"
-msgstr "启用工具十字光标"
+msgstr "为鼠标工具启用十字光标"
 
 #: ccl/common.xml
 msgctxt "GraphicsEngineOption"
@@ -5523,17 +5523,17 @@ msgstr "填充通道"
 #: app/shared.xml
 msgctxt "FilterBar"
 msgid "Filter"
-msgstr "滤波器"
+msgstr "筛选"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Filter"
-msgstr "滤波器"
+msgstr "筛选"
 
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceOptions"
 msgid "Filter"
-msgstr "滤波器"
+msgstr "筛选"
 
 #: engine/editor.xml
 msgctxt "ScoreSetup"
@@ -6073,7 +6073,7 @@ msgstr "我保证会小心 !"
 #: devices/audiomixer.xml
 msgctxt "MixerManager"
 msgid "I/O"
-msgstr "输入/输出"
+msgstr "I/O"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
@@ -6753,12 +6753,12 @@ msgstr "保持总线通道在右侧"
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Key"
-msgstr "键"
+msgstr "调性"
 
 #: devices/transport.xml
 msgctxt "ShowTransport"
 msgid "Key"
-msgstr "键"
+msgstr "调性"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeater"
@@ -7103,7 +7103,7 @@ msgstr "链接水平和垂直缩放"
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Link expansion and visibility of folder tracks"
-msgstr " 连接拓展和可视项目夹曲目"
+msgstr "与文件夹轨道同步展开"
 
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRowExtras"
@@ -7113,7 +7113,7 @@ msgstr "连接至 DSP"
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Link visibility of Track List and Console"
-msgstr " 连接可视曲目列表和控制台"
+msgstr "控制台通道与轨道列表同步显示"
 
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.DetectionPart"
@@ -7578,7 +7578,7 @@ msgstr "母带文件状态 / 编辑歌曲"
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.DetectionPart"
 msgid "Material"
-msgstr "材质"
+msgstr "素材"
 
 #: engine/audiotransform.xml
 msgctxt "AudioTransformDialog"
@@ -7823,7 +7823,7 @@ msgstr "监听跟随录音"
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Monitoring mutes playback (Tape style)"
-msgstr "监听回放静音（磁带样式）"
+msgstr "监听时，将回放静音（磁带型风格）"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
@@ -8168,12 +8168,12 @@ msgstr "无重叠"
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "No overlap when editing events"
-msgstr " 编辑项目无重复内容"
+msgstr "禁用事件重叠"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "No overlap when editing events"
-msgstr " 编辑项目无重复内容"
+msgstr "禁用事件重叠"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
@@ -9193,7 +9193,7 @@ msgstr "提前量"
 #: app/options.xml
 msgctxt "AudioEngineOption"
 msgid "Pre-record audio input"
-msgstr "录音前音频输入"
+msgstr "为音频输入预录音"
 
 #: devices/transport.xml
 msgctxt "Metronome"
@@ -9748,12 +9748,12 @@ msgstr "录音模式"
 #: app/options.xml
 msgctxt "AudioEngineOption"
 msgid "Record Offset"
-msgstr "录音抵消"
+msgstr "录音偏移"
 
 #: app/options.xml
 msgctxt "MusicOption"
 msgid "Record Offset"
-msgstr "录音抵消"
+msgstr "录音偏移"
 
 #: app/windowclasses.xml engine/recordpanel.xml
 msgctxt "RecordPanel"
@@ -9793,7 +9793,7 @@ msgstr "重做"
 #: app/options.xml
 msgctxt "AutomationOption"
 msgid "Reduction level"
-msgstr "降低电平"
+msgstr "稀释自动化曲线"
 
 #: app/collaboration.xml
 msgctxt "CloudFolderSelector"
@@ -11248,17 +11248,17 @@ msgstr "显示事件上的和弦"
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "Show envelopes on instrument parts"
-msgstr " 在乐器部分显示音量调整包络线"
+msgstr "显示乐器片段的包络线"
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "Show event names"
-msgstr " 显示项目名称"
+msgstr "显示事件名称"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Show event names"
-msgstr " 显示项目名称"
+msgstr "显示事件名称"
 
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
@@ -11273,7 +11273,7 @@ msgstr "显示已安装的效果"
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Show instrument part envelopes"
-msgstr " 显示乐器部分音量调整包络线"
+msgstr "显示乐器片段的包络线"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
@@ -12068,7 +12068,7 @@ msgstr "强度"
 #: engine/songdialogs.xml
 msgctxt "SongPropertiesExpanded"
 msgid "Stretch audio files to tempo"
-msgstr "拉伸音频文件至节奏"
+msgstr "按速度拉伸音频"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.General"
@@ -12088,7 +12088,7 @@ msgstr "伸缩事件"
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel"
 msgid "Strip Silence"
-msgstr "消除无声"
+msgstr "剥离无声片段"
 
 #: app/notion.xml
 msgctxt "SendToNotionNoTargets"
@@ -12768,12 +12768,12 @@ msgstr "时间伸缩"
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Timing"
-msgstr "时间修整"
+msgstr "节拍"
 
 #: devices/transport.xml
 msgctxt "ShowTransport"
 msgid "Timing"
-msgstr "时间修整"
+msgstr "节拍"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
@@ -13920,7 +13920,7 @@ msgstr "X"
 
 #~ msgctxt "EditingOptionsContent"
 #~ msgid "Draw event badges"
-#~ msgstr " 进行事件标记"
+#~ msgstr "绘制事件标签"
 
 #~ msgctxt "EditingOptionsContent"
 #~ msgid "Draw smooth waveforms"
@@ -14708,11 +14708,11 @@ msgstr "X"
 
 #~ msgctxt "EditingOption"
 #~ msgid "Draw event badges"
-#~ msgstr " 进行事件标记"
+#~ msgstr "绘制事件标签"
 
 #~ msgctxt "EditingOption"
 #~ msgid "Draw events translucent (grid shines through)"
-#~ msgstr "绘制透明事件 (透过栅格)"
+#~ msgstr "绘制半透明事件（透过栅格）"
 
 #~ msgctxt "EditingOption"
 #~ msgid "Draw smooth waveforms"
@@ -14748,7 +14748,7 @@ msgstr "X"
 
 #~ msgctxt "EditingOption"
 #~ msgid "Enable crosshair cursor for tools"
-#~ msgstr "启用工具十字光标"
+#~ msgstr "为鼠标工具启用十字光标"
 
 #~ msgctxt "ConsoleOption"
 #~ msgid "Enable undo"
@@ -15008,7 +15008,7 @@ msgstr "X"
 
 #~ msgctxt "HomePage.HeaderFileTypes"
 #~ msgid "Master and Release"
-#~ msgstr " 管理和发布"
+#~ msgstr "母带制作和发布"
 
 #~ msgctxt "AudioFilePublisher"
 #~ msgid "Max. loudness"
@@ -15060,7 +15060,7 @@ msgstr "X"
 
 #~ msgctxt "EditingOption"
 #~ msgid "No overlap when editing events"
-#~ msgstr " 编辑项目无重复内容"
+#~ msgstr "禁用事件重叠"
 
 #~ msgctxt "AudioEventPropertiesList"
 #~ msgid "Normalize"
@@ -15140,7 +15140,7 @@ msgstr "X"
 
 #~ msgctxt "HomePage.HeaderFileTypes"
 #~ msgid "Record and Mix"
-#~ msgstr " 记录和混录"
+#~ msgstr "录音和混音"
 
 #~ msgctxt "HomePage.HeaderFileTypes"
 #~ msgid "Rehearse and Perform"
@@ -15264,7 +15264,7 @@ msgstr "X"
 
 #~ msgctxt "EditingOption"
 #~ msgid "Show envelopes on instrument parts"
-#~ msgstr " 在乐器部分显示音量调整包络线"
+#~ msgstr "显示乐器片段的包络线"
 
 #~ msgctxt "EditingOption"
 #~ msgid "Show event names"
@@ -16296,7 +16296,7 @@ msgstr "X"
 
 #~ msgctxt "MixerChannelButtonBlock"
 #~ msgid "Click Volume: @value[]"
-#~ msgstr "点击音量: @value[]"
+#~ msgstr "节拍器音量: @value[]"
 
 #~ msgctxt "HoldAndClip"
 #~ msgid "Clip"
@@ -17032,7 +17032,7 @@ msgstr "X"
 
 #~ msgctxt "AudioOutput.Channel.Content"
 #~ msgid "Click Volume: @value[]"
-#~ msgstr "点击音量: @value[]"
+#~ msgstr "节拍器音量: @value[]"
 
 #~ msgctxt "LicenseZone"
 #~ msgid "Details..."
