@@ -46,23 +46,13 @@ msgstr "%(1) z %(2)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
-msgstr ""
-"%(1) wymaga wielkości %(2) buforu.\n"
-"Urządzenie audio nie obsługuje tej wartości.\n"
-"Jeżeli to możliwe, zmień urządzenie audio."
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1) wymaga wielkości %(2) buforu.\nUrządzenie audio nie obsługuje tej wartości.\nJeżeli to możliwe, zmień urządzenie audio."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
-msgstr ""
-"%(1) wymaga częstotliwości %(2).\n"
-"Jeżeli to możliwe, zmień częstotliwość próbkowania.."
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1) wymaga częstotliwości %(2).\nJeżeli to możliwe, zmień częstotliwość próbkowania.."
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -861,17 +851,17 @@ msgstr "Kopiuj do schowka"
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Create Busses for All Multi-Out Instruments"
-msgstr ""
+msgstr "Utwórz szyny dla wszystkich wielowyjściowych instrumentów"
 
 #: audiosynths/audiosyntheditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Create Instrument Bus"
-msgstr ""
+msgstr "Utwórz szynę instrumentu"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Create Instrument Bus"
-msgstr ""
+msgstr "Utwórz szynę instrumentu"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
@@ -1157,7 +1147,7 @@ msgstr "Efekt"
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "Effect"
-msgstr ""
+msgstr "Efekt"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
@@ -1167,7 +1157,7 @@ msgstr "Efekty"
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "Effects"
-msgstr ""
+msgstr "Efekty"
 
 #: mixerconsole/channelclassifier.cpp
 msgctxt "Channels"
@@ -1262,7 +1252,7 @@ msgstr "Rozszerzony"
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "External Devices"
-msgstr "Urządzenia zdalne"
+msgstr "Urządzenia zewnętrzne"
 
 #: transport/transportoptions.cpp
 msgctxt "Command"
@@ -1482,7 +1472,7 @@ msgstr "Wejście"
 #: audio/audiofilter.cpp
 msgctxt "AudioFilter"
 msgid "Incomplete"
-msgstr ""
+msgstr "Niekompletne"
 
 #: audiomixer/audioiomanager.cpp
 msgctxt "AudioIOManager"
@@ -2346,7 +2336,7 @@ msgstr "Naliczanie"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Preroll"
-msgstr "Odtwarzanie przed nagrywaniem"
+msgstr "Wstępne odtwarzanie"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -2581,12 +2571,12 @@ msgstr "Usuń bieżący parametr"
 #: audiosynths/audiosyntheditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Remove Instrument Bus"
-msgstr ""
+msgstr "Usuń szynę instrumentu"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Remove Instrument Bus"
-msgstr ""
+msgstr "Usuń szynę instrumentu"
 
 #: macrocontrol/macrocontroledit.cpp
 msgctxt "ActionDescriptions"
@@ -3545,12 +3535,8 @@ msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbo
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
-msgstr ""
-"To urządzenie audio ma za mało wyjść.\n"
-"Czy chcesz kontynuować?"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "To urządzenie audio ma za mało wyjść.\nCzy chcesz kontynuować?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3610,7 +3596,7 @@ msgstr "Do zaznaczonych kanałów"
 #: transport/transportsyncmanager.cpp
 msgctxt "TransportSync"
 msgid "Toggle %(1)"
-msgstr ""
+msgstr "Przełącz %(1)"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -3865,14 +3851,8 @@ msgstr "Write"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n"
-"\n"
-"Czy chcesz je teraz ponownie podłączyć?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n\nCzy chcesz je teraz ponownie podłączyć?"
 
 #~ msgctxt "AudioIOMatrix"
 #~ msgid "External Effect"
@@ -3993,3 +3973,4 @@ msgstr ""
 #~ msgctxt "MacroControls"
 #~ msgid "Disconnect %(1) from %(2) Macro Control %(3)"
 #~ msgstr "Odłącz %(1) od kontrolki makro %(2) %(3)"
+

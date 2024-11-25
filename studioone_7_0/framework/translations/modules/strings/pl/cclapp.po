@@ -26,12 +26,8 @@ msgstr "Warunki użytkowania %(1) "
 
 #: documents/documenttemplates.cpp
 msgctxt "Documents"
-msgid ""
-"%(1) already exists.\n"
-"Do you want to replace it?"
-msgstr ""
-"%(1) już istnieje.\n"
-"Czy chcesz go zastąpić?"
+msgid "%(1) already exists.\nDo you want to replace it?"
+msgstr "%(1) już istnieje.\nCzy chcesz go zastąpić?"
 
 #: documents/documentdiagnostic.cpp
 msgctxt "DocumentDiagnostics"
@@ -400,25 +396,13 @@ msgstr "Nie można wczytać %(1)!"
 
 #: documents/documentrenamer.cpp
 msgctxt "Documents"
-msgid ""
-"Could not rename %(1)!\n"
-"\n"
-"The file is in use."
-msgstr ""
-"Nie można zmienić nazwy %(1)!\n"
-"\n"
-"Plik jest w użyciu."
+msgid "Could not rename %(1)!\n\nThe file is in use."
+msgstr "Nie można zmienić nazwy %(1)!\n\nPlik jest w użyciu."
 
 #: documents/documentrenamer.cpp
 msgctxt "Documents"
-msgid ""
-"Could not rename the folder %(1)!\n"
-"\n"
-"A file in this folder is in use."
-msgstr ""
-"Nie można zmienić nazwy folderu %(1)!\n"
-"\n"
-"Plik z tego folder jest w użyciu."
+msgid "Could not rename the folder %(1)!\n\nA file in this folder is in use."
+msgstr "Nie można zmienić nazwy folderu %(1)!\n\nPlik z tego folder jest w użyciu."
 
 #: fileinfo/filerenamer.cpp
 msgctxt "FileRenamer"
@@ -617,25 +601,13 @@ msgstr "Nie wczytuj wtyczek innych producentów"
 
 #: documents/recentdocuments.cpp
 msgctxt "Documents"
-msgid ""
-"Do you really want to clear the list of recent files?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"Czy na pewno chcesz wyczyścić listę ostatnio używanych plików?\n"
-"\n"
-"Tej operacji nie można cofnąć."
+msgid "Do you really want to clear the list of recent files?\n\nThis action can not be undone."
+msgstr "Czy na pewno chcesz wyczyścić listę ostatnio używanych plików?\n\nTej operacji nie można cofnąć."
 
 #: documents/documentmanager.cpp
 msgctxt "Documents"
-msgid ""
-"Do you really want to delete the Undo History?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"Czy na pewno chcesz wyczyścić historię?\n"
-"\n"
-"Tej operacji nie można cofnąć."
+msgid "Do you really want to delete the Undo History?\n\nThis action can not be undone."
+msgstr "Czy na pewno chcesz wyczyścić historię?\n\nTej operacji nie można cofnąć."
 
 #: options/customization.cpp
 msgctxt "Customization"
@@ -1687,14 +1659,8 @@ msgstr "Przywróć wersję"
 
 #: documents/documentversions.cpp
 msgctxt "Documents"
-msgid ""
-"Restoring version \"%(1)\".\n"
-"\n"
-"Do you want to replace the saved version \"%(2)\" with the current state, or discard the current state?"
-msgstr ""
-"Przywracanie wersji \"%(1)\".\n"
-"\n"
-"Czy chcesz zastąpić zapisaną wersję \"%(2)\" bieżącym stanem lub odrzucić zmiany?"
+msgid "Restoring version \"%(1)\".\n\nDo you want to replace the saved version \"%(2)\" with the current state, or discard the current state?"
+msgstr "Przywracanie wersji \"%(1)\".\n\nCzy chcesz zastąpić zapisaną wersję \"%(2)\" bieżącym stanem lub odrzucić zmiany?"
 
 #: browser/pluginnodes.cpp
 msgctxt "Browser"
@@ -1793,14 +1759,8 @@ msgstr "Szukaj"
 
 #: components/pathselector.cpp
 msgctxt "PathList"
-msgid ""
-"Searching the root folder of a volume might be very slow.\n"
-"\n"
-"Do you really want to add %(1)?"
-msgstr ""
-"Przeszukiwanie folderu głównego woluminu może być bardzo powolne.\n"
-"\n"
-"Czy naprawdę chcesz dodać %(1)?"
+msgid "Searching the root folder of a volume might be very slow.\n\nDo you really want to add %(1)?"
+msgstr "Przeszukiwanie folderu głównego woluminu może być bardzo powolne.\n\nCzy naprawdę chcesz dodać %(1)?"
 
 #: components/pathselector.cpp
 msgctxt "PathList"
@@ -1830,7 +1790,7 @@ msgstr "Ustaw domyślną"
 #: editing/tools/selecttool.cpp
 msgctxt "ToolHelp"
 msgid "Select Range"
-msgstr ""
+msgstr "Wybierz zakres"
 
 #: editing/tools/selecttool.cpp
 msgctxt "Tools"
@@ -1959,14 +1919,8 @@ msgstr "Personalizacja została zmieniona na %(1). Czy chcesz ją zachować?"
 
 #: fileinfo/fileoperations.cpp
 msgctxt "FileOperations"
-msgid ""
-"The file \"%(1)\" could not be moved to trash.\n"
-"\n"
-"Do you want to permanently delete it?"
-msgstr ""
-"Plik \"%(1)\" nie może zostać przeniesiony do kosza.\n"
-"\n"
-"Czy chcesz go trwale usunąć?"
+msgid "The file \"%(1)\" could not be moved to trash.\n\nDo you want to permanently delete it?"
+msgstr "Plik \"%(1)\" nie może zostać przeniesiony do kosza.\n\nCzy chcesz go trwale usunąć?"
 
 #: documents/documentmanager.cpp
 msgctxt "Documents"
@@ -1980,14 +1934,8 @@ msgstr "Ten format plików może nie zachować całej zawartości."
 
 #: documents/documentmanager.cpp
 msgctxt "Documents"
-msgid ""
-"The file has been created with an older version of $APPNAME. After saving the file you will not be able to load it in the old version again.\n"
-"\n"
-"Are you sure you want to continue?"
-msgstr ""
-"Ten plik został utworzony w starszej wersji $APPNAME. Po zapisaniu pliku nie będzie mógł go już otworzyć w starej wersji.\n"
-"\n"
-"Czy na pewno chcesz kontynuować?"
+msgid "The file has been created with an older version of $APPNAME. After saving the file you will not be able to load it in the old version again.\n\nAre you sure you want to continue?"
+msgstr "Ten plik został utworzony w starszej wersji $APPNAME. Po zapisaniu pliku nie będzie mógł go już otworzyć w starej wersji.\n\nCzy na pewno chcesz kontynuować?"
 
 #: documents/documentmanager.cpp
 msgctxt "Documents"
@@ -2046,16 +1994,8 @@ msgstr "Nie można zaimportować tego pliku:"
 
 #: documents/packagedocument.cpp
 msgctxt "Documents"
-msgid ""
-"This file is not compatible because it has been created with a newer version of $APPNAME.\n"
-"\n"
-"This version: %(1)\n"
-"Generator: %(2)"
-msgstr ""
-"Ten plik nie jest kompatybilny, ponieważ został utworzony w nowszej wersji $APPNAME.\n"
-"\n"
-"Ta wersja: %(1)\n"
-"Generator: %(2)"
+msgid "This file is not compatible because it has been created with a newer version of $APPNAME.\n\nThis version: %(1)\nGenerator: %(2)"
+msgstr "Ten plik nie jest kompatybilny, ponieważ został utworzony w nowszej wersji $APPNAME.\n\nTa wersja: %(1)\nGenerator: %(2)"
 
 #: options/filetypeselector.cpp
 msgctxt "FileType"
@@ -2470,3 +2410,4 @@ msgstr "pozostałe"
 #~ msgctxt "Application"
 #~ msgid "An instance of %(1) is already running!"
 #~ msgstr "%(1) jest już uruchomiony!"
+
