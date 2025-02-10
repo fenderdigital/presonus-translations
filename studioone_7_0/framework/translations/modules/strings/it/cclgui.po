@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "Font Bitmap"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "Annulla"
 
@@ -244,13 +244,13 @@ msgctxt "Command"
 msgid "End Skip"
 msgstr "Salta a Fine"
 
-#: keyevent.cpp
-msgctxt "VirtualKey"
+#: views/focusnavigator.cpp
+msgctxt "Command"
 msgid "Enter"
 msgstr "Invio"
 
-#: views/focusnavigator.cpp
-msgctxt "Command"
+#: keyevent.cpp
+msgctxt "VirtualKey"
 msgid "Enter"
 msgstr "Invio"
 
@@ -471,12 +471,8 @@ msgstr "File JPEG"
 
 #: dialogs/commandeditor.cpp
 msgctxt "CommandEditor"
-msgid ""
-"Key is already assigned to:\n"
-"%(1)"
-msgstr ""
-"Il tasto è già assegnato a:\n"
-"%(1)"
+msgid "Key is already assigned to:\n%(1)"
+msgstr "Il tasto è già assegnato a:\n%(1)"
 
 #: commands.cpp
 msgctxt "FileType"
@@ -658,15 +654,25 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "NumPad9"
 
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
+msgid "OK"
+msgstr "OK"
+
 #: dialogs/alert.cpp
 msgctxt "Alert"
 msgid "OK"
 msgstr "OK"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
-msgid "OK"
-msgstr "OK"
+#: system/accessibility.cpp
+msgctxt "Accessibility"
+msgid "Off"
+msgstr "Spento"
+
+#: system/accessibility.cpp
+msgctxt "Accessibility"
+msgid "On"
+msgstr "Acceso"
 
 #: keyevent.cpp
 msgctxt "VirtualKey"
@@ -771,7 +777,7 @@ msgstr "Record"
 #: system/webbrowserview.cpp
 msgctxt "WebView"
 msgid "Reload Page"
-msgstr "Ricarica la pagina"
+msgstr "Ricarica la Pagina"
 
 #: itemviews/dropbox.cpp
 msgctxt "DropBox"
@@ -926,7 +932,7 @@ msgstr "Agguingi Estendi Start"
 #: itemviews/itemview.cpp
 msgctxt "Command"
 msgid "Start Skip"
-msgstr "Inizia Salto"
+msgstr "Start Skip"
 
 #: keyevent.cpp
 msgctxt "VirtualKey"
@@ -1039,3 +1045,4 @@ msgstr "~"
 #~ msgctxt "CommandBar"
 #~ msgid "Compact"
 #~ msgstr "Compatta"
+

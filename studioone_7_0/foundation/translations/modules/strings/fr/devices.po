@@ -46,23 +46,13 @@ msgstr "%(1) sur %(2)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
-msgstr ""
-"%(1) requiert une taille de bloc de %(2).\n"
-"L'interface audio n'accepte pas cette valeur.\n"
-"Veuillez si possible sélectionner une autre interface audio."
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1) requiert une taille de bloc de %(2).\nL'interface audio n'accepte pas cette valeur.\nVeuillez si possible sélectionner une autre interface audio."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
-msgstr ""
-"%(1) requiert une fréquence d'échantillonnage de %(2).\n"
-"Veuillez si possible changer la fréquence d'échantillonnage."
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1) requiert une fréquence d'échantillonnage de %(2).\nVeuillez si possible changer la fréquence d'échantillonnage."
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -429,8 +419,8 @@ msgctxt "AudioMixer"
 msgid "Audio Destinations"
 msgstr "Destinations audio"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Audio Device"
 msgstr "Périphérique audio"
@@ -655,11 +645,6 @@ msgctxt "AudioIOSetup"
 msgid "Channel Color"
 msgstr "Couleur de canal"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Channel Components"
-msgstr "Composants de canal"
-
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Channel Count"
@@ -791,7 +776,7 @@ msgid "Connected to %(1)."
 msgstr "Connecté à %(1)."
 
 #: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
-#: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
+#: audiomixer/audiolistenbus.cpp audiomixer/audiofaderswitcher.cpp
 #: audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp
 #: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -942,6 +927,11 @@ msgstr "Désactiver les périphériques"
 msgctxt "ActionDescriptions"
 msgid "Deactivate Output of '%(1)'"
 msgstr "Désactiver la sortie de '%(1)'"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Decrement Tempo"
+msgstr "Diminuer le tempo"
 
 #: music/musicdeviceauxsetup.cpp
 msgctxt "MusicDevices"
@@ -1124,13 +1114,13 @@ msgctxt "ActionDescriptions"
 msgid "Edit Macro Transformation '%(1)'"
 msgstr "Éditer la transformation de macro '%(1)'"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/deviceactions.cpp
+msgctxt "DeviceActions"
 msgid "Edit Multiple Parameters"
 msgstr "Éditer plusieurs paramètres"
 
-#: base/deviceactions.cpp
-msgctxt "DeviceActions"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr "Éditer plusieurs paramètres"
 
@@ -1304,11 +1294,6 @@ msgctxt "VideoPlayer"
 msgid "File Not Found"
 msgstr "Fichier non trouvé"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Find Channel"
-msgstr "Trouver le canal"
-
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Flip Faders"
@@ -1415,22 +1400,12 @@ msgid "Hardware Monitoring"
 msgstr "Écoute matérielle"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Hide"
-msgstr "Masquer"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Hide Channel"
 msgstr "Masquer le canal"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
-msgid "Hide Related Channels"
-msgstr "Masquer les canaux correspondants"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Hide Related Channels"
 msgstr "Masquer les canaux correspondants"
 
@@ -1488,6 +1463,11 @@ msgstr "Incomplet"
 msgctxt "AudioIOManager"
 msgid "Incomplete"
 msgstr "Incomplet"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Increment Tempo"
+msgstr "Augmenter le tempo"
 
 #: base/devicesafety.cpp
 msgctxt "DeviceSafety"
@@ -1651,11 +1631,6 @@ msgstr "Bouton"
 msgctxt "AudioIOMatrix"
 msgid "Label"
 msgstr "Étiquette"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Large"
-msgstr "Grande"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -1853,13 +1828,13 @@ msgctxt "Command"
 msgid "Mouse-Over"
 msgstr "Passage de souris"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Move %(1)"
 msgstr "Déplacer %(1)"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Move %(1)"
 msgstr "Déplacer %(1)"
 
@@ -1927,11 +1902,6 @@ msgstr "Nom"
 msgctxt "NapState"
 msgid "Napping"
 msgstr "En sommeil"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Narrow"
-msgstr "Étroite"
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
@@ -2213,15 +2183,15 @@ msgctxt "AudioPanner"
 msgid "Pan View"
 msgstr "Vue Pan"
 
-#: audiomixer/audiosendcomponent.cpp
-msgctxt "AudioSendComponent"
-msgid "Panner"
-msgstr "Panner"
-
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Panner"
 msgstr "Panoramique"
+
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Panner"
+msgstr "Panner"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
@@ -2493,11 +2463,6 @@ msgctxt "ProcessGraph"
 msgid "Remove"
 msgstr "Retirer"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove"
-msgstr "Retirer"
-
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Remove"
@@ -2538,13 +2503,13 @@ msgctxt "SurfaceControl"
 msgid "Remove All"
 msgstr "Tout retirer"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Remove All %(1)"
 msgstr "Tout supprimer %(1)"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Remove All %(1)"
 msgstr "Tout supprimer %(1)"
 
@@ -2557,21 +2522,6 @@ msgstr "Supprimer l'automation \"%(1)\""
 msgctxt "MixerEditFunctions"
 msgid "Remove Channel"
 msgstr "Supprimer le canal"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Remove Channel"
-msgstr "Supprimer le canal"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channel"
-msgstr "Supprimer le canal"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channels"
-msgstr "Supprimer les canaux"
 
 #: base/automationhandler.cpp
 msgctxt "Command"
@@ -2647,21 +2597,6 @@ msgstr "Renommer %(1)"
 msgctxt "Channel"
 msgid "Rename Channel"
 msgstr "Renommer le canal"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Rename Channel"
-msgstr "Renommer le canal"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channel"
-msgstr "Renommer le canal"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channels"
-msgstr "Renommer le canaux"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
@@ -3094,39 +3029,9 @@ msgid "Shift Loop Backwards"
 msgstr "Décaler la boucle en arrière"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show"
-msgstr "Afficher"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Audio Device Controls"
-msgstr "Afficher les commandes de périphérique audio"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Show Channel"
 msgstr "Afficher le canal"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Editor"
-msgstr "Afficher l'éditeur de canal"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Icons"
-msgstr "Afficher les icônes de canal"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Notes"
-msgstr "Afficher les notes du canal"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Overview"
-msgstr "Afficher l'aperçu de canal"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -3143,31 +3048,6 @@ msgctxt "AudioSendSlot"
 msgid "Show Destination"
 msgstr "Afficher la destination"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Group Assignment"
-msgstr "Afficher assignation de groupe"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show I/O Connections"
-msgstr "Afficher les connexions d'E/S"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Input Controls"
-msgstr "Afficher les commandes d'entrée"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Instrument Editor"
-msgstr "Afficher l'éditeur d'instrument"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Macro Controls"
-msgstr "Afficher les macrocommandes"
-
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Show Micro Edit Controls"
@@ -3177,21 +3057,6 @@ msgstr "Afficher les commandes de micro-édition"
 msgctxt "Command"
 msgid "Show Related Channels"
 msgstr "Afficher les canaux correspondants"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Related Channels"
-msgstr "Afficher les canaux correspondants"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Routing Editor"
-msgstr "Afficher l'éditeur de routage"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Sends/Cue mix"
-msgstr "Afficher les départs/mix. de retour"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3203,16 +3068,6 @@ msgctxt "Command"
 msgid "Show Track"
 msgstr "Afficher la piste"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Track"
-msgstr "Afficher la piste"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show VCA Connections"
-msgstr "Afficher les connexions de VCA"
-
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Show in Console"
@@ -3220,11 +3075,6 @@ msgstr "Afficher dans la console"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
-msgid "Show in Console"
-msgstr "Afficher dans la console"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Show in Console"
 msgstr "Afficher dans la console"
 
@@ -3282,11 +3132,6 @@ msgstr "Hauteur de répétition - Simple"
 msgctxt "MicroEditSetup"
 msgid "Slider"
 msgstr "Curseur"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Small"
-msgstr "Petite"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3545,12 +3390,8 @@ msgstr "Le périphérique audio %(1) n'a précédemment pas bien démarré. Voul
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
-msgstr ""
-"L'interface audio n'a pas assez de sorties.\n"
-"Voulez-vous continuer?"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "L'interface audio n'a pas assez de sorties.\nVoulez-vous continuer?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3612,11 +3453,6 @@ msgctxt "TransportSync"
 msgid "Toggle %(1)"
 msgstr "Commuter %(1)"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Detached Console"
-msgstr "Commutateur de détachement de console"
-
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Toggle Editor"
@@ -3647,20 +3483,10 @@ msgctxt "Command"
 msgid "Toggle Related Channels"
 msgstr "Commuter les canaux correspondants"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Size"
-msgstr "Commuter la taille"
-
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Start"
 msgstr "Commuter le démarrage"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Width"
-msgstr "Alterner les largeurs"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -3818,11 +3644,6 @@ msgctxt "VideoPlayer"
 msgid "Video codec not supported"
 msgstr "Codec vidéo non pris en charge"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "View"
-msgstr "Affichage"
-
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Visibility only"
@@ -3838,13 +3659,13 @@ msgctxt "CueMixSlot"
 msgid "Volume"
 msgstr "Volume"
 
-#: audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Volume"
 msgstr "Volume"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "Volume"
 
@@ -3865,14 +3686,148 @@ msgstr "Écriture"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Votre configuration MIDI a changé. Cela peut être dû à des périphériques amovibles actuellement non branchés.\n"
-"\n"
-"Voulez-vous reconnecter maintenant vos périphériques externes?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Votre configuration MIDI a changé. Cela peut être dû à des périphériques amovibles actuellement non branchés.\n\nVoulez-vous reconnecter maintenant vos périphériques externes?"
+
+#~ msgctxt "Command"
+#~ msgid "Channel Components"
+#~ msgstr "Composants de canal"
+
+#~ msgctxt "Command"
+#~ msgid "Find Channel"
+#~ msgstr "Trouver le canal"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide"
+#~ msgstr "Masquer"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide Related Channels"
+#~ msgstr "Masquer les canaux correspondants"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Narrow"
+#~ msgstr "Étroite"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove"
+#~ msgstr "Retirer"
+
+#~ msgctxt "Command"
+#~ msgid "Remove Channel"
+#~ msgstr "Supprimer le canal"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channel"
+#~ msgstr "Supprimer le canal"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channels"
+#~ msgstr "Supprimer les canaux"
+
+#~ msgctxt "Command"
+#~ msgid "Rename Channel"
+#~ msgstr "Renommer le canal"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channel"
+#~ msgstr "Renommer le canal"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channels"
+#~ msgstr "Renommer le canaux"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show"
+#~ msgstr "Afficher"
+
+#~ msgctxt "Command"
+#~ msgid "Show Audio Device Controls"
+#~ msgstr "Afficher les commandes de périphérique audio"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Editor"
+#~ msgstr "Afficher l'éditeur de canal"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Icons"
+#~ msgstr "Afficher les icônes de canal"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Notes"
+#~ msgstr "Afficher les notes du canal"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Overview"
+#~ msgstr "Afficher l'aperçu de canal"
+
+#~ msgctxt "Command"
+#~ msgid "Show Group Assignment"
+#~ msgstr "Afficher assignation de groupe"
+
+#~ msgctxt "Command"
+#~ msgid "Show I/O Connections"
+#~ msgstr "Afficher les connexions d'E/S"
+
+#~ msgctxt "Command"
+#~ msgid "Show Input Controls"
+#~ msgstr "Afficher les commandes d'entrée"
+
+#~ msgctxt "Command"
+#~ msgid "Show Instrument Editor"
+#~ msgstr "Afficher l'éditeur d'instrument"
+
+#~ msgctxt "Command"
+#~ msgid "Show Macro Controls"
+#~ msgstr "Afficher les macrocommandes"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Related Channels"
+#~ msgstr "Afficher les canaux correspondants"
+
+#~ msgctxt "Command"
+#~ msgid "Show Routing Editor"
+#~ msgstr "Afficher l'éditeur de routage"
+
+#~ msgctxt "Command"
+#~ msgid "Show Sends/Cue mix"
+#~ msgstr "Afficher les départs/mix. de retour"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Track"
+#~ msgstr "Afficher la piste"
+
+#~ msgctxt "Command"
+#~ msgid "Show VCA Connections"
+#~ msgstr "Afficher les connexions de VCA"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show in Console"
+#~ msgstr "Afficher dans la console"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Small"
+#~ msgstr "Petite"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Detached Console"
+#~ msgstr "Commutateur de détachement de console"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Size"
+#~ msgstr "Commuter la taille"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Width"
+#~ msgstr "Alterner les largeurs"
+
+#~ msgctxt "Command"
+#~ msgid "View"
+#~ msgstr "Affichage"
 
 #~ msgctxt "AudioIOMatrix"
 #~ msgid "External Effect"
@@ -4101,3 +4056,4 @@ msgstr ""
 #~ msgctxt "Devices"
 #~ msgid "Reset requested by Audio Device!"
 #~ msgstr "Réinitialisation demandée par le périphérique audio!"
+

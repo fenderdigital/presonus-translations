@@ -361,8 +361,8 @@ msgstr "动态学"
 
 #: events/eventeditcomponent.cpp music/noteplayer.cpp
 #: timeedit/snaptimeprovider.cpp timeedit/signatureeditlayer.cpp
-#: timeedit/timelinecomponent.cpp timeedit/timesnapper.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "编辑"
@@ -717,13 +717,13 @@ msgctxt "MusicEdit"
 msgid "Mute"
 msgstr "静音"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
 msgid "Name"
 msgstr "名称"
 
-#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
-msgctxt "SoundVariations"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Name"
 msgstr "名称"
 
@@ -897,25 +897,20 @@ msgctxt "Command"
 msgid "Previous Hotspot"
 msgstr "上一个热点"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
-msgid "Process"
-msgstr "进程"
-
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
 msgid "Process"
 msgstr "处理"
 
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Process"
+msgstr "进程"
+
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Program Change"
 msgstr "音色改变"
-
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
-msgid "Quantize"
-msgstr "量化"
 
 #: music/lyricsdisplay.cpp
 msgctxt "LyricsDisplaySetup"
@@ -924,6 +919,11 @@ msgstr "量化"
 
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
+msgid "Quantize"
+msgstr "量化"
+
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Quantize"
 msgstr "量化"
 
@@ -937,13 +937,13 @@ msgctxt "Command"
 msgid "Quantize"
 msgstr "量化"
 
-#: timeedit/timesnapper.cpp
-msgctxt "TimeSnapper"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
 msgid "Quantize"
 msgstr "量化"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Edit"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
 msgid "Quantize"
 msgstr "量化"
 
@@ -1317,13 +1317,13 @@ msgctxt "Command"
 msgid "Swap Ruler Formats"
 msgstr "交换标尺格式"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/chordselector.cpp
+msgctxt "Notation"
 msgid "Symbol"
 msgstr "符号"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Symbol"
 msgstr "符号"
 
@@ -1520,7 +1520,7 @@ msgctxt "Command"
 msgid "View"
 msgstr "查看"
 
-#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "缩放"

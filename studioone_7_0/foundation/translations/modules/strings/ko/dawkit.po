@@ -379,7 +379,7 @@ msgctxt "AudioDiscPublisher"
 msgid "Composer"
 msgstr "작곡가"
 
-#: song/trackpresetcomponent.cpp
+#: application/song/audiobustransform.cpp song/trackpresetcomponent.cpp
 msgctxt "Command"
 msgid "Console"
 msgstr "콘솔"
@@ -524,6 +524,11 @@ msgctxt "Engine"
 msgid "Do not publish"
 msgstr "퍼블리시 하지 않음"
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Do you want to abort the Bus Channel transformation?"
+msgstr "버스채널 트랜스포메이션을 중단하시겠습니까?"
+
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
 msgid "Do you want to apply incrementing ISRC codes for all tracks?"
@@ -531,16 +536,8 @@ msgstr "모든 트랙에 인크리멘팅 ISRC 코드를 적용하시겠습니까
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
-msgid ""
-"Do you want to create a DDP image?\n"
-"\n"
-"Image: %(1)\n"
-"Location: %(2)"
-msgstr ""
-"DDP 이미지를 만드시겠습니까?\n"
-"\n"
-"이미지: %(1)\n"
-"위치: %(2)"
+msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
+msgstr "DDP 이미지를 만드시겠습니까?\n\n이미지: %(1)\n위치: %(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -649,6 +646,11 @@ msgctxt "SongSetup"
 msgid "Error: %(1) requires sample rate %(2)"
 msgstr "에러: %(1)에는 %(2) 샘플레이트가 요구됩니다"
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Errors occurred during the rendering of the Bus Channel."
+msgstr "버스채널 렌더링 도중 오류가 발생했습니다."
+
 #: score/scoreeditor.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Event"
@@ -684,13 +686,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "익스포트하는 중:"
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "오디오 파일로 익스포트에 실패했습니다."
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "오디오 파일로 익스포트에 실패했습니다."
 
@@ -718,7 +720,7 @@ msgstr "첫 번째 트랙"
 #: project/publish/audiofilepublisher.cpp
 msgctxt "AudioFilePublisher"
 msgid "Generating audio files (%(1) of %(2))"
-msgstr "오디오 파일 생성 (전체 %(2) 중의 %(2))"
+msgstr "오디오 파일 생성 (전체 %(2) 중의 %(1))"
 
 #: project/publish/imagemaker.cpp
 msgctxt "ImageMaker"
@@ -911,6 +913,11 @@ msgstr "마커 삽입"
 msgctxt "Command"
 msgid "Insert Named"
 msgstr "이름이 붙은 마커 삽입"
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Instrument '%(1)' cannot be transformed, because it is also routed to '%(2)'."
+msgstr "악기 '%(1)'(은)는 '%(2)'에도 라우팅되어 있으므로 변형될 수 없습니다."
 
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
@@ -1438,8 +1445,8 @@ msgctxt "ShowFunctions"
 msgid "Remove Setlist Item"
 msgstr "셋리스트 아이템 제거"
 
-#: project/document/projectcomponent.cpp song/songvideohandler.cpp
-#: song/songcontroller.cpp
+#: project/document/projectcomponent.cpp song/songcontroller.cpp
+#: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Remove Track"
 msgstr "트랙 제거"
@@ -1449,13 +1456,13 @@ msgctxt "ProjectFunctions"
 msgid "Remove Track"
 msgstr "트랙 제거"
 
-#: show/model/showplayer.cpp
-msgctxt "Command"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
 msgid "Rename Patch"
 msgstr "패치 이름 변경"
 
-#: show/model/showfunctions.cpp
-msgctxt "ShowFunctions"
+#: show/model/showplayer.cpp
+msgctxt "Command"
 msgid "Rename Patch"
 msgstr "패치 이름 변경"
 
@@ -1554,6 +1561,11 @@ msgctxt "ProjectEditHandler"
 msgid "Ripple Edit"
 msgstr "리플 편집"
 
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Save Patch"
+msgstr "패치 저장"
+
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Save Patch"
@@ -1561,11 +1573,6 @@ msgstr "패치 저장"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
-msgid "Save Patch"
-msgstr "패치 저장"
-
-#: show/model/showfunctions.cpp
-msgctxt "ShowFunctions"
 msgid "Save Patch"
 msgstr "패치 저장"
 
@@ -1960,8 +1967,8 @@ msgid "Setup Page"
 msgstr "페이지 설정"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/setlistcomponent.cpp show/editing/showplayerinspector.cpp
-#: show/editing/showeditcomponent.cpp show/editing/showeditmodel.cpp
+#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
+#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -2018,7 +2025,7 @@ msgctxt "StemRenderer"
 msgid "Some items will be exported in stereo because their speaker setup is not supported by the selected format."
 msgstr "선택된 포맷이 해당 스피커 설정을 지원하지 않으므로 일부 아이템은 스테레오로 익스포트됩니다."
 
-#: song/songmaster.cpp song/songvideohandler.cpp song/songcontroller.cpp
+#: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Song"
 msgstr "Song"
@@ -2105,12 +2112,8 @@ msgstr "%(1) 배속으로 DDP 이미지 쓰기 시작"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
-msgid ""
-"Start: %(1) (%(2))\n"
-"Pause: %(3)"
-msgstr ""
-"시작: %(1) (%(2))\n"
-"일시정지: %(3)"
+msgid "Start: %(1) (%(2))\nPause: %(3)"
+msgstr "시작: %(1) (%(2))\n일시정지: %(3)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2147,39 +2150,25 @@ msgctxt "Engine"
 msgid "THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
 msgstr "이 SONG에는 저작권법의 보호를 받는 소스가 포함되어 있습니다. 사용하려면 저작권자의 승인이 필요합니다."
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The Bus Channel '%(1)' cannot be transformed"
+msgstr "버스채널 '%(1)' (은)는 변형될 수 없습니다."
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The Bus Channel sources contain no audio."
+msgstr "버스채널 소스에 오디오가 포함되어 있지 않습니다."
+
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
-msgid ""
-"The EAN code is not formatted correctly.\n"
-"\n"
-"It should be 13 characters long and should only contain numeric characters.\n"
-"\n"
-"Example: 036000291452\n"
-"\n"
-"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr ""
-"EAN 코드가 올바르게 포맷되지 않았습니다.\n"
-"\n"
-"13자리 숫자만 허용됩니다.\n"
-"\n"
-"예: 036000291452\n"
-"\n"
-"UPC가 유효하다면 맨 앞자리에 0을 더하여 유효한 EAN 코드를 얻을 수 있습니다."
+msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr "EAN 코드가 올바르게 포맷되지 않았습니다.\n\n13자리 숫자만 허용됩니다.\n\n예: 036000291452\n\nUPC가 유효하다면 맨 앞자리에 0을 더하여 유효한 EAN 코드를 얻을 수 있습니다."
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
-msgid ""
-"The ISRC code is not formatted correctly.\n"
-"\n"
-"It should be 12 characters long and should only contain alphanumeric characters.\n"
-"\n"
-"Example: USPR37300012"
-msgstr ""
-"ISRC 코드가 올바르게 포맷되지 않았습니다.\n"
-"\n"
-"12자리 알파벳과 숫자만 허용됩니다.\n"
-"\n"
-"예: USPR37300012"
+msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
+msgstr "ISRC 코드가 올바르게 포맷되지 않았습니다.\n\n12자리 알파벳과 숫자만 허용됩니다.\n\n예: USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2236,6 +2225,21 @@ msgctxt "SongMaster"
 msgid "The song will be saved first.\n"
 msgstr "우선 Song이 저장됩니다.\n"
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The transformed Channel '%(1)' contains protected content."
+msgstr "변형된 채널 '%(1)'에 보호된 컨텐츠가 포함되어 있습니다."
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The transformed Channel '%(1)' has a Send outside the transformed Bus."
+msgstr "변형된 채널 '%(1)'에 변형된 버스의 외부 센드가 있습니다."
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The untransformed Channel '%(1)' has a Send to the transformed Bus."
+msgstr "변형되지 않은 채널 '%(1)'에 변형된 버스로의 센드가 있습니다."
+
 #: project/publish/imagemaker.cpp
 msgctxt "ImageMaker"
 msgid "There was an error during the image creation!"
@@ -2291,6 +2295,7 @@ msgctxt "AudioDiscPublisher"
 msgid "Total Playing Time"
 msgstr "총 재생 시간"
 
+#: application/song/audiobustransform.cpp
 #: project/editing/projecteditcomponent.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: song/songcontroller.cpp song/trackpresetcomponent.cpp
@@ -2348,6 +2353,21 @@ msgctxt "StemRenderer"
 msgid "Tracks"
 msgstr "트랙"
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Transform Channel to Rendered Audio"
+msgstr "채널을 렌더드 오디오로 변형"
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Transform to Bus Channel"
+msgstr "버스채널로 변형"
+
+#: application/song/audiobustransform.cpp
+msgctxt "Command"
+msgid "Transform to Bus Channel"
+msgstr "버스채널로 변형"
+
 #: application/project/projecttracktransformtask.cpp
 msgctxt "ProjectEdit"
 msgid "Transform to Realtime Audio"
@@ -2355,6 +2375,16 @@ msgstr "리얼타임 오디오로 변형"
 
 #: application/project/projecttracktransformtask.cpp
 msgctxt "ProjectEdit"
+msgid "Transform to Rendered Audio"
+msgstr "렌더링된 오디오로 변형"
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Transform to Rendered Audio"
+msgstr "렌더링된 오디오로 변형"
+
+#: application/song/audiobustransform.cpp
+msgctxt "Command"
 msgid "Transform to Rendered Audio"
 msgstr "렌더링된 오디오로 변형"
 
@@ -2383,6 +2413,11 @@ msgctxt "Command"
 msgid "Update Mastering Files"
 msgstr "마스터링 파일 업데이트"
 
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Update Patch"
+msgstr "패치 업데이트"
+
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Update Patch"
@@ -2390,11 +2425,6 @@ msgstr "패치 업데이트"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
-msgid "Update Patch"
-msgstr "패치 업데이트"
-
-#: show/model/showfunctions.cpp
-msgctxt "ShowFunctions"
 msgid "Update Patch"
 msgstr "패치 업데이트"
 
@@ -2410,24 +2440,8 @@ msgstr "제목 업데이트"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
-msgid ""
-"Update the mastering file of this song:\n"
-"%(6)\n"
-"Output: %(1)\n"
-"Duration: %(3)\n"
-"Resolution: %(4)\n"
-"Realtime Processing: %(5)\n"
-"Include Master Effects: %(7)\n"
-"Filename: %(2)"
-msgstr ""
-"이 Song의 마스터링 파일 업데이트:\n"
-"%(6)\n"
-"출력: %(1)\n"
-"듀레이션: %(3)\n"
-"레졸루션: %(4)\n"
-"리얼타임 프로세싱: %(5)\n"
-"마스터이펙트 포함: %(7)\n"
-"파일명: %(2)"
+msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+msgstr "이 Song의 마스터링 파일 업데이트:\n%(6)\n출력: %(1)\n듀레이션: %(3)\n레졸루션: %(4)\n리얼타임 프로세싱: %(5)\n마스터이펙트 포함: %(7)\n파일명: %(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2580,3 +2594,4 @@ msgstr "새로운 플레이어"
 #~ msgctxt "FileType"
 #~ msgid "Add Tracks from Preset"
 #~ msgstr "프리셋에서 트랙 추가"
+

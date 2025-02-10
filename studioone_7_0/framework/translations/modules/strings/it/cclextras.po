@@ -287,7 +287,7 @@ msgstr "Impossibile ripristinare da backup."
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"
 msgid "Failed to uninstall %(1)!"
-msgstr "Disinstallazione non riuscita% (1)!"
+msgstr "Disinstallazione non riuscita %(1)!"
 
 #: extensions/backupmanager.cpp
 msgctxt "BackupManager"
@@ -297,15 +297,15 @@ msgstr "Caricamento del backup non riuscito."
 #: webfs/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Failed!"
-msgstr "Non riuscito!"
-
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
-msgid "File Type"
-msgstr "Tipo File"
+msgstr "Non Riuscito!"
 
 #: packages/packagesorter.cpp
 msgctxt "PackageSorter"
+msgid "File Type"
+msgstr "Tipo File"
+
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "File Type"
 msgstr "Tipo File"
 
@@ -404,13 +404,13 @@ msgctxt "PackageManager"
 msgid "Minimal Installation"
 msgstr "Installazione Minima"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "Name"
 msgstr "Nome"
 
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Name"
 msgstr "Nome"
 
@@ -422,7 +422,7 @@ msgstr "Mai"
 #: webfs/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "New File"
-msgstr "Nuovo file"
+msgstr "Nuovo File"
 
 #: gadgets/gadgetmanager.cpp
 msgctxt "GadgetManager"
@@ -472,7 +472,7 @@ msgstr "Pausa"
 #: webfs/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Paused"
-msgstr "In pausa"
+msgstr "In Pausa"
 
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"
@@ -492,7 +492,7 @@ msgstr "Contenuto Acquistato"
 #: webfs/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Queued"
-msgstr "In coda"
+msgstr "In Coda"
 
 #: packages/packagemanager.cpp
 msgctxt "PackageManager"
@@ -582,7 +582,7 @@ msgstr "Tag"
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"
 msgid "Target directory is locked by %(1)."
-msgstr "La directory di destinazione è bloccata da% (1)."
+msgstr "La directory di destinazione è bloccata da %(1)."
 
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"
@@ -619,15 +619,15 @@ msgctxt "Extensions"
 msgid "This file does not have a valid digital signature."
 msgstr "Questo file non dispone di una firma digitale valida."
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
-msgid "Type"
-msgstr "Digita"
-
 #: packages/packagesorter.cpp
 msgctxt "PackageSorter"
 msgid "Type"
-msgstr "Digita"
+msgstr "Tipo"
+
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
+msgid "Type"
+msgstr "Tipo"
 
 #: packages/unifiedpackageaction.cpp
 msgctxt "PackageActions"
@@ -672,7 +672,7 @@ msgstr "Aggiorna Ora"
 #: packages/packagemanager.cpp
 msgctxt "PackageManager"
 msgid "Updates Available"
-msgstr "Aggiornamenti disponibili"
+msgstr "Aggiornamenti Disponibili"
 
 #: extensions/extensionmanager.cpp
 msgctxt "ExtensionManager"
@@ -692,12 +692,12 @@ msgstr "Caricamento ..."
 #: analytics/apptrackinghandler.cpp
 msgctxt "Command"
 msgid "Usage Data Settings"
-msgstr "Impostazioni dei dati di utilizzo"
+msgstr "Impostazioni dei Dati di Utilizzo"
 
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"
 msgid "User Extension"
-msgstr "Estensione utente"
+msgstr "Estensione Utente"
 
 #: extensions/backupmanager.cpp
 msgctxt "BackupManager"
@@ -895,3 +895,4 @@ msgstr "La versione è aggiornata."
 #~ msgctxt "TransferManager"
 #~ msgid "MB/sec"
 #~ msgstr "MB/sec"
+

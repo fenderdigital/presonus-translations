@@ -241,7 +241,7 @@ msgctxt "AppSafetyManager"
 msgid "Block %(1)"
 msgstr "%(1)をブロック"
 
-#: browser/filesystemnodes.cpp browser/browser.cpp
+#: browser/browser.cpp browser/filesystemnodes.cpp
 msgctxt "Command"
 msgid "Browser"
 msgstr "ブラウザー"
@@ -291,13 +291,13 @@ msgctxt "PathList"
 msgid "Clear History"
 msgstr "履歴をクリア"
 
-#: documents/recentdocuments.cpp
-msgctxt "Documents"
+#: documents/documentmanager.cpp
+msgctxt "Command"
 msgid "Clear Recent Files"
 msgstr "最近使ったファイルをクリア"
 
-#: documents/documentmanager.cpp
-msgctxt "Command"
+#: documents/recentdocuments.cpp
+msgctxt "Documents"
 msgid "Clear Recent Files"
 msgstr "最近使ったファイルをクリア"
 
@@ -1153,7 +1153,7 @@ msgctxt "FileInfo"
 msgid "Local"
 msgstr "ローカル"
 
-#: options/useroption.cpp options/mainoption.cpp
+#: options/mainoption.cpp options/useroption.cpp
 msgctxt "UserOption"
 msgid "Locations"
 msgstr "ロケーション"
@@ -1469,7 +1469,7 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr "プリセット:"
 
-#: presets/presettrader.cpp presets/presetmanager.cpp presets/presetbrowser.cpp
+#: presets/presettrader.cpp presets/presetbrowser.cpp presets/presetmanager.cpp
 #: presets/presetcomponent.cpp
 msgctxt "Command"
 msgid "Presets"

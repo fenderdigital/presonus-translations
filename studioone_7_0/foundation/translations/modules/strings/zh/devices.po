@@ -46,23 +46,13 @@ msgstr "%(1) / %(2)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
-msgstr ""
-"%(1) 要求块大小为 %(2)。\n"
-"音频设备不支持此值。\n"
-"请尽可能选择其他音频设备。"
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1) 要求块大小为 %(2)。\n音频设备不支持此值。\n请尽可能选择其他音频设备。"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
-msgstr ""
-"%(1) 需要 %(2) 的采样率。\n"
-"如果可能，请更改采样率。"
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1) 需要 %(2) 的采样率。\n如果可能，请更改采样率。"
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -429,8 +419,8 @@ msgctxt "AudioMixer"
 msgid "Audio Destinations"
 msgstr "音频通信目的端"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Audio Device"
 msgstr "音频设备 "
@@ -655,11 +645,6 @@ msgctxt "AudioIOSetup"
 msgid "Channel Color"
 msgstr "通道颜色"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Channel Components"
-msgstr "通道组件"
-
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Channel Count"
@@ -791,7 +776,7 @@ msgid "Connected to %(1)."
 msgstr "连接至%(1)。"
 
 #: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
-#: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
+#: audiomixer/audiolistenbus.cpp audiomixer/audiofaderswitcher.cpp
 #: audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp
 #: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -942,6 +927,11 @@ msgstr "停用设备"
 msgctxt "ActionDescriptions"
 msgid "Deactivate Output of '%(1)'"
 msgstr "停用 '%(1)' 的输出"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Decrement Tempo"
+msgstr "降速"
 
 #: music/musicdeviceauxsetup.cpp
 msgctxt "MusicDevices"
@@ -1124,13 +1114,13 @@ msgctxt "ActionDescriptions"
 msgid "Edit Macro Transformation '%(1)'"
 msgstr "编辑宏变换 '%(1)'"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/deviceactions.cpp
+msgctxt "DeviceActions"
 msgid "Edit Multiple Parameters"
 msgstr "编辑多个参数"
 
-#: base/deviceactions.cpp
-msgctxt "DeviceActions"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr "编辑多个参数"
 
@@ -1304,11 +1294,6 @@ msgctxt "VideoPlayer"
 msgid "File Not Found"
 msgstr "未找到文件"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Find Channel"
-msgstr "查找通道"
-
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Flip Faders"
@@ -1415,22 +1400,12 @@ msgid "Hardware Monitoring"
 msgstr "硬件监听"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Hide"
-msgstr "隐藏"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Hide Channel"
 msgstr "隐藏通道"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
-msgid "Hide Related Channels"
-msgstr "隐藏相关轨道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Hide Related Channels"
 msgstr "隐藏相关轨道"
 
@@ -1488,6 +1463,11 @@ msgstr "不完整"
 msgctxt "AudioIOManager"
 msgid "Incomplete"
 msgstr "未完成"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Increment Tempo"
+msgstr "增速"
 
 #: base/devicesafety.cpp
 msgctxt "DeviceSafety"
@@ -1651,11 +1631,6 @@ msgstr "旋钮"
 msgctxt "AudioIOMatrix"
 msgid "Label"
 msgstr "标签"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Large"
-msgstr "大"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -1853,13 +1828,13 @@ msgctxt "Command"
 msgid "Mouse-Over"
 msgstr "鼠标悬停"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Move %(1)"
 msgstr "移动 %(1)"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Move %(1)"
 msgstr "移动 %(1)"
 
@@ -1927,11 +1902,6 @@ msgstr "名称"
 msgctxt "NapState"
 msgid "Napping"
 msgstr "未处理，休眠状态"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Narrow"
-msgstr "窄"
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
@@ -2213,15 +2183,15 @@ msgctxt "AudioPanner"
 msgid "Pan View"
 msgstr "声像图"
 
-#: audiomixer/audiosendcomponent.cpp
-msgctxt "AudioSendComponent"
-msgid "Panner"
-msgstr "声像器"
-
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Panner"
 msgstr "平移器"
+
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
+msgid "Panner"
+msgstr "声像器"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
@@ -2493,11 +2463,6 @@ msgctxt "ProcessGraph"
 msgid "Remove"
 msgstr "移除"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove"
-msgstr "移除"
-
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Remove"
@@ -2538,13 +2503,13 @@ msgctxt "SurfaceControl"
 msgid "Remove All"
 msgstr "全部移除"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Remove All %(1)"
 msgstr "移除所有 %(1)"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Remove All %(1)"
 msgstr "移除所有 %(1)"
 
@@ -2557,21 +2522,6 @@ msgstr "移除自动化“%(1)”"
 msgctxt "MixerEditFunctions"
 msgid "Remove Channel"
 msgstr "移除通道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Remove Channel"
-msgstr "移除通道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channel"
-msgstr "移除通道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channels"
-msgstr "移除轨道"
 
 #: base/automationhandler.cpp
 msgctxt "Command"
@@ -2646,21 +2596,6 @@ msgstr "重命名 %(1)"
 #: mixer/channel.cpp
 msgctxt "Channel"
 msgid "Rename Channel"
-msgstr "重命名通道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Rename Channel"
-msgstr "重命名通道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channel"
-msgstr "重命名通道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channels"
 msgstr "重命名通道"
 
 #: base/devicefolder.cpp
@@ -3094,39 +3029,9 @@ msgid "Shift Loop Backwards"
 msgstr "向后移动循环"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show"
-msgstr "显示"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Audio Device Controls"
-msgstr "显示音频设备控制"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Show Channel"
 msgstr "显示通道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Editor"
-msgstr "显示通道编辑器"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Icons"
-msgstr "显示轨道标识"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Notes"
-msgstr "显示通道音符"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Overview"
-msgstr "显示轨道概览"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -3143,31 +3048,6 @@ msgctxt "AudioSendSlot"
 msgid "Show Destination"
 msgstr "显示目标"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Group Assignment"
-msgstr "显示分组"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show I/O Connections"
-msgstr "显示输入/输出连接"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Input Controls"
-msgstr "显示输入控制"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Instrument Editor"
-msgstr "显示乐器编辑器"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Macro Controls"
-msgstr "显示宏观控制"
-
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Show Micro Edit Controls"
@@ -3177,21 +3057,6 @@ msgstr "显示微观编辑控制"
 msgctxt "Command"
 msgid "Show Related Channels"
 msgstr "显示相关通道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Related Channels"
-msgstr "显示相关通道"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Routing Editor"
-msgstr " 显示路线编辑器"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Sends/Cue mix"
-msgstr "显示发送/提示混音"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3203,16 +3068,6 @@ msgctxt "Command"
 msgid "Show Track"
 msgstr "显示音轨"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Track"
-msgstr "显示音轨"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show VCA Connections"
-msgstr "显示VCA连接"
-
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Show in Console"
@@ -3220,11 +3075,6 @@ msgstr "在控制台中显示"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
-msgid "Show in Console"
-msgstr "在控制台中显示"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Show in Console"
 msgstr "在控制台中显示"
 
@@ -3282,11 +3132,6 @@ msgstr "单重复音高"
 msgctxt "MicroEditSetup"
 msgid "Slider"
 msgstr "滑动条"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Small"
-msgstr "小"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3545,12 +3390,8 @@ msgstr "音频设备%(1)启动失败。是否重试?"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
-msgstr ""
-"此音频设备没有足够的输出。\n"
-" 您是否继续？"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "此音频设备没有足够的输出。\n 您是否继续？"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3612,11 +3453,6 @@ msgctxt "TransportSync"
 msgid "Toggle %(1)"
 msgstr "切换 %(1)"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Detached Console"
-msgstr "切换分离的控制台"
-
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Toggle Editor"
@@ -3647,20 +3483,10 @@ msgctxt "Command"
 msgid "Toggle Related Channels"
 msgstr "切换相关通道"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Size"
-msgstr "切换大小"
-
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Start"
 msgstr "切换开始"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Width"
-msgstr "切换宽度"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -3818,11 +3644,6 @@ msgctxt "VideoPlayer"
 msgid "Video codec not supported"
 msgstr "不支持的视频编码"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "View"
-msgstr "查看"
-
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Visibility only"
@@ -3838,13 +3659,13 @@ msgctxt "CueMixSlot"
 msgid "Volume"
 msgstr "音量"
 
-#: audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Volume"
 msgstr "音量"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "音量"
 
@@ -3865,14 +3686,148 @@ msgstr "写入"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"MIDI配置已改变。这也许由于外部设备当前未插入。\n"
-"\n"
-"是否立即重新连接外部设备?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "MIDI配置已改变。这也许由于外部设备当前未插入。\n\n是否立即重新连接外部设备?"
+
+#~ msgctxt "Command"
+#~ msgid "Channel Components"
+#~ msgstr "通道组件"
+
+#~ msgctxt "Command"
+#~ msgid "Find Channel"
+#~ msgstr "查找通道"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide"
+#~ msgstr "隐藏"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide Related Channels"
+#~ msgstr "隐藏相关轨道"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Narrow"
+#~ msgstr "窄"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgctxt "Command"
+#~ msgid "Remove Channel"
+#~ msgstr "移除通道"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channel"
+#~ msgstr "移除通道"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channels"
+#~ msgstr "移除轨道"
+
+#~ msgctxt "Command"
+#~ msgid "Rename Channel"
+#~ msgstr "重命名通道"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channel"
+#~ msgstr "重命名通道"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channels"
+#~ msgstr "重命名通道"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show"
+#~ msgstr "显示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Audio Device Controls"
+#~ msgstr "显示音频设备控制"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Editor"
+#~ msgstr "显示通道编辑器"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Icons"
+#~ msgstr "显示轨道标识"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Notes"
+#~ msgstr "显示通道音符"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Overview"
+#~ msgstr "显示轨道概览"
+
+#~ msgctxt "Command"
+#~ msgid "Show Group Assignment"
+#~ msgstr "显示分组"
+
+#~ msgctxt "Command"
+#~ msgid "Show I/O Connections"
+#~ msgstr "显示输入/输出连接"
+
+#~ msgctxt "Command"
+#~ msgid "Show Input Controls"
+#~ msgstr "显示输入控制"
+
+#~ msgctxt "Command"
+#~ msgid "Show Instrument Editor"
+#~ msgstr "显示乐器编辑器"
+
+#~ msgctxt "Command"
+#~ msgid "Show Macro Controls"
+#~ msgstr "显示宏观控制"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Related Channels"
+#~ msgstr "显示相关通道"
+
+#~ msgctxt "Command"
+#~ msgid "Show Routing Editor"
+#~ msgstr " 显示路线编辑器"
+
+#~ msgctxt "Command"
+#~ msgid "Show Sends/Cue mix"
+#~ msgstr "显示发送/提示混音"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Track"
+#~ msgstr "显示音轨"
+
+#~ msgctxt "Command"
+#~ msgid "Show VCA Connections"
+#~ msgstr "显示VCA连接"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show in Console"
+#~ msgstr "在控制台中显示"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Detached Console"
+#~ msgstr "切换分离的控制台"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Size"
+#~ msgstr "切换大小"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Width"
+#~ msgstr "切换宽度"
+
+#~ msgctxt "Command"
+#~ msgid "View"
+#~ msgstr "查看"
 
 #~ msgctxt "AudioIOMatrix"
 #~ msgid "External Effect"
@@ -4093,3 +4048,4 @@ msgstr ""
 #~ msgctxt "Devices"
 #~ msgid "Reset requested by Audio Device!"
 #~ msgstr "按所需重置音频设备!"
+

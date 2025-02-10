@@ -187,7 +187,7 @@ msgstr "Allinea i Simboli degli Accordi"
 #: editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Align Fingerings"
-msgstr "Allinea le diteggiature"
+msgstr "Allinea le Diteggiature"
 
 #: editor/scorechangeinstrumentcomponent.cpp
 msgctxt "Notation"
@@ -359,13 +359,13 @@ msgctxt "ScoreSymbols"
 msgid "Bend string"
 msgstr "Bend Corda"
 
-#: editor/scoretextstylecomponent.cpp
-msgctxt "NotationFontStyles"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Bends"
 msgstr "Bend"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/scoretextstylecomponent.cpp
+msgctxt "NotationFontStyles"
 msgid "Bends"
 msgstr "Bend"
 
@@ -422,12 +422,12 @@ msgstr "Annulla"
 #: editor/tools/insertsymbolaction.cpp
 msgctxt "Notation"
 msgid "Change Measure Number"
-msgstr "Cambia il numero di misura"
+msgstr "Cambia il numero della misura"
 
 #: scorebase/scoreactions.cpp
 msgctxt "Notation"
 msgid "Change Show Instrument Key"
-msgstr "Change Show Instrument Key"
+msgstr "Cambia Tonalità Show Instrument"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -442,17 +442,17 @@ msgstr "Tool Accordi"
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Chord label"
-msgstr "Etichetta dell'accordo"
+msgstr "Etichetta Accordo"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Chord root"
-msgstr "Tonica dell'accordo"
+msgstr "Tonica Accordo"
 
 #: editor/scoredrumsetcomponent.cpp
 msgctxt "Notation"
 msgid "Circle-X"
-msgstr "X cerchiata"
+msgstr "X Cerchiata"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -487,17 +487,17 @@ msgstr "Coda"
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
 msgid "Concert Pitch"
-msgstr "Concert Pitch"
+msgstr "Pitch Concerto"
 
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "ScoreInstrument"
 msgid "Concert Toms"
-msgstr "Tom da concerto"
+msgstr "Tom da Concerto"
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
 msgid "Concert Tuning"
-msgstr "Concert Tuning"
+msgstr "Accordatura Concert"
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
@@ -512,7 +512,7 @@ msgstr "Vista Continua"
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Continuous instrument"
-msgstr "Strumento continuo"
+msgstr "Strumento Continuo"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
@@ -757,7 +757,7 @@ msgstr "Mordente Doppio"
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Double Sharp"
-msgstr "Doppio diesis"
+msgstr "Doppio Diesis"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -792,7 +792,7 @@ msgstr "Batteria / Piatti"
 #: editor/scorepartsetup.cpp
 msgctxt "Notation"
 msgid "Drumset"
-msgstr "Drumset"
+msgstr "Batteria"
 
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "ScoreInstrument"
@@ -908,7 +908,7 @@ msgstr "Abilita"
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Ending numbers"
-msgstr "Numeri di fine"
+msgstr "Numeri di Fine"
 
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
@@ -998,7 +998,7 @@ msgstr "Fingering (Guitar RH)"
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Fingering numbers"
-msgstr "Numeri di ditteggiatura"
+msgstr "Numeri Ditteggiatura"
 
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
@@ -1013,12 +1013,12 @@ msgstr "Flat"
 #: editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Flip Attachments"
-msgstr "Capovolgi gli allegati"
+msgstr "Capovolgi gli Allegati"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Flow directions"
-msgstr "Direzione del flusso"
+msgstr "Direzione Flusso"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -1115,7 +1115,7 @@ msgctxt "Notation"
 msgid "Grand Staff"
 msgstr "Doppio Rigo"
 
-#: editor/scorepartsetup.cpp editor/scorenoterecorder.cpp
+#: editor/scorenoterecorder.cpp editor/scorepartsetup.cpp
 msgctxt "Notation"
 msgid "Guitar"
 msgstr "Chitarra"
@@ -1133,7 +1133,7 @@ msgstr "Tecniche Chitarra"
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Guitar techniques"
-msgstr "Tecniche di chitarra"
+msgstr "Tecniche di Chitarra"
 
 #: editor/scorepartsetup.cpp
 msgctxt "Notation"
@@ -1173,7 +1173,7 @@ msgstr "Nota Minima"
 #: editor/scoredrumsetcomponent.cpp
 msgctxt "Notation"
 msgid "Half Open"
-msgstr "Half Open"
+msgstr "Mezzo Aperto"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -1193,12 +1193,12 @@ msgstr "Armonico"
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Harp Pedal Diagram"
-msgstr "Diagramma del pedale dell'arpa"
+msgstr "Diagramma Pedale dell'Arpa"
 
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
 msgid "Harp Pedal Diagram Tool"
-msgstr "Strumento per diagrammi del pedale dell'arpa"
+msgstr "Strumento per Diagrammi del pedale dell'Arpa"
 
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "Drum labels"
@@ -1238,7 +1238,7 @@ msgstr "Nascondi Tagli"
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
 msgid "Hide Shortened Tempos"
-msgstr "Nascondi tempi abbreviati"
+msgstr "Nascondi Tempi Abbreviati"
 
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "Drum labels"
@@ -1318,12 +1318,12 @@ msgstr "Inserisci Espressione"
 #: editor/tools/insertsymbolaction.cpp
 msgctxt "Notation"
 msgid "Insert Finger Number"
-msgstr "Inserisci il numero del dito"
+msgstr "Inserisci il Numero del Dito"
 
 #: editor/tools/insertsymbolaction.cpp
 msgctxt "Notation"
 msgid "Insert Flow Direction"
-msgstr "Inserisci direzione di flusso"
+msgstr "Inserisci Direzione di Flusso"
 
 #: editor/tools/insertrangeobject.cpp
 msgctxt "Notation"
@@ -1338,12 +1338,12 @@ msgstr "Inserisci Forcella"
 #: editor/scoreharptuningcomponent.cpp
 msgctxt "Notation"
 msgid "Insert Harp Pedal Diagram"
-msgstr "Inserisci il diagramma del pedale dell'arpa"
+msgstr "Inserisci il Diagramma del Pedale dell'Arpa"
 
 #: editor/scorechangeinstrumentcomponent.cpp
 msgctxt "Notation"
 msgid "Insert Instrument Change"
-msgstr "Inserire il cambio di strumento"
+msgstr "Inserire il Cambio di Strumento"
 
 #: editor/tools/insertsymbolaction.cpp
 msgctxt "Notation"
@@ -1443,12 +1443,12 @@ msgstr "Cambia Strumento"
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
 msgid "Instrument Change Tool"
-msgstr "Strumento cambia strumento"
+msgstr "Strumento Cambia Strumento"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Instrument changes"
-msgstr "Cambiamenti di strumento"
+msgstr "Cambi di Strumento"
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
@@ -1493,7 +1493,7 @@ msgstr "Strumento di Armatura di Chiave"
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "Drum labels"
 msgid "Kick"
-msgstr "Kick"
+msgstr "Cassa"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -1538,7 +1538,7 @@ msgstr "Log Drum"
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Long Fall"
-msgstr "Long Fallito"
+msgstr "Long Fall"
 
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "Drum labels"
@@ -1550,15 +1550,15 @@ msgctxt "Command"
 msgid "Lyric Tool"
 msgstr "Tool Testo"
 
-#: editor/scoretextstylecomponent.cpp
-msgctxt "NotationFontStyles"
-msgid "Lyrics"
-msgstr "Testi cantati"
-
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Lyrics"
 msgstr "Testo"
+
+#: editor/scoretextstylecomponent.cpp
+msgctxt "NotationFontStyles"
+msgid "Lyrics"
+msgstr "Testi Cantati"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
@@ -1578,7 +1578,7 @@ msgstr "Misura %(1)"
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Measure numbers"
-msgstr "Numeri delle misure"
+msgstr "Numeri Misure"
 
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "Drum labels"
@@ -1655,7 +1655,7 @@ msgctxt "ScoreSymbols"
 msgid "Neutral Clef"
 msgstr "Chiave Neutra"
 
-#: editor/scorepagelayout.cpp editor/scoredrumsetcomponent.cpp
+#: editor/scoredrumsetcomponent.cpp editor/scorepagelayout.cpp
 msgctxt "Notation"
 msgid "None"
 msgstr "Nessuno"
@@ -1683,7 +1683,7 @@ msgstr "Normale"
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Not Dotted"
-msgstr "Non puntato"
+msgstr "Non Puntato"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -1704,6 +1704,11 @@ msgstr "Simbolo testa della nota"
 msgctxt "ScoreEdit"
 msgid "Notes"
 msgstr "Note"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Numbers"
+msgstr "Numeri"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -1783,12 +1788,12 @@ msgstr "P.H."
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
 msgid "Page Number"
-msgstr "Numero pagina"
+msgstr "Numero Pagina"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Page numbers"
-msgstr "Numeri di pagina"
+msgstr "Numeri Pagina"
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
@@ -1808,12 +1813,12 @@ msgstr "Palm Mute"
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
 msgid "Part Name"
-msgstr "Nome parte"
+msgstr "Nome Parte"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Part name"
-msgstr "Nome della parte"
+msgstr "Nome Parte"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -1949,6 +1954,11 @@ msgstr "R (Sticking)"
 msgctxt "Notation"
 msgid "Record"
 msgstr "Record"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Regular"
+msgstr "Regolare"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -2154,6 +2164,11 @@ msgstr "Roll 2"
 msgctxt "Notation"
 msgid "Roll 3"
 msgstr "Roll 3"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Roman Numbers"
+msgstr "Numeri romani"
 
 #: editor/scorepartsetup.cpp
 msgctxt "Notation"
@@ -2415,22 +2430,22 @@ msgctxt "Command"
 msgid "Select Tuplet Fit 9"
 msgstr "Forza Gruppo Irregolare 9"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 1"
 msgstr "Seleziona Voce 1"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 2"
 msgstr "Seleziona Voce 2"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 3"
 msgstr "Seleziona Voce 3"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 4"
 msgstr "Seleziona Voce 4"
@@ -2462,13 +2477,18 @@ msgstr "Imposta Capo"
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
+msgid "Set Chord Display Mode"
+msgstr "Imposta la modalità di visualizzazione degli accordi"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
 msgid "Set Font Style"
-msgstr "Imposta lo stile del carattere"
+msgstr "Imposta lo stile del Font"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Set Font Style"
-msgstr "Imposta lo stile del carattere"
+msgstr "Imposta lo stile del Font"
 
 #: scorebase/scoreactions.cpp
 msgctxt "Notation"
@@ -2523,12 +2543,12 @@ msgstr "Imposta Testo di Pagina"
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
 msgid "Set Page Text Font"
-msgstr "Imposta Carattere del Testo di Pagina"
+msgstr "Imposta Font del Testo di Pagina"
 
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
 msgid "Set Page Text Font Size"
-msgstr "Imposta Dimensioni Carattere del Testo di Pagina"
+msgstr "Imposta Dimensioni Font del Testo di Pagina"
 
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
@@ -2808,12 +2828,12 @@ msgstr "Gruppo Righi"
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Staff timecode"
-msgstr "Linea temporale del rigo"
+msgstr "Linea Timecode Rigo"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Staff titles"
-msgstr "Titoli del rigo"
+msgstr "Titoli Rigo"
 
 #: editor/scorepagelayout.cpp editor/scorepartsetup.cpp
 msgctxt "Notation"
@@ -2933,7 +2953,7 @@ msgstr "T.H."
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Tab numbers"
-msgstr "Numeri delle tabulazioni"
+msgstr "Numeri Tablature"
 
 #: editor/scorepartsetup.cpp
 msgctxt "Notation"
@@ -2948,17 +2968,17 @@ msgstr "Tempo"
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
 msgid "Tempo Tool"
-msgstr "Strumento tempo"
+msgstr "Strumento Tempo"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Tempo change"
-msgstr "Cambiamento di tempo"
+msgstr "Cambio di Tempo"
 
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Tempo markings"
-msgstr "Segnatura di tempo"
+msgstr "Segnatura di Tempo"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -2975,6 +2995,11 @@ msgctxt "ScoreEdit"
 msgid "Text"
 msgstr "Testo"
 
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
+msgid "Text"
+msgstr "Testo"
+
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Text"
@@ -2982,13 +3007,8 @@ msgstr "Testo"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
-msgid "Text"
-msgstr "Testo"
-
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
 msgid "Text Box"
-msgstr "Box testo"
+msgstr "Box Testo"
 
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
@@ -3008,7 +3028,7 @@ msgstr "Legatura di Valore"
 #: editor/tools/editnoteaction.cpp
 msgctxt "Notation"
 msgid "Tie Notes"
-msgstr "Note legate"
+msgstr "Note Legate"
 
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
@@ -3158,7 +3178,7 @@ msgstr "Attiva/Disattiva Vista Pagina"
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
 msgid "Toggle Part Layout"
-msgstr "Alterna Disposizione delle parti"
+msgstr "Alterna Disposizione delle Parti"
 
 #: editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
@@ -3298,17 +3318,17 @@ msgstr "Tom 16 roll"
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
 msgid "Top Center"
-msgstr "In alto al centro"
+msgstr "In Alto al Centro"
 
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
 msgid "Top Left"
-msgstr "In alto a sinistra"
+msgstr "In Alto a Sinistra"
 
 #: editor/scorepagetextlist.cpp
 msgctxt "Notation"
 msgid "Top Right"
-msgstr "In alto a destra"
+msgstr "In Alto a Destra"
 
 #: editor/scoreeditcomponent.cpp
 msgctxt "Command"
@@ -3318,7 +3338,7 @@ msgstr "Trasporto"
 #: editor/scoreeditmodel.cpp
 msgctxt "Notation"
 msgid "Transpose Selection"
-msgstr "Trasponi selezione"
+msgstr "Trasponi Selezione"
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
@@ -3393,7 +3413,7 @@ msgstr "Triangolare"
 #: editor/scoretextstylecomponent.cpp
 msgctxt "NotationFontStyles"
 msgid "Trigger markings"
-msgstr "Segni di attivazione"
+msgstr "Segni di Attivazione"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -4069,3 +4089,4 @@ msgstr "Trasponi su"
 #~ msgctxt "ScorePasteUp"
 #~ msgid "in"
 #~ msgstr "In"
+

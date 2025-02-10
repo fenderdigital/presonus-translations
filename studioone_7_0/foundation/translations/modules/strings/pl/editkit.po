@@ -361,8 +361,8 @@ msgstr "Dynamika"
 
 #: events/eventeditcomponent.cpp music/noteplayer.cpp
 #: timeedit/snaptimeprovider.cpp timeedit/signatureeditlayer.cpp
-#: timeedit/timelinecomponent.cpp timeedit/timesnapper.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Edycja"
@@ -717,13 +717,13 @@ msgctxt "MusicEdit"
 msgid "Mute"
 msgstr "Wyciszenie"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
 msgid "Name"
 msgstr "Nazwa"
 
-#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
-msgctxt "SoundVariations"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Name"
 msgstr "Nazwa"
 
@@ -897,25 +897,20 @@ msgctxt "Command"
 msgid "Previous Hotspot"
 msgstr "Poprzedni aktywny punkt"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
-msgid "Process"
-msgstr "Użycie"
-
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
 msgid "Process"
 msgstr "Przetwarzanie"
 
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
+msgid "Process"
+msgstr "Użycie"
+
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Program Change"
 msgstr "Program Change"
-
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
-msgid "Quantize"
-msgstr "Kwantyzacja"
 
 #: music/lyricsdisplay.cpp
 msgctxt "LyricsDisplaySetup"
@@ -924,6 +919,11 @@ msgstr "Kwantyzacja"
 
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
+msgid "Quantize"
+msgstr "Kwantyzacja"
+
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Quantize"
 msgstr "Kwantyzacja"
 
@@ -937,13 +937,13 @@ msgctxt "Command"
 msgid "Quantize"
 msgstr "Kwantyzacja"
 
-#: timeedit/timesnapper.cpp
-msgctxt "TimeSnapper"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
 msgid "Quantize"
 msgstr "Kwantyzacja"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Edit"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
 msgid "Quantize"
 msgstr "Kwantyzacja"
 
@@ -1317,13 +1317,13 @@ msgctxt "Command"
 msgid "Swap Ruler Formats"
 msgstr "Zamień format linijki"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/chordselector.cpp
+msgctxt "Notation"
 msgid "Symbol"
 msgstr "Symbol"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Symbol"
 msgstr "Symbol"
 
@@ -1520,7 +1520,7 @@ msgctxt "Command"
 msgid "View"
 msgstr "Widok"
 
-#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "Powiększenie"

@@ -243,7 +243,7 @@ msgctxt "AppSafetyManager"
 msgid "Block %(1)"
 msgstr "阻止 %(1)"
 
-#: browser/filesystemnodes.cpp browser/browser.cpp
+#: browser/browser.cpp browser/filesystemnodes.cpp
 msgctxt "Command"
 msgid "Browser"
 msgstr "浏览器"
@@ -293,13 +293,13 @@ msgctxt "PathList"
 msgid "Clear History"
 msgstr "清空历史记录"
 
-#: documents/recentdocuments.cpp
-msgctxt "Documents"
+#: documents/documentmanager.cpp
+msgctxt "Command"
 msgid "Clear Recent Files"
 msgstr "清除最近使用的文件"
 
-#: documents/documentmanager.cpp
-msgctxt "Command"
+#: documents/recentdocuments.cpp
+msgctxt "Documents"
 msgid "Clear Recent Files"
 msgstr "清除最近使用的文件"
 
@@ -1158,7 +1158,7 @@ msgctxt "FileInfo"
 msgid "Local"
 msgstr "本地"
 
-#: options/useroption.cpp options/mainoption.cpp
+#: options/mainoption.cpp options/useroption.cpp
 msgctxt "UserOption"
 msgid "Locations"
 msgstr "位置"
@@ -1474,7 +1474,7 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr "预置:"
 
-#: presets/presettrader.cpp presets/presetmanager.cpp presets/presetbrowser.cpp
+#: presets/presettrader.cpp presets/presetbrowser.cpp presets/presetmanager.cpp
 #: presets/presetcomponent.cpp
 msgctxt "Command"
 msgid "Presets"

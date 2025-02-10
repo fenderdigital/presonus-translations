@@ -21,8 +21,8 @@ msgstr "$APPNAME a besoin d'accéder à votre compte $APPCOMPANY. Veuillez vous 
 
 #: subscription.xml
 msgctxt "SubscriptionStatus"
-msgid "$CLOUDNAME has been activated on this computer."
-msgstr "$CLOUDNAME a été activé sur cet ordinateur."
+msgid "$CLOUDNAME has been activated on this device."
+msgstr "$CLOUDNAME a été activé sur cet appareil."
 
 #: backup.xml
 msgctxt "BackupManager"
@@ -89,13 +89,13 @@ msgctxt "BackupManager"
 msgid "Backup will be restored next time you start $APPNAME."
 msgstr "La sauvegarde sera restaurée au prochain démarrage de $APPNAME."
 
-#: cclcommon.xml
-msgctxt "CommandEditorConflictPopup"
+#: backup.xml
+msgctxt "BackupManager"
 msgid "Cancel"
 msgstr "Annuler"
 
-#: backup.xml
-msgctxt "BackupManager"
+#: cclcommon.xml
+msgctxt "CommandEditorConflictPopup"
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -369,6 +369,10 @@ msgctxt "UserSelection"
 msgid "User Account"
 msgstr "Compte utilisateur"
 
+#~ msgctxt "SubscriptionStatus"
+#~ msgid "$CLOUDNAME has been activated on this computer."
+#~ msgstr "$CLOUDNAME a été activé sur cet ordinateur."
+
 #~ msgctxt "LoginFormInternal"
 #~ msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
 #~ msgstr "$APPNAME a besoin d'accéder à votre compte $APPCOMPANY. Veuillez vous connecter en donnant ci-dessous votre e-mail/nom d'utilisateur et votre mot de passe."
@@ -456,3 +460,4 @@ msgstr "Compte utilisateur"
 #~ msgctxt "LicenseServerLogin"
 #~ msgid "Country"
 #~ msgstr "Pays"
+

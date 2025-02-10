@@ -26,11 +26,6 @@ msgstr "Modèle de show $APPNAME"
 
 #: songdocument.cpp
 msgctxt "FileType"
-msgid "$APPNAME Song"
-msgstr "Morceau $APPNAME"
-
-#: songdocument.cpp
-msgctxt "FileType"
 msgid "$APPNAME Song Template"
 msgstr "Modèle de morceau $APPNAME"
 
@@ -139,13 +134,13 @@ msgctxt "FileType"
 msgid "Audio Files"
 msgstr "Fichiers audio"
 
-#: automationhandler.cpp
-msgctxt "Command"
+#: appoptions.cpp
+msgctxt "Options"
 msgid "Automation"
 msgstr "Automation"
 
-#: appoptions.cpp
-msgctxt "Options"
+#: automationhandler.cpp
+msgctxt "Command"
 msgid "Automation"
 msgstr "Automation"
 
@@ -184,6 +179,11 @@ msgctxt "SystemInfo"
 msgid "CPU Speed"
 msgstr "Vitesse du processeur"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Channel Components"
+msgstr "Composants de canal"
+
 #: sidebar.cpp
 msgctxt "Sidebar"
 msgid "Cloud"
@@ -199,10 +199,20 @@ msgctxt "Options"
 msgid "Console"
 msgstr "Console"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Console"
+msgstr "Console"
+
 #: sidebar.cpp
 msgctxt "Sidebar"
 msgid "Construction Kits"
 msgstr "Construction Kits"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Copy Channel Settings"
+msgstr "Copier les réglages de canal"
 
 #: studioapp.cpp
 msgctxt "Command"
@@ -369,6 +379,11 @@ msgctxt "Sidebar"
 msgid "Files"
 msgstr "Fichiers"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Find Channel"
+msgstr "Trouver le canal"
+
 #: studioapp.cpp
 msgctxt "Command"
 msgid "Find Command"
@@ -383,6 +398,16 @@ msgstr "Pour une totale compatibilité avec les hautes résolutions (high-DPI), 
 msgctxt "Command"
 msgid "Help"
 msgstr "Aide"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Hide"
+msgstr "Masquer"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Hide Related Channels"
+msgstr "Masquer les canaux correspondants"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -433,6 +458,11 @@ msgstr "Tonalité"
 msgctxt "Show"
 msgid "Knob"
 msgstr "Bouton"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Large"
+msgstr "Grande"
 
 #: launcherguicomponent.cpp
 msgctxt "Command"
@@ -529,6 +559,11 @@ msgctxt "FileType"
 msgid "Musical Files"
 msgstr "Fichiers musicaux"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Narrow"
+msgstr "Étroite"
+
 #: documenthandler.cpp
 msgctxt "Command"
 msgid "New"
@@ -614,6 +649,11 @@ msgctxt "Options"
 msgid "Open Last Song/Project/Show"
 msgstr "Ouvrir le dernier morceau/projet/show"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Paste Channel Settings"
+msgstr "Coller les réglages de canal"
+
 #: songcontesthandler.cpp
 msgctxt "Multitrack"
 msgid "Please enter your e-mail address."
@@ -654,6 +694,31 @@ msgctxt "StudioApp"
 msgid "Rehearse and Perform"
 msgstr "Répéter et jouer"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remote"
+msgstr "Télécommande"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remove"
+msgstr "Supprimer"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remove Channel"
+msgstr "Supprimer le canal"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Remove Channel"
+msgstr "Supprimer le canal"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remove Channels"
+msgstr "Supprimer les canaux"
+
 #: melodyneextension.cpp
 msgctxt "StudioApp"
 msgid "Remove Melodyne"
@@ -674,10 +739,30 @@ msgctxt "StudioApp"
 msgid "Remove VocAlign"
 msgstr "Retirer VocALign"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Rename Channel"
+msgstr "Renommer le canal"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Rename Channel"
+msgstr "Renommer le canal"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Rename Channels"
+msgstr "Renommer les canaux"
+
 #: documenthandler.cpp
 msgctxt "Command"
 msgid "Save As Template"
 msgstr "Sauvegarder comme modèle"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Screen"
+msgstr "Écran"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
@@ -709,10 +794,40 @@ msgctxt "Sidebar"
 msgid "Shop"
 msgstr "Boutique"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show"
+msgstr "Afficher"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Audio Device Controls"
+msgstr "Afficher les commandes de périphérique audio"
+
 #: automationhandler.cpp
 msgctxt "AutomationHandler"
 msgid "Show Automation"
 msgstr "Afficher l'automation"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Editor"
+msgstr "Afficher l'éditeur de canal"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Icons"
+msgstr "Afficher les icônes de canal"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Notes"
+msgstr "Afficher les notes du canal"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Overview"
+msgstr "Afficher l'aperçu de canal"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -729,10 +844,30 @@ msgctxt "Command"
 msgid "Show Files"
 msgstr "Afficher les fichiers"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Group Assignment"
+msgstr "Afficher l'assignation de groupe"
+
 #: sidebar.cpp
 msgctxt "Command"
 msgid "Show Home Page"
 msgstr "Afficher la page d'accueil"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show I/O Connections"
+msgstr "Afficher les connexions d'E/S"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Input Controls"
+msgstr "Afficher les commandes d'entrée"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Instrument Editor"
+msgstr "Afficher l'éditeur d'instrument"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -743,6 +878,11 @@ msgstr "Afficher les instruments"
 msgctxt "Command"
 msgid "Show Loops"
 msgstr "Afficher les boucles"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Macro Controls"
+msgstr "Afficher les macrocommandes"
 
 #: launcherguicomponent.cpp
 msgctxt "LauncherGui"
@@ -759,6 +899,21 @@ msgctxt "Command"
 msgid "Show Pool"
 msgstr "Afficher le chutier"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show Related Channels"
+msgstr "Afficher les canaux correspondants"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Routing Editor"
+msgstr "Afficher l'éditeur de routage"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Sends/Cue mix"
+msgstr "Afficher les départs/mix. de retour"
+
 #: sidebar.cpp
 msgctxt "Command"
 msgid "Show Shop"
@@ -769,6 +924,16 @@ msgctxt "Command"
 msgid "Show Splice"
 msgstr "Afficher Splice"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show Track"
+msgstr "Afficher la piste"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show VCA Connections"
+msgstr "Afficher les connexions de VCA"
+
 #: devicepresetrevealer.cpp
 msgctxt "DevicePresets"
 msgid "Show in Browser"
@@ -776,6 +941,11 @@ msgstr "Afficher dans le navigateur"
 
 #: devicepresetrevealer.cpp
 msgctxt "DevicePresets"
+msgid "Show in Console"
+msgstr "Afficher dans la console"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
 msgid "Show in Console"
 msgstr "Afficher dans la console"
 
@@ -798,6 +968,11 @@ msgstr "Shows"
 msgctxt "LauncherGui"
 msgid "Side-by-Side"
 msgstr "Côte à côte"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Small"
+msgstr "Petite"
 
 #: notionexportcomponent.cpp songdataimporter.cpp
 msgctxt "Command"
@@ -914,6 +1089,11 @@ msgctxt "NotionExportComponent"
 msgid "This computer"
 msgstr "Cet ordinateur"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Toggle Detached Console"
+msgstr "Commutateur de détachement de console"
+
 #: appoptions.cpp
 msgctxt "Command"
 msgid "Toggle No Overlap"
@@ -923,6 +1103,16 @@ msgstr "Commuter Sans chevauchement"
 msgctxt "Command"
 msgid "Toggle Range Tool in upper event area"
 msgstr "Commuter l'outil Plage dans la zone haute de l'événement"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Toggle Size"
+msgstr "Commuter la taille"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Toggle Width"
+msgstr "Commuter la largeur"
 
 #: appoptions.cpp
 msgctxt "Command"
@@ -970,6 +1160,7 @@ msgid "Video Player"
 msgstr "Lecteur vidéo"
 
 #: appfeatures.cpp documenthandler.cpp launcherguicomponent.cpp
+#: studiomixerconsole.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Affichage"
@@ -978,6 +1169,10 @@ msgstr "Affichage"
 msgctxt "StudioApp"
 msgid "Workspace"
 msgstr "Espace de travail"
+
+#~ msgctxt "FileType"
+#~ msgid "$APPNAME Song"
+#~ msgstr "Morceau $APPNAME"
 
 #~ msgctxt "StudioAppInstallation"
 #~ msgid "$CLOUDNAME Content"
@@ -1118,3 +1313,4 @@ msgstr "Espace de travail"
 #~ msgctxt "StudioApp"
 #~ msgid "Files are being transferred in background."
 #~ msgstr "Les fichiers seront transférés en tâche de fond."
+

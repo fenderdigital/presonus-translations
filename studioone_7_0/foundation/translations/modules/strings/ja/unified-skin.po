@@ -21,8 +21,8 @@ msgstr "$APPNAME は $APPCOMPANY アカウントにアクセスする必要が�
 
 #: subscription.xml
 msgctxt "SubscriptionStatus"
-msgid "$CLOUDNAME has been activated on this computer."
-msgstr "$CLOUDNAME はこのコンピューター上でアクティベートされています。"
+msgid "$CLOUDNAME has been activated on this device."
+msgstr "$CLOUDNAME はこのデバイス上でアクティベートされています。"
 
 #: backup.xml
 msgctxt "BackupManager"
@@ -89,13 +89,13 @@ msgctxt "BackupManager"
 msgid "Backup will be restored next time you start $APPNAME."
 msgstr "バックアップは $APPNAME の次回起動時に復元されます。"
 
-#: cclcommon.xml
-msgctxt "CommandEditorConflictPopup"
+#: backup.xml
+msgctxt "BackupManager"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: backup.xml
-msgctxt "BackupManager"
+#: cclcommon.xml
+msgctxt "CommandEditorConflictPopup"
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -368,6 +368,10 @@ msgstr "今すぐ認証を更新"
 msgctxt "UserSelection"
 msgid "User Account"
 msgstr "ユーザーアカウント"
+
+#~ msgctxt "SubscriptionStatus"
+#~ msgid "$CLOUDNAME has been activated on this computer."
+#~ msgstr "$CLOUDNAME はこのコンピューター上でアクティベートされています。"
 
 #~ msgctxt "LoginFormInternal"
 #~ msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."

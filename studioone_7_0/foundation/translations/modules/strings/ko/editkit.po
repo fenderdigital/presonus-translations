@@ -361,8 +361,8 @@ msgstr "다이나믹스"
 
 #: events/eventeditcomponent.cpp music/noteplayer.cpp
 #: timeedit/snaptimeprovider.cpp timeedit/signatureeditlayer.cpp
-#: timeedit/timelinecomponent.cpp timeedit/timesnapper.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "편집"
@@ -717,13 +717,13 @@ msgctxt "MusicEdit"
 msgid "Mute"
 msgstr "뮤트"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
 msgid "Name"
 msgstr "이름"
 
-#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
-msgctxt "SoundVariations"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Name"
 msgstr "이름"
 
@@ -897,13 +897,13 @@ msgctxt "Command"
 msgid "Previous Hotspot"
 msgstr "이전 핫스팟"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Process"
 msgstr "프로세스"
 
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Process"
 msgstr "프로세스"
 
@@ -912,11 +912,6 @@ msgctxt "SoundVariations"
 msgid "Program Change"
 msgstr "프로그램 변경"
 
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
-msgid "Quantize"
-msgstr "퀀타이즈"
-
 #: music/lyricsdisplay.cpp
 msgctxt "LyricsDisplaySetup"
 msgid "Quantize"
@@ -924,6 +919,11 @@ msgstr "퀀타이즈"
 
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
+msgid "Quantize"
+msgstr "퀀타이즈"
+
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
@@ -937,13 +937,13 @@ msgctxt "Command"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
-#: timeedit/timesnapper.cpp
-msgctxt "TimeSnapper"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Edit"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
@@ -1317,13 +1317,13 @@ msgctxt "Command"
 msgid "Swap Ruler Formats"
 msgstr "룰러 포맷 치환"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/chordselector.cpp
+msgctxt "Notation"
 msgid "Symbol"
 msgstr "기호"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Symbol"
 msgstr "기호"
 
@@ -1520,7 +1520,7 @@ msgctxt "Command"
 msgid "View"
 msgstr "보기"
 
-#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "확대/축소"

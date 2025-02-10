@@ -26,11 +26,6 @@ msgstr "$APPNAME ショーテンプレート"
 
 #: songdocument.cpp
 msgctxt "FileType"
-msgid "$APPNAME Song"
-msgstr "$APPNAME ソング"
-
-#: songdocument.cpp
-msgctxt "FileType"
 msgid "$APPNAME Song Template"
 msgstr "$APPNAME ソングテンプレート"
 
@@ -139,13 +134,13 @@ msgctxt "FileType"
 msgid "Audio Files"
 msgstr "オーディオファイル"
 
-#: automationhandler.cpp
-msgctxt "Command"
+#: appoptions.cpp
+msgctxt "Options"
 msgid "Automation"
 msgstr "オートメーション"
 
-#: appoptions.cpp
-msgctxt "Options"
+#: automationhandler.cpp
+msgctxt "Command"
 msgid "Automation"
 msgstr "オートメーション"
 
@@ -184,6 +179,11 @@ msgctxt "SystemInfo"
 msgid "CPU Speed"
 msgstr "CPU速度"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Channel Components"
+msgstr "チャンネルコンポーネント"
+
 #: sidebar.cpp
 msgctxt "Sidebar"
 msgid "Cloud"
@@ -199,10 +199,20 @@ msgctxt "Options"
 msgid "Console"
 msgstr "コンソール"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Console"
+msgstr "コンソール"
+
 #: sidebar.cpp
 msgctxt "Sidebar"
 msgid "Construction Kits"
 msgstr "コンストラクションキット"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Copy Channel Settings"
+msgstr "チャンネル設定をコピー"
 
 #: studioapp.cpp
 msgctxt "Command"
@@ -337,7 +347,7 @@ msgstr "イベントエディター"
 #: launcherguicomponent.cpp
 msgctxt "LauncherGui"
 msgid "Exclusive"
-msgstr "排他"
+msgstr "全表示"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -369,6 +379,11 @@ msgctxt "Sidebar"
 msgid "Files"
 msgstr "ファイル"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Find Channel"
+msgstr "チャンネルを検索"
+
 #: studioapp.cpp
 msgctxt "Command"
 msgid "Find Command"
@@ -383,6 +398,16 @@ msgstr "完全な高DPI互換にはプラグインがベンダーにより更新
 msgctxt "Command"
 msgid "Help"
 msgstr "ヘルプ"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Hide"
+msgstr "隠す"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Hide Related Channels"
+msgstr "関連チャンネルを隠す"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -434,10 +459,15 @@ msgctxt "Show"
 msgid "Knob"
 msgstr "ノブ"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Large"
+msgstr "大"
+
 #: launcherguicomponent.cpp
 msgctxt "Command"
 msgid "Launcher Exclusive"
-msgstr "ランチャー排他"
+msgstr "ランチャー全表示"
 
 #: launcherguicomponent.cpp
 msgctxt "LauncherGui"
@@ -529,6 +559,11 @@ msgctxt "FileType"
 msgid "Musical Files"
 msgstr "音楽ファイル"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Narrow"
+msgstr "狭"
+
 #: documenthandler.cpp
 msgctxt "Command"
 msgid "New"
@@ -614,6 +649,11 @@ msgctxt "Options"
 msgid "Open Last Song/Project/Show"
 msgstr "前回のソング/プロジェクト/ショーを開く"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Paste Channel Settings"
+msgstr "チャンネル設定をペースト"
+
 #: songcontesthandler.cpp
 msgctxt "Multitrack"
 msgid "Please enter your e-mail address."
@@ -654,6 +694,31 @@ msgctxt "StudioApp"
 msgid "Rehearse and Perform"
 msgstr "リハーサルとパフォーマンス"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remote"
+msgstr "リモート"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remove"
+msgstr "削除"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remove Channel"
+msgstr "チャンネルを削除"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Remove Channel"
+msgstr "チャンネルを削除"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remove Channels"
+msgstr "チャンネルを削除"
+
 #: melodyneextension.cpp
 msgctxt "StudioApp"
 msgid "Remove Melodyne"
@@ -674,10 +739,30 @@ msgctxt "StudioApp"
 msgid "Remove VocAlign"
 msgstr "VocALignを削除"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Rename Channel"
+msgstr "チャンネル名を変更"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Rename Channel"
+msgstr "チャンネル名を変更"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Rename Channels"
+msgstr "チャンネル名を変更"
+
 #: documenthandler.cpp
 msgctxt "Command"
 msgid "Save As Template"
 msgstr "テンプレートとして保存"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Screen"
+msgstr "画面"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
@@ -709,10 +794,40 @@ msgctxt "Sidebar"
 msgid "Shop"
 msgstr "ショップ"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show"
+msgstr "表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Audio Device Controls"
+msgstr "オーディオデバイスコントロールを表示"
+
 #: automationhandler.cpp
 msgctxt "AutomationHandler"
 msgid "Show Automation"
 msgstr "オートメーションを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Editor"
+msgstr "チャンネルエディターを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Icons"
+msgstr "チャンネルアイコンを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Notes"
+msgstr "チャンネルノートを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Overview"
+msgstr "チャンネルオーバービューを表示"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -729,10 +844,30 @@ msgctxt "Command"
 msgid "Show Files"
 msgstr "ファイルを表示"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Group Assignment"
+msgstr "グループアサインを表示"
+
 #: sidebar.cpp
 msgctxt "Command"
 msgid "Show Home Page"
 msgstr "ホームページを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show I/O Connections"
+msgstr "I/O接続を表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Input Controls"
+msgstr "入力コントロールを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Instrument Editor"
+msgstr "インストゥルメントエディターを表示"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -743,6 +878,11 @@ msgstr "インストゥルメントを表示"
 msgctxt "Command"
 msgid "Show Loops"
 msgstr "ループを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Macro Controls"
+msgstr "マクロコントロールを表示"
 
 #: launcherguicomponent.cpp
 msgctxt "LauncherGui"
@@ -759,6 +899,21 @@ msgctxt "Command"
 msgid "Show Pool"
 msgstr "プールを表示"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show Related Channels"
+msgstr "関連チャンネルを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Routing Editor"
+msgstr "ルーティングエディターを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Sends/Cue mix"
+msgstr "センド/キューミックスを表示"
+
 #: sidebar.cpp
 msgctxt "Command"
 msgid "Show Shop"
@@ -769,6 +924,16 @@ msgctxt "Command"
 msgid "Show Splice"
 msgstr "Spliceを表示"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show Track"
+msgstr "トラックを表示"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show VCA Connections"
+msgstr "VCA接続を表示"
+
 #: devicepresetrevealer.cpp
 msgctxt "DevicePresets"
 msgid "Show in Browser"
@@ -776,6 +941,11 @@ msgstr "ブラウザーに表示"
 
 #: devicepresetrevealer.cpp
 msgctxt "DevicePresets"
+msgid "Show in Console"
+msgstr "コンソールに表示"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
 msgid "Show in Console"
 msgstr "コンソールに表示"
 
@@ -798,6 +968,11 @@ msgstr "ショー"
 msgctxt "LauncherGui"
 msgid "Side-by-Side"
 msgstr "横並び"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Small"
+msgstr "小"
 
 #: notionexportcomponent.cpp songdataimporter.cpp
 msgctxt "Command"
@@ -914,6 +1089,11 @@ msgctxt "NotionExportComponent"
 msgid "This computer"
 msgstr "このコンピューター"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Toggle Detached Console"
+msgstr "独立したコンソールを切り替え"
+
 #: appoptions.cpp
 msgctxt "Command"
 msgid "Toggle No Overlap"
@@ -923,6 +1103,16 @@ msgstr "重複なしに切り替え"
 msgctxt "Command"
 msgid "Toggle Range Tool in upper event area"
 msgstr "イベントエリア上側の範囲ツールを切り替える"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Toggle Size"
+msgstr "サイズを切り替え"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Toggle Width"
+msgstr "幅を切り替え"
 
 #: appoptions.cpp
 msgctxt "Command"
@@ -970,6 +1160,7 @@ msgid "Video Player"
 msgstr "ビデオプレイヤー"
 
 #: appfeatures.cpp documenthandler.cpp launcherguicomponent.cpp
+#: studiomixerconsole.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "表示"
@@ -978,6 +1169,10 @@ msgstr "表示"
 msgctxt "StudioApp"
 msgid "Workspace"
 msgstr "ワークスペース"
+
+#~ msgctxt "FileType"
+#~ msgid "$APPNAME Song"
+#~ msgstr "$APPNAME ソング"
 
 #~ msgctxt "StudioAppInstallation"
 #~ msgid "$CLOUDNAME Content"
@@ -1118,3 +1313,4 @@ msgstr "ワークスペース"
 #~ msgctxt "StudioApp"
 #~ msgid "Files are being transferred in background."
 #~ msgstr "ファイルはバックグラウンドで転送中です。"
+

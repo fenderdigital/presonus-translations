@@ -102,7 +102,7 @@ msgstr "Assegna"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Assign Default Key Switches"
-msgstr "Assegna Key Switch di default"
+msgstr "Assegna Key Switch di Default"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -287,12 +287,12 @@ msgstr "Riduci Dati"
 #: music/soundvariationtreemodel.cpp
 msgctxt "SoundVariations"
 msgid "Default"
-msgstr "Default"
+msgstr "Predefinito"
 
 #: music/chordselector.cpp
 msgctxt "Notation"
 msgid "Default"
-msgstr "Default"
+msgstr "Predefinito"
 
 #: tempo/tempoeditcomponent.cpp
 msgctxt "Command"
@@ -361,8 +361,8 @@ msgstr "Dinamiche"
 
 #: events/eventeditcomponent.cpp music/noteplayer.cpp
 #: timeedit/snaptimeprovider.cpp timeedit/signatureeditlayer.cpp
-#: timeedit/timelinecomponent.cpp timeedit/timesnapper.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Modifica"
@@ -645,7 +645,7 @@ msgstr "Sposta Loop Range"
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Move Play Start Marker"
-msgstr "Muovi Play Start Marker"
+msgstr "Sposta Play Start Marker"
 
 #: envelopes/envelopedraghandler.cpp
 msgctxt "Envelopes"
@@ -717,13 +717,13 @@ msgctxt "MusicEdit"
 msgid "Mute"
 msgstr "Mute"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
 msgid "Name"
 msgstr "Nome"
 
-#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
-msgctxt "SoundVariations"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Name"
 msgstr "Nome"
 
@@ -735,7 +735,7 @@ msgstr "Navigazione"
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Next Base"
-msgstr "Base successiva"
+msgstr "Base Successiva"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
@@ -880,7 +880,7 @@ msgstr "Pitch"
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Previous Base"
-msgstr "Base precedente"
+msgstr "Base Precedente"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
@@ -897,13 +897,13 @@ msgctxt "Command"
 msgid "Previous Hotspot"
 msgstr "Hotspot Precedente"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Process"
 msgstr "Processa"
 
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Process"
 msgstr "Processa"
 
@@ -912,11 +912,6 @@ msgctxt "SoundVariations"
 msgid "Program Change"
 msgstr "Program Change"
 
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
-msgid "Quantize"
-msgstr "Quantizza"
-
 #: music/lyricsdisplay.cpp
 msgctxt "LyricsDisplaySetup"
 msgid "Quantize"
@@ -924,6 +919,11 @@ msgstr "Quantizza"
 
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
+msgid "Quantize"
+msgstr "Quantizza"
+
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Quantize"
 msgstr "Quantizza"
 
@@ -937,13 +937,13 @@ msgctxt "Command"
 msgid "Quantize"
 msgstr "Quantizza"
 
-#: timeedit/timesnapper.cpp
-msgctxt "TimeSnapper"
+#: timeedit/timeeditcomponent.cpp
+msgctxt "Edit"
 msgid "Quantize"
 msgstr "Quantizza"
 
-#: timeedit/timeeditcomponent.cpp
-msgctxt "Edit"
+#: timeedit/timesnapper.cpp
+msgctxt "TimeSnapper"
 msgid "Quantize"
 msgstr "Quantizza"
 
@@ -980,7 +980,7 @@ msgstr "Griglia Relativa"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Reload Map from Instrument"
-msgstr "Ricarica mappa dallo strumento"
+msgstr "Ricarica Mappa Strumento"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1095,7 +1095,7 @@ msgstr "Seleziona da Start a Evento"
 #: music/pitchscaleview.cpp
 msgctxt "PitchScale"
 msgid "Select notes of this Pitch"
-msgstr "Seleziona le note di questa altezza"
+msgstr "Seleziona le note su questo Pitch"
 
 #: quantize/quantizelength.cpp quantize/quantizegrid.cpp
 msgctxt "Quantize"
@@ -1305,7 +1305,7 @@ msgstr "Raddrizza Curva"
 #: events/eventedithandler.cpp
 msgctxt "EventFigures"
 msgid "Stretch"
-msgstr "Allunga"
+msgstr "Stretch"
 
 #: music/musicedithandler.cpp
 msgctxt "Events"
@@ -1317,13 +1317,13 @@ msgctxt "Command"
 msgid "Swap Ruler Formats"
 msgstr "Scambia i Formati del Righello"
 
-#: music/musicsymbolmapeditor.cpp
-msgctxt "ScoreSymbolMap"
+#: music/chordselector.cpp
+msgctxt "Notation"
 msgid "Symbol"
 msgstr "Simbolo"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
+#: music/musicsymbolmapeditor.cpp
+msgctxt "ScoreSymbolMap"
 msgid "Symbol"
 msgstr "Simbolo"
 
@@ -1403,7 +1403,7 @@ msgstr "Passa a Modalità Accordo"
 #: music/lyricsdisplay.cpp
 msgctxt "Command"
 msgid "Toggle Edit Mode"
-msgstr "Modalità Modifica Toggle"
+msgstr "Modifica Modalità Toggle"
 
 #: music/noteplayer.cpp
 msgctxt "Command"
@@ -1458,7 +1458,7 @@ msgstr "Terzina"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Type"
-msgstr "Digita"
+msgstr "Tipo"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
@@ -1520,7 +1520,7 @@ msgctxt "Command"
 msgid "View"
 msgstr "Vista"
 
-#: timeedit/timelinecomponent.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "Zoom"
@@ -1733,7 +1733,7 @@ msgstr "Zoom a Selezione Orizzontale"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Major Pentatonic"
-#~ msgstr "Pentatonica Maggiore"
+#~ msgstr "Maggiore Pentatonica"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Melodic Minor"
@@ -1741,7 +1741,7 @@ msgstr "Zoom a Selezione Orizzontale"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Minor Pentatonic"
-#~ msgstr "Pentatonica Minore"
+#~ msgstr "Minore Pentatonica"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Mixolydian"

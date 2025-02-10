@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "Bitmap Font"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "Vazgeç"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "Vazgeç"
 
@@ -244,13 +244,13 @@ msgctxt "Command"
 msgid "End Skip"
 msgstr "Sona Atlat"
 
-#: keyevent.cpp
-msgctxt "VirtualKey"
+#: views/focusnavigator.cpp
+msgctxt "Command"
 msgid "Enter"
 msgstr "Enter"
 
-#: views/focusnavigator.cpp
-msgctxt "Command"
+#: keyevent.cpp
+msgctxt "VirtualKey"
 msgid "Enter"
 msgstr "Enter"
 
@@ -658,15 +658,25 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "NumPad9"
 
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
+msgid "OK"
+msgstr "Tamam"
+
 #: dialogs/alert.cpp
 msgctxt "Alert"
 msgid "OK"
 msgstr "Tamam"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
-msgid "OK"
-msgstr "Tamam"
+#: system/accessibility.cpp
+msgctxt "Accessibility"
+msgid "Off"
+msgstr ""
+
+#: system/accessibility.cpp
+msgctxt "Accessibility"
+msgid "On"
+msgstr ""
 
 #: keyevent.cpp
 msgctxt "VirtualKey"

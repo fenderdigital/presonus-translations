@@ -46,17 +46,12 @@ msgstr "%(2) 中 %(1)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
 msgstr "%(1) には %(2) のブロックサイズが必要です。オーディオデバイスはこの値をサポートしていません。可能であれば別のオーディオデバイスを選択してください。"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
 msgstr "%(1) には %(2) のサンプルレートが必要です。可能であればサンプルレートを変更してください。"
 
 #: audio/audiosetup.cpp
@@ -424,8 +419,8 @@ msgctxt "AudioMixer"
 msgid "Audio Destinations"
 msgstr "オーディオ出力先"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Audio Device"
 msgstr "オーディオデバイス "
@@ -650,11 +645,6 @@ msgctxt "AudioIOSetup"
 msgid "Channel Color"
 msgstr "チャンネル色"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Channel Components"
-msgstr "チャンネルコンポーネント"
-
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Channel Count"
@@ -768,7 +758,7 @@ msgstr "設定"
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Connect \"%(1)\" to %(2) Control"
-msgstr "\"%(1)\" のインスタンスはすでに動作しています。"
+msgstr "%(1) を %(2) マクロコントロールに接続"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
@@ -786,7 +776,7 @@ msgid "Connected to %(1)."
 msgstr "%(1) に接続済みです。"
 
 #: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
-#: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
+#: audiomixer/audiolistenbus.cpp audiomixer/audiofaderswitcher.cpp
 #: audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp
 #: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -937,6 +927,11 @@ msgstr "デバイスを無効化"
 msgctxt "ActionDescriptions"
 msgid "Deactivate Output of '%(1)'"
 msgstr "'%(1)' の出力を無効化"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Decrement Tempo"
+msgstr "テンポを下げる"
 
 #: music/musicdeviceauxsetup.cpp
 msgctxt "MusicDevices"
@@ -1119,13 +1114,13 @@ msgctxt "ActionDescriptions"
 msgid "Edit Macro Transformation '%(1)'"
 msgstr "マクロ変換 '%(1)' を編集"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/deviceactions.cpp
+msgctxt "DeviceActions"
 msgid "Edit Multiple Parameters"
 msgstr "複数のパラメーターを編集"
 
-#: base/deviceactions.cpp
-msgctxt "DeviceActions"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr "複数のパラメーターを編集"
 
@@ -1299,11 +1294,6 @@ msgctxt "VideoPlayer"
 msgid "File Not Found"
 msgstr "ファイルが見つかりませんでした"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Find Channel"
-msgstr "チャンネルを検索"
-
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Flip Faders"
@@ -1410,22 +1400,12 @@ msgid "Hardware Monitoring"
 msgstr "ハードウェアモニタリング"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Hide"
-msgstr "隠す"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Hide Channel"
 msgstr "チャンネルを隠す"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
-msgid "Hide Related Channels"
-msgstr "関連チャンネルを隠す"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Hide Related Channels"
 msgstr "関連チャンネルを隠す"
 
@@ -1483,6 +1463,11 @@ msgstr "不完全"
 msgctxt "AudioIOManager"
 msgid "Incomplete"
 msgstr "未完了"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Increment Tempo"
+msgstr "テンポを上げる"
 
 #: base/devicesafety.cpp
 msgctxt "DeviceSafety"
@@ -1646,11 +1631,6 @@ msgstr "ノブ"
 msgctxt "AudioIOMatrix"
 msgid "Label"
 msgstr "ラベル"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Large"
-msgstr "大"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -1848,13 +1828,13 @@ msgctxt "Command"
 msgid "Mouse-Over"
 msgstr "マウスオーバー"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Move %(1)"
 msgstr "'%(1)' を移動"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Move %(1)"
 msgstr "'%(1)' を移動"
 
@@ -1922,11 +1902,6 @@ msgstr "名前"
 msgctxt "NapState"
 msgid "Napping"
 msgstr "スリープしています"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Narrow"
-msgstr "狭"
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
@@ -2208,13 +2183,13 @@ msgctxt "AudioPanner"
 msgid "Pan View"
 msgstr "パンビュー"
 
-#: audiomixer/audiosendcomponent.cpp
-msgctxt "AudioSendComponent"
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
 msgid "Panner"
 msgstr "パンナー"
 
-#: audiomixer/audiopanner.cpp
-msgctxt "AudioPanner"
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
 msgid "Panner"
 msgstr "パンナー"
 
@@ -2488,11 +2463,6 @@ msgctxt "ProcessGraph"
 msgid "Remove"
 msgstr "削除"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove"
-msgstr "削除"
-
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Remove"
@@ -2533,13 +2503,13 @@ msgctxt "SurfaceControl"
 msgid "Remove All"
 msgstr "すべてを削除"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Remove All %(1)"
 msgstr "すべての %(1) を削除"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Remove All %(1)"
 msgstr "すべての %(1) を削除"
 
@@ -2551,21 +2521,6 @@ msgstr "\"%(1)\" オートメーションを削除"
 #: mixer/mixereditfunctions.cpp
 msgctxt "MixerEditFunctions"
 msgid "Remove Channel"
-msgstr "チャンネルを削除"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Remove Channel"
-msgstr "チャンネルを削除"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channel"
-msgstr "チャンネルを削除"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channels"
 msgstr "チャンネルを削除"
 
 #: base/automationhandler.cpp
@@ -2641,21 +2596,6 @@ msgstr "%(1) の名前を変更"
 #: mixer/channel.cpp
 msgctxt "Channel"
 msgid "Rename Channel"
-msgstr "チャンネル名を変更"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Rename Channel"
-msgstr "チャンネル名を変更"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channel"
-msgstr "チャンネル名を変更"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channels"
 msgstr "チャンネル名を変更"
 
 #: base/devicefolder.cpp
@@ -3089,39 +3029,9 @@ msgid "Shift Loop Backwards"
 msgstr "ループを逆にシフト"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show"
-msgstr "表示"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Audio Device Controls"
-msgstr "オーディオデバイスコントロールを表示"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Show Channel"
 msgstr "チャンネルを表示"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Editor"
-msgstr "チャンネルエディターを表示"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Icons"
-msgstr "チャンネルアイコンを表示"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Notes"
-msgstr "チャンネルのノートを表示"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Overview"
-msgstr "チャンネルオーバービューを表示"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -3138,31 +3048,6 @@ msgctxt "AudioSendSlot"
 msgid "Show Destination"
 msgstr "対象を表示"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Group Assignment"
-msgstr "グループアサインを表示"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show I/O Connections"
-msgstr "I/O接続を表示"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Input Controls"
-msgstr "入力コントロールを表示"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Instrument Editor"
-msgstr "インストゥルメントエディターを表示"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Macro Controls"
-msgstr "マクロコントロールを表示"
-
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Show Micro Edit Controls"
@@ -3172,21 +3057,6 @@ msgstr "マイクロ編集コントロールを表示"
 msgctxt "Command"
 msgid "Show Related Channels"
 msgstr "関連チャンネルを表示"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Related Channels"
-msgstr "関連チャンネルを表示"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Routing Editor"
-msgstr "ルーティングエディターを表示"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Sends/Cue mix"
-msgstr "センド/キューミックスを表示"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3198,16 +3068,6 @@ msgctxt "Command"
 msgid "Show Track"
 msgstr "トラックを表示"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Track"
-msgstr "トラックを表示"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show VCA Connections"
-msgstr "VCA接続を表示"
-
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Show in Console"
@@ -3215,11 +3075,6 @@ msgstr "コンソールに表示"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
-msgid "Show in Console"
-msgstr "コンソールに表示"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Show in Console"
 msgstr "コンソールに表示"
 
@@ -3277,11 +3132,6 @@ msgstr "シングルリピートピッチ"
 msgctxt "MicroEditSetup"
 msgid "Slider"
 msgstr "スライダー"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Small"
-msgstr "小"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3540,12 +3390,8 @@ msgstr "オーディオデバイス %(1) は前回正しく起動できません
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
-msgstr ""
-"オーディオデバイスに十分な出力がありません。\n"
-"続行しますか？"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "オーディオデバイスに十分な出力がありません。\n続行しますか？"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3607,11 +3453,6 @@ msgctxt "TransportSync"
 msgid "Toggle %(1)"
 msgstr "%(1) をトグル"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Detached Console"
-msgstr "独立したコンソールを切り替え"
-
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Toggle Editor"
@@ -3642,20 +3483,10 @@ msgctxt "Command"
 msgid "Toggle Related Channels"
 msgstr "関連チャンネルを切り替え"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Size"
-msgstr "サイズを切り替え"
-
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Start"
 msgstr "スタートを切り替え"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Width"
-msgstr "幅を切り替え"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -3813,11 +3644,6 @@ msgctxt "VideoPlayer"
 msgid "Video codec not supported"
 msgstr "ビデオコーデックがサポートされていません"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "View"
-msgstr "表示"
-
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Visibility only"
@@ -3833,13 +3659,13 @@ msgctxt "CueMixSlot"
 msgid "Volume"
 msgstr "ボリューム"
 
-#: audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Volume"
 msgstr "ボリューム"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "ボリューム"
 
@@ -3860,14 +3686,148 @@ msgstr "ライト"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"MIDI構成が変更されました。現在接続されていない取り外し可能なデバイスが原因であることが考えられます。\r\n"
-"\r\n"
-"外部デバイスを再接続しますか？"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "MIDI構成が変更されました。現在接続されていない取り外し可能なデバイスが原因であることが考えられます。\r\n\r\n外部デバイスを再接続しますか？"
+
+#~ msgctxt "Command"
+#~ msgid "Channel Components"
+#~ msgstr "チャンネルコンポーネント"
+
+#~ msgctxt "Command"
+#~ msgid "Find Channel"
+#~ msgstr "チャンネルを検索"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide"
+#~ msgstr "隠す"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide Related Channels"
+#~ msgstr "関連チャンネルを隠す"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Narrow"
+#~ msgstr "狭"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove"
+#~ msgstr "削除"
+
+#~ msgctxt "Command"
+#~ msgid "Remove Channel"
+#~ msgstr "チャンネルを削除"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channel"
+#~ msgstr "チャンネルを削除"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channels"
+#~ msgstr "チャンネルを削除"
+
+#~ msgctxt "Command"
+#~ msgid "Rename Channel"
+#~ msgstr "チャンネル名を変更"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channel"
+#~ msgstr "チャンネル名を変更"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channels"
+#~ msgstr "チャンネル名を変更"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show"
+#~ msgstr "表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Audio Device Controls"
+#~ msgstr "オーディオデバイスコントロールを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Editor"
+#~ msgstr "チャンネルエディターを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Icons"
+#~ msgstr "チャンネルアイコンを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Notes"
+#~ msgstr "チャンネルのノートを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Overview"
+#~ msgstr "チャンネルオーバービューを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Group Assignment"
+#~ msgstr "グループアサインを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show I/O Connections"
+#~ msgstr "I/O接続を表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Input Controls"
+#~ msgstr "入力コントロールを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Instrument Editor"
+#~ msgstr "インストゥルメントエディターを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Macro Controls"
+#~ msgstr "マクロコントロールを表示"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Related Channels"
+#~ msgstr "関連チャンネルを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Routing Editor"
+#~ msgstr "ルーティングエディターを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show Sends/Cue mix"
+#~ msgstr "センド/キューミックスを表示"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Track"
+#~ msgstr "トラックを表示"
+
+#~ msgctxt "Command"
+#~ msgid "Show VCA Connections"
+#~ msgstr "VCA接続を表示"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show in Console"
+#~ msgstr "コンソールに表示"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Detached Console"
+#~ msgstr "独立したコンソールを切り替え"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Size"
+#~ msgstr "サイズを切り替え"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Width"
+#~ msgstr "幅を切り替え"
+
+#~ msgctxt "Command"
+#~ msgid "View"
+#~ msgstr "表示"
 
 #~ msgctxt "AudioIOMatrix"
 #~ msgid "External Effect"
@@ -4092,3 +4052,4 @@ msgstr ""
 #~ msgctxt "Devices"
 #~ msgid "Reset requested by Audio Device!"
 #~ msgstr "リセットがオーディオデバイスにより要求されました。"
+

@@ -185,7 +185,7 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Add Automation"
 msgstr "오토메이션 추가"
 
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Add Automation Lane"
 msgstr "오토메이션 레인 추가"
@@ -326,13 +326,13 @@ msgctxt "Command"
 msgid "Add Scene to Playlist"
 msgstr "플레이리스트에 씬 추가"
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Add Scratch Pad"
 msgstr "스크래치 패드 추가"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Add Scratch Pad"
 msgstr "스크래치 패드 추가"
 
@@ -568,25 +568,13 @@ msgstr "템포 승인"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid ""
-"Are you sure you want to delete all attachments of this clip?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"정말로 이 클립의 모든 어태치먼트를 삭제하시겠습니까?\n"
-"\n"
-"이 작업은 실행 취소할 수 없습니다."
+msgid "Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
+msgstr "정말로 이 클립의 모든 어태치먼트를 삭제하시겠습니까?\n\n이 작업은 실행 취소할 수 없습니다."
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid ""
-"Are you sure you want to delete all attachments of this version?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"정말로 이 버전의 모든 어태치먼트를 삭제하시겠습니까?\n"
-"\n"
-"이 작업은 실행 취소할 수 없습니다."
+msgid "Are you sure you want to delete all attachments of this version?\n\nThis action can not be undone."
+msgstr "정말로 이 버전의 모든 어태치먼트를 삭제하시겠습니까?\n\n이 작업은 실행 취소할 수 없습니다."
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -598,7 +586,7 @@ msgctxt "GlobalTrack"
 msgid "Arranger"
 msgstr "어레인저"
 
-#: editing/arrangerplaybackhandler.cpp editing/arrangereditlayer.cpp
+#: editing/arrangereditlayer.cpp editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Arranger"
 msgstr "어레인저"
@@ -678,10 +666,10 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Automation"
 msgstr "오토메이션"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
-#: musicediting/musiceditor.cpp
+#: automationediting/automationtrackcomponent.cpp
+#: musicediting/musiccontrollane.cpp musicediting/musiceditor.cpp
+#: musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Automation"
 msgstr "오토메이션"
@@ -725,6 +713,11 @@ msgstr "선택영역 바운스"
 msgctxt "AudioEdit"
 msgid "Bounce To New Track"
 msgstr "새로운 트랙에 바운스"
+
+#: application/audioedit/audiobouncetask.cpp
+msgctxt "AudioEdit"
+msgid "Bounce To New Track (Keep Speaker Format)"
+msgstr "새로운 트랙에 바운스 (스피커 포맷 유지)"
 
 #: base/model/arrangertrack.cpp
 msgctxt "ArrangerSections"
@@ -1116,7 +1109,7 @@ msgctxt "Command"
 msgid "Copy Loop Range to Scratch Pad"
 msgstr "루프 레인지를 스크래치 패드로 복사"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Copy Loop Range to new Scratch Pad"
 msgstr "루프 레인지를 스크래치 패드로 복사"
@@ -1131,7 +1124,7 @@ msgctxt "Command"
 msgid "Copy Pattern"
 msgstr "패턴 복사"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Copy to new Scratch Pad"
 msgstr "새로운 스크래치 패드로 복사"
@@ -1158,19 +1151,15 @@ msgstr " \"%(1)\" 오토메이션"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Create \"%(1)\" Automation\n"
-"on %(2)"
-msgstr ""
-"\"%(1)\" 오토메이션을 \r\n"
-"%(2)에 만들기"
+msgid "Create \"%(1)\" Automation\non %(2)"
+msgstr "\"%(1)\" 오토메이션을 \r\n%(2)에 만들기"
 
 #: musicediting/partautomationdraghandler.cpp
 msgctxt "Automation"
 msgid "Create \"%(1)\" Part Automation"
 msgstr "\"%(1)\" 파트 오토메이션"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Create Arranger Sections from Markers"
 msgstr "마커에서 어레인저 섹션 만들기"
@@ -1205,7 +1194,7 @@ msgctxt "AudioEdit"
 msgid "Create Crossfades"
 msgstr "크로스페이드"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Create Markers from Arranger Sections"
 msgstr "어레인저 섹션에서 마커 만들기"
@@ -1306,13 +1295,13 @@ msgctxt "Command"
 msgid "Delete Range"
 msgstr "레인지 삭제"
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Delete Scratch Pad"
 msgstr "스크래치 패드 삭제"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Delete Scratch Pad"
 msgstr "스크래치 패드 삭제"
 
@@ -1491,12 +1480,7 @@ msgctxt "SynthDrag"
 msgid "Do you want to replace the instrument %(1)?"
 msgstr "악기 %(1)(을)를 교체하시겠습니까?"
 
-#: editing/launcher/launchercellcomponent.cpp
-msgctxt "LauncherCell"
-msgid "Don't follow"
-msgstr "팔로우 해제"
-
-#: editing/mediatrackcontroller.cpp
+#: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
 msgid "Don't follow"
 msgstr "팔로우 해제"
@@ -1561,7 +1545,7 @@ msgctxt "MusicPatternClip"
 msgid "Drum Pattern"
 msgstr "드럼 패턴"
 
-#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Drum View"
 msgstr "드럼 보기"
@@ -1648,13 +1632,13 @@ msgctxt "LauncherFunctions"
 msgid "Duplicate Scene Playlist Items"
 msgstr "씬 플레이리스트 아이템 복제"
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Duplicate Scratch Pad"
 msgstr "스크래치 패드 복제"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Duplicate Scratch Pad"
 msgstr "스크래치 패드 복제"
 
@@ -1703,11 +1687,12 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "바리에이션 복제"
 
-#: audioediting/audiobendeditlayer.cpp editing/trackchannelnamefilter.cpp
-#: editing/trackvisibilityhandler.cpp editing/chordeditlayer.cpp
-#: editing/eventsnapper.cpp editing/launcher/launchercomponent.cpp
+#: audioediting/audiobendeditlayer.cpp editing/trackvisibilityhandler.cpp
+#: editing/chordeditlayer.cpp editing/eventsnapper.cpp
+#: editing/launcher/launchercomponent.cpp
 #: editing/launcher/launcherplaylistcomponent.cpp
-#: editing/tracklistcomponent.cpp musicediting/patterneditcomponent.cpp
+#: editing/trackchannelnamefilter.cpp editing/tracklistcomponent.cpp
+#: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "편집"
@@ -2062,12 +2047,7 @@ msgctxt "PoolBrowser"
 msgid "Flat"
 msgstr "전체"
 
-#: editing/launcher/launchercellcomponent.cpp
-msgctxt "LauncherCell"
-msgid "Follow"
-msgstr "팔로우"
-
-#: editing/mediatrackcontroller.cpp
+#: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
 msgid "Follow"
 msgstr "팔로우"
@@ -2577,15 +2557,15 @@ msgctxt "Launcher"
 msgid "Insert on Same Scene"
 msgstr "동일한 씬에 삽입"
 
-#: editing/launcher/launcherdraghandler.cpp
-msgctxt "Launcher"
-msgid "Insert on Same Track"
-msgstr "동일한 트랙에 삽입"
-
 #: editing/eventdraghandler.cpp
 msgctxt "Edit"
 msgid "Insert on Same Track"
 msgstr "같은 트랙에 삽입"
+
+#: editing/launcher/launcherdraghandler.cpp
+msgctxt "Launcher"
+msgid "Insert on Same Track"
+msgstr "동일한 트랙에 삽입"
 
 #: musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
@@ -2652,8 +2632,8 @@ msgctxt "Command"
 msgid "Launch Cells"
 msgstr "셀 시작"
 
-#: editing/launcher/launchereditmodel.cpp
 #: editing/launcher/launchercomponent.cpp
+#: editing/launcher/launchereditmodel.cpp
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Launcher"
@@ -2889,9 +2869,9 @@ msgctxt "Engine"
 msgid "Lyrics Track"
 msgstr "가사 트랙"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
+#: automationediting/automationtrackcomponent.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Manage Parameters"
 msgstr "파라미터 관리"
@@ -3063,28 +3043,20 @@ msgstr "\"%(1)\" 오토메이션 이동"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Move \"%(1)\" Automation\n"
-"from %(3) to %(2)"
-msgstr ""
-"\"%(1)\" 오토메이션을 \n"
-"%(3)에서 %(2) 로 이동"
+msgid "Move \"%(1)\" Automation\nfrom %(3) to %(2)"
+msgstr "\"%(1)\" 오토메이션을 \n%(3)에서 %(2) 로 이동"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Move \"%(1)\" Automation\n"
-"to %(2)"
-msgstr ""
-"\"%(1)\" 오토메이션을\n"
-" %(2)(으)로 이동"
+msgid "Move \"%(1)\" Automation\nto %(2)"
+msgstr "\"%(1)\" 오토메이션을\n %(2)(으)로 이동"
 
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
 msgid "Move '%(1)' to '%(2)'"
 msgstr "'%(1)'에서 '%(2)'(으)로 이동"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Move Arranger Section only"
 msgstr "어레인저 섹션만 이동"
@@ -3214,7 +3186,7 @@ msgctxt "TrackDragHandler"
 msgid "Move not possible"
 msgstr "이동불가"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Move to new Scratch Pad"
 msgstr "새로운 스크래치 패드로 이동"
@@ -3274,8 +3246,8 @@ msgctxt "MediaTrack"
 msgid "Narrow"
 msgstr "좁음"
 
-#: application/eventedit/chordinspectoraddin.cpp
-#: editing/launcher/launchercomponent.cpp editing/eventeditmodel.cpp
+#: application/eventedit/chordinspectoraddin.cpp editing/eventeditmodel.cpp
+#: editing/launcher/launchercomponent.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "내비게이션"
@@ -3420,13 +3392,13 @@ msgctxt "Command"
 msgid "Note Erase"
 msgstr "노트 지우기"
 
-#: editing/launcher/launchercomponent.cpp
-msgctxt "Command"
+#: editing/eventeditmodel.cpp
+msgctxt "Events"
 msgid "Nudge"
 msgstr "넛지"
 
-#: editing/eventeditmodel.cpp
-msgctxt "Events"
+#: editing/launcher/launchercomponent.cpp
+msgctxt "Command"
 msgid "Nudge"
 msgstr "넛지"
 
@@ -3565,8 +3537,8 @@ msgctxt "PoolBrowser"
 msgid "Path"
 msgstr "경로"
 
-#: musicediting/patternbankcomponent.cpp musicediting/patterneditcomponent.cpp
-#: musicediting/musiceditextension.cpp
+#: musicediting/musiceditextension.cpp musicediting/patternbankcomponent.cpp
+#: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Pattern"
 msgstr "패턴"
@@ -3586,7 +3558,7 @@ msgctxt "AudioScale"
 msgid "Percent"
 msgstr "퍼센트"
 
-#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Piano View"
 msgstr "피아노 보기"
@@ -3701,11 +3673,6 @@ msgctxt "AudioEdit"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
-#: editing/lyricstrackcomponent.cpp
-msgctxt "Command"
-msgid "Quantize"
-msgstr "퀀타이즈"
-
 #: editing/quantizepanel.h
 msgctxt "EditAddIn"
 msgid "Quantize"
@@ -3713,6 +3680,11 @@ msgstr "퀀타이즈"
 
 #: editing/eventeditmodel.cpp
 msgctxt "Events"
+msgid "Quantize"
+msgstr "퀀타이즈"
+
+#: editing/lyricstrackcomponent.cpp
+msgctxt "Command"
 msgid "Quantize"
 msgstr "퀀타이즈"
 
@@ -3916,8 +3888,8 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Reduce Automation"
 msgstr "오토메이션 낮추기"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
+#: automationediting/automationtrackcomponent.cpp
 msgctxt "Command"
 msgid "Remove"
 msgstr "제거"
@@ -3972,7 +3944,7 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Remove Automation"
 msgstr "오토메이션 제거"
 
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Remove Automation Lane"
 msgstr "오토메이션 레인 제거"
@@ -4217,13 +4189,13 @@ msgctxt "LauncherFunctions"
 msgid "Rename Scene Playlist"
 msgstr "씬 플레이리스트 이름바꾸기"
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Rename Scratch Pad"
 msgstr "스크래치 패드 이름 변경"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Rename Scratch Pad"
 msgstr "스크래치 패드 이름 변경"
 
@@ -4287,13 +4259,13 @@ msgctxt "EventEditHandler"
 msgid "Repeats: %(1)"
 msgstr "반복: %(1)"
 
-#: editing/launcher/launcherplaylistcomponent.cpp
-msgctxt "LauncherPlaylist"
+#: base/model/arrangerfunctions.cpp
+msgctxt "Edit"
 msgid "Replace"
 msgstr "교체"
 
-#: editing/arrangerfunctions.cpp
-msgctxt "Edit"
+#: editing/launcher/launcherplaylistcomponent.cpp
+msgctxt "LauncherPlaylist"
 msgid "Replace"
 msgstr "교체"
 
@@ -4312,7 +4284,7 @@ msgctxt "AudioFX"
 msgid "Replace FX preset on %(1):"
 msgstr "%(1)의 FX 프리셋 교체:"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Replace Partially"
 msgstr "부분 교체"
@@ -4782,8 +4754,8 @@ msgctxt "Engine:AudioEnvelopeActions"
 msgid "Show %(1) Envelope"
 msgstr "%(1) 엔벨롭 표시"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
+#: automationediting/automationtrackcomponent.cpp
 msgctxt "Command"
 msgid "Show / Hide"
 msgstr "표시/숨기기"
@@ -4858,8 +4830,8 @@ msgctxt "DrumPitchNameSetup"
 msgid "Show Default"
 msgstr "기본값 표시"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
+#: automationediting/automationtrackcomponent.cpp
 msgctxt "Command"
 msgid "Show Device"
 msgstr "장치 표시"
@@ -5125,7 +5097,7 @@ msgctxt "ScratchPad"
 msgid "Song"
 msgstr "Song"
 
-#: musicediting/musictracksoundvariation.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Sound Variation"
 msgstr "사운드 바리에이션"
@@ -5335,13 +5307,13 @@ msgctxt "AudioEditHandler"
 msgid "Tempo: %(1)  Length: %(2)"
 msgstr "템포: %(1)  길이: %(2)"
 
-#: audio/recorddiskspaceobserver.cpp
-msgctxt "RecordDiskSpaceObserver"
+#: audio/audiotrackrecorder.cpp
+msgctxt "Record"
 msgid "The drive used for recording is full."
 msgstr "레코딩에 사용된 드라이브에 빈 공간이 없습니다."
 
-#: audio/audiotrackrecorder.cpp
-msgctxt "Record"
+#: audio/recorddiskspaceobserver.cpp
+msgctxt "RecordDiskSpaceObserver"
 msgid "The drive used for recording is full."
 msgstr "레코딩에 사용된 드라이브에 빈 공간이 없습니다."
 
@@ -5352,16 +5324,8 @@ msgstr "이 파일의 포맷은 지원되지 않습니다."
 
 #: base/rootsetup.cpp
 msgctxt "RootSetup"
-msgid ""
-"The sample rate does not match your audio device configuration.\n"
-"\n"
-"The rate you set: %(1)\n"
-"The rate the device has: %(2)"
-msgstr ""
-"샘플레이트가 오디오 장치 설정과 일치하지 않습니다.\n"
-"\n"
-"설정한 샘플레이트: %(1)\n"
-"오디오 장치 샘플레이트: %(2)"
+msgid "The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
+msgstr "샘플레이트가 오디오 장치 설정과 일치하지 않습니다.\n\n설정한 샘플레이트: %(1)\n오디오 장치 샘플레이트: %(2)"
 
 #: music/musictrackinfo.cpp
 msgctxt "Engine"
@@ -5405,19 +5369,10 @@ msgstr "이 파일을 임포트할 수 없습니다:"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
-msgid ""
-"This will delete notes or automation data.\n"
-"Do you want to continue?"
-msgstr ""
-"노트나 오토메이션 데이터가 삭제됩니다.\n"
-"계속하시겠습니까?"
+msgid "This will delete notes or automation data.\nDo you want to continue?"
+msgstr "노트나 오토메이션 데이터가 삭제됩니다.\n계속하시겠습니까?"
 
-#: editing/launcher/launchercellcomponent.cpp
-msgctxt "LauncherCell"
-msgid "Timestretch"
-msgstr "타임스트레치"
-
-#: editing/mediatrackcontroller.cpp
+#: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
 msgid "Timestretch"
 msgstr "타임스트레치"
@@ -5515,16 +5470,16 @@ msgstr "터치"
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
 #: audioediting/foldertrackaudiobus.cpp editing/editgroupscomponent.cpp
-#: editing/layereditlayer.cpp editing/takelist.cpp
-#: editing/mediatrackcontroller.cpp editing/monitorfollower.cpp
+#: editing/layereditlayer.cpp editing/monitorfollower.cpp editing/takelist.cpp
 #: editing/trackcontroller.cpp editing/tracklayercomponent.cpp
-#: editing/tracklistcomponent.cpp musicediting/musiceditor.cpp
+#: editing/tracklistcomponent.cpp editing/mediatrackcontroller.cpp
+#: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "트랙"
 
-#: base/model/rootevent.cpp editing/tracklistinspector.cpp
-#: editing/tracklisteditmodel.cpp
+#: base/model/rootevent.cpp editing/tracklisteditmodel.cpp
+#: editing/tracklistinspector.cpp
 msgctxt "Engine"
 msgid "Track"
 msgstr "트랙"
@@ -5598,6 +5553,11 @@ msgstr "렌더링된 오디오로 변형"
 msgctxt "Command"
 msgid "Transform to Rendered Audio"
 msgstr "렌더링된 오디오로 변형"
+
+#: editing/mediatrackcontroller.cpp
+msgctxt "MediaTrack"
+msgid "Transformed Track"
+msgstr "변형된 트랙"
 
 #: editing/rangeplayer.cpp
 msgctxt "Command"
@@ -5829,13 +5789,13 @@ msgctxt "EditAddIn"
 msgid "Variations"
 msgstr "바리에이션"
 
-#: musicediting/patterncontrollane.cpp
-msgctxt "MusicPatternPartEditor"
+#: musicediting/musiccontrollane.cpp
+msgctxt "Automation"
 msgid "Velocity"
 msgstr "벨로시티"
 
-#: musicediting/musiccontrollane.cpp
-msgctxt "Automation"
+#: musicediting/patterncontrollane.cpp
+msgctxt "MusicPatternPartEditor"
 msgid "Velocity"
 msgstr "벨로시티"
 
@@ -5864,9 +5824,9 @@ msgctxt "Command"
 msgid "Video"
 msgstr "비디오"
 
-#: editing/chordeditlayer.cpp editing/arrangereditlayer.cpp
+#: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
 #: editing/trackeditor.cpp editing/tracklistcomponent.cpp
-#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "보기"
@@ -5946,6 +5906,18 @@ msgctxt "PoolNodes"
 msgid "used %(1) times"
 msgstr "%(1)회 사용"
 
+#~ msgctxt "LauncherCell"
+#~ msgid "Don't follow"
+#~ msgstr "팔로우 해제"
+
+#~ msgctxt "LauncherCell"
+#~ msgid "Follow"
+#~ msgstr "팔로우"
+
+#~ msgctxt "LauncherCell"
+#~ msgid "Timestretch"
+#~ msgstr "타임스트레치"
+
 #~ msgctxt "Browser"
 #~ msgid "Merge to Stereo File"
 #~ msgstr "스테레오 파일로 병합"
@@ -5981,3 +5953,4 @@ msgstr "%(1)회 사용"
 #~ msgctxt "Edit"
 #~ msgid "Import Tempo"
 #~ msgstr "템포 임포트"
+

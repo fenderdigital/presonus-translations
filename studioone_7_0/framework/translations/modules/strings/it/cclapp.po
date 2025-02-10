@@ -12,7 +12,7 @@ msgstr "$APPNAME Non spegnere!"
 #: components/eulacomponent.cpp
 msgctxt "EULA"
 msgid "%(1) End User License Agreement"
-msgstr "%(1) Contratto di licenza con l'utente finale"
+msgstr "%(1) Contratto di licenza con l'Utente Finale"
 
 #: options/filetypeselector.cpp
 msgctxt "FileType"
@@ -22,7 +22,7 @@ msgstr "%(1) File"
 #: components/eulacomponent.cpp
 msgctxt "EULA"
 msgid "%(1) Terms of Service"
-msgstr "%(1) Termini di servizio"
+msgstr "%(1) Termini di Servizio"
 
 #: documents/documenttemplates.cpp
 msgctxt "Documents"
@@ -221,17 +221,17 @@ msgstr "Media"
 #: browser/pluginmanagement.cpp
 msgctxt "PlugInManagement"
 msgid "Avg. Load Time"
-msgstr "Tempo medio di caricamento"
+msgstr "Tempo medio di Caricamento"
 
 #: browser/pluginmanagement.cpp
 msgctxt "PlugInManagement"
 msgid "Avg. Preset Size"
-msgstr "Dimenzione media dei presets"
+msgstr "Dim. media Presets"
 
 #: browser/pluginmanagement.cpp
 msgctxt "PlugInManagement"
 msgid "Avg. Save Time"
-msgstr "Tempo medio di salvataggio"
+msgstr "Tempo medio di Salvataggio"
 
 #: browser/browser.cpp navigation/navigatorbase.cpp application.cpp
 msgctxt "Command"
@@ -243,7 +243,7 @@ msgctxt "AppSafetyManager"
 msgid "Block %(1)"
 msgstr "Blocco %(1)"
 
-#: browser/filesystemnodes.cpp browser/browser.cpp
+#: browser/browser.cpp browser/filesystemnodes.cpp
 msgctxt "Command"
 msgid "Browser"
 msgstr "Sfoglia"
@@ -293,13 +293,13 @@ msgctxt "PathList"
 msgid "Clear History"
 msgstr "Elimina Cronologia"
 
-#: documents/recentdocuments.cpp
-msgctxt "Documents"
+#: documents/documentmanager.cpp
+msgctxt "Command"
 msgid "Clear Recent Files"
 msgstr "Cancella Files Recenti"
 
-#: documents/documentmanager.cpp
-msgctxt "Command"
+#: documents/recentdocuments.cpp
+msgctxt "Documents"
 msgid "Clear Recent Files"
 msgstr "Cancella Files Recenti"
 
@@ -518,12 +518,12 @@ msgstr "Elimina Oggetti"
 #: presets/presetcomponent.cpp
 msgctxt "Presets"
 msgid "Delete Preset"
-msgstr "Cancella Preset"
+msgstr "Elimina Preset"
 
 #: browser/pluginnodes.cpp
 msgctxt "Browser"
 msgid "Delete Thumbnail"
-msgstr "Elimina Anteprima"
+msgstr "Elimina Miniatura"
 
 #: documents/documentmanager.cpp
 msgctxt "Command"
@@ -1126,7 +1126,7 @@ msgstr "Carica Preset"
 #: presets/presettrader.cpp
 msgctxt "Presets"
 msgid "Load Preset File"
-msgstr "Carica Preset File"
+msgstr "Carica File Preset"
 
 #: presets/presettrader.cpp
 msgctxt "Command"
@@ -1158,7 +1158,7 @@ msgctxt "FileInfo"
 msgid "Local"
 msgstr "Locale"
 
-#: options/useroption.cpp options/mainoption.cpp
+#: options/mainoption.cpp options/useroption.cpp
 msgctxt "UserOption"
 msgid "Locations"
 msgstr "Posizioni Cartelle"
@@ -1201,7 +1201,7 @@ msgstr "Sposta in una Nuova Cartella"
 #: fileinfo/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Move to Root"
-msgstr "Vai alla Tonica"
+msgstr "Vai alla Root"
 
 #: editing/scaleview.cpp
 msgctxt "Scale"
@@ -1262,12 +1262,12 @@ msgstr "Nuovo Preset"
 #: browser/browser.cpp
 msgctxt "Browser"
 msgid "New Root Tab"
-msgstr "Nuovo Scheda Tonica"
+msgstr "Nuova Scheda Radice"
 
 #: browser/browser.cpp
 msgctxt "Command"
 msgid "New Root Tab"
-msgstr "Nuovo Scheda Tonica"
+msgstr "Nuovo Scheda Radice"
 
 #: browser/browser.cpp
 msgctxt "Browser"
@@ -1474,7 +1474,7 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr "Preset:"
 
-#: presets/presettrader.cpp presets/presetmanager.cpp presets/presetbrowser.cpp
+#: presets/presettrader.cpp presets/presetbrowser.cpp presets/presetmanager.cpp
 #: presets/presetcomponent.cpp
 msgctxt "Command"
 msgid "Presets"
@@ -1668,12 +1668,12 @@ msgstr "Resetta la Cartella"
 #: browser/browser.cpp
 msgctxt "Browser"
 msgid "Reset Root"
-msgstr "Ripristina Root"
+msgstr "Ripristina Radice"
 
 #: browser/browser.cpp
 msgctxt "Command"
 msgid "Reset Root"
-msgstr "Ripristina Root"
+msgstr "Ripristina Radice"
 
 #: actions/trashcomponent.cpp
 msgctxt "TrashBin"
@@ -1845,7 +1845,7 @@ msgstr "Servizi"
 #: browser/browser.cpp
 msgctxt "Browser"
 msgid "Set as Root"
-msgstr "Imposta come Root"
+msgstr "Imposta come Radice"
 
 #: fileinfo/filerenamer.cpp
 msgctxt "FileRenamer"
@@ -2090,7 +2090,7 @@ msgstr "Strumento 1"
 #: editing/tools/toolbar.cpp
 msgctxt "Command"
 msgid "Tool 10"
-msgstr "Tool 10"
+msgstr "Strumento 10"
 
 #: editing/tools/toolbar.cpp
 msgctxt "Command"
@@ -2155,17 +2155,17 @@ msgstr "La disattivazione dell'accelerazione hardware rallenterà l'interfaccia 
 #: browser/pluginmanagement.cpp
 msgctxt "PlugInManagement"
 msgid "Type"
-msgstr "Digita"
+msgstr "Tipo"
 
 #: browser/pluginselector.cpp
 msgctxt "PlugInSelector"
 msgid "Type"
-msgstr "Digita"
+msgstr "Tipo"
 
 #: datastore/tagcategory.cpp
 msgctxt "TagCategory"
 msgid "Type"
-msgstr "Digita"
+msgstr "Tipo"
 
 #: actions/actionjournal.cpp
 msgctxt "Action"

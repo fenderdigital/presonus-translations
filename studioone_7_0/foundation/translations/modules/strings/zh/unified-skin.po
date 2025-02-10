@@ -21,8 +21,8 @@ msgstr "$APPNAME 需要访问您的 $APPCOMPANY 账户。请在下方使用电�
 
 #: subscription.xml
 msgctxt "SubscriptionStatus"
-msgid "$CLOUDNAME has been activated on this computer."
-msgstr " 本台计算机已启用 $CLOUDNAME。"
+msgid "$CLOUDNAME has been activated on this device."
+msgstr "$CLOUDNAME 已在此设备激活"
 
 #: backup.xml
 msgctxt "BackupManager"
@@ -89,13 +89,13 @@ msgctxt "BackupManager"
 msgid "Backup will be restored next time you start $APPNAME."
 msgstr " 当您下一次启动 $APPNAME 时，将恢复备份。"
 
-#: cclcommon.xml
-msgctxt "CommandEditorConflictPopup"
+#: backup.xml
+msgctxt "BackupManager"
 msgid "Cancel"
 msgstr "取消"
 
-#: backup.xml
-msgctxt "BackupManager"
+#: cclcommon.xml
+msgctxt "CommandEditorConflictPopup"
 msgid "Cancel"
 msgstr "取消"
 
@@ -369,6 +369,10 @@ msgctxt "UserSelection"
 msgid "User Account"
 msgstr " 用户账户"
 
+#~ msgctxt "SubscriptionStatus"
+#~ msgid "$CLOUDNAME has been activated on this computer."
+#~ msgstr " 本台计算机已启用 $CLOUDNAME。"
+
 #~ msgctxt "LoginFormInternal"
 #~ msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
 #~ msgstr "$APPNAME 需要访问您的 $APPCOMPANY 帐户。请在下方使用您的电子邮件/用户名登录。"
@@ -456,3 +460,4 @@ msgstr " 用户账户"
 #~ msgctxt "LicenseServerLogin"
 #~ msgid "Country"
 #~ msgstr "国家/地区"
+

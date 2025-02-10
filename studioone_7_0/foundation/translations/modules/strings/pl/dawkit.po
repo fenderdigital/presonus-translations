@@ -379,7 +379,7 @@ msgctxt "AudioDiscPublisher"
 msgid "Composer"
 msgstr "Kompozytor"
 
-#: song/trackpresetcomponent.cpp
+#: application/song/audiobustransform.cpp song/trackpresetcomponent.cpp
 msgctxt "Command"
 msgid "Console"
 msgstr "Konsoleta"
@@ -524,6 +524,11 @@ msgctxt "Engine"
 msgid "Do not publish"
 msgstr "Nie publikuj"
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Do you want to abort the Bus Channel transformation?"
+msgstr ""
+
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
 msgid "Do you want to apply incrementing ISRC codes for all tracks?"
@@ -531,8 +536,16 @@ msgstr "Czy chcesz zastosować przyrostowe kody ISRC dla wszystkich utworów?"
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
-msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
-msgstr "Czy chcesz utworzyć obraz DDP?\n\nObraz: %(1)\nLokalizacja: %(2)"
+msgid ""
+"Do you want to create a DDP image?\n"
+"\n"
+"Image: %(1)\n"
+"Location: %(2)"
+msgstr ""
+"Czy chcesz utworzyć obraz DDP?\n"
+"\n"
+"Obraz: %(1)\n"
+"Lokalizacja: %(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -641,6 +654,11 @@ msgctxt "SongSetup"
 msgid "Error: %(1) requires sample rate %(2)"
 msgstr "Błąd: %(1) wymaga częstotliwości %(2)"
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Errors occurred during the rendering of the Bus Channel."
+msgstr ""
+
 #: score/scoreeditor.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Event"
@@ -676,13 +694,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "Eksportowanie:"
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "Nie udało się wyeksportować pliku audio."
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "Nie udało się wyeksportować pliku audio."
 
@@ -903,6 +921,11 @@ msgstr "Wstaw marker"
 msgctxt "Command"
 msgid "Insert Named"
 msgstr "Wstaw z nazwą"
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Instrument '%(1)' cannot be transformed, because it is also routed to '%(2)'."
+msgstr ""
 
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
@@ -1430,8 +1453,8 @@ msgctxt "ShowFunctions"
 msgid "Remove Setlist Item"
 msgstr "Usuń pozycję setlisty"
 
-#: project/document/projectcomponent.cpp song/songvideohandler.cpp
-#: song/songcontroller.cpp
+#: project/document/projectcomponent.cpp song/songcontroller.cpp
+#: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Remove Track"
 msgstr "Usuń ścieżkę"
@@ -1441,13 +1464,13 @@ msgctxt "ProjectFunctions"
 msgid "Remove Track"
 msgstr "Usuń utwór"
 
-#: show/model/showplayer.cpp
-msgctxt "Command"
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
 msgid "Rename Patch"
 msgstr "Zmień nazwę zestawu"
 
-#: show/model/showfunctions.cpp
-msgctxt "ShowFunctions"
+#: show/model/showplayer.cpp
+msgctxt "Command"
 msgid "Rename Patch"
 msgstr "Zmień nazwę zestawu"
 
@@ -1546,6 +1569,11 @@ msgctxt "ProjectEditHandler"
 msgid "Ripple Edit"
 msgstr "Edycja w trybie Ripple"
 
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Save Patch"
+msgstr "Zapisz zestaw"
+
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Save Patch"
@@ -1553,11 +1581,6 @@ msgstr "Zapisz zestaw"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
-msgid "Save Patch"
-msgstr "Zapisz zestaw"
-
-#: show/model/showfunctions.cpp
-msgctxt "ShowFunctions"
 msgid "Save Patch"
 msgstr "Zapisz zestaw"
 
@@ -1952,8 +1975,8 @@ msgid "Setup Page"
 msgstr "Strona konfiguracji"
 
 #: show/document/performancecomponent.cpp show/document/showcomponent.cpp
-#: show/editing/setlistcomponent.cpp show/editing/showplayerinspector.cpp
-#: show/editing/showeditcomponent.cpp show/editing/showeditmodel.cpp
+#: show/editing/setlistcomponent.cpp show/editing/showeditcomponent.cpp
+#: show/editing/showeditmodel.cpp show/editing/showplayerinspector.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: show/shared/showuicomponentbase.cpp
 msgctxt "Command"
@@ -2010,7 +2033,7 @@ msgctxt "StemRenderer"
 msgid "Some items will be exported in stereo because their speaker setup is not supported by the selected format."
 msgstr "Niektóre elementy zostaną wyeksportowane jako stereo, ponieważ ich konfiguracja głośników nie jest obsługiwana przez wybrany format."
 
-#: song/songmaster.cpp song/songvideohandler.cpp song/songcontroller.cpp
+#: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Song"
 msgstr "Utwór"
@@ -2097,8 +2120,12 @@ msgstr "Zapisz obraz DDP %(1) razy"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
-msgid "Start: %(1) (%(2))\nPause: %(3)"
-msgstr "Start: %(1) (%(2))\nPauza: %(3)"
+msgid ""
+"Start: %(1) (%(2))\n"
+"Pause: %(3)"
+msgstr ""
+"Start: %(1) (%(2))\n"
+"Pauza: %(3)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2135,15 +2162,49 @@ msgctxt "Engine"
 msgid "THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
 msgstr "TEN UTWÓR ZAWIERA MATERIAŁY CHRONIONE PRAWEM AUTORSKIM. NIE WOLNO UŻYWAĆ ŻADNYCH MATERIAŁÓW BEZ ZGODY AUTORÓW."
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The Bus Channel '%(1)' cannot be transformed"
+msgstr ""
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The Bus Channel sources contain no audio."
+msgstr ""
+
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
-msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr "Kod EAN nie jest poprawnie sformatowany.\n\nPowinien on zawierać 13 znaków numerycznych.\n\nPrzykład: 036000291452\n\nJeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
+msgid ""
+"The EAN code is not formatted correctly.\n"
+"\n"
+"It should be 13 characters long and should only contain numeric characters.\n"
+"\n"
+"Example: 036000291452\n"
+"\n"
+"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr ""
+"Kod EAN nie jest poprawnie sformatowany.\n"
+"\n"
+"Powinien on zawierać 13 znaków numerycznych.\n"
+"\n"
+"Przykład: 036000291452\n"
+"\n"
+"Jeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
-msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
-msgstr "Kod ISRC jest niepoprawnie sformatowany.\n\nPowinien on zawierać 12 znaków alfanumerycznych.\n\nPrzykład: USPR37300012"
+msgid ""
+"The ISRC code is not formatted correctly.\n"
+"\n"
+"It should be 12 characters long and should only contain alphanumeric characters.\n"
+"\n"
+"Example: USPR37300012"
+msgstr ""
+"Kod ISRC jest niepoprawnie sformatowany.\n"
+"\n"
+"Powinien on zawierać 12 znaków alfanumerycznych.\n"
+"\n"
+"Przykład: USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2200,6 +2261,21 @@ msgctxt "SongMaster"
 msgid "The song will be saved first.\n"
 msgstr "Najpierw zostanie zapisany utwór.\n"
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The transformed Channel '%(1)' contains protected content."
+msgstr ""
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The transformed Channel '%(1)' has a Send outside the transformed Bus."
+msgstr ""
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The untransformed Channel '%(1)' has a Send to the transformed Bus."
+msgstr ""
+
 #: project/publish/imagemaker.cpp
 msgctxt "ImageMaker"
 msgid "There was an error during the image creation!"
@@ -2255,6 +2331,7 @@ msgctxt "AudioDiscPublisher"
 msgid "Total Playing Time"
 msgstr "Łączny czas"
 
+#: application/song/audiobustransform.cpp
 #: project/editing/projecteditcomponent.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
 #: song/songcontroller.cpp song/trackpresetcomponent.cpp
@@ -2312,6 +2389,21 @@ msgctxt "StemRenderer"
 msgid "Tracks"
 msgstr "Ścieżki"
 
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Transform Channel to Rendered Audio"
+msgstr ""
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Transform to Bus Channel"
+msgstr ""
+
+#: application/song/audiobustransform.cpp
+msgctxt "Command"
+msgid "Transform to Bus Channel"
+msgstr ""
+
 #: application/project/projecttracktransformtask.cpp
 msgctxt "ProjectEdit"
 msgid "Transform to Realtime Audio"
@@ -2321,6 +2413,16 @@ msgstr "Przekształć na audio bez wygenerowanych efektów"
 msgctxt "ProjectEdit"
 msgid "Transform to Rendered Audio"
 msgstr "Przekształć na audio z wygenerowanymi efektami"
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "Transform to Rendered Audio"
+msgstr ""
+
+#: application/song/audiobustransform.cpp
+msgctxt "Command"
+msgid "Transform to Rendered Audio"
+msgstr ""
 
 #: show/document/performancecomponent.cpp
 msgctxt "Command"
@@ -2347,6 +2449,11 @@ msgctxt "Command"
 msgid "Update Mastering Files"
 msgstr "Zaktualizuj pliki masteringu"
 
+#: show/model/showfunctions.cpp
+msgctxt "ShowFunctions"
+msgid "Update Patch"
+msgstr "Aktualizuj zestaw"
+
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Update Patch"
@@ -2354,11 +2461,6 @@ msgstr "Aktualizuj zestaw"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
-msgid "Update Patch"
-msgstr "Aktualizuj zestaw"
-
-#: show/model/showfunctions.cpp
-msgctxt "ShowFunctions"
 msgid "Update Patch"
 msgstr "Aktualizuj zestaw"
 
@@ -2374,8 +2476,24 @@ msgstr "Zaktualizuj tytuł"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
-msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
+msgid ""
+"Update the mastering file of this song:\n"
+"%(6)\n"
+"Output: %(1)\n"
+"Duration: %(3)\n"
+"Resolution: %(4)\n"
+"Realtime Processing: %(5)\n"
+"Include Master Effects: %(7)\n"
+"Filename: %(2)"
+msgstr ""
+"Zaktualizuj plik masteringu dla tego utworu:\n"
+"%(6)\n"
+"Wyjście: %(1)\n"
+"Długość %(3)\n"
+"Rozdzielczość: %(4)\n"
+"Przetwarzanie w czasie rzeczywistym: %(5)\n"
+"Dołącz efekty sumy: %(7)\n"
+"Nazwa pliku: %(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2716,4 +2834,3 @@ msgstr "nowy odtwarzacz"
 #~ msgctxt "Command"
 #~ msgid "Split Track and Event"
 #~ msgstr "Podziel utwór i obiekt"
-

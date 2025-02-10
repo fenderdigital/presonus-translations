@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "Fonte Bitmap"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -244,13 +244,13 @@ msgctxt "Command"
 msgid "End Skip"
 msgstr "Pular End"
 
-#: keyevent.cpp
-msgctxt "VirtualKey"
+#: views/focusnavigator.cpp
+msgctxt "Command"
 msgid "Enter"
 msgstr "Enter"
 
-#: views/focusnavigator.cpp
-msgctxt "Command"
+#: keyevent.cpp
+msgctxt "VirtualKey"
 msgid "Enter"
 msgstr "Enter"
 
@@ -471,12 +471,8 @@ msgstr "Arquivo JPEG"
 
 #: dialogs/commandeditor.cpp
 msgctxt "CommandEditor"
-msgid ""
-"Key is already assigned to:\n"
-"%(1)"
-msgstr ""
-"Tecla já atribuída para:\n"
-"%(1)"
+msgid "Key is already assigned to:\n%(1)"
+msgstr "Tecla já atribuída para:\n%(1)"
 
 #: commands.cpp
 msgctxt "FileType"
@@ -658,15 +654,25 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "TeclNum9"
 
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
+msgid "OK"
+msgstr "OK"
+
 #: dialogs/alert.cpp
 msgctxt "Alert"
 msgid "OK"
 msgstr "OK"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
-msgid "OK"
-msgstr "OK"
+#: system/accessibility.cpp
+msgctxt "Accessibility"
+msgid "Off"
+msgstr "Desl."
+
+#: system/accessibility.cpp
+msgctxt "Accessibility"
+msgid "On"
+msgstr "Ligar"
 
 #: keyevent.cpp
 msgctxt "VirtualKey"
@@ -1039,3 +1045,4 @@ msgstr "~"
 #~ msgctxt "CommandBar"
 #~ msgid "Compact"
 #~ msgstr "Compacto"
+

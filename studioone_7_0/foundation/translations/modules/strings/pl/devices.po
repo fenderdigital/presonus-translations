@@ -46,13 +46,23 @@ msgstr "%(1) z %(2)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
-msgstr "%(1) wymaga wielkości %(2) buforu.\nUrządzenie audio nie obsługuje tej wartości.\nJeżeli to możliwe, zmień urządzenie audio."
+msgid ""
+"%(1) requires a block size of %(2).\n"
+"The audio device does not support this value.\n"
+"Please select a different audio device if possible."
+msgstr ""
+"%(1) wymaga wielkości %(2) buforu.\n"
+"Urządzenie audio nie obsługuje tej wartości.\n"
+"Jeżeli to możliwe, zmień urządzenie audio."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
-msgstr "%(1) wymaga częstotliwości %(2).\nJeżeli to możliwe, zmień częstotliwość próbkowania.."
+msgid ""
+"%(1) requires a sample rate of %(2).\n"
+"Please change the sample rate if possible."
+msgstr ""
+"%(1) wymaga częstotliwości %(2).\n"
+"Jeżeli to możliwe, zmień częstotliwość próbkowania.."
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -419,8 +429,8 @@ msgctxt "AudioMixer"
 msgid "Audio Destinations"
 msgstr "Przeznaczenie audio"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Audio Device"
 msgstr "Urządzenie audio"
@@ -645,11 +655,6 @@ msgctxt "AudioIOSetup"
 msgid "Channel Color"
 msgstr "Kolor kanału"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Channel Components"
-msgstr "Komponenty kanału"
-
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Channel Count"
@@ -781,7 +786,7 @@ msgid "Connected to %(1)."
 msgstr "Połączono z %(1)."
 
 #: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
-#: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
+#: audiomixer/audiolistenbus.cpp audiomixer/audiofaderswitcher.cpp
 #: audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp
 #: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -932,6 +937,11 @@ msgstr "Dezaktywuj urządzenia"
 msgctxt "ActionDescriptions"
 msgid "Deactivate Output of '%(1)'"
 msgstr "Dezaktywuj wyjście '%(1)'"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Decrement Tempo"
+msgstr ""
 
 #: music/musicdeviceauxsetup.cpp
 msgctxt "MusicDevices"
@@ -1114,13 +1124,13 @@ msgctxt "ActionDescriptions"
 msgid "Edit Macro Transformation '%(1)'"
 msgstr "Edytuj przekształcenie makr '%(1)'"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/deviceactions.cpp
+msgctxt "DeviceActions"
 msgid "Edit Multiple Parameters"
 msgstr "Edycja wielu parametrów"
 
-#: base/deviceactions.cpp
-msgctxt "DeviceActions"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr "Edycja wielu parametrów"
 
@@ -1294,11 +1304,6 @@ msgctxt "VideoPlayer"
 msgid "File Not Found"
 msgstr "Nie znaleziono pliku"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Find Channel"
-msgstr "Znajdź kanał"
-
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Flip Faders"
@@ -1405,22 +1410,12 @@ msgid "Hardware Monitoring"
 msgstr "Monitoring sprzętowy"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Hide"
-msgstr "Ukryj"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Hide Channel"
 msgstr "Ukryj kanał"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
-msgid "Hide Related Channels"
-msgstr "Ukryj powiązane kanały"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Hide Related Channels"
 msgstr "Ukryj powiązane kanały"
 
@@ -1478,6 +1473,11 @@ msgstr "Niekompletne"
 msgctxt "AudioIOManager"
 msgid "Incomplete"
 msgstr "Niekompletne"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Increment Tempo"
+msgstr ""
 
 #: base/devicesafety.cpp
 msgctxt "DeviceSafety"
@@ -1641,11 +1641,6 @@ msgstr "Gałka"
 msgctxt "AudioIOMatrix"
 msgid "Label"
 msgstr "Etykieta"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Large"
-msgstr "Duży"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -1843,13 +1838,13 @@ msgctxt "Command"
 msgid "Mouse-Over"
 msgstr "Pod myszką"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Move %(1)"
 msgstr "Przenieś %(1)"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Move %(1)"
 msgstr "Przenieś %(1)"
 
@@ -1917,11 +1912,6 @@ msgstr "Nazwa"
 msgctxt "NapState"
 msgid "Napping"
 msgstr "Oszczędzanie"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Narrow"
-msgstr "Wąski"
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
@@ -2203,13 +2193,13 @@ msgctxt "AudioPanner"
 msgid "Pan View"
 msgstr "Widok panoramy"
 
-#: audiomixer/audiosendcomponent.cpp
-msgctxt "AudioSendComponent"
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
 msgid "Panner"
 msgstr "Panorama"
 
-#: audiomixer/audiopanner.cpp
-msgctxt "AudioPanner"
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
 msgid "Panner"
 msgstr "Panorama"
 
@@ -2483,11 +2473,6 @@ msgctxt "ProcessGraph"
 msgid "Remove"
 msgstr "Usuń"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove"
-msgstr "Usuń"
-
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Remove"
@@ -2528,13 +2513,13 @@ msgctxt "SurfaceControl"
 msgid "Remove All"
 msgstr "Usuń wszystko"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Remove All %(1)"
 msgstr "Usuń wszystkie %(1)"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Remove All %(1)"
 msgstr "Usuń wszystkie %(1)"
 
@@ -2547,21 +2532,6 @@ msgstr "Usuń automatykę \"%(1)\""
 msgctxt "MixerEditFunctions"
 msgid "Remove Channel"
 msgstr "Usuń kanał"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Remove Channel"
-msgstr "Usuń kanał"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channel"
-msgstr "Usuń kanał"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channels"
-msgstr "Usuń kanały"
 
 #: base/automationhandler.cpp
 msgctxt "Command"
@@ -2637,21 +2607,6 @@ msgstr "Zmień nazwę %(1)"
 msgctxt "Channel"
 msgid "Rename Channel"
 msgstr "Zmień nazwę kanału"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Rename Channel"
-msgstr "Zmień nazwę kanału"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channel"
-msgstr "Zmień nazwę kanału"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channels"
-msgstr "Zmień nazwy kanałów"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
@@ -3084,39 +3039,9 @@ msgid "Shift Loop Backwards"
 msgstr "Przenieś pętle do tyłu"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show"
-msgstr "Pokaż"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Audio Device Controls"
-msgstr "Pokaż kontrolki urządzenia audio"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Show Channel"
 msgstr "Pokaż kanał"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Editor"
-msgstr "Pokaż edytor kanału"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Icons"
-msgstr "Pokaż ikony kanału"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Notes"
-msgstr "Pokaż notatki kanałów"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Overview"
-msgstr "Pokaż przegląd kanału"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -3133,31 +3058,6 @@ msgctxt "AudioSendSlot"
 msgid "Show Destination"
 msgstr "Pokaż przeznaczenie"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Group Assignment"
-msgstr "Pokaż przypisania grup"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show I/O Connections"
-msgstr "Pokaż połączenia we./wy."
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Input Controls"
-msgstr "Pokaż kontrolki wejścia"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Instrument Editor"
-msgstr "Pokaż edytor instrumentu"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Macro Controls"
-msgstr "Pokaż kontrolki makro"
-
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Show Micro Edit Controls"
@@ -3167,21 +3067,6 @@ msgstr "Pokaż kontrolki mikrowidoku"
 msgctxt "Command"
 msgid "Show Related Channels"
 msgstr "Pokaż powiązane kanały"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Related Channels"
-msgstr "Pokaż powiązane kanały"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Routing Editor"
-msgstr "Pokaż edytor drogi sygnału"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Sends/Cue mix"
-msgstr "Pokaż wysyłki/submiksy"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3193,16 +3078,6 @@ msgctxt "Command"
 msgid "Show Track"
 msgstr "Pokaż ścieżkę"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Track"
-msgstr "Pokaż ścieżkę"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show VCA Connections"
-msgstr "Pokaż połączenia VCA"
-
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Show in Console"
@@ -3210,11 +3085,6 @@ msgstr "Pokaż w konsolecie"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
-msgid "Show in Console"
-msgstr "Pokaż w konsolecie"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Show in Console"
 msgstr "Pokaż w konsolecie"
 
@@ -3272,11 +3142,6 @@ msgstr "Wysokość powtarzanie trybu stałej nuty"
 msgctxt "MicroEditSetup"
 msgid "Slider"
 msgstr "Suwak"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Small"
-msgstr "Mały"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3535,8 +3400,12 @@ msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbo
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid "The audio device does not have enough outputs.\nDo you want to continue?"
-msgstr "To urządzenie audio ma za mało wyjść.\nCzy chcesz kontynuować?"
+msgid ""
+"The audio device does not have enough outputs.\n"
+"Do you want to continue?"
+msgstr ""
+"To urządzenie audio ma za mało wyjść.\n"
+"Czy chcesz kontynuować?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3598,11 +3467,6 @@ msgctxt "TransportSync"
 msgid "Toggle %(1)"
 msgstr "Przełącz %(1)"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Detached Console"
-msgstr "Odłącz / Dołącz konsoletę"
-
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Toggle Editor"
@@ -3633,20 +3497,10 @@ msgctxt "Command"
 msgid "Toggle Related Channels"
 msgstr "Włącz / Wyłącz powiązane kanały"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Size"
-msgstr "Zmień rozmiar"
-
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Start"
 msgstr "Start / Stop"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Width"
-msgstr "Przełącz szerokość"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -3804,11 +3658,6 @@ msgctxt "VideoPlayer"
 msgid "Video codec not supported"
 msgstr "Nieobsługiwany kodek wideo"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "View"
-msgstr "Widok"
-
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Visibility only"
@@ -3824,13 +3673,13 @@ msgctxt "CueMixSlot"
 msgid "Volume"
 msgstr "Głośność"
 
-#: audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Volume"
 msgstr "Głośność"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "Głośność"
 
@@ -3851,8 +3700,154 @@ msgstr "Write"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
-msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n\nCzy chcesz je teraz ponownie podłączyć?"
+msgid ""
+"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
+"\n"
+"Do you want to reconnect your external devices now?"
+msgstr ""
+"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n"
+"\n"
+"Czy chcesz je teraz ponownie podłączyć?"
+
+#~ msgctxt "Command"
+#~ msgid "Channel Components"
+#~ msgstr "Komponenty kanału"
+
+#~ msgctxt "Command"
+#~ msgid "Find Channel"
+#~ msgstr "Znajdź kanał"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide"
+#~ msgstr "Ukryj"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide Related Channels"
+#~ msgstr "Ukryj powiązane kanały"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Large"
+#~ msgstr "Duży"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Narrow"
+#~ msgstr "Wąski"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove"
+#~ msgstr "Usuń"
+
+#~ msgctxt "Command"
+#~ msgid "Remove Channel"
+#~ msgstr "Usuń kanał"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channel"
+#~ msgstr "Usuń kanał"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channels"
+#~ msgstr "Usuń kanały"
+
+#~ msgctxt "Command"
+#~ msgid "Rename Channel"
+#~ msgstr "Zmień nazwę kanału"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channel"
+#~ msgstr "Zmień nazwę kanału"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channels"
+#~ msgstr "Zmień nazwy kanałów"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show"
+#~ msgstr "Pokaż"
+
+#~ msgctxt "Command"
+#~ msgid "Show Audio Device Controls"
+#~ msgstr "Pokaż kontrolki urządzenia audio"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Editor"
+#~ msgstr "Pokaż edytor kanału"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Icons"
+#~ msgstr "Pokaż ikony kanału"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Notes"
+#~ msgstr "Pokaż notatki kanałów"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Overview"
+#~ msgstr "Pokaż przegląd kanału"
+
+#~ msgctxt "Command"
+#~ msgid "Show Group Assignment"
+#~ msgstr "Pokaż przypisania grup"
+
+#~ msgctxt "Command"
+#~ msgid "Show I/O Connections"
+#~ msgstr "Pokaż połączenia we./wy."
+
+#~ msgctxt "Command"
+#~ msgid "Show Input Controls"
+#~ msgstr "Pokaż kontrolki wejścia"
+
+#~ msgctxt "Command"
+#~ msgid "Show Instrument Editor"
+#~ msgstr "Pokaż edytor instrumentu"
+
+#~ msgctxt "Command"
+#~ msgid "Show Macro Controls"
+#~ msgstr "Pokaż kontrolki makro"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Related Channels"
+#~ msgstr "Pokaż powiązane kanały"
+
+#~ msgctxt "Command"
+#~ msgid "Show Routing Editor"
+#~ msgstr "Pokaż edytor drogi sygnału"
+
+#~ msgctxt "Command"
+#~ msgid "Show Sends/Cue mix"
+#~ msgstr "Pokaż wysyłki/submiksy"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Track"
+#~ msgstr "Pokaż ścieżkę"
+
+#~ msgctxt "Command"
+#~ msgid "Show VCA Connections"
+#~ msgstr "Pokaż połączenia VCA"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show in Console"
+#~ msgstr "Pokaż w konsolecie"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Small"
+#~ msgstr "Mały"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Detached Console"
+#~ msgstr "Odłącz / Dołącz konsoletę"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Size"
+#~ msgstr "Zmień rozmiar"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Width"
+#~ msgstr "Przełącz szerokość"
+
+#~ msgctxt "Command"
+#~ msgid "View"
+#~ msgstr "Widok"
 
 #~ msgctxt "AudioIOMatrix"
 #~ msgid "External Effect"
@@ -3973,4 +3968,3 @@ msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne
 #~ msgctxt "MacroControls"
 #~ msgid "Disconnect %(1) from %(2) Macro Control %(3)"
 #~ msgstr "Odłącz %(1) od kontrolki makro %(2) %(3)"
-

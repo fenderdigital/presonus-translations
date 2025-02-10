@@ -21,8 +21,8 @@ msgstr "$APPNAME에서 $APPCOMPANY 어카운트에 액세스할 필요가 있습
 
 #: subscription.xml
 msgctxt "SubscriptionStatus"
-msgid "$CLOUDNAME has been activated on this computer."
-msgstr "$CLOUDNAME(은)는 이 컴퓨터에 활성화 되었습니다."
+msgid "$CLOUDNAME has been activated on this device."
+msgstr "$CLOUDNAME (이)가 이 장치에 액티베이션되었습니다."
 
 #: backup.xml
 msgctxt "BackupManager"
@@ -89,13 +89,13 @@ msgctxt "BackupManager"
 msgid "Backup will be restored next time you start $APPNAME."
 msgstr "백업이 다음번 $APPNAME 실행시 복원됩니다."
 
-#: cclcommon.xml
-msgctxt "CommandEditorConflictPopup"
+#: backup.xml
+msgctxt "BackupManager"
 msgid "Cancel"
 msgstr "취소"
 
-#: backup.xml
-msgctxt "BackupManager"
+#: cclcommon.xml
+msgctxt "CommandEditorConflictPopup"
 msgid "Cancel"
 msgstr "취소"
 
@@ -369,6 +369,10 @@ msgctxt "UserSelection"
 msgid "User Account"
 msgstr "사용자 계정"
 
+#~ msgctxt "SubscriptionStatus"
+#~ msgid "$CLOUDNAME has been activated on this computer."
+#~ msgstr "$CLOUDNAME(은)는 이 컴퓨터에 활성화 되었습니다."
+
 #~ msgctxt "LoginFormInternal"
 #~ msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
 #~ msgstr "$APPNAME 이용에는 $APPCOMPANY 계정 액세스가 필요합니다. 이메일주소 또는 사용자명과 패스워드를 사용하여 로그인해주십시오."
@@ -380,3 +384,4 @@ msgstr "사용자 계정"
 #~ msgctxt "CommandEditorOption"
 #~ msgid "Search:"
 #~ msgstr "검색:"
+

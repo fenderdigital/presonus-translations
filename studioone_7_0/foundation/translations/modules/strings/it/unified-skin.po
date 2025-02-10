@@ -21,8 +21,8 @@ msgstr "$APPNAME ha bisogno di accedere al tuo account $APPCOMPANY. Effettua l'a
 
 #: subscription.xml
 msgctxt "SubscriptionStatus"
-msgid "$CLOUDNAME has been activated on this computer."
-msgstr "$CLOUDNAME è stato attivato su questo computer."
+msgid "$CLOUDNAME has been activated on this device."
+msgstr "$CLOUDNAME è stato attivato su questo dispositivo."
 
 #: backup.xml
 msgctxt "BackupManager"
@@ -89,25 +89,25 @@ msgctxt "BackupManager"
 msgid "Backup will be restored next time you start $APPNAME."
 msgstr "Il Backup verrà ripristinato al prossimo avvio $APPNAME."
 
-#: cclcommon.xml
-msgctxt "CommandEditorConflictPopup"
+#: backup.xml
+msgctxt "BackupManager"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: backup.xml
-msgctxt "BackupManager"
+#: cclcommon.xml
+msgctxt "CommandEditorConflictPopup"
 msgid "Cancel"
 msgstr "Annulla"
 
 #: transfers.xml
 msgctxt "TransferManager"
 msgid "Cancel All"
-msgstr "Annulla tutto"
+msgstr "Annulla Tutto"
 
 #: transfers.xml
 msgctxt "TransferManager"
 msgid "Cancel All Transfers"
-msgstr "Annulla tutti i trasferimenti"
+msgstr "Annulla Tutti i Trasferimenti"
 
 #: cclcommon.xml
 msgctxt "CommandEditorOption"
@@ -257,12 +257,12 @@ msgstr "Password"
 #: transfers.xml
 msgctxt "TransferManager"
 msgid "Pause All"
-msgstr "Metti in pausa tutto"
+msgstr "Metti Tutte in Pausa"
 
 #: transfers.xml
 msgctxt "TransferManager"
 msgid "Pause All Transfers"
-msgstr "Metti in pausa tutti i trasferimenti"
+msgstr "Metti Tutti i Trasferimenti in Pausa "
 
 #: login.xml
 msgctxt "RegistrationFormInternal"
@@ -302,12 +302,12 @@ msgstr "Ripristina Opzioni"
 #: transfers.xml
 msgctxt "TransferManager"
 msgid "Resume All"
-msgstr "Riprendi tutto"
+msgstr "Riprendi Tutto"
 
 #: transfers.xml
 msgctxt "TransferManager"
 msgid "Resume All Transfers"
-msgstr "Riprendi tutti i trasferimenti"
+msgstr "Riprendi Tutti i Trasferimenti"
 
 #: cclcommon.xml
 msgctxt "CommandEditorOption"
@@ -368,6 +368,10 @@ msgstr "Aggiorna Ora"
 msgctxt "UserSelection"
 msgid "User Account"
 msgstr "Account Utente"
+
+#~ msgctxt "SubscriptionStatus"
+#~ msgid "$CLOUDNAME has been activated on this computer."
+#~ msgstr "$CLOUDNAME è stato attivato su questo computer."
 
 #~ msgctxt "LoginFormInternal"
 #~ msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
@@ -456,3 +460,4 @@ msgstr "Account Utente"
 #~ msgctxt "LicenseServerLogin"
 #~ msgid "Country"
 #~ msgstr "Paese"
+

@@ -185,7 +185,7 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Add Automation"
 msgstr "Otomasyon Ekle"
 
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Add Automation Lane"
 msgstr "Otomasyon Çizgisi Ekle"
@@ -326,13 +326,13 @@ msgctxt "Command"
 msgid "Add Scene to Playlist"
 msgstr ""
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Add Scratch Pad"
 msgstr "Not Defteri Ekle"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Add Scratch Pad"
 msgstr "Not Defteri Ekle"
 
@@ -595,7 +595,7 @@ msgctxt "GlobalTrack"
 msgid "Arranger"
 msgstr "Aranjör"
 
-#: editing/arrangerplaybackhandler.cpp editing/arrangereditlayer.cpp
+#: editing/arrangereditlayer.cpp editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Arranger"
 msgstr "Aranjör"
@@ -675,10 +675,10 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Automation"
 msgstr "Otomasyon"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
-#: musicediting/musiceditor.cpp
+#: automationediting/automationtrackcomponent.cpp
+#: musicediting/musiccontrollane.cpp musicediting/musiceditor.cpp
+#: musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Automation"
 msgstr "Otomasyon"
@@ -722,6 +722,11 @@ msgstr "Seçimi Bounce Et"
 msgctxt "AudioEdit"
 msgid "Bounce To New Track"
 msgstr "Yeni İze Bounce Et"
+
+#: application/audioedit/audiobouncetask.cpp
+msgctxt "AudioEdit"
+msgid "Bounce To New Track (Keep Speaker Format)"
+msgstr ""
 
 #: base/model/arrangertrack.cpp
 msgctxt "ArrangerSections"
@@ -1113,7 +1118,7 @@ msgctxt "Command"
 msgid "Copy Loop Range to Scratch Pad"
 msgstr "Döngü Alanını Not Defterine Kopyala"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Copy Loop Range to new Scratch Pad"
 msgstr "Döngü Alanını Yeni Not Defterine Kopyala"
@@ -1128,7 +1133,7 @@ msgctxt "Command"
 msgid "Copy Pattern"
 msgstr "Kalıbı Kopyala"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Copy to new Scratch Pad"
 msgstr "Yeni Not Defterine Kopyala"
@@ -1168,7 +1173,7 @@ msgctxt "Automation"
 msgid "Create \"%(1)\" Part Automation"
 msgstr "\"%(1)\" Part otomasyonu Oluştur"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Create Arranger Sections from Markers"
 msgstr "İşaretlerden Aranjör Bölümleri Oluştur"
@@ -1203,7 +1208,7 @@ msgctxt "AudioEdit"
 msgid "Create Crossfades"
 msgstr "Crossfade Oluştur"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Create Markers from Arranger Sections"
 msgstr "Aranjör Bölümlerinden İşaretler Oluştur"
@@ -1304,13 +1309,13 @@ msgctxt "Command"
 msgid "Delete Range"
 msgstr "Alanı Sil"
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Delete Scratch Pad"
 msgstr "Not DefteriniSil"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Delete Scratch Pad"
 msgstr "Not DefteriniSil"
 
@@ -1489,12 +1494,7 @@ msgctxt "SynthDrag"
 msgid "Do you want to replace the instrument %(1)?"
 msgstr "%(1) enstrümanının yerine koymak mı istiyormusunuz ?"
 
-#: editing/launcher/launchercellcomponent.cpp
-msgctxt "LauncherCell"
-msgid "Don't follow"
-msgstr ""
-
-#: editing/mediatrackcontroller.cpp
+#: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
 msgid "Don't follow"
 msgstr "Takip etme"
@@ -1559,7 +1559,7 @@ msgctxt "MusicPatternClip"
 msgid "Drum Pattern"
 msgstr "Davul Patterni"
 
-#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Drum View"
 msgstr "Davul Görünümü"
@@ -1646,13 +1646,13 @@ msgctxt "LauncherFunctions"
 msgid "Duplicate Scene Playlist Items"
 msgstr ""
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Duplicate Scratch Pad"
 msgstr "Not Defterini Kopyala"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Duplicate Scratch Pad"
 msgstr "Not Defterini Kopyala"
 
@@ -1701,11 +1701,12 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "Variasyon Kopyala"
 
-#: audioediting/audiobendeditlayer.cpp editing/trackchannelnamefilter.cpp
-#: editing/trackvisibilityhandler.cpp editing/chordeditlayer.cpp
-#: editing/eventsnapper.cpp editing/launcher/launchercomponent.cpp
+#: audioediting/audiobendeditlayer.cpp editing/trackvisibilityhandler.cpp
+#: editing/chordeditlayer.cpp editing/eventsnapper.cpp
+#: editing/launcher/launchercomponent.cpp
 #: editing/launcher/launcherplaylistcomponent.cpp
-#: editing/tracklistcomponent.cpp musicediting/patterneditcomponent.cpp
+#: editing/trackchannelnamefilter.cpp editing/tracklistcomponent.cpp
+#: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Düzenle"
@@ -2060,12 +2061,7 @@ msgctxt "PoolBrowser"
 msgid "Flat"
 msgstr "Düz"
 
-#: editing/launcher/launchercellcomponent.cpp
-msgctxt "LauncherCell"
-msgid "Follow"
-msgstr ""
-
-#: editing/mediatrackcontroller.cpp
+#: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
 msgid "Follow"
 msgstr "Takipet"
@@ -2575,15 +2571,15 @@ msgctxt "Launcher"
 msgid "Insert on Same Scene"
 msgstr ""
 
-#: editing/launcher/launcherdraghandler.cpp
-msgctxt "Launcher"
-msgid "Insert on Same Track"
-msgstr ""
-
 #: editing/eventdraghandler.cpp
 msgctxt "Edit"
 msgid "Insert on Same Track"
 msgstr "Aynı İz Üzerinde Ekle"
+
+#: editing/launcher/launcherdraghandler.cpp
+msgctxt "Launcher"
+msgid "Insert on Same Track"
+msgstr ""
 
 #: musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
@@ -2650,8 +2646,8 @@ msgctxt "Command"
 msgid "Launch Cells"
 msgstr ""
 
-#: editing/launcher/launchereditmodel.cpp
 #: editing/launcher/launchercomponent.cpp
+#: editing/launcher/launchereditmodel.cpp
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Launcher"
@@ -2887,9 +2883,9 @@ msgctxt "Engine"
 msgid "Lyrics Track"
 msgstr ""
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
+#: automationediting/automationtrackcomponent.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Manage Parameters"
 msgstr "Parametreleri Düzenle"
@@ -3082,7 +3078,7 @@ msgctxt "PitchEdit"
 msgid "Move '%(1)' to '%(2)'"
 msgstr " '%(1)' i '%(2)'ye Taşı"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Move Arranger Section only"
 msgstr "Sadece Aranjör Kısmını Taşı"
@@ -3212,7 +3208,7 @@ msgctxt "TrackDragHandler"
 msgid "Move not possible"
 msgstr "Mümkün Değil"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Move to new Scratch Pad"
 msgstr "Yeni bir Not Defterine taşı"
@@ -3272,8 +3268,8 @@ msgctxt "MediaTrack"
 msgid "Narrow"
 msgstr "Bar"
 
-#: application/eventedit/chordinspectoraddin.cpp
-#: editing/launcher/launchercomponent.cpp editing/eventeditmodel.cpp
+#: application/eventedit/chordinspectoraddin.cpp editing/eventeditmodel.cpp
+#: editing/launcher/launchercomponent.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "Navigasyon"
@@ -3418,15 +3414,15 @@ msgctxt "Command"
 msgid "Note Erase"
 msgstr "Nota Sİl"
 
-#: editing/launcher/launchercomponent.cpp
-msgctxt "Command"
-msgid "Nudge"
-msgstr ""
-
 #: editing/eventeditmodel.cpp
 msgctxt "Events"
 msgid "Nudge"
 msgstr "ittir"
+
+#: editing/launcher/launchercomponent.cpp
+msgctxt "Command"
+msgid "Nudge"
+msgstr ""
 
 #: editing/launcher/launchercomponent.cpp
 msgctxt "Command"
@@ -3563,8 +3559,8 @@ msgctxt "PoolBrowser"
 msgid "Path"
 msgstr "Yol"
 
-#: musicediting/patternbankcomponent.cpp musicediting/patterneditcomponent.cpp
-#: musicediting/musiceditextension.cpp
+#: musicediting/musiceditextension.cpp musicediting/patternbankcomponent.cpp
+#: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Pattern"
 msgstr "Kalıp"
@@ -3584,7 +3580,7 @@ msgctxt "AudioScale"
 msgid "Percent"
 msgstr "Yüzde"
 
-#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Piano View"
 msgstr "Piyano Görünümü"
@@ -3699,11 +3695,6 @@ msgctxt "AudioEdit"
 msgid "Quantize"
 msgstr "Quantize"
 
-#: editing/lyricstrackcomponent.cpp
-msgctxt "Command"
-msgid "Quantize"
-msgstr "Quantize"
-
 #: editing/quantizepanel.h
 msgctxt "EditAddIn"
 msgid "Quantize"
@@ -3711,6 +3702,11 @@ msgstr "Quantize"
 
 #: editing/eventeditmodel.cpp
 msgctxt "Events"
+msgid "Quantize"
+msgstr "Quantize"
+
+#: editing/lyricstrackcomponent.cpp
+msgctxt "Command"
 msgid "Quantize"
 msgstr "Quantize"
 
@@ -3914,8 +3910,8 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Reduce Automation"
 msgstr ""
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
+#: automationediting/automationtrackcomponent.cpp
 msgctxt "Command"
 msgid "Remove"
 msgstr "Kaldır"
@@ -3970,7 +3966,7 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Remove Automation"
 msgstr "Otomasyonu Kaldır"
 
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Remove Automation Lane"
 msgstr "Otomasyon Çizgisini Kaldır"
@@ -4215,13 +4211,13 @@ msgctxt "LauncherFunctions"
 msgid "Rename Scene Playlist"
 msgstr ""
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Rename Scratch Pad"
 msgstr "Not Defterini Yeniden Adlandır"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Rename Scratch Pad"
 msgstr "Not Defterini Yeniden Adlandır"
 
@@ -4285,15 +4281,15 @@ msgctxt "EventEditHandler"
 msgid "Repeats: %(1)"
 msgstr ""
 
+#: base/model/arrangerfunctions.cpp
+msgctxt "Edit"
+msgid "Replace"
+msgstr "Değiştir"
+
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
 msgid "Replace"
 msgstr ""
-
-#: editing/arrangerfunctions.cpp
-msgctxt "Edit"
-msgid "Replace"
-msgstr "Değiştir"
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
@@ -4310,7 +4306,7 @@ msgctxt "AudioFX"
 msgid "Replace FX preset on %(1):"
 msgstr "%(1) deki FX presetini Değiştir"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Replace Partially"
 msgstr "Kısmen Değiştir"
@@ -4780,8 +4776,8 @@ msgctxt "Engine:AudioEnvelopeActions"
 msgid "Show %(1) Envelope"
 msgstr "%(1) Zarf Göster"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
+#: automationediting/automationtrackcomponent.cpp
 msgctxt "Command"
 msgid "Show / Hide"
 msgstr "Göster / Sakla"
@@ -4856,8 +4852,8 @@ msgctxt "DrumPitchNameSetup"
 msgid "Show Default"
 msgstr "Varsayılanları Göster"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
+#: automationediting/automationtrackcomponent.cpp
 msgctxt "Command"
 msgid "Show Device"
 msgstr "Cihazı Göster"
@@ -5123,7 +5119,7 @@ msgctxt "ScratchPad"
 msgid "Song"
 msgstr "Şarkı"
 
-#: musicediting/musictracksoundvariation.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Sound Variation"
 msgstr ""
@@ -5333,13 +5329,13 @@ msgctxt "AudioEditHandler"
 msgid "Tempo: %(1)  Length: %(2)"
 msgstr "Tempo: %(1) Uzunluk: %(2)"
 
-#: audio/recorddiskspaceobserver.cpp
-msgctxt "RecordDiskSpaceObserver"
+#: audio/audiotrackrecorder.cpp
+msgctxt "Record"
 msgid "The drive used for recording is full."
 msgstr "Kayıt için kullanılan sürücü dolu."
 
-#: audio/audiotrackrecorder.cpp
-msgctxt "Record"
+#: audio/recorddiskspaceobserver.cpp
+msgctxt "RecordDiskSpaceObserver"
 msgid "The drive used for recording is full."
 msgstr "Kayıt için kullanılan sürücü dolu."
 
@@ -5410,12 +5406,7 @@ msgstr ""
 "Bu işlem nota veya otomasyon bilgileirni silecektir.\n"
 "Devam etmek istiyormusunuz ?"
 
-#: editing/launcher/launchercellcomponent.cpp
-msgctxt "LauncherCell"
-msgid "Timestretch"
-msgstr ""
-
-#: editing/mediatrackcontroller.cpp
+#: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
 msgid "Timestretch"
 msgstr "Timestretch"
@@ -5513,16 +5504,16 @@ msgstr "Dokun"
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
 #: audioediting/foldertrackaudiobus.cpp editing/editgroupscomponent.cpp
-#: editing/layereditlayer.cpp editing/takelist.cpp
-#: editing/mediatrackcontroller.cpp editing/monitorfollower.cpp
+#: editing/layereditlayer.cpp editing/monitorfollower.cpp editing/takelist.cpp
 #: editing/trackcontroller.cpp editing/tracklayercomponent.cpp
-#: editing/tracklistcomponent.cpp musicediting/musiceditor.cpp
+#: editing/tracklistcomponent.cpp editing/mediatrackcontroller.cpp
+#: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "İz"
 
-#: base/model/rootevent.cpp editing/tracklistinspector.cpp
-#: editing/tracklisteditmodel.cpp
+#: base/model/rootevent.cpp editing/tracklisteditmodel.cpp
+#: editing/tracklistinspector.cpp
 msgctxt "Engine"
 msgid "Track"
 msgstr "İz"
@@ -5596,6 +5587,11 @@ msgstr "Render Edilmiş Ses Dosyasına Dönüştür"
 msgctxt "Command"
 msgid "Transform to Rendered Audio"
 msgstr "Render Edilmiş Ses Dosyasına Dönüştür"
+
+#: editing/mediatrackcontroller.cpp
+msgctxt "MediaTrack"
+msgid "Transformed Track"
+msgstr ""
 
 #: editing/rangeplayer.cpp
 msgctxt "Command"
@@ -5827,13 +5823,13 @@ msgctxt "EditAddIn"
 msgid "Variations"
 msgstr ""
 
-#: musicediting/patterncontrollane.cpp
-msgctxt "MusicPatternPartEditor"
+#: musicediting/musiccontrollane.cpp
+msgctxt "Automation"
 msgid "Velocity"
 msgstr "Hız"
 
-#: musicediting/musiccontrollane.cpp
-msgctxt "Automation"
+#: musicediting/patterncontrollane.cpp
+msgctxt "MusicPatternPartEditor"
 msgid "Velocity"
 msgstr "Hız"
 
@@ -5862,9 +5858,9 @@ msgctxt "Command"
 msgid "Video"
 msgstr "Video"
 
-#: editing/chordeditlayer.cpp editing/arrangereditlayer.cpp
+#: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
 #: editing/trackeditor.cpp editing/tracklistcomponent.cpp
-#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Görünüm"

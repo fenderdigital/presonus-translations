@@ -299,13 +299,13 @@ msgctxt "TransferManager"
 msgid "Failed!"
 msgstr "失败！"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "File Type"
 msgstr "文件类型"
 
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "File Type"
 msgstr "文件类型"
 
@@ -362,7 +362,7 @@ msgstr "安装文件"
 #: packages/unifiedpackageinstaller.cpp
 msgctxt "UnifiedPackageInstaller"
 msgid "Installation failed for %(1)."
-msgstr "安装失败，原因为"
+msgstr "%(1)的安装失败。"
 
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"
@@ -404,13 +404,13 @@ msgctxt "PackageManager"
 msgid "Minimal Installation"
 msgstr "最小安装"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "Name"
 msgstr "名称"
 
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Name"
 msgstr "名称"
 
@@ -619,13 +619,13 @@ msgctxt "Extensions"
 msgid "This file does not have a valid digital signature."
 msgstr "未找到此文件的有效数字签名。"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "Type"
 msgstr "类型"
 
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Type"
 msgstr "类型"
 
@@ -895,3 +895,4 @@ msgstr "您使用的是最新版本。"
 #~ msgctxt "TransferManager"
 #~ msgid "MB/sec"
 #~ msgstr "MB/秒"
+

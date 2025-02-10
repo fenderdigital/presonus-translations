@@ -243,7 +243,7 @@ msgctxt "AppSafetyManager"
 msgid "Block %(1)"
 msgstr "Bloquear %(1)"
 
-#: browser/filesystemnodes.cpp browser/browser.cpp
+#: browser/browser.cpp browser/filesystemnodes.cpp
 msgctxt "Command"
 msgid "Browser"
 msgstr "Explorador"
@@ -293,13 +293,13 @@ msgctxt "PathList"
 msgid "Clear History"
 msgstr "Borrar historial"
 
-#: documents/recentdocuments.cpp
-msgctxt "Documents"
+#: documents/documentmanager.cpp
+msgctxt "Command"
 msgid "Clear Recent Files"
 msgstr "Borrar archivos recientes"
 
-#: documents/documentmanager.cpp
-msgctxt "Command"
+#: documents/recentdocuments.cpp
+msgctxt "Documents"
 msgid "Clear Recent Files"
 msgstr "Borrar archivos recientes"
 
@@ -1158,7 +1158,7 @@ msgctxt "FileInfo"
 msgid "Local"
 msgstr "Local"
 
-#: options/useroption.cpp options/mainoption.cpp
+#: options/mainoption.cpp options/useroption.cpp
 msgctxt "UserOption"
 msgid "Locations"
 msgstr "Ubicaciones"
@@ -1474,7 +1474,7 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr "Preset:"
 
-#: presets/presettrader.cpp presets/presetmanager.cpp presets/presetbrowser.cpp
+#: presets/presettrader.cpp presets/presetbrowser.cpp presets/presetmanager.cpp
 #: presets/presetcomponent.cpp
 msgctxt "Command"
 msgid "Presets"

@@ -424,8 +424,8 @@ msgctxt "AudioMixer"
 msgid "Audio Destinations"
 msgstr ""
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Audio Device"
 msgstr "Audio Cihazı"
@@ -650,11 +650,6 @@ msgctxt "AudioIOSetup"
 msgid "Channel Color"
 msgstr "Kanal Rengi"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Channel Components"
-msgstr "Kanal Komponentleri"
-
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Channel Count"
@@ -786,7 +781,7 @@ msgid "Connected to %(1)."
 msgstr "%(1)' e bağlı."
 
 #: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
-#: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
+#: audiomixer/audiolistenbus.cpp audiomixer/audiofaderswitcher.cpp
 #: audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp
 #: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -937,6 +932,11 @@ msgstr "Cihazları devre dışı bırak"
 msgctxt "ActionDescriptions"
 msgid "Deactivate Output of '%(1)'"
 msgstr "'%(1)'in çıkışını devre dışı bırak"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Decrement Tempo"
+msgstr ""
 
 #: music/musicdeviceauxsetup.cpp
 msgctxt "MusicDevices"
@@ -1119,13 +1119,13 @@ msgctxt "ActionDescriptions"
 msgid "Edit Macro Transformation '%(1)'"
 msgstr "'%(1)' Makro Transformasyonunu Düzenle"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/deviceactions.cpp
+msgctxt "DeviceActions"
 msgid "Edit Multiple Parameters"
 msgstr "Çoklu Parametre Düzenle"
 
-#: base/deviceactions.cpp
-msgctxt "DeviceActions"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr "Çoklu Parametre Düzenle"
 
@@ -1299,11 +1299,6 @@ msgctxt "VideoPlayer"
 msgid "File Not Found"
 msgstr "Dosya Bulunamadı"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Find Channel"
-msgstr ""
-
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Flip Faders"
@@ -1410,22 +1405,12 @@ msgid "Hardware Monitoring"
 msgstr "Donanımsal Dinleme"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Hide"
-msgstr "Sakla"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Hide Channel"
 msgstr "Kanalı Sakla"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
-msgid "Hide Related Channels"
-msgstr "İlgili Kanalları Sakla"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Hide Related Channels"
 msgstr "İlgili Kanalları Sakla"
 
@@ -1482,6 +1467,11 @@ msgstr ""
 #: audiomixer/audioiomanager.cpp
 msgctxt "AudioIOManager"
 msgid "Incomplete"
+msgstr ""
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Increment Tempo"
 msgstr ""
 
 #: base/devicesafety.cpp
@@ -1646,11 +1636,6 @@ msgstr "Düğme"
 msgctxt "AudioIOMatrix"
 msgid "Label"
 msgstr "Etiket"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Large"
-msgstr "Geniş"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -1848,13 +1833,13 @@ msgctxt "Command"
 msgid "Mouse-Over"
 msgstr "Mouse-Over"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Move %(1)"
 msgstr "Taşı %(1)"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Move %(1)"
 msgstr "Taşı %(1)"
 
@@ -1922,11 +1907,6 @@ msgstr "İsim"
 msgctxt "NapState"
 msgid "Napping"
 msgstr ""
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Narrow"
-msgstr "Dar"
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
@@ -2208,13 +2188,13 @@ msgctxt "AudioPanner"
 msgid "Pan View"
 msgstr ""
 
-#: audiomixer/audiosendcomponent.cpp
-msgctxt "AudioSendComponent"
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
 msgid "Panner"
 msgstr ""
 
-#: audiomixer/audiopanner.cpp
-msgctxt "AudioPanner"
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
 msgid "Panner"
 msgstr ""
 
@@ -2488,11 +2468,6 @@ msgctxt "ProcessGraph"
 msgid "Remove"
 msgstr "Kaldır"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove"
-msgstr "Kaldır"
-
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Remove"
@@ -2533,13 +2508,13 @@ msgctxt "SurfaceControl"
 msgid "Remove All"
 msgstr "Hepsini Kaldır"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Remove All %(1)"
 msgstr "Tüm %(1)'i Kaldır"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Remove All %(1)"
 msgstr "Tüm %(1)'i Kaldır"
 
@@ -2552,21 +2527,6 @@ msgstr "%(1). otomasyonu kaldır"
 msgctxt "MixerEditFunctions"
 msgid "Remove Channel"
 msgstr "Kanalı Kaldır"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Remove Channel"
-msgstr "Kanalı Kaldır"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channel"
-msgstr "Kanalı Kaldır"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channels"
-msgstr "Kanalları Kaldır"
 
 #: base/automationhandler.cpp
 msgctxt "Command"
@@ -2642,21 +2602,6 @@ msgstr "%(1)'in adını düzenle"
 msgctxt "Channel"
 msgid "Rename Channel"
 msgstr "Kanalın Adını Değiştir"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Rename Channel"
-msgstr "Kanalın Adını Değiştir"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channel"
-msgstr "Kanalın Adını Değiştir"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channels"
-msgstr "Kanalların Adını Değiştir"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
@@ -3089,39 +3034,9 @@ msgid "Shift Loop Backwards"
 msgstr "Tersine Shift Loop"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show"
-msgstr "Göster"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Audio Device Controls"
-msgstr "Ses Cihazı Ayarlarını Göster"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Show Channel"
 msgstr "Kanal Göster"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Editor"
-msgstr "Kanal Düzenleyiciyi Göster"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Icons"
-msgstr ""
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Notes"
-msgstr "Kanal Notalarını Göster"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Overview"
-msgstr ""
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -3138,31 +3053,6 @@ msgctxt "AudioSendSlot"
 msgid "Show Destination"
 msgstr "Hedefi Göster"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Group Assignment"
-msgstr "Gurup Atamalarını Göster"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show I/O Connections"
-msgstr "Giriş/Çıkış Bağlantılarını Göster"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Input Controls"
-msgstr "Giriş Kontrollerini Göster"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Instrument Editor"
-msgstr "Enstrüman Düzenleyiciyi Göster"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Macro Controls"
-msgstr ""
-
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Show Micro Edit Controls"
@@ -3172,21 +3062,6 @@ msgstr ""
 msgctxt "Command"
 msgid "Show Related Channels"
 msgstr "İlgili Kanalları Göster"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Related Channels"
-msgstr "İlgili Kanalları Göster"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Routing Editor"
-msgstr "Yönlendirme Düzenleyicisini Göster"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Sends/Cue mix"
-msgstr "Sends/Cue Miksleri Göster"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3198,16 +3073,6 @@ msgctxt "Command"
 msgid "Show Track"
 msgstr "Kanalı Göster"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Track"
-msgstr "Kanalı Göster"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show VCA Connections"
-msgstr "VCA bağlantılarını Göster"
-
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Show in Console"
@@ -3215,11 +3080,6 @@ msgstr "Konsolda Göster"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
-msgid "Show in Console"
-msgstr "Konsolda Göster"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Show in Console"
 msgstr "Konsolda Göster"
 
@@ -3277,11 +3137,6 @@ msgstr "Tek Tekrarlayan Perde"
 msgctxt "MicroEditSetup"
 msgid "Slider"
 msgstr ""
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Small"
-msgstr "Küçük"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3605,11 +3460,6 @@ msgctxt "TransportSync"
 msgid "Toggle %(1)"
 msgstr ""
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Detached Console"
-msgstr "Ayrık Konsolu Aç/Kapa"
-
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Toggle Editor"
@@ -3640,20 +3490,10 @@ msgctxt "Command"
 msgid "Toggle Related Channels"
 msgstr "İlgili Kanalları Aç/Kapa"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Size"
-msgstr "Boyutu Aç/Kapa"
-
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Start"
 msgstr "Başlangıçı Aç/Kapa"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Width"
-msgstr "Genişliği Aç/Kapa"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -3811,11 +3651,6 @@ msgctxt "VideoPlayer"
 msgid "Video codec not supported"
 msgstr ""
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "View"
-msgstr "Görünüm"
-
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Visibility only"
@@ -3831,13 +3666,13 @@ msgctxt "CueMixSlot"
 msgid "Volume"
 msgstr "Seviye"
 
-#: audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Volume"
 msgstr "Seviye"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "Seviye"
 
@@ -3866,6 +3701,130 @@ msgstr ""
 "MIDI konfigürasyonunuz değişti. Bunun sebebi çıkartılabilir cihazların bağlı olamaması olabilir.\n"
 "\n"
 "Harici cihazları şimdi tekrar bağlamak istermisiniz?"
+
+#~ msgctxt "Command"
+#~ msgid "Channel Components"
+#~ msgstr "Kanal Komponentleri"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide"
+#~ msgstr "Sakla"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide Related Channels"
+#~ msgstr "İlgili Kanalları Sakla"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Large"
+#~ msgstr "Geniş"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Narrow"
+#~ msgstr "Dar"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove"
+#~ msgstr "Kaldır"
+
+#~ msgctxt "Command"
+#~ msgid "Remove Channel"
+#~ msgstr "Kanalı Kaldır"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channel"
+#~ msgstr "Kanalı Kaldır"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channels"
+#~ msgstr "Kanalları Kaldır"
+
+#~ msgctxt "Command"
+#~ msgid "Rename Channel"
+#~ msgstr "Kanalın Adını Değiştir"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channel"
+#~ msgstr "Kanalın Adını Değiştir"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channels"
+#~ msgstr "Kanalların Adını Değiştir"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show"
+#~ msgstr "Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show Audio Device Controls"
+#~ msgstr "Ses Cihazı Ayarlarını Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Editor"
+#~ msgstr "Kanal Düzenleyiciyi Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Notes"
+#~ msgstr "Kanal Notalarını Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show Group Assignment"
+#~ msgstr "Gurup Atamalarını Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show I/O Connections"
+#~ msgstr "Giriş/Çıkış Bağlantılarını Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show Input Controls"
+#~ msgstr "Giriş Kontrollerini Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show Instrument Editor"
+#~ msgstr "Enstrüman Düzenleyiciyi Göster"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Related Channels"
+#~ msgstr "İlgili Kanalları Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show Routing Editor"
+#~ msgstr "Yönlendirme Düzenleyicisini Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show Sends/Cue mix"
+#~ msgstr "Sends/Cue Miksleri Göster"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Track"
+#~ msgstr "Kanalı Göster"
+
+#~ msgctxt "Command"
+#~ msgid "Show VCA Connections"
+#~ msgstr "VCA bağlantılarını Göster"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show in Console"
+#~ msgstr "Konsolda Göster"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Small"
+#~ msgstr "Küçük"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Detached Console"
+#~ msgstr "Ayrık Konsolu Aç/Kapa"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Size"
+#~ msgstr "Boyutu Aç/Kapa"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Width"
+#~ msgstr "Genişliği Aç/Kapa"
+
+#~ msgctxt "Command"
+#~ msgid "View"
+#~ msgstr "Görünüm"
 
 #~ msgctxt "AudioIOMatrix"
 #~ msgid "External Effect"

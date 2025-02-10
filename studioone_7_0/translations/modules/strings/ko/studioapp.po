@@ -26,11 +26,6 @@ msgstr "$APPNAME Show 템플릿"
 
 #: songdocument.cpp
 msgctxt "FileType"
-msgid "$APPNAME Song"
-msgstr "$APPNAME Song"
-
-#: songdocument.cpp
-msgctxt "FileType"
 msgid "$APPNAME Song Template"
 msgstr "$APPNAME Song 템플릿"
 
@@ -139,13 +134,13 @@ msgctxt "FileType"
 msgid "Audio Files"
 msgstr "오디오 파일"
 
-#: automationhandler.cpp
-msgctxt "Command"
+#: appoptions.cpp
+msgctxt "Options"
 msgid "Automation"
 msgstr "오토메이션"
 
-#: appoptions.cpp
-msgctxt "Options"
+#: automationhandler.cpp
+msgctxt "Command"
 msgid "Automation"
 msgstr "오토메이션"
 
@@ -184,6 +179,11 @@ msgctxt "SystemInfo"
 msgid "CPU Speed"
 msgstr "CPU 속도"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Channel Components"
+msgstr "채널 컴포넌트"
+
 #: sidebar.cpp
 msgctxt "Sidebar"
 msgid "Cloud"
@@ -199,10 +199,20 @@ msgctxt "Options"
 msgid "Console"
 msgstr "콘솔"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Console"
+msgstr "콘솔"
+
 #: sidebar.cpp
 msgctxt "Sidebar"
 msgid "Construction Kits"
 msgstr "컨스트럭션 키트"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Copy Channel Settings"
+msgstr "채널 설정 복사"
 
 #: studioapp.cpp
 msgctxt "Command"
@@ -369,6 +379,11 @@ msgctxt "Sidebar"
 msgid "Files"
 msgstr "파일"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Find Channel"
+msgstr "채널 찾기"
+
 #: studioapp.cpp
 msgctxt "Command"
 msgid "Find Command"
@@ -383,6 +398,16 @@ msgstr "완전한 high-DPI 호환성을 위해 플러그인 업데이트가 필�
 msgctxt "Command"
 msgid "Help"
 msgstr "도움말"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Hide"
+msgstr "숨김"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Hide Related Channels"
+msgstr "관련 채널 숨김"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -433,6 +458,11 @@ msgstr "키"
 msgctxt "Show"
 msgid "Knob"
 msgstr "노브"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Large"
+msgstr "라지"
 
 #: launcherguicomponent.cpp
 msgctxt "Command"
@@ -529,6 +559,11 @@ msgctxt "FileType"
 msgid "Musical Files"
 msgstr "음악 파일"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Narrow"
+msgstr "좁음"
+
 #: documenthandler.cpp
 msgctxt "Command"
 msgid "New"
@@ -614,6 +649,11 @@ msgctxt "Options"
 msgid "Open Last Song/Project/Show"
 msgstr "가장 최근의 Song/Project/Show 열기"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Paste Channel Settings"
+msgstr "채널 설정 붙여넣기"
+
 #: songcontesthandler.cpp
 msgctxt "Multitrack"
 msgid "Please enter your e-mail address."
@@ -654,6 +694,31 @@ msgctxt "StudioApp"
 msgid "Rehearse and Perform"
 msgstr "리허설과 퍼포먼스"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remote"
+msgstr "리모트"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remove"
+msgstr "제거"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remove Channel"
+msgstr "채널 제거"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Remove Channel"
+msgstr "채널 제거"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Remove Channels"
+msgstr "채널 제거"
+
 #: melodyneextension.cpp
 msgctxt "StudioApp"
 msgid "Remove Melodyne"
@@ -674,10 +739,30 @@ msgctxt "StudioApp"
 msgid "Remove VocAlign"
 msgstr "VocAlign 제거"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Rename Channel"
+msgstr "채널 이름 변경"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Rename Channel"
+msgstr "채널 이름 변경"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Rename Channels"
+msgstr "채널 이름 변경"
+
 #: documenthandler.cpp
 msgctxt "Command"
 msgid "Save As Template"
 msgstr "템플릿으로 저장"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Screen"
+msgstr "스크린"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
@@ -709,10 +794,40 @@ msgctxt "Sidebar"
 msgid "Shop"
 msgstr "샵"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show"
+msgstr "표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Audio Device Controls"
+msgstr "오디오 장치 컨트롤 표시"
+
 #: automationhandler.cpp
 msgctxt "AutomationHandler"
 msgid "Show Automation"
 msgstr "오토메이션 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Editor"
+msgstr "채널 에디터 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Icons"
+msgstr "채널 아이콘 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Notes"
+msgstr "채널 노트 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Channel Overview"
+msgstr "채널 오버뷰 표시"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -729,10 +844,30 @@ msgctxt "Command"
 msgid "Show Files"
 msgstr "파일 표시"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Group Assignment"
+msgstr "그룹 할당 표시"
+
 #: sidebar.cpp
 msgctxt "Command"
 msgid "Show Home Page"
 msgstr "홈페이지 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show I/O Connections"
+msgstr "I/O 접속 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Input Controls"
+msgstr "입력 컨트롤 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Instrument Editor"
+msgstr "악기 에디터 표시"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -743,6 +878,11 @@ msgstr "악기 표시"
 msgctxt "Command"
 msgid "Show Loops"
 msgstr "루프 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Macro Controls"
+msgstr "매크로 컨트롤 표시"
 
 #: launcherguicomponent.cpp
 msgctxt "LauncherGui"
@@ -759,6 +899,21 @@ msgctxt "Command"
 msgid "Show Pool"
 msgstr "Pool 표시"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show Related Channels"
+msgstr "관련 채널 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Routing Editor"
+msgstr "라우팅 에디터 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show Sends/Cue mix"
+msgstr "센드/큐 믹스 표시"
+
 #: sidebar.cpp
 msgctxt "Command"
 msgid "Show Shop"
@@ -769,6 +924,16 @@ msgctxt "Command"
 msgid "Show Splice"
 msgstr "Splice 보기"
 
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show Track"
+msgstr "트랙 표시"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Show VCA Connections"
+msgstr "VCA 접속 표시"
+
 #: devicepresetrevealer.cpp
 msgctxt "DevicePresets"
 msgid "Show in Browser"
@@ -778,6 +943,11 @@ msgstr "브라우저에서 보기"
 msgctxt "DevicePresets"
 msgid "Show in Console"
 msgstr "콘솔에서 보기"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Show in Console"
+msgstr "콘솔에 표시"
 
 #: devicepresetrevealer.cpp
 msgctxt "DevicePresets"
@@ -798,6 +968,11 @@ msgstr "Show"
 msgctxt "LauncherGui"
 msgid "Side-by-Side"
 msgstr "사이드바이사이드"
+
+#: studiomixerconsole.cpp
+msgctxt "MixerConsole"
+msgid "Small"
+msgstr "스몰"
 
 #: notionexportcomponent.cpp songdataimporter.cpp
 msgctxt "Command"
@@ -914,6 +1089,11 @@ msgctxt "NotionExportComponent"
 msgid "This computer"
 msgstr "이 컴퓨터"
 
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Toggle Detached Console"
+msgstr "분리된 콘솔 전환"
+
 #: appoptions.cpp
 msgctxt "Command"
 msgid "Toggle No Overlap"
@@ -923,6 +1103,16 @@ msgstr "오버랩 없음으로 전환"
 msgctxt "Command"
 msgid "Toggle Range Tool in upper event area"
 msgstr "이벤트 영역 위쪽 레인지 툴 전환"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Toggle Size"
+msgstr "크기 전환"
+
+#: studiomixerconsole.cpp
+msgctxt "Command"
+msgid "Toggle Width"
+msgstr "폭 전환"
 
 #: appoptions.cpp
 msgctxt "Command"
@@ -970,6 +1160,7 @@ msgid "Video Player"
 msgstr "비디오 플레이어"
 
 #: appfeatures.cpp documenthandler.cpp launcherguicomponent.cpp
+#: studiomixerconsole.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "보기"
@@ -979,6 +1170,10 @@ msgctxt "StudioApp"
 msgid "Workspace"
 msgstr "워크스페이스"
 
+#~ msgctxt "FileType"
+#~ msgid "$APPNAME Song"
+#~ msgstr "$APPNAME Song"
+
 #~ msgctxt "StudioAppInstallation"
 #~ msgid "$CLOUDNAME Content"
 #~ msgstr "$CLOUDNAME 콘텐츠"
@@ -986,3 +1181,4 @@ msgstr "워크스페이스"
 #~ msgctxt "Command"
 #~ msgid "Lyrics"
 #~ msgstr "가사"
+

@@ -46,23 +46,13 @@ msgstr "전체 %(2) 중의 %(1)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
-msgstr ""
-"%(1)에서 %(2) 블록사이즈를 필요로 합니다.\n"
-"오디오 장치에서 이 값을 지원하지 않습니다.\n"
-"가능한 경우 다른 오디오 장치를 선택하십시오."
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1)에서 %(2) 블록사이즈를 필요로 합니다.\n오디오 장치에서 이 값을 지원하지 않습니다.\n가능한 경우 다른 오디오 장치를 선택하십시오."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
-msgstr ""
-"%(1)에서 %(2) 샘플레이트를 필요로 합니다.\n"
-"가능한 경우 샘플레이트를 변경하십시오."
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1)에서 %(2) 샘플레이트를 필요로 합니다.\n가능한 경우 샘플레이트를 변경하십시오."
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -172,7 +162,7 @@ msgstr "'%(1)'의 출력 활성화"
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Active"
-msgstr "켜짐"
+msgstr "액티브"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
@@ -429,8 +419,8 @@ msgctxt "AudioMixer"
 msgid "Audio Destinations"
 msgstr "오디오 데스티네이션"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Audio Device"
 msgstr "오디오 장치"
@@ -655,11 +645,6 @@ msgctxt "AudioIOSetup"
 msgid "Channel Color"
 msgstr "채널 컬러"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Channel Components"
-msgstr "채널 컴포넌트"
-
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Channel Count"
@@ -773,7 +758,7 @@ msgstr "구성"
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Connect \"%(1)\" to %(2) Control"
-msgstr "\"%(1)\"의 인스턴스는 이미 동작중입니다."
+msgstr "\"%(1)\"(을)를 %(2)의 매크로컨트롤에 접속"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
@@ -791,7 +776,7 @@ msgid "Connected to %(1)."
 msgstr "%(1)에 접속됨."
 
 #: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
-#: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
+#: audiomixer/audiolistenbus.cpp audiomixer/audiofaderswitcher.cpp
 #: audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp
 #: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -942,6 +927,11 @@ msgstr "장치 활성화 해제"
 msgctxt "ActionDescriptions"
 msgid "Deactivate Output of '%(1)'"
 msgstr "'%(1)'의 출력 활성화 해제"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Decrement Tempo"
+msgstr "템포 감소"
 
 #: music/musicdeviceauxsetup.cpp
 msgctxt "MusicDevices"
@@ -1124,13 +1114,13 @@ msgctxt "ActionDescriptions"
 msgid "Edit Macro Transformation '%(1)'"
 msgstr "매크로 변형 '%(1)' 편집"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/deviceactions.cpp
+msgctxt "DeviceActions"
 msgid "Edit Multiple Parameters"
 msgstr "멀티 파라미터 편집"
 
-#: base/deviceactions.cpp
-msgctxt "DeviceActions"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
 msgstr "멀티 파라미터 편집"
 
@@ -1304,11 +1294,6 @@ msgctxt "VideoPlayer"
 msgid "File Not Found"
 msgstr "파일을 찾을 수 없습니다."
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Find Channel"
-msgstr "채널 찾기"
-
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Flip Faders"
@@ -1415,22 +1400,12 @@ msgid "Hardware Monitoring"
 msgstr "하드웨어 모니터링"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Hide"
-msgstr "숨김"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Hide Channel"
 msgstr "채널 숨김"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
-msgid "Hide Related Channels"
-msgstr "관련 채널 숨김"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Hide Related Channels"
 msgstr "관련 채널 숨김"
 
@@ -1488,6 +1463,11 @@ msgstr "불완전"
 msgctxt "AudioIOManager"
 msgid "Incomplete"
 msgstr "불완전"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Increment Tempo"
+msgstr "템포 증가"
 
 #: base/devicesafety.cpp
 msgctxt "DeviceSafety"
@@ -1651,11 +1631,6 @@ msgstr "노브"
 msgctxt "AudioIOMatrix"
 msgid "Label"
 msgstr "레이블"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Large"
-msgstr "라지"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -1853,13 +1828,13 @@ msgctxt "Command"
 msgid "Mouse-Over"
 msgstr "마우스 오버"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Move %(1)"
 msgstr "%(1) 이동"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Move %(1)"
 msgstr "%(1) 이동"
 
@@ -1927,11 +1902,6 @@ msgstr "이름"
 msgctxt "NapState"
 msgid "Napping"
 msgstr "잠자는 중"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Narrow"
-msgstr "좁음"
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
@@ -2213,13 +2183,13 @@ msgctxt "AudioPanner"
 msgid "Pan View"
 msgstr "팬 뷰"
 
-#: audiomixer/audiosendcomponent.cpp
-msgctxt "AudioSendComponent"
+#: audiomixer/audiopanner.cpp
+msgctxt "AudioPanner"
 msgid "Panner"
 msgstr "패너"
 
-#: audiomixer/audiopanner.cpp
-msgctxt "AudioPanner"
+#: audiomixer/audiosendcomponent.cpp
+msgctxt "AudioSendComponent"
 msgid "Panner"
 msgstr "패너"
 
@@ -2493,11 +2463,6 @@ msgctxt "ProcessGraph"
 msgid "Remove"
 msgstr "제거"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove"
-msgstr "제거"
-
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Remove"
@@ -2538,13 +2503,13 @@ msgctxt "SurfaceControl"
 msgid "Remove All"
 msgstr "모두 제거"
 
-#: base/devicefolder.cpp
-msgctxt "DeviceFolder"
+#: base/deviceeditfunctions.cpp
+msgctxt "ActionDescriptions"
 msgid "Remove All %(1)"
 msgstr "모든 %(1) 제거"
 
-#: base/deviceeditfunctions.cpp
-msgctxt "ActionDescriptions"
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Remove All %(1)"
 msgstr "모든 %(1) 제거"
 
@@ -2556,21 +2521,6 @@ msgstr "\"%(1)\" 오토메이션 제거"
 #: mixer/mixereditfunctions.cpp
 msgctxt "MixerEditFunctions"
 msgid "Remove Channel"
-msgstr "채널 제거"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Remove Channel"
-msgstr "채널 제거"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channel"
-msgstr "채널 제거"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Remove Channels"
 msgstr "채널 제거"
 
 #: base/automationhandler.cpp
@@ -2646,21 +2596,6 @@ msgstr "%(1) 이름 변경"
 #: mixer/channel.cpp
 msgctxt "Channel"
 msgid "Rename Channel"
-msgstr "채널 이름 변경"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Rename Channel"
-msgstr "채널 이름 변경"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channel"
-msgstr "채널 이름 변경"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Rename Channels"
 msgstr "채널 이름 변경"
 
 #: base/devicefolder.cpp
@@ -3094,39 +3029,9 @@ msgid "Shift Loop Backwards"
 msgstr "루프를 뒤쪽으로 시프트"
 
 #: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show"
-msgstr "표시"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Audio Device Controls"
-msgstr "오디오 장치 컨트롤 표시"
-
-#: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Show Channel"
 msgstr "채널 표시"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Editor"
-msgstr "채널 에디터 표시"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Icons"
-msgstr "채널 아이콘 표시"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Channel Notes"
-msgstr "채널 노트 표시"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Channel Overview"
-msgstr "채널 오버뷰 표시"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -3143,31 +3048,6 @@ msgctxt "AudioSendSlot"
 msgid "Show Destination"
 msgstr "데스티네이션 표시"
 
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Group Assignment"
-msgstr "그룹 할당 표시"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show I/O Connections"
-msgstr "I/O 접속 표시"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Input Controls"
-msgstr "입력 컨트롤 표시"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Instrument Editor"
-msgstr "악기 에디터 표시"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Macro Controls"
-msgstr "매크로 컨트롤 표시"
-
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Show Micro Edit Controls"
@@ -3177,21 +3057,6 @@ msgstr "마이크로 에디트 컨트롤 표시"
 msgctxt "Command"
 msgid "Show Related Channels"
 msgstr "관련 채널 표시"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Related Channels"
-msgstr "관련 채널 표시"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Show Routing Editor"
-msgstr "라우팅 에디터 표시"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show Sends/Cue mix"
-msgstr "센드/큐 믹스 표시"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3203,16 +3068,6 @@ msgctxt "Command"
 msgid "Show Track"
 msgstr "트랙 표시"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Show Track"
-msgstr "트랙 표시"
-
-#: mixerconsole/channelguicomponent.cpp
-msgctxt "Command"
-msgid "Show VCA Connections"
-msgstr "VCA 접속 표시"
-
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Show in Console"
@@ -3220,11 +3075,6 @@ msgstr "콘솔에서 보기"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
-msgid "Show in Console"
-msgstr "콘솔에서 보기"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
 msgid "Show in Console"
 msgstr "콘솔에서 보기"
 
@@ -3282,11 +3132,6 @@ msgstr "싱글 반복 피치"
 msgctxt "MicroEditSetup"
 msgid "Slider"
 msgstr "슬라이더:"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "MixerConsole"
-msgid "Small"
-msgstr "스몰"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3545,9 +3390,7 @@ msgstr "오디오 장치 %(1)(은)는 이전에 정상적으로 작동하지 않
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
 msgstr "현재 사용 중인 오디오 장치에는 아웃풋 채널 수가 충분치 않습니다. 그래도 진행하시겠습니까?"
 
 #: audio/watchdogcomponent.cpp
@@ -3610,11 +3453,6 @@ msgctxt "TransportSync"
 msgid "Toggle %(1)"
 msgstr "%(1) 전환"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Detached Console"
-msgstr "분리된 콘솔 전환"
-
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Toggle Editor"
@@ -3645,20 +3483,10 @@ msgctxt "Command"
 msgid "Toggle Related Channels"
 msgstr "관련 채널 전환"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Size"
-msgstr "크기 전환"
-
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Start"
 msgstr "스타트 전환"
-
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "Toggle Width"
-msgstr "폭 전환"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -3816,11 +3644,6 @@ msgctxt "VideoPlayer"
 msgid "Video codec not supported"
 msgstr "지원되지 않는 비디오 코덱"
 
-#: mixerconsole/mixerconsole.cpp
-msgctxt "Command"
-msgid "View"
-msgstr "보기"
-
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Visibility only"
@@ -3836,13 +3659,13 @@ msgctxt "CueMixSlot"
 msgid "Volume"
 msgstr "볼륨"
 
-#: audiomixer/audiofaderswitcher.cpp
-msgctxt "FaderFlip"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Volume"
 msgstr "볼륨"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/audiofaderswitcher.cpp
+msgctxt "FaderFlip"
 msgid "Volume"
 msgstr "볼륨"
 
@@ -3863,14 +3686,148 @@ msgstr "쓰기"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"MIDI 환경설정이 변경되었습니다. 최근 연결이 해제된 장치에 기인하는 변경일 가능성이 있습니다.\n"
-"\n"
-"외장 장치를 지금 다시 연결하시겠습니까?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "MIDI 환경설정이 변경되었습니다. 최근 연결이 해제된 장치에 기인하는 변경일 가능성이 있습니다.\n\n외장 장치를 지금 다시 연결하시겠습니까?"
+
+#~ msgctxt "Command"
+#~ msgid "Channel Components"
+#~ msgstr "채널 컴포넌트"
+
+#~ msgctxt "Command"
+#~ msgid "Find Channel"
+#~ msgstr "채널 찾기"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide"
+#~ msgstr "숨김"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Hide Related Channels"
+#~ msgstr "관련 채널 숨김"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Large"
+#~ msgstr "라지"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Narrow"
+#~ msgstr "좁음"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove"
+#~ msgstr "제거"
+
+#~ msgctxt "Command"
+#~ msgid "Remove Channel"
+#~ msgstr "채널 제거"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channel"
+#~ msgstr "채널 제거"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Remove Channels"
+#~ msgstr "채널 제거"
+
+#~ msgctxt "Command"
+#~ msgid "Rename Channel"
+#~ msgstr "채널 이름 변경"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channel"
+#~ msgstr "채널 이름 변경"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Rename Channels"
+#~ msgstr "채널 이름 변경"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show"
+#~ msgstr "표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Audio Device Controls"
+#~ msgstr "오디오 장치 컨트롤 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Editor"
+#~ msgstr "채널 에디터 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Icons"
+#~ msgstr "채널 아이콘 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Notes"
+#~ msgstr "채널 노트 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Channel Overview"
+#~ msgstr "채널 오버뷰 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Group Assignment"
+#~ msgstr "그룹 할당 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show I/O Connections"
+#~ msgstr "I/O 접속 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Input Controls"
+#~ msgstr "입력 컨트롤 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Instrument Editor"
+#~ msgstr "악기 에디터 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Macro Controls"
+#~ msgstr "매크로 컨트롤 표시"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Related Channels"
+#~ msgstr "관련 채널 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Routing Editor"
+#~ msgstr "라우팅 에디터 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show Sends/Cue mix"
+#~ msgstr "센드/큐 믹스 표시"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show Track"
+#~ msgstr "트랙 표시"
+
+#~ msgctxt "Command"
+#~ msgid "Show VCA Connections"
+#~ msgstr "VCA 접속 표시"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Show in Console"
+#~ msgstr "콘솔에서 보기"
+
+#~ msgctxt "MixerConsole"
+#~ msgid "Small"
+#~ msgstr "스몰"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Detached Console"
+#~ msgstr "분리된 콘솔 전환"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Size"
+#~ msgstr "크기 전환"
+
+#~ msgctxt "Command"
+#~ msgid "Toggle Width"
+#~ msgstr "폭 전환"
+
+#~ msgctxt "Command"
+#~ msgid "View"
+#~ msgstr "보기"
 
 #~ msgctxt "AudioIOMatrix"
 #~ msgid "External Effect"
@@ -3887,3 +3844,4 @@ msgstr ""
 #~ msgctxt "Command"
 #~ msgid "Delete"
 #~ msgstr "삭제"
+

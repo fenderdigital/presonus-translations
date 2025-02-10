@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "Czcionka bitmapowa"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "Anuluj"
 
@@ -244,13 +244,13 @@ msgctxt "Command"
 msgid "End Skip"
 msgstr "Na koniec bez zaznaczenia"
 
-#: keyevent.cpp
-msgctxt "VirtualKey"
+#: views/focusnavigator.cpp
+msgctxt "Command"
 msgid "Enter"
 msgstr "Enter"
 
-#: views/focusnavigator.cpp
-msgctxt "Command"
+#: keyevent.cpp
+msgctxt "VirtualKey"
 msgid "Enter"
 msgstr "Enter"
 
@@ -471,8 +471,12 @@ msgstr "Plik JPEG"
 
 #: dialogs/commandeditor.cpp
 msgctxt "CommandEditor"
-msgid "Key is already assigned to:\n%(1)"
-msgstr "Klawisz jest już przypisany do:\n%(1)"
+msgid ""
+"Key is already assigned to:\n"
+"%(1)"
+msgstr ""
+"Klawisz jest już przypisany do:\n"
+"%(1)"
 
 #: commands.cpp
 msgctxt "FileType"
@@ -654,15 +658,25 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "NumPad9"
 
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
+msgid "OK"
+msgstr "OK"
+
 #: dialogs/alert.cpp
 msgctxt "Alert"
 msgid "OK"
 msgstr "OK"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
-msgid "OK"
-msgstr "OK"
+#: system/accessibility.cpp
+msgctxt "Accessibility"
+msgid "Off"
+msgstr ""
+
+#: system/accessibility.cpp
+msgctxt "Accessibility"
+msgid "On"
+msgstr ""
 
 #: keyevent.cpp
 msgctxt "VirtualKey"
@@ -1027,4 +1041,3 @@ msgstr "~"
 #~ msgctxt "CommandBar"
 #~ msgid "Assign Command..."
 #~ msgstr "Przypisz polecenie..."
-

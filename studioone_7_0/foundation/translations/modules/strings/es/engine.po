@@ -185,7 +185,7 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Add Automation"
 msgstr "Agregar automatización"
 
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Add Automation Lane"
 msgstr "Agregar carril de automatización"
@@ -326,13 +326,13 @@ msgctxt "Command"
 msgid "Add Scene to Playlist"
 msgstr "Añadir escena a la lista de reproducción"
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Add Scratch Pad"
 msgstr "Agregar Scratch Pad"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Add Scratch Pad"
 msgstr "Agregar Scratch Pad"
 
@@ -568,25 +568,13 @@ msgstr "Aprobar tempo"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid ""
-"Are you sure you want to delete all attachments of this clip?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"Está seguro que desea borrar todos los adjuntos de este clip?\n"
-"\n"
-"Esta acción no puede deshacerse."
+msgid "Are you sure you want to delete all attachments of this clip?\n\nThis action can not be undone."
+msgstr "Está seguro que desea borrar todos los adjuntos de este clip?\n\nEsta acción no puede deshacerse."
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
-msgid ""
-"Are you sure you want to delete all attachments of this version?\n"
-"\n"
-"This action can not be undone."
-msgstr ""
-"¿Está seguro de que quiere borrar todos los adjuntos de esta versión?\n"
-"\n"
-"Esta acción no se puede deshacer."
+msgid "Are you sure you want to delete all attachments of this version?\n\nThis action can not be undone."
+msgstr "¿Está seguro de que quiere borrar todos los adjuntos de esta versión?\n\nEsta acción no se puede deshacer."
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -598,7 +586,7 @@ msgctxt "GlobalTrack"
 msgid "Arranger"
 msgstr "Arreglador"
 
-#: editing/arrangerplaybackhandler.cpp editing/arrangereditlayer.cpp
+#: editing/arrangereditlayer.cpp editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Arranger"
 msgstr "Arreglador"
@@ -678,10 +666,10 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Automation"
 msgstr "Automatización"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
-#: musicediting/musiceditor.cpp
+#: automationediting/automationtrackcomponent.cpp
+#: musicediting/musiccontrollane.cpp musicediting/musiceditor.cpp
+#: musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Automation"
 msgstr "Automatización"
@@ -725,6 +713,11 @@ msgstr "Bounce (Selección)"
 msgctxt "AudioEdit"
 msgid "Bounce To New Track"
 msgstr "Bounce a nueva pista"
+
+#: application/audioedit/audiobouncetask.cpp
+msgctxt "AudioEdit"
+msgid "Bounce To New Track (Keep Speaker Format)"
+msgstr "Volcar a pista nueva (mantener formato de altavoz)"
 
 #: base/model/arrangertrack.cpp
 msgctxt "ArrangerSections"
@@ -1116,7 +1109,7 @@ msgctxt "Command"
 msgid "Copy Loop Range to Scratch Pad"
 msgstr "Copiar rango de Loop a Scratch Pad"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Copy Loop Range to new Scratch Pad"
 msgstr "Copiar rango de Loop a nuevo Scratch Pad"
@@ -1131,7 +1124,7 @@ msgctxt "Command"
 msgid "Copy Pattern"
 msgstr "Copiar patrón"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Copy to new Scratch Pad"
 msgstr "Copiar a nuevo Scratch Pad"
@@ -1158,19 +1151,15 @@ msgstr "Crear \"%(1)\" Automatización"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Create \"%(1)\" Automation\n"
-"on %(2)"
-msgstr ""
-"Crear \"%(1)\" automatización\n"
-"on %(2)"
+msgid "Create \"%(1)\" Automation\non %(2)"
+msgstr "Crear \"%(1)\" automatización\non %(2)"
 
 #: musicediting/partautomationdraghandler.cpp
 msgctxt "Automation"
 msgid "Create \"%(1)\" Part Automation"
 msgstr "Crear \"%(1)\" automatización de parte"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Create Arranger Sections from Markers"
 msgstr "Crear secciones de arreglador desde marcadores"
@@ -1205,7 +1194,7 @@ msgctxt "AudioEdit"
 msgid "Create Crossfades"
 msgstr "Crear fundidos cruzados"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Create Markers from Arranger Sections"
 msgstr "Crear marcadores desde secciones de arreglador Sections"
@@ -1306,13 +1295,13 @@ msgctxt "Command"
 msgid "Delete Range"
 msgstr "Eliminar rango"
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Delete Scratch Pad"
 msgstr "Borrar Scratch Pad"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Delete Scratch Pad"
 msgstr "Borrar Scratch Pad"
 
@@ -1491,12 +1480,7 @@ msgctxt "SynthDrag"
 msgid "Do you want to replace the instrument %(1)?"
 msgstr "Desea reemplazar el instrumento %(1)?"
 
-#: editing/launcher/launchercellcomponent.cpp
-msgctxt "LauncherCell"
-msgid "Don't follow"
-msgstr "No seguir"
-
-#: editing/mediatrackcontroller.cpp
+#: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
 msgid "Don't follow"
 msgstr "No seguir"
@@ -1561,7 +1545,7 @@ msgctxt "MusicPatternClip"
 msgid "Drum Pattern"
 msgstr "Patrón de batería"
 
-#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Drum View"
 msgstr "Vista de la batería"
@@ -1648,13 +1632,13 @@ msgctxt "LauncherFunctions"
 msgid "Duplicate Scene Playlist Items"
 msgstr "Duplicar elementos de lista de reproducción de escenas"
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Duplicate Scratch Pad"
 msgstr "Duplicar Scratch Pad"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Duplicate Scratch Pad"
 msgstr "Duplicar Scratch Pad"
 
@@ -1703,11 +1687,12 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "Duplicar variación"
 
-#: audioediting/audiobendeditlayer.cpp editing/trackchannelnamefilter.cpp
-#: editing/trackvisibilityhandler.cpp editing/chordeditlayer.cpp
-#: editing/eventsnapper.cpp editing/launcher/launchercomponent.cpp
+#: audioediting/audiobendeditlayer.cpp editing/trackvisibilityhandler.cpp
+#: editing/chordeditlayer.cpp editing/eventsnapper.cpp
+#: editing/launcher/launchercomponent.cpp
 #: editing/launcher/launcherplaylistcomponent.cpp
-#: editing/tracklistcomponent.cpp musicediting/patterneditcomponent.cpp
+#: editing/trackchannelnamefilter.cpp editing/tracklistcomponent.cpp
+#: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Editar"
@@ -2062,12 +2047,7 @@ msgctxt "PoolBrowser"
 msgid "Flat"
 msgstr "Plano"
 
-#: editing/launcher/launchercellcomponent.cpp
-msgctxt "LauncherCell"
-msgid "Follow"
-msgstr "Seguir"
-
-#: editing/mediatrackcontroller.cpp
+#: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
 msgid "Follow"
 msgstr "Seguir"
@@ -2577,13 +2557,13 @@ msgctxt "Launcher"
 msgid "Insert on Same Scene"
 msgstr "Insertar en la misma Escena"
 
-#: editing/launcher/launcherdraghandler.cpp
-msgctxt "Launcher"
+#: editing/eventdraghandler.cpp
+msgctxt "Edit"
 msgid "Insert on Same Track"
 msgstr "Insertar en la misma pista"
 
-#: editing/eventdraghandler.cpp
-msgctxt "Edit"
+#: editing/launcher/launcherdraghandler.cpp
+msgctxt "Launcher"
 msgid "Insert on Same Track"
 msgstr "Insertar en la misma pista"
 
@@ -2652,8 +2632,8 @@ msgctxt "Command"
 msgid "Launch Cells"
 msgstr "Lanzar celdas"
 
-#: editing/launcher/launchereditmodel.cpp
 #: editing/launcher/launchercomponent.cpp
+#: editing/launcher/launchereditmodel.cpp
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Launcher"
@@ -2889,9 +2869,9 @@ msgctxt "Engine"
 msgid "Lyrics Track"
 msgstr "Pista de la letra de la canción"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
+#: automationediting/automationtrackcomponent.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Manage Parameters"
 msgstr "Gestionar parámetros"
@@ -3063,28 +3043,20 @@ msgstr "Mover \"%(1)\" Automatización"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Move \"%(1)\" Automation\n"
-"from %(3) to %(2)"
-msgstr ""
-"Mover \"%(1)\" automatización\n"
-"from %(3) a %(2)"
+msgid "Move \"%(1)\" Automation\nfrom %(3) to %(2)"
+msgstr "Mover \"%(1)\" automatización\nfrom %(3) a %(2)"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
-msgid ""
-"Move \"%(1)\" Automation\n"
-"to %(2)"
-msgstr ""
-"Mover \"%(1)\" automatización\n"
-"to %(2)"
+msgid "Move \"%(1)\" Automation\nto %(2)"
+msgstr "Mover \"%(1)\" automatización\nto %(2)"
 
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
 msgid "Move '%(1)' to '%(2)'"
 msgstr "Mover '%(1)' a '%(2)'"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Move Arranger Section only"
 msgstr "Mover sección de arreglos solamente"
@@ -3214,7 +3186,7 @@ msgctxt "TrackDragHandler"
 msgid "Move not possible"
 msgstr "No es posible mover"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Move to new Scratch Pad"
 msgstr "Mover a nuevo Scratch Pad"
@@ -3274,8 +3246,8 @@ msgctxt "MediaTrack"
 msgid "Narrow"
 msgstr "Angosta"
 
-#: application/eventedit/chordinspectoraddin.cpp
-#: editing/launcher/launchercomponent.cpp editing/eventeditmodel.cpp
+#: application/eventedit/chordinspectoraddin.cpp editing/eventeditmodel.cpp
+#: editing/launcher/launchercomponent.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "Navegación"
@@ -3420,13 +3392,13 @@ msgctxt "Command"
 msgid "Note Erase"
 msgstr "Borrar nota"
 
-#: editing/launcher/launchercomponent.cpp
-msgctxt "Command"
+#: editing/eventeditmodel.cpp
+msgctxt "Events"
 msgid "Nudge"
 msgstr "Desplazar"
 
-#: editing/eventeditmodel.cpp
-msgctxt "Events"
+#: editing/launcher/launchercomponent.cpp
+msgctxt "Command"
 msgid "Nudge"
 msgstr "Desplazar"
 
@@ -3565,8 +3537,8 @@ msgctxt "PoolBrowser"
 msgid "Path"
 msgstr "Camino"
 
-#: musicediting/patternbankcomponent.cpp musicediting/patterneditcomponent.cpp
-#: musicediting/musiceditextension.cpp
+#: musicediting/musiceditextension.cpp musicediting/patternbankcomponent.cpp
+#: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Pattern"
 msgstr "Patrón"
@@ -3586,7 +3558,7 @@ msgctxt "AudioScale"
 msgid "Percent"
 msgstr "Porcentaje"
 
-#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Piano View"
 msgstr "Vista de piano"
@@ -3701,11 +3673,6 @@ msgctxt "AudioEdit"
 msgid "Quantize"
 msgstr "Cuantizar"
 
-#: editing/lyricstrackcomponent.cpp
-msgctxt "Command"
-msgid "Quantize"
-msgstr "Cuantizar"
-
 #: editing/quantizepanel.h
 msgctxt "EditAddIn"
 msgid "Quantize"
@@ -3713,6 +3680,11 @@ msgstr "Cuantizar"
 
 #: editing/eventeditmodel.cpp
 msgctxt "Events"
+msgid "Quantize"
+msgstr "Cuantizar"
+
+#: editing/lyricstrackcomponent.cpp
+msgctxt "Command"
 msgid "Quantize"
 msgstr "Cuantizar"
 
@@ -3916,8 +3888,8 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Reduce Automation"
 msgstr "Reducir automatización"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
+#: automationediting/automationtrackcomponent.cpp
 msgctxt "Command"
 msgid "Remove"
 msgstr "Quitar"
@@ -3972,7 +3944,7 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Remove Automation"
 msgstr "Quitar automatización"
 
-#: musicediting/patterncontrollane.cpp musicediting/musiccontrollane.cpp
+#: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Remove Automation Lane"
 msgstr "Remover carril de automatización"
@@ -4217,13 +4189,13 @@ msgctxt "LauncherFunctions"
 msgid "Rename Scene Playlist"
 msgstr "Renombrar Lista de reproducción de Escenas"
 
-#: editing/scratchpadcomponent.cpp
-msgctxt "Command"
+#: base/model/scratchpadfunctions.cpp
+msgctxt "ScratchPad"
 msgid "Rename Scratch Pad"
 msgstr "Renombrar Scratch Pad"
 
-#: editing/scratchpadfunctions.cpp
-msgctxt "ScratchPad"
+#: editing/scratchpadcomponent.cpp
+msgctxt "Command"
 msgid "Rename Scratch Pad"
 msgstr "Renombrar Scratch Pad"
 
@@ -4287,15 +4259,15 @@ msgctxt "EventEditHandler"
 msgid "Repeats: %(1)"
 msgstr "Repeticiones: %(1)"
 
+#: base/model/arrangerfunctions.cpp
+msgctxt "Edit"
+msgid "Replace"
+msgstr "Reemplazar"
+
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
 msgid "Replace"
 msgstr "Sustituir"
-
-#: editing/arrangerfunctions.cpp
-msgctxt "Edit"
-msgid "Replace"
-msgstr "Reemplazar"
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
@@ -4312,7 +4284,7 @@ msgctxt "AudioFX"
 msgid "Replace FX preset on %(1):"
 msgstr "Sustituir preset FX en %(1):"
 
-#: editing/arrangerfunctions.cpp
+#: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
 msgid "Replace Partially"
 msgstr "Reemplazar parcialmente"
@@ -4782,8 +4754,8 @@ msgctxt "Engine:AudioEnvelopeActions"
 msgid "Show %(1) Envelope"
 msgstr "Mostrar envolvente de %(1)"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
+#: automationediting/automationtrackcomponent.cpp
 msgctxt "Command"
 msgid "Show / Hide"
 msgstr "Mostrar / Ocultar"
@@ -4858,8 +4830,8 @@ msgctxt "DrumPitchNameSetup"
 msgid "Show Default"
 msgstr "Mostrar por defecto"
 
-#: automationediting/automationtrackcomponent.cpp
 #: automationediting/automationtracklistcomponent.cpp
+#: automationediting/automationtrackcomponent.cpp
 msgctxt "Command"
 msgid "Show Device"
 msgstr "Mostrar dispositivo"
@@ -5125,7 +5097,7 @@ msgctxt "ScratchPad"
 msgid "Song"
 msgstr "Canción"
 
-#: musicediting/musictracksoundvariation.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Sound Variation"
 msgstr "Variación de sonido"
@@ -5335,13 +5307,13 @@ msgctxt "AudioEditHandler"
 msgid "Tempo: %(1)  Length: %(2)"
 msgstr "Tempo: %(1)  Longitud: %(2)"
 
-#: audio/recorddiskspaceobserver.cpp
-msgctxt "RecordDiskSpaceObserver"
+#: audio/audiotrackrecorder.cpp
+msgctxt "Record"
 msgid "The drive used for recording is full."
 msgstr "El disco utilizado para la grabación esta lleno."
 
-#: audio/audiotrackrecorder.cpp
-msgctxt "Record"
+#: audio/recorddiskspaceobserver.cpp
+msgctxt "RecordDiskSpaceObserver"
 msgid "The drive used for recording is full."
 msgstr "El disco utilizado para la grabación esta lleno."
 
@@ -5352,16 +5324,8 @@ msgstr "El formato de este archivo no es soportado."
 
 #: base/rootsetup.cpp
 msgctxt "RootSetup"
-msgid ""
-"The sample rate does not match your audio device configuration.\n"
-"\n"
-"The rate you set: %(1)\n"
-"The rate the device has: %(2)"
-msgstr ""
-"La frecuencia de muestreo no coincide con la configuración de su dispositivo de audio.\n"
-"\n"
-"La frecuencia establecida: %(1)\n"
-"La frecuencia del dispositivo: %(2)"
+msgid "The sample rate does not match your audio device configuration.\n\nThe rate you set: %(1)\nThe rate the device has: %(2)"
+msgstr "La frecuencia de muestreo no coincide con la configuración de su dispositivo de audio.\n\nLa frecuencia establecida: %(1)\nLa frecuencia del dispositivo: %(2)"
 
 #: music/musictrackinfo.cpp
 msgctxt "Engine"
@@ -5405,19 +5369,10 @@ msgstr "Este archivo no pudo ser importado:"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
-msgid ""
-"This will delete notes or automation data.\n"
-"Do you want to continue?"
-msgstr ""
-"Esto eliminará notas o datos de automatización.\n"
-"¿Quiere continuar?"
+msgid "This will delete notes or automation data.\nDo you want to continue?"
+msgstr "Esto eliminará notas o datos de automatización.\n¿Quiere continuar?"
 
-#: editing/launcher/launchercellcomponent.cpp
-msgctxt "LauncherCell"
-msgid "Timestretch"
-msgstr "Estiramiento temporal"
-
-#: editing/mediatrackcontroller.cpp
+#: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
 msgid "Timestretch"
 msgstr "Timestretch"
@@ -5515,16 +5470,16 @@ msgstr "Tocar"
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
 #: audioediting/foldertrackaudiobus.cpp editing/editgroupscomponent.cpp
-#: editing/layereditlayer.cpp editing/takelist.cpp
-#: editing/mediatrackcontroller.cpp editing/monitorfollower.cpp
+#: editing/layereditlayer.cpp editing/monitorfollower.cpp editing/takelist.cpp
 #: editing/trackcontroller.cpp editing/tracklayercomponent.cpp
-#: editing/tracklistcomponent.cpp musicediting/musiceditor.cpp
+#: editing/tracklistcomponent.cpp editing/mediatrackcontroller.cpp
+#: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "Pista"
 
-#: base/model/rootevent.cpp editing/tracklistinspector.cpp
-#: editing/tracklisteditmodel.cpp
+#: base/model/rootevent.cpp editing/tracklisteditmodel.cpp
+#: editing/tracklistinspector.cpp
 msgctxt "Engine"
 msgid "Track"
 msgstr "Pista"
@@ -5598,6 +5553,11 @@ msgstr "Transformar a audio renderizado"
 msgctxt "Command"
 msgid "Transform to Rendered Audio"
 msgstr "Transformar a audio renderizado"
+
+#: editing/mediatrackcontroller.cpp
+msgctxt "MediaTrack"
+msgid "Transformed Track"
+msgstr "Pista transformada"
 
 #: editing/rangeplayer.cpp
 msgctxt "Command"
@@ -5829,13 +5789,13 @@ msgctxt "EditAddIn"
 msgid "Variations"
 msgstr "Variaciones"
 
-#: musicediting/patterncontrollane.cpp
-msgctxt "MusicPatternPartEditor"
+#: musicediting/musiccontrollane.cpp
+msgctxt "Automation"
 msgid "Velocity"
 msgstr "Velocidad"
 
-#: musicediting/musiccontrollane.cpp
-msgctxt "Automation"
+#: musicediting/patterncontrollane.cpp
+msgctxt "MusicPatternPartEditor"
 msgid "Velocity"
 msgstr "Velocidad"
 
@@ -5864,9 +5824,9 @@ msgctxt "Command"
 msgid "Video"
 msgstr "Video"
 
-#: editing/chordeditlayer.cpp editing/arrangereditlayer.cpp
+#: editing/arrangereditlayer.cpp editing/chordeditlayer.cpp
 #: editing/trackeditor.cpp editing/tracklistcomponent.cpp
-#: musicediting/patterneditcomponent.cpp musicediting/musiceditor.cpp
+#: musicediting/musiceditor.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Ver"
@@ -5945,6 +5905,18 @@ msgstr "utilizado %(1) veces"
 msgctxt "PoolNodes"
 msgid "used %(1) times"
 msgstr "utilizado %(1) veces"
+
+#~ msgctxt "LauncherCell"
+#~ msgid "Don't follow"
+#~ msgstr "No seguir"
+
+#~ msgctxt "LauncherCell"
+#~ msgid "Follow"
+#~ msgstr "Seguir"
+
+#~ msgctxt "LauncherCell"
+#~ msgid "Timestretch"
+#~ msgstr "Estiramiento temporal"
 
 #~ msgctxt "Browser"
 #~ msgid "Merge to Stereo File"
@@ -6051,24 +6023,12 @@ msgstr "utilizado %(1) veces"
 #~ msgstr "Renombrar capa..."
 
 #~ msgctxt "Documents"
-#~ msgid ""
-#~ "Could not rename %(1)!\n"
-#~ "\n"
-#~ "The file is in use."
-#~ msgstr ""
-#~ "No se pudo renombrar el archivo %(1)!\n"
-#~ "\n"
-#~ "El archivo está en uso."
+#~ msgid "Could not rename %(1)!\n\nThe file is in use."
+#~ msgstr "No se pudo renombrar el archivo %(1)!\n\nEl archivo está en uso."
 
 #~ msgctxt "Documents"
-#~ msgid ""
-#~ "Could not rename the folder %(1)!\n"
-#~ "\n"
-#~ "A file in this folder is in use."
-#~ msgstr ""
-#~ "No se pudo renombrar la carpeta %(1)!\n"
-#~ "\n"
-#~ "Un archivo en esta carpeta está en uso."
+#~ msgid "Could not rename the folder %(1)!\n\nA file in this folder is in use."
+#~ msgstr "No se pudo renombrar la carpeta %(1)!\n\nUn archivo en esta carpeta está en uso."
 
 #~ msgctxt "Engine"
 #~ msgid "Export Audioloop"
@@ -6423,24 +6383,8 @@ msgstr "utilizado %(1) veces"
 #~ msgstr "Actualizar archivo de mastering"
 
 #~ msgctxt "SongMaster"
-#~ msgid ""
-#~ "Update the mastering file of this song:\n"
-#~ "%(6)\n"
-#~ "Output: %(1)\n"
-#~ "Duration: %(3)\n"
-#~ "Resolution: %(4)\n"
-#~ "Realtime Processing: %(5)\n"
-#~ "Include Master Effects: %(7)\n"
-#~ "Filename: %(2)"
-#~ msgstr ""
-#~ "Actualizar archivo de mastering de esta canción:\n"
-#~ "%(6)\n"
-#~ "Output: %(1)\n"
-#~ "Duration: %(3)\n"
-#~ "Resolution: %(4)\n"
-#~ "Realtime Processing: %(5)\n"
-#~ "Incluir efectos Master: %(7)\n"
-#~ "Filename: %(2)"
+#~ msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+#~ msgstr "Actualizar archivo de mastering de esta canción:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nIncluir efectos Master: %(7)\nFilename: %(2)"
 
 #~ msgctxt "Video"
 #~ msgid "Using different codecs might affect the export speed."
@@ -6517,3 +6461,4 @@ msgstr "utilizado %(1) veces"
 #~ msgctxt "Automation"
 #~ msgid "Transfer Automation"
 #~ msgstr "Transferir automatización"
+

@@ -359,13 +359,13 @@ msgctxt "ScoreSymbols"
 msgid "Bend string"
 msgstr "스트링 벤딩"
 
-#: editor/scoretextstylecomponent.cpp
-msgctxt "NotationFontStyles"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Bends"
 msgstr "벤드"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/scoretextstylecomponent.cpp
+msgctxt "NotationFontStyles"
 msgid "Bends"
 msgstr "벤드"
 
@@ -1115,7 +1115,7 @@ msgctxt "Notation"
 msgid "Grand Staff"
 msgstr "큰보표"
 
-#: editor/scorepartsetup.cpp editor/scorenoterecorder.cpp
+#: editor/scorenoterecorder.cpp editor/scorepartsetup.cpp
 msgctxt "Notation"
 msgid "Guitar"
 msgstr "기타"
@@ -1550,13 +1550,13 @@ msgctxt "Command"
 msgid "Lyric Tool"
 msgstr "가사 툴"
 
-#: editor/scoretextstylecomponent.cpp
-msgctxt "NotationFontStyles"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Lyrics"
 msgstr "가사"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/scoretextstylecomponent.cpp
+msgctxt "NotationFontStyles"
 msgid "Lyrics"
 msgstr "가사"
 
@@ -1655,7 +1655,7 @@ msgctxt "ScoreSymbols"
 msgid "Neutral Clef"
 msgstr "타악기(뉴트럴) 음자리표"
 
-#: editor/scorepagelayout.cpp editor/scoredrumsetcomponent.cpp
+#: editor/scoredrumsetcomponent.cpp editor/scorepagelayout.cpp
 msgctxt "Notation"
 msgid "None"
 msgstr "없음"
@@ -1704,6 +1704,11 @@ msgstr "음표머리 기호"
 msgctxt "ScoreEdit"
 msgid "Notes"
 msgstr "음표"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Numbers"
+msgstr "넘버"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -1950,6 +1955,11 @@ msgctxt "Notation"
 msgid "Record"
 msgstr "레코딩"
 
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Regular"
+msgstr "레귤러"
+
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
 msgid "Regular Note"
@@ -2154,6 +2164,11 @@ msgstr "롤 2"
 msgctxt "Notation"
 msgid "Roll 3"
 msgstr "롤 3"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Roman Numbers"
+msgstr "로마 숫자"
 
 #: editor/scorepartsetup.cpp
 msgctxt "Notation"
@@ -2415,22 +2430,22 @@ msgctxt "Command"
 msgid "Select Tuplet Fit 9"
 msgstr "잇단음표 Fit 9 선택"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 1"
 msgstr "성부 1 선택"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 2"
 msgstr "성부 2 선택"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 3"
 msgstr "성부 3 선택"
 
-#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
+#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 4"
 msgstr "성부 4 선택"
@@ -2459,6 +2474,11 @@ msgstr "축약어 설정"
 msgctxt "Notation"
 msgid "Set Capo"
 msgstr "카포 설정"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Set Chord Display Mode"
+msgstr "코드 디스플레이 모드 설정"
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
@@ -2975,13 +2995,13 @@ msgctxt "ScoreEdit"
 msgid "Text"
 msgstr "텍스트"
 
-#: editor/scoretextstylecomponent.cpp
-msgctxt "NotationFontStyles"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Text"
 msgstr "텍스트"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/scoretextstylecomponent.cpp
+msgctxt "NotationFontStyles"
 msgid "Text"
 msgstr "텍스트"
 
@@ -3729,3 +3749,4 @@ msgstr "위로 트랜스포즈"
 #~ msgctxt "Notation"
 #~ msgid " - Tuplet"
 #~ msgstr "- 잇단음표"
+
