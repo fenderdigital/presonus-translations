@@ -119,13 +119,13 @@ msgctxt "StudioApp"
 msgid "Artist Profile"
 msgstr "Profil de l'artiste"
 
-#: samplerextension.cpp
-msgctxt "Command"
+#: appoptions.cpp
+msgctxt "Options"
 msgid "Audio"
 msgstr "Audio"
 
-#: appoptions.cpp
-msgctxt "Options"
+#: samplerextension.cpp
+msgctxt "Command"
 msgid "Audio"
 msgstr "Audio"
 
@@ -589,13 +589,13 @@ msgctxt "Sidebar"
 msgid "New Multi Instrument"
 msgstr "Nouveau multi-instrument"
 
-#: documenthandler.cpp
-msgctxt "Command"
+#: projectdocument.cpp
+msgctxt "StudioApp"
 msgid "New Project"
 msgstr "Nouveau projet"
 
-#: projectdocument.cpp
-msgctxt "StudioApp"
+#: documenthandler.cpp
+msgctxt "Command"
 msgid "New Project"
 msgstr "Nouveau projet"
 
@@ -974,6 +974,11 @@ msgctxt "MixerConsole"
 msgid "Small"
 msgstr "Petite"
 
+#: metaremovetask.cpp
+msgctxt "Edit"
+msgid "Smart Delete"
+msgstr "Suppression intelligente"
+
 #: notionexportcomponent.cpp songdataimporter.cpp
 msgctxt "Command"
 msgid "Song"
@@ -1159,13 +1164,13 @@ msgctxt "Command"
 msgid "Video Player"
 msgstr "Lecteur vidéo"
 
-#: appfeatures.cpp documenthandler.cpp launcherguicomponent.cpp
-#: studiomixerconsole.cpp
+#: appfeatures.cpp launcherguicomponent.cpp studiomixerconsole.cpp
+#: documenthandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Affichage"
 
-#: showdocument.cpp projectdocument.cpp songdocument.cpp
+#: projectdocument.cpp showdocument.cpp songdocument.cpp
 msgctxt "StudioApp"
 msgid "Workspace"
 msgstr "Espace de travail"

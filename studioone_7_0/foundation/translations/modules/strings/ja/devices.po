@@ -264,13 +264,13 @@ msgctxt "Command"
 msgid "Add Scene"
 msgstr "シーンを追加"
 
-#: audiomixer/setup/audiomixersetup.cpp
-msgctxt "Command"
+#: audiomixer/audiosendfolder.cpp
+msgctxt "AudioSendSlot"
 msgid "Add Send"
 msgstr "センドを追加"
 
-#: audiomixer/audiosendfolder.cpp
-msgctxt "AudioSendSlot"
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
 msgid "Add Send"
 msgstr "センドを追加"
 
@@ -419,8 +419,8 @@ msgctxt "AudioMixer"
 msgid "Audio Destinations"
 msgstr "オーディオ出力先"
 
-#: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
+#: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 msgctxt "Command"
 msgid "Audio Device"
 msgstr "オーディオデバイス "
@@ -625,13 +625,13 @@ msgctxt "AudioMixer"
 msgid "Channel"
 msgstr "チャンネル"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Channel"
 msgstr "チャンネル"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Channel"
 msgstr "チャンネル"
 
@@ -775,9 +775,9 @@ msgctxt "UCMixerConnector"
 msgid "Connected to %(1)."
 msgstr "%(1) に接続済みです。"
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
-#: audiomixer/audiolistenbus.cpp audiomixer/audiofaderswitcher.cpp
+#: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
 #: audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp
+#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
 #: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Console"
@@ -955,6 +955,11 @@ msgstr "検出されたデバイス %(1)"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
+msgid "Device"
+msgstr "デバイス"
+
+#: editor/paramselector.cpp
+msgctxt "ParamSelector"
 msgid "Device"
 msgstr "デバイス"
 
@@ -1550,14 +1555,14 @@ msgctxt "EditGroups"
 msgid "Inserts"
 msgstr "インサート"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instrument"
 msgstr "インストゥルメント"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instrument"
 msgstr "インストゥルメント"
 
@@ -1581,14 +1586,14 @@ msgctxt "Channels"
 msgid "Instruments"
 msgstr "インストゥルメント"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instruments"
 msgstr "インストゥルメント"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instruments"
 msgstr "インストゥルメント"
 
@@ -1687,17 +1692,17 @@ msgctxt "CueMixSlot"
 msgid "Lock"
 msgstr "ロック"
 
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
-msgid "Lock Pan to Channel"
-msgstr "パンをチャンネルにロック"
-
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Lock Pan to Channel"
 msgstr "パンをチャンネルにロック"
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/audiosendfolder.cpp
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
+msgid "Lock Pan to Channel"
+msgstr "パンをチャンネルにロック"
+
+#: audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "Command"
 msgid "Lock Panning"
 msgstr "パンニングをロック"
@@ -1848,6 +1853,11 @@ msgctxt "AudioSynth"
 msgid "Multi Instrument"
 msgstr "マルチインストゥルメント"
 
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
+msgid "Mute"
+msgstr "ミュート"
+
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Mute"
@@ -1855,11 +1865,6 @@ msgstr "ミュート"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
-msgid "Mute"
-msgstr "ミュート"
-
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
 msgid "Mute"
 msgstr "ミュート"
 
@@ -2143,13 +2148,13 @@ msgctxt "Command"
 msgid "Page Up Skip"
 msgstr "ページ上へ移動スキップ"
 
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Pan"
 msgstr "パン"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
 msgid "Pan"
 msgstr "パン"
 
@@ -2248,11 +2253,6 @@ msgctxt "AudioFX"
 msgid "Plug-in Nap"
 msgstr "プラグインのスリープ"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
-msgctxt "Hardware"
-msgid "Polarity"
-msgstr "極性"
-
 #: audiomixer/audiochannelinputfx.cpp
 msgctxt "AudioChannelInputFX"
 msgid "Polarity"
@@ -2260,11 +2260,16 @@ msgstr "極性"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
+msgid "Polarity"
+msgstr "極性"
+
+#: audiomixer/audiochannelinputfx.cpp
+msgctxt "AudioChannelInputFX"
 msgid "Polarity Right"
 msgstr "極性右"
 
-#: audiomixer/audiochannelinputfx.cpp
-msgctxt "AudioChannelInputFX"
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
+msgctxt "Hardware"
 msgid "Polarity Right"
 msgstr "極性右"
 
@@ -2292,6 +2297,11 @@ msgstr "ポストフェーダーメータリング"
 msgctxt "AudioChannelMeter"
 msgid "Post-Panner Metering"
 msgstr "ポストパンナーメータリング"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Postroll"
+msgstr "ポストロール"
 
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
@@ -2403,13 +2413,13 @@ msgctxt "Command"
 msgid "Recently Touched"
 msgstr "直近のパラメータ"
 
-#: mixer/mixercontrollable.cpp
-msgctxt "Channel"
+#: mixer/editgroupmanager.cpp
+msgctxt "EditGroups"
 msgid "Record"
 msgstr "録音"
 
-#: mixer/editgroupmanager.cpp
-msgctxt "EditGroups"
+#: mixer/mixercontrollable.cpp
+msgctxt "Channel"
 msgid "Record"
 msgstr "録音"
 
@@ -2763,13 +2773,13 @@ msgctxt "Command"
 msgid "Select Fader Flip Target"
 msgstr "フェーダーフリップ対象を選択"
 
-#: audiomixer/setup/audiomixersetup.cpp
-msgctxt "Command"
+#: audiomixer/audiomixfxcomponent.cpp
+msgctxt "Devices"
 msgid "Select Mix FX"
 msgstr "ミックスFXを選択"
 
-#: audiomixer/audiomixfxcomponent.cpp
-msgctxt "Devices"
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
 msgid "Select Mix FX"
 msgstr "ミックスFXを選択"
 
@@ -2838,13 +2848,13 @@ msgctxt "SideChain"
 msgid "Select Sidechain Source"
 msgstr "サイドチェーンソースを選択"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Send"
 msgstr "送信"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Send"
 msgstr "送信"
 
@@ -3478,6 +3488,11 @@ msgctxt "SideChain"
 msgid "Toggle Prefader"
 msgstr "プリフェーダーを切り替え"
 
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Toggle Record"
+msgstr "録音を切り替え"
+
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Toggle Related Channels"
@@ -3513,12 +3528,17 @@ msgctxt "MixerEditFunctions"
 msgid "Transfer Channel"
 msgstr "チャンネルを転送"
 
+#: audiomixer/channels/audiotrackchannel.cpp
+msgctxt "Channels"
+msgid "Transformed Track"
+msgstr "変換済みトラック"
+
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Transmit value"
 msgstr "値を送信"
 
-#: transport/transportoptions.cpp transport/metronome.cpp
+#: transport/metronome.cpp transport/transportoptions.cpp
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Transport"
@@ -3534,13 +3554,13 @@ msgctxt "FaderFlip"
 msgid "Turn Off Fader Flip"
 msgstr "フェーダーフリップをオフに"
 
-#: editor/performancemonitor.cpp
-msgctxt "PerformanceMonitor"
+#: editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Type"
 msgstr "タイプ"
 
-#: editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: editor/performancemonitor.cpp
+msgctxt "PerformanceMonitor"
 msgid "Type"
 msgstr "タイプ"
 
@@ -3559,18 +3579,18 @@ msgctxt "UserCommandSection"
 msgid "Unassign"
 msgstr "アサインを解除"
 
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
+#: audiomixer/audiosendfolder.cpp
+msgctxt "AudioSendSlot"
 msgid "Unlock Panning"
 msgstr "パンニングのロックを解除"
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/audiosendfolder.cpp
+#: audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "Command"
 msgid "Unlock Panning"
 msgstr "パンニングのロックを解除"
 
-#: audiomixer/audiosendfolder.cpp
-msgctxt "AudioSendSlot"
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
 msgid "Unlock Panning"
 msgstr "パンニングのロックを解除"
 
@@ -3649,16 +3669,6 @@ msgctxt "MixerSnapshots"
 msgid "Visibility only"
 msgstr "表示のみ"
 
-#: audiomixer/channels/audiovcachannel.cpp
-msgctxt "AudioVCAChannel"
-msgid "Volume"
-msgstr "ボリューム"
-
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
-msgid "Volume"
-msgstr "ボリューム"
-
 #: audiomixer/audiochannel.cpp
 msgctxt "AudioChannel"
 msgid "Volume"
@@ -3666,6 +3676,16 @@ msgstr "ボリューム"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
+msgid "Volume"
+msgstr "ボリューム"
+
+#: audiomixer/channels/audiovcachannel.cpp
+msgctxt "AudioVCAChannel"
+msgid "Volume"
+msgstr "ボリューム"
+
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
 msgid "Volume"
 msgstr "ボリューム"
 

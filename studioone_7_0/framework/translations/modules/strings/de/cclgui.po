@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "Bitmap-Font"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -244,15 +244,15 @@ msgctxt "Command"
 msgid "End Skip"
 msgstr "Ans Ende überspringen"
 
-#: views/focusnavigator.cpp
-msgctxt "Command"
-msgid "Enter"
-msgstr "Eingabe"
-
 #: keyevent.cpp
 msgctxt "VirtualKey"
 msgid "Enter"
 msgstr "Enter"
+
+#: views/focusnavigator.cpp
+msgctxt "Command"
+msgid "Enter"
+msgstr "Eingabe"
 
 #: keyevent.cpp
 msgctxt "VirtualKey"
@@ -471,8 +471,12 @@ msgstr "JPEG-Datei"
 
 #: dialogs/commandeditor.cpp
 msgctxt "CommandEditor"
-msgid "Key is already assigned to:\n%(1)"
-msgstr "Die Taste wird verwendet von:\n%(1)"
+msgid ""
+"Key is already assigned to:\n"
+"%(1)"
+msgstr ""
+"Die Taste wird verwendet von:\n"
+"%(1)"
 
 #: commands.cpp
 msgctxt "FileType"
@@ -654,13 +658,13 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "Num9"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "OK"
 msgstr "OK"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "OK"
 msgstr "OK"
 
@@ -1045,4 +1049,3 @@ msgstr "~"
 #~ msgctxt "CommandBar"
 #~ msgid "Compact"
 #~ msgstr "Kompaktansicht"
-

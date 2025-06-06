@@ -84,6 +84,16 @@ msgctxt "ScoreSymbolMap"
 msgid "Are you sure you want to overwrite the default map?"
 msgstr "Êtes-vous sûr de vouloir écraser les affectations par défaut?"
 
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Are you sure you want to permanently delete these %(1) items?"
+msgstr "Êtes-vous sûr de vouloir définitivement supprimer ces %(1) éléments?"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Are you sure you want to permanently delete this item?"
+msgstr "Êtes-vous sûr de vouloir définitivement supprimer cet élément?"
+
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Are you sure you want to remove the default map?"
@@ -114,17 +124,17 @@ msgctxt "SoundVariations"
 msgid "Assign Key Switches White Keys"
 msgstr "Assigner les touches de commutation aux touches blanches"
 
-#: timeedit/timeeditcomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Edit"
 msgid "Auto Zoom Full"
 msgstr "Auto-zoom max."
 
-#: timeedit/timeeditcomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Edit"
 msgid "Auto Zoom Horizontally"
 msgstr "Auto-zoom horizontal"
 
-#: timeedit/timeeditcomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Edit"
 msgid "Auto Zoom Vertically"
 msgstr "Auto-zoom vertical"
@@ -144,6 +154,21 @@ msgctxt "Command"
 msgid "Autoscroll"
 msgstr "Autodéfilement"
 
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll Centered"
+msgstr "Autodéfilement centré"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll Left"
+msgstr "Autodéfilement gauche"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll Turn Over"
+msgstr "Autodéfilement par page d'écran"
+
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Bank Change"
@@ -159,13 +184,13 @@ msgctxt "LyricsDisplaySetup"
 msgid "Bars"
 msgstr "Mesures"
 
-#: envelopes/envelopeinspector.cpp
-msgctxt "Envelope"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
 msgid "Bend Curve"
 msgstr "Tracé curviligne"
 
-#: envelopes/envelopeedithandler.cpp
-msgctxt "Events"
+#: envelopes/envelopeinspector.cpp
+msgctxt "Envelope"
 msgid "Bend Curve"
 msgstr "Tracé curviligne"
 
@@ -223,6 +248,16 @@ msgstr "Durée commune"
 msgctxt "EventEditHandler"
 msgid "Common start"
 msgstr "Début commun"
+
+#: timeedit/timeline.cpp
+msgctxt "Edit"
+msgid "Continuous Centered"
+msgstr "Continu centré"
+
+#: timeedit/timeline.cpp
+msgctxt "Edit"
+msgid "Continuous Left"
+msgstr "Continu gauche"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -289,10 +324,10 @@ msgctxt "SoundVariations"
 msgid "Default"
 msgstr "Par défaut"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Default"
-msgstr "Par défaut"
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Delete"
+msgstr "Supprimer"
 
 #: tempo/tempoeditcomponent.cpp
 msgctxt "Command"
@@ -360,9 +395,9 @@ msgid "Dynamics"
 msgstr "Nuances"
 
 #: events/eventeditcomponent.cpp music/noteplayer.cpp
-#: timeedit/snaptimeprovider.cpp timeedit/signatureeditlayer.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
-#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timesnapper.cpp timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Éditer"
@@ -387,6 +422,11 @@ msgctxt "Command"
 msgid "Edit Key Signature"
 msgstr "Changer la tonalité"
 
+#: base/notepad.cpp
+msgctxt "Notepad"
+msgid "Edit Note"
+msgstr "Éditer les commentaires…"
+
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
 msgid "Edit Time Signature"
@@ -396,6 +436,11 @@ msgstr "Éditer la signature rythmique"
 msgctxt "Command"
 msgid "Edit Time Signature"
 msgstr "Éditer la signature rythmique"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Empty Trash Bin"
+msgstr "Corbeille vide"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -617,11 +662,6 @@ msgctxt "Music"
 msgid "Lyrics"
 msgstr "Paroles"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Minimal"
-msgstr "Minimale"
-
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Modify Velocity"
@@ -717,20 +757,26 @@ msgctxt "MusicEdit"
 msgid "Mute"
 msgstr "Muet"
 
-#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
-msgctxt "SoundVariations"
-msgid "Name"
-msgstr "Nom"
-
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Name"
 msgstr "Nom"
 
-#: events/eventeditcomponent.cpp timeedit/timeeditcomponent.cpp
+#: music/soundvariationeditor.cpp music/soundvariationtreemodel.cpp
+msgctxt "SoundVariations"
+msgid "Name"
+msgstr "Nom"
+
+#: events/eventeditcomponent.cpp itemlist/listitemcomponent.cpp
+#: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "Navigation"
+
+#: itemlist/showhidefilter.cpp
+msgctxt "ShowHideFilter"
+msgid "New Preset"
+msgstr "Nouveau Preset"
 
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
@@ -867,13 +913,13 @@ msgctxt "EventFigures"
 msgid "Phase offset"
 msgstr "Offset de phase"
 
-#: music/notecolorschemeparam.cpp
-msgctxt "NoteColorScheme"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Pitch"
 msgstr "Hauteur"
 
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
 msgid "Pitch"
 msgstr "Hauteur"
 
@@ -952,7 +998,7 @@ msgctxt "FileType"
 msgid "Quantize Settings"
 msgstr "Réglages de quantification"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Quintuplet"
 msgstr "Quintolet"
@@ -1037,18 +1083,23 @@ msgctxt "DrumPads"
 msgid "Reset Pads"
 msgstr "Réinitialiser les pads"
 
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Restore"
+msgstr "Restaurer"
+
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Restore Zoom State"
 msgstr "Restaurer le zoom"
 
-#: envelopes/envelopeinspector.cpp
-msgctxt "Envelope"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
 msgid "S-Curve"
 msgstr "Courbe en S"
 
-#: envelopes/envelopeedithandler.cpp
-msgctxt "Events"
+#: envelopes/envelopeinspector.cpp
+msgctxt "Envelope"
 msgid "S-Curve"
 msgstr "Courbe en S"
 
@@ -1097,7 +1148,7 @@ msgctxt "PitchScale"
 msgid "Select notes of this Pitch"
 msgstr "Sélectionner les notes de cette hauteur"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Septuplet"
 msgstr "Septolet"
@@ -1121,6 +1172,16 @@ msgstr "Fixer le début de boucle"
 msgctxt "TimeRulerView"
 msgid "Set Loop Start"
 msgstr "Fixer le début de boucle"
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Set Postroll Bars"
+msgstr "Définir les mesures de post-défilement"
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Set Preroll Bars"
+msgstr "Définir les mesures de pré-défilement"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
@@ -1222,11 +1283,6 @@ msgctxt "Command"
 msgid "Size Range Start to Hotspot Back"
 msgstr "Reculer le début de plage au Hotspot"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Small caps"
-msgstr "Petites capitales"
-
 #: timeedit/snaptimeprovider.cpp
 msgctxt "Command"
 msgid "Snap Relative Grid"
@@ -1292,7 +1348,7 @@ msgctxt "ScoreSymbolMap"
 msgid "Store as Default"
 msgstr "Mémoriser comme réglage par défaut"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Straight"
 msgstr "Binaire"
@@ -1317,11 +1373,6 @@ msgctxt "Command"
 msgid "Swap Ruler Formats"
 msgstr "Échanger les formats de règle"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Symbol"
-msgstr "Symbole"
-
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Symbol"
@@ -1339,21 +1390,23 @@ msgstr "Tempo"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid ""
-"The preset was generated for '%(1)' and does not match the target instrument.\n"
-"Do you want to load the variation map anyway?"
-msgstr ""
-"Le preset a été généré pour '%(1)' et ne correspond pas à l'instrument cible.\n"
-"Voulez-vous quand même charger les affectations de variation?"
+msgid "The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
+msgstr "Le preset a été généré pour '%(1)' et ne correspond pas à l'instrument cible.\nVoulez-vous quand même charger les affectations de variation?"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid ""
-"The preset was generated for sound '%(1)' and does not match the current instrument preset.\n"
-"Do you want to load the variation map anyway?"
-msgstr ""
-"Le preset a été généré pour le son '%(1)'  et ne correspond pas au preset d'instrument actuel.\n"
-"Voulez-vous quand même charger les affectations de variation?"
+msgid "The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
+msgstr "Le preset a été généré pour le son '%(1)'  et ne correspond pas au preset d'instrument actuel.\nVoulez-vous quand même charger les affectations de variation?"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "These items could not be restored!"
+msgstr "Ces éléments n'ont pas pu être restaurés!"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "This item could not be restored!"
+msgstr "Cet élément n'a pas pu être restauré!"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -1375,22 +1428,22 @@ msgctxt "Edit"
 msgid "Timebase"
 msgstr "Base temps"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom"
 msgstr "Commuter Auto-zoom"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Full"
 msgstr "Commuter Auto-zoom max."
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Horizontally"
 msgstr "Commuter Auto-zoom horizontalement"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Vertically"
 msgstr "Commuter Auto-zoom verticalement"
@@ -1450,10 +1503,15 @@ msgctxt "Command"
 msgid "Transport"
 msgstr "Transport"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Triplet"
 msgstr "Triolet"
+
+#: timeedit/timeline.cpp
+msgctxt "Edit"
+msgid "Turn Over"
+msgstr "Par page d'écran"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1495,13 +1553,13 @@ msgctxt "Events"
 msgid "Values Locked"
 msgstr "Valeurs verrouillées"
 
-#: music/notecolorschemeparam.cpp
-msgctxt "NoteColorScheme"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Velocity"
 msgstr "Vélocité"
 
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
 msgid "Velocity"
 msgstr "Vélocité"
 
@@ -1520,7 +1578,8 @@ msgctxt "Command"
 msgid "View"
 msgstr "Afficher"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "Zoom"
@@ -1594,6 +1653,22 @@ msgstr "Zoom sur la sélection"
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "Zoom horizontal sur la sélection"
+
+#~ msgctxt "Notation"
+#~ msgid "Default"
+#~ msgstr "Par défaut"
+
+#~ msgctxt "Notation"
+#~ msgid "Minimal"
+#~ msgstr "Minimale"
+
+#~ msgctxt "Notation"
+#~ msgid "Small caps"
+#~ msgstr "Petites capitales"
+
+#~ msgctxt "Notation"
+#~ msgid "Symbol"
+#~ msgstr "Symbole"
 
 #~ msgctxt "Command"
 #~ msgid "Copy"
@@ -1754,3 +1829,4 @@ msgstr "Zoom horizontal sur la sélection"
 #~ msgctxt "MusicalScale"
 #~ msgid "Phrygian"
 #~ msgstr "Phrygien"
+

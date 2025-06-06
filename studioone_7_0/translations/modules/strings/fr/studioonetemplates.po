@@ -129,6 +129,11 @@ msgctxt "ProduceBeats.Step4"
 msgid "Automate steps"
 msgstr "Automatisez les pas"
 
+#: scripts/smarttemplates/resources/jamtracks/Bass.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Bass"
+msgstr "Basse"
+
 #: tutorials/content/spatialaudio/steps.xml
 msgctxt "DolbyAtmos.Step6"
 msgid "Bed and objects"
@@ -355,6 +360,7 @@ msgctxt "HelpTutorial"
 msgid "Getting started with Studio One"
 msgstr "Démarrer avec Studio One"
 
+#: scripts/smarttemplates/resources/jamtracks/Guitar.songtemplate
 #: scripts/smarttemplates/resources/playnow/Guitar.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Guitar"
@@ -431,6 +437,21 @@ msgctxt "InterfaceTemplateSettings"
 msgid "Interface template"
 msgstr "Modèle d'interface"
 
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam Now"
+msgstr "Jam maintenant"
+
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam with Guitar, Piano or Vocals"
+msgstr "Jam avec guitare, piano ou voix"
+
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam with a single instrument on Jam Tracks"
+msgstr "Jam avec un seul instrument sur les pistes de jam"
+
 #: tutorials/content/launchloops/steps.xml
 msgctxt "LaunchLoops.Step7"
 msgid "Launch Cells"
@@ -467,13 +488,8 @@ msgctxt "GettingStarted.Step7"
 msgid "Learn more"
 msgstr "En savoir plus"
 
-#: tutorials/content/playnow/steps.xml
-msgctxt "PlayNow.VirtualInstrument.Step6"
-msgid "Learn more"
-msgstr "En savoir plus"
-
-#: tutorials/content/playnow/steps.xml
-msgctxt "PlayNow.Guitar.Step7"
+#: tutorials/content/launchloops/steps.xml
+msgctxt "LaunchLoops.Step11"
 msgid "Learn more"
 msgstr "En savoir plus"
 
@@ -492,8 +508,13 @@ msgctxt "DolbyAtmos.Step10"
 msgid "Learn more"
 msgstr "En savoir plus"
 
-#: tutorials/content/launchloops/steps.xml
-msgctxt "LaunchLoops.Step11"
+#: tutorials/content/playnow/steps.xml
+msgctxt "PlayNow.VirtualInstrument.Step6"
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: tutorials/content/playnow/steps.xml
+msgctxt "PlayNow.Guitar.Step7"
 msgid "Learn more"
 msgstr "En savoir plus"
 
@@ -532,6 +553,11 @@ msgctxt "DocumentTemplate"
 msgid "New audio recording"
 msgstr "Nouvel enregistrement audio"
 
+#: scripts/smarttemplates/resources/jamtracks/none.songtemplate
+msgctxt "DocumentTemplate"
+msgid "None"
+msgstr "Aucun"
+
 #: tutorials/content/playnow/steps.xml
 msgctxt "PlayNow.Guitar.Step3"
 msgid "Open Ampire"
@@ -547,6 +573,7 @@ msgctxt "PlayNow.VirtualInstrument.Step2"
 msgid "Open the instrument"
 msgstr "Ouvrez l'instrument"
 
+#: scripts/smarttemplates/resources/jamtracks/Piano.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.bundle.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.songtemplate
 msgctxt "DocumentTemplate"
@@ -568,15 +595,30 @@ msgctxt "PlayNow.Guitar.Step1"
 msgid "Play Now"
 msgstr "Jouer maintenant"
 
+#: scripts/smarttemplates/resources/jamtracks/Bass.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play a real bass guitar using Rumble Bass Studio."
+msgstr "Jouer d'une vraie basse avec Rumble Bass Studio."
+
 #: scripts/smarttemplates/resources/playnow/Guitar.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Play a real guitar using Ampire."
 msgstr "Jouer d'une vraie guitare avec Ampire."
 
+#: scripts/smarttemplates/resources/jamtracks/Guitar.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play a real guitar using Mustang Guitar Studio."
+msgstr "Jouer d'une vraie guitare avec Mustang Guitar Studio."
+
 #: templates/Play Now.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Play a single instrument and capture ideas for your next song."
 msgstr "Jouer d'un seul instrument et capturer l'inspiration pour votre prochain morceau."
+
+#: scripts/smarttemplates/resources/jamtracks/none.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play no additional instrument."
+msgstr "Ne jouer d'aucun instrument supplémentaire."
 
 #: templates/Play Now.songtemplate
 msgctxt "DocumentTemplate"
@@ -588,6 +630,7 @@ msgctxt "DocumentTemplate"
 msgid "Play virtual drums using Impact XT."
 msgstr "Jouer de la batterie virtuelle avec Impact XT."
 
+#: scripts/smarttemplates/resources/jamtracks/Piano.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.bundle.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.songtemplate
 msgctxt "DocumentTemplate"
@@ -902,6 +945,11 @@ msgctxt "LaunchLoops.Step6"
 msgid "Show Launcher"
 msgstr "Afficher le Lanceur"
 
+#: scripts/smarttemplates/resources/jamtracks/Vocals.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Sing, using your microphone."
+msgstr "Chantez en utilisant votre microphone."
+
 #: scripts/smarttemplates/resources/recordnow/Single Track.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Single Track"
@@ -1109,6 +1157,11 @@ msgctxt "RecordNow.Step1"
 msgid "Use this template to record audio on a single track or multiple tracks and capture your ideas. Let&apos;s take a look..."
 msgstr "Utilisez ce modèle pour enregistrer du son sur une ou plusieurs pistes et capturer vos idées. Voyons cela..."
 
+#: scripts/smarttemplates/resources/jamtracks/Vocals.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Vocals"
+msgstr "Chœurs"
+
 #: tutorials/content/producebeats/steps.xml
 msgctxt "ProduceBeats.Step1"
 msgid "Want to create an awesome beat with just a few clicks? Then look no further than this Beat Making Template!"
@@ -1208,3 +1261,4 @@ msgstr "Session d'enregistrement sur ioStation 24c"
 #~ msgctxt "DolbyAtmos.Step7"
 #~ msgid "When you&apos;re ready to export your Dolby Atmos mix, select &apos;Export Spatial Audio&apos; from the Song menu. Here you can set a location, format and range for your mix export. In addition to the ADM master file, you can export additional formats using the same settings."
 #~ msgstr "Lorsque vous êtes prêt à exporter votre mixage Dolby Atmos, sélectionnez &apos;Exporter l'audio spatial&apos; dans le menu Morceau. Vous pouvez alors définir un emplacement, un format et une plage pour l'exportation de votre mixage. Outre le fichier master ADM, vous pouvez exporter en d'autres formats en utilisant les mêmes réglages."
+

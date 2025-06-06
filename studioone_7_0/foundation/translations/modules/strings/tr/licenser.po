@@ -12,12 +12,12 @@ msgstr "$APPCOMPANY Hesabı"
 #: application/purchasehandler.cpp
 msgctxt "Licenser"
 msgid "$APPNAME is authorized for a different user. Do you want to reauthorize $APPNAME?"
-msgstr "$APPNAME farklı bir kullanıcı için etkinleştirilmiş. erent user. $APPNAME tekrar etkinleştirmek istiyormusunuz ?"
+msgstr "$APPNAME farklı bir kullanıcı için etkinleştirilmiş. $APPNAME'i yeniden etkinleştirmek istiyor musunuz?"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
 msgid "Accessing remote storage"
-msgstr "Uzak depolamaya ulaşım"
+msgstr "Uzak depolamaya erişiliyor"
 
 #: application/purchasedpackages.cpp
 msgctxt "PackageActions"
@@ -27,7 +27,7 @@ msgstr "Etkinleştir"
 #: application/purchasedpackages.cpp
 msgctxt "PackageActions"
 msgid "Activate %(1) items"
-msgstr ""
+msgstr "%(1) öğeyi etkinleştir"
 
 #: application/purchasedpackages.cpp
 msgctxt "PackageActions"
@@ -42,12 +42,12 @@ msgstr "Satın Alınanları Etkinleştir"
 #: application/purchasedpackages.cpp
 msgctxt "PackageActions"
 msgid "Activated"
-msgstr "Etkinleştirilmiş"
+msgstr "Etkinleştirildi"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
 msgid "Activating product"
-msgstr "Ürün Etkinleştiriliyor"
+msgstr "Ürün etkinleştiriliyor"
 
 #: application/licensedapp.cpp
 msgctxt "Command"
@@ -62,15 +62,16 @@ msgstr "Ek Lisans Bilgisi:\n"
 #: application/purchasehandler.cpp
 msgctxt "Licenser"
 msgid "All installed items are activated."
-msgstr "Kurulu tüm ürünler etkinleştirildi."
+msgstr "Kurulu tüm öğeler etkinleştirildi."
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
 msgid "An error occurred at the server (Status %(1))."
-msgstr "Sunucuda bir sorun ortaya çıktı (Durum %(1))"
+msgstr "Sunucuda bir hata oluştu (Durum: %(1))"
 
-#: application/freemiumapp.cpp application/licensedapp.cpp
-#: application/loginhandler.cpp application/purchasehandler.cpp
+#: application/licensedapp.cpp application/freemiumapp.cpp
+#: application/presonusloginhandler.cpp application/purchasehandler.cpp
+#: application/fenderloginhandler.cpp
 msgctxt "Command"
 msgid "Application"
 msgstr "Uygulama"
@@ -83,41 +84,37 @@ msgstr "Etkinleştirme"
 #: application/licensedapp.cpp
 msgctxt "Licenser"
 msgid "Copy to Clipboard"
-msgstr "Not Defterine Kopyala"
+msgstr "Panoya Kopyala"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Credential Manager"
-msgstr ""
+msgstr "Kimlik Bilgisi Yöneticisi"
 
 #: application/purchasedpackages.cpp
 msgctxt "PackageActions"
 msgid "Deactivate"
-msgstr ""
+msgstr "Devre Dışı Bırak"
 
 #: application/purchasedpackages.cpp
 msgctxt "PackageActions"
 msgid "Deactivate %(1) items"
-msgstr ""
+msgstr "%(1) öğeyi devre dışı bırak"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
-msgid ""
-"Failed to connect to the server.\n"
-"Please check your Internet connection and try again."
-msgstr ""
-"Sunucu ile bağlantı kurulamadı.\n"
-"Internet bağlantınızı kontrol edip tekrar deneyin."
+msgid "Failed to connect to the server.\nPlease check your Internet connection and try again."
+msgstr "Sunucuya bağlanılamadı.\nLütfen internet bağlantınızı kontrol edip tekrar deneyin."
 
 #: application/userlicense.cpp
 msgctxt "FileType"
 msgid "Invalid License File!"
 msgstr "Geçersiz Lisans Dosyası!"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Keychain Access"
-msgstr ""
+msgstr "Anahtar Zinciri Erişimi"
 
 #: application/userlicense.cpp
 msgctxt "FileType"
@@ -129,7 +126,7 @@ msgctxt "FileType"
 msgid "License too old. Please activate $APPNAME again."
 msgstr "Lisans çok eski. Lütfen $APPNAME'i tekrar etkinleştirin."
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Command"
 msgid "Login"
 msgstr "Giriş"
@@ -137,22 +134,22 @@ msgstr "Giriş"
 #: application/licensehandler.cpp
 msgctxt "Licenser"
 msgid "Manage Activations"
-msgstr "Etkinleştirmeleri Düzenleyin"
+msgstr "Etkinleştirmeleri Yönet"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "No permissions to change application passwords."
-msgstr ""
+msgstr "Uygulama parolalarını değiştirme izniniz yok."
 
 #: application/purchasehandler.cpp
 msgctxt "Licenser"
 msgid "No purchased items installed."
-msgstr "Satın alınan herhangi birşey kurulmadı."
+msgstr "Satın alınan herhangi bir öğe kurulu değil."
 
 #: application/purchasedpackages.cpp
 msgctxt "PackageActions"
 msgid "Not Activated"
-msgstr ""
+msgstr "Etkinleştirilmemiş"
 
 #: schemes/splice/splicelease.cpp
 msgctxt "Licenser"
@@ -162,17 +159,17 @@ msgstr "Rent-to-own durumunuzu Splice uygulamasından kontrol edin."
 #: application/activationhandler.cpp
 msgctxt "Licenser"
 msgid "Please enter the Product Key of the $APPNAME version you have purchased."
-msgstr "Satın almış olduğunuz $APPNAME sürümünün Ürün Anahtarını girin."
+msgstr "Satın aldığınız $APPNAME sürümünün Ürün Anahtarını girin."
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Licenser"
 msgid "Please fill in the form completely."
-msgstr "Lütfen formu tümü ile doldurun."
+msgstr "Lütfen formu eksiksiz doldurun."
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Please use %(1) to delete passwords."
-msgstr ""
+msgstr "Parolaları silmek için %(1) kullanın."
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
@@ -192,14 +189,14 @@ msgstr "Kayıt"
 #: application/freemiumapp.cpp
 msgctxt "Licenser"
 msgid "Registration of $APPNAME failed."
-msgstr ""
+msgstr "$APPNAME kaydı başarısız oldu."
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
 msgid "Retrieving product list"
-msgstr "Ürün listesi çağrılıyor"
+msgstr "Ürün listesi alınıyor"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Licenser"
 msgid "Select Country"
 msgstr "Ülke Seçin"
@@ -207,117 +204,132 @@ msgstr "Ülke Seçin"
 #: application/activationhandler.cpp
 msgctxt "Licenser"
 msgid "Show my existing Product Keys"
-msgstr "Mevcut Ürün Anahtarlarımı göster"
+msgstr "Mevcut Ürün Anahtarlarımı Göster"
 
 #: application/loginhandler.cpp
 msgctxt "Licenser"
 msgid "Sign in"
-msgstr "Giriş"
+msgstr "Giriş Yap"
+
+#: application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign in"
+msgstr "Giriş Yap"
 
 #: application/loginhandler.cpp
 msgctxt "Licenser"
 msgid "Sign out"
-msgstr "Çıkış"
+msgstr "Çıkış Yap"
+
+#: application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign out"
+msgstr "Çıkış Yap"
+
+#: application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign up"
+msgstr ""
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
 msgid "Signing in"
-msgstr "Giriş Yapılıyor"
+msgstr "Giriş yapılıyor"
 
 #: application/purchasehandler.cpp
 msgctxt "Licenser"
 msgid "Some items failed to activate."
-msgstr "Bazı ürünler etkinleştirilemedi"
+msgstr "Bazı öğeler etkinleştirilemedi."
 
 #: application/licensehandler.cpp
 msgctxt "Licenser"
 msgid "Thank You! $APPNAME has been activated on this computer."
-msgstr "Teşekkürler. $APPNAME bu bilgisayarda etkinleştirildi."
+msgstr "Teşekkürler! $APPNAME bu bilgisayarda etkinleştirildi."
 
 #: application/freemiumapp.cpp
 msgctxt "Licenser"
 msgid "Thank you for registering $APPNAME."
-msgstr ""
+msgstr "$APPNAME'i kaydettiğiniz için teşekkür ederiz."
 
 #: application/userlicense.cpp
 msgctxt "FileType"
 msgid "The License has expired!"
-msgstr "Lisansınızın süresi bitti!"
+msgstr "Lisansınızın süresi doldu!"
 
 #: application/userlicense.cpp
 msgctxt "FileType"
 msgid "The License has not been issued for this application version!"
-msgstr ""
+msgstr "Bu lisans, uygulamanın bu sürümü için geçerli değil!"
 
 #: application/userlicense.cpp
 msgctxt "FileType"
 msgid "The License has not been issued for this computer!"
-msgstr "Bu lisans bu bilgisayar için üretilmemiş!"
+msgstr "Bu lisans, bu bilgisayar için oluşturulmamış!"
 
 #: application/userlicense.cpp
 msgctxt "FileType"
 msgid "The License has not been issued for this user!"
-msgstr "Bu lisans bu kullanıcı için üretilmemiş!"
+msgstr "Bu lisans, bu kullanıcı için oluşturulmamış!"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
 msgid "The request failed (%(1))."
-msgstr "Talep başarısız oldu (%(1))"
+msgstr "İstek başarısız oldu (%(1))"
 
 #: application/licensehandler.cpp
 msgctxt "Licenser"
 msgid "This computer has been de-activated for use with $APPNAME."
-msgstr "Bu bilgisayarın $APPNAME için etkinleştirilmesi kaldırıldı"
+msgstr "Bu bilgisayarın $APPNAME için etkinleştirmesi kaldırıldı."
 
 #: application/licensedapp.cpp
 msgctxt "Licenser"
 msgid "This copy is licensed to %(1)"
-msgstr "Bu kopya %(1)'e lisanslı"
+msgstr "Bu kopya %(1) adına lisanslanmıştır"
 
 #: application/userlicense.cpp
 msgctxt "FileType"
 msgid "This product key requires an additional license that could not be found on this computer."
-msgstr "Bu ürün anahtarı bu bilgisayarda bulunmayan ek lisanslara ihtiyaç duymaktadır."
+msgstr "Bu ürün anahtarı, bu bilgisayarda bulunmayan ek bir lisans gerektiriyor."
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
 msgid "Updating membership"
-msgstr ""
+msgstr "Üyelik güncelleniyor"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
 msgid "Updating preferences"
-msgstr ""
+msgstr "Tercihler güncelleniyor"
 
 #: application/licensedapp.cpp
 msgctxt "Licenser"
 msgid "User License not found! Please select a new License File."
-msgstr "Kullanıcı lisansı bulunamadı! Lütfen yeni bir lisans seçin."
+msgstr "Kullanıcı lisansı bulunamadı! Lütfen yeni bir lisans dosyası seçin."
 
 #: application/licensedapp.cpp
 msgctxt "Licenser"
 msgid "Verifying User License..."
-msgstr "Kullanıcı lisansı kontrol ediliyor..."
+msgstr "Kullanıcı lisansı doğrulanıyor..."
 
 #: application/licensehandler.cpp
 msgctxt "Licenser"
 msgid "You can manage activations in your $APPCOMPANY Account."
-msgstr "$APPCOMPANY hesabındaki etkinleştirmeleri düzenleyebilirsiniz."
+msgstr "Etkinleştirmeleri $APPCOMPANY hesabınızdan yönetebilirsiniz."
 
 #: schemes/splice/splicelease.cpp
 msgctxt "Licenser"
 msgid "Your Splice license for $APPNAME is invalid."
-msgstr "$APPNAME için olan Splice lisansı geçerli değil."
+msgstr "$APPNAME için Splice lisansınız geçersiz."
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
 msgid "Your authorization has expired. Please log in again."
-msgstr "Yetkilendirilmenizin süresi dolmuş. Lütfen tekrar giriş yapın."
+msgstr "Yetkilendirme süreniz dolmuş. Lütfen tekrar giriş yapın."
 
 #: application/purchasehandler.cpp
 msgctxt "Licenser"
 msgid "Your purchased items have been activated."
-msgstr "Satın almış olduğunuz ürünlerin etkinleştirmesi kaldırıldı."
+msgstr "Satın aldığınız ürünler etkinleştirildi."
 
 #~ msgctxt "Licenser"
 #~ msgid "%(1) End User License Agreement"
@@ -342,3 +354,4 @@ msgstr "Satın almış olduğunuz ürünlerin etkinleştirmesi kaldırıldı."
 #~ msgctxt "WebAPI"
 #~ msgid "Updating subscription"
 #~ msgstr "Abonelik güncelleniyor"
+

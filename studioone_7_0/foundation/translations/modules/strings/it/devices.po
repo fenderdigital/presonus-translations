@@ -264,13 +264,13 @@ msgctxt "Command"
 msgid "Add Scene"
 msgstr "Aggiungi Scena"
 
-#: audiomixer/setup/audiomixersetup.cpp
-msgctxt "Command"
+#: audiomixer/audiosendfolder.cpp
+msgctxt "AudioSendSlot"
 msgid "Add Send"
 msgstr "Aggiungi Send"
 
-#: audiomixer/audiosendfolder.cpp
-msgctxt "AudioSendSlot"
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
 msgid "Add Send"
 msgstr "Aggiungi Send"
 
@@ -419,8 +419,8 @@ msgctxt "AudioMixer"
 msgid "Audio Destinations"
 msgstr "Destinazioni Audio"
 
-#: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
+#: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 msgctxt "Command"
 msgid "Audio Device"
 msgstr "Periferica Audio"
@@ -625,13 +625,13 @@ msgctxt "AudioMixer"
 msgid "Channel"
 msgstr "Canale"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Channel"
 msgstr "Canale"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Channel"
 msgstr "Canale"
 
@@ -775,9 +775,9 @@ msgctxt "UCMixerConnector"
 msgid "Connected to %(1)."
 msgstr "Connesso a %(1)."
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
-#: audiomixer/audiolistenbus.cpp audiomixer/audiofaderswitcher.cpp
+#: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
 #: audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp
+#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
 #: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Console"
@@ -955,6 +955,11 @@ msgstr "Dispositivo Rilevato %(1)"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
+msgid "Device"
+msgstr "Periferica"
+
+#: editor/paramselector.cpp
+msgctxt "ParamSelector"
 msgid "Device"
 msgstr "Periferica"
 
@@ -1550,14 +1555,14 @@ msgctxt "EditGroups"
 msgid "Inserts"
 msgstr "Inserts"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instrument"
 msgstr "Strumento"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instrument"
 msgstr "Strumento"
 
@@ -1581,14 +1586,14 @@ msgctxt "Channels"
 msgid "Instruments"
 msgstr "Strumenti"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instruments"
 msgstr "Strumenti"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instruments"
 msgstr "Strumenti"
 
@@ -1687,17 +1692,17 @@ msgctxt "CueMixSlot"
 msgid "Lock"
 msgstr "Blocca"
 
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
-msgid "Lock Pan to Channel"
-msgstr "Blocca Pan al Canale"
-
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Lock Pan to Channel"
 msgstr "Blocca Pan al Canale"
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/audiosendfolder.cpp
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
+msgid "Lock Pan to Channel"
+msgstr "Blocca Pan al Canale"
+
+#: audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "Command"
 msgid "Lock Panning"
 msgstr "Blocca Panning"
@@ -1848,6 +1853,11 @@ msgctxt "AudioSynth"
 msgid "Multi Instrument"
 msgstr "Multi Strumento"
 
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
+msgid "Mute"
+msgstr "Mute"
+
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Mute"
@@ -1855,11 +1865,6 @@ msgstr "Mute"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
-msgid "Mute"
-msgstr "Mute"
-
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
 msgid "Mute"
 msgstr "Mute"
 
@@ -2143,13 +2148,13 @@ msgctxt "Command"
 msgid "Page Up Skip"
 msgstr "Salto Pagina Su"
 
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Pan"
 msgstr "Pan"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
 msgid "Pan"
 msgstr "Pan"
 
@@ -2248,11 +2253,6 @@ msgctxt "AudioFX"
 msgid "Plug-in Nap"
 msgstr "Plug-in Nap"
 
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
-msgctxt "Hardware"
-msgid "Polarity"
-msgstr "Polarità"
-
 #: audiomixer/audiochannelinputfx.cpp
 msgctxt "AudioChannelInputFX"
 msgid "Polarity"
@@ -2260,11 +2260,16 @@ msgstr "Polarità"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
+msgid "Polarity"
+msgstr "Polarità"
+
+#: audiomixer/audiochannelinputfx.cpp
+msgctxt "AudioChannelInputFX"
 msgid "Polarity Right"
 msgstr "Polarità Destra"
 
-#: audiomixer/audiochannelinputfx.cpp
-msgctxt "AudioChannelInputFX"
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
+msgctxt "Hardware"
 msgid "Polarity Right"
 msgstr "Polarità Destra"
 
@@ -2292,6 +2297,11 @@ msgstr "Misurazione Post-Fader"
 msgctxt "AudioChannelMeter"
 msgid "Post-Panner Metering"
 msgstr "Misurazione Post-Panner"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Postroll"
+msgstr "Postroll"
 
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
@@ -2403,13 +2413,13 @@ msgctxt "Command"
 msgid "Recently Touched"
 msgstr "Toccato Recentemente"
 
-#: mixer/mixercontrollable.cpp
-msgctxt "Channel"
+#: mixer/editgroupmanager.cpp
+msgctxt "EditGroups"
 msgid "Record"
 msgstr "Record"
 
-#: mixer/editgroupmanager.cpp
-msgctxt "EditGroups"
+#: mixer/mixercontrollable.cpp
+msgctxt "Channel"
 msgid "Record"
 msgstr "Record"
 
@@ -2763,13 +2773,13 @@ msgctxt "Command"
 msgid "Select Fader Flip Target"
 msgstr "Seleziona Fader Flip Target"
 
-#: audiomixer/setup/audiomixersetup.cpp
-msgctxt "Command"
+#: audiomixer/audiomixfxcomponent.cpp
+msgctxt "Devices"
 msgid "Select Mix FX"
 msgstr "Seleziona Mix FX"
 
-#: audiomixer/audiomixfxcomponent.cpp
-msgctxt "Devices"
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
 msgid "Select Mix FX"
 msgstr "Seleziona Mix FX"
 
@@ -2838,15 +2848,15 @@ msgctxt "SideChain"
 msgid "Select Sidechain Source"
 msgstr "Seleziona Sorgente Sidechain"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
-msgid "Send"
-msgstr "Invia"
-
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Send"
 msgstr "Send"
+
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
+msgid "Send"
+msgstr "Invia"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
@@ -3478,6 +3488,11 @@ msgctxt "SideChain"
 msgid "Toggle Prefader"
 msgstr "Attiva Prefader"
 
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Toggle Record"
+msgstr "Attiva/disattiva la registrazione"
+
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Toggle Related Channels"
@@ -3513,12 +3528,17 @@ msgctxt "MixerEditFunctions"
 msgid "Transfer Channel"
 msgstr "Trasferisci Canale"
 
+#: audiomixer/channels/audiotrackchannel.cpp
+msgctxt "Channels"
+msgid "Transformed Track"
+msgstr "Traccia trasformata"
+
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Transmit value"
 msgstr "Invia Valore"
 
-#: transport/transportoptions.cpp transport/metronome.cpp
+#: transport/metronome.cpp transport/transportoptions.cpp
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Transport"
@@ -3534,13 +3554,13 @@ msgctxt "FaderFlip"
 msgid "Turn Off Fader Flip"
 msgstr "Spegni Fader Flip"
 
-#: editor/performancemonitor.cpp
-msgctxt "PerformanceMonitor"
+#: editor/microeditor.cpp
+msgctxt "MicroEditSetup"
 msgid "Type"
 msgstr "Tipo"
 
-#: editor/microeditor.cpp
-msgctxt "MicroEditSetup"
+#: editor/performancemonitor.cpp
+msgctxt "PerformanceMonitor"
 msgid "Type"
 msgstr "Tipo"
 
@@ -3559,18 +3579,18 @@ msgctxt "UserCommandSection"
 msgid "Unassign"
 msgstr "Annulla Assegnazione"
 
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
+#: audiomixer/audiosendfolder.cpp
+msgctxt "AudioSendSlot"
 msgid "Unlock Panning"
 msgstr "Sblocca Panning"
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/audiosendfolder.cpp
+#: audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "Command"
 msgid "Unlock Panning"
 msgstr "Sblocca Panning"
 
-#: audiomixer/audiosendfolder.cpp
-msgctxt "AudioSendSlot"
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
 msgid "Unlock Panning"
 msgstr "Sblocca Panning"
 
@@ -3649,16 +3669,6 @@ msgctxt "MixerSnapshots"
 msgid "Visibility only"
 msgstr "Solo visibilità"
 
-#: audiomixer/channels/audiovcachannel.cpp
-msgctxt "AudioVCAChannel"
-msgid "Volume"
-msgstr "Volume"
-
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
-msgid "Volume"
-msgstr "Volume"
-
 #: audiomixer/audiochannel.cpp
 msgctxt "AudioChannel"
 msgid "Volume"
@@ -3666,6 +3676,16 @@ msgstr "Volume"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
+msgid "Volume"
+msgstr "Volume"
+
+#: audiomixer/channels/audiovcachannel.cpp
+msgctxt "AudioVCAChannel"
+msgid "Volume"
+msgstr "Volume"
+
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
 msgid "Volume"
 msgstr "Volume"
 

@@ -7,7 +7,7 @@ msgstr ""
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid " + Add"
-msgstr ""
+msgstr " + Ekle"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Quantize"
@@ -17,32 +17,32 @@ msgstr "%(1) Bar"
 #: quantize/quantizecomponent.cpp
 msgctxt "Quantize"
 msgid "%(1) Bars"
-msgstr "%(1) Bar"
+msgstr "%(1) Barlar"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "%(1) Note"
-msgstr ""
+msgstr "%(1) Nota"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "%(1) Octave"
-msgstr ""
+msgstr "%(1) Oktav"
 
 #: events/spoteventscomponent.cpp
 msgctxt "Edit"
 msgid "%(1) events"
-msgstr ""
+msgstr "%(1) olay"
 
 #: music/musiceditmodel.cpp
 msgctxt "MusicEditComponent"
 msgid "%(1):  Length: %(2) | Velocity: %(3)"
-msgstr "%(1): Uzunluk: %(2) | Şiddet: %(3)"
+msgstr "%(1):  Uzunluk: %(2) | Hız: %(3)"
 
 #: tempo/tempoedithandler.cpp
 msgctxt "TempoEdit"
 msgid "%(3) BPM - Scale %(1) to %(2)"
-msgstr "%(3) BPM - Scale %(1) den %(2) ye"
+msgstr "%(3) BPM - %(1)'i %(2)'ye Ölçekle"
 
 #: music/musicedithandler.cpp
 msgctxt "Events"
@@ -52,17 +52,17 @@ msgstr "Mutlak"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Activation Sequence"
-msgstr ""
+msgstr "Aktivasyon Sırası"
 
 #: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
-msgstr ""
+msgstr "Aktif Varyasyon: %(1)"
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
 msgid "Adaptive"
-msgstr "Adaptif"
+msgstr "Uyarlanabilir"
 
 #: quantize/quantizedraghandler.cpp
 msgctxt "QuantizeDragHandler"
@@ -72,27 +72,37 @@ msgstr "Groove Kalıbı Ekle"
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
 msgid "Align Lyrics"
-msgstr ""
+msgstr "Sözleri Hizala"
 
 #: music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "Apply Sound Variation"
-msgstr ""
+msgstr "Ses Varyasyonunu Uygula"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Are you sure you want to overwrite the default map?"
-msgstr ""
+msgstr "Varsayılan haritayı üzerine yazmak istediğinizden emin misiniz?"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Are you sure you want to permanently delete these %(1) items?"
+msgstr "%(1) nesneyi kalıcı olarak silmek istediğinize emin misiniz?"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Are you sure you want to permanently delete this item?"
+msgstr "Bu nesneyi kalıcı olarak silmek istediğinize emin misiniz?"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Are you sure you want to remove the default map?"
-msgstr ""
+msgstr "Varsayılan haritayı silmek istediğinizden emin misiniz?"
 
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Articulations"
-msgstr ""
+msgstr "Artikulasyonlar"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -102,37 +112,37 @@ msgstr "Ata"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Assign Default Key Switches"
-msgstr ""
+msgstr "Varsayılan Anahtar Geçişlerini Ata"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Assign Key Switches Chromatic"
-msgstr ""
+msgstr "Chromatik Anahtar Geçişlerini Ata"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Assign Key Switches White Keys"
-msgstr ""
+msgstr "Beyaz Tuş Anahtar Geçişlerini Ata"
 
-#: timeedit/timeeditcomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Edit"
 msgid "Auto Zoom Full"
-msgstr ""
+msgstr "Otomatik Zoom Tam"
 
-#: timeedit/timeeditcomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Edit"
 msgid "Auto Zoom Horizontally"
-msgstr ""
+msgstr "Otomatik Zoom Yatay"
 
-#: timeedit/timeeditcomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Edit"
 msgid "Auto Zoom Vertically"
-msgstr ""
+msgstr "Otomatik Zoom Dikey"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Auto-assign Symbols"
-msgstr ""
+msgstr "Semboller Otomatik Olarak Ata"
 
 #: envelopes/envelopeeditlayer.cpp music/velocityeditview.cpp
 msgctxt "Command"
@@ -142,47 +152,62 @@ msgstr "Otomasyon"
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Autoscroll"
-msgstr "Otomatik Kaydır"
+msgstr "Otomatik Kaydırma"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll Centered"
+msgstr ""
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll Left"
+msgstr ""
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll Turn Over"
+msgstr ""
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Bank Change"
-msgstr ""
+msgstr "Bank Değişikliği"
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
 msgid "Bar"
-msgstr "Bar"
+msgstr "Ölçü"
 
 #: music/lyricsdisplay.cpp
 msgctxt "LyricsDisplaySetup"
 msgid "Bars"
-msgstr ""
-
-#: envelopes/envelopeinspector.cpp
-msgctxt "Envelope"
-msgid "Bend Curve"
-msgstr "Eğriyi Bük"
+msgstr "Ölçüler"
 
 #: envelopes/envelopeedithandler.cpp
 msgctxt "Events"
 msgid "Bend Curve"
-msgstr "Eğriyi Bük"
+msgstr "Büküm Eğrisini Düzenle"
+
+#: envelopes/envelopeinspector.cpp
+msgctxt "Envelope"
+msgid "Bend Curve"
+msgstr "Büküm Eğrisini Düzenle"
 
 #: music/notecolorschemeparam.cpp
 msgctxt "NoteColorScheme"
 msgid "Black Selection"
-msgstr "Siyahları Seç"
+msgstr "Siyah Seçim"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Channel Change"
-msgstr ""
+msgstr "Kanal Değişikliği"
 
 #: music/musiceditmodel.cpp
 msgctxt "MusicEditComponent"
 msgid "Chord: %(1)"
-msgstr ""
+msgstr "Akor: %(1)"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -192,12 +217,12 @@ msgstr "Akorlar"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Clear All Key Switches"
-msgstr ""
+msgstr "Tüm Anahtar Geçişlerini Temizle"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Clear Map"
-msgstr ""
+msgstr "Haritayı Temizle"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
@@ -212,7 +237,7 @@ msgstr "Renk"
 #: events/eventedithandler.cpp
 msgctxt "EventEditHandler"
 msgid "Common end"
-msgstr "Ortak son"
+msgstr "Ortak Son"
 
 #: events/eventedithandler.cpp
 msgctxt "EventEditHandler"
@@ -222,7 +247,17 @@ msgstr "Ortak Uzunluk"
 #: events/eventedithandler.cpp
 msgctxt "EventEditHandler"
 msgid "Common start"
-msgstr "Ortak başlangıç"
+msgstr "Ortak Başlangıç"
+
+#: timeedit/timeline.cpp
+msgctxt "Edit"
+msgid "Continuous Centered"
+msgstr ""
+
+#: timeedit/timeline.cpp
+msgctxt "Edit"
+msgid "Continuous Left"
+msgstr ""
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -232,7 +267,7 @@ msgstr "Kontrolcü"
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Copy From"
-msgstr ""
+msgstr "Şuradan Kopyala"
 
 #: envelopes/envelopedraghandler.cpp
 msgctxt "Envelopes"
@@ -242,57 +277,57 @@ msgstr "Noktaları Kopyala"
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Copy Symbol"
-msgstr ""
+msgstr "Sembolü Kopyala"
 
 #: tempo/tempodraghandler.cpp
 msgctxt "TempoDragHandler"
 msgid "Copy Tempo"
-msgstr "Tempo Kopyala"
+msgstr "Temposunu Kopyala"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Create Range from Cursor"
-msgstr "İmleçten itibaren Alan Oluştur"
+msgstr "İmleçten Aralık Oluştur"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Create Range from Cursor to Hotspot"
-msgstr "İmleçten Hotspot'a Alan Oluştur"
+msgstr "İmleçten Hotspot’a Aralık Oluştur"
 
 #: tempo/tempoedithandler.cpp
 msgctxt "TempoEdit"
 msgid "Create Steps"
-msgstr "Adımlar Yarat"
+msgstr "Adımlar Oluştur"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Data"
-msgstr ""
+msgstr "Veri"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Data 2"
-msgstr ""
+msgstr "Veri 2"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Data Zoom In"
-msgstr "Veri Zoom In"
+msgstr "Veriyi Zoom ile Yakınlaştır"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Data Zoom Out"
-msgstr "Veri Zoom Out"
+msgstr "Veriyi Zoom ile Uzaklaştır"
 
 #: music/soundvariationtreemodel.cpp
 msgctxt "SoundVariations"
 msgid "Default"
-msgstr "varsayılan"
+msgstr "Varsayılan"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Default"
-msgstr "varsayılan"
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Delete"
+msgstr "Sil"
 
 #: tempo/tempoeditcomponent.cpp
 msgctxt "Command"
@@ -302,17 +337,17 @@ msgstr "Sil"
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
 msgid "Denominator"
-msgstr "Denominator"
+msgstr "Payda"
 
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Direction"
-msgstr ""
+msgstr "Yön"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Disable Key Switches"
-msgstr ""
+msgstr "Anahtar Geçişlerini Devre Dışı Bırak"
 
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
@@ -322,12 +357,12 @@ msgstr "Noktalı"
 #: envelopes/envelopeedithandler.cpp
 msgctxt "Events"
 msgid "Draw Automation"
-msgstr "Otomasyon Çiz"
+msgstr "Otomasyonu Çiz"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Draw Loop"
-msgstr "Döngü Çiz"
+msgstr "Loop Çiz"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
@@ -352,17 +387,17 @@ msgstr "Paylaşılanı Kopyala"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Duplicate and Insert"
-msgstr "Kopyala ve Araya Ekle"
+msgstr "Kopyala ve Ekle"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Dynamics"
-msgstr ""
+msgstr "Dinamikler"
 
 #: events/eventeditcomponent.cpp music/noteplayer.cpp
-#: timeedit/snaptimeprovider.cpp timeedit/signatureeditlayer.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
-#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timesnapper.cpp timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "Düzenle"
@@ -370,22 +405,27 @@ msgstr "Düzenle"
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Edit Articulations"
-msgstr ""
+msgstr "Artikulasyonları Düzenle"
 
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Edit Directions"
-msgstr ""
+msgstr "Yönergeleri Düzenle"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
 msgid "Edit Key Signature"
-msgstr ""
+msgstr "Ton Anahtarını Düzenle"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "Command"
 msgid "Edit Key Signature"
-msgstr ""
+msgstr "Ton Anahtarını Düzenle"
+
+#: base/notepad.cpp
+msgctxt "Notepad"
+msgid "Edit Note"
+msgstr "Notu Düzenle"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
@@ -396,51 +436,56 @@ msgstr "Zaman İşaretini Düzenle"
 msgctxt "Command"
 msgid "Edit Time Signature"
 msgstr "Zaman İşaretini Düzenle"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Empty Trash Bin"
+msgstr "Çöp Kutusunu Temizle"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Enable Key Switches"
-msgstr ""
+msgstr "Anahtar Geçişlerini Etkinleştir"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Enable Play Start Marker"
-msgstr "Çalma başlangıcı işaretçisini devreye al"
+msgstr "Oynatma Başlangıç İşaretçisini Etkinleştir"
 
 #: envelopes/envelopeinspector.cpp
 msgctxt "Envelope"
 msgid "Exponential"
-msgstr "Exponansiyel"
+msgstr "Üssel"
 
 #: envelopes/envelopeedithandler.cpp events/eventtransform.cpp
 msgctxt "Events"
 msgid "Fine"
-msgstr "Hassas"
+msgstr "İnce Ayar"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "First Event"
-msgstr "İlk Klip"
+msgstr "İlk Öğe"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "First Event Extend"
-msgstr "İlk Klip'i Genişlet"
+msgstr "İlk Öğeyi Genişlet"
 
 #: events/eventfigure.cpp
 msgctxt "EventFigures"
 msgid "Flip"
-msgstr "Döndür"
+msgstr "Yansıt"
 
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Follow Quantize"
-msgstr "Quantizeyi takip et"
+msgstr "Quantize Takip Et"
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
 msgid "Frames"
-msgstr "Frame'ler"
+msgstr "Kareler"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -470,7 +515,7 @@ msgstr "Groove"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Input"
-msgstr "Giriş"
+msgstr "Girdi"
 
 #: tempo/tempoeditcomponent.cpp
 msgctxt "Command"
@@ -480,12 +525,12 @@ msgstr "Araya Ekle"
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
 msgid "Insert Key Signature"
-msgstr ""
+msgstr "Ton Anahtarını Ekle"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "Command"
 msgid "Insert Key Signature"
-msgstr ""
+msgstr "Ton Anahtarını Ekle"
 
 #: envelopes/envelopeedithandler.cpp
 msgctxt "Events"
@@ -495,47 +540,47 @@ msgstr "Noktalar Ekle"
 #: music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "Insert Sound Variation"
-msgstr ""
+msgstr "Ses Varyasyonu Ekle"
 
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Insert Symbol"
-msgstr ""
+msgstr "Sembol Ekle"
 
 #: tempo/tempoeditmodel.cpp
 msgctxt "Tempo"
 msgid "Insert Tempo"
-msgstr "Araya Tempo Ekle"
+msgstr "Tempo Ekle"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
 msgid "Insert Time Signature"
-msgstr "Araya Zaman İşareti Ekle"
+msgstr "Zaman İmzasını Ekle"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "Command"
 msgid "Insert Time Signature"
-msgstr "Araya Zaman İşareti Ekle"
+msgstr "Zaman İmzasını Ekle"
 
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Insert at Cursor"
-msgstr ""
+msgstr "İmlece Ekle"
 
 #: music/musiceditmodel.cpp
 msgctxt "MusicEditComponent"
 msgid "Key switch: %(1)"
-msgstr "Key switch: %(1)"
+msgstr "Anahtar geçişi: %(1)"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Last Event"
-msgstr "Son Klip"
+msgstr "Son Öğe"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Last Event Extend"
-msgstr "Son Klipi Genişlet"
+msgstr "Son Öğe'yi Genişlet"
 
 #: events/eventedithandler.cpp
 msgctxt "EventEditHandler"
@@ -550,12 +595,12 @@ msgstr "Uzunluk: %(1)"
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Length: %(1)"
-msgstr ""
+msgstr "Uzunluk: %(1)"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Load Default"
-msgstr ""
+msgstr "Varsayılanı Yükle"
 
 #: timeedit/timeedittoolactions.cpp
 msgctxt "TimeEdit"
@@ -565,7 +610,7 @@ msgstr "Bul"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Locate Mouse Cursor"
-msgstr "İmleçi Bul"
+msgstr "İmleci Bul"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -575,62 +620,57 @@ msgstr "Seçimi Bul"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Locate Selection End"
-msgstr "Seçimin Sonunu Bul"
+msgstr "Seçim Sonunu Bul"
 
 #: envelopes/envelopeedithandler.cpp
 msgctxt "Events"
 msgid "Lock Values / Time"
-msgstr "Değerleri / Zamanı Kitle"
+msgstr "Değerleri / Zamanı Kilitle"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Loop Active"
-msgstr "Döngü Aktif"
+msgstr "Loop Aktif"
 
 #: timeedit/timeeditcomponent.cpp timeedit/timerulerview.cpp
 msgctxt "Edit"
 msgid "Loop Follows Selection"
-msgstr "Döngü Seçimi Takip Eder"
+msgstr "Loop Seçimi Takip Eder"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Loop Follows Selection"
-msgstr "Döngü Seçimi Takip Eder"
+msgstr "Loop Seçimi Takip Eder"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Loop Selection"
-msgstr "Seçimi Döngüye Al"
+msgstr "Seçimi Loop'a Al"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Loop Selection Snapped"
-msgstr "Seçimi Snap ile Döngüre AL"
+msgstr "Loop Seçimi Snap"
 
 #: music/lyricsdisplay.cpp
 msgctxt "Command"
 msgid "Lyrics"
-msgstr ""
+msgstr "Şarkı Sözleri"
 
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
 msgid "Lyrics"
-msgstr "Şarkı Sözleri"
-
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Minimal"
-msgstr "Minimal"
+msgstr "Sözler"
 
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Modify Velocity"
-msgstr "Sürati Değiştir"
+msgstr "Hız Değerini Değiştir"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Momentary"
-msgstr ""
+msgstr "Geçici"
 
 #: events/eventedithandler.cpp
 msgctxt "EventFigures"
@@ -640,12 +680,12 @@ msgstr "Taşı"
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Move Loop Range"
-msgstr "Döngü Alanını Taşı"
+msgstr "Loop Aralığını Taşı"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Move Play Start Marker"
-msgstr "Çalma Başlangış İşaretini Taşı"
+msgstr "Oynatma Başlangıç İşaretçisini Taşı"
 
 #: envelopes/envelopedraghandler.cpp
 msgctxt "Envelopes"
@@ -655,42 +695,42 @@ msgstr "Noktaları Taşı"
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Move Range"
-msgstr "Alanı Taşı"
+msgstr "Aralığı Taşı"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Move Range Back"
-msgstr "Alanı Geri Taşı"
+msgstr "Aralığı Geri Taşı"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Move Range Down"
-msgstr "Alanı Aşağı Taşı"
+msgstr "Aralığı Aşağı Taşı"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Move Range Up"
-msgstr "Alanı Yukarı Taşı"
+msgstr "Aralığı Yukarı Taşı"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Move Range to Hotspot"
-msgstr "Alanı Hotspot'a Taşı"
+msgstr "Aralığı Hotspot’a Taşı"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Move Range to Hotspot Back"
-msgstr "Alanı Hotspot Arkasına Taşı"
+msgstr "Aralığı Hotspot’a Geri Taşı"
 
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Move Symbol"
-msgstr ""
+msgstr "Sembolü Taşı"
 
 #: tempo/tempodraghandler.cpp
 msgctxt "TempoDragHandler"
 msgid "Move tempo"
-msgstr "Tempo'yu Taşı"
+msgstr "Temposunu Taşı"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
@@ -705,7 +745,7 @@ msgstr "İmlece Taşı"
 #: timeedit/timeedittoolactions.cpp
 msgctxt "TimeEdit"
 msgid "Move, Zoom"
-msgstr "Taşı, Zoom"
+msgstr "Taşı, Zoom Yap"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -715,37 +755,43 @@ msgstr "Müzikal Fonksiyonlar"
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
 msgid "Mute"
-msgstr "Sessize AL"
-
-#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
-msgctxt "SoundVariations"
-msgid "Name"
-msgstr "İsim"
+msgstr "Sustur"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Name"
 msgstr "İsim"
 
-#: events/eventeditcomponent.cpp timeedit/timeeditcomponent.cpp
+#: music/soundvariationeditor.cpp music/soundvariationtreemodel.cpp
+msgctxt "SoundVariations"
+msgid "Name"
+msgstr "İsim"
+
+#: events/eventeditcomponent.cpp itemlist/listitemcomponent.cpp
+#: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "Navigasyon"
 
+#: itemlist/showhidefilter.cpp
+msgctxt "ShowHideFilter"
+msgid "New Preset"
+msgstr "Yeni Preset"
+
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Next Base"
-msgstr "Sonrakı Temel"
+msgstr "Sonraki Temel Değer"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Next Event"
-msgstr "Sonraki Klip"
+msgstr "Sonraki Öğe"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Next Event Extend"
-msgstr "Sonraki Klip'i Genişlet"
+msgstr "Sonraki Öğeyi Genişlet"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -755,12 +801,12 @@ msgstr "Sonraki Hotspot"
 #: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
-msgstr ""
+msgstr "Varyasyon Yok"
 
 #: music/lyricsdisplay.cpp
 msgctxt "LyricsDisplaySetup"
 msgid "Note Events"
-msgstr ""
+msgstr "Nota Öğeleri"
 
 #: music/musiceditcomponent.cpp
 msgctxt "MusicEditComponent"
@@ -770,17 +816,17 @@ msgstr "Nota Uzunluğu"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Note Off"
-msgstr ""
+msgstr "Nota Kapat"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Note On"
-msgstr ""
+msgstr "Nota Aç"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Note On + Off"
-msgstr ""
+msgstr "Nota Aç + Kapat"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -825,27 +871,27 @@ msgstr "Bar'ı Yukarı Hafifçe İttir"
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
 msgid "Numerator"
-msgstr "Nümeratör"
+msgstr "Pay"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Open Secondary Ruler"
-msgstr ""
+msgstr "İkincil Zaman Cetvelini Aç"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Open Secondary Ruler"
-msgstr ""
+msgstr "İkincil Zaman Cetvelini Aç"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
 msgid "Operations specific to note events"
-msgstr "Notalara özel operasyonlar"
+msgstr "Nota öğelerine özel işlemler"
 
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Paint Events"
-msgstr "Klipleri Boya"
+msgstr "Öğeleri Çiz"
 
 #: music/notecolorschemeparam.cpp
 msgctxt "NoteColorScheme"
@@ -855,47 +901,47 @@ msgstr "Bölüm"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Paste at Original Position"
-msgstr "Orijinal Poziyonunda Yapıştır"
+msgstr "Orijinal Konumuna Yapıştır"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Paste at Original Position"
-msgstr "Orijinal Poziyonunda Yapıştır"
+msgstr "Orijinal Konumuna Yapıştır"
 
 #: events/eventedithandler.cpp
 msgctxt "EventFigures"
 msgid "Phase offset"
-msgstr "Faz offset"
-
-#: music/notecolorschemeparam.cpp
-msgctxt "NoteColorScheme"
-msgid "Pitch"
-msgstr "Perde"
+msgstr "Faz Kayması"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
 msgid "Pitch"
 msgstr "Perde"
 
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Pitch"
+msgstr "Perde"
+
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Previous Base"
-msgstr "Önceki Temel"
+msgstr "Önceki Temel Değer"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Previous Event"
-msgstr "Önceki Klip"
+msgstr "Önceki Öğe"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Previous Event Extend"
-msgstr "Önceki Klip'e Genişlet"
+msgstr "Önceki Öğe'yi Genişlet"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Previous Hotspot"
-msgstr "Öneki Hotspot"
+msgstr "Önceki Hotspot"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -905,22 +951,22 @@ msgstr "İşle"
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Process"
-msgstr "İşlem"
+msgstr "İşle"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Program Change"
-msgstr ""
+msgstr "Program Değişimi"
 
 #: music/lyricsdisplay.cpp
 msgctxt "LyricsDisplaySetup"
 msgid "Quantize"
-msgstr ""
+msgstr "Quantize Et"
 
 #: music/lyricseditlayerbase.cpp
 msgctxt "Music"
 msgid "Quantize"
-msgstr "Quantize"
+msgstr "Quantize Et"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -930,7 +976,7 @@ msgstr "Quantize"
 #: quantize/quantizecomponent.cpp
 msgctxt "Quantize"
 msgid "Quantize"
-msgstr "Quantize"
+msgstr "Quantize Et"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
@@ -940,47 +986,47 @@ msgstr "Quantize"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Quantize"
-msgstr "Quantize"
+msgstr "Quantize Et"
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
 msgid "Quantize"
-msgstr "Quantize"
+msgstr "Quantize Et"
 
 #: quantize/quantizegrid.cpp
 msgctxt "FileType"
 msgid "Quantize Settings"
 msgstr "Quantize Ayarları"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Quintuplet"
-msgstr "Quintuplet"
+msgstr "Beşleme"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Range End to Cursor"
-msgstr "Alanın Sonunu İmlece Getir"
+msgstr "Aralık Sonunu İmlece Ayarla"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Range Start to Cursor"
-msgstr "Alanın Başını İmlece Getir"
+msgstr "Aralık Başını İmlece Ayarla"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Redo Zoom"
-msgstr "Zoom'u Tekrarla"
+msgstr "Yakınlaştırmayı Yinele"
 
 #: timeedit/snaptimeprovider.cpp
 msgctxt "TimeSnapper"
 msgid "Relative Grid"
-msgstr "İzafi Izgara"
+msgstr "Göreli Izgara"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Reload Map from Instrument"
-msgstr ""
+msgstr "Haritayı Enstrümandan Yeniden Yükle"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -990,32 +1036,32 @@ msgstr "Kaldır"
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Remove All"
-msgstr "Hepsini Kaldır"
+msgstr "Tümünü Kaldır"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Remove All"
-msgstr "Hepsini Kaldır"
+msgstr "Tümünü Kaldır"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Remove Default"
-msgstr ""
+msgstr "Varsayılanı Kaldır"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
 msgid "Remove Key Signature"
-msgstr ""
+msgstr "Ton Anahtarını Kaldır"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "Command"
 msgid "Remove Key Signature"
-msgstr ""
+msgstr "Ton Anahtarını Kaldır"
 
 #: tempo/tempoeditmodel.cpp
 msgctxt "Tempo"
 msgid "Remove Tempo"
-msgstr "Tempo'yu Kaldır"
+msgstr "Tempoyu Kaldır"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
@@ -1025,7 +1071,7 @@ msgstr "Zaman İşaretini Kaldır"
 #: timeedit/signatureeditlayer.cpp
 msgctxt "Command"
 msgid "Remove Time Signature"
-msgstr "Zaman İşaretini Kaldır"
+msgstr "Zaman İmzasını Kaldır"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1035,42 +1081,47 @@ msgstr "Sıfırla"
 #: music/drumpads.cpp
 msgctxt "DrumPads"
 msgid "Reset Pads"
-msgstr ""
+msgstr "Pad'leri Sıfırla"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Restore"
+msgstr "Geri Getir"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Restore Zoom State"
-msgstr "Zoom Durumunu Geri Al"
-
-#: envelopes/envelopeinspector.cpp
-msgctxt "Envelope"
-msgid "S-Curve"
-msgstr "S-Curve"
+msgstr "Yakınlaştırma Durumunu Geri Yükle"
 
 #: envelopes/envelopeedithandler.cpp
 msgctxt "Events"
 msgid "S-Curve"
-msgstr "S-Curve"
+msgstr "S-Eğrisi"
+
+#: envelopes/envelopeinspector.cpp
+msgctxt "Envelope"
+msgid "S-Curve"
+msgstr "S-Eğrisi"
 
 #: music/notecolorschemeparam.cpp
 msgctxt "NoteColorScheme"
 msgid "Scale"
-msgstr ""
+msgstr "Dizi"
 
 #: tempo/tempoedithandler.cpp
 msgctxt "TempoEdit"
 msgid "Scale Tempo: please set Timeruler to Bars"
-msgstr "Dizi tempo: Lütfen Zaman Göstergesini Bar olarak ayarlayın"
+msgstr "Tempoyu Ölçekle: Lütfen zaman cetvelini Ölçü moduna alınız"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Score"
-msgstr "Notasyon"
+msgstr "Partisyon"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Select All in Loop"
-msgstr "Döngüdeki herşeyi seç"
+msgstr "Loop İçindekilerin Tümünü Seç"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
@@ -1080,187 +1131,192 @@ msgstr "İz üzerindeki herşeyi seç"
 #: music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "Select Sound Variation"
-msgstr ""
+msgstr "Ses Varyasyonu Seç"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Select from Event to End"
-msgstr "Klip'ten Sona Kadar Seç"
+msgstr "Öğeden Sona Kadar Seç"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Select from Start to Event"
-msgstr "Baş'tan Klip'e Kadar Seç"
+msgstr "Başlangıçtan Öğeye Kadar Seç"
 
 #: music/pitchscaleview.cpp
 msgctxt "PitchScale"
 msgid "Select notes of this Pitch"
-msgstr "Bu Perdenin notalarını seç"
+msgstr "Bu Perdede Olan Notaları Seç"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Septuplet"
-msgstr "Septuplet"
+msgstr "Yedileme"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Set Loop End"
-msgstr "Loop'u Sonunu ayarla"
+msgstr "Loop Sonunu Belirle"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Loop End"
-msgstr "Loop'u Sonunu ayarla"
+msgstr "Loop Sonunu Belirle"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Set Loop Start"
-msgstr "Loop'u Başını ayarla"
+msgstr "Loop Başını Belirle"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Loop Start"
-msgstr "Loop'u Başını ayarla"
+msgstr "Loop Başını Belirle"
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Set Postroll Bars"
+msgstr ""
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Set Preroll Bars"
+msgstr ""
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program A"
-msgstr "Program A'yı ayarla"
+msgstr "Program A'yı Ayarla"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program B"
-msgstr "Program B'yi ayarla"
+msgstr "Program B'yi Ayarla"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program C"
-msgstr "Program C'yi ayarla"
+msgstr "Program C'yi Ayarla"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program D"
-msgstr "Program D'yi ayarla"
+msgstr "Program D'yi Ayarla"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program E"
-msgstr "Program E'yi ayarla"
+msgstr "Program E'yi Ayarla"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program F"
-msgstr "Program F'yi ayarla"
+msgstr "Program F'yi Ayarla"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program G"
-msgstr "Program G'yi ayarla"
+msgstr "Program G'yi Ayarla"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Shift Key Switches"
-msgstr ""
+msgstr "Anahtar Geçişlerini Kaydır"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range End"
-msgstr "Size Range End"
+msgstr "Aralık Sonunu Ayarla"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range End Back"
-msgstr "Size Range End Back"
+msgstr "Aralık Sonunu Geri Al"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range End Down"
-msgstr "Size Range End Down"
+msgstr "Aralık Sonunu Aşağı Al"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range End Up"
-msgstr "Size Range End Up"
+msgstr "Aralık Sonunu Yukarı Al"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range End to Hotspot"
-msgstr "Size Range End to Hotspot"
+msgstr "Aralık Sonunu Hotspot'a Ayarla"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range End to Hotspot Back"
-msgstr "Size Range End to Hotspot Back"
+msgstr "Aralık Sonunu Hotspot’a Geri Ayarla"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start"
-msgstr "Size Range Start"
+msgstr "Aralık Başlangıcını Ayarla"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start Back"
-msgstr "Size Range Start Back"
+msgstr "Aralık Başlangıcını Geri Al"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start Down"
-msgstr "Size Range Start Down"
+msgstr "Aralık Başlangıcını Aşağı Al"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start Up"
-msgstr "Size Range Start Up"
+msgstr "Aralık Başlangıcını Yukarı Al"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start to Hotspot"
-msgstr "Size Range Start to Hotspot"
+msgstr "Aralık Başlangıcını Hotspot’a Ayarla"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start to Hotspot Back"
-msgstr "Size Range Start to Hotspot Back"
-
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Small caps"
-msgstr ""
+msgstr "Aralık Başlangıcını Hotspot’a Geri Ayarla"
 
 #: timeedit/snaptimeprovider.cpp
 msgctxt "Command"
 msgid "Snap Relative Grid"
-msgstr "İzafi Izgaraya Yanaştır"
+msgstr "Izgaraya Göre Göreli Snap"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Snap To Cursor & Loop"
-msgstr "İmleç ve Döngüye Yanaştır"
+msgstr "İmleç ve Loop Snap"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Snap To Cursor & Loop"
-msgstr "İmleç ve Döngüye Yanaştır"
+msgstr "İmleç ve Loop Snap"
 
 #: events/eventsnapper.cpp
 msgctxt "TimeSnapper"
 msgid "Snap To Events"
-msgstr "Kliplere Yanaştır"
+msgstr "Öğelere Snap"
 
 #: timeedit/snaptimeprovider.cpp
 msgctxt "TimeSnapper"
 msgid "Snap To Grid"
-msgstr "Izgaraya Yanaştır"
+msgstr "Izgaraya Snap"
 
 #: timeedit/snaptimeprovider.cpp
 msgctxt "Command"
 msgid "Snap To Grid"
-msgstr "Izgaraya Yanaştır"
+msgstr "Izgaraya Snap"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Sound Variation"
-msgstr ""
+msgstr "Ses Varyasyonu"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -1270,29 +1326,29 @@ msgstr "Böl"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Split at Cursor"
-msgstr "İmleçten Böl"
+msgstr "İmleçte Böl"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Split at Cursor"
-msgstr "İmleçten Böl"
+msgstr "İmleçte Böl"
 
 #: timeedit/timeedittoolactions.cpp
 msgctxt "TimeEdit"
 msgid "Start/Stop"
-msgstr "Start/Stop"
+msgstr "Başlat/Durdur"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Store Zoom State"
-msgstr "Zoom Durumunu Sakla"
+msgstr "Yakınlaştırma Durumunu Kaydet"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Store as Default"
-msgstr ""
+msgstr "Varsayılan Olarak Kaydet"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Straight"
 msgstr "Düz"
@@ -1300,37 +1356,32 @@ msgstr "Düz"
 #: envelopes/envelopeeditlayer.cpp
 msgctxt "Command"
 msgid "Straighten Curve"
-msgstr "Eğriyi Düzelt"
+msgstr "Eğriyi Düzleştir"
 
 #: events/eventedithandler.cpp
 msgctxt "EventFigures"
 msgid "Stretch"
-msgstr "Sıkıştır"
+msgstr "Esnet"
 
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Strum"
-msgstr ""
+msgstr "Telleri Taramak"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Swap Ruler Formats"
-msgstr ""
-
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Symbol"
-msgstr ""
+msgstr "Cetvel Formatlarını Değiştir"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Symbol"
-msgstr ""
+msgstr "Sembol"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Symbol"
-msgstr ""
+msgstr "Sembol"
 
 #: tempo/tempoeditcomponent.cpp
 msgctxt "Command"
@@ -1339,17 +1390,23 @@ msgstr "Tempo"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid ""
-"The preset was generated for '%(1)' and does not match the target instrument.\n"
-"Do you want to load the variation map anyway?"
-msgstr ""
+msgid "The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
+msgstr "Bu preset '%(1)' için oluşturulmuş ve hedef enstrümanla eşleşmiyor.\nYine de varyasyon haritasını yüklemek istiyor musunuz?"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid ""
-"The preset was generated for sound '%(1)' and does not match the current instrument preset.\n"
-"Do you want to load the variation map anyway?"
-msgstr ""
+msgid "The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
+msgstr "Bu preset '%(1)' sesi için oluşturulmuş ve mevcut enstrüman presetiyle eşleşmiyor.\nYine de varyasyon haritasını yüklemek istiyor musunuz?"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "These items could not be restored!"
+msgstr "Bu öğeler geri getirilemedi!"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "This item could not be restored!"
+msgstr "Bu öğe geri getirilemedi!"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -1359,7 +1416,7 @@ msgstr "Zaman"
 #: envelopes/envelopeedithandler.cpp
 msgctxt "Events"
 msgid "Time Locked"
-msgstr "Zaman Kitli"
+msgstr "Zaman Kilitli"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
@@ -1369,27 +1426,27 @@ msgstr "Zaman Cetveli"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Timebase"
-msgstr "Timebase"
+msgstr "Zaman Ölçeği"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom"
-msgstr ""
+msgstr "Otomatik Yakınlaştırmayı Aç/Kapa"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Full"
-msgstr ""
+msgstr "Tam Otomatik Yakınlaştırmayı Aç/Kapa"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Horizontally"
-msgstr ""
+msgstr "Yatay Otomatik Yakınlaştırmayı Aç/Kapa"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Vertically"
-msgstr ""
+msgstr "Dikey Otomatik Yakınlaştırmayı Aç/Kapa"
 
 #: music/musicedithandler.cpp
 msgctxt "Events"
@@ -1399,17 +1456,17 @@ msgstr "Akor Modunu Aç/Kapa"
 #: music/lyricsdisplay.cpp
 msgctxt "Command"
 msgid "Toggle Edit Mode"
-msgstr ""
+msgstr "Düzenleme Modunu Aç/Kapa"
 
 #: music/noteplayer.cpp
 msgctxt "Command"
 msgid "Toggle Note Audition"
-msgstr ""
+msgstr "Nota Dinlemesini Aç/Kapat"
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
 msgid "Toggle Snap"
-msgstr "Yanaştırmayı Aç/Kapa"
+msgstr "Snap Aç/Kapa"
 
 #: timeedit/timesnapper.cpp
 msgctxt "Command"
@@ -1419,17 +1476,17 @@ msgstr "Yanaştırmayı Aç/Kapa"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Toggle Time-Linear Display"
-msgstr "Zaman-Lineer Gözterimi Aç/Kapa"
+msgstr "Zaman-Doğrusal Görünümü Aç/Kapa"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Toggle Zoom"
-msgstr "Zoom Aç/Kapa"
+msgstr "Yakınlaştırmayı Aç/Kapa"
 
 #: music/musiceditmodel.cpp
 msgctxt "MusicEditComponent"
 msgid "Transfer Notes"
-msgstr "Notaları Transfer Et"
+msgstr "Notaları Aktar"
 
 #: envelopes/envelopetransformhandler.cpp events/eventtransform.cpp
 msgctxt "Events"
@@ -1439,27 +1496,32 @@ msgstr "Otomasyonu Dönüştür"
 #: envelopes/envelopeeditlayer.cpp music/velocityeditview.cpp
 msgctxt "Command"
 msgid "Transform Range"
-msgstr "Bölgeyi Dönüştür"
+msgstr "Aralığı Dönüştür"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Transport"
 msgstr "Transport"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Triplet"
-msgstr "Triplet"
+msgstr "Üçleme"
+
+#: timeedit/timeline.cpp
+msgctxt "Edit"
+msgid "Turn Over"
+msgstr ""
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Type"
-msgstr "Tip"
+msgstr "Tür"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Undo Zoom"
-msgstr "Zoom'u Geri Al"
+msgstr "Yakınlaştırmayı Geri Al"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1469,54 +1531,55 @@ msgstr "Bilinmiyor"
 #: envelopes/envelopeedithandler.cpp
 msgctxt "Events"
 msgid "Unlock Values / Time"
-msgstr "Değer / Zaman Kilidini Aç"
+msgstr "Değerleri / Zamanı Kilitten Çıkar"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Use Activation Sequence"
-msgstr ""
+msgstr "Etkinleştirme Sırasını Kullan"
 
 #: music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "Used"
-msgstr "Kullanılmış"
+msgstr "Kullanıldı"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Value"
-msgstr ""
+msgstr "Değer"
 
 #: envelopes/envelopeedithandler.cpp
 msgctxt "Events"
 msgid "Values Locked"
-msgstr "Değerler Kitli"
-
-#: music/notecolorschemeparam.cpp
-msgctxt "NoteColorScheme"
-msgid "Velocity"
-msgstr "Hız"
+msgstr "Değerler Kilitli"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
 msgid "Velocity"
 msgstr "Hız"
 
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
+msgid "Velocity"
+msgstr "Vuruş Şiddeti"
+
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Velocity Accent"
-msgstr "Hız Aksan"
+msgstr "Vuruş Vurgusu"
 
 #: music/notecolorschemeparam.cpp
 msgctxt "NoteColorScheme"
 msgid "Velocity Bar"
-msgstr "Hız Bar"
+msgstr "Vuruş Şiddeti Çubuğu"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "View"
 msgstr "Görünüm"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "Zoom"
@@ -1524,72 +1587,80 @@ msgstr "Zoom"
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom Full"
-msgstr "Zoom Full"
+msgstr "Tam Yakınlaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom Full Horizontally"
-msgstr "Yatay Full Zoom"
+msgstr "Yatayda Tam Yakınlaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom Full Vertically"
-msgstr ""
+msgstr "Dikeyde Tam Yakınlaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom In"
-msgstr "Zoom In"
+msgstr "Yakınlaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom In Fine"
-msgstr "Hassas Zoom In"
+msgstr "Hassas Yakınlaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom In Vertical"
-msgstr "Dikey Zoom In"
+msgstr "Dikey Yakınlaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom In Vertical Fine"
-msgstr "Dikey Hassas Zoom In"
+msgstr "Hassas Dikey Yakınlaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom Out"
-msgstr "Zoom Out"
+msgstr "Uzaklaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom Out Fine"
-msgstr "Hassas Zoom Out"
+msgstr "Hassas Uzaklaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom Out Vertical"
-msgstr "Dikey Zoom Out"
+msgstr "Dikey Uzaklaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom Out Vertical Fine"
-msgstr "Dikey Hassas Zoom Out"
+msgstr "Hassas Dikey Uzaklaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom to Loop"
-msgstr "Döngüye Zoom"
+msgstr "Loop'u Yakınlaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom to Selection"
-msgstr "Seçime Zoom"
+msgstr "Seçime Yakınlaştır"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
-msgstr "Seçime Yatay Olarak Zoom"
+msgstr "Seçime Yatay Yakınlaştır"
+
+#~ msgctxt "Notation"
+#~ msgid "Default"
+#~ msgstr "Varsayılan"
+
+#~ msgctxt "Notation"
+#~ msgid "Minimal"
+#~ msgstr "Minimal"
 
 #~ msgctxt "Command"
 #~ msgid "Set Bar Offset to Cursor"
@@ -1666,3 +1737,4 @@ msgstr "Seçime Yatay Olarak Zoom"
 #~ msgctxt "TimeRulerView"
 #~ msgid "Zoom"
 #~ msgstr "Zoom"
+

@@ -12,12 +12,12 @@ msgstr "%(1) 声床"
 #: dolbyatmossystem.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "%(1) Beds"
-msgstr "%(1) 多个声床"
+msgstr "%(1) 声床"
 
 #: dolbyatmossystem.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "%(1) Objects"
-msgstr "%(1) 多个对象"
+msgstr "%(1) 对象"
 
 #: dolbyatmossystem.cpp
 msgctxt "DolbyAtmosSystem"
@@ -42,22 +42,22 @@ msgstr "声床"
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Beds"
-msgstr "多个声床"
+msgstr "声床"
 
 #: dolbydata.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Binaural"
-msgstr "双声道"
+msgstr "双耳"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Binaural Mode"
-msgstr "双声道模式"
+msgstr "双耳模式"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Cannot import file unless output is binaural"
-msgstr "除非输出为双声道，否则无法导入文件"
+msgstr "除非输出为双耳，否则无法导入文件"
 
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
@@ -82,17 +82,17 @@ msgstr "杜比全景声声床"
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos Bed %(1)"
-msgstr "杜比全景声声床 %(1)"
+msgstr "杜比全景声声床%(1)"
 
 #: dolbydata.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos Binaural"
-msgstr "杜比 Atmos 双声道"
+msgstr "杜比全景声 双耳"
 
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos Master File"
-msgstr "杜比全景声主文件"
+msgstr "杜比全景声母带文件"
 
 #: dolbyatmossystem.cpp
 msgctxt "DolbyAtmosSystem"
@@ -102,7 +102,7 @@ msgstr "杜比全景声 PHRTF"
 #: dolbyatmosmasteralgo.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos master files cannot contain more than 128 channels"
-msgstr "杜比全景声主文件不能包含超过 128 个声道"
+msgstr "杜比全景声母带文件不能包含超过128个声道"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -117,7 +117,7 @@ msgstr "EBU +18 标度"
 #: dolbymasterfile.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Export at illegal timecode position near the midnight boundary. Please select a range earlier on the timeline."
-msgstr "在边界附近的非法时间码位置导出。请在时间轴上选择更早的范围。"
+msgstr "导出时间码位于午夜边界附近的非法位置。请在时间轴上选择一个更早的范围。"
 
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
@@ -152,12 +152,12 @@ msgstr "无效文件"
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Loudness in LU"
-msgstr "LU的响度"
+msgstr "LU响度"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Loudness in LUFS"
-msgstr "LUFS 的响度"
+msgstr "LUFS 响度"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -167,7 +167,7 @@ msgstr "静音"
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "No Dolby Atmos Master File"
-msgstr "无杜比全景声主文件"
+msgstr "无杜比全景声母带文件"
 
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
@@ -177,12 +177,12 @@ msgstr "对象 %(1)"
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Object channel used for composite bed"
-msgstr "用于复合床的对象通道"
+msgstr "用于复合声床的对象通道"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Objects"
-msgstr "多个对象"
+msgstr "对象"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -202,7 +202,7 @@ msgstr "单听"
 #: plugversion.h
 msgctxt "SpatialAudio"
 msgid "Spatial Audio Support"
-msgstr "空间音频帮助"
+msgstr "空间音频支持"
 
 #: dolbyatmosmaster.cpp
 msgctxt "Command"
@@ -242,17 +242,17 @@ msgstr "扬声器格式 Apple 空间音频"
 #: dolbyatmosmaster.cpp
 msgctxt "Command"
 msgid "Speaker Format Dolby Atmos Binaural"
-msgstr "扬声器格式 杜比全景声 双声道"
+msgstr "扬声器格式 杜比全景声 双耳"
 
 #: dolbyatmosmaster.cpp
 msgctxt "Command"
 msgid "Speaker Format Stereo"
-msgstr "立体声扬声器格式"
+msgstr "扬声器格式 立体声"
 
 #: spatialaudioservicemain.cpp
 msgctxt "SpatialAudio"
 msgid "Support for Spatial Audio"
-msgstr "空间音频帮助"
+msgstr "对空间音频的支持"
 
 #: dolbyatmos3dcomponent.cpp
 msgctxt "Command"
@@ -297,4 +297,5 @@ msgstr "切换扬声器格式"
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Use Configuration '%(1)'"
-msgstr "使用配置 '%(1)'"
+msgstr "使用配置“%(1)”"
+

@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "비트맵 폰트"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "취소"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "취소"
 
@@ -244,15 +244,15 @@ msgctxt "Command"
 msgid "End Skip"
 msgstr "끝 건너뛰기"
 
-#: views/focusnavigator.cpp
-msgctxt "Command"
-msgid "Enter"
-msgstr "입력"
-
 #: keyevent.cpp
 msgctxt "VirtualKey"
 msgid "Enter"
 msgstr "Enter"
+
+#: views/focusnavigator.cpp
+msgctxt "Command"
+msgid "Enter"
+msgstr "입력"
 
 #: keyevent.cpp
 msgctxt "VirtualKey"
@@ -471,8 +471,12 @@ msgstr "JPEG 파일"
 
 #: dialogs/commandeditor.cpp
 msgctxt "CommandEditor"
-msgid "Key is already assigned to:\n%(1)"
-msgstr "다음 아이템에 이미 할당된 키입니다:\n%(1)"
+msgid ""
+"Key is already assigned to:\n"
+"%(1)"
+msgstr ""
+"다음 아이템에 이미 할당된 키입니다:\n"
+"%(1)"
 
 #: commands.cpp
 msgctxt "FileType"
@@ -654,13 +658,13 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "숫자패드 9"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "OK"
 msgstr "확인"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "OK"
 msgstr "확인"
 
@@ -1033,4 +1037,3 @@ msgstr "^"
 msgctxt "VirtualKey"
 msgid "~"
 msgstr "~"
-

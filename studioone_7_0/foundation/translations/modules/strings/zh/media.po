@@ -12,27 +12,27 @@ msgstr "%(1) 不支持 %(2)"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "1 octave down"
-msgstr " 低一个八度"
+msgstr "低1个八度"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "1 octave up"
-msgstr " 高一个八度"
+msgstr "高1个八度"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "2 octaves down"
-msgstr " 低两个八度"
+msgstr "低1个八度"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "2 octaves up"
-msgstr " 高两个八度"
+msgstr "高1个八度"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "3.0 Cine"
-msgstr "3.0 胶片"
+msgstr "3.0 电影"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
@@ -42,7 +42,7 @@ msgstr "3.0 音乐"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "3.1 Cine"
-msgstr "3.1 胶片"
+msgstr "3.1 电影"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
@@ -52,7 +52,7 @@ msgstr "3.1 音乐"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "4.0 Cine"
-msgstr "4.0 胶片"
+msgstr "4.0 电影"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
@@ -62,7 +62,7 @@ msgstr "4.0 音乐"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "4.1 Cine"
-msgstr "4.1 胶片"
+msgstr "4.1 电影"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
@@ -82,7 +82,7 @@ msgstr "5.1"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "5.1 (ITU)"
-msgstr "5.1 (ITU)"
+msgstr "5.1（ITU）"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
@@ -147,27 +147,42 @@ msgstr "重音"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Accent with Staccatissimo"
-msgstr " 使用特断音标注重音"
+msgstr "使用特断音标注重音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Accent with Staccato"
-msgstr " 使用断音标注重音"
+msgstr "使用断音标注重音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Accent with Tenuto"
-msgstr " 使用保持音标注重音"
+msgstr "使用保持音标注重音"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Add Note Controller \"%(1)\""
-msgstr " 增加音符控制器\"%(1)\""
+msgstr "添加音符控制器“%(1)”"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Add Pattern"
-msgstr "添加模式"
+msgstr "添加样式"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Add Tag"
+msgstr "添加标签"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Adding Tags..."
+msgstr "添加标签中..."
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "All tags are valid."
+msgstr "所有标签均有效。"
 
 #: audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
@@ -177,27 +192,27 @@ msgstr "Apple脉冲响应文件"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Arco"
-msgstr "Arco"
+msgstr "用弓演奏"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Arpeggio"
-msgstr " 琶音"
+msgstr "琶音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Arpeggio down"
-msgstr " 降琶音"
+msgstr "下行琶音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Arpeggio up"
-msgstr " 升琶音"
+msgstr "上行琶音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Articulations of force"
-msgstr " 强重音"
+msgstr "强重音"
 
 #: audiofile/audiocodecs/audioloopinfo.cpp
 msgctxt "FileType"
@@ -217,17 +232,17 @@ msgstr "小节"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Bart&#243;k Pizzicato"
-msgstr "巴托克拨弦乐"
+msgstr "巴托克拨弦"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
 msgid "Beat-Linear"
-msgstr "节拍-线性"
+msgstr "线性节拍"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Behind Bridge"
-msgstr "Behind Bridge"
+msgstr "琴桥后演奏"
 
 #: envelopes/envelopeactions.cpp
 msgctxt "EnvelopeActions"
@@ -237,12 +252,12 @@ msgstr "弯音点"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Bend and release string"
-msgstr "弯音并松开弦"
+msgstr "推弦后松开"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Bend string"
-msgstr "弯音弦"
+msgstr "推弦"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -252,17 +267,22 @@ msgstr "布鲁斯音阶"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Center"
-msgstr "中间"
+msgstr "C"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Center Top Front"
-msgstr "居中顶部前侧"
+msgstr "CTF"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Center Top Rear"
-msgstr "居中顶部后侧"
+msgstr "CTB"
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Checking files in \"%(1)\""
+msgstr "正在检查 \"%(1)\"中的文件"
 
 #: music/chordevent.cpp
 msgctxt "FileType"
@@ -274,20 +294,30 @@ msgctxt "MusicalScale"
 msgid "Chromatic"
 msgstr "半音阶"
 
+#: tagging/tagstore.cpp tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Cleanup Tags of Missing Files"
+msgstr "清除缺失文件的标签"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Clear Tags"
+msgstr "清除标签"
+
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Closed"
-msgstr "关闭"
+msgstr "闭合"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Col Legno"
-msgstr "用弓背敲奏"
+msgstr "弓背敲奏"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Con Sordino"
-msgstr "戴弱音器演奏"
+msgstr "使用弱音器"
 
 #: audiofile/audiofileconverter.cpp
 msgctxt "AudioFileConverter"
@@ -307,12 +337,12 @@ msgstr "复制事件"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Crescendo"
-msgstr " 渐强"
+msgstr "渐强"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Crescendo Hairpin"
-msgstr " 渐强符号"
+msgstr "渐强符号"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
@@ -342,17 +372,22 @@ msgstr "减和弦"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Diminuendo"
-msgstr " 渐弱"
+msgstr "渐弱"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Diminuendo Hairpin"
-msgstr " 渐弱符号"
+msgstr "渐弱符号"
 
 #: audiofile/audiofileconverter.cpp
 msgctxt "AudioFileConverter"
 msgid "Do you want to merge the files as %(1)?"
 msgstr "您想将文件合并为 %(1)吗？"
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Do you want to remove these tag entries for non-existing files?"
+msgstr "是否确定移除这些不存在文件的标签？"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -362,17 +397,17 @@ msgstr "多利亚音阶"
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
 msgid "Dotted"
-msgstr "符点"
+msgstr "附点"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Down Bow"
-msgstr "琴弓向下"
+msgstr "下弓"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Dynamic"
-msgstr " 力度"
+msgstr "力度"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
@@ -387,7 +422,7 @@ msgstr "编辑值"
 #: envelopes/envelope.cpp
 msgctxt "FileType"
 msgid "Envelope File"
-msgstr "信封文件"
+msgstr "包络文件"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -417,42 +452,42 @@ msgstr "手指 5"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Forte"
-msgstr " 强"
+msgstr "强"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Forte forte fortissimo"
-msgstr " 最强"
+msgstr "最强"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Forte fortissimo"
-msgstr " 极强"
+msgstr "极强"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Forte piano"
-msgstr " 强后转弱"
+msgstr "强后转弱"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Fortissimo"
-msgstr " 很强"
+msgstr "很强"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Fortissimo forzando"
-msgstr " 强重音"
+msgstr "强重音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Fortissimo piano"
-msgstr " 很强后转弱"
+msgstr "很强后转弱"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Forzando"
-msgstr " 重音"
+msgstr "突强"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
@@ -472,12 +507,12 @@ msgstr "冻结力度"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Front Left of Center"
-msgstr "中心前左侧"
+msgstr "Lc"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Front Right of Center"
-msgstr "中心前右侧"
+msgstr "Rc"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
@@ -487,17 +522,17 @@ msgstr "生成音符"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Glissando"
-msgstr " 滑音"
+msgstr "滑音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Guitar Tap"
-msgstr "吉他轻敲"
+msgstr "点弦"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Hairpins"
-msgstr " 渐强和渐弱符号"
+msgstr "渐强和渐弱符号"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -507,7 +542,7 @@ msgstr "半音颤音"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Hammer On"
-msgstr "开启锤子"
+msgstr "击弦"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -522,12 +557,12 @@ msgstr "保持弦"
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Increase velocity"
-msgstr "提高速度"
+msgstr "提高力度"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Increase velocity + shorten note"
-msgstr "提高速度+缩短音符"
+msgstr "提高力度 + 缩短音符"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
@@ -572,7 +607,7 @@ msgstr "插入拍号"
 #: music/pitchinfolist.cpp
 msgctxt "FileType"
 msgid "Key Switches"
-msgstr " 音调切换"
+msgstr "Key Switches"
 
 #: public/mediaformatter.cpp
 msgctxt "Media"
@@ -582,37 +617,37 @@ msgstr "LUFS"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left"
-msgstr "左"
+msgstr "L"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Rear Surround"
-msgstr "左后环绕"
+msgstr "Lrs"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Surround"
-msgstr "左环绕"
+msgstr "Ls"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Top Front"
-msgstr "左上前面"
+msgstr "LTF"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Top Middle"
-msgstr "左上中间"
+msgstr "LTM"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Top Rear"
-msgstr "左上后部"
+msgstr "LTB"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Wide"
-msgstr "左宽"
+msgstr "Lws"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -622,17 +657,17 @@ msgstr "延长发音"
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Locrian"
-msgstr "洛克里安调式"
+msgstr "Locrian"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Low Frequency"
-msgstr "低频"
+msgstr "LFE"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Lydian"
-msgstr "利底亚调式"
+msgstr "Lydian"
 
 #: music/musicparams.cpp
 msgctxt "Media.Music"
@@ -647,7 +682,7 @@ msgstr "MIDI文件"
 #: music/chordclassifier.cpp
 msgctxt "Chords"
 msgid "Major"
-msgstr "大调"
+msgstr "大和弦"
 
 #: music/keysignature.cpp
 msgctxt "KeySignature"
@@ -667,7 +702,7 @@ msgstr "五声大调"
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Major Triad"
-msgstr "大三和弦"
+msgstr "Major Triad"
 
 #: audio/audiospeakermapcomponent.cpp
 msgctxt "AudioSpeakerMap"
@@ -682,22 +717,22 @@ msgstr "旋律小调"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Mezzo-staccato"
-msgstr " 次断音"
+msgstr "次断音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Mezzoforte"
-msgstr " 中强"
+msgstr "中强"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Mezzopiano"
-msgstr " 中弱"
+msgstr "中弱"
 
 #: music/chordclassifier.cpp
 msgctxt "Chords"
 msgid "Minor"
-msgstr "小调"
+msgstr "小和弦"
 
 #: music/keysignature.cpp
 msgctxt "KeySignature"
@@ -712,7 +747,7 @@ msgstr "五声小调"
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Minor Triad"
-msgstr "小三和弦"
+msgstr "Minor Triad"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -742,27 +777,27 @@ msgstr "更改歌词"
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Accent Strength"
-msgstr "更改模式重音强度"
+msgstr "更改样式重音强度"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Gate"
-msgstr "更改模式门"
+msgstr "更改样式门限时长"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Resolution"
-msgstr "更改模式分辨率"
+msgstr "更改样式分辨率"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Swing"
-msgstr "更改模式音律"
+msgstr "更改样式的Swing"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Type"
-msgstr "更改模式类型"
+msgstr "更改样式类型"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
@@ -779,13 +814,13 @@ msgctxt "ActionDescriptions"
 msgid "Modify Step Count"
 msgstr "更改步数"
 
-#: time/tempomanipulator.cpp
-msgctxt "TempoManipulator"
+#: time/mediatimeactions.cpp
+msgctxt "MediaTimeAction"
 msgid "Modify Tempo"
 msgstr "更改速度"
 
-#: time/mediatimeactions.cpp
-msgctxt "MediaTimeAction"
+#: time/tempomanipulator.cpp
+msgctxt "TempoManipulator"
 msgid "Modify Tempo"
 msgstr "更改速度"
 
@@ -822,7 +857,7 @@ msgstr "移动点"
 #: music/musicperformance.cpp
 msgctxt "FileType"
 msgid "Music File"
-msgstr "音乐文件"
+msgstr "Music文件"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
@@ -837,7 +872,7 @@ msgstr "自然小调音阶"
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Note Controller"
-msgstr " 音符管理器"
+msgstr "音符控制器"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
@@ -847,17 +882,17 @@ msgstr "微调"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Octave signs"
-msgstr " 八度标志"
+msgstr "八度标志"
 
 #: public/mediaformatter.cpp
 msgctxt "Media"
 msgid "Off"
-msgstr "关"
+msgstr "关闭"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Open / Flageolett"
-msgstr "打开 / Flageolett"
+msgstr "空弦 / 泛音"
 
 #: public/mediaformatter.cpp
 msgctxt "Media"
@@ -867,27 +902,27 @@ msgstr "Pad %(1)"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Palm Mute"
-msgstr "掌上静音"
+msgstr "P.M."
 
 #: music/patternperformance.cpp
 msgctxt "FileType"
 msgid "Pattern File"
-msgstr "模式文件"
+msgstr "样式文件"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pedal"
-msgstr " 踏板"
+msgstr "踏板"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pedal down"
-msgstr " 踏板向下"
+msgstr "踩踏板"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pedal up"
-msgstr " 踏板向上"
+msgstr "松踏板"
 
 #: music/musicparams.cpp
 msgctxt "Media.Music"
@@ -902,22 +937,22 @@ msgstr "佛里吉亚音阶"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pianissimo"
-msgstr " 很弱"
+msgstr "很弱"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Piano"
-msgstr " 弱"
+msgstr "弱"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Piano pianissimo"
-msgstr " 很弱"
+msgstr "极弱"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Piano piano pianissimo"
-msgstr " 极弱"
+msgstr "最弱"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
@@ -937,32 +972,32 @@ msgstr "拨弦"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking A"
-msgstr "采摘 A"
+msgstr "无名指拨弦"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking C"
-msgstr "采摘 C"
+msgstr "小指拨弦"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking I"
-msgstr "采摘 I"
+msgstr "食指拨弦"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking M"
-msgstr "采摘 M"
+msgstr "中指拨弦"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking P"
-msgstr "采摘 P"
+msgstr "拇指拨弦"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Portamento"
-msgstr " 滑音"
+msgstr "滑音"
 
 #: music/chordclassifier.cpp
 msgctxt "Chords"
@@ -972,22 +1007,22 @@ msgstr "强力和弦"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pre-bend and release string"
-msgstr "预先弯曲和释放弦"
+msgstr "预推弦后释放"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pre-bend string"
-msgstr "预弯弦"
+msgstr "预推弦"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Pressure"
-msgstr " 压力"
+msgstr "压力"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pull Off"
-msgstr "拔掉"
+msgstr "勾弦"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
@@ -1002,7 +1037,7 @@ msgstr "五连音"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Rear Center"
-msgstr "后部中间"
+msgstr "Rear C"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -1017,12 +1052,17 @@ msgstr "删除调号"
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Remove Note Controller \"%(1)\""
-msgstr " 移除音符控制器 \"%(1)\""
+msgstr "移除音符控制器“%(1)”"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Remove Pattern"
-msgstr "移除模式"
+msgstr "移除样式"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Remove Tag"
+msgstr "移除标签"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
@@ -1037,12 +1077,12 @@ msgstr "移除拍号"
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Rename Pattern"
-msgstr "重命名模式"
+msgstr "重命名样式"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Reorder Pattern"
-msgstr "录制模式"
+msgstr "录制样式"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
@@ -1057,37 +1097,37 @@ msgstr "调整事件大小"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right"
-msgstr "右"
+msgstr "R"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Rear Surround"
-msgstr "右后环绕"
+msgstr "Rrs"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Surround"
-msgstr "右环绕"
+msgstr "Rs"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Top Front"
-msgstr "右侧顶部前面"
+msgstr "RTF"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Top Middle"
-msgstr "右侧顶部中间"
+msgstr "RTM"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Top Rear"
-msgstr "右侧顶部后部"
+msgstr "RTB"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Wide"
-msgstr "右宽"
+msgstr "Rws"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
@@ -1102,7 +1142,7 @@ msgstr "音阶文件"
 #: music/midifileparser.cpp
 msgctxt "FileType"
 msgid "Score Exchange File"
-msgstr "总谱交换文件"
+msgstr "乐谱交换文件"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
@@ -1112,12 +1152,12 @@ msgstr "秒"
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Select Sound Variation"
-msgstr "选择声音变量"
+msgstr "选择声音变化"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Senza Sordino"
-msgstr "告诉演奏者让软踏板升起，或者，在其他乐器中，取消静音"
+msgstr "移除弱音器"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
@@ -1137,32 +1177,32 @@ msgstr "设置全局移调"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzando"
-msgstr " 突强"
+msgstr "突强"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzando forte piano"
-msgstr " 突强后突弱"
+msgstr "突强后突弱"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzando fortissimo"
-msgstr " 突强非常强"
+msgstr "突强（更强）"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzando piano"
-msgstr " 特强后弱"
+msgstr "特强后弱"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzato"
-msgstr " 突强"
+msgstr "突强"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzato fortissimo"
-msgstr " 突强非常强"
+msgstr "突强（更强）"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
@@ -1172,12 +1212,12 @@ msgstr "缩短音符长度"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Slap"
-msgstr "弹击"
+msgstr "Slap"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Slur"
-msgstr " 连音"
+msgstr "连音"
 
 #: audiofile/audiofileconverter.cpp
 msgctxt "AudioFileConverter"
@@ -1187,7 +1227,7 @@ msgstr "某些文件无法转换。"
 #: music/soundvariationmap.cpp
 msgctxt "FileType"
 msgid "Sound Variation Map"
-msgstr "声音变化图"
+msgstr "声音变化映射"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
@@ -1207,12 +1247,12 @@ msgstr "传播和弦音符"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Staccatissimo"
-msgstr " 特断音"
+msgstr "特断音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Staccato"
-msgstr " 断音"
+msgstr "断音"
 
 #: public/audio/speakers.cpp public/mediaformatter.cpp
 msgctxt "Media"
@@ -1222,22 +1262,22 @@ msgstr "立体声"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Stereo (C Lfe)"
-msgstr "立体声 (C Lfe)"
+msgstr "Stereo（C Lfe）"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Stereo (Lc Rc)"
-msgstr "立体声 (Lc Rc)"
+msgstr "Stereo（Lc Rc）"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Stereo (Ls Rs)"
-msgstr "立体声 (Ls Rs)"
+msgstr "Stereo（Ls Rs）"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Stereo (Sl Sr)"
-msgstr "立体声（Sl Sr）"
+msgstr "Stereo（Sl Sr）"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
@@ -1252,72 +1292,72 @@ msgstr "伸直曲线"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 0"
-msgstr "字符串 0"
+msgstr "弦 0"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 1"
-msgstr "字符串 1"
+msgstr "弦 1"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 2"
-msgstr "字符串 2"
+msgstr "弦 2"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 3"
-msgstr "字符串 3"
+msgstr "弦 3"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 4"
-msgstr "字符串 4"
+msgstr "弦 4"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 5"
-msgstr "字符串 5"
+msgstr "弦 5"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 6"
-msgstr "字符串 6"
+msgstr "弦 6"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 7"
-msgstr "字符串 7"
+msgstr "弦 7"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Strong Accent"
-msgstr " 强重音"
+msgstr "强重音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Strong Accent with Staccatissimo"
-msgstr " 使用特断音表示强重音"
+msgstr "使用特断音表示强重音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Strong Accent with Staccato"
-msgstr " 使用断音表示强重音"
+msgstr "使用断音表示强重音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Strong Accent with Tenuto"
-msgstr " 使用保持音表示强重音"
+msgstr "使用保持音表示强重音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sul Ponticello"
-msgstr "Sul Ponticello"
+msgstr "靠琴桥演奏"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sul Tasto"
-msgstr "Sul Tasto"
+msgstr "靠指板演奏"
 
 #: time/tempoenvelope.cpp
 msgctxt "Tempo"
@@ -1327,7 +1367,7 @@ msgstr "速度"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tenuto"
-msgstr " 保持音"
+msgstr "保持音"
 
 #: audiofile/audiofileconverter.cpp
 msgctxt "AudioFileConverter"
@@ -1337,22 +1377,22 @@ msgstr "根据文件名无法确定扬声器设置。"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Thumb"
-msgstr "大拇指"
+msgstr "拇指"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Timbre"
-msgstr " 音色"
+msgstr "音色"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
 msgid "Time-Linear"
-msgstr "时间-线性"
+msgstr "线性时间"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Top Center"
-msgstr "上居中"
+msgstr "Top C"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
@@ -1362,57 +1402,57 @@ msgstr "移调"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo"
-msgstr " 震音"
+msgstr "震音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (1 Beam)"
-msgstr " 震音（1 符杠）"
+msgstr "震音（1 符杠）"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (1 Slash)"
-msgstr " 震音（2 斜线）"
+msgstr "震音（1 斜线）"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (2 Beams)"
-msgstr " 震音（2 符杠符杠）"
+msgstr "震音（2 符杠）"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (2 Slashes)"
-msgstr " 震音（3 斜线）"
+msgstr "震音（2 斜线）"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (3 Beams)"
-msgstr " 震音（3 符杠）"
+msgstr "震音（3 符杠）"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (3 Slashes)"
-msgstr " 震音（3 斜线）"
+msgstr "震音（3 斜线）"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Trill"
-msgstr " 颤音"
+msgstr "颤音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Trill (flat)"
-msgstr " 颤音（降调）"
+msgstr "颤音（降）"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Trill (natural)"
-msgstr " 颤音（还原音）"
+msgstr "颤音（还原）"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Trill (sharp)"
-msgstr " 颤音（升调）"
+msgstr "颤音（升）"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
@@ -1422,17 +1462,22 @@ msgstr "三连音"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Up Bow"
-msgstr "弓弦向上"
+msgstr "上弓"
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Updated tags in %(1)\n"
+msgstr "已更新%(1)中的标签\n"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Use specific velocity"
-msgstr "使用特定的速度"
+msgstr "使用特定的力度"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Vibrato"
-msgstr "震音"
+msgstr "揉弦"
 
 #: audiofile/audiocodecs/waveaudiocodec.cpp
 msgctxt "FileType"
@@ -1442,37 +1487,42 @@ msgstr "Wave文件"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar down"
-msgstr "撞杆向下"
+msgstr "摇把向下"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar down and up"
-msgstr "撞杆向下并向上"
+msgstr "摇把向下并向上"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar up"
-msgstr "撞杆向上"
+msgstr "摇把向上"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar up and down"
-msgstr "撞杆向上并向下"
+msgstr "摇把向上并向下"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar vibrato"
-msgstr "震音棒"
+msgstr "摇把揉弦"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Wholetone Trill"
-msgstr "全音质颤音"
+msgstr "全音颤音"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Wide Vibrato"
-msgstr "宽广的震音"
+msgstr "宽广的揉弦"
+
+#: tagging/tagnodes.cpp
+msgctxt "TagStore"
+msgid "other"
+msgstr "其他"
 
 #: music/chordclassifier.cpp
 msgctxt "Chords"

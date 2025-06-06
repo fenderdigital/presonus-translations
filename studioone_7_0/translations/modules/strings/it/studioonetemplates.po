@@ -129,6 +129,11 @@ msgctxt "ProduceBeats.Step4"
 msgid "Automate steps"
 msgstr "Automatizza step"
 
+#: scripts/smarttemplates/resources/jamtracks/Bass.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Bass"
+msgstr "Basso"
+
 #: tutorials/content/spatialaudio/steps.xml
 msgctxt "DolbyAtmos.Step6"
 msgid "Bed and objects"
@@ -355,6 +360,7 @@ msgctxt "HelpTutorial"
 msgid "Getting started with Studio One"
 msgstr "Come iniziare con Studio One"
 
+#: scripts/smarttemplates/resources/jamtracks/Guitar.songtemplate
 #: scripts/smarttemplates/resources/playnow/Guitar.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Guitar"
@@ -431,6 +437,21 @@ msgctxt "InterfaceTemplateSettings"
 msgid "Interface template"
 msgstr "Template Interfaccia"
 
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam Now"
+msgstr "Jam ora"
+
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam with Guitar, Piano or Vocals"
+msgstr "Jam con chitarra, pianoforte o voce"
+
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam with a single instrument on Jam Tracks"
+msgstr "Jam con un solo strumento su Jam Tracks"
+
 #: tutorials/content/launchloops/steps.xml
 msgctxt "LaunchLoops.Step7"
 msgid "Launch Cells"
@@ -467,15 +488,10 @@ msgctxt "GettingStarted.Step7"
 msgid "Learn more"
 msgstr "Per saperne di più"
 
-#: tutorials/content/playnow/steps.xml
-msgctxt "PlayNow.VirtualInstrument.Step6"
+#: tutorials/content/launchloops/steps.xml
+msgctxt "LaunchLoops.Step11"
 msgid "Learn more"
-msgstr "Per saperne di più"
-
-#: tutorials/content/playnow/steps.xml
-msgctxt "PlayNow.Guitar.Step7"
-msgid "Learn more"
-msgstr "Per saperne di più"
+msgstr "Saperne di più"
 
 #: tutorials/content/producebeats/steps.xml
 msgctxt "ProduceBeats.Step6"
@@ -492,10 +508,15 @@ msgctxt "DolbyAtmos.Step10"
 msgid "Learn more"
 msgstr "Per saperne di più"
 
-#: tutorials/content/launchloops/steps.xml
-msgctxt "LaunchLoops.Step11"
+#: tutorials/content/playnow/steps.xml
+msgctxt "PlayNow.VirtualInstrument.Step6"
 msgid "Learn more"
-msgstr "Saperne di più"
+msgstr "Per saperne di più"
+
+#: tutorials/content/playnow/steps.xml
+msgctxt "PlayNow.Guitar.Step7"
+msgid "Learn more"
+msgstr "Per saperne di più"
 
 #: tutorials/content/playnow/steps.xml
 msgctxt "PlayNow.VirtualInstrument.Step4"
@@ -532,6 +553,11 @@ msgctxt "DocumentTemplate"
 msgid "New audio recording"
 msgstr "Nuova Registrazione Audio"
 
+#: scripts/smarttemplates/resources/jamtracks/none.songtemplate
+msgctxt "DocumentTemplate"
+msgid "None"
+msgstr "Nessuno"
+
 #: tutorials/content/playnow/steps.xml
 msgctxt "PlayNow.Guitar.Step3"
 msgid "Open Ampire"
@@ -547,6 +573,7 @@ msgctxt "PlayNow.VirtualInstrument.Step2"
 msgid "Open the instrument"
 msgstr "Apri lo Strumento"
 
+#: scripts/smarttemplates/resources/jamtracks/Piano.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.bundle.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.songtemplate
 msgctxt "DocumentTemplate"
@@ -568,15 +595,30 @@ msgctxt "PlayNow.Guitar.Step1"
 msgid "Play Now"
 msgstr "Suona Ora"
 
+#: scripts/smarttemplates/resources/jamtracks/Bass.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play a real bass guitar using Rumble Bass Studio."
+msgstr "Suona un vero basso usando Rumble Bass Studio."
+
 #: scripts/smarttemplates/resources/playnow/Guitar.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Play a real guitar using Ampire."
 msgstr "Suona una vera chitarra usando Ampire."
 
+#: scripts/smarttemplates/resources/jamtracks/Guitar.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play a real guitar using Mustang Guitar Studio."
+msgstr "Suona una vera chitarra usando Mustang Guitar Studio."
+
 #: templates/Play Now.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Play a single instrument and capture ideas for your next song."
 msgstr "Suona un singolo strumento e cattura le idee per la tua prossima song."
+
+#: scripts/smarttemplates/resources/jamtracks/none.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play no additional instrument."
+msgstr "Non riprodurre altri strumenti."
 
 #: templates/Play Now.songtemplate
 msgctxt "DocumentTemplate"
@@ -588,6 +630,7 @@ msgctxt "DocumentTemplate"
 msgid "Play virtual drums using Impact XT."
 msgstr "Suona la batteria virtuale con Impact XT."
 
+#: scripts/smarttemplates/resources/jamtracks/Piano.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.bundle.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.songtemplate
 msgctxt "DocumentTemplate"
@@ -902,6 +945,11 @@ msgctxt "LaunchLoops.Step6"
 msgid "Show Launcher"
 msgstr "Mostra il Launcher"
 
+#: scripts/smarttemplates/resources/jamtracks/Vocals.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Sing, using your microphone."
+msgstr "Canta usando il microfono."
+
 #: scripts/smarttemplates/resources/recordnow/Single Track.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Single Track"
@@ -1109,6 +1157,11 @@ msgctxt "RecordNow.Step1"
 msgid "Use this template to record audio on a single track or multiple tracks and capture your ideas. Let&apos;s take a look..."
 msgstr "Utilizza questo template per registrare l'audio su una singola traccia o su più tracce e catturare le tue idee. Diamo un'occhiata..."
 
+#: scripts/smarttemplates/resources/jamtracks/Vocals.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Vocals"
+msgstr "Voci"
+
 #: tutorials/content/producebeats/steps.xml
 msgctxt "ProduceBeats.Step1"
 msgid "Want to create an awesome beat with just a few clicks? Then look no further than this Beat Making Template!"
@@ -1192,3 +1245,4 @@ msgstr "sessione di registrazione ioStation 24c"
 #~ msgctxt "DocumentTemplate"
 #~ msgid "Record audio straight from all available inputs of your favorite PreSonus audio interface."
 #~ msgstr "Registra l'audio direttamente da tutti gli ingressi disponibili della tua interfaccia audio PreSonus preferita."
+

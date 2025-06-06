@@ -163,6 +163,21 @@ msgctxt "ActionDescriptions"
 msgid "Add Pattern"
 msgstr ""
 
+#: ./tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Add Tag"
+msgstr ""
+
+#: ./tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Adding Tags..."
+msgstr ""
+
+#: ./tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "All tags are valid."
+msgstr ""
+
 #: ./audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
 msgid "Apple Impulse File"
@@ -258,6 +273,11 @@ msgctxt "Media"
 msgid "Center Top Rear"
 msgstr ""
 
+#: ./tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Checking files in \"%(1)\""
+msgstr ""
+
 #: ./music/chordevent.cpp
 msgctxt "FileType"
 msgid "Chord File"
@@ -266,6 +286,17 @@ msgstr ""
 #: ./music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Chromatic"
+msgstr ""
+
+#: ./tagging/tagstore.cpp
+#: ./tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Cleanup Tags of Missing Files"
+msgstr ""
+
+#: ./tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Clear Tags"
 msgstr ""
 
 #: ./music/musicsymbolinfo.cpp
@@ -346,6 +377,11 @@ msgstr ""
 #: ./audiofile/audiofileconverter.cpp
 msgctxt "AudioFileConverter"
 msgid "Do you want to merge the files as %(1)?"
+msgstr ""
+
+#: ./tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Do you want to remove these tag entries for non-existing files?"
 msgstr ""
 
 #: ./music/musicalscale.cpp
@@ -773,13 +809,13 @@ msgctxt "ActionDescriptions"
 msgid "Modify Step Count"
 msgstr ""
 
-#: ./time/tempomanipulator.cpp
-msgctxt "TempoManipulator"
+#: ./time/mediatimeactions.cpp
+msgctxt "MediaTimeAction"
 msgid "Modify Tempo"
 msgstr ""
 
-#: ./time/mediatimeactions.cpp
-msgctxt "MediaTimeAction"
+#: ./time/tempomanipulator.cpp
+msgctxt "TempoManipulator"
 msgid "Modify Tempo"
 msgstr ""
 
@@ -1017,6 +1053,11 @@ msgstr ""
 #: ./music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Remove Pattern"
+msgstr ""
+
+#: ./tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Remove Tag"
 msgstr ""
 
 #: ./time/mediatimeactions.cpp
@@ -1420,6 +1461,11 @@ msgctxt "MusicSymbols"
 msgid "Up Bow"
 msgstr ""
 
+#: ./tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Updated tags in %(1)\n"
+msgstr ""
+
 #: ./music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Use specific velocity"
@@ -1468,6 +1514,11 @@ msgstr ""
 #: ./music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Wide Vibrato"
+msgstr ""
+
+#: ./tagging/tagnodes.cpp
+msgctxt "TagStore"
+msgid "other"
 msgstr ""
 
 #: ./music/chordclassifier.cpp

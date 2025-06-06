@@ -12,7 +12,7 @@ msgstr "$APPCOMPANY 账户"
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
 msgid "$APPCOMPANY Exchange and other services"
-msgstr "$APPCOMPANY交换市场及其他服务"
+msgstr "$APPCOMPANY交换及其他服务"
 
 #: app/windowclasses.xml
 msgctxt "WebPackageManager"
@@ -22,15 +22,15 @@ msgstr "$APPCOMPANY 商店"
 #: app/licenser.xml
 msgctxt "AppStoreWelcome.Intro"
 msgid "$APPCOMPANY offers additonal content and third-party plug-ins for $APPNAME. To authorize these items, please take the following steps, either now or any time later:"
-msgstr "$APPCOMPANY 为 $APPNAME 提供附加内容以及第三方插件。请立即或于稍后执行以下步骤以对其授权："
-
-#: app/options.xml
-msgctxt "SoundSetOption"
-msgid "$APPNAME"
-msgstr "$APPNAME"
+msgstr "$APPCOMPANY 为 $APPNAME 提供附加内容以及第三方插件。请立即或稍后执行以下步骤以对其授权："
 
 #: app/licenser.xml
 msgctxt "AppStoreWelcome"
+msgid "$APPNAME"
+msgstr "$APPNAME"
+
+#: app/options.xml
+msgctxt "SoundSetOption"
 msgid "$APPNAME"
 msgstr "$APPNAME"
 
@@ -72,22 +72,22 @@ msgstr "激活$APPNAME"
 #: ccl/common.xml
 msgctxt "DocumentDiagnosticSaveDialog"
 msgid "$APPNAME Diagnostics"
-msgstr "$APPNAME 诊断法"
+msgstr "$APPNAME诊断报告"
 
 #: ccl/common.xml
 msgctxt "DocumentDiagnosticLoadDialog"
 msgid "$APPNAME Diagnostics"
-msgstr "$APPNAME 诊断法"
+msgstr "$APPNAME诊断报告"
 
 #: ccl/extensionmanager.xml
 msgctxt "ExtensionAskInstallBox"
 msgid "$APPNAME Extensions"
-msgstr "$APPNAME 扩展包"
+msgstr "$APPNAME扩展"
 
 #: app/licenser.xml
 msgctxt "UserLicenseExpired"
 msgid "$APPNAME Feature Requests"
-msgstr "$APPNAME 功能请求"
+msgstr "$APPNAME功能请求"
 
 #: app/windowclasses.xml ccl/packages/packagemanager.xml
 msgctxt "PackageManager"
@@ -97,12 +97,12 @@ msgstr "$APPNAME安装"
 #: ccl/common.xml
 msgctxt "SafetyOptionsDialog"
 msgid "$APPNAME Safety"
-msgstr "$APPNAME 安全"
+msgstr "$APPNAME安全"
 
 #: ccl/common.xml
 msgctxt "AppSafetyOptionsDialog"
 msgid "$APPNAME Safety"
-msgstr "$APPNAME 安全"
+msgstr "$APPNAME安全"
 
 #: app/about.xml
 msgctxt "AboutFooter"
@@ -117,7 +117,7 @@ msgstr "$APPNAME 带有附加内容，包括乐句循环、采样和第三方插
 #: ccl/common.xml
 msgctxt "ContentLocationSelector"
 msgid "$APPNAME will help to keep your media files organized. All your data like Songs, Projects and Presets will be stored in a single location."
-msgstr "$APPNAME将帮助您保管理音频文件。您所有的数据，例如歌曲、项目以及预置，都将保存在一个位置。"
+msgstr "$APPNAME将帮助您保管理音频文件。您所有的数据，例如乐曲、项目以及预设，都将存储在一个位置。"
 
 #: app/collaboration.xml
 msgctxt "CloudFolderSelector"
@@ -144,21 +144,6 @@ msgctxt "ChildActionButton"
 msgid "$actionTitle"
 msgstr "$actionTitle"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "InstallOptions"
-msgid "$description"
-msgstr "$description"
-
-#: ccl/packages/packagemanager.xml
-msgctxt "CompactPackageInfo"
-msgid "$description"
-msgstr "$description"
-
-#: ccl/packages/packagemanager.xml
-msgctxt "ChildrenListItemCompactContent"
-msgid "$description"
-msgstr "$description"
-
 #: ccl/common.xml
 msgctxt "DocumentDiagnosticTab"
 msgid "$description"
@@ -171,6 +156,21 @@ msgstr "$description"
 
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
+msgid "$description"
+msgstr "$description"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "InstallOptions"
+msgid "$description"
+msgstr "$description"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "CompactPackageInfo"
+msgid "$description"
+msgstr "$description"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "ChildrenListItemCompactContent"
 msgid "$description"
 msgstr "$description"
 
@@ -214,10 +214,10 @@ msgctxt "Command"
 msgid "$itemTitle"
 msgstr "$itemTitle"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "Messages"
-msgid "$message"
-msgstr "$message"
+#: ccl/pluginmanager.xml
+msgctxt "PriorityListItem"
+msgid "$itemTitle"
+msgstr "$itemTitle"
 
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
@@ -319,6 +319,11 @@ msgctxt "HUDPopup"
 msgid "$title"
 msgstr "$title"
 
+#: ccl/common.xml
+msgctxt "default.safetyoption"
+msgid "$title"
+msgstr "$title"
+
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageSort"
 msgid "$title"
@@ -354,18 +359,8 @@ msgctxt "SectionHeader"
 msgid "$title"
 msgstr "$title"
 
-#: ccl/common.xml
-msgctxt "default.safetyoption"
-msgid "$title"
-msgstr "$title"
-
-#: devices/surfaces.xml
-msgctxt "SurfaceEditorButton"
-msgid "$title"
-msgstr "$title"
-
-#: devices/surfaces.xml
-msgctxt "SurfaceEditorToggle"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageNotificationsItem"
 msgid "$title"
 msgstr "$title"
 
@@ -381,6 +376,16 @@ msgstr "$title"
 
 #: devices/musicdevices.xml
 msgctxt "MutableNoteRepeatSlider"
+msgid "$title"
+msgstr "$title"
+
+#: devices/surfaces.xml
+msgctxt "SurfaceEditorButton"
+msgid "$title"
+msgstr "$title"
+
+#: devices/surfaces.xml
+msgctxt "SurfaceEditorToggle"
 msgid "$title"
 msgstr "$title"
 
@@ -439,60 +444,65 @@ msgctxt "MutableInspectorProperty"
 msgid "$tooltip2"
 msgstr "$tooltip2"
 
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageVendor"
+msgid "$vendorName"
+msgstr "$vendorName"
+
 #: devices/audiofxeditor.xml
 msgctxt "InsertSpeakerMap"
 msgid "&#10132;"
-msgstr "&#10132;"
+msgstr "➔"
 
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
 msgid "&#10226;"
-msgstr "&#10226;"
+msgstr "⟲"
 
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
 msgid "&#10227;"
-msgstr "&#10227;"
+msgstr "⟳"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
 msgid "&#176;7"
-msgstr "&#176;7"
+msgstr "°7"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "&#8226;"
-msgstr "&#8226;"
+msgstr "•"
 
 #: engine/audioediting.xml
 msgctxt "AudioSpeakerMap"
 msgid "&#8646;"
-msgstr "&#8646;"
+msgstr "⇆"
 
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
 msgid "&gt;"
-msgstr "&gt;"
+msgstr ">"
 
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
 msgid "&lt;"
-msgstr "&lt;"
+msgstr "<"
 
 #: devices/audiofxeditor.xml
 msgctxt "MicroEditSetupDialog"
 msgid "&lt;&lt; Add"
-msgstr "&lt;&lt; 添加"
+msgstr "<< 添加"
 
 #: engine/automation.xml
 msgctxt "MusicEnvelopeDialog"
 msgid "&lt;&lt; Add"
-msgstr "&lt;&lt; 添加"
+msgstr "<< 添加"
 
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
 msgid "&lt;&lt; Add"
-msgstr "&lt;&lt; 添加"
+msgstr "<< 添加"
 
 #: ccl/browser.xml
 msgctxt "SearchResultView"
@@ -501,11 +511,6 @@ msgstr "（无法搜索）"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
-msgid "+"
-msgstr "+"
-
-#: engine/automation.xml
-msgctxt "AutomationTrackDialog"
 msgid "+"
 msgstr "+"
 
@@ -519,10 +524,15 @@ msgctxt "QuantizeSetup.PresetPart"
 msgid "+"
 msgstr "+"
 
+#: engine/automation.xml
+msgctxt "AutomationTrackDialog"
+msgid "+"
+msgstr "+"
+
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
 msgid ", "
-msgstr ", "
+msgstr "，"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
@@ -539,11 +549,6 @@ msgctxt "SoundSetOption"
 msgid "..."
 msgstr "..."
 
-#: ccl/packages/packagemanager.xml
-msgctxt "InstallOptions"
-msgid "..."
-msgstr "..."
-
 #: ccl/common.xml
 msgctxt "ContentLocationOption"
 msgid "..."
@@ -556,6 +561,11 @@ msgstr "..."
 
 #: ccl/common.xml
 msgctxt "NewDocumentNameAndPath"
+msgid "..."
+msgstr "..."
+
+#: ccl/packages/packagemanager.xml
+msgctxt "InstallOptions"
 msgid "..."
 msgstr "..."
 
@@ -647,12 +657,12 @@ msgstr "1"
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.OfflinePage"
 msgid "1. Follow this guide for complete Offline Activation instructions."
-msgstr "1. 按照此指引进行完整的线下激活指导。"
+msgstr "1. 按照此指南完成离线激活。"
 
 #: app/licenser.xml
 msgctxt "AppStoreWelcome"
 msgid "1. Select $APPNAME Activation from the $APPNAME menu."
-msgstr "1.从$APPNAME中选择激活$APPNAME"
+msgstr "1. 从$APPNAME中选择激活$APPNAME。"
 
 #: engine/songdialogs.xml
 msgctxt "SetFramesAtCursor"
@@ -747,7 +757,7 @@ msgstr "12"
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "12th"
-msgstr "12"
+msgstr "1/12倍频程"
 
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceOptions"
@@ -777,17 +787,17 @@ msgstr "16"
 #: show/show.xml
 msgctxt "ControlsEditor"
 msgid "16 Buttons"
-msgstr " 16 个按钮"
+msgstr "16个按钮"
 
 #: show/show.xml
 msgctxt "ControlsEditor"
 msgid "16 Faders"
-msgstr " 16 个推子"
+msgstr "16个推子"
 
 #: show/show.xml
 msgctxt "ControlsEditor"
 msgid "16 Knobs"
-msgstr " 16 个旋钮"
+msgstr "16个旋钮"
 
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceOptions"
@@ -797,7 +807,7 @@ msgstr "2"
 #: app/licenser.xml
 msgctxt "AppStoreWelcome"
 msgid "2. Click &apos;Activate&apos; to activate $APPNAME."
-msgstr "2. 点击&apos;激活&apos; 以激活 $APPNAME。"
+msgstr "2. 点击“激活” 以激活 $APPNAME。"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.OfflinePage"
@@ -812,12 +822,12 @@ msgstr "3"
 #: app/licenser.xml
 msgctxt "AppStoreWelcome"
 msgid "3. If you do not already have a $APPCOMPANY Account, please follow the instructions to create a new account."
-msgstr "3. 如果您尚未拥有 $APPCOMPANY 帐户，请按照说明创建新帐户。"
+msgstr "3. 如果您尚未拥有 $APPCOMPANY 账户，请按照说明创建新账户。"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.OfflinePage"
 msgid "3. Select the license file you downloaded or drag it onto this window."
-msgstr "3. 请选择您下载的证书，或将其拖曳到此窗口。"
+msgstr "3. 请选择您下载的证书，或将其拖动到此窗口。"
 
 #: project/analyser.xml
 msgctxt "Analyser"
@@ -857,7 +867,7 @@ msgstr "8"
 #: show/show.xml
 msgctxt "ControlsEditor"
 msgid "8 Buttons + 8 Knobs + 8 Faders"
-msgstr " 8 个按钮+ 8 个旋钮+ 8 个推子"
+msgstr "8个按钮 + 8个旋钮 + 8个推子"
 
 #: project/project.xml
 msgctxt "ProjectToolbarContent"
@@ -1149,6 +1159,11 @@ msgctxt "LauncherSourceSelectorColumn"
 msgid "@cmd.title[Track|Toggle Cell Playback Active]"
 msgstr "@cmd.title[Track|Toggle Cell Playback Active]"
 
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "@cmd.title[Transport|Autopunch]"
+msgstr "@cmd.title[Transport|Autopunch]"
+
 #: engine/song.xml
 msgctxt "SongToolbarContent"
 msgid "@cmd.title[Transport|Cursor follows Edit Position]"
@@ -1158,6 +1173,11 @@ msgstr "@cmd.title[Transport|Cursor follows Edit Position]"
 msgctxt "TransportPanel.Sync"
 msgid "@cmd.title[Transport|External Sync Options]"
 msgstr "@cmd.title[Transport|External Sync Options]"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "@cmd.title[Transport|Postroll]"
+msgstr "@cmd.title[Transport|Postroll]"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
@@ -1174,8 +1194,13 @@ msgctxt "Metronome"
 msgid "@cmd.title[Transport|Precount]"
 msgstr "@cmd.title[Transport|Precount]"
 
-#: devices/transport.xml
-msgctxt "Metronome"
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "@cmd.title[Transport|Precount]"
+msgstr "@cmd.title[Transport|Precount]"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
 msgid "@cmd.title[Transport|Preroll]"
 msgstr "@cmd.title[Transport|Preroll]"
 
@@ -1389,6 +1414,11 @@ msgctxt "EditorToolBar"
 msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
 msgstr "@cmd.title[Zoom|Toggle Auto Zoom]"
 
+#: engine/editor.xml
+msgctxt "MusicPatternToolsHeader"
+msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
+msgstr "@cmd.title[Zoom|Toggle Auto Zoom]"
+
 #: engine/song.xml
 msgctxt "SongToolbarContent"
 msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
@@ -1409,13 +1439,13 @@ msgctxt "PerspectiveSelector"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "PackageManager.Packages"
+#: ccl/browser.xml
+msgctxt "BrowserHomeContent"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageManager.Packages"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
@@ -1538,6 +1568,11 @@ msgstr "@cmd[Track|Instrument Input follows Selection]"
 msgctxt "InplaceOptions"
 msgid "@cmd[Track|Solo follows Selection]"
 msgstr "@cmd[Track|Solo follows Selection]"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageNotificationsItem"
+msgid "@property:actionTitle[$index]"
+msgstr "@property:actionTitle[$index]"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageFilter"
@@ -1684,20 +1719,20 @@ msgctxt "Command"
 msgid "About"
 msgstr "关于"
 
-#: app/about.xml
-msgctxt "AboutApplication"
+#: app/homepage.xml
+msgctxt "HomePage"
 msgid "About $APPNAME"
 msgstr "关于$APPNAME"
 
-#: app/homepage.xml
-msgctxt "HomePage"
+#: app/about.xml
+msgctxt "AboutApplication"
 msgid "About $APPNAME"
 msgstr "关于$APPNAME"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Accent"
-msgstr "重音"
+msgstr "重拍"
 
 #: engine/editor.xml
 msgctxt "MusicPatternToolsHeader"
@@ -1754,18 +1789,18 @@ msgctxt "ActivationMode.Retail"
 msgid "Activate"
 msgstr "激活"
 
-#: devices/musicfxeditor.xml
-msgctxt "MusicFXRackSlotView"
+#: devices/audiofxeditor.xml
+msgctxt "FXActivationControls"
 msgid "Activate"
 msgstr "激活"
 
 #: devices/audiofxeditor.xml
-msgctxt "FXActivationControls"
-msgid "Activate"
-msgstr "启动"
-
-#: devices/audiofxeditor.xml
 msgctxt "SlotNodeEditHeader"
+msgid "Activate"
+msgstr "激活"
+
+#: devices/musicfxeditor.xml
+msgctxt "MusicFXRackSlotView"
 msgid "Activate"
 msgstr "激活"
 
@@ -1807,7 +1842,7 @@ msgstr "激活"
 #: app/options.xml
 msgctxt "SyncOption"
 msgid "Activate $title"
-msgstr "启动 $title"
+msgstr "激活 $title"
 
 #: devices/transport.xml
 msgctxt "PerformanceMonitor"
@@ -1832,7 +1867,7 @@ msgstr "激活Demo版本"
 #: engine/trackcontrols.xml
 msgctxt "LayerAspectRow1"
 msgid "Activate Layer"
-msgstr "激活层"
+msgstr "激活分层"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.ActivationPage"
@@ -1852,47 +1887,47 @@ msgstr "激活购买产品"
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.ActivationOptions"
 msgid "Activate my purchased version of $APPNAME"
-msgstr "激活我所购买的$APPNAME版本"
+msgstr "激活我所购买的 $APPNAME 版本"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.ActivationOptions"
 msgid "Activate with $CLOUDNAME"
-msgstr " 启用 $CLOUDNAME "
+msgstr "使用$CLOUDNAME激活"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageManager.Packages"
 msgid "Activate..."
-msgstr "激活......"
+msgstr "激活..."
 
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionVariation"
 msgid "Activation Sequence"
-msgstr "激活序列"
+msgstr "触发序列"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeatMasterControls"
 msgid "Active"
-msgstr "活动"
+msgstr "启用"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeatMasterControlsBig"
 msgid "Active"
-msgstr "活动"
+msgstr "启用"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
 msgid "Active"
-msgstr "活动"
+msgstr "已启用的"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Active Customization"
-msgstr "激活自定义"
+msgstr "启用自定义"
 
 #: ccl/navigator.xml
 msgctxt "AppSafetyOptionsIndicator"
 msgid "Active Safety Options:&#13;&#10;$safetyOptions"
-msgstr "启动安全选项:&#13;&#10;$safetyOptions"
+msgstr "启动安全选项：\r\n$safetyOptions"
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspectorContent"
@@ -1907,12 +1942,12 @@ msgstr "活动仪表板"
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup"
 msgid "Add (Mono)"
-msgstr "添加 (单声道)"
+msgstr "添加（单声道）"
 
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup"
 msgid "Add (Stereo)"
-msgstr "添加 (立体声)"
+msgstr "添加（立体声）"
 
 #: engine/editor.xml
 msgctxt "ControlLane"
@@ -1927,17 +1962,17 @@ msgstr "添加/移除..."
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Add Automation Lane"
-msgstr "添加自动通道"
+msgstr "添加自动化轨"
 
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
 msgid "Add Automation Track"
-msgstr "添加自动化轨道"
+msgstr "添加自动控制轨道"
 
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceSlotAuxSetup"
 msgid "Add Aux Channel"
-msgstr " 增加辅助通道"
+msgstr "添加辅助通道"
 
 #: devices/musicdevices.xml
 msgctxt "Command"
@@ -1962,17 +1997,17 @@ msgstr "添加乐器"
 #: engine/inspector.xml
 msgctxt "MusicTrackInspector.FX"
 msgid "Add Note FX"
-msgstr "添加Note FX"
+msgstr "添加音符效果器"
 
 #: show/show.xml
 msgctxt "Command"
 msgid "Add Player"
-msgstr " 添加播放器"
+msgstr "添加播放器"
 
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog"
 msgid "Add Player"
-msgstr " 添加播放器"
+msgstr "添加播放器"
 
 #: engine/launcher.xml
 msgctxt "Command"
@@ -1992,7 +2027,7 @@ msgstr "添加草稿簿"
 #: show/show.xml
 msgctxt "Command"
 msgid "Add Setlist Item"
-msgstr " 添加曲目项"
+msgstr "添加曲目项"
 
 #: engine/song.xml
 msgctxt "Command"
@@ -2007,7 +2042,7 @@ msgstr "添加音轨 @cmd[]"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Add a layer for every new take"
-msgstr "为每个新录制添加一个分层"
+msgstr "为每条新录音添加一个分层"
 
 #: project/audiofile.xml
 msgctxt "AudioFilePublisher"
@@ -2029,13 +2064,13 @@ msgctxt "BrowserFileTypesOption"
 msgid "Add..."
 msgstr "添加..."
 
-#: devices/musicdevices.xml
-msgctxt "MusicDeviceSetup"
+#: devices/audiomixer.xml
+msgctxt "AudioIOSetup"
 msgid "Add..."
 msgstr "添加..."
 
-#: devices/audiomixer.xml
-msgctxt "AudioIOSetup"
+#: devices/musicdevices.xml
+msgctxt "MusicDeviceSetup"
 msgid "Add..."
 msgstr "添加..."
 
@@ -2062,12 +2097,12 @@ msgstr "触后"
 #: devices/musicdevices.xml
 msgctxt "NoteRepeater"
 msgid "Aftertouch"
-msgstr "触后"
+msgstr "使用触后控制力度"
 
 #: engine/eventinspector.xml
 msgctxt "LyricsDisplaySetup"
 msgid "Ahead (in quarters)"
-msgstr "前进 (15秒)"
+msgstr "提前量（单位：4分音符）"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
@@ -2157,7 +2192,7 @@ msgstr "全部"
 #: engine/audioexport.xml
 msgctxt "TrackExport"
 msgid "All"
-msgstr "全部"
+msgstr "全选"
 
 #: engine/editor.xml
 msgctxt "MusicScalePanelContent"
@@ -2189,7 +2224,7 @@ msgctxt "Command"
 msgid "Append Scene"
 msgstr "追加场景"
 
-#: app/homepage.xml app/windowclasses.xml app/toolbar.xml
+#: app/homepage.xml app/toolbar.xml app/windowclasses.xml
 #: ccl/packages/packagemanager.xml
 msgctxt "Command"
 msgid "Application"
@@ -2228,7 +2263,7 @@ msgstr "应用声音变化"
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "Apply Staff Preset"
-msgstr "应用谱行预设"
+msgstr "应用谱表预设"
 
 #: ccl/common.xml
 msgctxt "NewDocumentAssistant"
@@ -2238,62 +2273,62 @@ msgstr "应用自定义界面："
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "Apply folder track color to content"
-msgstr "将文件夹轨道颜色应用至内容"
+msgstr "将文件夹轨道颜色应用到文件夹内轨道"
 
 #: ccl/common.xml
 msgctxt "ColorSchemeOption.Arrangement"
 msgid "Arrangement"
-msgstr "编曲"
+msgstr "编排区"
 
 #: engine/inspector.xml
 msgctxt "ArrangerTrackInspector"
 msgid "Arranger"
-msgstr "编曲器"
+msgstr "编曲"
 
 #: engine/inspector.xml
 msgctxt "Command"
 msgid "Arranger"
-msgstr "编曲器"
+msgstr "编曲"
 
 #: engine/songdialogs.xml
 msgctxt "SongMetaInfoOption"
 msgid "Arranger"
-msgstr "编曲器"
+msgstr "编曲"
 
 #: engine/trackcontrols.xml
 msgctxt "ArrangerTrackEditorView"
 msgid "Arranger"
-msgstr "编曲器"
+msgstr "编曲"
 
 #: engine/trackcontrols.xml
 msgctxt "ArrangerTrackControls"
 msgid "Arranger"
-msgstr "编曲器"
+msgstr "编曲"
 
 #: project/project.xml
 msgctxt "DetailedInfoTable"
 msgid "Arranger"
-msgstr "编曲器"
+msgstr "编曲"
 
 #: engine/editor.xml
 msgctxt "SymbolLaneHeader"
 msgid "Articulations"
-msgstr "衔接"
+msgstr "演奏法"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
 msgid "Artist"
-msgstr "作者"
+msgstr "艺术家"
 
 #: engine/songdialogs.xml
 msgctxt "SongMetaInfoOption"
 msgid "Artist"
-msgstr "作者"
+msgstr "艺术家"
 
 #: engine/songdialogs.xml
 msgctxt "TitleAlbumNotes"
 msgid "Artist"
-msgstr "作者"
+msgstr "艺术家"
 
 #: project/project.xml
 msgctxt "ProjectTrackList"
@@ -2303,17 +2338,17 @@ msgstr "艺术家"
 #: project/project.xml
 msgctxt "DetailedInfoTable"
 msgid "Artist"
-msgstr "作者"
+msgstr "艺术家"
 
 #: show/show.xml
 msgctxt "SetListHeader"
 msgid "Artist"
-msgstr "作者"
+msgstr "艺术家"
 
 #: show/showdialogs.xml
 msgctxt "ShowMetaInfoOption"
 msgid "Artist"
-msgstr "作者"
+msgstr "艺术家"
 
 #: app/homepage.xml
 msgctxt "ArtistProfile"
@@ -2333,12 +2368,12 @@ msgstr "艺术家或表演者"
 #: project/project.xml
 msgctxt "ProjectTrackControlsContentMedium"
 msgid "Artist(s) or Performer(s)"
-msgstr "作者或演奏者"
+msgstr "艺术家或表演者"
 
 #: project/project.xml
 msgctxt "DetailedInfoTable"
 msgid "Artist(s) or Performer(s)"
-msgstr "作者或演奏者"
+msgstr "艺术家或表演者"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
@@ -2368,7 +2403,7 @@ msgstr "升序"
 #: ccl/common.xml
 msgctxt "AutoSaveOption"
 msgid "Ask to copy external files when saving document"
-msgstr "保存文件时要求复制外部文件"
+msgstr "在保存文档时询问是否复制外部文件"
 
 #: devices/devices.xml
 msgctxt "ParamMapper.RightPart"
@@ -2403,27 +2438,27 @@ msgstr "音频和弦"
 #: engine/videoplayer.xml
 msgctxt "VideoCodecSelector"
 msgid "Audio Codec"
-msgstr "音频解码器"
+msgstr "音频编码器"
 
 #: app/homepage.xml devices/transport.xml
 msgctxt "Command"
 msgid "Audio Device"
-msgstr "音频设备 "
+msgstr "音频设备"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Device"
 msgid "Audio Device"
-msgstr "音频设备 "
+msgstr "音频设备"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Audio Event"
-msgstr "音频项目"
+msgstr "音频事件"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventProperties"
 msgid "Audio Event Properties"
-msgstr "音频事件特性"
+msgstr "音频事件属性"
 
 #: project/project.xml
 msgctxt "ProjectEventProperties"
@@ -2443,17 +2478,17 @@ msgstr "音频格式"
 #: devices/audiomixer.xml
 msgctxt "MixerManager"
 msgid "Audio I/O Setup"
-msgstr "音频I/O设置"
+msgstr "音频 I/O 设置"
 
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Audio Input follows Selection"
-msgstr "音频输入跟随所选"
+msgstr "音频录制跟随选择"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Audio Input follows Selection"
-msgstr "音频输入跟随所选"
+msgstr "音频录制跟随选择"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
@@ -2463,17 +2498,17 @@ msgstr "音频混音选项"
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Audio Part"
-msgstr "音频部分"
+msgstr "音频片段"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
 msgid "Audio Roundtrip"
-msgstr "音频往返"
+msgstr "音频往返    "
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Audio Track"
-msgstr "音轨"
+msgstr "音频轨道"
 
 #: engine/tracklistinspector.xml
 msgctxt "TrackListEmbeddedInspector"
@@ -2498,7 +2533,7 @@ msgstr "录音轨道实时监听"
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Audio track monitoring mutes playback (Tape style)"
-msgstr "音轨监听回放静音(磁带样式)"
+msgstr "开启监听时，轨道中的事件静音（磁带机风格）"
 
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup"
@@ -2533,22 +2568,27 @@ msgstr "试听音符"
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "Audition Notes On/Off"
-msgstr "试听音符开/关"
+msgstr "试听音符 开/关"
 
 #: engine/editor.xml
 msgctxt "PatternInspector"
 msgid "Audition Notes On/Off"
-msgstr "试听音符开/关"
+msgstr "试听音符 开/关"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorLeftPanel"
 msgid "Audition Notes On/Off"
-msgstr "试听音符开/关"
+msgstr "试听音符 开/关"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
 msgid "Augmented"
 msgstr "增和弦"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Auto Punch"
+msgstr "自动插入式录音"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
@@ -2578,22 +2618,22 @@ msgstr "自动配色"
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "Auto-colorize tracks and layers"
-msgstr "自动为轨道和图层标色"
+msgstr "自动为轨道和分层着色"
 
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Auto-expand selected channel"
-msgstr " 自动扩展选定声道"
+msgstr "自动展开选定通道"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Auto-expand selected channel"
-msgstr " 自动扩展选定声道"
+msgstr "自动展开选定通道"
 
 #: show/show.xml
 msgctxt "IconMuteSoloName"
 msgid "Auto: Off"
-msgstr "Auto: Off"
+msgstr "自动化:关"
 
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.ActionPart"
@@ -2613,7 +2653,7 @@ msgstr "自动创建乐器总线"
 #: engine/editor.xml
 msgctxt "MusicEditor.ToolGroup2"
 msgid "Automatically Quantize Selected Notes"
-msgstr " 自动量化选定音符"
+msgstr "自动量化选定音符"
 
 #: app/options.xml
 msgctxt "AutomationOption"
@@ -2623,12 +2663,12 @@ msgstr "为触及的所有参数自动添加包络"
 #: app/options.xml
 msgctxt "VideoOption"
 msgid "Automatically create audio track for sound from video"
-msgstr "从视频中自动为音轨创建声音"
+msgstr "为视频中的声音自动创建音频轨道"
 
 #: app/options.xml
 msgctxt "AutomationOption"
 msgid "Automatically create automation tracks for channels"
-msgstr "为通道自动创建自动化轨道"
+msgstr "为通道自动创建自动控制轨道"
 
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
@@ -2640,18 +2680,13 @@ msgctxt "ChannelOrganizerSetup"
 msgid "Automatically create busses for multi-out instruments"
 msgstr "自动为多路输出乐器创建总线"
 
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
+msgid "Automatically hide recently installed plug-in duplicates"
+msgstr "自动隐藏最近安装的重复插件"
+
 #: app/importsongdata.xml
 msgctxt "ImportSongDataOptions"
-msgid "Automation"
-msgstr "自动控制"
-
-#: engine/automation.xml
-msgctxt "MusicEnvelopeDialog"
-msgid "Automation"
-msgstr "自动控制"
-
-#: engine/automation.xml
-msgctxt "AutomationTrackDialog"
 msgid "Automation"
 msgstr "自动控制"
 
@@ -2665,6 +2700,16 @@ msgctxt "TrackInspectorAutomationControls"
 msgid "Automation"
 msgstr "自动控制"
 
+#: engine/automation.xml
+msgctxt "MusicEnvelopeDialog"
+msgid "Automation"
+msgstr "自动控制"
+
+#: engine/automation.xml
+msgctxt "AutomationTrackDialog"
+msgid "Automation"
+msgstr "自动控制"
+
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRow2"
 msgid "Automation Mode"
@@ -2673,7 +2718,7 @@ msgstr "自动控制模式"
 #: devices/audiofxeditor.xml
 msgctxt "SpatialAudioEditorHeaderView"
 msgid "Automation Mode"
-msgstr "自动化模式"
+msgstr "自动控制模式"
 
 #: engine/inspector.xml
 msgctxt "TrackInspectorAutomationControls"
@@ -2713,12 +2758,12 @@ msgstr "自动控制轨道"
 #: app/options.xml
 msgctxt "AutomationOption"
 msgid "Automation follows events"
-msgstr "自动化跟随事件"
+msgstr "自动控制跟随事件"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Automation follows events"
-msgstr "自动化跟随事件"
+msgstr "自动控制跟随事件"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
@@ -2728,7 +2773,7 @@ msgstr "自动滚动"
 #: devices/audiomixer.xml
 msgctxt "ChannelSelector"
 msgid "Aux"
-msgstr " 辅助"
+msgstr "辅助通道"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageManager.Tabs"
@@ -2743,7 +2788,7 @@ msgstr "可用的更新"
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageManager.Tabs"
 msgid "Available Updates ($numUpdates)"
-msgstr "可用的更新 ($numUpdates)"
+msgstr "可用的更新（$numUpdates）"
 
 #: project/analyser.xml
 msgctxt "SpectrumMeterSettings"
@@ -2753,7 +2798,7 @@ msgstr "平均速率"
 #: project/analyser.xml
 msgctxt "SpectrumMeterSettings"
 msgid "Avg."
-msgstr "平均值"
+msgstr "平均"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.PresetPart"
@@ -2778,7 +2823,7 @@ msgstr "背景"
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog"
 msgid "Backing Track"
-msgstr " 伴奏"
+msgstr "伴奏"
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspector.ProgramSelector"
@@ -2793,12 +2838,12 @@ msgstr "乐库"
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Bar Numbers"
-msgstr "条形数字"
+msgstr "小节数"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
 msgid "Bar Offset"
-msgstr "小节预备"
+msgstr "小节偏移"
 
 #: devices/transport.xml
 msgctxt "Metronome"
@@ -2807,6 +2852,11 @@ msgstr "小节"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
+msgid "Bars"
+msgstr "小节"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
 msgid "Bars"
 msgstr "小节"
 
@@ -2843,7 +2893,7 @@ msgstr "低音"
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Beat"
-msgstr "节奏"
+msgstr "正拍"
 
 #: engine/songdialogs.xml
 msgctxt "NewSongSettings"
@@ -2903,17 +2953,17 @@ msgstr "循环之间"
 #: engine/audioexport.xml
 msgctxt "SongExportRange"
 msgid "Between Selected Markers"
-msgstr "在选择的标记之间"
+msgstr "在选定的标记之间"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
 msgid "Between Selected Markers"
-msgstr "所选标记之间"
+msgstr "选定标记之间"
 
 #: engine/audioexport.xml
 msgctxt "SongExportRange"
 msgid "Between Song Start/End Marker"
-msgstr "在歌曲开始/结束标记之间"
+msgstr "在乐曲开始/结束标记之间"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
@@ -2928,17 +2978,17 @@ msgstr "黑名单"
 #: engine/musicdialogs.xml
 msgctxt "MusicBounceDialog"
 msgid "Bounce All"
-msgstr "混缩所有内容"
+msgstr "并轨所有内容"
 
 #: engine/musicdialogs.xml
 msgctxt "MusicBounceDialog"
 msgid "Bounce Instrument Parts"
-msgstr "混缩乐器片段"
+msgstr "并轨乐器片段"
 
 #: engine/musicdialogs.xml
 msgctxt "MusicBounceDialog"
 msgid "Bounce Track"
-msgstr "混缩音轨"
+msgstr "并轨音轨"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
@@ -2963,22 +3013,22 @@ msgstr "浏览$APPNAME循环库"
 #: devices/audiofxeditor.xml
 msgctxt "SlotNodeEditHeader"
 msgid "Browse Presets"
-msgstr "浏览预置"
+msgstr "浏览预设"
 
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
 msgid "Browse Presets"
-msgstr "浏览预置"
+msgstr "浏览预设"
 
 #: engine/musicdialogs.xml
 msgctxt "PitchNameEditor"
 msgid "Browse Presets"
-msgstr "浏览预置"
+msgstr "浏览预设"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.PresetPart"
 msgid "Browse Presets"
-msgstr "浏览预置"
+msgstr "浏览预设"
 
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
@@ -3033,7 +3083,7 @@ msgstr "刻录音频CD"
 #: engine/trackcontrols.xml
 msgctxt "FolderTrackControlsContent"
 msgid "Bus Channel"
-msgstr " 汇整频道"
+msgstr "总线通道"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
@@ -3053,62 +3103,62 @@ msgstr "购买Notion"
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
 msgid "By sharing completely anonymous usage data with $APPCOMPANY, you are helping us make better decisions on new features and workflow improvements."
-msgstr "通过与 $APPCOMPANY 共享完全匿名的使用数据，您可以帮助我们更好地决定新功能和改进工作流程。"
+msgstr "通过与 $APPCOMPANY 完全匿名地共享使用数据，您可以帮助我们更好地为新功能和工作流改进作出决策。"
 
 #: app/microviews.xml
 msgctxt "MutableMicroViewBypass"
 msgid "Bypass"
-msgstr "取消效果"
+msgstr "旁通"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "Bypass"
-msgstr "取消效果"
+msgstr "旁通"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
 msgid "Bypass"
-msgstr "取消效果"
+msgstr "旁通"
 
 #: project/project.xml
 msgctxt "ProjectEventPropertiesListTarget"
 msgid "Bypass"
-msgstr "旁路"
+msgstr "旁通"
 
 #: project/project.xml
 msgctxt "ProjectEventMiniProperties.Table"
 msgid "Bypass"
-msgstr "取消效果"
+msgstr "旁通"
 
 #: devices/audiofxeditor.xml
 msgctxt "FXActivationControls"
 msgid "Bypass (automatable)"
-msgstr "旁路（可自动化）"
+msgstr "旁通（可自动控制）"
 
 #: devices/audiofxeditor.xml
 msgctxt "SlotNodeEditHeader"
 msgid "Bypass (automatable)"
-msgstr "取消效果 (可自动化)"
+msgstr "旁通（可自动控制）"
 
 #: engine/audioexport.xml
 msgctxt "AudioExport"
 msgid "Bypass fader and post effects"
-msgstr "旁路推子和后置效果"
+msgstr "旁通主输出的推子和推子后效果器"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
 msgid "Bypass fader and post effects"
-msgstr "侧路旁通推子和预后效果"
+msgstr "旁通主输出的推子和推子后效果器"
 
 #: engine/audioexport.xml
 msgctxt "AudioExport"
 msgid "Bypass master effects"
-msgstr "取消主效果"
+msgstr "旁通主输出上的效果器"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
 msgid "Bypass master effects"
-msgstr "取消主效果"
+msgstr "旁通主输出上的效果器"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.PresetPart"
@@ -3118,7 +3168,7 @@ msgstr "C"
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceOptions"
 msgid "CC Automation Interval"
-msgstr "CC 自动化音程"
+msgstr "CC自动控制间隔"
 
 #: app/windowclasses.xml
 msgctxt "ProjectCDProtocol"
@@ -3165,13 +3215,13 @@ msgctxt "SongCustomization"
 msgid "Cache Activity"
 msgstr "缓存活动"
 
-#: app/notion.xml
-msgctxt "SendToNotionInner"
+#: app/collaboration.xml
+msgctxt "CollaborationSnapshotDialog"
 msgid "Cancel"
 msgstr "取消"
 
-#: app/collaboration.xml
-msgctxt "CollaborationSnapshotDialog"
+#: app/notion.xml
+msgctxt "SendToNotionInner"
 msgid "Cancel"
 msgstr "取消"
 
@@ -3223,7 +3273,7 @@ msgstr "取消搜索"
 #: app/options.xml
 msgctxt "MusicOption"
 msgid "Capture note and control data while not recording for later recall"
-msgstr "在不录音的情况下采集音符和控制数据，以便日后调用"
+msgstr "在没有录音的情况下采集音符和控制数据，以便后续回溯"
 
 #: engine/mediapool.xml
 msgctxt "PlugInFileInfo"
@@ -3273,7 +3323,7 @@ msgstr "通道组件"
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Channel Editor follows Selection"
-msgstr "通道编辑器跟随所选"
+msgstr "通道编辑器跟随选择"
 
 #: engine/trackcontrols.xml
 msgctxt "AudioTrackControlsContent"
@@ -3348,7 +3398,7 @@ msgstr "通道拆分"
 #: devices/audiomixer.xml
 msgctxt "ChannelSelector"
 msgid "Channel Visibility"
-msgstr "轨道可见性"
+msgstr "通道可见性"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
@@ -3358,12 +3408,12 @@ msgstr "通道图标"
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Channel notes"
-msgstr "通道音符"
+msgstr "通道注释"
 
 #: engine/mediapreview.xml
 msgctxt "MusicPreviewPlayer"
 msgid "Channel:"
-msgstr "通道:"
+msgstr "通道："
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
@@ -3383,7 +3433,7 @@ msgstr "检查可用下载"
 #: ccl/packages/packagemanager.xml
 msgctxt "Command"
 msgid "Check for Available Downloads"
-msgstr "检查可用下载"
+msgstr "检查可用的下载"
 
 #: app/homepage.xml
 msgctxt "HomePage"
@@ -3408,17 +3458,17 @@ msgstr "检查更新"
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog"
 msgid "Choose this type for backing track playback from audio files."
-msgstr " 选择此类型，以播放音频文件的伴奏。"
+msgstr "选择此类型，以播放伴奏的音频文件。"
 
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog"
 msgid "Choose this type to play a virtual instrument from a keyboard or pad controller."
-msgstr " 选择此类文件类型，以通过键盘或鼓垫控制器演奏虚拟乐器。"
+msgstr "选择此类型，以通过键盘或鼓垫控制器演奏虚拟乐器。"
 
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog"
 msgid "Choose this type to use a microphone, guitar, or other instrument and apply effects."
-msgstr " 选择此类文件类型，以使用麦克风、吉他或其他乐器，并应用效果。"
+msgstr "选择此类型，以使用麦克风、吉他或其他乐器，并应用效果器。"
 
 #: engine/editor.xml
 msgctxt "AudioChordEventProperties"
@@ -3440,10 +3490,25 @@ msgctxt "ChordDisplay"
 msgid "Chord Display"
 msgstr "和弦显示"
 
+#: engine/editor.xml
+msgctxt "ScoreSetup"
+msgid "Chord Display"
+msgstr "和弦显示"
+
 #: engine/eventinspector.xml
 msgctxt "EditorChordsContent"
 msgid "Chord Display"
 msgstr "和弦显示"
+
+#: engine/inspector.xml
+msgctxt "ChordTrackInspector"
+msgid "Chord Display"
+msgstr "和弦显示"
+
+#: show/show.xml
+msgctxt "TrackControls.Chords"
+msgid "Chord Display Mode"
+msgstr "和弦显示模式"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorMiniParts"
@@ -3493,27 +3558,27 @@ msgstr "和弦"
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "Circles in TAB"
-msgstr "吉他六线谱中的圆圈"
+msgstr "吉他指法谱的圆圈"
 
 #: devices/transport.xml
 msgctxt "PerformanceMonitor.CacheOptions"
 msgid "Cleanup Cache"
-msgstr "清除缓存"
+msgstr "清空缓存"
 
 #: app/homepage.xml
 msgctxt "DocumentBlocks"
 msgid "Clear"
-msgstr "清除"
+msgstr "清空"
 
 #: app/shared.xml
 msgctxt "FilterBar"
 msgid "Clear"
-msgstr "清除"
+msgstr "清空"
 
 #: app/shared.xml
 msgctxt "SearchNavigationBar"
 msgid "Clear"
-msgstr "清除"
+msgstr "清空"
 
 #: app/shared.xml
 msgctxt "SearchBar"
@@ -3523,22 +3588,22 @@ msgstr "清除"
 #: app/startup.xml
 msgctxt "MessageWindow"
 msgid "Clear"
-msgstr "清除"
+msgstr "清空"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageSearch"
 msgid "Clear"
-msgstr "清除"
+msgstr "清空"
 
 #: devices/devices.xml
 msgctxt "MidiMonitor"
 msgid "Clear"
-msgstr "清除"
+msgstr "清空"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.PatternPart"
 msgid "Clear"
-msgstr "清除"
+msgstr "清空"
 
 #: app/toolbar.xml
 msgctxt "ShowNotifications"
@@ -3548,42 +3613,42 @@ msgstr "全部清楚"
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Clear Lane"
-msgstr "清除通道"
+msgstr "清空样式通道"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.PatternPart"
 msgid "Clear Pattern"
-msgstr "清除模式"
+msgstr "清空样式"
 
 #: engine/quantize.xml
 msgctxt "Command"
 msgid "Clear Pattern"
-msgstr "清除模式"
+msgstr "清空样式"
 
 #: ccl/browser.xml
 msgctxt "TagPalette"
 msgid "Clear Tags"
-msgstr "清除标签"
+msgstr "清空标签"
 
 #: app/shared.xml
 msgctxt "PopupSliderMetronomeVolume"
 msgid "Click Volume: @value[]"
-msgstr "节拍器音量: @value[]"
+msgstr "节拍器音量：@value[]"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Click in Play"
-msgstr "播放时启动节拍器"
+msgstr "播放时启用节拍器"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Click in Precount Only"
-msgstr "仅在预备拍启动节拍器"
+msgstr "仅在预备拍启用节拍器"
 
 #: devices/devices.xml
 msgctxt "ParamMapper.LeftPart"
 msgid "Click+Drag Parameter"
-msgstr "点击并拖拉参数"
+msgstr "点击并拖动参数"
 
 #: project/analyser.xml
 msgctxt "HoldValues"
@@ -3603,7 +3668,7 @@ msgstr "剪辑版本"
 #: project/project.xml
 msgctxt "ProjectEventProperties"
 msgid "Clip Version"
-msgstr "剪辑版"
+msgstr "剪辑版本"
 
 #: app/notion.xml
 msgctxt "SendToNotionNoTargets"
@@ -3635,13 +3700,13 @@ msgctxt "SpatialAudioEditorHeaderView"
 msgid "Close"
 msgstr "关闭"
 
-#: devices/synthcombinator.xml
-msgctxt "CombinatorContentTitleBar"
+#: devices/audiomixer.xml
+msgctxt "MixerManager"
 msgid "Close"
 msgstr "关闭"
 
-#: devices/audiomixer.xml
-msgctxt "MixerManager"
+#: devices/synthcombinator.xml
+msgctxt "CombinatorContentTitleBar"
 msgid "Close"
 msgstr "关闭"
 
@@ -3660,13 +3725,13 @@ msgctxt "MusicScalePanelContent"
 msgid "Close"
 msgstr "关闭"
 
-#: engine/recordpanel.xml
-msgctxt "RecordPanel"
+#: engine/videoplayer.xml
+msgctxt "VideoPlayer"
 msgid "Close"
 msgstr "关闭"
 
-#: engine/videoplayer.xml
-msgctxt "VideoPlayer"
+#: engine/recordpanel.xml
+msgctxt "RecordPanel"
 msgid "Close"
 msgstr "关闭"
 
@@ -3878,7 +3943,7 @@ msgstr "调色板"
 #: ccl/common.xml
 msgctxt "ColorSchemeOption.Plugins"
 msgid "Colored"
-msgstr " 已着色"
+msgstr "着色"
 
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
@@ -3893,12 +3958,12 @@ msgstr "为通道条着色"
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Colorize plug-in header"
-msgstr " 为插件标头着色"
+msgstr "为插件标头着色"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Colorize plug-in header"
-msgstr " 为插件标头着色"
+msgstr "为插件标头着色"
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
@@ -3913,12 +3978,12 @@ msgstr "为轨道控件着色"
 #: engine/songdialogs.xml
 msgctxt "SongMetaInfoOption"
 msgid "Comment"
-msgstr "评论"
+msgstr "注释"
 
 #: project/project.xml
 msgctxt "DetailedInfoTable"
 msgid "Comment"
-msgstr "评论"
+msgstr "注释"
 
 #: devices/synthrack.xml
 msgctxt "SynthRack"
@@ -3933,7 +3998,7 @@ msgstr "紧凑视图"
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRow2"
 msgid "Compare"
-msgstr "对照"
+msgstr "对比"
 
 #: engine/songdialogs.xml
 msgctxt "SongMetaInfoOption"
@@ -3998,7 +4063,7 @@ msgstr "继续播放列表"
 #: engine/editor.xml
 msgctxt "ScoreEditorToolBar"
 msgid "Continuous Layout"
-msgstr "连续谱面"
+msgstr "连续布局"
 
 #: ccl/common.xml
 msgctxt "ColorSchemeOption.Levels"
@@ -4013,7 +4078,7 @@ msgstr "控制"
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Control Link"
-msgstr " 控制链接"
+msgstr "控制链接"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Device"
@@ -4073,7 +4138,7 @@ msgstr "复制范围至音轨"
 #: app/importsongdata.xml
 msgctxt "ImportSongDataOptions"
 msgid "Copy files to song folder"
-msgstr "将文件复制到歌曲文件夹"
+msgstr "将文件复制到乐曲文件夹"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.OfflinePage"
@@ -4098,12 +4163,12 @@ msgstr "版权"
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Corr"
-msgstr "更正"
+msgstr "相关性"
 
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog"
 msgid "Count"
-msgstr "计数"
+msgstr "数量"
 
 #: app/collaboration.xml
 msgctxt "CloudFolderSelector"
@@ -4138,20 +4203,20 @@ msgstr "为视频声音回放创建音轨"
 #: engine/musicdialogs.xml
 msgctxt "MusicTransformDialog"
 msgid "Create audio tracks for all instrument outputs. If disengaged, only the output assigned in the track inspector is rendered."
-msgstr "为所有乐器输出创建新的音频轨道。如未启用，则仅渲染音轨监视器中分配的输出。"
+msgstr "为所有乐器输出创建新的音频轨道。如未启用，则仅渲染轨道检查器中分配的输出。"
 
 #: app/notion.xml
 msgctxt "SendToNotionInner"
 msgid "Create lead sheet"
 msgstr "创建曲谱"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "PackageVendor"
+#: ccl/extensionmanager.xml
+msgctxt "ExtensionPropertiesInplace"
 msgid "Created by"
 msgstr "创建者"
 
-#: ccl/extensionmanager.xml
-msgctxt "ExtensionPropertiesInplace"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageVendor"
 msgid "Created by"
 msgstr "创建者"
 
@@ -4178,17 +4243,17 @@ msgstr "创建者"
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup.OutputDeviceInfo"
 msgid "Cue"
-msgstr "提示"
+msgstr "Cue"
 
 #: devices/editgroups.xml
 msgctxt "SnapshotRecallOptionsContent"
 msgid "Cue Mix"
-msgstr "混合记号"
+msgstr "Cue mix"
 
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Cue mix mute follows channel"
-msgstr "提示混音静音跟随通道"
+msgstr "Cue mix与通道同步静音"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
@@ -4213,7 +4278,7 @@ msgstr "光标跟随编辑位置"
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Curve"
-msgstr "曲线"
+msgstr "FFT曲线"
 
 #: engine/eventinspector.xml
 msgctxt "EnvelopeBendMiniProperties"
@@ -4263,17 +4328,17 @@ msgstr "深色"
 #: app/shared.xml
 msgctxt "TimeScrollBar+Zoom"
 msgid "Data Zoom"
-msgstr "数据变焦"
+msgstr "波形放大"
 
 #: engine/editor.xml
 msgctxt "MusicPatternPartCenterView"
 msgid "Data Zoom"
-msgstr "数据缩放"
+msgstr "波形数据缩放"
 
 #: engine/mediapool.xml
 msgctxt "MediaPoolHeader"
 msgid "Data Zoom"
-msgstr "数据变焦"
+msgstr "波形放大"
 
 #: engine/audioediting.xml
 msgctxt "EditPanel.ApplyPart"
@@ -4288,12 +4353,12 @@ msgstr "默认乐器输入"
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionVariation"
 msgid "Default Score Variation"
-msgstr "默认配乐变化"
+msgstr "默认乐谱技法"
 
 #: devices/soundvariationmap.xml
 msgctxt "MusicalSymbolSection"
 msgid "Default Score Variation"
-msgstr "默认配乐变化"
+msgstr "默认乐谱技法"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
@@ -4308,32 +4373,32 @@ msgstr "默认力度"
 #: app/options.xml
 msgctxt "AutomationOption"
 msgid "Default envelopes for new Audio Tracks"
-msgstr "新音轨的默认包络"
+msgstr "新音频轨道的默认包络包括："
 
 #: engine/songdialogs.xml
 msgctxt "SongPropertiesExpanded"
 msgid "Default tempo setting for audio tracks"
-msgstr "音轨默认节奏设置"
+msgstr "音轨默认速度设置"
 
 #: engine/song.xml
 msgctxt "InsertPlaylistIntoSongOptions"
 msgid "Defines how many times infinite items are inserted"
-msgstr "定义无限项插入的次数"
+msgstr "定义插入无限项目的次数"
 
 #: engine/inspector.xml
 msgctxt "AudioTrackInspectorContent"
 msgid "Delay"
-msgstr "延时"
+msgstr "延迟"
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspectorContent"
 msgid "Delay"
-msgstr "延时"
+msgstr "延迟"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Delay"
-msgstr "延时"
+msgstr "延迟"
 
 #: engine/trackcontrols.xml
 msgctxt "Command"
@@ -4368,17 +4433,17 @@ msgstr "删除草稿簿"
 #: engine/inspector.xml
 msgctxt "MarkerTrackInspector"
 msgid "Delete Selected Markers @cmd[Edit|Delete]"
-msgstr "删除已选标记 @cmd[Edit|Delete]"
+msgstr "删除选定标记 @cmd[Edit|Delete]"
 
 #: engine/trackcontrols.xml
 msgctxt "MarkerTrackControls"
 msgid "Delete Selected Markers @cmd[Edit|Delete]"
-msgstr "删除已选标记 @cmd[Edit|Delete]"
+msgstr "删除选定标记 @cmd[Edit|Delete]"
 
 #: engine/trackcontrols.xml
 msgctxt "SignatureTrackControls"
 msgid "Delete Selected Signature @cmd[Edit|Delete]"
-msgstr "删除选中的节拍@cmd[Edit|Delete]"
+msgstr "删除选定的拍号@cmd[Edit|Delete]"
 
 #: engine/trackcontrols.xml
 msgctxt "TempoTrackControls"
@@ -4423,7 +4488,7 @@ msgstr "分离"
 #: ccl/browser.xml
 msgctxt "BrowserDetachControl"
 msgid "Detach"
-msgstr "解除连接"
+msgstr "分离"
 
 #: devices/audiomixer.xml
 msgctxt "MixerManager"
@@ -4434,6 +4499,11 @@ msgstr "分离"
 msgctxt "CollaborationSnapshotDialog"
 msgid "Details"
 msgstr "详细信息"
+
+#: engine/audioexport.xml
+msgctxt "SongExportRealtimeMode"
+msgid "Details..."
+msgstr "详情..."
 
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.MarkerPart"
@@ -4528,7 +4598,7 @@ msgstr "直接输入"
 #: engine/editor.xml
 msgctxt "SymbolLaneHeader"
 msgid "Directions"
-msgstr "方向"
+msgstr "演奏指示"
 
 #: app/plugscanner.xml
 msgctxt "PlugInScanner"
@@ -4543,27 +4613,27 @@ msgstr "禁用"
 #: app/options.xml
 msgctxt "AutomationOption"
 msgid "Disable events under automation envelopes"
-msgstr "自动化包络下的事件不可编辑"
+msgstr "禁用自动控制曲线下的事件"
 
 #: devices/transport.xml
 msgctxt "PerformanceMonitor.Meters"
 msgid "Disc"
-msgstr "光盘"
+msgstr "硬盘"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.PerformancePart"
 msgid "Disc Overload"
-msgstr "光盘过载"
+msgstr "硬盘过载"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.PerformancePart"
 msgid "Disc Performance"
-msgstr "光盘性能"
+msgstr "硬盘性能"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "Messages"
-msgid "Discard Message"
-msgstr "关闭消息"
+#: show/show.xml
+msgctxt "TrackControls.Chords"
+msgid "Display"
+msgstr "显示"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
@@ -4573,17 +4643,17 @@ msgstr "播放模式"
 #: ccl/extensionmanager.xml
 msgctxt "ExtensionAskInstallBox"
 msgid "Do you want to install this Extension?"
-msgstr "是否要安装此扩展?"
+msgstr "是否要安装此扩展？"
 
 #: devices/transport.xml
 msgctxt "Command"
 msgid "Document Setup"
-msgstr " 文件设置"
+msgstr "文件设置"
 
 #: app/shared.xml
 msgctxt "DocumentSafetyOptionsIndicator"
 msgid "Document loaded with Safety Options:&#13;&#10;$safetyOptions"
-msgstr "载有安全选项的文件：&#13;&#10;$safetyOptions"
+msgstr "使用安全选项加载的文件：\r\n$safetyOptions"
 
 #: app/toolbar.xml
 msgctxt "PerspectiveSelector"
@@ -4593,22 +4663,22 @@ msgstr "文档"
 #: engine/editor.xml
 msgctxt "ScoreEditorToolPaletteNotes"
 msgid "Dotted"
-msgstr "打点"
+msgstr "附点"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "Dotted"
-msgstr "打点"
+msgstr "附点"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
 msgid "Dotted"
-msgstr "打点"
+msgstr "附点"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorToolPaletteNotes"
 msgid "Double Dotted"
-msgstr " 复附点"
+msgstr "复附点"
 
 #: engine/mediapool.xml
 msgctxt "WebFileInfo"
@@ -4618,32 +4688,32 @@ msgstr "下载"
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXInserts"
 msgid "Drag FX Chain from here"
-msgstr "从此处拖曳FX链"
+msgstr "从此处拖动效果链"
 
 #: devices/audiofxeditor.xml
 msgctxt "PlugInSplitterDragView"
 msgid "Drag New Splitter From Here"
-msgstr "从此处拖曳新拆分器"
+msgstr "从此处拖动新拆分器"
 
 #: devices/audiofxeditor.xml
 msgctxt "FXPresetControls"
 msgid "Drag Preset from here"
-msgstr "从此处拖拽预设"
+msgstr "从此处拖动预设"
 
 #: devices/musicdevices.xml
 msgctxt "SurfacePlacementEditor"
 msgid "Drag devices between groups to change their placement."
-msgstr "在编组之间拖曳设备以改变其位置。"
+msgstr "在分组之间拖动设备以改变其位置。"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Drag file here to select additional sound"
-msgstr "将文件拖曳至此以选择附加声音"
+msgstr "将文件拖动至此以选择附加声音"
 
 #: ccl/common.xml
 msgctxt "NewDocumentAssistant.DropZone"
 msgid "Drop files here"
-msgstr "拉拽文件至此"
+msgstr "将文件拖放至此处"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
@@ -4668,7 +4738,7 @@ msgstr "鼓垫"
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Drum View"
-msgstr " 鼓件视图"
+msgstr "鼓组视图"
 
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
@@ -4688,7 +4758,7 @@ msgstr "创建副本"
 #: engine/trackcontrols.xml
 msgctxt "LayerAspectRow1"
 msgid "Duplicate Layer"
-msgstr "创建层副本"
+msgstr "复制分层"
 
 #: engine/editor.xml
 msgctxt "Command"
@@ -4788,7 +4858,7 @@ msgstr "编辑设备"
 #: engine/trackcontrols.xml
 msgctxt "EditGroupSelector"
 msgid "Edit Group"
-msgstr "编辑组"
+msgstr "编辑编组"
 
 #: engine/eventinspector.xml
 msgctxt "EventPropertiesTarget"
@@ -4863,12 +4933,12 @@ msgstr "编辑下一个和弦"
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Edit Next Pattern"
-msgstr "编辑下一個模式"
+msgstr "编辑下一个样式"
 
 #: engine/inspector.xml
 msgctxt "InspectorNotesForm"
 msgid "Edit Note..."
-msgstr "编辑注释…"
+msgstr "编辑注释"
 
 #: engine/musicdialogs.xml
 msgctxt "PitchNameEditor"
@@ -4883,7 +4953,7 @@ msgstr "编辑上一个和弦"
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Edit Previous Pattern"
-msgstr "编辑上一个模式"
+msgstr "编辑上一个样式"
 
 #: app/toolbar.xml
 msgctxt "UserProfilePopup"
@@ -4893,7 +4963,7 @@ msgstr "编辑个人资料"
 #: devices/audiomixer.xml
 msgctxt "ChannelSelector"
 msgid "Edit Remote Bank"
-msgstr "编辑远程库"
+msgstr "编辑远程控制器的通道组"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
@@ -4913,12 +4983,12 @@ msgstr "编辑..."
 #: devices/editgroups.xml
 msgctxt "EditGroupMiniProperties"
 msgid "Editing"
-msgstr "编辑中"
+msgstr "编辑"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Editing"
-msgstr "编辑中"
+msgstr "编辑"
 
 #: app/windowclasses.xml
 msgctxt "Command"
@@ -4963,17 +5033,17 @@ msgstr "编辑器跟随光标"
 #: engine/editor.xml
 msgctxt "PatternInspector"
 msgid "Editor shows Pattern at Cursor position"
-msgstr "编辑器在光标位置显示模式"
+msgstr "编辑器在光标处显示样式"
 
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
 msgid "Effects"
-msgstr "效果"
+msgstr "效果器"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Effects"
-msgstr "效果"
+msgstr "效果器"
 
 #: project/burn.xml
 msgctxt "BurnerSelectDialog"
@@ -4993,17 +5063,17 @@ msgstr "启用"
 #: app/options.xml
 msgctxt "AudioEngineOption"
 msgid "Enable &apos;Layers follow events&apos; for new tracks"
-msgstr "为新轨道启用&quot;层跟随时间&quot;"
+msgstr "新音轨的分层允许跟随事件移动"
 
 #: app/options.xml
 msgctxt "AudioEngineOption"
 msgid "Enable &apos;Play overlaps&apos; for new audio tracks"
-msgstr "为新音轨启用 &apos;播放重叠部分&apos;"
+msgstr "新音轨允许播放重叠的片段"
 
 #: ccl/common.xml
 msgctxt "AutoSaveOption"
 msgid "Enable Autosave"
-msgstr " 启用自动保存"
+msgstr "启用自动保存"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
@@ -5018,7 +5088,7 @@ msgstr "启用高DPI模式"
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Enable Listen Bus"
-msgstr " 启用收听汇整频道"
+msgstr "启用监听总线"
 
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRowExtras"
@@ -5033,17 +5103,17 @@ msgstr "启用低延迟监听"
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceOptionsMPE"
 msgid "Enable MPE"
-msgstr " 启用 MPE"
+msgstr "启用 MPE"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
 msgid "Enable Plug-in Nap"
-msgstr "启用插件Nap"
+msgstr "启用插件休眠"
 
 #: devices/transport.xml
 msgctxt "PerformanceMonitor"
 msgid "Enable Plug-in Nap"
-msgstr "启用插件Nap"
+msgstr "启用插件休眠"
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspector.ProgramSelector"
@@ -5058,7 +5128,7 @@ msgstr "启用音色"
 #: engine/editor.xml
 msgctxt "MusicPatternToolsHeader"
 msgid "Enable Record / Step Record @cmd[Step Record|Enable]"
-msgstr "启用录制/单步录制@cmd[Step Record|Enable]"
+msgstr "启用录制 / 步进录制@cmd[Step Record|Enable]"
 
 #: project/analyser.xml
 msgctxt "SpectrumMeterSettings"
@@ -5093,17 +5163,17 @@ msgstr "启用乐器低延迟监听"
 #: app/options.xml
 msgctxt "MusicOption"
 msgid "Enable retrospective recording"
-msgstr "启用回溯性录音"
+msgstr "启用录音回溯"
 
 #: project/analyser.xml
 msgctxt "SpectrumMeterSettings"
 msgid "Enable slope compensation (+3dB/oct. for Pink Noise)"
-msgstr "启用斜率补偿 (+3dB/oct. 粉噪音)"
+msgstr "启用斜率补偿（+3dB/oct. 粉噪）"
 
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Enable undo"
-msgstr "启用还原"
+msgstr "控制台操作可以撤销"
 
 #: engine/editor.xml
 msgctxt "NoteEventProperties"
@@ -5183,12 +5253,12 @@ msgstr "擦除"
 #: devices/musicdevices.xml
 msgctxt "NoteRepeatMasterControls"
 msgid "Erase Notes in Record Mix Mode @cmd[Record Mode|Note Erase]"
-msgstr "在录制混音模式下擦除音符@cmd[Record Mode|Note Erase]"
+msgstr "在混合录音模式下擦除音符@cmd[Record Mode|Note Erase]"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeatMasterControlsBig"
 msgid "Erase Notes in Record Mix Mode @cmd[Record Mode|Note Erase]"
-msgstr "在录制混音模式下擦除音符@cmd[Record Mode|Note Erase]"
+msgstr "在混合录音模式下擦除音符@cmd[Record Mode|Note Erase]"
 
 #: engine/trackcontrols.xml
 msgctxt "Command"
@@ -5198,7 +5268,7 @@ msgstr "事件"
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Event (common)"
-msgstr "项目 ( 常见 ）"
+msgstr "事件（通用）"
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
@@ -5208,32 +5278,32 @@ msgstr "事件外观"
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXHeader"
 msgid "Event Effects are currently offline"
-msgstr "事件效果当前为离线状态"
+msgstr "事件效果器当前离线"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXHeader"
 msgid "Event Effects processing in realtime, click to render"
-msgstr "正在实时处理事件效果，点击进行渲染"
+msgstr "正在实时处理事件效果器，点击进行渲染"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXHeader"
 msgid "Event Effects rendered, click to restore"
-msgstr "事件效果已渲染，点击以恢复"
+msgstr "事件效果器已渲染，点击以还原"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXHeader"
 msgid "Event Effects, click to activate"
-msgstr "事件效果，点击以启用"
+msgstr "事件效果器，点击以启用"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXHeader"
 msgid "Event Effects, click to disable"
-msgstr "事件效果，点击以停用"
+msgstr "事件效果器，点击以停用"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXHeader"
 msgid "Event FX"
-msgstr "事件FX"
+msgstr "事件效果器"
 
 #: engine/eventinspector.xml
 msgctxt "EventProperties"
@@ -5268,22 +5338,22 @@ msgstr "已存在的乐器"
 #: engine/trackcontrols.xml
 msgctxt "ColorBand"
 msgid "Expand Envelopes"
-msgstr "扩展包络"
+msgstr "展开包络"
 
 #: engine/trackcontrols.xml
 msgctxt "ColorBandFolder"
 msgid "Expand Envelopes"
-msgstr "扩展包络"
+msgstr "展开包络"
 
 #: engine/trackcontrols.xml
 msgctxt "ColorBandAutomation"
 msgid "Expand Envelopes"
-msgstr "扩展包络"
+msgstr "展开包络"
 
 #: engine/trackcontrols.xml
 msgctxt "ColorBand"
 msgid "Expand Layers"
-msgstr "扩展层"
+msgstr "展开分层"
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
@@ -5298,7 +5368,7 @@ msgstr "导出混音"
 #: app/multitrack.xml
 msgctxt "SongContestDialog"
 msgid "Export Mixdown for Contest"
-msgstr "大赛导出混频"
+msgstr "导出用于比赛的混音"
 
 #: engine/audioexport.xml
 msgctxt "AudioExport"
@@ -5328,7 +5398,7 @@ msgstr "导出空间音频"
 #: engine/audioexport.xml
 msgctxt "TrackExport"
 msgid "Export Stems"
-msgstr "导出Stem"
+msgstr "导出混音分轨"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
@@ -5373,7 +5443,7 @@ msgstr "外部设备"
 #: devices/transport.xml
 msgctxt "Command"
 msgid "External Sync Options"
-msgstr " 外部同步选项"
+msgstr "外部同步选项"
 
 #: project/analyser.xml
 msgctxt "Analyser"
@@ -5383,7 +5453,7 @@ msgstr "FFT"
 #: devices/audiofxeditor.xml
 msgctxt "InsertSpeakerMap"
 msgid "FX"
-msgstr "FX效果"
+msgstr "FX"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelSelector"
@@ -5393,7 +5463,7 @@ msgstr "FX"
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRowExtras"
 msgid "FX Speaker Type"
-msgstr "FX 扬声器类型"
+msgstr "效果器扬声器类型"
 
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.EventsPart"
@@ -5473,7 +5543,7 @@ msgstr "快进"
 #: app/homepage.xml
 msgctxt "NewsFeed"
 msgid "Feed not available."
-msgstr "订阅消息不可用。"
+msgstr "消息推送不可用。"
 
 #: app/homepage.xml devices/transport.xml
 msgctxt "Command"
@@ -5548,12 +5618,12 @@ msgstr "文件"
 #: app/collaboration.xml
 msgctxt "CollaborationSnapshotInformation"
 msgid "Files:"
-msgstr "文件:"
+msgstr "文件："
 
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Fill Lane"
-msgstr "填充通道"
+msgstr "填充样式通道"
 
 #: app/shared.xml
 msgctxt "FilterBar"
@@ -5583,22 +5653,22 @@ msgstr "查找通道"
 #: app/shared.xml
 msgctxt "CommandPopup"
 msgid "Find Command"
-msgstr "寻找命令"
+msgstr "查找命令"
 
 #: engine/tracklistinspector.xml
 msgctxt "FindTrackPopup"
 msgid "Find Track"
-msgstr "查找音轨"
+msgstr "查找轨道"
 
 #: engine/audiotransform.xml
 msgctxt "AudioTransformDialog"
 msgid "Fixed Tail"
-msgstr "固定尾部"
+msgstr "指定尾部长度"
 
 #: engine/musicdialogs.xml
 msgctxt "MusicTransformDialog"
 msgid "Fixed Tail"
-msgstr "固定尾部"
+msgstr "指定尾部长度"
 
 #: devices/audiofxeditor.xml
 msgctxt "SurfaceMapping"
@@ -5638,7 +5708,7 @@ msgstr "跟随全局移调"
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
 msgid "Follow Q"
-msgstr "跟随 Q"
+msgstr "跟随量化"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
@@ -5713,7 +5783,7 @@ msgstr "标尺和主时间显示格式"
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
 msgid "Frame Offset"
-msgstr "框架偏移"
+msgstr "帧偏移"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.General"
@@ -5733,7 +5803,7 @@ msgstr "帧率"
 #: show/showdialogs.xml
 msgctxt "ShowSetup"
 msgid "Frame Rate"
-msgstr " 帧速率"
+msgstr "帧率"
 
 #: engine/songdialogs.xml
 msgctxt "SetFramesAtCursor"
@@ -5748,7 +5818,7 @@ msgstr "冻结"
 #: devices/audiofxeditor.xml
 msgctxt "SplitterEditView"
 msgid "Frequency Split"
-msgstr "频率拆分"
+msgstr "按频率拆分"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.General"
@@ -5768,12 +5838,12 @@ msgstr "完整安装"
 #: engine/editor.xml
 msgctxt "ScoreEditorToolBar"
 msgid "Full Score Page Layout"
-msgstr "全乐谱页谱面"
+msgstr "总谱布局"
 
 #: app/shared.xml
 msgctxt "DetachedFrameHeader"
 msgid "Fullscreen (@key[Option]: Maximize)"
-msgstr " 全屏 (@key[Option]: Maximize)"
+msgstr "全屏（@key[Option]: Maximize）"
 
 #: app/windowclasses.xml
 msgctxt "GadgetNavigator"
@@ -5803,37 +5873,37 @@ msgstr "增益"
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "Gain Envelope"
-msgstr " 音量调整包络线"
+msgstr "增益包络"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
 msgid "Gain Envelope"
-msgstr " 音量调整包络线"
+msgstr "增益包络"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Gain Envelope"
-msgstr " 音量调整包络线"
+msgstr "增益包络"
 
 #: project/project.xml
 msgctxt "ProjectEventPropertiesListTarget"
 msgid "Gain Envelope"
-msgstr "增益包络线"
+msgstr "增益包络"
 
 #: project/project.xml
 msgctxt "ProjectEventMiniProperties.Table"
 msgid "Gain Envelope"
-msgstr " 音量调整包络线"
+msgstr "增益包络"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeater"
 msgid "Gate"
-msgstr "门限"
+msgstr "门限时长"
 
 #: engine/editor.xml
 msgctxt "MusicPatternToolsHeader"
 msgid "Gate"
-msgstr "门限"
+msgstr "门限时长"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.General"
@@ -5858,27 +5928,27 @@ msgstr "生成器"
 #: app/homepage.xml
 msgctxt "ArtistProfile"
 msgid "Genre"
-msgstr "风格"
+msgstr "流派"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
 msgid "Genre"
-msgstr "风格"
+msgstr "流派"
 
 #: engine/songdialogs.xml
 msgctxt "SongMetaInfoOption"
 msgid "Genre"
-msgstr "风格"
+msgstr "流派"
 
 #: project/project.xml
 msgctxt "DetailedInfoTable"
 msgid "Genre"
-msgstr "风格"
+msgstr "流派"
 
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
 msgid "Get add-ons from $APPCOMPANY Shop"
-msgstr "从$APPCOMPANY商城获取加载项"
+msgstr "从$APPCOMPANY商城获取附加组件"
 
 #: engine/launcher.xml
 msgctxt "LauncherPlaylistContent"
@@ -5908,12 +5978,12 @@ msgstr "全局轨道可见性"
 #: engine/editor.xml
 msgctxt "AudioEditor"
 msgid "Global Track Visibility"
-msgstr "全局轨可见性"
+msgstr "全局轨道可见性"
 
 #: engine/song.xml
 msgctxt "TrackControlsButtonsHeader"
 msgid "Global Track Visibility"
-msgstr "全局轨可见性"
+msgstr "全局轨道可见性"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
@@ -5978,52 +6048,52 @@ msgstr "律动"
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.TrackPart"
 msgid "Group"
-msgstr "组"
+msgstr "编组"
 
 #: engine/inspector.xml
 msgctxt "AudioTrackInspectorContent"
 msgid "Group"
-msgstr "组"
+msgstr "编组"
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspectorContent"
 msgid "Group"
-msgstr "组"
+msgstr "编组"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Group"
-msgstr "组"
+msgstr "编组"
 
 #: devices/musicdevices.xml
 msgctxt "SurfacePlacementEditor"
 msgid "Group 1"
-msgstr "组 1"
+msgstr "编组 1"
 
 #: devices/musicdevices.xml
 msgctxt "SurfacePlacementEditor"
 msgid "Group 2"
-msgstr "组 2"
+msgstr "编组 2"
 
 #: devices/musicdevices.xml
 msgctxt "SurfacePlacementEditor"
 msgid "Group 3"
-msgstr "组 3"
+msgstr "编组 3"
 
 #: devices/musicdevices.xml
 msgctxt "SurfacePlacementEditor"
 msgid "Group 4"
-msgstr "组 4"
+msgstr "编组 4"
 
 #: engine/trackcontrols.xml
 msgctxt "FolderTrackControlsContent"
 msgid "Group Tracks"
-msgstr "组音轨"
+msgstr "编组文件夹内的音轨"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Group assignment"
-msgstr "组分配"
+msgstr "编组分配"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
@@ -6033,7 +6103,7 @@ msgstr "组合"
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.TrackPart"
 msgid "Guides"
-msgstr "引导线"
+msgstr "引导"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
@@ -6045,7 +6115,7 @@ msgctxt "SpectrumMeterSettings"
 msgid "Height"
 msgstr "高度"
 
-#: app/about.xml app/homepage.xml app/toolbar.xml
+#: app/homepage.xml app/toolbar.xml app/about.xml
 msgctxt "Command"
 msgid "Help"
 msgstr "帮助"
@@ -6058,14 +6128,24 @@ msgstr "帮助 [F1]"
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
 msgid "Help us improve $APPNAME!"
-msgstr "帮我们改善 $APPNAME (应用名)！"
+msgstr "帮助我们改善$APPNAME！"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Hide All"
 msgstr "隐藏全部"
 
-#: app/windowclasses.xml app/toolbar.xml
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
+msgid "Hide Duplicates"
+msgstr "隐藏重复项"
+
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
+msgid "Hide duplicates on startup"
+msgstr "启动时隐藏重复项"
+
+#: app/toolbar.xml app/windowclasses.xml
 msgctxt "HistoryPanel"
 msgid "History"
 msgstr "历史"
@@ -6103,7 +6183,7 @@ msgstr "我拒绝"
 #: ccl/common.xml
 msgctxt "ServiceOption"
 msgid "I&apos;ll be careful, I promise!"
-msgstr "我保证会小心 !"
+msgstr "我保证会小心！"
 
 #: devices/audiomixer.xml
 msgctxt "MixerManager"
@@ -6113,7 +6193,7 @@ msgstr "I/O"
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "I/O connections"
-msgstr "输入/输出连接"
+msgstr "I/O 连接"
 
 #: project/analyser.xml
 msgctxt "FixedEBUR128Display"
@@ -6153,7 +6233,7 @@ msgstr "如果您的电脑未连接至网络，则请跟随下列步骤激活 $A
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Ignore Plug-In Latency"
-msgstr "忽略插件延时"
+msgstr "忽略插件延迟"
 
 #: app/options.xml
 msgctxt "AudioEngineOption"
@@ -6168,7 +6248,7 @@ msgstr "映像"
 #: app/importsongdata.xml
 msgctxt "ImportSongDataOptions"
 msgid "Import Song Data"
-msgstr "导入歌曲数据"
+msgstr "导入乐曲数据"
 
 #: show/showdialogs.xml
 msgctxt "ShowTemplateSettings"
@@ -6178,12 +6258,12 @@ msgstr "导入模式"
 #: engine/audioexport.xml
 msgctxt "AudioExport"
 msgid "Import to track"
-msgstr "导入到音轨"
+msgstr "导入回音轨"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
 msgid "Import to track"
-msgstr "导入到音轨"
+msgstr "导入回音轨"
 
 #: project/project.xml
 msgctxt "NewProject"
@@ -6203,17 +6283,17 @@ msgstr "输入"
 #: engine/editor.xml
 msgctxt "MusicScalePanelContent"
 msgid "In Scale"
-msgstr "在音阶内"
+msgstr "音阶内"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.General"
 msgid "Include effects when updating mastering file"
-msgstr "更新母带文件时包含特效"
+msgstr "更新母带文件时包含效果器"
 
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRowExtras"
 msgid "Include sources of bus channels without Mix FX"
-msgstr "包括无混合特效的总线通道源"
+msgstr "包括不含Mix FX的总线通道源"
 
 #: ccl/common.xml
 msgctxt "SaveNewVersionDialog"
@@ -6238,22 +6318,22 @@ msgstr "信息"
 #: app/infoview.xml app/windowclasses.xml
 msgctxt "InfoView"
 msgid "Info View"
-msgstr "信息查看"
+msgstr "信息视图"
 
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Info View"
-msgstr "信息查看"
+msgstr "信息视图"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Info View"
-msgstr "信息查看"
+msgstr "信息视图"
 
 #: ccl/common.xml
 msgctxt "DiagnosticsDialog"
 msgid "Information about crashes and unexpected behavior"
-msgstr "关于不可预估的信息"
+msgstr "关于崩溃和意外的信息"
 
 #: engine/songdialogs.xml
 msgctxt "SongPropertiesExpanded"
@@ -6263,12 +6343,12 @@ msgstr "乐曲原始长度"
 #: engine/songdialogs.xml
 msgctxt "SongPropertiesExpanded"
 msgid "Initial tempo of song"
-msgstr "乐曲原始节奏"
+msgstr "乐曲初始速度"
 
 #: engine/songdialogs.xml
 msgctxt "SongPropertiesExpanded"
 msgid "Initial time signature of song"
-msgstr "乐曲原始时间信号"
+msgstr "乐曲原始节拍"
 
 #: show/show.xml
 msgctxt "FxRackPlayerControls"
@@ -6308,7 +6388,7 @@ msgstr "输入控制"
 #: devices/devices.xml
 msgctxt "AudioSetup.Device"
 msgid "Input Latency"
-msgstr "输入延时"
+msgstr "输入延迟"
 
 #: devices/musicfxeditor.xml
 msgctxt "MusicFXRackSlotView"
@@ -6325,13 +6405,13 @@ msgctxt "InspectorSectionVariation"
 msgid "Input Pitch"
 msgstr "输入音高"
 
-#: engine/recordpanel.xml
-msgctxt "RecordPanel.Horizontal"
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Input Quantize"
 msgstr "输入量化"
 
-#: engine/song.xml
-msgctxt "SongCustomization"
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
 msgid "Input Quantize"
 msgstr "输入量化"
 
@@ -6363,7 +6443,7 @@ msgstr "插入标记@cmd[]"
 #: engine/song.xml
 msgctxt "InsertPlaylistIntoSongOptions"
 msgid "Insert Playlist into Song"
-msgstr "将播放列表插入歌曲"
+msgstr "将播放列表插入到乐曲"
 
 #: engine/editor.xml
 msgctxt "Command"
@@ -6373,7 +6453,7 @@ msgstr "插入休止符"
 #: engine/trackcontrols.xml
 msgctxt "SignatureTrackControls"
 msgid "Insert Signature @cmd[Edit|Insert Time Signature] @cmd[Edit|Insert Key Signature]"
-msgstr "插入节拍 @cmd[Edit|Insert Time Signature]@cmd[Edit|Insert Key Signature]"
+msgstr "插入拍号 @cmd[Edit|Insert Time Signature]@cmd[Edit|Insert Key Signature]"
 
 #: engine/trackcontrols.xml
 msgctxt "TempoTrackControls"
@@ -6413,12 +6493,12 @@ msgstr "插入"
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Inspector"
-msgstr "监视器"
+msgstr "检查器"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Inspector"
-msgstr "监视器"
+msgstr "检查器"
 
 #: ccl/extensionmanager.xml
 msgctxt "ExtensionAskInstallBox"
@@ -6428,7 +6508,7 @@ msgstr "安装"
 #: app/homepage.xml
 msgctxt "DemosFeedNotInstalled"
 msgid "Install Demos and Tutorials..."
-msgstr " 安装演示和教程……"
+msgstr "安装演示和教程..."
 
 #: app/melodyne.xml
 msgctxt "MelodynePlaceholder"
@@ -6608,12 +6688,12 @@ msgstr "乐器输入"
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Instrument Input follows Selection"
-msgstr "乐器输入跟随所选"
+msgstr "乐器录音跟随选择"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Instrument Input follows Selection"
-msgstr "乐器输入跟随所选"
+msgstr "乐器录制跟随选择"
 
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
@@ -6638,7 +6718,7 @@ msgstr "乐器输出"
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Instrument Part"
-msgstr "乐器部分"
+msgstr "乐器片段"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
@@ -6653,7 +6733,7 @@ msgstr "乐器轨道"
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Instrument track monitoring follows record"
-msgstr "录乐器轨实时监听"
+msgstr "乐器轨录音时，开启实时监听"
 
 #: app/importsongdata.xml
 msgctxt "ImportSongDataOptions"
@@ -6662,6 +6742,11 @@ msgstr "乐器"
 
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
+msgid "Instruments"
+msgstr "乐器"
+
+#: devices/audiomixer.xml
+msgctxt "ChannelSelector"
 msgid "Instruments"
 msgstr "乐器"
 
@@ -6675,11 +6760,6 @@ msgctxt "SynthRack"
 msgid "Instruments"
 msgstr "乐器"
 
-#: devices/audiomixer.xml
-msgctxt "ChannelSelector"
-msgid "Instruments"
-msgstr "乐器"
-
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Instruments"
@@ -6688,12 +6768,12 @@ msgstr "乐器"
 #: project/analyser.xml
 msgctxt "FixedEBUR128Display"
 msgid "Integrated (EBU R128)"
-msgstr "集成 (EBU R128)"
+msgstr "平均（EBU R128）"
 
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
 msgid "Integrated (EBU R128)"
-msgstr "集成 (EBU R128)"
+msgstr "平均（EBU R128）"
 
 #: engine/songdialogs.xml
 msgctxt "NewSong"
@@ -6703,17 +6783,17 @@ msgstr "接口"
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorMiniParts"
 msgid "Intervals"
-msgstr "音程"
+msgstr "延伸音"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
 msgid "Intervals"
-msgstr "音程"
+msgstr "延伸音"
 
 #: engine/eventinspector.xml
 msgctxt "ChordEventMiniProperties"
 msgid "Intervals"
-msgstr "音程"
+msgstr "延伸音"
 
 #: app/collaboration.xml
 msgctxt "CloudUserInformation"
@@ -6723,7 +6803,7 @@ msgstr "邀请"
 #: devices/transport.xml
 msgctxt "ShowTransport"
 msgid "Item Time"
-msgstr " 项目时间"
+msgstr "项目时间"
 
 #: app/homepage.xml
 msgctxt "Command"
@@ -6733,12 +6813,12 @@ msgstr "参加"
 #: app/licenser.xml
 msgctxt "UserLicenseExpired"
 msgid "Join $CLOUDNAME"
-msgstr "合并$CLOUDNAME工具"
+msgstr "加入$CLOUDNAME"
 
 #: app/homepage.xml
 msgctxt "HomePageHeader"
 msgid "Join..."
-msgstr "参加..."
+msgstr "加入..."
 
 #: project/analyser.xml
 msgctxt "Analyser"
@@ -6758,17 +6838,17 @@ msgstr "K-20"
 #: app/shared.xml
 msgctxt "DetachedFrameHeader"
 msgid "Keep Editor Open"
-msgstr "编辑器保持打开"
+msgstr "窗口保持"
 
 #: devices/synthcombinator.xml
 msgctxt "CombinatorContentTitleBar"
 msgid "Keep Editor Open"
-msgstr "编辑器保持打开"
+msgstr "保持编辑器打开"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Keep FX channels to the right"
-msgstr "保持FX通道在右侧"
+msgstr "保持效果通道在右侧"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
@@ -6798,7 +6878,7 @@ msgstr "调性"
 #: devices/musicdevices.xml
 msgctxt "NoteRepeater"
 msgid "Key Range for Key Remote"
-msgstr "键盘遥控的的键盘范围"
+msgstr "键盘遥控的按键范围"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeatMasterControls"
@@ -6813,22 +6893,22 @@ msgstr "键盘遥控"
 #: engine/inspector.xml
 msgctxt "ChordTrackInspector"
 msgid "Key Signature"
-msgstr "音调符号"
+msgstr "调号"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Key Signature"
-msgstr "音调符号"
+msgstr "调号"
 
 #: engine/songdialogs.xml
 msgctxt "SongPropertiesExpanded"
 msgid "Key Signature"
-msgstr "音调符号"
+msgstr "调号"
 
 #: show/show.xml
 msgctxt "SetListItemProperties"
 msgid "Key Signature"
-msgstr "音调符号"
+msgstr "调号"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.LoopPart"
@@ -6960,20 +7040,20 @@ msgctxt "SongCustomization"
 msgid "Layers"
 msgstr "分层"
 
-#: engine/tracklistinspector.xml
-msgctxt "TrackListEmbeddedInspector"
+#: engine/trackcontrols.xml
+msgctxt "TrackLayerSelector"
 msgid "Layers"
 msgstr "分层"
 
 #: engine/trackcontrols.xml
-msgctxt "TrackLayerSelector"
-msgid "Layers"
-msgstr "层"
-
-#: engine/trackcontrols.xml
 msgctxt "TrackNameAndLayer"
 msgid "Layers"
-msgstr "层"
+msgstr "分层"
+
+#: engine/tracklistinspector.xml
+msgctxt "TrackListEmbeddedInspector"
+msgid "Layers"
+msgstr "分层"
 
 #: engine/inspector.xml
 msgctxt "AudioTrackInspectorContent"
@@ -6988,22 +7068,22 @@ msgstr "分层跟随事件"
 #: engine/editor.xml
 msgctxt "ScoreEditorLeftPanel"
 msgid "Layout"
-msgstr "谱面"
+msgstr "谱面布局"
 
 #: engine/editor.xml
 msgctxt "ScoreSetup"
 msgid "Layout Style"
-msgstr "谱面风格"
+msgstr "谱面布局风格"
 
 #: app/homepage.xml
 msgctxt "DemosFeedNotInstalled"
 msgid "Learn how to use $APPNAME"
-msgstr " 学习如何使用 $APPNAME"
+msgstr "学习如何使用 $APPNAME"
 
 #: app/licenser.xml
 msgctxt "ActivationMode.Subscription"
 msgid "Learn more about $CLOUDNAME"
-msgstr " 了解更多 $CLOUDNAME 的详情"
+msgstr "了解更多 $CLOUDNAME 的详情"
 
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
@@ -7013,7 +7093,7 @@ msgstr "进一步了解我们收集的匿名使用数据"
 #: app/multitrack.xml
 msgctxt "SongContestDialog"
 msgid "Learn more about this contest"
-msgstr "了解更多关于本次大赛的信息"
+msgstr "了解更多关于本次比赛的信息"
 
 #: engine/eventinspector.xml
 msgctxt "Command"
@@ -7028,7 +7108,7 @@ msgstr "左"
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
 msgid "Left Channel Average RMS (3 seconds integration)"
-msgstr "左通道平均输RMS（3秒集成）"
+msgstr "左通道平均输RMS（3秒平均）"
 
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
@@ -7038,7 +7118,7 @@ msgstr "左通道DC偏移"
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
 msgid "Left Channel True Peak"
-msgstr "左通道实际峰值"
+msgstr "左通道真峰值"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
@@ -7083,7 +7163,7 @@ msgstr "电平"
 #: app/about.xml
 msgctxt "LicenseZone"
 msgid "License Type:"
-msgstr "授权类型:"
+msgstr "授权类型："
 
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageLicenseData"
@@ -7098,7 +7178,7 @@ msgstr "许可证："
 #: app/about.xml
 msgctxt "LicenseZone"
 msgid "Licensed to:"
-msgstr "授权给:"
+msgstr "授权给："
 
 #: ccl/common.xml
 msgctxt "ColorSchemeOption.Plugins"
@@ -7118,7 +7198,7 @@ msgstr "浅色"
 #: app/toolbar.xml
 msgctxt "ToolBar"
 msgid "Link Arrow and Range Tools"
-msgstr " 连接箭头和音域工具"
+msgstr "绑定箭头和范围工具"
 
 #: engine/inspector.xml
 msgctxt "VideoTrackInspector"
@@ -7143,7 +7223,7 @@ msgstr "与文件夹轨道同步展开"
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRowExtras"
 msgid "Link to DSP"
-msgstr "连接至 DSP"
+msgstr "连接至DSP"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
@@ -7153,12 +7233,12 @@ msgstr "控制台通道与轨道列表同步显示"
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.DetectionPart"
 msgid "Linked"
-msgstr "已链接"
+msgstr "链接"
 
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.EventsPart"
 msgid "Linked"
-msgstr "已链接"
+msgstr "链接"
 
 #: ccl/common.xml
 msgctxt "DiagnosticsDialog"
@@ -7168,7 +7248,7 @@ msgstr "已安装的插件和扩展列表"
 #: project/project.xml
 msgctxt "ProjectInspector"
 msgid "Listen Bus"
-msgstr "聆听总线"
+msgstr "监听总线"
 
 #: engine/editor.xml
 msgctxt "PatternInspector"
@@ -7183,22 +7263,22 @@ msgstr "加载/存储"
 #: engine/editor.xml
 msgctxt "MusicScalePanelContent"
 msgid "Load / Store"
-msgstr "加载/储存"
+msgstr "加载/保存"
 
 #: engine/editor.xml
 msgctxt "PatternInspector"
 msgid "Load Pattern Preset"
-msgstr "加载模式预设"
+msgstr "加载样式预设"
 
 #: ccl/common.xml
 msgctxt "ColorSchemePresetOption"
 msgid "Load Preset"
-msgstr "加载预置"
+msgstr "加载预设"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Load Preset"
-msgstr "加载预置"
+msgstr "加载预设"
 
 #: app/collaboration.xml
 msgctxt "CollaborationSnapshotInformation"
@@ -7258,12 +7338,12 @@ msgstr "位置"
 #: engine/tracklistinspector.xml
 msgctxt "MusicTrackListInspectorPanel"
 msgid "Lock Track List"
-msgstr " 锁定曲目列表"
+msgstr "锁定音轨列表"
 
 #: show/showdialogs.xml
 msgctxt "ShowMetaInfoOption"
 msgid "Logo"
-msgstr " 标志"
+msgstr "标志"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
@@ -7323,22 +7403,22 @@ msgstr "循环"
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Loop Active @cmd[Transport|Toggle Loop]"
-msgstr "循环活动片段@cmd[Transport|Toggle Loop]"
+msgstr "激活循环@cmd[Transport|Toggle Loop]"
 
 #: devices/transport.xml
 msgctxt "ProjectTransport"
 msgid "Loop Active @cmd[Transport|Toggle Loop]"
-msgstr "循环活动片段@cmd[Transport|Toggle Loop]"
+msgstr "激活循环@cmd[Transport|Toggle Loop]"
 
 #: devices/transport.xml
 msgctxt "ShowTransport"
 msgid "Loop Active @cmd[Transport|Toggle Loop]"
-msgstr "循环活动片段@cmd[Transport|Toggle Loop]"
+msgstr "激活循环@cmd[Transport|Toggle Loop]"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.LoopPart"
 msgid "Loop Length: @property[controller.loopLength]"
-msgstr "循环长度: @property[controller.loopLength]"
+msgstr "循环长度：@property[controller.loopLength]"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
@@ -7363,12 +7443,12 @@ msgstr "循环"
 #: app/zipdocument.xml
 msgctxt "ZipExportDialog"
 msgid "Lossless audio file compression (FLAC)"
-msgstr "无损音频编解码器 (FLAC)"
+msgstr "无损音频编解码器（FLAC）"
 
 #: engine/audioexport.xml
 msgctxt "AudioExportLoudness"
 msgid "Loudness"
-msgstr "音量"
+msgstr "响度"
 
 #: project/project.xml
 msgctxt "ProjectTrackInspector"
@@ -7378,12 +7458,12 @@ msgstr "响度信息"
 #: project/analyser.xml
 msgctxt "FixedEBUR128Display"
 msgid "Loudness Range (EBU R128)"
-msgstr "响度范围 (EBU R128)"
+msgstr "响度范围（EBU R128）"
 
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
 msgid "Loudness Range (EBU R128)"
-msgstr "响度范围 (EBU R128)"
+msgstr "响度范围（EBU R128）"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
@@ -7418,7 +7498,7 @@ msgstr "歌词"
 #: engine/eventinspector.xml
 msgctxt "LyricsDisplay"
 msgid "Lyrics Display"
-msgstr "歌词显示器"
+msgstr "歌词显示"
 
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
@@ -7443,7 +7523,7 @@ msgstr "MIDI通道"
 #: devices/devices.xml
 msgctxt "MidiMonitor"
 msgid "MIDI Filter"
-msgstr "MIDI滤波器"
+msgstr "MIDI信号筛选器"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.MidiActivityPart"
@@ -7458,22 +7538,22 @@ msgstr "MIDI学习"
 #: app/options.xml
 msgctxt "SyncOption"
 msgid "MIDI Machine Control"
-msgstr " MIDI 机器控制"
+msgstr "MIDI 机器控制"
 
 #: app/windowclasses.xml devices/devices.xml
 msgctxt "MidiMonitor"
 msgid "MIDI Monitor"
-msgstr "MIDI监听器"
+msgstr "MIDI监视器"
 
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "MIDI Monitor"
-msgstr "MIDI监听器"
+msgstr "MIDI监视器"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "MIDI Monitor"
-msgstr "MIDI监听器"
+msgstr "MIDI监视器"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.MidiActivityPart"
@@ -7483,7 +7563,7 @@ msgstr "MIDI输出"
 #: app/options.xml
 msgctxt "SyncOption"
 msgid "MIDI Time Code"
-msgstr " MIDI 时间码"
+msgstr "MIDI 时间码"
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspector.ProgramSelector"
@@ -7498,12 +7578,12 @@ msgstr "MSB"
 #: devices/synthcombinator.xml
 msgctxt "SynthCombinatorPageSelector"
 msgid "Macro Controls"
-msgstr "宏观控制"
+msgstr "宏控制"
 
 #: devices/synthcombinator.xml
 msgctxt "SynthCombinatorPageSelector"
 msgid "Macro Controls Mapping"
-msgstr "宏控制映射"
+msgstr "映射宏控制"
 
 #: project/analyser.xml
 msgctxt "SpectrumMeterSettings"
@@ -7513,12 +7593,12 @@ msgstr "幅值范围"
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
 msgid "Major"
-msgstr "大调"
+msgstr "大和弦"
 
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup"
 msgid "Make Default"
-msgstr "设为默认"
+msgstr "设为默认设置"
 
 #: project/audiofile.xml
 msgctxt "ImageMaker"
@@ -7538,7 +7618,7 @@ msgstr "管理插件"
 #: app/collaboration.xml
 msgctxt "CloudFolderSelector"
 msgid "Manage Workspace"
-msgstr "管理工作站"
+msgstr "管理工作区"
 
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceAddDialog"
@@ -7558,7 +7638,7 @@ msgstr "映射音频文件通道"
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Margins"
-msgstr "空白"
+msgstr "页边距"
 
 #: devices/transport.xml engine/trackcontrols.xml
 msgctxt "Command"
@@ -7583,7 +7663,7 @@ msgstr "标记"
 #: app/windowclasses.xml
 msgctxt "ProjectMarkerTrack"
 msgid "Marker Track"
-msgstr "标记音轨"
+msgstr "标记轨"
 
 #: project/project.xml
 msgctxt "ProjectInspector"
@@ -7593,17 +7673,17 @@ msgstr "母带"
 #: project/project.xml
 msgctxt "ProjectAutomationMasterControls"
 msgid "Master"
-msgstr "主"
+msgstr "母带"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.MasterPart"
 msgid "Master Volume"
-msgstr "主控音量"
+msgstr "主输出音量"
 
 #: project/project.xml
 msgctxt "ProjectTrackIcon"
 msgid "Mastering File Status / Edit Song"
-msgstr "母带文件状态 / 编辑歌曲"
+msgstr "母带文件状态 / 编辑乐曲"
 
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.DetectionPart"
@@ -7623,12 +7703,12 @@ msgstr "最长长度"
 #: engine/audioexport.xml
 msgctxt "AudioExportLoudness"
 msgid "Max. loudness"
-msgstr "最大音量"
+msgstr "最大响度"
 
 #: engine/audioexport.xml
 msgctxt "AudioExportLoudness"
 msgid "Max. true peak"
-msgstr "最大实际峰值"
+msgstr "最大真峰值"
 
 #: app/shared.xml
 msgctxt "DetachedFrameHeader"
@@ -7653,7 +7733,7 @@ msgstr "媒体选项"
 #: engine/mediapool.xml
 msgctxt "MediaPool"
 msgid "Media Pool"
-msgstr "媒体池"
+msgstr "素材池"
 
 #: show/show.xml
 msgctxt "ShowPlayerTracks"
@@ -7723,27 +7803,27 @@ msgstr "启用节拍器"
 #: app/windowclasses.xml
 msgctxt "MetronomeSetup"
 msgid "Metronome Setup"
-msgstr "设置节拍器"
+msgstr "节拍器设置"
 
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Metronome Setup"
-msgstr "设置节拍器"
+msgstr "节拍器设置"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Metronome Setup"
-msgstr "设置节拍器"
+msgstr "节拍器设置"
 
 #: devices/transport.xml
 msgctxt "ShowTransport"
 msgid "Metronome Setup"
-msgstr "设置节拍器"
+msgstr "节拍器设置"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Metronome Setup"
-msgstr "设置节拍器"
+msgstr "节拍器设置"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "InstallHeader"
@@ -7763,7 +7843,7 @@ msgstr "最小长度"
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
 msgid "Minor"
-msgstr "小调"
+msgstr "小和弦"
 
 #: devices/devices.xml
 msgctxt "MissingDeviceDialog"
@@ -7803,7 +7883,7 @@ msgstr "模式"
 #: engine/mediapool.xml
 msgctxt "PresetFileInfo.Details"
 msgid "Modified:"
-msgstr "修改时间:"
+msgstr "修改时间："
 
 #: engine/mediapreview.xml
 msgctxt "PresetFileInfo"
@@ -7818,22 +7898,22 @@ msgstr "调制"
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionVariation"
 msgid "Momentary"
-msgstr "瞬间"
+msgstr "即时触发"
 
 #: project/analyser.xml
 msgctxt "EBUDetailValues"
 msgid "Momentary"
-msgstr "瞬间"
+msgstr "瞬时"
 
 #: app/shared.xml
 msgctxt "TCMutablePlainButton"
 msgid "Monitor"
-msgstr "监听器"
+msgstr "监听"
 
 #: app/shared.xml
 msgctxt "MutablePlainButton"
 msgid "Monitor"
-msgstr "监听器"
+msgstr "监听"
 
 #: engine/songdialogs.xml
 msgctxt "NewSongSettings"
@@ -7843,7 +7923,7 @@ msgstr "监听格式"
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
 msgid "Monitoring Latencies"
-msgstr "监听延时"
+msgstr "监听延迟"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
@@ -7853,7 +7933,7 @@ msgstr "监听跟随录音"
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Monitoring mutes playback (Tape style)"
-msgstr "监听时，将回放静音（磁带型风格）"
+msgstr "开启监听时，轨道中的事件静音（磁带机风格）"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
@@ -7863,7 +7943,7 @@ msgstr "单声道"
 #: project/project.xml
 msgctxt "ProjectFader"
 msgid "Mono"
-msgstr "单声道"
+msgstr "切换单声道"
 
 #: app/melodyne.xml
 msgctxt "MelodynePlaceholder.Link"
@@ -7878,22 +7958,22 @@ msgstr "更多信息"
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
 msgid "Move backward and undo"
-msgstr " 后退和撤销操作"
+msgstr "后退和撤销操作"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorToolBar"
 msgid "Move backwards and undo"
-msgstr " 后退和撤销操作"
+msgstr "后退并撤销"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
 msgid "Move forward"
-msgstr " 前进"
+msgstr "前进"
 
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Multi-Measure Rests"
-msgstr "多拍单位休止符"
+msgstr "多小节休止符"
 
 #: app/multitrack.xml
 msgctxt "MultitrackPropertyEditor"
@@ -7908,7 +7988,7 @@ msgstr "音乐片段属性"
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorHeader"
 msgid "Musical Symbols"
-msgstr " 音乐符号"
+msgstr "音乐符号"
 
 #: app/options.xml
 msgctxt "AutomationOption"
@@ -7933,7 +8013,7 @@ msgstr "静音"
 #: devices/editgroups.xml
 msgctxt "SnapshotRecallOptionsContent"
 msgid "Mute"
-msgstr " 静音"
+msgstr "静音"
 
 #: engine/editor.xml
 msgctxt "NoteEventProperties"
@@ -7955,13 +8035,13 @@ msgctxt "VideoPlayer"
 msgid "Mute Audio"
 msgstr "音频静音"
 
-#: ccl/pluginmanager.xml
-msgctxt "PlugInManager"
+#: ccl/common.xml
+msgctxt "NewDocumentNameAndPath"
 msgid "Name"
 msgstr "名称"
 
-#: ccl/common.xml
-msgctxt "NewDocumentNameAndPath"
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
 msgid "Name"
 msgstr "名称"
 
@@ -7983,12 +8063,12 @@ msgstr "名称"
 #: devices/audiomixer.xml
 msgctxt "MixerManager"
 msgid "Narrow / Normal"
-msgstr "窄/正常"
+msgstr "通道变窄/正常"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
 msgid "Native Low Latency Monitoring Available"
-msgstr "自带低延迟监听可用"
+msgstr "原生低延迟监听可用"
 
 #: engine/eventinspector.xml
 msgctxt "Command"
@@ -8048,7 +8128,7 @@ msgstr "新建项目"
 #: show/showdialogs.xml
 msgctxt "NewShow"
 msgid "New Show"
-msgstr " 新显示页"
+msgstr "新演出页"
 
 #: engine/songdialogs.xml
 msgctxt "NewSong"
@@ -8058,7 +8138,7 @@ msgstr "新建乐曲"
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
 msgid "New Variation"
-msgstr "新建变奏"
+msgstr "新建声音变化"
 
 #: engine/editor.xml
 msgctxt "Command"
@@ -8068,12 +8148,12 @@ msgstr "新建变奏"
 #: app/homepage.xml
 msgctxt "HomePageHeader"
 msgid "New..."
-msgstr "新..."
+msgstr "新建..."
 
 #: app/homepage.xml
 msgctxt "HomePage.RSS"
 msgid "News Feed"
-msgstr "新闻订阅消息"
+msgstr "消息推送"
 
 #: devices/audiofxeditor.xml
 msgctxt "Command"
@@ -8118,7 +8198,7 @@ msgstr "下一个结果"
 #: engine/eventinspector.xml
 msgctxt "LyricsDisplaySetup"
 msgid "Next Text"
-msgstr "下一个文字"
+msgstr "下一文本"
 
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
@@ -8143,12 +8223,12 @@ msgstr "无音频设备"
 #: engine/editor.xml
 msgctxt "NoCellEditor"
 msgid "No Cell selected"
-msgstr "未选择单元"
+msgstr "未选定单元"
 
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "No Instrument Loaded"
-msgstr "无乐器加载"
+msgstr "没有加载乐器"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.ActivationPage"
@@ -8158,82 +8238,82 @@ msgstr "未连接网络？"
 #: show/show.xml
 msgctxt "NoSetListItemProperties"
 msgid "No Setlist item selected"
-msgstr " 未选定曲目项"
+msgstr "未选定曲目项"
 
 #: engine/eventinspector.xml
 msgctxt "NoCellProperties"
 msgid "No cell selected"
-msgstr "未选择单元"
+msgstr "未选定单元"
 
 #: engine/editor.xml
 msgctxt "AudioChordEventInspector"
 msgid "No chord selected"
-msgstr "未选择和弦"
+msgstr "未选定和弦"
 
 #: engine/eventinspector.xml
 msgctxt "ChordInspectorContent"
 msgid "No chord selected"
-msgstr "未选择和弦"
+msgstr "未选定和弦"
 
 #: engine/editor.xml
 msgctxt "NoteEventInspector"
 msgid "No event selected"
-msgstr "未选择事件"
+msgstr "未选定事件"
 
 #: engine/eventinspector.xml
 msgctxt "NoEventProperties"
 msgid "No event selected"
-msgstr "未选择事件"
+msgstr "未选定事件"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "Placeholder"
 msgid "No items match the current filters."
-msgstr "无项目符合当下滤镜。"
+msgstr "没有找到符合筛选条件的项目。"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "No overlap"
-msgstr "无重叠"
+msgstr "不重叠"
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "No overlap when editing events"
-msgstr "禁用事件重叠"
+msgstr "事件之间不可重叠"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "No overlap when editing events"
-msgstr "禁用事件重叠"
+msgstr "事件之间不可重叠"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "No overlap when editing notes On/Off"
-msgstr "编辑音符时无重叠 开/关"
+msgstr "编辑音符时不重叠 开/关"
 
 #: engine/editor.xml
 msgctxt "NoPatternView"
 msgid "No pattern selected"
-msgstr "未选择模式"
+msgstr "未选定样式"
 
 #: devices/audiofxeditor.xml
 msgctxt "SideChainSourceEmpty"
 msgid "No sources available"
-msgstr "无可用音源"
+msgstr "无可用源"
 
 #: engine/editor.xml
 msgctxt "NoTrackEditor"
 msgid "No track selected"
-msgstr "未选择音轨"
+msgstr "未选定轨道"
 
 #: engine/inspector.xml
 msgctxt "NoTrackInspector"
 msgid "No track selected"
-msgstr "未选择音轨"
+msgstr "未选定轨道"
 
 #: engine/mediapreview.xml
 msgctxt "MusicClipPreview"
 msgid "No track selected"
-msgstr "未选择音轨"
+msgstr "未选定轨道"
 
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
@@ -8243,7 +8323,7 @@ msgstr "不要共享"
 #: engine/audioexport.xml
 msgctxt "TrackExport"
 msgid "None"
-msgstr "无"
+msgstr "取消全选"
 
 #: project/audiofile.xml
 msgctxt "AudioFilePublisher"
@@ -8253,7 +8333,7 @@ msgstr "无"
 #: devices/audiofxeditor.xml
 msgctxt "SplitterEditView"
 msgid "Normal"
-msgstr "标准"
+msgstr "正常（平均拆分）"
 
 #: project/project.xml
 msgctxt "ProjectTrackList"
@@ -8278,7 +8358,7 @@ msgstr "标准化"
 #: project/project.xml
 msgctxt "ProjectEventPropertiesListTarget"
 msgid "Normalize"
-msgstr "正常化"
+msgstr "标准化"
 
 #: project/project.xml
 msgctxt "ProjectEventMiniProperties.Table"
@@ -8288,12 +8368,12 @@ msgstr "标准化"
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Notation Size"
-msgstr "谱型大小"
+msgstr "乐谱大小"
 
 #: engine/editor.xml
 msgctxt "MusicEditor.ToolGroup2"
 msgid "Note Color"
-msgstr "音符颜色"
+msgstr "音符着色"
 
 #: engine/editor.xml
 msgctxt "MusicEditor.ToolGroup2"
@@ -8313,42 +8393,42 @@ msgstr "擦除音符"
 #: devices/synthcombinator.xml
 msgctxt "PlugInSelectorNoteFXRouting"
 msgid "Note FX"
-msgstr "Note FX"
+msgstr "音符效果器"
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspector.FX"
 msgid "Note FX"
-msgstr "Note FX"
+msgstr "音符效果器"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Note FX"
-msgstr "Note FX"
+msgstr "音符效果器"
 
 #: engine/trackcontrols.xml
 msgctxt "TrackAutomationFirstRow"
 msgid "Note FX Editor"
-msgstr "Note FX编辑器"
+msgstr "音符效果器编辑器"
 
 #: engine/trackcontrols.xml
 msgctxt "TrackAutomationContent"
 msgid "Note FX Editor"
-msgstr "Note FX编辑器"
+msgstr "音符效果器编辑器"
 
 #: engine/trackcontrols.xml
 msgctxt "MusicTrackControlsFirstRow"
 msgid "Note FX Editor"
-msgstr "Note FX编辑器"
+msgstr "音符效果器编辑器"
 
 #: engine/trackcontrols.xml
 msgctxt "MusicTrackControlsContent"
 msgid "Note FX Editor"
-msgstr "Note FX编辑器"
+msgstr "音符效果器编辑器"
 
 #: devices/devices.xml
 msgctxt "MidiMonitor"
 msgid "Note On/Off"
-msgstr "音符开/关"
+msgstr "音符 开/关"
 
 #: app/windowclasses.xml devices/musicdevices.xml
 msgctxt "NoteRepeater"
@@ -8378,12 +8458,12 @@ msgstr "开启音符重复 @cmd[Record Mode|Note Repeat]"
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "Notehead"
-msgstr "标记头"
+msgstr "符头"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorToolPaletteNotes"
 msgid "Notehead Symbol"
-msgstr " 符头"
+msgstr "符头记号"
 
 #: engine/songdialogs.xml
 msgctxt "TitleAlbumNotes"
@@ -8405,6 +8485,21 @@ msgctxt "SendToNotionNoTargets"
 msgid "Notion Mobile or Notion 6 and later, must be installed on this computer or in the network. Studio One could not detect that Notion is currently running."
 msgstr "Notion Mobile或Notion 6及更高版本，必须安装在网络中的这台电脑上。Studio One无法检测到Notion当前正在运行。"
 
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Number of Bars used for Postroll"
+msgstr "用于后卷的小节数"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Number of Bars used for Precount"
+msgstr "用于预备节拍的小节数"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Number of Bars used for Preroll"
+msgstr "用于预卷的小节数"
+
 #: show/show.xml
 msgctxt "SetListItemSectionMiniProperties"
 msgid "Number of Repeats:"
@@ -8418,12 +8513,12 @@ msgstr "八度"
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Octave"
-msgstr "八度"
+msgstr "1/1倍频程"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Offbeat"
-msgstr "弱拍"
+msgstr "反拍"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXHeader"
@@ -8433,15 +8528,15 @@ msgstr "离线"
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.OfflinePage"
 msgid "Offline Activation Guide"
-msgstr "线下激活指导"
-
-#: app/soundselector.xml
-msgctxt "SoundSetFileSelector"
-msgid "Open"
-msgstr "打开"
+msgstr "离线激活指南"
 
 #: app/homepage.xml
 msgctxt "Command"
+msgid "Open"
+msgstr "打开"
+
+#: app/soundselector.xml
+msgctxt "SoundSetFileSelector"
 msgid "Open"
 msgstr "打开"
 
@@ -8483,7 +8578,7 @@ msgstr "打开歌词轨道"
 #: devices/transport.xml
 msgctxt "TransportPanel.MidiActivityPart"
 msgid "Open MIDI Monitor"
-msgstr "打开MIDI监听器"
+msgstr "打开MIDI监视器"
 
 #: app/windowclasses.xml
 msgctxt "Command"
@@ -8508,22 +8603,22 @@ msgstr "打开设置"
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Open Signature Track"
-msgstr "打开节拍轨"
+msgstr "打开节拍/调性轨道"
 
 #: engine/song.xml
 msgctxt "TrackControlsButtonsHeader"
 msgid "Open Signature Track"
-msgstr "打开节拍轨"
+msgstr "打开节拍/调性轨道"
 
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Open Tempo Track"
-msgstr "打开节奏轨道"
+msgstr "打开速度轨道"
 
 #: engine/song.xml
 msgctxt "TrackControlsButtonsHeader"
 msgid "Open Tempo Track"
-msgstr "打开节奏轨道"
+msgstr "打开速度轨道"
 
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.DetectionPart"
@@ -8538,7 +8633,7 @@ msgstr "打开视频轨道"
 #: app/homepage.xml
 msgctxt "HomePageHeader"
 msgid "Open..."
-msgstr " 打开……"
+msgstr "打开..."
 
 #: ccl/common.xml
 msgctxt "DiagnosticsDialog"
@@ -8555,6 +8650,11 @@ msgctxt "UserOptionDialog"
 msgid "Options"
 msgstr "选项"
 
+#: devices/audiomixer.xml
+msgctxt "MixerManager"
+msgid "Options"
+msgstr "选项"
+
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Options"
@@ -8562,11 +8662,6 @@ msgstr "选项"
 
 #: devices/transport.xml
 msgctxt "PerformanceMonitor.Cache"
-msgid "Options"
-msgstr "选项"
-
-#: devices/audiomixer.xml
-msgctxt "MixerManager"
 msgid "Options"
 msgstr "选项"
 
@@ -8595,11 +8690,6 @@ msgctxt "TrackControlsButtonsHeader"
 msgid "Options"
 msgstr "选项"
 
-#: project/burn.xml
-msgctxt "BurnerSelectDialog"
-msgid "Options"
-msgstr "选项"
-
 #: project/audiofile.xml
 msgctxt "AudioFilePublisher"
 msgid "Options"
@@ -8610,10 +8700,15 @@ msgctxt "ImageMaker"
 msgid "Options"
 msgstr "选项"
 
+#: project/burn.xml
+msgctxt "BurnerSelectDialog"
+msgid "Options"
+msgstr "选项"
+
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Orientation"
-msgstr "方位"
+msgstr "页面方向"
 
 #: engine/eventediting.xml
 msgctxt "SpotEventsDialog"
@@ -8683,20 +8778,20 @@ msgstr "输出格式"
 #: devices/devices.xml
 msgctxt "AudioSetup.Device"
 msgid "Output Latency"
-msgstr "输出延时"
+msgstr "输出延迟"
 
 #: engine/songdialogs.xml
 msgctxt "NewSongSettings"
 msgid "Output Speaker Format"
 msgstr "输出扬声器格式"
 
-#: devices/musicdevices.xml
-msgctxt "MusicDeviceEditorHeaderView"
+#: devices/audiomixer.xml
+msgctxt "AudioIOSetup"
 msgid "Outputs"
 msgstr "输出"
 
-#: devices/audiomixer.xml
-msgctxt "AudioIOSetup"
+#: devices/musicdevices.xml
+msgctxt "MusicDeviceEditorHeaderView"
 msgid "Outputs"
 msgstr "输出"
 
@@ -8728,7 +8823,7 @@ msgstr "鼓垫控制"
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Page Layout"
-msgstr "页谱面"
+msgstr "谱面布局"
 
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
@@ -8788,37 +8883,37 @@ msgstr "粘贴"
 #: show/show.xml
 msgctxt "IconMuteSoloName"
 msgid "Patch Automation"
-msgstr " 修补自动化"
+msgstr "补丁自动控制"
 
 #: show/show.xml
 msgctxt "PatchSection"
 msgid "Patches"
-msgstr " 补丁"
+msgstr "补丁"
 
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Pattern"
-msgstr "模式"
+msgstr "样式"
 
 #: engine/editor.xml
 msgctxt "PatternInspector"
 msgid "Pattern"
-msgstr "模式"
+msgstr "样式"
 
 #: app/windowclasses.xml engine/editor.xml
 msgctxt "MusicPatternPartEditor"
 msgid "Pattern Editor"
-msgstr "模式编辑器"
+msgstr "样式编辑器"
 
 #: engine/editor.xml
 msgctxt "MusicPatternToolsHeader"
 msgid "Pattern Inspector"
-msgstr "模式检测器"
+msgstr "样式检查器"
 
 #: engine/eventinspector.xml
 msgctxt "MusicPatternPartProperties"
 msgid "Pattern Part Properties"
-msgstr "模式部分属性"
+msgstr "样式片段属性"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "ActionProgress"
@@ -8888,12 +8983,12 @@ msgstr "右声道峰值 [dB]"
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Peak/RMS"
-msgstr " 峰值/RMS"
+msgstr "峰值/RMS"
 
 #: show/show.xml
 msgctxt "ShowToolbarContent"
 msgid "Perform"
-msgstr " 表演"
+msgstr "演出"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.PerformancePart"
@@ -8918,12 +9013,12 @@ msgstr "性能监视器"
 #: app/windowclasses.xml
 msgctxt "PerspectiveSelector"
 msgid "PerspectiveSelector"
-msgstr "距离感选择"
+msgstr "视角选择"
 
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Piano View"
-msgstr " 钢琴视图"
+msgstr "钢琴视图"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeater"
@@ -8958,7 +9053,7 @@ msgstr "音高名称"
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceOptionsMPE"
 msgid "Pitch Range"
-msgstr " 音幅"
+msgstr "音幅"
 
 #: engine/editor.xml
 msgctxt "MusicScalePanelContent"
@@ -9003,7 +9098,7 @@ msgstr "播放"
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Play 6/8 click like 2 x 3/8 etc."
-msgstr "以2个3/8拍等形式播放6/8拍"
+msgstr "以2个3/8拍的形式播放6/8拍"
 
 #: engine/eventinspector.xml
 msgctxt "AudioPartPropertiesTarget"
@@ -9043,12 +9138,12 @@ msgstr "按乐曲速度播放"
 #: engine/inspector.xml
 msgctxt "AudioTrackInspectorContent"
 msgid "Play overlaps"
-msgstr "播放重叠部分"
+msgstr "播放重叠区域"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Play overlaps"
-msgstr "播放重叠部分"
+msgstr "播放重叠区域"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Device"
@@ -9058,22 +9153,22 @@ msgstr "回放设备"
 #: show/show.xml
 msgctxt "SetListItemControlsSmall"
 msgid "Playback Mode"
-msgstr " 播放模式"
+msgstr "播放模式"
 
 #: show/show.xml
 msgctxt "SetListItemProperties"
 msgid "Playback Mode"
-msgstr " 播放模式"
+msgstr "播放模式"
 
 #: show/show.xml
 msgctxt "SetListItemMiniProperties"
 msgid "Playback Mode"
-msgstr " 播放模式"
+msgstr "播放模式"
 
 #: show/show.xml
 msgctxt "SetListItemSectionMiniProperties"
 msgid "Playback Mode"
-msgstr " 播放模式"
+msgstr "播放模式"
 
 #: engine/inspector.xml
 msgctxt "ChordTrackInspector"
@@ -9088,7 +9183,7 @@ msgstr "回放速率"
 #: show/show.xml
 msgctxt "ShowPlayerHeader"
 msgid "Players"
-msgstr " 播放器"
+msgstr "播放器"
 
 #: engine/mediapool.xml
 msgctxt "MusicPreviewPlayer"
@@ -9113,7 +9208,7 @@ msgstr "请删除您的插件设置并重新启动$APPNAME以更新版本信息�
 #: ccl/common.xml
 msgctxt "DiagnosticsDialog"
 msgid "Please select which information you would like to include in the report:"
-msgstr "请选择您想在报告中包括的哪些信息。"
+msgstr "请勾选您希望在报告中包含的信息："
 
 #: engine/mediapool.xml
 msgctxt "AudioPreviewPlayer"
@@ -9143,27 +9238,32 @@ msgstr "插件菜单"
 #: engine/mediapool.xml
 msgctxt "PresetFileInfo.Details.Class"
 msgid "Plug-In:"
-msgstr "插件:"
+msgstr "插件："
 
 #: engine/mediapreview.xml
 msgctxt "PresetFileInfo"
 msgid "Plug-In:"
 msgstr "插件:"
 
-#: ccl/pluginmanager.xml
-msgctxt "PlugInInfo"
-msgid "Plug-Ins"
-msgstr "插件"
-
 #: ccl/common.xml
 msgctxt "ColorSchemeOption.Plugins"
 msgid "Plug-Ins"
 msgstr "插件"
 
+#: ccl/pluginmanager.xml
+msgctxt "PlugInInfo"
+msgid "Plug-Ins"
+msgstr "插件"
+
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
+msgid "Plug-in Format Priority"
+msgstr "插件格式优先级"
+
 #: app/plugscanner.xml
 msgctxt "PlugInScanner"
 msgid "Plug-in Scanner"
-msgstr "插件扫描仪"
+msgstr "插件扫描器"
 
 #: devices/devices.xml
 msgctxt "MidiMonitor"
@@ -9188,17 +9288,22 @@ msgstr "乐曲打开时弹出"
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRow1"
 msgid "Port Setup"
-msgstr "岔口设置"
+msgstr "端口设置"
 
 #: project/project.xml
 msgctxt "ProjectTrackInspector"
 msgid "Post FX"
-msgstr "FX后"
+msgstr "效果器后"
 
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.EventsPart"
 msgid "Post-Roll"
-msgstr "滞后量"
+msgstr "后卷"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Postroll"
+msgstr "后卷"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
@@ -9208,47 +9313,52 @@ msgstr "强力和弦"
 #: project/project.xml
 msgctxt "ProjectTrackInspector"
 msgid "Pre FX"
-msgstr "FX前"
+msgstr "效果器前"
 
 #: engine/audioediting.xml
 msgctxt "StripSilencePanel.EventsPart"
 msgid "Pre-Roll"
-msgstr "提前量"
+msgstr "预卷"
 
 #: app/options.xml
 msgctxt "AudioEngineOption"
 msgid "Pre-record audio input"
-msgstr "为音频输入预录音"
+msgstr "对音频输入预录音"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Precount"
 msgstr "预备拍"
 
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Precount"
+msgstr "预备拍"
+
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Precount / Preroll Bars"
-msgstr "预备拍/提前小节"
+msgstr "预备拍/预卷小节"
 
 #: ccl/overlays.xml
 msgctxt "UserOptionDialog"
 msgid "Preferences"
-msgstr "偏好"
+msgstr "偏好设置"
 
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionFolder"
 msgid "Prepend Name to Variations"
 msgstr "在变奏中加入名字"
 
-#: devices/transport.xml
-msgctxt "Metronome"
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
 msgid "Preroll"
 msgstr "提前量"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Preroll @cmd[Transport|Preroll]"
-msgstr "提前量@cmd[Transport|Preroll]"
+msgstr "预卷 @cmd[Transport|Preroll]"
 
 #: engine/musicdialogs.xml
 msgctxt "MusicTransformDialog"
@@ -9263,22 +9373,22 @@ msgstr "保持实时状态"
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Preserve order of channels with folder track"
-msgstr "保存带有文件夹音轨的通道顺序"
+msgstr "保持文件夹音轨内的通道顺序"
 
 #: devices/synthrack.xml
 msgctxt "AudioSynthRackSlotViewExtended"
 msgid "Preset"
-msgstr "预置"
+msgstr "预设"
 
 #: engine/audioexport.xml
 msgctxt "AudioExportLoudness"
 msgid "Preset"
-msgstr "预置"
+msgstr "预设"
 
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog.AudioOptions"
 msgid "Preset"
-msgstr "预置"
+msgstr "预设"
 
 #: ccl/browser.xml ccl/pluginmanager.xml devices/audiofxeditor.xml
 msgctxt "Command"
@@ -9323,7 +9433,7 @@ msgstr "上一个结果"
 #: engine/eventinspector.xml
 msgctxt "LyricsDisplaySetup"
 msgid "Previous Text"
-msgstr "上一个文字"
+msgstr "上一文本"
 
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
@@ -9343,7 +9453,7 @@ msgstr "处理区块大小"
 #: devices/soundvariationmap.xml
 msgctxt "MusicalSymbolSection"
 msgid "Process Dynamics"
-msgstr "过程动态"
+msgstr "处理力度"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
@@ -9353,12 +9463,17 @@ msgstr "处理精度"
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXInserts"
 msgid "Process Volume after Event Effects"
-msgstr "处理事件特效后音量"
+msgstr "在事件效果器后处理音量"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
 msgid "Processing"
-msgstr "处理中"
+msgstr "处理"
+
+#: engine/audioexport.xml
+msgctxt "SongExportRealtimeMode"
+msgid "Processing"
+msgstr "处理"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.SpliceActivation"
@@ -9373,7 +9488,7 @@ msgstr "产品密钥"
 #: app/about.xml
 msgctxt "LicenseZone"
 msgid "Product Key:"
-msgstr "产品密钥:"
+msgstr "产品密钥："
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspector.ProgramSelector"
@@ -9448,27 +9563,32 @@ msgstr "项目"
 #: engine/audioexport.xml
 msgctxt "AudioExport"
 msgid "Publishing"
-msgstr "正在发布"
+msgstr "发布"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
 msgid "Publishing"
-msgstr "正在发布"
+msgstr "发布"
 
 #: project/audiofile.xml
 msgctxt "AudioFilePublisher"
 msgid "Publishing"
-msgstr "正在发布"
+msgstr "发布"
 
 #: project/audiofile.xml
 msgctxt "ImageMaker"
 msgid "Publishing"
-msgstr "正在发布"
+msgstr "发布"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Punch - Pre-/Postroll"
+msgstr "插入式录音 - 预/后卷"
 
 #: app/licenser.xml
 msgctxt "UserLicenseExpired"
 msgid "Purchase a License"
-msgstr "购买许可"
+msgstr "购买许可证"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeater"
@@ -9628,12 +9748,12 @@ msgstr "速率"
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
 msgid "Re-Index Presets"
-msgstr "重索引预置"
+msgstr "重新扫描预设"
 
 #: ccl/browser.xml
 msgctxt "Command"
 msgid "Re-Index Presets"
-msgstr "重索引预置"
+msgstr "重新扫描预设"
 
 #: show/show.xml
 msgctxt "IconMuteSoloName"
@@ -9643,7 +9763,12 @@ msgstr "读取"
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog"
 msgid "Real Instrument"
-msgstr " 真正乐器"
+msgstr "真实乐器"
+
+#: engine/audioexport.xml
+msgctxt "SongExportRealtimeMode"
+msgid "Realtime processing suppressed"
+msgstr "实时处理被抑制"
 
 #: devices/editgroups.xml
 msgctxt "SnapshotRecallOptionsContent"
@@ -9678,7 +9803,7 @@ msgstr "已接收"
 #: app/homepage.xml
 msgctxt "DocumentBlocks"
 msgid "Recent Files"
-msgstr "最近使用文件"
+msgstr "最近使用的文件"
 
 #: devices/devices.xml
 msgctxt "ParamMapper.LeftPart"
@@ -9758,12 +9883,12 @@ msgstr "录音电平"
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Record Max"
-msgstr "最大剩余录音时间"
+msgstr "剩余录音时间"
 
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Record Mix"
-msgstr "录音混音"
+msgstr "混合每次录音"
 
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
@@ -9793,7 +9918,7 @@ msgstr "录音面板"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Record Takes"
-msgstr "多条录音"
+msgstr "每条录音独立"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
@@ -9818,7 +9943,7 @@ msgstr "重做"
 #: app/options.xml
 msgctxt "AutomationOption"
 msgid "Reduction level"
-msgstr "稀释自动化曲线"
+msgstr "稀释自动控制曲线"
 
 #: app/collaboration.xml
 msgctxt "CloudFolderSelector"
@@ -9875,6 +10000,11 @@ msgctxt "PlugInManager"
 msgid "Remove"
 msgstr "移除"
 
+#: devices/audiomixer.xml
+msgctxt "AudioIOSetup"
+msgid "Remove"
+msgstr "移除"
+
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceSetup"
 msgid "Remove"
@@ -9882,11 +10012,6 @@ msgstr "移除"
 
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
-msgid "Remove"
-msgstr "移除"
-
-#: devices/audiomixer.xml
-msgctxt "AudioIOSetup"
 msgid "Remove"
 msgstr "移除"
 
@@ -9898,27 +10023,27 @@ msgstr "移除"
 #: devices/audiofxeditor.xml
 msgctxt "MicroEditSetupDialog"
 msgid "Remove &gt;&gt;"
-msgstr "移除 &gt;&gt;"
+msgstr "移除 >>"
 
 #: engine/automation.xml
 msgctxt "MusicEnvelopeDialog"
 msgid "Remove &gt;&gt;"
-msgstr "移除 &gt;&gt;"
+msgstr "移除 >>"
 
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
 msgid "Remove &gt;&gt;"
-msgstr "移除 &gt;&gt;"
+msgstr "移除 >>"
 
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Remove Automation Lane"
-msgstr "移除自动通道"
+msgstr "移除自动化轨"
 
 #: engine/editor.xml
 msgctxt "ControlLane"
 msgid "Remove Automation Lane"
-msgstr "移除自动通道"
+msgstr "移除自动化轨"
 
 #: engine/mediapool.xml
 msgctxt "LocateMissingFiles"
@@ -9968,17 +10093,17 @@ msgstr "移除乐器"
 #: engine/trackcontrols.xml
 msgctxt "LayerAspectRow1"
 msgid "Remove Layer"
-msgstr "移除层"
+msgstr "移除分层"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Remove Plug-In Settings"
-msgstr "删除插件设置"
+msgstr "移除插件设置"
 
 #: ccl/pluginmanager.xml
 msgctxt "Command"
 msgid "Remove Plug-In Settings"
-msgstr "删除插件设置"
+msgstr "移除插件设置"
 
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
@@ -9988,7 +10113,7 @@ msgstr "移除所选"
 #: engine/trackcontrols.xml
 msgctxt "Command"
 msgid "Remove Selected Signature"
-msgstr "移除已选择的标志"
+msgstr "移除选定的拍号"
 
 #: app/collaboration.xml
 msgctxt "CollaborationSnapshotDialog"
@@ -10018,12 +10143,12 @@ msgstr "渲染所有通道"
 #: devices/transport.xml
 msgctxt "Command"
 msgid "Render Click"
-msgstr "渲染节拍"
+msgstr "渲染节拍器声音"
 
 #: engine/audioexport.xml
 msgctxt "RenderClick"
 msgid "Render Click"
-msgstr "渲染节拍"
+msgstr "渲染节拍器声音"
 
 #: engine/musicdialogs.xml
 msgctxt "MusicTransformDialog"
@@ -10043,22 +10168,22 @@ msgstr "渲染范围"
 #: engine/musicdialogs.xml
 msgctxt "MusicTransformDialog"
 msgid "Render insert effects to audio. If disengaged, inserts are kept for realtime processing and automation."
-msgstr "将插入效果渲染至音频。将保存插入用于实时处理和自动化。"
+msgstr "将插入效果器渲染至音频。如不勾选，则将保留插入效果器用于实时处理和自动控制。"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Repeat Accent"
-msgstr "重复重音"
+msgstr "重复重拍"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeater"
 msgid "Repeat Pitch for Single Mode"
-msgstr "重复单音符模式的音高"
+msgstr "单音符模式的重复音高"
 
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Repeat Pitch for Single Mode"
-msgstr "重复单音符模式的音高"
+msgstr "单音符模式的重复音高"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeatMasterControls"
@@ -10178,7 +10303,7 @@ msgstr "重置颜色"
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Reset Filter"
-msgstr "重置滤波器"
+msgstr "重置筛选器"
 
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
@@ -10188,12 +10313,12 @@ msgstr "根据音高重置乐谱数据"
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup"
 msgid "Reset to Default"
-msgstr "恢复默认值"
+msgstr "恢复默认设置"
 
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Reset to default"
-msgstr "恢复默认值"
+msgstr "恢复默认设置"
 
 #: engine/audiocodec.xml
 msgctxt "PCMEncoderOption"
@@ -10220,11 +10345,6 @@ msgctxt "MusicStepRecordPanel"
 msgid "Rest"
 msgstr "休止符"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "Messages"
-msgid "Restart now"
-msgstr "立即重启"
-
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.MarkerPart"
 msgid "Restore"
@@ -10238,7 +10358,7 @@ msgstr "还原"
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceSlotAuxSetup"
 msgid "Restore Default"
-msgstr " 恢复默认"
+msgstr "还原默认设置"
 
 #: ccl/common.xml
 msgctxt "RestoreDocumentVersion"
@@ -10248,7 +10368,7 @@ msgstr "还原版本"
 #: engine/audioediting.xml
 msgctxt "AudioSpeakerMap"
 msgid "Restore original mapping"
-msgstr "恢复原始映射"
+msgstr "还原到原始映射"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "ActionProgress"
@@ -10283,7 +10403,7 @@ msgstr "恢复 $actionTitle"
 #: ccl/packages/packagemanager.xml
 msgctxt "AnyAction"
 msgid "Resume All"
-msgstr "恢复全部"
+msgstr "全部恢复"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "AnyAction"
@@ -10293,22 +10413,22 @@ msgstr "恢复所有操作"
 #: app/homepage.xml
 msgctxt "DemosFeed"
 msgid "Retrieving Feed... please wait..."
-msgstr "正在检索订阅消息...请稍候..."
+msgstr "正在获取消息推送...请稍候..."
 
 #: app/homepage.xml
 msgctxt "NewsFeed"
 msgid "Retrieving Feed... please wait..."
-msgstr "正在检索订阅消息...请稍候..."
+msgstr "正在获取消息推送...请稍候..."
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspectorContent"
 msgid "Retrospective Recording"
-msgstr "回溯性录音"
+msgstr "录音回溯"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Retrospective Recording"
-msgstr "回溯性录音"
+msgstr "录音回溯"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
@@ -10328,7 +10448,7 @@ msgstr "返回零点处@cmd[Transport|Return to Zero]"
 #: app/options.xml
 msgctxt "MusicOption"
 msgid "Reveal precount notes"
-msgstr "显示预拍音符"
+msgstr "显示预备拍音符"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
@@ -10338,17 +10458,17 @@ msgstr "恢复"
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Rewind"
-msgstr "倒带"
+msgstr "快退"
 
 #: devices/transport.xml
 msgctxt "ProjectTransport"
 msgid "Rewind"
-msgstr "倒带"
+msgstr "快退"
 
 #: devices/transport.xml
 msgctxt "ShowTransport"
 msgid "Rewind"
-msgstr "倒带"
+msgstr "快退"
 
 #: engine/eventinspector.xml
 msgctxt "LyricsDisplay"
@@ -10363,42 +10483,42 @@ msgstr "右"
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
 msgid "Right Channel Average RMS (3 seconds integration)"
-msgstr "右轨道平均RMS（3秒集成）"
+msgstr "右通道平均RMS（3秒平均）"
 
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
 msgid "Right Channel DC Offset"
-msgstr "右轨道DC偏移"
+msgstr "右通道DC偏移"
 
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
 msgid "Right Channel True Peak"
-msgstr "右音轨实际峰值"
+msgstr "右通道真峰值"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "Root"
-msgstr "根"
+msgstr "根音"
 
 #: engine/editor.xml
 msgctxt "MusicScalePanelContent"
 msgid "Root"
-msgstr "根"
+msgstr "根音"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorMiniParts"
 msgid "Root"
-msgstr "根"
+msgstr "根音"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
 msgid "Root"
-msgstr "根"
+msgstr "根音"
 
 #: engine/eventinspector.xml
 msgctxt "ChordEventMiniProperties"
 msgid "Root"
-msgstr "根"
+msgstr "根音"
 
 #: devices/synthcombinator.xml
 msgctxt "SynthCombinatorPageSelector"
@@ -10413,7 +10533,7 @@ msgstr "路由"
 #: engine/trackcontrols.xml
 msgctxt "SecondaryTimerulerTrackControls"
 msgid "Ruler"
-msgstr "标尺"
+msgstr "第二标尺"
 
 #: ccl/common.xml
 msgctxt "NewDocumentSampleRateSetting"
@@ -10498,7 +10618,7 @@ msgstr "保存附件"
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceSlotAuxSetup"
 msgid "Save Default"
-msgstr " 保存默认"
+msgstr "保存默认"
 
 #: ccl/common.xml
 msgctxt "SaveNewVersionDialog"
@@ -10508,12 +10628,12 @@ msgstr "保存新版本"
 #: ccl/common.xml
 msgctxt "AutoSaveOption"
 msgid "Save Options"
-msgstr " 保存选项"
+msgstr "保存选项"
 
 #: show/show.xml
 msgctxt "PatchSection"
 msgid "Save Patch"
-msgstr " 保存补丁"
+msgstr "保存补丁"
 
 #: app/startup.xml
 msgctxt "MessageWindow"
@@ -10588,7 +10708,7 @@ msgstr "场景"
 #: ccl/common.xml
 msgctxt "ColorSchemeOption.Score"
 msgid "Score"
-msgstr " 总谱"
+msgstr "乐谱"
 
 #: engine/editor.xml
 msgctxt "Command"
@@ -10598,12 +10718,12 @@ msgstr " 总谱"
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionVariation"
 msgid "Score Symbols"
-msgstr "总谱符号"
+msgstr "乐谱记号"
 
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Score View"
-msgstr " 总谱视图"
+msgstr "乐谱视图"
 
 #: app/windowclasses.xml
 msgctxt "ScratchPad"
@@ -10653,12 +10773,12 @@ msgstr "搜索标签"
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Secondary Time Display"
-msgstr "二次时间显示"
+msgstr "第二时间显示"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Secondary Transport Controls"
-msgstr "辅助传输控制"
+msgstr "第二走带控制"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
@@ -10738,12 +10858,12 @@ msgstr "选择图像"
 #: engine/trackcontrols.xml
 msgctxt "LayerAspectRow1"
 msgid "Select Layer Color"
-msgstr "设置层颜色"
+msgstr "设置分层颜色"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.OfflinePage"
 msgid "Select License File..."
-msgstr "选择许可文件..."
+msgstr "选择许可证文件..."
 
 #: engine/inspector.xml
 msgctxt "TrackInspectorAutomationControls"
@@ -10768,7 +10888,7 @@ msgstr "选择参数颜色"
 #: engine/editor.xml
 msgctxt "MusicEditor.ToolGroup2"
 msgid "Select Part Automation with Notes"
-msgstr " 选择带音符的分谱自动化"
+msgstr "选择与音符对应的自动控制曲线"
 
 #: ccl/common.xml
 msgctxt "PlugInSelector"
@@ -10813,7 +10933,7 @@ msgstr "选择文件..."
 #: devices/audiomixer.xml
 msgctxt "SelectScenePopup"
 msgid "Select scene"
-msgstr " 选择场景"
+msgstr "选择场景"
 
 #: devices/editgroups.xml
 msgctxt "SnapshotRecallOptionsContent"
@@ -10823,7 +10943,7 @@ msgstr "仅限选定通道"
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
 msgid "Selected Chord"
-msgstr "选择和弦"
+msgstr "选定和弦"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
@@ -10858,7 +10978,7 @@ msgstr "发送到"
 #: app/notion.xml
 msgctxt "SendToNotionInner"
 msgid "Send audio mixdown"
-msgstr "发送音频混合"
+msgstr "发送音频混音"
 
 #: app/notion.xml
 msgctxt "SendToNotionInner"
@@ -10868,7 +10988,7 @@ msgstr "发送整首乐曲的音符数据"
 #: app/notion.xml
 msgctxt "SendToNotionInner"
 msgid "Send note data of selected tracks"
-msgstr "发送已选音轨的音符数据"
+msgstr "发送选定音轨的音符数据"
 
 #: app/notion.xml
 msgctxt "SendToNotionInner"
@@ -10898,12 +11018,12 @@ msgstr "发送"
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Sends/Cue mix"
-msgstr "发送/提示混音"
+msgstr "发送 / Cue mix"
 
 #: devices/devices.xml
 msgctxt "MidiMonitor"
 msgid "Sent"
-msgstr "发送"
+msgstr "已发送"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
@@ -10923,12 +11043,12 @@ msgstr "服务"
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Set Every 2nd Step"
-msgstr "设置每个第二步"
+msgstr "每 2 步设置一次"
 
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Set Every 4th Step"
-msgstr "设置每个第四步"
+msgstr "每 4 步设置一次"
 
 #: engine/songdialogs.xml
 msgctxt "SetFramesAtCursor"
@@ -10943,17 +11063,17 @@ msgstr "设置循环次数"
 #: app/options.xml
 msgctxt "VideoOption"
 msgid "Set song frame rate to video frame rate when importing video file"
-msgstr "“歌曲帧率”设置为导入视频文件时的视频帧率"
+msgstr "导入视频文件时将乐曲帧率设置为视频帧率"
 
 #: app/windowclasses.xml
 msgctxt "Show"
 msgid "Setlist"
-msgstr " 曲目"
+msgstr "曲目"
 
 #: show/show.xml
 msgctxt "SetListHeader"
 msgid "Setlist"
-msgstr " 曲目"
+msgstr "曲目"
 
 #: engine/songdialogs.xml
 msgctxt "NewSongSettings"
@@ -10973,7 +11093,7 @@ msgstr "设置"
 #: devices/transport.xml
 msgctxt "Command"
 msgid "Setup General"
-msgstr "常规设置"
+msgstr "通用设置"
 
 #: engine/songdialogs.xml
 msgctxt "Command"
@@ -10983,22 +11103,22 @@ msgstr "设置元信息"
 #: devices/audiofxeditor.xml
 msgctxt "MicroEditSetupDialog"
 msgid "Setup Micro Edit Parameters"
-msgstr "设置微编辑参数"
+msgstr "设置微观编辑参数"
 
 #: engine/editor.xml
 msgctxt "MusicEditorSoundVariationControls"
 msgid "Setup Sound Variations"
-msgstr "设置声音变量"
+msgstr "设置声音变化"
 
 #: engine/editor.xml
 msgctxt "SoundVariationLaneHeader"
 msgid "Setup Sound Variations"
-msgstr "设置声音变量"
+msgstr "设置声音变化"
 
 #: engine/editor.xml
 msgctxt "Command"
 msgid "Shift Lane"
-msgstr "移动通道"
+msgstr "移动样式通道"
 
 #: app/windowclasses.xml
 msgctxt "Command"
@@ -11018,7 +11138,7 @@ msgstr "商店"
 #: project/analyser.xml
 msgctxt "EBUDetailValues"
 msgid "Short-Term"
-msgstr "短期"
+msgstr "短时"
 
 #: show/show.xml
 msgctxt "Command"
@@ -11028,12 +11148,12 @@ msgstr "显示"
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Show All"
-msgstr "显示所有"
+msgstr "显示全部"
 
 #: devices/devices.xml
 msgctxt "MidiMonitor"
 msgid "Show All"
-msgstr "显示所有"
+msgstr "显示全部"
 
 #: engine/inspector.xml
 msgctxt "VideoTrackInspector"
@@ -11078,7 +11198,7 @@ msgstr "显示版权信息"
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageManager.Packages"
 msgid "Show Details"
-msgstr "显示细节"
+msgstr "显示详情"
 
 #: devices/transport.xml
 msgctxt "PerformanceMonitor"
@@ -11088,7 +11208,7 @@ msgstr "显示设备"
 #: ccl/browser.xml
 msgctxt "Command"
 msgid "Show Effects"
-msgstr "显示效果"
+msgstr "显示效果器"
 
 #: app/windowclasses.xml
 msgctxt "Command"
@@ -11113,17 +11233,17 @@ msgstr "显示相册"
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Show Groups (Channel List)"
-msgstr "显示组 (通道列表)"
+msgstr "显示编组（通道列表）"
 
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Show Groups (Track List)"
-msgstr "显示组 (音轨列表)"
+msgstr "显示编组（轨道列表）"
 
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Show Inputs"
-msgstr "显示输入"
+msgstr "显示输入通道"
 
 #: app/windowclasses.xml
 msgctxt "Command"
@@ -11138,12 +11258,12 @@ msgstr "显示乐器"
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
 msgid "Show Instruments and Note FX"
-msgstr "显示乐器和Note FX"
+msgstr "显示乐器和音符效果器"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorLeftPanel"
 msgid "Show Layout Options"
-msgstr "显示谱面选项"
+msgstr "显示布局选项"
 
 #: ccl/browser.xml
 msgctxt "BrowserListView"
@@ -11168,12 +11288,12 @@ msgstr "显示音乐符号"
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Show Outputs"
-msgstr "显示输出"
+msgstr "显示输出通道"
 
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Show Peak and RMS (Norm Sine 0dBFS)"
-msgstr " 显示峰值和 RMS（参考值 0dBFS）"
+msgstr "显示峰值与RMS值（归一化到 0dBFS）"
 
 #: ccl/browser.xml
 msgctxt "Command"
@@ -11183,17 +11303,17 @@ msgstr "显示素材池"
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Show RMS on K-System 12 Scale"
-msgstr "显示K-系统12刻度RMS"
+msgstr "显示K-12 RMS"
 
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Show RMS on K-System 14 Scale"
-msgstr "显示K-系统14刻度RMS"
+msgstr "显示K-14 RMS"
 
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Show RMS on K-System 20 Scale"
-msgstr "显示K-系统20刻度RMS"
+msgstr "显示K-20 RMS"
 
 #: engine/eventinspector.xml
 msgctxt "LyricsDisplay"
@@ -11203,17 +11323,17 @@ msgstr "显示标尺"
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Show Scenes (Console)"
-msgstr " 显示场景（控制台）"
+msgstr "显示场景（控制台）"
 
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Show Scenes (Track List)"
-msgstr " 显示场景（曲目列表）"
+msgstr "显示场景（轨道列表）"
 
 #: ccl/overlays.xml
 msgctxt "UserOptionDialog"
 msgid "Show Setup"
-msgstr " 显示设置"
+msgstr "显示设置"
 
 #: ccl/browser.xml
 msgctxt "Command"
@@ -11228,7 +11348,7 @@ msgstr "显示Splice"
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "Show Stems in TAB"
-msgstr "在吉他六线谱中显示音符杆"
+msgstr "吉他指法谱显示符干"
 
 #: ccl/browser.xml
 msgctxt "BrowserViewModeButtons.NoInvert"
@@ -11253,12 +11373,12 @@ msgstr "显示音轨设置"
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "Show channel numbers in tracks"
-msgstr "显示音轨中的通道编号"
+msgstr "在轨道中显示通道编号"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Show channel numbers in tracks"
-msgstr "显示音轨中的通道编号"
+msgstr "在轨道中显示通道编号"
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
@@ -11273,7 +11393,7 @@ msgstr "显示事件上的和弦"
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "Show envelopes on instrument parts"
-msgstr "显示乐器片段的包络线"
+msgstr "显示MIDI片段的自动控制曲线"
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
@@ -11288,7 +11408,7 @@ msgstr "显示事件名称"
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
 msgid "Show files used in this Song"
-msgstr "显示此首歌曲中所用文件"
+msgstr "显示此乐曲中所用的文件"
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
@@ -11298,22 +11418,22 @@ msgstr "显示事件网格"
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
 msgid "Show installed Effects"
-msgstr "显示已安装的效果"
+msgstr "显示已安装的效果器"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Show instrument part envelopes"
-msgstr "显示乐器片段的包络线"
+msgstr "显示乐器片段的包络"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Show track icons"
-msgstr "显示轨道标识"
+msgstr "显示轨道图标"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Show track notes"
-msgstr "显示轨道音符"
+msgstr "显示轨道注释"
 
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.MarkerPart"
@@ -11323,12 +11443,12 @@ msgstr "显示/隐藏弯音标记"
 #: engine/eventinspector.xml
 msgctxt "AudioEventFXHeader"
 msgid "Show/Hide Event Effects"
-msgstr "显示/隐藏事件效果"
+msgstr "显示/隐藏事件效果器"
 
 #: show/show.xml
 msgctxt "ControlsEditor"
 msgid "Show/Hide Preview"
-msgstr " 显示/隐藏预览"
+msgstr "显示/隐藏预览"
 
 #: engine/trackcontrols.xml
 msgctxt "ColorBandFolder"
@@ -11338,17 +11458,17 @@ msgstr "显示/隐藏轨道"
 #: show/show.xml
 msgctxt "SetListHeader"
 msgid "Show/Hide more"
-msgstr " 显示/隐藏更多内容"
+msgstr "显示/隐藏更多内容"
 
 #: engine/editor.xml
 msgctxt "MusicEditorCenterView"
 msgid "Show/hide Automation Lanes"
-msgstr "显示/隐藏自动化轨道"
+msgstr "显示/隐藏自动化轨"
 
 #: engine/editor.xml
 msgctxt "MPControlLaneControls"
 msgid "Show/hide Automation Lanes"
-msgstr "显示/隐藏自动通道"
+msgstr "显示/隐藏自动化轨"
 
 #: project/project.xml
 msgctxt "ProjectTrackInspector"
@@ -11368,7 +11488,7 @@ msgstr "显示/隐藏更多"
 #: app/homepage.xml
 msgctxt "DocumentBlocks"
 msgid "Shows"
-msgstr " 表演"
+msgstr "演出"
 
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRowExtras"
@@ -11423,7 +11543,7 @@ msgstr "单音符模式"
 #: engine/editor.xml
 msgctxt "ScoreEditorToolBar"
 msgid "Single Track Page Layout"
-msgstr "单轨页谱面"
+msgstr "单轨布局"
 
 #: ccl/common.xml
 msgctxt "DocumentDiagnostic.SaveSizeTab"
@@ -11448,7 +11568,7 @@ msgstr "跳过音轨"
 #: project/analyser.xml
 msgctxt "SpectrumMeterSettings"
 msgid "Slope"
-msgstr "斜率"
+msgstr "斜率补偿"
 
 #: project/project.xml
 msgctxt "ProjectTrackList"
@@ -11498,7 +11618,7 @@ msgstr "吸附时基"
 #: engine/editor.xml
 msgctxt "MusicScalePanelContent"
 msgid "Snap to Scale"
-msgstr "对齐音阶"
+msgstr "吸附到音阶"
 
 #: app/shared.xml
 msgctxt "TCMutablePlainButton"
@@ -11518,32 +11638,32 @@ msgstr "独奏"
 #: app/shared.xml
 msgctxt "TCMutablePlainButton"
 msgid "Solo (Solo Safe use Shift)"
-msgstr "独奏 (使用Shift键的独奏安全)"
+msgstr "独奏（按Shift键安全独奏）"
 
 #: app/shared.xml
 msgctxt "MutablePlainButton"
 msgid "Solo (Solo Safe use Shift)"
-msgstr "独奏 (使用Shift键的独奏安全)"
+msgstr "独奏（按Shift键安全独奏）"
 
 #: engine/trackcontrols.xml
 msgctxt "LayerAspectRow1"
 msgid "Solo Layer"
-msgstr "独奏层"
+msgstr "独奏分层"
 
 #: app/options.xml
 msgctxt "ConsoleOptionContent"
 msgid "Solo follows Selection"
-msgstr "独奏跟随所选"
+msgstr "独奏跟随选择"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Solo follows Selection"
-msgstr "独奏跟随所选"
+msgstr "独奏跟随选择"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Solo through Listen Bus"
-msgstr " 汇整频道进行独奏"
+msgstr "通过监听总线独奏"
 
 #: app/importsongdata.xml
 msgctxt "ImportSongDataOptions"
@@ -11578,7 +11698,7 @@ msgstr "乐曲"
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
 msgid "Song End"
-msgstr "歌曲结束"
+msgstr "乐曲结束"
 
 #: app/windowclasses.xml
 msgctxt "SongInformation"
@@ -11598,7 +11718,7 @@ msgstr "乐曲信息"
 #: engine/songdialogs.xml
 msgctxt "SongPopup.Notes"
 msgid "Song Notes"
-msgstr "乐曲音符"
+msgstr "乐曲注释"
 
 #: ccl/overlays.xml
 msgctxt "UserOptionDialog"
@@ -11608,7 +11728,7 @@ msgstr "乐曲设置"
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
 msgid "Song Start"
-msgstr "歌曲开始"
+msgstr "乐曲开始"
 
 #: app/homepage.xml
 msgctxt "DocumentBlocks"
@@ -11628,7 +11748,7 @@ msgstr "词曲作者"
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "Sono"
-msgstr "弦音计"
+msgstr "声谱图"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageSort"
@@ -11638,27 +11758,27 @@ msgstr "排序"
 #: ccl/browser.xml
 msgctxt "PlugInBrowserHeader"
 msgid "Sort by: "
-msgstr "排序方式: "
+msgstr "排序方式："
 
 #: ccl/browser.xml
 msgctxt "TagChainSelector"
 msgid "Sort by: "
-msgstr "排序方式: "
+msgstr "排序方式："
 
 #: ccl/common.xml
 msgctxt "PlugInBrowserPopup"
 msgid "Sort by: "
-msgstr "排序方式: "
+msgstr "排序方式："
 
 #: engine/mediapool.xml
 msgctxt "MediaPoolHeader"
 msgid "Sort by: "
-msgstr "排序方式: "
+msgstr "排序方式："
 
 #: engine/editor.xml
 msgctxt "SoundVariationPlaybackHeader"
 msgid "Sound Variation Playback"
-msgstr "音效变奏回放"
+msgstr "声音变化回放"
 
 #: app/windowclasses.xml devices/soundvariationmap.xml
 msgctxt "SoundVariationEditor"
@@ -11693,12 +11813,12 @@ msgstr "可用空间："
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "VolumeFileInfo"
 msgid "Space free:"
-msgstr "剩余空间:"
+msgstr "剩余空间："
 
 #: engine/mediapool.xml
 msgctxt "VolumeFileInfo"
 msgid "Space used:"
-msgstr "已用空间:"
+msgstr "已用空间："
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.SpatialAudio"
@@ -11708,7 +11828,7 @@ msgstr "空间音频"
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRowExtras"
 msgid "Speaker Format"
-msgstr "音箱格式"
+msgstr "扬声器格式"
 
 #: engine/audioexport.xml
 msgctxt "AudioExport"
@@ -11793,7 +11913,7 @@ msgstr "拆分单声道"
 #: devices/audiofxeditor.xml
 msgctxt "SplitterEditView"
 msgid "Splits"
-msgstr "拆分"
+msgstr "拆分数量"
 
 #: devices/audiofxeditor.xml
 msgctxt "PlugInSplitterDragView"
@@ -11808,22 +11928,22 @@ msgstr "拆分器"
 #: engine/eventediting.xml
 msgctxt "SpotEventsDialog"
 msgid "Spot"
-msgstr "点"
+msgstr "定位"
 
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Staff Spacing"
-msgstr "谱行空间处理"
+msgstr "谱表间距"
 
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "Staff Type"
-msgstr " 乐谱类型"
+msgstr "乐谱类型"
 
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "Staffline"
-msgstr "员工线"
+msgstr "谱线"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
@@ -11920,13 +12040,13 @@ msgctxt "ShowTransport"
 msgid "Start @cmd[Transport|Start]"
 msgstr "开始@cmd[Transport|Start]"
 
-#: app/windowclasses.xml
-msgctxt "Start"
+#: app/toolbar.xml
+msgctxt "Command"
 msgid "Start Page"
 msgstr "开始页"
 
-#: app/toolbar.xml
-msgctxt "Command"
+#: app/windowclasses.xml
+msgctxt "Start"
 msgid "Start Page"
 msgstr "开始页"
 
@@ -11938,17 +12058,17 @@ msgstr "正常启动"
 #: devices/audiomixer.xml
 msgctxt "FindChannelPopup"
 msgid "Start typing a channel name..."
-msgstr "开始输入一条轨道名称..."
+msgstr "开始输入一个通道名称..."
 
 #: app/shared.xml
 msgctxt "CommandPopup"
 msgid "Start typing a command name..."
-msgstr "开始输入命令名…"
+msgstr "开始输入命令名..."
 
 #: engine/tracklistinspector.xml
 msgctxt "FindTrackPopup"
 msgid "Start typing a track name..."
-msgstr "开始输入音轨名称…"
+msgstr "开始输入音轨名称..."
 
 #: engine/musicdialogs.xml
 msgctxt "ApplySoundVariationPopup"
@@ -11958,7 +12078,7 @@ msgstr "开始输入一个变量名..."
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
 msgid "Start with options..."
-msgstr "从选项开始..."
+msgstr "从选项启动..."
 
 #: engine/launcher.xml
 msgctxt "ScenePlaylistHeader"
@@ -11973,22 +12093,22 @@ msgstr "统计"
 #: app/windowclasses.xml
 msgctxt "StepRecord"
 msgid "Step Record"
-msgstr "步进录音"
+msgstr "步进录制"
 
 #: app/windowclasses.xml engine/editor.xml
 msgctxt "Command"
 msgid "Step Record"
-msgstr "步进录音"
+msgstr "步进录制"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorToolBar"
 msgid "Step Record"
-msgstr "步进录音"
+msgstr "步进录制"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
 msgid "Step Record"
-msgstr "步进录音"
+msgstr "步进录制"
 
 #: engine/editor.xml
 msgctxt "MusicPatternToolsHeader"
@@ -12053,32 +12173,32 @@ msgstr "在标记处停止"
 #: engine/editor.xml
 msgctxt "PatternInspector"
 msgid "Store"
-msgstr "商店"
+msgstr "保存"
 
 #: engine/editor.xml
 msgctxt "PatternInspector"
 msgid "Store Pattern Preset"
-msgstr "商店图案预设"
+msgstr "存储样式预设"
 
 #: ccl/common.xml
 msgctxt "ColorSchemePresetOption"
 msgid "Store Preset"
-msgstr "存储预置"
+msgstr "存储预设"
 
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Store Preset"
-msgstr "存储预置"
+msgstr "存储预设"
 
 #: engine/musicdialogs.xml
 msgctxt "PitchNameEditor"
 msgid "Store Preset"
-msgstr "存储预置"
+msgstr "存储预设"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.PresetPart"
 msgid "Store Preset"
-msgstr "存储预置"
+msgstr "存储预设"
 
 #: engine/editor.xml
 msgctxt "MusicStepRecordPanel"
@@ -12098,12 +12218,12 @@ msgstr "强度"
 #: engine/songdialogs.xml
 msgctxt "SongPropertiesExpanded"
 msgid "Stretch audio files to tempo"
-msgstr "按速度拉伸音频"
+msgstr "根据速度拉伸音频文件"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.General"
 msgid "Stretch audio files to tempo"
-msgstr "根据节奏调整音频文件"
+msgstr "根据速度拉伸音频文件"
 
 #: engine/eventinspector.xml
 msgctxt "AudioPartPropertiesTarget"
@@ -12133,7 +12253,7 @@ msgstr "风格"
 #: ccl/common.xml
 msgctxt "DocumentTemplateSaveDialog"
 msgid "Subtitle"
-msgstr " 小标题"
+msgstr "小标题"
 
 #: ccl/common.xml
 msgctxt "DocumentDiagnostic.OverviewTab"
@@ -12143,12 +12263,12 @@ msgstr "摘要"
 #: engine/audiotransform.xml
 msgctxt "AudioTransformDialog"
 msgid "Support retransformation to audio track with insert effects."
-msgstr "支持带有插入效果的音轨变回原形。"
+msgstr "支持原样恢复为带有插入效果器的音轨。"
 
 #: engine/musicdialogs.xml
 msgctxt "MusicTransformDialog"
 msgid "Support retransformation to instrument track."
-msgstr "支持乐器音轨变回原形。"
+msgstr "支持原样恢复为乐器音轨。"
 
 #: devices/editgroups.xml
 msgctxt "MixGroupManager"
@@ -12158,12 +12278,12 @@ msgstr "暂停所有组"
 #: devices/editgroups.xml
 msgctxt "EditGroupManager"
 msgid "Suspend all groups"
-msgstr "暂停所有组"
+msgstr "暂停所有编组"
 
 #: devices/editgroups.xml
 msgctxt "SuspendGroupPopup"
 msgid "Suspend group"
-msgstr "暂停组"
+msgstr "暂停编组"
 
 #: engine/audioediting.xml
 msgctxt "AudioSpeakerMap"
@@ -12173,22 +12293,22 @@ msgstr "对调"
 #: engine/editor.xml
 msgctxt "MusicPatternToolsHeader"
 msgid "Swing"
-msgstr "摇摆"
+msgstr "Swing"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.TypePart"
 msgid "Swing"
-msgstr "摇摆"
+msgstr "Swing"
 
 #: engine/audiotransform.xml
 msgctxt "AudioTransformDialog"
 msgid "Switch between automatic tail detection and fixed tail of given length."
-msgstr "在自动尾部检测和为指定长度尾部之间切换。"
+msgstr "在自动尾部检测和为指定尾部长度之间切换。"
 
 #: engine/musicdialogs.xml
 msgctxt "MusicTransformDialog"
 msgid "Switch between automatic tail detection and fixed tail of given length."
-msgstr "在自动尾部检测和为指定长度尾部之间切换。"
+msgstr "在自动尾部检测和为指定尾部长度之间切换。"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorLeftPanel"
@@ -12198,7 +12318,7 @@ msgstr "符号"
 #: devices/transport.xml
 msgctxt "TransportPanel.Sync"
 msgid "Sync"
-msgstr " 同步"
+msgstr "同步"
 
 #: engine/inspector.xml
 msgctxt "ArrangerTrackInspector"
@@ -12217,6 +12337,11 @@ msgstr "跳转时的同步模式"
 
 #: show/show.xml
 msgctxt "TrackControls.Sections"
+msgid "Sync Mode when Jumping"
+msgstr "跳转时的同步模式"
+
+#: show/show.xml
+msgctxt "TrackControls.Chords"
 msgid "Sync Mode when Jumping"
 msgstr "跳转时的同步模式"
 
@@ -12273,17 +12398,17 @@ msgstr "同步点"
 #: app/options.xml
 msgctxt "SyncOption"
 msgid "Sync to External Devices"
-msgstr " 同步至外部设备"
+msgstr "同步至外部设备"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Sync to External Devices"
-msgstr " 同步至外部设备"
+msgstr "同步至外部设备"
 
 #: engine/editor.xml
 msgctxt "EditorToolBar"
 msgid "Synchronize Editor to Arrangement @cmd[Edit|Synchronize Editor to Arrangement]"
-msgstr "将编辑器同步至编曲 @cmd[Edit|Synchronize Editor to Arrangement]"
+msgstr "编辑器与编排区同步 @cmd[Edit|Synchronize Editor to Arrangement]"
 
 #: devices/devices.xml
 msgctxt "MidiMonitor"
@@ -12303,7 +12428,7 @@ msgstr "系统实时"
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "System Spacing"
-msgstr "音制空间处理"
+msgstr "谱行间距"
 
 #: project/analyser.xml
 msgctxt "FixedEBUR128Display"
@@ -12318,12 +12443,12 @@ msgstr "TP"
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "Tab Strings"
-msgstr "标签弦"
+msgstr "指法谱弦"
 
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "Tab Type"
-msgstr "标签类型"
+msgstr "指法谱类型"
 
 #: ccl/browser.xml
 msgctxt "TagPalette"
@@ -12333,7 +12458,7 @@ msgstr "标签选板"
 #: ccl/browser.xml
 msgctxt "TagListEditBox"
 msgid "Tag Search"
-msgstr "标签查询"
+msgstr "标签搜索"
 
 #: app/shared.xml
 msgctxt "SearchBar"
@@ -12363,22 +12488,22 @@ msgstr "录音至分层"
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Tap Tempo"
-msgstr "沿用节奏"
+msgstr "点按测速"
 
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
 msgid "Technique"
-msgstr "技巧"
+msgstr "技法"
 
 #: ccl/common.xml
 msgctxt "NewDocumentAssistant"
 msgid "Templates"
-msgstr " 模板"
+msgstr "模板"
 
 #: show/showdialogs.xml
 msgctxt "NewShow"
 msgid "Templates"
-msgstr " 模板"
+msgstr "模板"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
@@ -12438,7 +12563,7 @@ msgstr "节拍 / 变速"
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
 msgid "Tempo Approval"
-msgstr "审批时间"
+msgstr "核实速度"
 
 #: app/windowclasses.xml
 msgctxt "TempoEditor"
@@ -12468,7 +12593,7 @@ msgstr "文本字体"
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
 msgid "Text Size"
-msgstr "文本大小"
+msgstr "标题文本大小"
 
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
@@ -12478,7 +12603,7 @@ msgstr "文本格式"
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
 msgid "Thank you for helping us improve $APPNAME!"
-msgstr "谢谢你帮我们改善 $APPNAME (应用名)！"
+msgstr "谢谢您帮我们改善$APPNAME！"
 
 #: app/licenser.xml
 msgctxt "AuthorizationHandlerError"
@@ -12513,12 +12638,12 @@ msgstr "本文档中使用以下插件："
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
 msgid "The following plug-ins didn&apos;t work as expected:"
-msgstr "下列插件未能 &apos; 达到预期效果："
+msgstr "下列插件未按预期工作："
 
 #: engine/videoplayer.xml
 msgctxt "VideoCodecSelector"
 msgid "The source codecs are not supported by the selected file type."
-msgstr "所选文件类型不支持源编解码器。"
+msgstr "源编解码器不受选定文件类型支持。"
 
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
@@ -12528,7 +12653,7 @@ msgstr "系统创建了一份问题报告在："
 #: app/homepage.xml
 msgctxt "HomePage"
 msgid "There is a new version of $APPNAME available."
-msgstr " $APPNAME 有可用新版本。"
+msgstr "$APPNAME 有可用新版本。"
 
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
@@ -12548,7 +12673,7 @@ msgstr "该设备因产生无效数据而被停用。"
 #: devices/audiofxeditor.xml
 msgctxt "GhostDeviceEditor"
 msgid "This device is disabled!"
-msgstr " 本台设备已禁用！"
+msgstr "本台设备已禁用！"
 
 #: devices/audiofxeditor.xml
 msgctxt "GhostDeviceEditor"
@@ -12558,12 +12683,12 @@ msgstr "尚未安装此设备！"
 #: app/zipdocument.xml
 msgctxt "ZipExportDialog"
 msgid "This will save your document and all referenced media files to ZIP for easy transfer and backup."
-msgstr "这将把您的文档和所有引用的媒体文件存为ZIP格式，以方便传输和备份。"
+msgstr "这将把您的文档和所有引用的媒体文件保存为ZIP格式，以方便传输和备份。"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "This won&apos;t affect your favorites or visibility settings."
-msgstr "这不会影响你的收藏夹或可见性设置："
+msgstr "这不会影响您的收藏或可见性设置。"
 
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.MarkerPart"
@@ -12618,7 +12743,7 @@ msgstr "时间锁定"
 #: engine/eventinspector.xml
 msgctxt "MusicPatternPartPropertiesTarget"
 msgid "Time Lock"
-msgstr "时间锁"
+msgstr "时间锁定"
 
 #: engine/eventinspector.xml
 msgctxt "EventNodeMiniProperties.Table"
@@ -12683,22 +12808,22 @@ msgstr "时间缩放"
 #: devices/transport.xml
 msgctxt "ShowTransport"
 msgid "Time in current Setlist Item"
-msgstr " 当前曲目项时间"
+msgstr "当前曲目项时间"
 
 #: devices/transport.xml
 msgctxt "ProjectTransport"
 msgid "Time in current Track"
 msgstr "当下音轨的时间"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "AnyAction"
-msgid "Time remaining:"
-msgstr "剩余时间:"
-
 #: ccl/overlays.xml
 msgctxt "ProgressStepView"
 msgid "Time remaining:"
-msgstr "剩余时间:"
+msgstr "剩余时间："
+
+#: ccl/packages/packagemanager.xml
+msgctxt "AnyAction"
+msgid "Time remaining:"
+msgstr "剩余时间："
 
 #: engine/editor.xml
 msgctxt "EditorToolBar"
@@ -12743,22 +12868,22 @@ msgstr "时基"
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
 msgid "Timebase"
-msgstr "时间轴"
+msgstr "时基"
 
 #: engine/trackcontrols.xml
 msgctxt "MarkerTrackControls"
 msgid "Timebase: @value[]"
-msgstr "时基: @value[]"
+msgstr "时基：@value[]"
 
 #: engine/trackcontrols.xml
 msgctxt "ArrangerTrackControls"
 msgid "Timebase: @value[]"
-msgstr "时基: @value[]"
+msgstr "时基：@value[]"
 
 #: engine/trackcontrols.xml
 msgctxt "LyricsTrackControls"
 msgid "Timebase: @value[]"
-msgstr "时基: @value[]"
+msgstr "时基：@value[]"
 
 #: app/options.xml
 msgctxt "MusicOption"
@@ -12773,7 +12898,7 @@ msgstr "时间线"
 #: engine/audioexport.xml
 msgctxt "RenderClick"
 msgid "Timeline Start To Song End"
-msgstr "时间轴开始至歌曲结束"
+msgstr "时间线从开始至乐曲结束"
 
 #: engine/editor.xml
 msgctxt "EditorToolBar"
@@ -12843,27 +12968,27 @@ msgstr "要激活此功能请安装Melodne。"
 #: app/licenser.xml
 msgctxt "AuthorizationHandlerError"
 msgid "To use this function a $APPCOMPANY Account is required. Please activate $APPNAME from the $APPNAME Activation menu first."
-msgstr "使用此功能须 $APPCOMPANY 帐户。请在 $APPNAME 激活菜单中激活 $APPNAME。"
+msgstr "使用此功能需要 $APPCOMPANY 账户。请在 $APPNAME 激活菜单中激活 $APPNAME。"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Toggle Ripple Edit"
-msgstr "切换涟漪编辑"
+msgstr "切换波纹编辑"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Toggle Snap"
-msgstr "吸附切换"
+msgstr "切换吸附"
 
 #: ccl/browser.xml
 msgctxt "BrowserViewModeButtons.NoInvert"
 msgid "Toggle Tree Mode"
-msgstr "切换树状模式"
+msgstr "切换树状图模式"
 
 #: ccl/browser.xml
 msgctxt "BrowserViewModeButtons"
 msgid "Toggle Tree Mode"
-msgstr "切换树状模式"
+msgstr "切换树状图模式"
 
 #: engine/audioexport.xml
 msgctxt "AudioExportLoudness"
@@ -12878,17 +13003,17 @@ msgstr "工具栏"
 #: devices/transport.xml
 msgctxt "PerformanceMonitor.Cache"
 msgid "Total"
-msgstr "全部"
+msgstr "总计"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Total Plug-In Delay"
-msgstr "总计插件延时"
+msgstr "总计插件延迟"
 
 #: engine/mediapool.xml engine/mediapreview.xml
 msgctxt "VolumeFileInfo"
 msgid "Total size:"
-msgstr "总计大小:"
+msgstr "总计大小："
 
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.TrackPart"
@@ -12913,12 +13038,12 @@ msgstr "音轨"
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Track (common)"
-msgstr "音轨( 普通 )"
+msgstr "轨道（通用）"
 
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "Track / Channel names follow active layer"
-msgstr "轨道/通道名称跟随活动层"
+msgstr "轨道/通道名称跟随激活的分层"
 
 #: project/project.xml
 msgctxt "ProjectTrackControlsLength"
@@ -12958,12 +13083,12 @@ msgstr "音轨名称"
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Track Notes"
-msgstr "音轨音符"
+msgstr "轨道注释"
 
 #: engine/songdialogs.xml
 msgctxt "SongPopup.TrackNotes"
 msgid "Track Notes"
-msgstr "音轨音符"
+msgstr "轨道注释"
 
 #: engine/inspector.xml
 msgctxt "AudioTrackInspector"
@@ -13003,7 +13128,7 @@ msgstr "音轨时间"
 #: engine/tracklistinspector.xml
 msgctxt "TrackListEmbeddedInspector"
 msgid "Track Visibility"
-msgstr "音轨可见性"
+msgstr "轨道可见性"
 
 #: project/project.xml
 msgctxt "ProjectTrackControlsLength"
@@ -13033,7 +13158,7 @@ msgstr "音轨"
 #: engine/audioexport.xml
 msgctxt "TrackExport"
 msgid "Tracks"
-msgstr "音轨"
+msgstr "轨道"
 
 #: project/audiofile.xml
 msgctxt "AudioFilePublisher"
@@ -13063,7 +13188,7 @@ msgstr "传输"
 #: engine/musicdialogs.xml
 msgctxt "MusicTransformDialog"
 msgid "Transform Instrument Track"
-msgstr "变换乐器轨"
+msgstr "变换乐器轨道"
 
 #: engine/audiotransform.xml
 msgctxt "AudioTransformDialog"
@@ -13103,7 +13228,7 @@ msgstr "移调"
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Transpose"
-msgstr "变调"
+msgstr "移调"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
@@ -13138,12 +13263,12 @@ msgstr "移调"
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Transpose (semitones)"
-msgstr "变调（半音）"
+msgstr "移调（半音）"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
 msgid "Transpose / Velocity"
-msgstr "调音 / 力度"
+msgstr "移调 / 力度"
 
 #: engine/editor.xml
 msgctxt "ScorePartSetup"
@@ -13163,12 +13288,12 @@ msgstr "三连音"
 #: project/analyser.xml
 msgctxt "FixedEBUR128Display"
 msgid "True Peak"
-msgstr "实际峰值"
+msgstr "真峰值"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.ActivationOptions"
 msgid "Try $APPNAME for a time limited demo period"
-msgstr "试用$APPNAME进行限时演示"
+msgstr "限时试用 $APPNAME"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
@@ -13193,7 +13318,7 @@ msgstr "调音模式"
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Turn Plug-In Formats on or off"
-msgstr "开启或关闭插件格式"
+msgstr "启用或禁用插件格式"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
@@ -13228,7 +13353,7 @@ msgstr "类型"
 #: devices/editgroups.xml
 msgctxt "SuspendGroupPopup"
 msgid "Type group number or name"
-msgstr "输入组编号或名称"
+msgstr "输入编组序号或名称"
 
 #: engine/eventinspector.xml
 msgctxt "RecallMarkerPopup"
@@ -13238,7 +13363,7 @@ msgstr "输入标记编号或名称"
 #: devices/audiomixer.xml
 msgctxt "SelectScenePopup"
 msgid "Type scene number or name"
-msgstr " 输入场景编号或名称"
+msgstr "输入场景编号或名称"
 
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
@@ -13253,7 +13378,7 @@ msgstr "撤销所有循环"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Undo Last Loop"
-msgstr "撤销上一次循环"
+msgstr "撤销上一个循环"
 
 #: devices/musicdevices.xml
 msgctxt "SurfacePlacementEditor"
@@ -13293,7 +13418,7 @@ msgstr "立即更新"
 #: show/show.xml
 msgctxt "PatchSection"
 msgid "Update Patch"
-msgstr " 更新补丁"
+msgstr "更新补丁"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
@@ -13343,17 +13468,22 @@ msgstr "对时间伸缩音频文件使用缓存"
 #: ccl/common.xml
 msgctxt "AutoSaveOption"
 msgid "Use cached plug-in data on save"
-msgstr " 使用缓存插件数据"
+msgstr "在保存时使用缓存的插件数据"
 
 #: app/options.xml
 msgctxt "AudioEngineOption"
 msgid "Use dithering for playback and audio file export"
-msgstr "对回放和音频文件导出使用抖动"
+msgstr "回放和导出音频时使用抖动"
+
+#: devices/devices.xml
+msgctxt "AudioSetup.Engine"
+msgid "Use efficiency cores"
+msgstr "使用能效核"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
 msgid "Use native low latency monitoring instead of hardware monitoring"
-msgstr "使用自带低延迟监听代替硬件监听"
+msgstr "使用原生低延迟监听代替硬件监听"
 
 #: project/audiofile.xml
 msgctxt "AudioFilePublisher"
@@ -13366,22 +13496,7 @@ msgid "Use range of track markers"
 msgstr "使用音轨标记的范围"
 
 #: engine/audioexport.xml
-msgctxt "AudioExport"
-msgid "Use realtime processing"
-msgstr "使用实时处理"
-
-#: engine/audioexport.xml
-msgctxt "TrackExport"
-msgid "Use realtime processing"
-msgstr "使用实时处理"
-
-#: engine/audioexport.xml
-msgctxt "SpatialAudioExport"
-msgid "Use realtime processing"
-msgstr "使用实时处理"
-
-#: engine/videoplayer.xml
-msgctxt "VideoExport"
+msgctxt "SongExportRealtimeMode"
 msgid "Use realtime processing"
 msgstr "使用实时处理"
 
@@ -13410,11 +13525,6 @@ msgctxt "BurnerSelectDialog"
 msgid "Use temporary image file"
 msgstr "使用临时映像文件"
 
-#: devices/transport.xml
-msgctxt "PerformanceMonitor.Cache"
-msgid "Used"
-msgstr "已使用"
-
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup.InputDeviceInfo"
 msgid "Used"
@@ -13422,6 +13532,11 @@ msgstr "已使用"
 
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup.OutputDeviceInfo"
+msgid "Used"
+msgstr "已使用"
+
+#: devices/transport.xml
+msgctxt "PerformanceMonitor.Cache"
 msgid "Used"
 msgstr "已使用"
 
@@ -13448,7 +13563,7 @@ msgstr "用户"
 #: ccl/common.xml
 msgctxt "ContentLocationOption"
 msgid "User Data Location (Songs, Projects, Shows, Presets, etc.)"
-msgstr " 用户数据位置（歌曲、项目、表演以及预设等。）"
+msgstr "用户数据位置（乐曲、项目、演出以及预设等）"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelSelector"
@@ -13483,7 +13598,7 @@ msgstr "值"
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorHeader"
 msgid "Variation Inspector"
-msgstr "变奏检查器"
+msgstr "声音变化检查器"
 
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionVariation"
@@ -13493,7 +13608,7 @@ msgstr "变奏编号"
 #: engine/editor.xml
 msgctxt "SoundVariationPlaybackHeader"
 msgid "Variations"
-msgstr "变奏"
+msgstr "声音变化"
 
 #: engine/editor.xml
 msgctxt "PatternInspector"
@@ -13553,27 +13668,22 @@ msgstr "供应商:"
 #: show/show.xml
 msgctxt "SetListHeader"
 msgid "Venue"
-msgstr " 场地"
+msgstr "场地"
 
 #: show/showdialogs.xml
 msgctxt "ShowMetaInfoOption"
 msgid "Venue"
-msgstr " 场地"
-
-#: ccl/packages/packagemanager.xml
-msgctxt "PackageVersion"
-msgid "Version"
-msgstr "版本"
+msgstr "场地"
 
 #: ccl/extensionmanager.xml
 msgctxt "ExtensionPropertiesInplace"
 msgid "Version"
 msgstr "版本"
 
-#: engine/videoplayer.xml
-msgctxt "VideoExport"
-msgid "Video"
-msgstr "视频"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageVersion"
+msgid "Version"
+msgstr "版本"
 
 #: engine/trackcontrols.xml
 msgctxt "VideoTrackControls"
@@ -13581,9 +13691,14 @@ msgid "Video"
 msgstr "视频"
 
 #: engine/videoplayer.xml
+msgctxt "VideoExport"
+msgid "Video"
+msgstr "视频"
+
+#: engine/videoplayer.xml
 msgctxt "VideoCodecSelector"
 msgid "Video Codec"
-msgstr "视频编码器"
+msgstr "视频编解码器"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
@@ -13600,7 +13715,7 @@ msgctxt "SongCustomization"
 msgid "Video Player"
 msgstr "视频播放器"
 
-#: app/windowclasses.xml app/toolbar.xml ccl/browser.xml devices/transport.xml
+#: app/toolbar.xml app/windowclasses.xml ccl/browser.xml devices/transport.xml
 #: engine/editor.xml
 msgctxt "Command"
 msgid "View"
@@ -13609,32 +13724,32 @@ msgstr "查看"
 #: app/homepage.xml
 msgctxt "HomePage"
 msgid "View Release Notes"
-msgstr "查看发布说明"
+msgstr "查看版本发布说明"
 
 #: show/showdialogs.xml
 msgctxt "AddPlayerDialog"
 msgid "Virtual Instrument"
-msgstr " 虚拟乐器"
-
-#: devices/editgroups.xml
-msgctxt "SnapshotRecallOptionsContent"
-msgid "Visibility"
-msgstr "可视性"
+msgstr "虚拟乐器"
 
 #: devices/audiomixer.xml
 msgctxt "ChannelOrganizerSetup"
 msgid "Visibility"
-msgstr "可视性"
+msgstr "可见性"
+
+#: devices/editgroups.xml
+msgctxt "SnapshotRecallOptionsContent"
+msgid "Visibility"
+msgstr "可见性"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "Visibility"
-msgstr "可视性"
+msgstr "可见性"
 
 #: engine/songdialogs.xml
 msgctxt "ArtworkPage"
 msgid "Visit Artist Website"
-msgstr "访问作者主页"
+msgstr "访问艺术家主页"
 
 #: engine/mediapool.xml
 msgctxt "PackageVolumeInfo"
@@ -13649,7 +13764,7 @@ msgstr "访问主页"
 #: engine/editor.xml
 msgctxt "ScoreEditorToolPaletteNotes"
 msgid "Voice"
-msgstr "人声"
+msgstr "声部"
 
 #: app/options.xml
 msgctxt "AutomationOption"
@@ -13679,20 +13794,20 @@ msgstr "音量&声像"
 #: project/project.xml
 msgctxt "ProjectFader"
 msgid "Volume: @value[]"
-msgstr "音量: @value[]"
+msgstr "音量：@value[]"
 
 #: project/analyser.xml
 msgctxt "Analyser"
 msgid "WF"
-msgstr "WF"
-
-#: app/about.xml
-msgctxt "Command"
-msgid "Website"
-msgstr "网站"
+msgstr "瀑布图"
 
 #: app/homepage.xml
 msgctxt "ArtistProfile"
+msgid "Website"
+msgstr "网站"
+
+#: app/about.xml
+msgctxt "Command"
 msgid "Website"
 msgstr "网站"
 
@@ -13714,27 +13829,27 @@ msgstr "启动$APPNAME时"
 #: app/melodyne.xml
 msgctxt "MelodynePlaceholder"
 msgid "With Melodyne you can modify pitch, timing, loudness, and other properties of single notes in your audio material, from tiny intonation correction up to complete reworking."
-msgstr "利用Melodyne，你可以修改音频资料中单独音符的音高、时间、响度及其他属性，小到音准校正，大到完全重写均可实现。"
+msgstr "利用Melodyne，您可以修改音频素材中单个音符的音高、时间、响度及其他属性，小到音准校正，大到完全重写均可实现。"
 
 #: app/collaboration.xml
 msgctxt "CloudFolderSelector"
 msgid "Workspaces"
-msgstr " 工作空间"
+msgstr "工作区"
 
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
 msgid "Would you like to share anonymous usage data?"
-msgstr "你愿意分享匿名的使用数据吗？"
+msgstr "您愿意匿名分享使用数据吗？"
 
 #: engine/audioexport.xml
 msgctxt "AudioExport"
 msgid "Write tempo to audio files"
-msgstr "写入节奏至音频文件"
+msgstr "将速度写入音频文件"
 
 #: engine/audioexport.xml
 msgctxt "TrackExport"
 msgid "Write tempo to audio files"
-msgstr "写入节奏至音频文件"
+msgstr "将速度信息写入音频文件"
 
 #: ccl/common.xml
 msgctxt "DocumentTemplateSaveDialog"
@@ -13769,12 +13884,12 @@ msgstr "是"
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
 msgid "Yes, continue to share anonymously"
-msgstr "是，继续匿名共享"
+msgstr "是的，继续匿名共享"
 
 #: app/apptracking.xml
 msgctxt "AppTrackingDialog"
 msgid "Yes, share anonymously"
-msgstr "是的，以匿名方式分享"
+msgstr "是的，匿名共享"
 
 #: app/toolbar.xml
 msgctxt "UserProfilePopup"
@@ -13794,12 +13909,12 @@ msgstr "稍后您可在参考窗口中更改此位置。"
 #: app/licenser.xml
 msgctxt "AppStoreWelcome"
 msgid "You can then select $APPNAME Installation from the $APPNAME menu to install the additional content."
-msgstr "你可以从$APPNAME菜单选择$APPNAME安装程序以安装附加内容。"
+msgstr "您可以从$APPNAME菜单选择$APPNAME安装程序以安装附加内容。"
 
 #: app/licenser.xml
 msgctxt "UserLicenseExpired"
 msgid "Your demo period has ended. We hope you enjoyed using $APPNAME and made some great music. If you would like to continue using $APPNAME you can:"
-msgstr "你的演示期已经结束。我们希望你喜欢使用$APPNAME，并创作很棒的音乐。如果你想继续使用$APPNAME，你可以："
+msgstr "您的演示期已经结束。我们希望您享受使用$APPNAME，并创作很棒的音乐。如果您想继续使用$APPNAME，您可以："
 
 #: app/multitrack.xml
 msgctxt "SongContestDialog"
@@ -13809,7 +13924,7 @@ msgstr "您的电子邮件地址"
 #: app/homepage.xml
 msgctxt "Setup"
 msgid "Zero Latency Monitoring"
-msgstr "零延时监听"
+msgstr "零延迟监听"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorScrollBar"
@@ -13839,7 +13954,7 @@ msgstr "最小"
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup.OutputDeviceInfo"
 msgid "mix"
-msgstr "混音"
+msgstr "mix"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
@@ -13875,6 +13990,42 @@ msgstr "X"
 msgctxt "ShowMetaInfoOption"
 msgid "x"
 msgstr "X"
+
+#~ msgctxt "Messages"
+#~ msgid "$message"
+#~ msgstr "$message"
+
+#~ msgctxt "Metronome"
+#~ msgid "@cmd.title[Transport|Preroll]"
+#~ msgstr "@cmd.title[Transport|Preroll]"
+
+#~ msgctxt "Messages"
+#~ msgid "Discard Message"
+#~ msgstr "关闭消息"
+
+#~ msgctxt "Metronome"
+#~ msgid "Preroll"
+#~ msgstr "预卷"
+
+#~ msgctxt "Messages"
+#~ msgid "Restart now"
+#~ msgstr "立即重启"
+
+#~ msgctxt "AudioExport"
+#~ msgid "Use realtime processing"
+#~ msgstr "使用实时处理"
+
+#~ msgctxt "TrackExport"
+#~ msgid "Use realtime processing"
+#~ msgstr "使用实时处理"
+
+#~ msgctxt "SpatialAudioExport"
+#~ msgid "Use realtime processing"
+#~ msgstr "使用实时处理"
+
+#~ msgctxt "VideoExport"
+#~ msgid "Use realtime processing"
+#~ msgstr "使用实时处理"
 
 #~ msgctxt "UserLicenseExpired"
 #~ msgid "$APPCOMPANY Forum"
@@ -14150,11 +14301,11 @@ msgstr "X"
 
 #~ msgctxt "EULADialog"
 #~ msgid "I Accept"
-#~ msgstr "接受"
+#~ msgstr "我接受"
 
 #~ msgctxt "EULADialog"
 #~ msgid "I Decline"
-#~ msgstr "拒绝"
+#~ msgstr "我拒绝"
 
 #~ msgctxt "SoundSetOption"
 #~ msgid "Install to:"
@@ -14390,7 +14541,7 @@ msgstr "X"
 
 #~ msgctxt "StorePresetDialog"
 #~ msgid "Store Preset"
-#~ msgstr "存储预置"
+#~ msgstr "存储预设"
 
 #~ msgctxt "StorePresetDialog"
 #~ msgid "Subfolder"
@@ -15098,7 +15249,7 @@ msgstr "X"
 
 #~ msgctxt "Command"
 #~ msgid "New Show"
-#~ msgstr " 新显示页"
+#~ msgstr "新建演出"
 
 #~ msgctxt "HomePage.HeaderFileTypes"
 #~ msgid "New Show..."
@@ -15398,15 +15549,15 @@ msgstr "X"
 
 #~ msgctxt "Command"
 #~ msgid "Switch To Project"
-#~ msgstr " 切换至项目"
+#~ msgstr "切换至项目"
 
 #~ msgctxt "Command"
 #~ msgid "Switch To Show"
-#~ msgstr " 切换至节目"
+#~ msgstr "切换到演出"
 
 #~ msgctxt "Command"
 #~ msgid "Switch To Song"
-#~ msgstr " 切换至歌曲"
+#~ msgstr "切换至乐曲"
 
 #~ msgctxt "AudioTrackInspector"
 #~ msgid "Tempo"
@@ -16174,7 +16325,7 @@ msgstr "X"
 
 #~ msgctxt "PurchaseHandler"
 #~ msgid "If your computer is not connected to the Internet, please download the License File from your $APPCOMPANY Account separately and select it here or drag it onto this window."
-#~ msgstr "如果您的电脑未连接至网络，则请单独从您的$APPCOMPANY 帐户下载许可证文件并在此选择它，或将其拖曳至此窗口。"
+#~ msgstr "如果您的电脑未连接至网络，则请单独从您的$APPCOMPANY账户下载许可证文件并在此选择它，或将其拖动至此窗口。"
 
 #~ msgctxt "PurchaseHandler"
 #~ msgid "Select License File..."
@@ -17106,7 +17257,7 @@ msgstr "X"
 
 #~ msgctxt "CommandEditorOption"
 #~ msgid "Enter key:"
-#~ msgstr "按下某个键:"
+#~ msgstr "按下键："
 
 #~ msgctxt "AudioOutput.Channel.Content"
 #~ msgid "Expand"
@@ -17350,7 +17501,7 @@ msgstr "X"
 
 #~ msgctxt "LicenseServerLogin"
 #~ msgid "$APPCOMPANY Login"
-#~ msgstr "$APPCOMPANY 登陆"
+#~ msgstr "$APPCOMPANY 登录"
 
 #~ msgctxt "LicenseServerLogin"
 #~ msgid "$APPNAME requires access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
@@ -17686,7 +17837,7 @@ msgstr "X"
 
 #~ msgctxt "TransferManager"
 #~ msgid "Show when new transfer starts"
-#~ msgstr "当新传输开始时显示"
+#~ msgstr "当新的传输开始时显示"
 
 #~ msgctxt "ProjectTrackControlsContent"
 #~ msgid "Show/hide more"

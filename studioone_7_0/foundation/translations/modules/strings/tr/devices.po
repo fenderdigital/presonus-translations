@@ -7,7 +7,7 @@ msgstr ""
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "\"%(1)\" has been deactivated because it produced invalid data."
-msgstr ""
+msgstr "\"%(1)\" geçersiz veri ürettiği için devre dışı bırakıldı."
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
@@ -22,42 +22,37 @@ msgstr "%(1) Makro"
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "%(1) incomplete - %(2) speakers not connected"
-msgstr ""
+msgstr "%(1) eksik – %(2) hoparlör bağlı değil"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "%(1) is currently unresponsive."
-msgstr "%(1) şu an cevap vermiyor."
+msgstr "%(1) şu anda yanıt vermiyor."
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "%(1) mixer available in network"
-msgstr "%(1) mikser network içinde mevcut."
+msgstr "Ağda %(1) mikser mevcut"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "%(1) mixers available in network"
-msgstr "%(1) mikser network içinde mevcut."
+msgstr "Ağda %(1) mikser mevcut"
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "%(1) of %(2)"
-msgstr "%(2)'nin %(1)'i"
+msgstr "%(2) üzerinden %(1)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
-msgstr ""
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1), %(2) blok boyutunu gerektiriyor.\nSes aygıtı bu değeri desteklemiyor.\nMümkünse farklı bir ses aygıtı seçin."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
-msgstr ""
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1), %(2) örnekleme hızını gerektiriyor.\nMümkünse örnekleme hızını değiştirin."
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -67,32 +62,32 @@ msgstr "%(1) örnek"
 #: surfaces/editor/editcomponent.cpp
 msgctxt "SurfaceEditor"
 msgid "%(1) to %(2)"
-msgstr "%(1)'den %(2)'ye"
+msgstr "%(1) → %(2)"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "%float(1:1) times faster than realtime"
-msgstr "Gerçek zamandan %float(1:1)  kat daha hızlı"
+msgstr "Gerçek zamandan %float(1:1) kat daha hızlı"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "%float(1:1) times slower than realtime"
-msgstr "Gerçek zamandan %float(1:1)  kat daha yavaş"
+msgstr "Gerçek zamandan %float(1:1) kat daha yavaş"
 
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "'%(1)' Bypassed"
-msgstr ""
+msgstr "'%(1)' Atlandı"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "(Press <Shift> to append target)"
-msgstr "(<Shift> tuşuna basarak hedefin sonuna yapıştır)"
+msgstr "(Hedef eklemek için <Shift> tuşuna basın)"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "(Press <Shift> to replace targets)"
-msgstr "(<Shift> tuşuna basarak hedefin üstüne yaz)"
+msgstr "(Hedefleri değiştirmek için <Shift> tuşuna basın)"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
@@ -107,12 +102,12 @@ msgstr "48V Sağ"
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "A device with this name already exists."
-msgstr "Bu isimde bir cihaz zaten mevcut."
+msgstr "Bu isimde bir aygıt zaten mevcut."
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "A group with this name already exists."
-msgstr "Bu isimde bi gurup zaten mevcut."
+msgstr "Bu isimde bir grup zaten mevcut."
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOType"
@@ -122,82 +117,82 @@ msgstr "ADAT"
 #: music/musicnoterepeater.cpp
 msgctxt "Command"
 msgid "Activate"
-msgstr "Aktifleştir"
+msgstr "Etkinleştir"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Activate %(1)"
-msgstr "%(1)'i Aktifleştir"
+msgstr "%(1) öğesini etkinleştir"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Activate All"
-msgstr "Hepsini Aktifleştir"
+msgstr "Tümünü Etkinleştir"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Activate All %(1)"
-msgstr "Tüm %(1)'leri Aktifleştir"
+msgstr "Tüm %(1) öğelerini etkinleştir"
 
 #: editor/performancemonitor.cpp
 msgctxt "PerformanceMonitor"
 msgid "Activate All Devices"
-msgstr "Tüm Cihazları Aktifleştir"
+msgstr "Tüm Aygıtları Etkinleştir"
 
 #: application/ultimatestudioenvironment.cpp
 msgctxt "Command"
 msgid "Activate All Inserts"
-msgstr "Tüm Insert'leri Aktifleştir"
+msgstr "Tüm Insert’leri Etkinleştir"
 
 #: editor/performancemonitor.cpp
 msgctxt "PerformanceMonitor"
 msgid "Activate Devices"
-msgstr "Cihazları Aktifleştir"
+msgstr "Aygıtları Etkinleştir"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "Command"
 msgid "Activate Fader Flip"
-msgstr ""
+msgstr "Fader Flip'i Etkinleştir"
 
 #: audiosynths/audiosyntheditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Activate Output of '%(1)'"
-msgstr "%(1)'in Çıkışını Aktifleştir"
+msgstr "'%(1)' Çıkışını Etkinleştir"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Active"
-msgstr "Aktif"
+msgstr "Etkin"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Add %(1)"
-msgstr "%(1)'i Ekle"
+msgstr "%(1) Ekle"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "Add %(1) to %(2)"
-msgstr "%(1)'i %(2)'ye Ekle"
+msgstr "%(1) öğesini %(2) öğesine ekle"
 
 #: base/automationunit.cpp
 msgctxt "Automation"
 msgid "Add / Remove Parameters"
-msgstr "Parametreleri Ekle / Çıkar"
+msgstr "Parametre Ekle / Kaldır"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
 msgid "Add Aux Channel"
-msgstr "Aux Kanal Ekle"
+msgstr "Aux Kanalı Ekle"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
 msgid "Add Bus Channel"
-msgstr "Bus Kanal Ekle"
+msgstr "Bus Kanalı Ekle"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "Command"
 msgid "Add Bus Channel"
-msgstr "Bus Kanal Ekle"
+msgstr "Bus Kanalı Ekle"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
@@ -207,37 +202,37 @@ msgstr "Kanal Ekle"
 #: music/setup/musicdevicedialog.cpp
 msgctxt "MusicDeviceDialog"
 msgid "Add Device"
-msgstr "Cihaz Ekle"
+msgstr "Aygıt Ekle"
 
 #: surfaces/editor/mappinghandler.cpp
 msgctxt "MappingHandler"
 msgid "Add Device"
-msgstr "Cihaz Ekle"
+msgstr "Aygıt Ekle"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
 msgid "Add FX Channel"
-msgstr "FX Kanal Ekle"
+msgstr "FX Kanalı Ekle"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "Command"
 msgid "Add FX Channel"
-msgstr "FX Kanal Ekle"
+msgstr "FX Kanalı Ekle"
 
 #: framework/audio/insertfxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Add FX on Channel \"%(1)\""
-msgstr "Kanal \"%(1)\"'e FX Ekle"
+msgstr "\"%(1)\" Kanalına FX Ekle"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Add Group"
-msgstr "Burup Ekle"
+msgstr "Grup Ekle"
 
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Add I/O Channels"
-msgstr "Giriş/Çıkış Kanal Ekle"
+msgstr "G/Ç Kanalları Ekle"
 
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
@@ -247,12 +242,12 @@ msgstr "Insert Ekle"
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Add Instrument from Clipboard"
-msgstr "Clipboard'dan Enstrüman Ekle"
+msgstr "Panodan Enstrüman Ekle"
 
 #: macrocontrol/macrocontroledit.cpp
 msgctxt "ActionDescriptions"
 msgid "Add Macro Target '%(1)'"
-msgstr "Macro hedef '%(1)' Ekle"
+msgstr "Macro Hedefi '%(1)' Ekle"
 
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
@@ -269,15 +264,15 @@ msgctxt "Command"
 msgid "Add Scene"
 msgstr "Sahne Ekle"
 
-#: audiomixer/setup/audiomixersetup.cpp
-msgctxt "Command"
-msgid "Add Send"
-msgstr "Send Ekle"
-
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Add Send"
-msgstr "Send Ekle"
+msgstr "Gönderim Ekle"
+
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Add Send"
+msgstr "Gönderim Ekle"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
@@ -287,12 +282,12 @@ msgstr "Ses Ekle"
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
 msgid "Add VCA Channel"
-msgstr "VCA Kanal Ekle"
+msgstr "VCA Kanalı Ekle"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
 msgid "Add micro edit parameter \"%(1)\""
-msgstr ""
+msgstr "\"%(1)\" mikro düzenleme parametresini ekle"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
@@ -307,12 +302,12 @@ msgstr "Aftertouch"
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "All"
-msgstr "Tüm"
+msgstr "Tümü"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "All"
-msgstr "Tüm"
+msgstr "Tümü"
 
 #: musicmixer/musiciomanager.cpp
 msgctxt "MusicDevices"
@@ -337,52 +332,52 @@ msgstr "Analog"
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Append Sends"
-msgstr ""
+msgstr "Gönderimleri Ekle"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
 msgid "Apply '%(1)'"
-msgstr ""
+msgstr "'%(1)' Uygula"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
 msgid "Apply Channel Settings"
-msgstr ""
+msgstr "Kanal Ayarlarını Uygula"
 
 #: surfaces/editor/mappinghandler.cpp
 msgctxt "MappingHandler"
 msgid "Assign \"%(1)\" to %(2) on %(3)"
-msgstr "\"%(1)\"i %(3) üzerinde %(2)'ye Ata"
+msgstr "\"%(1)\" öğesini %(3) üzerindeki %(2)'ye ata"
 
 #: surfaces/editor/mappinghandler.cpp
 msgctxt "MappingHandler"
 msgid "Assign \"%(1)\" to %(2) on %(3) page %(4)"
-msgstr "\"%(1)\"i %(4) sayfasındaki %(3) üzerinde %(2)'ye Ata"
+msgstr "\"%(1)\" öğesini %(3) sayfa %(4) üzerindeki %(2)'ye ata"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "Assign %(1) to %(2)"
-msgstr "%(1)'i %(2)'ye Ata"
+msgstr "%(1) öğesini %(2)'ye ata"
 
 #: music/padsection.cpp
 msgctxt "PadSection"
 msgid "Assign Command"
-msgstr "Komut Ata"
+msgstr "Komutu Ata"
 
 #: surfaces/editor/editcomponent.cpp
 msgctxt "SurfaceEditor"
 msgid "Assign Command"
-msgstr "Komut Ata"
+msgstr "Komutu Ata"
 
 #: surfaces/usercommands.cpp
 msgctxt "UserCommandSection"
 msgid "Assign Command"
-msgstr "Komut Ata"
+msgstr "Komutu Ata"
 
 #: surfaces/editor/mappinghandler.cpp
 msgctxt "Command"
 msgid "Assign Current Parameter"
-msgstr "Mevcut Parametreyi Ata"
+msgstr "Geçerli Parametreyi Ata"
 
 #: surfaces/editor/editcomponent.cpp
 msgctxt "SurfaceEditor"
@@ -392,40 +387,40 @@ msgstr "Parametre Ata"
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Assign in Ascending Order"
-msgstr "Artan Sırada Ata"
+msgstr "Artan Sırayla Ata"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "Assigned"
-msgstr "Atanmış"
+msgstr "Atandı"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Audio"
-msgstr "Audio"
+msgstr "Ses"
 
 #: mixerconsole/channelclassifier.cpp
 msgctxt "Channels"
 msgid "Audio"
-msgstr "Audio"
+msgstr "Ses"
 
 #: audiomixer/audiomixer.cpp
 msgctxt "AudioMixer"
 msgid "Audio Channels"
-msgstr "Audio Kanalları"
+msgstr "Ses Kanalları"
 
 #: audiosynths/combinator/synthcombinatorcomponent.cpp
 msgctxt "SynthCombinator"
 msgid "Audio Channels"
-msgstr "Audio Kanalları"
+msgstr "Ses Kanalları"
 
 #: audiomixer/audiomixer.cpp
 msgctxt "AudioMixer"
 msgid "Audio Destinations"
-msgstr ""
+msgstr "Ses Hedefleri"
 
-#: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
+#: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 msgctxt "Command"
 msgid "Audio Device"
 msgstr "Audio Cihazı"
@@ -433,67 +428,67 @@ msgstr "Audio Cihazı"
 #: audioeffects/audiofxpresethandler.cpp
 msgctxt "FileType"
 msgid "Audio Effect Preset"
-msgstr "Audio Efekt Preseti"
+msgstr "Ses Efekti Preseti"
 
 #: audioeffects/audiofxmanager.cpp
 msgctxt "AudioEffectManager"
 msgid "Audio Effects"
-msgstr "Audio Efekt"
+msgstr "Ses Efektleri"
 
 #: audiomixer/audioiomanager.cpp
 msgctxt "AudioIOManager"
 msgid "Audio I/O Manager"
-msgstr "Audio Giriş/Çıkış Düzenleyicisi"
+msgstr "Ses G/Ç Yöneticisi"
 
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Audio I/O Setup"
-msgstr "Audio Giriş/Çıkış Ayarları"
+msgstr "Ses G/Ç Ayarları"
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "Audio Setup"
-msgstr "Audio Ayarları"
+msgstr "Ses Ayarları"
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Audio device realtime thread priority could not be set."
-msgstr ""
+msgstr "Ses aygıtının gerçek zamanlı iş parçacığı önceliği ayarlanamadı."
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Audio engine dropout has occurred."
-msgstr "Audio motorunda ses kaybı oluştu"
+msgstr "Ses motorunda bir kesinti meydana geldi."
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
 msgid "Audio engine overload."
-msgstr "Audio motoru çok yüklendi"
+msgstr "Ses motoru aşırı yüklendi."
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Audio processing realtime thread priority could not be set."
-msgstr ""
+msgstr "Ses işleme gerçek zamanlı iş parçacığı önceliği ayarlanamadı."
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Audio sublevel processing realtime thread priority could not be set."
-msgstr ""
+msgstr "Ses alt seviye işleme gerçek zamanlı iş parçacığı önceliği ayarlanamadı."
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "Auto Gain"
-msgstr ""
+msgstr "Otomatik Kazanç"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "Auto Gain Status"
-msgstr ""
+msgstr "Otomatik Kazanç Durumu"
 
 #: base/automationunit.cpp
 msgctxt "Automation"
 msgid "Auto: Off"
-msgstr "Auto: Kapalı"
+msgstr "Otomasyon: Kapalı"
 
 #: base/automationhandler.cpp
 msgctxt "Automation"
@@ -508,22 +503,22 @@ msgstr "Otomasyon"
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
 msgid "Automation"
-msgstr ""
+msgstr "Otomasyon"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Autopunch"
-msgstr "OtomatikPuch"
+msgstr "Otomatik Kayıt Girişi"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Autopunch In"
-msgstr "OtomatikPuch Giriş"
+msgstr "Otomatik Giriş Noktası"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Autopunch Out"
-msgstr "OtomatikPuch Çıkış"
+msgstr "Otomatik Çıkış Noktası"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
@@ -533,42 +528,42 @@ msgstr "Aux"
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "Aux Channel"
-msgstr "Aux Kanal"
+msgstr "Aux Kanalı"
 
 #: audiomixer/channels/audioauxchannel.cpp
 msgctxt "Channels"
 msgid "Aux Channels"
-msgstr "Aux Kanallar"
+msgstr "Aux Kanalları"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "Aux Channels"
-msgstr "Aux Kanallar"
+msgstr "Aux Kanalları"
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "Available"
-msgstr "Müsait"
+msgstr "Kullanılabilir"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Balance"
-msgstr ""
+msgstr "Denge"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Balance View"
-msgstr ""
+msgstr "Denge Görünümü"
 
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Basic"
-msgstr ""
+msgstr "Temel"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Binaural"
-msgstr ""
+msgstr "Binaural"
 
 #: editor/devicebrowser.cpp
 msgctxt "Command"
@@ -588,27 +583,27 @@ msgstr "Bus'lar"
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Button (on/off)"
-msgstr "Düğme (Açık/Kapalı)"
+msgstr "Buton (aç/kapa)"
 
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Button (press/release)"
-msgstr "Düğme (bas/çek)"
+msgstr "Buton (bas/bırak)"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Bypass"
-msgstr "Bypass"
+msgstr "Baypas"
 
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "Bypassed"
-msgstr ""
+msgstr "Baypas Edildi"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "CH:"
-msgstr "CH:"
+msgstr "Kanal:"
 
 #: editor/performancemonitor.cpp
 msgctxt "PerformanceMonitor"
@@ -618,25 +613,25 @@ msgstr "CPU"
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Cannot render protected content: %(1)"
-msgstr "Korumalı içerik render edilemiyor: %(1)"
+msgstr "Korunan içerik işlenemiyor: %(1)"
 
 #: midi/midimonitor.cpp
 msgctxt "MidiMonitor"
 msgid "Ch"
-msgstr "Ch"
+msgstr "Kh"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
 msgid "Channel"
 msgstr "Kanal"
 
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
+#: audiomixer/audiosidechain.cpp
+msgctxt "SideChain"
 msgid "Channel"
 msgstr "Kanal"
 
-#: audiomixer/audiosidechain.cpp
-msgctxt "SideChain"
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
 msgid "Channel"
 msgstr "Kanal"
 
@@ -668,12 +663,12 @@ msgstr "Kanal Etiketi"
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Channel Split"
-msgstr "Kanal Ayırımı"
+msgstr "Kanal Ayırıcı"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Channel is in low latency mode - sends are inactive"
-msgstr ""
+msgstr "Kanal düşük gecikme modunda - gönderimler etkin değil"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
@@ -688,52 +683,52 @@ msgstr "Ck"
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Clear %(1) Connections (%(2))"
-msgstr "%(1) Bağlantıyı Kaldır (%(2))"
+msgstr "%(1) bağlantılarını temizle (%(2))"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "Click"
-msgstr "Cliick"
+msgstr "Metronom"
 
 #: transport/metronome.cpp
 msgctxt "Command"
 msgid "Click"
-msgstr "Cliick"
+msgstr "Metronom"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "Click Active"
-msgstr "Click Aktif"
+msgstr "Metronom Etkin"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "Click Volume"
-msgstr "Click Seviyesi"
+msgstr "Metronom Ses Seviyesi"
 
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "Click here to bypass '%(1)'"
-msgstr ""
+msgstr "'%(1)' öğesini devre dışı bırakmak için buraya tıklayın"
 
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "Click to move channels"
-msgstr ""
+msgstr "Kanalları taşımak için tıklayın"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Clipping has occurred. The signal was %float(1:2) dB over."
-msgstr "Sinyal Clip'e girdi. Sinyal %float(1:2) dB fazla geldi."
+msgstr "Kırpılma oluştu. Sinyal %float(1:2) dB fazla geldi."
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Collapse"
-msgstr "Kapat"
+msgstr "Daralt"
 
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Collapse all Micro Views"
-msgstr ""
+msgstr "Tüm Mikro Görünümleri Daralt"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -748,27 +743,27 @@ msgstr "Renk"
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Combine %(1)"
-msgstr "Kombine et %(1)"
+msgstr "'%(1)' öğesini birleştir"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Compact"
-msgstr ""
+msgstr "Sıkıştırılmış"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "Configure"
-msgstr "Konfigürasyon"
+msgstr "Yapılandır"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Connect \"%(1)\" to %(2) Control"
-msgstr "%(2) kontrol'e \"%(1)\"'i bağla"
+msgstr "\"%(1)\" öğesini %(2) kontrolüne bağla"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Connect \"%(1)\" to %(2) Control %(3)"
-msgstr "%(3) kontrolü için \"%(1)\"'i kontrol %(2)'ye bağla"
+msgstr "\"%(1)\" öğesini %(2) Kontrol %(3) öğesine bağla"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
@@ -778,11 +773,11 @@ msgstr "Kanalı Bağla"
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "Connected to %(1)."
-msgstr "%(1)' e bağlı."
+msgstr "%(1) ile bağlantı kuruldu."
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
-#: audiomixer/audiolistenbus.cpp audiomixer/audiofaderswitcher.cpp
+#: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp
 #: audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp
+#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp
 #: mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Console"
@@ -816,7 +811,7 @@ msgstr "Kontrol Yüzeyi Yöneticisi"
 #: editor/paramselector.cpp
 msgctxt "ParamSelector"
 msgid "Controller"
-msgstr "Kontrolcü"
+msgstr "Denetleyici"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -826,7 +821,7 @@ msgstr "Kopyala"
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Copy %(1)"
-msgstr "%(1)'i kopyala"
+msgstr "'%(1)' öğesini kopyala"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
@@ -836,42 +831,42 @@ msgstr "Kanal Ayarlarını Kopyala"
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Copy Effect"
-msgstr "Efektleri Kopyala"
+msgstr "Efekti Kopyala"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Copy Sends"
-msgstr ""
+msgstr "Gönderimleri Kopyala"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Copy to Clipboard"
-msgstr "Clipboard'a Kopyala"
+msgstr "Panoya Kopyala"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Create Busses for All Multi-Out Instruments"
-msgstr ""
+msgstr "Tüm Çok Çıkışlı Enstrümanlar için Bus Oluştur"
 
 #: audiosynths/audiosyntheditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Create Instrument Bus"
-msgstr ""
+msgstr "Enstrüman Bus'u Oluştur"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Create Instrument Bus"
-msgstr ""
+msgstr "Enstrüman Bus'u Oluştur"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Create Send"
-msgstr ""
+msgstr "Gönderim Oluştur"
 
 #: base/devicesafety.cpp
 msgctxt "DeviceSafety"
 msgid "Create device: %(1)"
-msgstr ""
+msgstr "Aygıt oluşturuluyor: %(1)"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -881,12 +876,12 @@ msgstr "Cue Miks"
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Cue mix Level"
-msgstr "Cue miks Seviyesi"
+msgstr "Cue Miks Seviyesi"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Cue mix Pan"
-msgstr "Cue miks Pan"
+msgstr "Cue Miks Panorama"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -901,37 +896,37 @@ msgstr "Cue Miks: Açık"
 #: transport/transportoptions.cpp
 msgctxt "Command"
 msgid "Cursor follows Edit Position"
-msgstr "İmleç düzenleme noktasını takip eder"
+msgstr "İmleç Düzenleme Konumunu Takip Etsin"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "DAW Post DSP"
-msgstr "DAW Post DSP"
+msgstr "DAW Sonrası DSP"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Deactivate %(1)"
-msgstr "%(1)'i devre dışı bırak"
+msgstr "'%(1)' öğesini devre dışı bırak"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Deactivate All %(1)"
-msgstr "Tüm %(1)'leri devre dışı bırak"
+msgstr "Tüm '%(1)' öğelerini devre dışı bırak"
 
 #: editor/performancemonitor.cpp
 msgctxt "PerformanceMonitor"
 msgid "Deactivate All Devices"
-msgstr "Tüm Cikazları devre dışı bırak"
+msgstr "Tüm Aygıtları Devre Dışı Bırak"
 
 #: editor/performancemonitor.cpp
 msgctxt "PerformanceMonitor"
 msgid "Deactivate Devices"
-msgstr "Cihazları devre dışı bırak"
+msgstr "Aygıtları Devre Dışı Bırak"
 
 #: audiosynths/audiosyntheditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Deactivate Output of '%(1)'"
-msgstr "'%(1)'in çıkışını devre dışı bırak"
+msgstr "'%(1)' çıkışını devre dışı bırak"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -941,7 +936,7 @@ msgstr ""
 #: music/musicdeviceauxsetup.cpp
 msgctxt "MusicDevices"
 msgid "Default aux channel assignment for \"%(1)\" saved."
-msgstr "\"%(1)\" için aux kanal atamaları kaydedildi."
+msgstr "\"%(1)\" için varsayılan aux kanal ataması kaydedildi."
 
 #: midi/midimonitor.cpp
 msgctxt "MidiMonitor"
@@ -956,27 +951,32 @@ msgstr "Hedef"
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "Detected Device %(1)"
-msgstr "Tespit Edilen Cihaz %(1)"
+msgstr "Algılanan Aygıt: %(1)"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
+msgid "Device"
+msgstr "Aygıt"
+
+#: editor/paramselector.cpp
+msgctxt "ParamSelector"
 msgid "Device"
 msgstr "Cihaz"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "Device %(1)"
-msgstr "Cihaz %(1)"
+msgstr "Aygıt: %(1)"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "Device information for %(1) received."
-msgstr "%(1) için cihaz bilgisi alındı."
+msgstr "'%(1)' için aygıt bilgisi alındı."
 
 #: studio/missingdevices.cpp
 msgctxt "Studio"
 msgid "Device/Port"
-msgstr "Cihaz/Port"
+msgstr "Aygıt/Port"
 
 #: application/ultimatestudioenvironment.cpp music/musicdevicemanager.cpp
 #: surfaces/editor/mappinghandler.cpp
@@ -987,87 +987,87 @@ msgstr "Cihazlar"
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Devices"
-msgstr "Cihazlar"
+msgstr "Aygıtlar"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Dim"
-msgstr "Dim"
+msgstr "Kıs"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Disable"
-msgstr "Devredışı"
+msgstr "Devre Dışı Bırak"
 
 #: base/processgraph.cpp
 msgctxt "ProcessGraph"
 msgid "Disable"
-msgstr "Devredışı"
+msgstr "Devre Dışı Bırak"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Disable %(1)"
-msgstr "%(1) Devredışı"
+msgstr "'%(1)' öğesini devre dışı bırak"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Disable All"
-msgstr "Tümünü Devredışı et"
+msgstr "Tümünü Devre Dışı Bırak"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Disable All %(1)"
-msgstr "Tüm %(1) Devredışı et"
+msgstr "Tüm '%(1)' öğelerini devre dışı bırak"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Disable Channel"
-msgstr "Kanalı Devredışı Et"
+msgstr "Kanalı Devre Dışı Bırak"
 
 #: audioeffects/audiofxmonitor.cpp
 msgctxt "NapState"
 msgid "Disabled"
-msgstr "Devredışı"
+msgstr "Devre Dışı"
 
 #: editor/performancemonitor.cpp
 msgctxt "PerformanceMonitor"
 msgid "Disabled"
-msgstr "Devredışı"
+msgstr "Devre Dışı"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Disconnect \"%(1)\" from %(2) Control %(3)"
-msgstr "%(3) kontrolü için \"%(1)\"'i kontrol %(2)'den ayır"
+msgstr "\"%(1)\", %(2) Kumandası %(3)'den bağlantısı kesildi"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "Disconnected from %(1)."
-msgstr "%(1)'den ayrıldı"
+msgstr "'%(1)' bağlantısı kesildi."
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Display"
-msgstr ""
+msgstr "Görüntüleme"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Dissolve Group"
-msgstr "Gurubu Dağıt"
+msgstr "Grubu Dağıt"
 
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Do you want to reset to your default I/O Setup?"
-msgstr "Tüm varsayılan giriş/çıkışları sıfırlamak istiyormusunuz ?"
+msgstr "Varsayılan G/Ç Yapılandırmanıza sıfırlamak istiyor musunuz?"
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "Double (64 Bit)"
-msgstr "Çift (64 bit)"
+msgstr "Çift (64 Bit)"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Dual"
-msgstr ""
+msgstr "Çift"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
@@ -1097,52 +1097,52 @@ msgstr "Düzenleme"
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Edit %(1) Automation"
-msgstr "%(1) Otomasyonu Düzenle"
+msgstr "'%(1)' Otomasyonunu Düzenle"
 
 #: base/automationhandler.cpp
 msgctxt "Automation"
 msgid "Edit Automation \"%(1)\" "
-msgstr "%(1) Otomasyonu Düzenle"
+msgstr "\"%(1)\" Otomasyonunu Düzenle"
 
 #: music/setup/musicdevicedialog.cpp
 msgctxt "MusicDeviceDialog"
 msgid "Edit Device"
-msgstr "Cihazı Düzenle"
+msgstr "Aygıtı Düzenle"
 
 #: surfaces/editor/mappinghandler.cpp
 msgctxt "Command"
 msgid "Edit Device"
-msgstr "Cihazı Düzenle"
+msgstr "Aygıtı Düzenle"
 
 #: macrocontrol/macrocontroledit.cpp
 msgctxt "ActionDescriptions"
 msgid "Edit Macro Transformation '%(1)'"
-msgstr "'%(1)' Makro Transformasyonunu Düzenle"
+msgstr "'%(1)' Makro Dönüşümünü Düzenle"
 
 #: base/deviceactions.cpp
 msgctxt "DeviceActions"
 msgid "Edit Multiple Parameters"
-msgstr "Çoklu Parametre Düzenle"
+msgstr "Birden Fazla Parametreyi Düzenle"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Edit Multiple Parameters"
-msgstr "Çoklu Parametre Düzenle"
+msgstr "Birden Fazla Parametreyi Düzenle"
 
 #: audiomixer/audiosendcomponent.cpp
 msgctxt "AudioSendComponent"
 msgid "Edit Panner"
-msgstr ""
+msgstr "Panner'ı Düzenle"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Edit as Switch"
-msgstr ""
+msgstr "Anahtar Olarak Düzenle"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Editing"
-msgstr "Düzenleme"
+msgstr "Düzenleniyor"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
@@ -1152,7 +1152,7 @@ msgstr "Efekt"
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "Effect"
-msgstr ""
+msgstr "Efekt"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
@@ -1162,7 +1162,7 @@ msgstr "Efektler"
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "Effects"
-msgstr ""
+msgstr "Efektler"
 
 #: mixerconsole/channelclassifier.cpp
 msgctxt "Channels"
@@ -1172,72 +1172,72 @@ msgstr "Efektler"
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Enable"
-msgstr "Devrede"
+msgstr "Etkinleştir"
 
 #: base/processgraph.cpp
 msgctxt "ProcessGraph"
 msgid "Enable"
-msgstr "Devrede"
+msgstr "Etkinleştir"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Enable %(1)"
-msgstr "%(1)'i Devreye Al"
+msgstr "'%(1)' öğesini etkinleştir"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Enable All"
-msgstr "Hepsini Devreye Al"
+msgstr "Tümünü Etkinleştir"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Enable All %(1)"
-msgstr "Tüm %(1)' i devreye al"
+msgstr "Tüm %(1) öğelerini etkinleştir"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Enable Channel"
-msgstr "Kanalı Devreye Al"
+msgstr "Kanalı Etkinleştir"
 
 #: audiomixer/audiolistenbus.cpp
 msgctxt "AudioListenBus"
 msgid "Enable Listen Bus"
-msgstr "Dinleme kanalını devreye al"
+msgstr "Listen Bus'u Etkinleştir"
 
 #: audiomixer/audiolistenbus.cpp
 msgctxt "Command"
 msgid "Enable Listen Bus"
-msgstr "Dinleme kanalını devreye al"
+msgstr "Listen Bus'u Etkinleştir"
 
 #: transport/transportpanel.cpp
 msgctxt "Transport"
 msgid "Enable Play Start Marker"
-msgstr "Çalma başlangıç işaretini devreye al"
+msgstr "Oynatma Başlangıç İşaretçisini Etkinleştir"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Enable Play Start Marker"
-msgstr "Çalma başlangıç işaretini devreye al"
+msgstr "Oynatma Başlangıç İşaretçisini Etkinleştir"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Enable Plug-in Nap"
-msgstr ""
+msgstr "Eklenti Uyku Modunu Etkinleştir"
 
 #: audioeffects/audiofxmonitor.cpp
 msgctxt "NapState"
 msgid "Enabled"
-msgstr ""
+msgstr "Etkin"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "Error Loading Video"
-msgstr ""
+msgstr "Video Yüklenirken Hata Oluştu"
 
 #: audioeffects/audiofxmanager.cpp
 msgctxt "AudioEffectManager"
 msgid "Event FX"
-msgstr "Klip FX"
+msgstr "Öğe FX"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
@@ -1247,17 +1247,17 @@ msgstr "Genişlet"
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Expand all Micro Views"
-msgstr ""
+msgstr "Tüm Mikro Görünümleri Genişlet"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Extended"
-msgstr ""
+msgstr "Genişletilmiş"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "External Devices"
-msgstr "Harici Cihazlar"
+msgstr "Harici Aygıtlar"
 
 #: transport/transportoptions.cpp
 msgctxt "Command"
@@ -1267,12 +1267,12 @@ msgstr "Harici Sync Opsiyonları"
 #: audiosynths/audiosyntheditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Extract '%(1)'"
-msgstr "'%(1)' i çıkar"
+msgstr "'%(1)' Öğesini Ayır"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
 msgid "Extract Instrument"
-msgstr "Enstrümanı Çıkar"
+msgstr "Enstrümanı Ayır"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
@@ -1287,12 +1287,12 @@ msgstr "Fader"
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Faders"
-msgstr ""
+msgstr "Fader'lar"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Favorite"
-msgstr "Favoriler"
+msgstr "Favori"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -1302,17 +1302,17 @@ msgstr "Dosya Bulunamadı"
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Flip Faders"
-msgstr ""
+msgstr "Fader'ları Çevir"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Flip Faders to '%(1)'"
-msgstr ""
+msgstr "Fader'ları '%(1)' konumuna çevir"
 
 #: surfaces/editor/editcomponent.cpp
 msgctxt "SurfaceEditor"
 msgid "Focus:"
-msgstr "Fokus:"
+msgstr "Odak:"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -1322,32 +1322,32 @@ msgstr "İleri"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Forward Bar"
-msgstr "İleri Bar"
+msgstr "Ölçü İleri"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Frequency Split"
-msgstr "Frekans Bölme"
+msgstr "Frekans Ayırıcı"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Gate"
-msgstr "Gate"
+msgstr "Kapı"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Gate %f(1:1)"
-msgstr "Gate %f(1:1)"
+msgstr "Kapı %f(1:1)"
 
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
-msgstr "Bilinmeyen cihazlar için kullanılan standart MIDI kontrol yüzeyi. Bu cihaz modeli MIDI öğrenmeyi destekler."
+msgstr "Genel MIDI Kontrol Yüzeyi, bilinmeyen donanımlar için kullanılır. Bu aygıt modeli MIDI Öğrenme özelliği sunar."
 
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
-msgstr "Bilinmeyen cihazlar için kullanılan standart MIDI klavye. Bu cihaz modeli MIDI öğrenmeyi destekler. Yollama portunu bağlamak opsiyoneldir."
+msgstr "Genel MIDI Klavyesi, bilinmeyen donanımlar için kullanılır. Bu aygıt modeli MIDI Öğrenme özelliği sunar. Gönderim portunun bağlanması isteğe bağlıdır."
 
 #: surfaces/editor/editcomponent.cpp
 msgctxt "SurfaceEditor"
@@ -1357,7 +1357,7 @@ msgstr "Genel"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Global Mute"
-msgstr "Genel Mute"
+msgstr "Genel Sessize Alma"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1387,42 +1387,42 @@ msgstr "Zamana Git"
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Group"
-msgstr "Gurup"
+msgstr "Grup"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Group"
-msgstr "Gurup"
+msgstr "Grup"
 
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 msgctxt "Hardware"
 msgid "Hardware Integration"
-msgstr ""
+msgstr "Donanım Entegrasyonu"
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
 msgid "Hardware Monitoring"
-msgstr "Donanımsal Dinleme"
+msgstr "Donanım Dinleme"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Hide Channel"
-msgstr "Kanalı Sakla"
+msgstr "Kanalı Gizle"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Hide Related Channels"
-msgstr "İlgili Kanalları Sakla"
+msgstr "İlgili Kanalları Gizle"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Hide Unassigned Faders"
-msgstr ""
+msgstr "Atanmamış Fader'ları Gizle"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "Command"
 msgid "Hide Unassigned Faders"
-msgstr ""
+msgstr "Atanmamış Fader'ları Gizle"
 
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
@@ -1432,22 +1432,22 @@ msgstr "Yüksek"
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "High Pass Filter"
-msgstr ""
+msgstr "Yüksek Geçiren Filtre"
 
 #: audiomixer/audioioassignment.cpp
 msgctxt "FileType"
 msgid "I/O Configuration"
-msgstr "Giriş/Çıkış Konfigürasyonu"
+msgstr "Giriş/Çıkış Yapılandırması"
 
 #: audiomixer/audioioassignment.cpp
 msgctxt "FileType"
 msgid "I/O Configurations"
-msgstr "Giriş/Çıkış Konfigürasyonu"
+msgstr "Giriş/Çıkış Yapılandırmaları"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "I/O Type"
-msgstr "Giriş/Çıkış Tipi"
+msgstr "Giriş/Çıkış Türü"
 
 #: midi/miditimecode.cpp
 msgctxt "MidiTimeCode"
@@ -1462,12 +1462,12 @@ msgstr "Giriş"
 #: audio/audiofilter.cpp
 msgctxt "AudioFilter"
 msgid "Incomplete"
-msgstr ""
+msgstr "Tamamlanmamış"
 
 #: audiomixer/audioiomanager.cpp
 msgctxt "AudioIOManager"
 msgid "Incomplete"
-msgstr ""
+msgstr "Tamamlanmamış"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -1477,7 +1477,7 @@ msgstr ""
 #: base/devicesafety.cpp
 msgctxt "DeviceSafety"
 msgid "Initialize device: %(1)"
-msgstr ""
+msgstr "Aygıt başlatılıyor: %(1)"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
@@ -1512,7 +1512,7 @@ msgstr "Girişler"
 #: audiomixer/audioinsertfolder.cpp
 msgctxt "AudioInsert"
 msgid "Insert"
-msgstr "Ekle (Insert)"
+msgstr "Insert"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -1522,18 +1522,18 @@ msgstr "FX Zinciri Ekle"
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Insert Instruments"
-msgstr "Enstrüman Ekle"
+msgstr "Enstrümanları Ekle"
 
 #: audiosynths/combinator/synthcombinatorcomponent.cpp
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
 msgid "Insert Note Event Splitter"
-msgstr "Nota Bölücüsü Ekle"
+msgstr "Nota Olayı Ayırıcı Ekle"
 
 #: editor/devicebrowser.cpp
 msgctxt "Command"
 msgid "Insert Selected Instrument"
-msgstr "Seçili Enstrümanı Ekle"
+msgstr "Seçilen Enstrümanı Ekle"
 
 #: editor/devicebrowser.cpp
 msgctxt "Command"
@@ -1543,26 +1543,26 @@ msgstr "Seçili Kalemi Ekle"
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Insert Splitter"
-msgstr "Bölücü Ekle"
+msgstr "Ayırıcı Ekle"
 
 #: audiomixer/audioinsertfolder.cpp
 msgctxt "AudioInsert"
 msgid "Inserts"
-msgstr "Inserts"
+msgstr "Insert'ler"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Inserts"
-msgstr "Inserts"
+msgstr "Insert'ler"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Instrument"
+msgstr "Enstrüman"
 
 #: audiosynths/combinator/combinatorsynthfolder.cpp
 #: audiosynths/combinator/synthcombinatorcomponent.cpp
 msgctxt "SynthCombinator"
-msgid "Instrument"
-msgstr "Enstrüman"
-
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
 msgid "Instrument"
 msgstr "Enstrüman"
 
@@ -1579,21 +1579,21 @@ msgstr "Enstrüman Kanalları"
 #: audiosynths/audiosynthpresethandler.cpp
 msgctxt "FileType"
 msgid "Instrument+FX Preset"
-msgstr "Enstrüman + FX Preset"
+msgstr "Enstrüman+FX Preseti"
 
 #: audiomixer/channels/audiosynthchannel.cpp mixerconsole/channelclassifier.cpp
 msgctxt "Channels"
 msgid "Instruments"
 msgstr "Enstrümanlar"
 
-#: audiosynths/combinator/combinatorsynthfolder.cpp
-#: audiosynths/combinator/synthcombinatorcomponent.cpp
-msgctxt "SynthCombinator"
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Instruments"
 msgstr "Enstrümanlar"
 
-#: audiosynths/audiosynthfolder.cpp
-msgctxt "AudioSynth"
+#: audiosynths/combinator/combinatorsynthfolder.cpp
+#: audiosynths/combinator/synthcombinatorcomponent.cpp
+msgctxt "SynthCombinator"
 msgid "Instruments"
 msgstr "Enstrümanlar"
 
@@ -1605,27 +1605,27 @@ msgstr "Tersine Çevir"
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "Invert '%(1)' Transformation"
-msgstr "'%(1)' Transformasyonu Tersine Çevir"
+msgstr "'%(1)' Dönüşümünü Tersine Çevir"
 
 #: music/musicnoterepeater.cpp
 msgctxt "Command"
 msgid "Key Erase Mode"
-msgstr "Anahtar Silme modu"
+msgstr "Tuş Silme Modu"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Key Remote"
-msgstr "Anahtar Remote"
+msgstr "Klavye Uzaktan Kumandası"
 
 #: music/musicnoterepeater.cpp
 msgctxt "Command"
 msgid "Key Remote"
-msgstr "Anahtar Remote"
+msgstr "Klavye Uzaktan Kumandası"
 
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "Keyboard"
-msgstr "Keyboard"
+msgstr "Klavye"
 
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
@@ -1640,12 +1640,12 @@ msgstr "Etiket"
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "Large"
-msgstr "Geniş"
+msgstr "Büyük"
 
 #: base/automationunit.cpp
 msgctxt "Automation"
 msgid "Latch"
-msgstr "Latch"
+msgstr "Tut"
 
 #: audioeffects/audiofxmonitor.cpp
 msgctxt "PerformanceMonitor"
@@ -1655,97 +1655,97 @@ msgstr "Gecikme"
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Load FX Chain"
-msgstr "FX Zinciri Yükle"
+msgstr "FX Zincirini Yükle"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Load Preset"
-msgstr "Preset Yükle"
+msgstr "Preseti Yükle"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
 msgid "Load Preset"
-msgstr "Preset Yükle"
+msgstr "Preseti Yükle"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Load Preset %(1)"
-msgstr "%(1). Preseti Yükle"
+msgstr "Preset %(1)'i Yükle"
 
 #: surfaces/surfacedatapool.cpp
 msgctxt "Surface"
 msgid "Loading Control Surface Data..."
-msgstr "Konrol Yüzeyi Bilgisi Yükleniyor..."
+msgstr "Kontrol yüzeyi verileri yükleniyor..."
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Loading Device: %(1)"
-msgstr "Yüklenen Cihaz: %(1)"
+msgstr "Aygıt Yükleniyor: %(1)"
 
 #: studio/environment.cpp
 msgctxt "Environment"
 msgid "Loading Device: %(1)"
-msgstr "Yüklenen Cihaz: %(1)"
+msgstr "Aygıt Yükleniyor: %(1)"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Lock"
-msgstr "Kitle"
-
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
-msgid "Lock Pan to Channel"
-msgstr ""
+msgstr "Kilitle"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Lock Pan to Channel"
-msgstr ""
+msgstr "Panlamayı Kanala Kilitle"
 
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/audiosendfolder.cpp
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
+msgid "Lock Pan to Channel"
+msgstr "Panlamayı Kanala Kilitle"
+
+#: audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "Command"
 msgid "Lock Panning"
-msgstr ""
+msgstr "Panlamayı Kilitle"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Lock Volume to Channel"
-msgstr ""
+msgstr "Ses Seviyesini Kanala Kilitle"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Lock to Channel"
-msgstr ""
+msgstr "Kanala Kilitle"
 
 #: transport/transportpanel.cpp
 msgctxt "Transport"
 msgid "Loop Length"
-msgstr ""
+msgstr "Loop Uzunluğu"
 
 #: transport/transportpanel.cpp
 msgctxt "Transport"
 msgid "Loop Start / End"
-msgstr ""
+msgstr "Loop Başlangıcı / Bitişi"
 
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Low"
-msgstr "Alçak"
+msgstr "Düşük"
 
 #: midi/midiengine.cpp
 msgctxt "Devices"
 msgid "MIDI Engine reset requested!"
-msgstr "MIDI motoru sıfırlama talep edildi!"
+msgstr "MIDI motoru için sıfırlama talep edildi!"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "MIDI Port not found for Device %(1)!"
-msgstr "%(1) cihazı için MIDI portu bulunamadı!"
+msgstr "Aygıt %(1) için MIDI portu bulunamadı!"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Macro Control"
-msgstr "Makro Kontrolü"
+msgstr "Makro Kontrol"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
@@ -1780,7 +1780,7 @@ msgstr "Metronom Preseti"
 #: editor/genericeditor.cpp
 msgctxt "GenericEditor"
 msgid "Micro View"
-msgstr ""
+msgstr "Mikro Görünüm"
 
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
@@ -1790,7 +1790,7 @@ msgstr "Minimum"
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Mismatch"
-msgstr "Uyumsuz"
+msgstr "Uyumsuzluk"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
@@ -1805,7 +1805,7 @@ msgstr "Eksik Dosyalar"
 #: audiomixer/audiomixfxcomponent.cpp
 msgctxt "Devices"
 msgid "Mix FX"
-msgstr "Miks FX"
+msgstr "Mix FX"
 
 #: mixer/mixercontrollable.cpp
 msgctxt "Channel"
@@ -1815,7 +1815,7 @@ msgstr "Dinleme"
 #: audio/audiolowlatencygraph.cpp
 msgctxt "MonitorProcessing"
 msgid "Monitor FX"
-msgstr "Dinleme FX"
+msgstr "Dinleme Efektleri"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 #: mixerconsole/mixerconsole.cpp
@@ -1826,72 +1826,72 @@ msgstr "Mono"
 #: base/automationhandler.cpp
 msgctxt "Automation"
 msgid "Mouse-Over"
-msgstr "Mouse-Over"
+msgstr "Fare Üzerindeyken"
 
 #: base/automationhandler.cpp
 msgctxt "Command"
 msgid "Mouse-Over"
-msgstr "Mouse-Over"
+msgstr "Fare Üzerindeyken"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Move %(1)"
-msgstr "Taşı %(1)"
+msgstr "%(1) Taşı"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Move %(1)"
-msgstr "Taşı %(1)"
+msgstr "%(1) Taşı"
 
 #: macrocontrol/macrocontroledit.cpp
 msgctxt "ActionDescriptions"
 msgid "Move Macro Target '%(1)'"
-msgstr "Makro hedef '%(1)'i taşı"
+msgstr "Makro Hedefini Taşı: '%(1)'"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Multi Instrument"
 msgstr "Çoklu Enstrüman"
 
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
+msgid "Mute"
+msgstr "Sessize Al"
+
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Mute"
-msgstr "Mute"
+msgstr "Sessize Al"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Mute"
 msgstr "Mute"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
-msgid "Mute"
-msgstr "Mute"
-
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Mute"
-msgstr "Mute"
+msgstr "Sessize Al"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Mute Main Out"
-msgstr ""
+msgstr "Ana Çıkışı Sessize Al"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Mute Split Branch"
-msgstr "Mute Split Branch"
+msgstr "Bölünmüş Dalı Sessize Al"
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "N/A"
-msgstr "Mevcut Değil"
+msgstr "Yok"
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
 msgid "N/A"
-msgstr "Mevcut Değil"
+msgstr "Yok"
 
 #: editor/performancemonitor.cpp
 msgctxt "PerformanceMonitor"
@@ -1906,12 +1906,12 @@ msgstr "İsim"
 #: audioeffects/audiofxmonitor.cpp
 msgctxt "NapState"
 msgid "Napping"
-msgstr ""
+msgstr "Uyku Modunda"
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
 msgid "Native Monitoring"
-msgstr "Native Dinleme"
+msgstr "Doğal Dinleme"
 
 #: editor/deviceslotselector.cpp mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1921,7 +1921,7 @@ msgstr "Navigasyon"
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "New Control Surface"
-msgstr "Yeni Kontrol arabirimi"
+msgstr "Yeni Kontrol Yüzeyi"
 
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
@@ -1931,7 +1931,7 @@ msgstr "Yeni Enstrüman"
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "New Keyboard"
-msgstr "Yeni Keyboard"
+msgstr "Yeni Klavye"
 
 #: mixerconsole/channelfilter.cpp
 msgctxt "ChannelFilter"
@@ -1951,12 +1951,12 @@ msgstr "Sonraki Kanal"
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "Command"
 msgid "Next Fader Flip Target"
-msgstr ""
+msgstr "Sonraki Fader Flip Hedefi"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "Command"
 msgid "Next Panner Stereo Mode"
-msgstr ""
+msgstr "Sonraki Panlayıcı Stereo Modu"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -1966,12 +1966,12 @@ msgstr "Sonraki Sahne"
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "No Audio Device"
-msgstr "Audio Cihaz Yok"
+msgstr "Ses Aygıtı Yok"
 
 #: surfaces/editor/placementeditor.cpp
 msgctxt "SurfacePlacement"
 msgid "No Control Surfaces installed which could be grouped."
-msgstr "Guruplanabilecek kontrol arabirimi mevcut değil."
+msgstr "Gruplanabilecek yüklü bir kontrol yüzeyi yok."
 
 #: midi/miditimecode.cpp
 msgctxt "MidiTimeCode"
@@ -1986,7 +1986,7 @@ msgstr "Eksik cihaz yok."
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "No match"
-msgstr ""
+msgstr "Eşleşme yok"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
@@ -2016,12 +2016,12 @@ msgstr "Normal"
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "Not connected"
-msgstr "Bağlı değiş"
+msgstr "Bağlı değil"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Note Erase"
-msgstr "Nota Sil"
+msgstr "Nota Silme"
 
 #: musicmixer/musicfxfolder.cpp
 msgctxt "MusicFXFolder"
@@ -2031,12 +2031,12 @@ msgstr "Nota FX"
 #: musicmixer/musiceffect.cpp
 msgctxt "FileType"
 msgid "Note FX Preset"
-msgstr "Nota FX Preset"
+msgstr "Nota FX Preseti"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Note Repeat"
-msgstr "Nota Tekrar"
+msgstr "Nota Tekrarı"
 
 #: music/musicnoterepeater.cpp
 msgctxt "Command"
@@ -2056,12 +2056,12 @@ msgstr "Geri İttir"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Nudge Bar"
-msgstr "Bar'ı İttir"
+msgstr "Barı Kaydır"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Nudge Bar Back"
-msgstr "Barı Geri İttir"
+msgstr "Barı Geri Kaydır"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -2071,22 +2071,22 @@ msgstr "Aşağı İttir"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Nudge Down Fine"
-msgstr "Barı Aşağı Hassasça İttir"
+msgstr "İnce Aşağı Kaydır"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Nudge Up"
-msgstr "Bar'ı Yukarı İttir"
+msgstr "Yukarı İttir"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Nudge Up Fine"
-msgstr "Yukarı Hassas İttir"
+msgstr "İnce Yukarı Kaydır"
 
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Off"
-msgstr ""
+msgstr "Kapalı"
 
 #: hardware/remotefxfolder.cpp
 msgctxt "Hardware"
@@ -2096,22 +2096,22 @@ msgstr "Dahili DSP"
 #: audioeffects/audiofxmonitor.cpp
 msgctxt "NapState"
 msgid "Open"
-msgstr "Aç"
+msgstr "Açık"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Open Channel"
-msgstr "Kanal Aç"
+msgstr "Kanalı Aç"
 
 #: music/musicdevicemanager.cpp
 msgctxt "Command"
 msgid "Open Qwerty Keyboard"
-msgstr "Qwerty Klavye Aç"
+msgstr "Qwerty Klavyeyi Aç"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Other"
-msgstr ""
+msgstr "Diğer"
 
 #: mixer/mixercontrollable.cpp
 msgctxt "Channel"
@@ -2131,12 +2131,12 @@ msgstr "Çıkışlar"
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "PLEASE UPDATE DEVICE FIRMWARE!"
-msgstr "LÜTFEN CİHAZIN FİRMWARE GÜNCELLEMESİNİ YAPIN!"
+msgstr "LÜTFEN CİHAZ FİRMWARE'İNİ GÜNCELLEYİN!"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "Pad"
-msgstr ""
+msgstr "Pad"
 
 #: editor/deviceslotselector.cpp
 msgctxt "Command"
@@ -2148,13 +2148,13 @@ msgctxt "Command"
 msgid "Page Up Skip"
 msgstr "Sayfa Yukarı Atla"
 
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
+#: audiomixer/audiochannel.cpp
+msgctxt "AudioChannel"
 msgid "Pan"
 msgstr "Pan"
 
-#: audiomixer/audiochannel.cpp
-msgctxt "AudioChannel"
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
 msgid "Pan"
 msgstr "Pan"
 
@@ -2166,37 +2166,37 @@ msgstr "Pan"
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Pan L/R"
-msgstr ""
+msgstr "Pan L/R"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Pan Left"
-msgstr ""
+msgstr "Sola Pan"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Pan Mode"
-msgstr ""
+msgstr "Pan Modu"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Pan Right"
-msgstr ""
+msgstr "Sağa Pan"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Pan View"
-msgstr ""
+msgstr "Pan Görünümü"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Panner"
-msgstr ""
+msgstr "Panner"
 
 #: audiomixer/audiosendcomponent.cpp
 msgctxt "AudioSendComponent"
 msgid "Panner"
-msgstr ""
+msgstr "Panner"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
@@ -2226,7 +2226,7 @@ msgstr "Yapıştır"
 #: base/deviceclipboard.cpp
 msgctxt "DeviceClipboard"
 msgid "Paste - %(1)"
-msgstr "Yapıştır- %(1)"
+msgstr "Yapıştır - %(1)"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
@@ -2241,22 +2241,17 @@ msgstr "Yol"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Play from Loop Start"
-msgstr "Loop Başından Çal"
+msgstr "Loop Başlangıcından Çal"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "Please plug in your removable MIDI devices now and dismiss this message when finished..."
-msgstr "Lütfen çıkartılabilir MIDI cihazlarınızı şimdi takın ve işlem bittiğinde bu mesajı kapatın..."
+msgstr "Lütfen çıkarılabilir MIDI aygıtlarınızı şimdi takın ve işlem tamamlandığında bu mesajı kapatın..."
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Plug-in Nap"
-msgstr ""
-
-#: audiomixer/hardwareintegration/hardwarecontrols.cpp
-msgctxt "Hardware"
-msgid "Polarity"
-msgstr "Polarite"
+msgstr "Eklenti Bekleme Modu"
 
 #: audiomixer/audiochannelinputfx.cpp
 msgctxt "AudioChannelInputFX"
@@ -2265,23 +2260,28 @@ msgstr "Polarite"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
-msgid "Polarity Right"
-msgstr "Sağ Polarite"
+msgid "Polarity"
+msgstr "Polarite"
 
 #: audiomixer/audiochannelinputfx.cpp
 msgctxt "AudioChannelInputFX"
 msgid "Polarity Right"
-msgstr "Sağ Polarite"
+msgstr "Polarite Sağ"
+
+#: audiomixer/hardwareintegration/hardwarecontrols.cpp
+msgctxt "Hardware"
+msgid "Polarity Right"
+msgstr "Polarite Sağ"
 
 #: midi/midimonitor.cpp
 msgctxt "MidiMonitor"
 msgid "Port"
-msgstr "Kapı"
+msgstr "Port"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "Port not found!"
-msgstr "Kapı Bulunamadı"
+msgstr "Port bulunamadı!"
 
 #: audiomixer/audioinsertfolder.cpp
 msgctxt "AudioInsert"
@@ -2291,17 +2291,22 @@ msgstr "Fader Sonrası"
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
 msgid "Post-Fader Metering"
-msgstr ""
+msgstr "Fader Sonrası Ölçüm"
 
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
 msgid "Post-Panner Metering"
+msgstr "Panner Sonrası Ölçüm"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Postroll"
 msgstr ""
 
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
 msgid "Pre-Fader Metering"
-msgstr "Fader Öncesi Metering"
+msgstr "Fader Öncesi Ölçüm"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
@@ -2311,17 +2316,17 @@ msgstr "Preamp Kazancı"
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "Preamp Gain Right"
-msgstr "Sağ Preamp Kazancı"
+msgstr "Preamp Kazancı Sağ"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Precount"
-msgstr "Precount"
+msgstr "Giriş Sayımı"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Preroll"
-msgstr "Preroll"
+msgstr "Önçalma"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -2336,7 +2341,7 @@ msgstr "Önceki Kanal"
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "Command"
 msgid "Previous Fader Flip Target"
-msgstr ""
+msgstr "Önceki Fader Flip Hedefi"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -2356,7 +2361,7 @@ msgstr "Quantize"
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "Querying device information for %(1)..."
-msgstr "%(1) için cihaz bilgisi taranıyor"
+msgstr "%(1) cihaz bilgileri sorgulanıyor..."
 
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
@@ -2366,7 +2371,7 @@ msgstr "RGB"
 #: base/automationunit.cpp
 msgctxt "Automation"
 msgid "Read"
-msgstr "Okuma"
+msgstr "Oku"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -2381,40 +2386,40 @@ msgstr "Sahneyi Geri Çağır"
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Recall Scene '%(1)'"
-msgstr "'%(1)'. Sahneyi Cağır"
+msgstr "'%(1)' Sahnesini Geri Çağır"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "Receive From"
-msgstr "Kabul edilen Yer"
+msgstr "Şuradan Al"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Receive from output of channel"
-msgstr ""
+msgstr "Kanal çıkışından al"
 
 #: base/automationhandler.cpp
 msgctxt "Command"
 msgid "Recent Parameters"
-msgstr "Geçmiş Parametreler"
+msgstr "Son Parametreler"
 
 #: base/automationhandler.cpp
 msgctxt "Automation"
 msgid "Recently Touched"
-msgstr "Geçmişte Dokunulanlar"
+msgstr "Son Değiştirilenler"
 
 #: base/automationhandler.cpp
 msgctxt "Command"
 msgid "Recently Touched"
-msgstr "Geçmişte Dokunulanlar"
-
-#: mixer/mixercontrollable.cpp
-msgctxt "Channel"
-msgid "Record"
-msgstr "Kayıt"
+msgstr "Son Değiştirilenler"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
+msgid "Record"
+msgstr "Kayıt"
+
+#: mixer/mixercontrollable.cpp
+msgctxt "Channel"
 msgid "Record"
 msgstr "Kayıt"
 
@@ -2426,12 +2431,12 @@ msgstr "Kayıt"
 #: mixer/recordchannel.cpp
 msgctxt "ChannelRecordUnit"
 msgid "Record Enable Failed!"
-msgstr "Kayıt modu etkinleştirilemedi!"
+msgstr "Kayıt Etkinleştirme Başarısız!"
 
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Relative"
-msgstr "İzafi"
+msgstr "Göreceli"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
@@ -2441,12 +2446,12 @@ msgstr "Uzatkan Kontrol"
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Remote Base Pitch"
-msgstr "Remote Ana Perde"
+msgstr "Uzak Temel Perde"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Remote Range"
-msgstr "Remote Alan"
+msgstr "Uzak Aralık"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -2476,52 +2481,52 @@ msgstr "Kaldır"
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "Remove \"%(1)\""
-msgstr "\"%(1)\"i Kaldır"
+msgstr "\"%(1)\" Ögesini Kaldır"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Remove %(1)"
-msgstr "%(1)'i Kaldır"
+msgstr "%(1) Ögesini Kaldır"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
 msgid "Remove %(1)"
-msgstr "%(1)'i Kaldır"
+msgstr "%(1) Ögesini Kaldır"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Remove %(1) Automation"
-msgstr "%(1) Otomasyonu Kaldır"
+msgstr "%(1) Otomasyonunu Kaldır"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "Remove Added Sounds"
-msgstr "Eklenen SesleriKaldır"
+msgstr "Eklenen Sesleri Kaldır"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Remove All"
-msgstr "Hepsini Kaldır"
+msgstr "Tümünü Kaldır"
 
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Remove All"
-msgstr "Hepsini Kaldır"
+msgstr "Tümünü Kaldır"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Remove All %(1)"
-msgstr "Tüm %(1)'i Kaldır"
+msgstr "Tüm %(1) Ögelerini Kaldır"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Remove All %(1)"
-msgstr "Tüm %(1)'i Kaldır"
+msgstr "Tüm %(1) Ögelerini Kaldır"
 
 #: base/automationhandler.cpp
 msgctxt "Automation"
 msgid "Remove Automation \"%(1)\""
-msgstr "%(1). otomasyonu kaldır"
+msgstr "\"%(1)\" Otomasyonunu Kaldır"
 
 #: mixer/mixereditfunctions.cpp
 msgctxt "MixerEditFunctions"
@@ -2531,27 +2536,27 @@ msgstr "Kanalı Kaldır"
 #: base/automationhandler.cpp
 msgctxt "Command"
 msgid "Remove Current Parameter"
-msgstr "Güncel Parametreyi Kaldır"
+msgstr "Geçerli Parametreyi Kaldır"
 
 #: audiosynths/audiosyntheditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Remove Instrument Bus"
-msgstr ""
+msgstr "Enstrüman Bus'unu Kaldır"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Remove Instrument Bus"
-msgstr ""
+msgstr "Enstrüman Bus'unu Kaldır"
 
 #: macrocontrol/macrocontroledit.cpp
 msgctxt "ActionDescriptions"
 msgid "Remove Macro Target '%(1)'"
-msgstr "Makro hedefi '%(1)'i kaldır"
+msgstr "Makro Hedefi '%(1)' Kaldır"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
 msgid "Remove Note Event Splitter"
-msgstr "Nota Bölücüyü Kaldır"
+msgstr "Nota Olayı Ayırıcıyı Kaldır"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
@@ -2571,62 +2576,62 @@ msgstr "Sahneleri Kaldır"
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Remove Splitter"
-msgstr "Bölücüyü Kaldır"
+msgstr "Ayırıcıyı Kaldır"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Remove Unused"
-msgstr "KUllanılmayanları Kaldır"
+msgstr "Kullanılmayanları Kaldır"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Remove Unused Instruments"
-msgstr "Kullanılmayan Enstümanları Kaldır"
+msgstr "Kullanılmayan Enstrümanları Kaldır"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Rename"
-msgstr "Adını Değiştir"
+msgstr "Yeniden Adlandır"
 
 #: base/processgraph.cpp
 msgctxt "ProcessGraph"
 msgid "Rename"
-msgstr "Adını Değiştir"
+msgstr "Yeniden Adlandır"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Rename %(1)"
-msgstr "%(1)'in adını düzenle"
+msgstr "%(1) Yeniden Adlandır"
 
 #: mixer/channel.cpp
 msgctxt "Channel"
 msgid "Rename Channel"
-msgstr "Kanalın Adını Değiştir"
+msgstr "Kanala Yeni İsim Ver"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Rename Device"
-msgstr "Cihazın Adını Değiştir"
+msgstr "Aygıtı Yeniden Adlandır"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Rename Group"
-msgstr "Gurup'un Adını Değiştir"
+msgstr "Grubu Yeniden Adlandır"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Rename Scene"
-msgstr "Sahnenin Adını Değiştir"
+msgstr "Sahneyi Yeniden Adlandır"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Rename Scene"
-msgstr "Sahnenin Adını Değiştir"
+msgstr "Sahneyi Yeniden Adlandır"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Reorder %(1)"
-msgstr "%(1)'i tekrar sırala"
+msgstr "%(1) Yeniden Sırala"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
@@ -2636,27 +2641,27 @@ msgstr "Tekrar Hızı"
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Replace %(1)"
-msgstr "%(1)'i Değiştir"
+msgstr "%(1) Değiştir"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Replace Effect"
-msgstr "Efektin Yerine Koy"
+msgstr "Efekti Değiştir"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Replace FX Chain"
-msgstr "FX Zincirinin Yerine Koy"
+msgstr "FX Zincirini Değiştir"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Replace FX Chain \"%(1)\""
-msgstr "\"%(1)\". FX Zincirinin Yerine Koy"
+msgstr "FX Zinciri \"%(1)\" Değiştir"
 
 #: audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
 msgid "Replace Instrument"
-msgstr "Enstümanı Değiştir"
+msgstr "Enstrümanı Değiştir"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
@@ -2671,27 +2676,27 @@ msgstr "Sıfırla"
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Reset to Slider"
-msgstr ""
+msgstr "Slider'a Sıfırla"
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Restart requested by Audio Device!"
-msgstr "Ses Cihazı tarafından tekrar başlatma istendi!"
+msgstr "Ses Aygıtı Yeniden Başlatma Talep Etti!"
 
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 msgctxt "Command"
 msgid "Restore Audio Device Settings"
-msgstr "Ses Cihazı Ayarlarını Geri Getir"
+msgstr "Ses Aygıtı Ayarlarını Geri Yükle"
 
 #: transport/transportpanel.cpp
 msgctxt "Transport"
 msgid "Return to Start on Stop"
-msgstr "Duraklamada başlangıca geri dön"
+msgstr "Durdurunca Başa Dön"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Return to Start on Stop"
-msgstr "Duraklamada başlangıca geri dön"
+msgstr "Durdurunca Başa Dön"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -2706,7 +2711,7 @@ msgstr "Geri Sar"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Rewind Bar"
-msgstr "Bar olarak Geri Sar"
+msgstr "Bir Ölçü Geri Sar"
 
 #: midi/miditimecode.cpp
 msgctxt "MidiTimeCode"
@@ -2721,12 +2726,12 @@ msgstr "S/PDIF"
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Saving Device: %(1)"
-msgstr "Kaydedilen Cihaz: %(1)"
+msgstr "Aygıt Kaydediliyor: %(1)"
 
 #: studio/environment.cpp
 msgctxt "Environment"
 msgid "Saving Device: %(1)"
-msgstr "Kaydedilen Cihaz: %(1)"
+msgstr "Aygıt Kaydediliyor: %(1)"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
@@ -2736,12 +2741,12 @@ msgstr "Sahne 1"
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Scene does not match channels"
-msgstr "Sahne Kanallar ile Uyuşmuyor"
+msgstr "Sahne, kanallarla uyuşmuyor"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Scene was converted from an earlier program version and contains visibility data only"
-msgstr "Sahne önceki sürüm programdan dönüştürüldüğünden sadece görüntüsel bilgi mevcut."
+msgstr "Sahne önceki bir program sürümünden dönüştürülmüş ve yalnızca görünürlük verisi içeriyor"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
@@ -2761,27 +2766,27 @@ msgstr "Seç"
 #: audiomixer/audiochannelconnections.cpp
 msgctxt "Channels"
 msgid "Select All"
-msgstr ""
+msgstr "Tümünü Seç"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "Command"
 msgid "Select Fader Flip Target"
-msgstr ""
-
-#: audiomixer/setup/audiomixersetup.cpp
-msgctxt "Command"
-msgid "Select Mix FX"
-msgstr "Mix FX Seç"
+msgstr "Fader Flip Hedefini Seç"
 
 #: audiomixer/audiomixfxcomponent.cpp
 msgctxt "Devices"
 msgid "Select Mix FX"
 msgstr "Mix FX Seç"
 
+#: audiomixer/setup/audiomixersetup.cpp
+msgctxt "Command"
+msgid "Select Mix FX"
+msgstr "Mix FX Seç"
+
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Select Panner"
-msgstr ""
+msgstr "Pan Tipini Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -2791,142 +2796,142 @@ msgstr "Sahne Seç"
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 1"
-msgstr "1. Sahneyi Seç"
+msgstr "Sahne 1'i Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 10"
-msgstr "10. Sahneyi Seç"
+msgstr "Sahne 10'u Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 2"
-msgstr "2. Sahneyi Seç"
+msgstr "Sahne 2'yi Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 3"
-msgstr "3. Sahneyi Seç"
+msgstr "Sahne 3'ü Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 4"
-msgstr "4. Sahneyi Seç"
+msgstr "Sahne 4'ü Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 5"
-msgstr "5. Sahneyi Seç"
+msgstr "Sahne 5'i Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 6"
-msgstr "6. Sahneyi Seç"
+msgstr "Sahne 6'yı Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 7"
-msgstr "7. Sahneyi Seç"
+msgstr "Sahne 7'yi Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 8"
-msgstr "8. Sahneyi Seç"
+msgstr "Sahne 8'i Seç"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Select Scene 9"
-msgstr "9. Sahneyi Seç"
+msgstr "Sahne 9'u Seç"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Select Sidechain Source"
-msgstr "Sidechain Kaynağını Seçin"
-
-#: audiomixer/setup/audioiomatrix.cpp
-msgctxt "AudioIOMatrix"
-msgid "Send"
-msgstr "Send"
+msgstr "Sidechain Kaynağını Seç"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Send"
-msgstr "Send"
+msgstr "Gönderim"
+
+#: audiomixer/setup/audioiomatrix.cpp
+msgctxt "AudioIOMatrix"
+msgid "Send"
+msgstr "Gönderim"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Active"
-msgstr ""
+msgstr "Gönderim Aktif"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Send All to '%(1)'"
-msgstr "Hepsini '%(1)'e Yolla"
+msgstr "Tümünü '%(1)' konumuna gönder"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Destination"
-msgstr "Send Hedefi"
+msgstr "Gönderim Hedefi"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Level"
-msgstr "Send Seviyesi"
+msgstr "Gönderim Seviyesi"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Mute"
-msgstr "Send Mute"
+msgstr "Gönderimi Sessize Al"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Pan"
-msgstr "Send Pan"
+msgstr "Gönderim Pan"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Prefader"
-msgstr "Send Prefader"
+msgstr "Gönderim Prefader"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Slot"
-msgstr "Send Slotu"
+msgstr "Gönderim Yuvası"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Slots"
-msgstr "Send Slotları"
+msgstr "Gönderim Yuvaları"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "Send To"
-msgstr "Send Hedefi"
+msgstr "Şuraya Gönder"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Send to '%(1)'"
-msgstr " '%(1)'e Yolla"
+msgstr "'%(1)' konumuna gönder"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "Sends"
-msgstr "Send'ler"
+msgstr "Gönderimler"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Sends"
-msgstr "Send'ler"
+msgstr "Gönderimler"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Set '%(1)'"
-msgstr "'%(1)'i ayarla"
+msgstr "'%(1)' öğesini ayarla"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Set '%(1)' to '%(2)'"
-msgstr "'%(1)'i '%(2)'ye ayarla"
+msgstr "'%(1)' öğesini '%(2)' olarak ayarla"
 
 #: mixer/channel.cpp
 msgctxt "Channel"
@@ -2936,7 +2941,7 @@ msgstr "Kanal Rengini Ayarla"
 #: mixer/channel.cpp
 msgctxt "Channel"
 msgid "Set Channel Icon"
-msgstr ""
+msgstr "Kanal Simgesini Ayarla"
 
 #: audiosynths/audiosynthdirectinput.cpp
 msgctxt "AudioSynthDirectInput"
@@ -2946,12 +2951,12 @@ msgstr "Doğrudan Girişi Ayarla"
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Set Edit Group"
-msgstr "Düzenleme Gurubunu Ayarla"
+msgstr "Düzenleme Grubunu Belirle"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Set Gate %(1)"
-msgstr "%(1). Gate'i Ayarla"
+msgstr "Gate %(1)'i Ayarla"
 
 #: audiomixer/channels/audioauxchannel.cpp
 msgctxt "Channels"
@@ -2971,82 +2976,82 @@ msgstr "Çıkışı Ayarla"
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
 msgid "Set Panner Type"
-msgstr ""
+msgstr "Pan Tipini Ayarla"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Set Play Start Marker"
-msgstr "Play Başlangıç İşaretini Ayarla"
+msgstr "Oynatma Başlangıç İşaretini Ayarla"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Set Rate %(1)"
-msgstr "%(1). Oranı Ayarla"
+msgstr "Hızı Ayarla %(1)"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Set Send Target"
-msgstr "Send Hedefi Belirle"
+msgstr "Gönderim Hedefini Ayarla"
 
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
 msgid "Set Spatial Object Panner"
-msgstr ""
+msgstr "Uzamsal Nesne Pan Aygıtını Ayarla"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Set Spatial Object Panner"
-msgstr ""
+msgstr "Uzamsal Nesne Pan Aygıtını Ayarla"
 
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
 msgid "Set Speaker Type to %(1)"
-msgstr ""
+msgstr "Hoparlör Tipini %(1) olarak ayarla"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Set Split Count"
-msgstr "Bölüm Sayısını Ayarla"
+msgstr "Bölme Sayısını Ayarla"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Set Split Mode"
-msgstr ""
+msgstr "Bölme Modunu Ayarla"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "Setup"
-msgstr "Ayarlar"
+msgstr "Kurulum"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Setup Micro Edit Parameters"
-msgstr ""
+msgstr "Mikro Düzenleme Parametrelerini Yapılandır"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Shift Loop"
-msgstr "Shift Loop"
+msgstr "Loop'u Kaydır"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Shift Loop Backwards"
-msgstr "Tersine Shift Loop"
+msgstr "Loop'u Geriye Kaydır"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Show Channel"
-msgstr "Kanal Göster"
+msgstr "Kanalı Göster"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Show Channel Setup"
-msgstr ""
+msgstr "Kanal Kurulumunu Göster"
 
 #: base/automationhandler.cpp
 msgctxt "Command"
 msgid "Show Current Parameter"
-msgstr "Güncel Parametreleri Göster"
+msgstr "Geçerli Parametreyi Göster"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
@@ -3056,7 +3061,7 @@ msgstr "Hedefi Göster"
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Show Micro Edit Controls"
-msgstr ""
+msgstr "Mikro Düzenleme Kontrollerini Göster"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -3066,7 +3071,7 @@ msgstr "İlgili Kanalları Göster"
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "Show Time Display"
-msgstr ""
+msgstr "Zaman Göstergesini Göster"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -3086,17 +3091,17 @@ msgstr "Konsolda Göster"
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Sidechain Active"
-msgstr "Sidechain Aktif"
+msgstr "Sidechain Etkin"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Sidechains"
-msgstr "Sidechains"
+msgstr "Sidechain'ler"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Sidechains"
-msgstr "Sidechains"
+msgstr "Sidechain'ler"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
@@ -3116,27 +3121,27 @@ msgstr "Tek Temel Perde"
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Single Mode"
-msgstr "Tek Modu"
+msgstr "Tek Mod"
 
 #: music/musicnoterepeater.cpp
 msgctxt "Command"
 msgid "Single Mode"
-msgstr "Tek Modu"
+msgstr "Tek Mod"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Single Pitch Symbolic"
-msgstr "Symbolic Tek Perde"
+msgstr "Tek Perde (Sembolik)"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Single Repeat Pitch"
-msgstr "Tek Tekrarlayan Perde"
+msgstr "Tek Tekrarlanan Perde"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Slider"
-msgstr ""
+msgstr "Sürgü"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3146,37 +3151,37 @@ msgstr "Küçük"
 #: audiomixer/audiolistenbus.cpp
 msgctxt "AudioListenBus"
 msgid "Solo through Listen Bus"
-msgstr "Listen Bus üzerinden Solo"
+msgstr "Dinleme Kanalı Üzerinden Solo"
 
 #: audiomixer/audiolistenbus.cpp
 msgctxt "Command"
 msgid "Solo through Listen Bus"
-msgstr "Listen Bus üzerinden Solo"
+msgstr "Dinleme Kanalı Üzerinden Solo"
 
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Some channels are still in use! Do you want to remove them anyway?"
-msgstr "Bazı kanallar halen kullanımda. Buna rağmen kaldırmak istiyormusunuz ?"
+msgstr "Bazı kanallar hâlâ kullanılıyor! Yine de kaldırmak istiyor musunuz?"
 
 #: audiosynths/audiosynthsetup.cpp
 msgctxt "AudioSynth"
 msgid "Sound Variation Editor"
-msgstr ""
+msgstr "Ses Varyasyonu Düzenleyicisi"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
 msgid "Spatial Audio"
-msgstr ""
+msgstr "Uzamsal Ses"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Spatial Audio"
-msgstr ""
+msgstr "Uzamsal Ses"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Spatial Object Panner"
-msgstr ""
+msgstr "Uzamsal Nesne Panleyici"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
@@ -3201,22 +3206,22 @@ msgstr "Hız:"
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Split Count"
-msgstr "Bölüm Sayısı"
+msgstr "Bölme Sayısı"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Split Frequency"
-msgstr "Frekansı Böl"
+msgstr "Bölme Frekansı"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Split Mode"
-msgstr "Bölüm Modu"
+msgstr "Bölme Modu"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Split Volume"
-msgstr "Seviyeyi Böl"
+msgstr "Bölme Seviyesi"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -3231,7 +3236,7 @@ msgstr "Ses Motoru Başlatılıyor..."
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "Starting External Devices..."
-msgstr "Harici Cihazlar Başlatılıyor..."
+msgstr "Harici Aygıtlar Başlatılıyor..."
 
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
@@ -3241,7 +3246,7 @@ msgstr "Donanım Entegrasyonu Başlatılıyor..."
 #: midi/midiengine.cpp
 msgctxt "Devices"
 msgid "Starting MIDI Engine..."
-msgstr "MIDI Motoru Başlatılıyor"
+msgstr "MIDI Motoru Başlatılıyor..."
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -3251,7 +3256,7 @@ msgstr "Dur"
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Store FX Chain"
-msgstr "FX Zincirini Sakla"
+msgstr "FX Zincirini Kaydet"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
@@ -3261,87 +3266,87 @@ msgstr "Sub"
 #: audiosynths/combinator/combinatorsynthfolder.cpp
 msgctxt "SynthCombinator"
 msgid "Sub Instrument"
-msgstr "Sub Enstrüman"
+msgstr "Alt Enstrüman"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend All Groups"
-msgstr "Tüm Gurupları Askıya Al"
+msgstr "Tüm Grupları Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group"
-msgstr "Gurubu Askıya Al"
+msgstr "Grubu Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 1"
-msgstr "1. Gurubu Askıya Al"
+msgstr "Grup 1'i Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 10"
-msgstr "10. Gurubu Askıya Al"
+msgstr "Grup 10'u Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 2"
-msgstr "2. Gurubu Askıya Al"
+msgstr "Grup 2'yi Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 3"
-msgstr "3. Gurubu Askıya Al"
+msgstr "Grup 3'ü Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 4"
-msgstr "4. Gurubu Askıya Al"
+msgstr "Grup 4'ü Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 5"
-msgstr "5. Gurubu Askıya Al"
+msgstr "Grup 5'i Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 6"
-msgstr "6. Gurubu Askıya Al"
+msgstr "Grup 6'yı Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 7"
-msgstr "7. Gurubu Askıya Al"
+msgstr "Grup 7'yi Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 8"
-msgstr "8. Gurubu Askıya Al"
+msgstr "Grup 8'i Askıya Al"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "Command"
 msgid "Suspend Group 9"
-msgstr "9. Gurubu Askıya Al"
+msgstr "Grup 9'u Askıya Al"
 
 #: macrocontrol/macrocontroledit.cpp
 msgctxt "ActionDescriptions"
 msgid "Swap Macro Controls"
-msgstr "Makro Kontrollerinin yerlerini değiştir"
+msgstr "Makro Kontrolleri Değiştir"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Switch"
-msgstr ""
+msgstr "Anahtar"
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Switching to Audio Device %(1)..."
-msgstr "Şu Ses Cihazına geçiliyor: %(1)"
+msgstr "Ses Aygıtı %(1)'e geçiliyor..."
 
 #: transport/transportoptions.cpp
 msgctxt "Command"
 msgid "Sync to External Devices"
-msgstr "Harici cihazlara Senkron ol"
+msgstr "Harici Aygıtlarla Senkronize Et"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
@@ -3351,7 +3356,7 @@ msgstr "Talkback"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Tap Tempo"
-msgstr "Tap Tempo"
+msgstr "Tempo'yu Elle Gir"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -3371,54 +3376,52 @@ msgstr "Tc"
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Text Display"
-msgstr "Text Display"
+msgstr "Yazı Ekranı"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
-msgstr "\"%(1)\" model cihaz artık kullanılmıyor. Kullanıcı cihazlarından kaldırmak istiyormusunuz ?"
+msgstr "\"%(1)\" Aygıt Modeli artık kullanılmıyor. Kullanıcı Aygıtları'ndan kaldırmak ister misiniz?"
 
 #: audiomixer/audiomixfxcomponent.cpp
 msgctxt "Devices"
 msgid "The Mix FX does not support speaker format %(1). It will be processed on the left and right channel."
-msgstr ""
+msgstr "Mix FX, %(1) hoparlör formatını desteklemiyor. Sadece sol ve sağ kanallarda işlenecek."
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
-msgstr "%(1) ses kartı başlatılamadı. Lütfen donanım konfigürasyonunuzu kontrol edip tekrar deneyin."
+msgstr "Ses aygıtı %(1) başlatılamadı. Lütfen donanım yapılandırmanızı kontrol edip tekrar deneyin."
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "The audio device %(1) has failed to start correctly before. Do you want to try it again?"
-msgstr "%(1) ses kartı daha önce düzgün başlatılamamıştı. Yeniden denemek istermisiniz ?"
+msgstr "Ses aygıtı %(1) daha önce düzgün şekilde başlatılamadı. Tekrar denemek ister misiniz?"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
-msgstr ""
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "Ses aygıtında yeterli çıkış yok.\nDevam etmek istiyor musunuz?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
 msgid "The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
-msgstr "Ses motorunda oluşan aşırı yüklenme dolayısı ile sistem kitlendiğinden ses motoru durduruldu."
+msgstr "Ses motoru durduruldu çünkü sistem, ses motorundaki aşırı yük nedeniyle yanıt vermeyi kesti."
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "The default audio output is used exclusively and cannot be opened for video playback."
-msgstr "Varsayılan ses çıkışı "
+msgstr "Varsayılan ses çıkışı özel olarak kullanılıyor ve video oynatma için açılamıyor."
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "This device can not be removed right now!"
-msgstr "Bu cihaz şu anda kaldırılamıyor!"
+msgstr "Bu aygıt şu anda kaldırılamaz!"
 
 #: music/setup/musicdevicedialog.cpp
 msgctxt "MusicDeviceDialog"
 msgid "This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
-msgstr "Bu port zaten kullanımda. Aynı port'a birden fazla cihaz bağlanması çift MIDI sinyallari yollanmasına sebep olabilir."
+msgstr "Bu port zaten kullanımda. Aynı porta birden fazla aygıt bağlamak, MIDI olaylarının yinelenmesine neden olabilir."
 
 #: midi/midimonitor.cpp
 msgctxt "MidiMonitor"
@@ -3433,7 +3436,7 @@ msgstr "Zaman"
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Time elapsed:"
-msgstr "Geçen Süre:"
+msgstr "Geçen süre:"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3448,22 +3451,22 @@ msgstr "Başlık"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
 msgid "To Channel '%(1)'"
-msgstr ""
+msgstr "'%(1)' Kanalına"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
 msgid "To Selected Channels"
-msgstr ""
+msgstr "Seçili Kanallara"
 
 #: transport/transportsyncmanager.cpp
 msgctxt "TransportSync"
 msgid "Toggle %(1)"
-msgstr ""
+msgstr "%(1) Aç/Kapa"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "Command"
 msgid "Toggle Editor"
-msgstr ""
+msgstr "Düzenleyiciyi Aç/Kapa"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -3473,16 +3476,21 @@ msgstr "Loop Aç/Kapa"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Loop Display"
-msgstr ""
+msgstr "Loop Görünümünü Aç/Kapa"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "Command"
 msgid "Toggle Panner Object Mode"
-msgstr ""
+msgstr "Panner Nesne Modunu Aç/Kapa"
 
 #: audiomixer/audiosidechain.cpp
 msgctxt "SideChain"
 msgid "Toggle Prefader"
+msgstr "Prefader'ı Aç/Kapa"
+
+#: transport/transportpanel.cpp
+msgctxt "Command"
+msgid "Toggle Record"
 msgstr ""
 
 #: mixerconsole/mixerconsole.cpp
@@ -3498,17 +3506,17 @@ msgstr "Başlangıçı Aç/Kapa"
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Total: %(1) of %(2)"
-msgstr "Toplam: %(2)'nin %(1)'i"
+msgstr "Toplam: %(2) öğeden %(1)"
 
 #: base/automationunit.cpp
 msgctxt "Automation"
 msgid "Touch"
-msgstr "Dokunma"
+msgstr "Dokun"
 
 #: audiomixer/channels/audiotrackchannel.cpp
 msgctxt "Channels"
 msgid "Tracks"
-msgstr "İzler"
+msgstr "Kanallar"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -3518,14 +3526,19 @@ msgstr "Trans."
 #: mixer/mixereditfunctions.cpp
 msgctxt "MixerEditFunctions"
 msgid "Transfer Channel"
-msgstr "Kanalı Transfer Et"
+msgstr "Kanalı Aktar"
+
+#: audiomixer/channels/audiotrackchannel.cpp
+msgctxt "Channels"
+msgid "Transformed Track"
+msgstr ""
 
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Transmit value"
-msgstr "Değeri Transfer Et"
+msgstr "Değeri Aktar"
 
-#: transport/transportoptions.cpp transport/metronome.cpp
+#: transport/metronome.cpp transport/transportoptions.cpp
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Transport"
@@ -3539,15 +3552,15 @@ msgstr "Transport"
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Turn Off Fader Flip"
-msgstr ""
-
-#: editor/performancemonitor.cpp
-msgctxt "PerformanceMonitor"
-msgid "Type"
-msgstr "Tip"
+msgstr "Fader Flip'i Kapat"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
+msgid "Type"
+msgstr "Tip"
+
+#: editor/performancemonitor.cpp
+msgctxt "PerformanceMonitor"
 msgid "Type"
 msgstr "Tip"
 
@@ -3566,25 +3579,25 @@ msgctxt "UserCommandSection"
 msgid "Unassign"
 msgstr "Atamayı Kaldır"
 
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
-msgid "Unlock Panning"
-msgstr ""
-
-#: audiomixer/cuemix/cuemixfolder.cpp audiomixer/audiosendfolder.cpp
-msgctxt "Command"
-msgid "Unlock Panning"
-msgstr ""
-
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Unlock Panning"
-msgstr ""
+msgstr "Panoramayı Kilidini Aç"
+
+#: audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "Command"
+msgid "Unlock Panning"
+msgstr "Panoramanın Kilidini Aç"
+
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
+msgid "Unlock Panning"
+msgstr "Panoramayı Kilidini Aç"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "Unused"
-msgstr "Kullanılmayan"
+msgstr "Kullanılmıyor"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
@@ -3604,17 +3617,17 @@ msgstr "Sahneyi Güncelle"
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Use '%(1)' for new Channels"
-msgstr ""
+msgstr "Yeni Kanallar için '%(1)' kullan"
 
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
-msgstr "Harici MIDI enstrüman çalıp kontroller hareketlerini kayıt etmek için kullanılır. Alıcı porta bağlantı yapılırken, aynı port başka bir keyboard'a bağlanırsa çift notaların oluşmaması için dikkatli olaunması gerekir."
+msgstr "Dış bir MIDI Enstrümanı çalmak ve kontrolör hareketlerini kaydetmek için kullanın. Alım portunu bağlarken, aynı portun bir Klavye cihazı tarafından kullanılması durumunda çiftlenen olaylardan kaçınmak için dikkatli olun."
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "Used"
-msgstr "Kullanılmış"
+msgstr "Kullanıldı"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
@@ -3624,7 +3637,7 @@ msgstr "Kullanılan Dosyalar"
 #: studio/missingdevices.cpp
 msgctxt "Studio"
 msgid "Used by"
-msgstr "Tarafından Kullanılıyor: "
+msgstr "Tarafından Kullanılıyor"
 
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
@@ -3634,7 +3647,7 @@ msgstr "VCA"
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "Video Frames"
-msgstr ""
+msgstr "Video Kareleri"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3644,63 +3657,57 @@ msgstr "Video Oynatıcı"
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "Video Support Not Installed"
-msgstr ""
+msgstr "Video Desteği Yüklenmemiş"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "Video codec not supported"
-msgstr ""
+msgstr "Video kodek desteği yok"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Visibility only"
-msgstr "Sadece Görünüm"
-
-#: audiomixer/channels/audiovcachannel.cpp
-msgctxt "AudioVCAChannel"
-msgid "Volume"
-msgstr "Seviye"
-
-#: audiomixer/cuemix/cuemixfolder.cpp
-msgctxt "CueMixSlot"
-msgid "Volume"
-msgstr "Seviye"
+msgstr "Yalnızca Görünürlük"
 
 #: audiomixer/audiochannel.cpp
 msgctxt "AudioChannel"
 msgid "Volume"
-msgstr "Seviye"
+msgstr "Ses Seviyesi"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "FaderFlip"
 msgid "Volume"
-msgstr "Seviye"
+msgstr "Ses Seviyesi"
+
+#: audiomixer/channels/audiovcachannel.cpp
+msgctxt "AudioVCAChannel"
+msgid "Volume"
+msgstr "Ses Seviyesi"
+
+#: audiomixer/cuemix/cuemixfolder.cpp
+msgctxt "CueMixSlot"
+msgid "Volume"
+msgstr "Ses Seviyesi"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Volume"
-msgstr "Seviye"
+msgstr "Ses Seviyesi"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Width"
-msgstr ""
+msgstr "Genişlik"
 
 #: base/automationunit.cpp
 msgctxt "Automation"
 msgid "Write"
-msgstr "Yazma"
+msgstr "Yaz"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"MIDI konfigürasyonunuz değişti. Bunun sebebi çıkartılabilir cihazların bağlı olamaması olabilir.\n"
-"\n"
-"Harici cihazları şimdi tekrar bağlamak istermisiniz?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "MIDI yapılandırmanız değişti. Bu, şu anda takılı olmayan taşınabilir cihazlardan kaynaklanıyor olabilir.\n\nDış cihazlarınızı şu anda yeniden bağlamak ister misiniz?"
 
 #~ msgctxt "Command"
 #~ msgid "Channel Components"
@@ -3909,3 +3916,4 @@ msgstr ""
 #~ msgctxt "AudioFX"
 #~ msgid "Store FX Chain..."
 #~ msgstr "FX Zincirini Sakla"
+

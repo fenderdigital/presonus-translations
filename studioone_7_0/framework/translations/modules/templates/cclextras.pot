@@ -3,6 +3,11 @@ msgctxt "PackageSource"
 msgid "$APPNAME Content"
 msgstr ""
 
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "$APPNAME Installation"
+msgstr ""
+
 #: ./extensions/extensiondescription.cpp
 msgctxt "Extensions"
 msgid "%(1) is already installed!"
@@ -13,7 +18,12 @@ msgctxt "ExtensionManager"
 msgid "%(1) is not compatible with $APPNAME!"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "%(1) is now available!"
+msgstr ""
+
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "%(1) of %(2)"
 msgstr ""
@@ -98,12 +108,12 @@ msgctxt "ExtensionManager"
 msgid "Built-in Extensions can not be uninstalled or updated."
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Cancel"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Canceled!"
 msgstr ""
@@ -153,7 +163,7 @@ msgctxt "PackageManager"
 msgid "Contains %(1) items"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Copying..."
 msgstr ""
@@ -223,13 +233,13 @@ msgctxt "ExtensionManager"
 msgid "Do you want to install these updates now?"
 msgstr ""
 
-#: ./webfs/downloaddraghandler.cpp
-msgctxt "WebFS"
+#: ./web/transfermanagerui.cpp
+msgctxt "TransferManager"
 msgid "Download"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
-msgctxt "TransferManager"
+#: ./webfs/downloaddraghandler.cpp
+msgctxt "WebFS"
 msgid "Download"
 msgstr ""
 
@@ -238,7 +248,7 @@ msgctxt "ContentPackageManager"
 msgid "Download from $APPCOMPANY Account"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Downloading..."
 msgstr ""
@@ -288,14 +298,9 @@ msgctxt "BackupManager"
 msgid "Failed to upload backup."
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Failed!"
-msgstr ""
-
-#: ./packages/packagesorter.cpp
-msgctxt "PackageSorter"
-msgid "File Type"
 msgstr ""
 
 #: ./packages/packagefilter.cpp
@@ -303,7 +308,12 @@ msgctxt "PackageFilter"
 msgid "File Type"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./packages/packagesorter.cpp
+msgctxt "PackageSorter"
+msgid "File Type"
+msgstr ""
+
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Files are being transferred in background."
 msgstr ""
@@ -322,6 +332,11 @@ msgstr ""
 #: ./extensions/appupdater.cpp
 msgctxt "Command"
 msgid "Help"
+msgstr ""
+
+#: ./packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "Install"
 msgstr ""
 
 #: ./packages/unifiedpackageaction.cpp
@@ -399,13 +414,13 @@ msgctxt "PackageManager"
 msgid "Minimal Installation"
 msgstr ""
 
-#: ./packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Name"
 msgstr ""
 
-#: ./packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: ./packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "Name"
 msgstr ""
 
@@ -414,9 +429,14 @@ msgctxt "BackupManager"
 msgid "Never"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "New File"
+msgstr ""
+
+#: ./packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "New content is available!"
 msgstr ""
 
 #: ./gadgets/gadgetmanager.cpp
@@ -459,12 +479,12 @@ msgctxt "PackageSource"
 msgid "Other"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Pause"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Paused"
 msgstr ""
@@ -484,7 +504,7 @@ msgctxt "PackageSource"
 msgid "Purchased Content"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Queued"
 msgstr ""
@@ -499,7 +519,7 @@ msgctxt "Feed"
 msgid "Refresh"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Remove From History"
 msgstr ""
@@ -514,9 +534,14 @@ msgctxt "PackageActions"
 msgid "Restart"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Restart"
+msgstr ""
+
+#: ./packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Restart Now"
 msgstr ""
 
 #: ./packages/unifiedpackageaction.cpp
@@ -529,7 +554,7 @@ msgctxt "BackupManager"
 msgid "Restore"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Resume"
 msgstr ""
@@ -614,13 +639,13 @@ msgctxt "Extensions"
 msgid "This file does not have a valid digital signature."
 msgstr ""
 
-#: ./packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: ./packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Type"
 msgstr ""
 
-#: ./packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: ./packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "Type"
 msgstr ""
 
@@ -679,7 +704,7 @@ msgctxt "WebFS"
 msgid "Upload To"
 msgstr ""
 
-#: ./webfs/transfermanagerui.cpp
+#: ./web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Uploading..."
 msgstr ""

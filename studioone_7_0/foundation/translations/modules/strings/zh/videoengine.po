@@ -14,17 +14,17 @@ msgctxt "FileType"
 msgid "AVI Video"
 msgstr "AVI视频"
 
-#: win/mftranscoder.cpp libav/avtranscoder.cpp
+#: libav/avtranscoder.cpp win/mftranscoder.cpp
 msgctxt "VideoFile"
 msgid "Audio encoding setup failed."
 msgstr "自动音频编码设置失败。"
 
-#: win/mftranscoder.cpp libav/avtranscoder.cpp
+#: libav/avtranscoder.cpp win/mftranscoder.cpp
 msgctxt "VideoFile"
 msgid "Begin writing failed."
-msgstr "开始书写失败。"
+msgstr "启动写入失败。"
 
-#: win/mftranscoder.cpp libav/avtranscoder.cpp
+#: libav/avtranscoder.cpp win/mftranscoder.cpp
 msgctxt "VideoFile"
 msgid "Finalize file failed."
 msgstr "完成文件失败。"
@@ -64,7 +64,7 @@ msgctxt "VideoEngine"
 msgid "Video Support"
 msgstr "视频支持"
 
-#: win/mftranscoder.cpp libav/avtranscoder.cpp
+#: libav/avtranscoder.cpp win/mftranscoder.cpp
 msgctxt "VideoFile"
 msgid "Video transcoding setup failed."
 msgstr "视频转码设置失败。"
@@ -74,10 +74,10 @@ msgctxt "FileType"
 msgid "Windows Media Video"
 msgstr "Windows Media视频"
 
-#: win/mftranscoder.cpp libav/avtranscoder.cpp
+#: libav/avtranscoder.cpp win/mftranscoder.cpp
 msgctxt "VideoFile"
 msgid "Writing failed."
-msgstr "书写失败。"
+msgstr "写入失败。"
 
 #~ msgctxt "FileType"
 #~ msgid "MPEG 4 Video"
@@ -94,3 +94,4 @@ msgstr "书写失败。"
 #~ msgctxt "QuickTime"
 #~ msgid "Support for video playback with QuickTime"
 #~ msgstr "支持使用QuickTime进行视频播放"
+

@@ -9,6 +9,11 @@ msgctxt "PackageSource"
 msgid "$APPNAME Content"
 msgstr "$APPNAME コンテンツ"
 
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "$APPNAME Installation"
+msgstr "$APPNAME インストール"
+
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"
 msgid "%(1) is already installed!"
@@ -19,7 +24,12 @@ msgctxt "ExtensionManager"
 msgid "%(1) is not compatible with $APPNAME!"
 msgstr "%(1) は $APPNAME に互換していません。"
 
-#: webfs/transfermanagerui.cpp
+#: packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "%(1) is now available!"
+msgstr "%(1) が利用可能になりました。"
+
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "%(1) of %(2)"
 msgstr "%(2) 中 %(1)"
@@ -104,12 +114,12 @@ msgctxt "ExtensionManager"
 msgid "Built-in Extensions can not be uninstalled or updated."
 msgstr "内蔵拡張をアンインストールまたはアップデートできません。"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Canceled!"
 msgstr "キャンセルされました。"
@@ -159,7 +169,7 @@ msgctxt "PackageManager"
 msgid "Contains %(1) items"
 msgstr "%(1) アイテムを含む"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Copying..."
 msgstr "をコピーしています..."
@@ -229,13 +239,13 @@ msgctxt "ExtensionManager"
 msgid "Do you want to install these updates now?"
 msgstr "これらのアップデートを今すぐインストールしますか？"
 
-#: webfs/downloaddraghandler.cpp
-msgctxt "WebFS"
+#: web/transfermanagerui.cpp
+msgctxt "TransferManager"
 msgid "Download"
 msgstr "ダウンロード"
 
-#: webfs/transfermanagerui.cpp
-msgctxt "TransferManager"
+#: webfs/downloaddraghandler.cpp
+msgctxt "WebFS"
 msgid "Download"
 msgstr "ダウンロード"
 
@@ -244,7 +254,7 @@ msgctxt "ContentPackageManager"
 msgid "Download from $APPCOMPANY Account"
 msgstr "$APPCOMPANY アカウントからダウンロード"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Downloading..."
 msgstr "ダウンロードしています..."
@@ -294,22 +304,22 @@ msgctxt "BackupManager"
 msgid "Failed to upload backup."
 msgstr "バックアップのアップロードに失敗しました。"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Failed!"
 msgstr "失敗しました。"
-
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
-msgid "File Type"
-msgstr "ファイルタイプ"
 
 #: packages/packagefilter.cpp
 msgctxt "PackageFilter"
 msgid "File Type"
 msgstr "ファイルタイプ"
 
-#: webfs/transfermanagerui.cpp
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
+msgid "File Type"
+msgstr "ファイルタイプ"
+
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Files are being transferred in background."
 msgstr "ファイルはバックグラウンドで転送中です。"
@@ -328,6 +338,11 @@ msgstr "ガジェット"
 msgctxt "Command"
 msgid "Help"
 msgstr "ヘルプ"
+
+#: packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "Install"
+msgstr "インストール"
 
 #: packages/unifiedpackageaction.cpp
 msgctxt "PackageActions"
@@ -404,13 +419,13 @@ msgctxt "PackageManager"
 msgid "Minimal Installation"
 msgstr "最小インストール"
 
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Name"
 msgstr "名前"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "Name"
 msgstr "名前"
 
@@ -419,10 +434,15 @@ msgctxt "BackupManager"
 msgid "Never"
 msgstr "しない"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "New File"
 msgstr "新規ファイル"
+
+#: packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "New content is available!"
+msgstr "新しいコンテンツを利用可能です。"
 
 #: gadgets/gadgetmanager.cpp
 msgctxt "GadgetManager"
@@ -464,12 +484,12 @@ msgctxt "PackageSource"
 msgid "Other"
 msgstr "その他"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Pause"
 msgstr "一時停止"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Paused"
 msgstr "一時停止中"
@@ -489,7 +509,7 @@ msgctxt "PackageSource"
 msgid "Purchased Content"
 msgstr "購入済みコンテンツ"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Queued"
 msgstr "キュー済み"
@@ -504,7 +524,7 @@ msgctxt "Feed"
 msgid "Refresh"
 msgstr "再読み込み"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Remove From History"
 msgstr "履歴から削除"
@@ -519,10 +539,15 @@ msgctxt "PackageActions"
 msgid "Restart"
 msgstr "再起動"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Restart"
 msgstr "再起動"
+
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Restart Now"
+msgstr "今すぐ再起動"
 
 #: packages/unifiedpackageaction.cpp
 msgctxt "PackageActions"
@@ -534,7 +559,7 @@ msgctxt "BackupManager"
 msgid "Restore"
 msgstr "復元"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Resume"
 msgstr "再開"
@@ -619,13 +644,13 @@ msgctxt "Extensions"
 msgid "This file does not have a valid digital signature."
 msgstr "このファイルには有効なデジタル署名がありません。"
 
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Type"
 msgstr "タイプ"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "Type"
 msgstr "タイプ"
 
@@ -684,7 +709,7 @@ msgctxt "WebFS"
 msgid "Upload To"
 msgstr "アップロード先"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Uploading..."
 msgstr "アップロードしています..."
@@ -723,6 +748,50 @@ msgstr "新しいバージョンの $APPNAME が必要です。"
 msgctxt "Updater"
 msgid "Your version is up-to-date."
 msgstr "ご使用のバージョンは最新です。"
+
+#~ msgctxt "TagStore"
+#~ msgid "Add Tag"
+#~ msgstr "タグを追加"
+
+#~ msgctxt "TagStore"
+#~ msgid "Adding Tags..."
+#~ msgstr "タグを追加しています..."
+
+#~ msgctxt "TagStore"
+#~ msgid "All tags are valid."
+#~ msgstr "すべてのタグは有効です。"
+
+#~ msgctxt "TagStore"
+#~ msgid "Checking files in \"%(1)\""
+#~ msgstr "\"%(1)\" のファイルを確認しています"
+
+#~ msgctxt "TagStore"
+#~ msgid "Cleanup Tags of Missing Files"
+#~ msgstr "行方不明のファイルのタグのクリーンアップ"
+
+#~ msgctxt "TagStore"
+#~ msgid "Clear Tags"
+#~ msgstr "タグをクリア"
+
+#~ msgctxt "TagStore"
+#~ msgid "Do you want to remove these tag entries for non-existing files?"
+#~ msgstr "存在しないファイルに対するこれらのタグエントリを削除しますか？"
+
+#~ msgctxt "TagStore"
+#~ msgid "Remove Tag"
+#~ msgstr "タグを削除"
+
+#~ msgctxt "TagCategory"
+#~ msgid "Type"
+#~ msgstr "タイプ"
+
+#~ msgctxt "TagStore"
+#~ msgid "Updated tags in %(1)\n"
+#~ msgstr "%(1) で更新されたタグ\n"
+
+#~ msgctxt "TagStore"
+#~ msgid "other"
+#~ msgstr "その他"
 
 #~ msgctxt "ExtensionManager"
 #~ msgid "%(1) Extensions installed."
@@ -895,3 +964,4 @@ msgstr "ご使用のバージョンは最新です。"
 #~ msgctxt "TransferManager"
 #~ msgid "MB/sec"
 #~ msgstr "MB/秒"
+

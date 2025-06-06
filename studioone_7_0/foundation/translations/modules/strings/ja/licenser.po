@@ -69,8 +69,9 @@ msgctxt "WebAPI"
 msgid "An error occurred at the server (Status %(1))."
 msgstr "サーバーにエラーが発生しました（ステータス %(1) ）。"
 
-#: application/freemiumapp.cpp application/licensedapp.cpp
-#: application/loginhandler.cpp application/purchasehandler.cpp
+#: application/licensedapp.cpp application/freemiumapp.cpp
+#: application/presonusloginhandler.cpp application/purchasehandler.cpp
+#: application/fenderloginhandler.cpp
 msgctxt "Command"
 msgid "Application"
 msgstr "アプリケーション"
@@ -85,7 +86,7 @@ msgctxt "Licenser"
 msgid "Copy to Clipboard"
 msgstr "クリップボードにコピー"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Credential Manager"
 msgstr "資格情報マネージャー"
@@ -102,19 +103,15 @@ msgstr "%(1) アイテムを無効化"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
-msgid ""
-"Failed to connect to the server.\n"
-"Please check your Internet connection and try again."
-msgstr ""
-"サーバーへの接続に失敗しました。\n"
-"インターネット接続を確認し、再試行してください。"
+msgid "Failed to connect to the server.\nPlease check your Internet connection and try again."
+msgstr "サーバーへの接続に失敗しました。\nインターネット接続を確認し、再試行してください。"
 
 #: application/userlicense.cpp
 msgctxt "FileType"
 msgid "Invalid License File!"
 msgstr "無効なライセンスファイルです。"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Keychain Access"
 msgstr "キーチェーンアクセス"
@@ -129,7 +126,7 @@ msgctxt "FileType"
 msgid "License too old. Please activate $APPNAME again."
 msgstr "ライセンスが古すぎます。$APPNAME を再アクティベートしてください。"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Command"
 msgid "Login"
 msgstr "ログイン"
@@ -139,7 +136,7 @@ msgctxt "Licenser"
 msgid "Manage Activations"
 msgstr "アクティベーションを管理"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "No permissions to change application passwords."
 msgstr "アプリケーションパスワードを変更する権限がありません。"
@@ -164,12 +161,12 @@ msgctxt "Licenser"
 msgid "Please enter the Product Key of the $APPNAME version you have purchased."
 msgstr "ご購入いただきましたバージョンの $APPNAME のプロダクトキーを入力してください。"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Licenser"
 msgid "Please fill in the form completely."
 msgstr "フォームに記入してください。"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Please use %(1) to delete passwords."
 msgstr " %(1) を使用してパスワードを削除してください。"
@@ -199,7 +196,7 @@ msgctxt "WebAPI"
 msgid "Retrieving product list"
 msgstr "製品一覧を検索しています"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Licenser"
 msgid "Select Country"
 msgstr "国を選択"
@@ -214,10 +211,25 @@ msgctxt "Licenser"
 msgid "Sign in"
 msgstr "サインイン"
 
+#: application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign in"
+msgstr "サインイン"
+
 #: application/loginhandler.cpp
 msgctxt "Licenser"
 msgid "Sign out"
 msgstr "サインアウト"
+
+#: application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign out"
+msgstr "サインアウト"
+
+#: application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign up"
+msgstr "登録"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
@@ -394,3 +406,4 @@ msgstr "購入済みアイテムはアクティベートされました。"
 #~ msgctxt "Licenser"
 #~ msgid "Activation failed."
 #~ msgstr "アップロードに失敗しました。"
+

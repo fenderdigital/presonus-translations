@@ -7,77 +7,77 @@ msgstr ""
 #: song/publisherselector.cpp
 msgctxt "Engine"
 msgid "\"%(1)\" does not support the selected file format."
-msgstr "\"%(1)\" 不支持所选文件类型。"
+msgstr "“%(1)”不支持所选的文件类型。"
 
 #: song/trackpresetwriter.cpp
 msgctxt "TrackPreset"
 msgid "%(1) Audio Tracks"
-msgstr "%(1) 音轨"
+msgstr "%(1) 个音轨"
 
 #: song/trackpresetwriter.cpp
 msgctxt "TrackPreset"
 msgid "%(1) Folder Tracks"
-msgstr "%(1) 文件夹轨道"
+msgstr "%(1) 个文件夹轨道"
 
 #: song/trackpresetwriter.cpp
 msgctxt "TrackPreset"
 msgid "%(1) Instrument Tracks"
-msgstr "%(1) 乐器轨道"
+msgstr "%(1) 个乐器轨道"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "%(1) Split"
-msgstr "%(1) Split"
+msgstr "%(1) 拆分"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "(Disabled)"
-msgstr "(已禁用)"
+msgstr "（已禁用）"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "(Empty)"
-msgstr "(空白)"
+msgstr "（空白）"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "(Launcher)"
-msgstr "(Launcher)"
+msgstr "（启动器）"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "(Muted)"
-msgstr "(已静音)"
+msgstr "（已静音）"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "(No Pan)"
-msgstr "(无平移)"
+msgstr "（无声像）"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "(Protected)"
-msgstr "(受保护)"
+msgstr "（受保护）"
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "(Silent Launcher)"
-msgstr "(静音启动)"
+msgstr "（空白启动器）"
 
 #: project/publish/audiofilepublisher.cpp
 msgctxt "AudioFilePublisher"
 msgid "(Unknown Artist)"
-msgstr "(未知作者)"
+msgstr "（未知艺术家）"
 
 #: project/publish/audiofilepublisher.cpp
 msgctxt "AudioFilePublisher"
 msgid "(Unknown Title)"
-msgstr "(未知标题)"
+msgstr "（未知标题）"
 
 #: song/songvideohandler.cpp
 msgctxt "Video"
 msgid "(unknown)"
-msgstr "( 未知 )"
+msgstr "（未知）"
 
 #: song/trackpresetwriter.cpp
 msgctxt "TrackPreset"
@@ -102,12 +102,12 @@ msgstr "找到空白CD，可以开始刻录了"
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "A patch with this name already exists."
-msgstr " 已存在同名补丁。"
+msgstr "已存在同名补丁。"
 
 #: shared/artistdatamanager.cpp
 msgctxt "Command"
 msgid "Add"
-msgstr "加"
+msgstr "添加"
 
 #: shared/artistdatamanager.cpp
 msgctxt "Artist"
@@ -117,17 +117,17 @@ msgstr "添加艺术家"
 #: show/editing/showdraghandler.cpp
 msgctxt "ShowDragHandler"
 msgid "Add Backing Track"
-msgstr " 增加伴奏"
-
-#: show/editing/showplayerview.cpp
-msgctxt "Player"
-msgid "Add Backing Track Player"
-msgstr " 增加伴奏播放器"
+msgstr "添加伴奏"
 
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
 msgid "Add Backing Track Player"
-msgstr " 增加伴奏播放器"
+msgstr "添加伴奏播放器"
+
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
+msgid "Add Backing Track Player"
+msgstr "添加伴奏播放器"
 
 #: project/editing/projectdraghandler.cpp
 msgctxt "ProjectEditHandler"
@@ -139,30 +139,30 @@ msgctxt "ProjectFunctions"
 msgid "Add Marker"
 msgstr "添加标记"
 
-#: show/editing/showplayerview.cpp
-msgctxt "Player"
-msgid "Add Player"
-msgstr " 添加播放器"
-
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
 msgid "Add Player"
 msgstr " 添加播放器"
+
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
+msgid "Add Player"
+msgstr "添加播放器"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Add Player"
-msgstr " 添加播放器"
-
-#: show/editing/showplayerview.cpp
-msgctxt "Player"
-msgid "Add Real Instrument Player"
-msgstr " 添加真实乐器播放器"
+msgstr "添加播放器"
 
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
 msgid "Add Real Instrument Player"
-msgstr " 添加真实乐器播放器"
+msgstr "添加真实乐器播放器"
+
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
+msgid "Add Real Instrument Player"
+msgstr "添加真实乐器播放器"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
@@ -172,7 +172,7 @@ msgstr " 添加曲目项"
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Add Setlist Item"
-msgstr " 添加曲目项"
+msgstr "添加曲目项"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -189,15 +189,15 @@ msgctxt "TrackPreset"
 msgid "Add Tracks from Preset"
 msgstr "从预设添加音轨"
 
-#: show/editing/showplayerview.cpp
-msgctxt "Player"
-msgid "Add Virtual Instrument Player"
-msgstr " 添加虚拟乐器播放器"
-
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
 msgid "Add Virtual Instrument Player"
-msgstr " 添加虚拟乐器播放器"
+msgstr "添加虚拟乐器播放器"
+
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
+msgid "Add Virtual Instrument Player"
+msgstr "添加虚拟乐器播放器"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -207,12 +207,12 @@ msgstr "全部视频"
 #: show/editing/showplayerinspector.cpp
 msgctxt "Command"
 msgid "Apply Patch"
-msgstr " 应用补丁"
+msgstr "应用补丁"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Apply Staff Preset"
-msgstr "应用谱行预设"
+msgstr "应用谱表预设"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
@@ -227,12 +227,12 @@ msgstr "应用轨道预设"
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
 msgid "Apply Track Preset '%(1)'"
-msgstr "应用轨道预设'%(1)'"
+msgstr "应用轨道预设“%(1)”"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Arranger"
-msgstr "编曲器"
+msgstr "编曲"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
@@ -242,22 +242,22 @@ msgstr "编曲器"
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Arrow Tool"
-msgstr "光标工具"
+msgstr "箭头工具"
 
 #: shared/artistdatamanager.cpp
 msgctxt "Artist"
 msgid "Artist '%(1)' already exists. Do you want to load the preset?"
-msgstr "Artist '%(1)' 已存在。您是否要加载预设？"
+msgstr "艺术家“%(1)”已存在。您是否要加载预设？"
 
 #: shared/artistdatamanager.cpp
 msgctxt "Artist"
 msgid "Artist '%(1)' already exists. Do you want to overwrite the preset?"
-msgstr "Artist '%(1)' 已存在。您是否要覆盖预设？"
+msgstr "艺术家“%(1)”已存在。您是否要覆盖预设？"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Artist / Performer"
-msgstr "作者/演奏者"
+msgstr "艺术家/表演者"
 
 #: shared/artistdatamanager.cpp
 msgctxt "Artist"
@@ -267,27 +267,32 @@ msgstr "艺术家预设"
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Assign Backing Track"
-msgstr " 指定伴奏"
+msgstr "指定伴奏"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Assign Patch"
-msgstr " 指定补丁"
+msgstr "指定补丁"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Audio Export"
 msgstr "导出音频"
 
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Automatic"
+msgstr "自动"
+
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Backing Track"
-msgstr " 伴奏"
+msgstr "伴奏"
 
 #: project/editing/projectedittasks.cpp
 msgctxt "ProjectEdit"
 msgid "Bounce Track"
-msgstr "混缩音轨"
+msgstr "并轨音轨"
 
 #: project/publish/projectburner.cpp
 msgctxt "Command"
@@ -302,7 +307,7 @@ msgstr "刻录失败。"
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "CD Burning Service not installed."
-msgstr "未安装CD刻录服务"
+msgstr "未安装CD刻录服务。"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
@@ -337,17 +342,17 @@ msgstr "通道"
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Clear Chord Track"
-msgstr "清除和弦轨道"
+msgstr "清空和弦轨道"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Colorize Player"
-msgstr " 为播放器着色"
+msgstr "为播放器着色"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Colorize Setlist Item"
-msgstr " 为曲目项着色"
+msgstr "为曲目项着色"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -372,7 +377,7 @@ msgstr "与下一个音轨组合"
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Comment"
-msgstr "评论"
+msgstr "注释"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
@@ -392,7 +397,7 @@ msgstr "内容"
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
 msgid "Continue"
-msgstr " 继续"
+msgstr "继续"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -402,12 +407,12 @@ msgstr "连续"
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Convert to Grand Staff"
-msgstr " 转换为大谱表"
+msgstr "转换为大谱表"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Convert to Single Staff"
-msgstr " 转换为单一谱表"
+msgstr "转换为单一谱表"
 
 #: song/songcontroller.cpp
 msgctxt "Command"
@@ -432,7 +437,7 @@ msgstr "无法找到CD刻录机"
 #: project/document/projectcomponent.cpp
 msgctxt "Project"
 msgid "Could not import file! The file format is unsupported."
-msgstr "无法导入文件! 不支持的文件格式。"
+msgstr "无法导入文件！不支持的文件格式。"
 
 #: song/loudnessnormalizer.cpp
 msgctxt "Loudness"
@@ -452,7 +457,7 @@ msgstr "默认"
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Default Patch: %(1)"
-msgstr " 默认补丁：%(1)"
+msgstr "默认补丁：%(1)"
 
 #: show/editing/showeditcomponent.cpp song/songmarker.cpp
 msgctxt "Command"
@@ -497,12 +502,12 @@ msgstr "数字发布"
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Disable Setlist Item"
-msgstr " 禁用曲目项"
+msgstr "禁用曲目项"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Disable Setlist Item"
-msgstr " 禁用曲目项"
+msgstr "禁用曲目项"
 
 #: project/document/projectcomponent.cpp
 msgctxt "Command"
@@ -537,7 +542,7 @@ msgstr "是否希望将递增的ISRC编码应用到所有音轨上？"
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
 msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
-msgstr "是否创建DDP映像?\n\n映像: %(1)\n位置: %(2)"
+msgstr "是否创建DDP映像？\n\n映像：%(1)\n位置：%(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -573,22 +578,22 @@ msgstr "创建副本（完整）"
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
 msgid "Duplicate Player"
-msgstr " 复制播放器"
+msgstr "复制播放器"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Duplicate Player"
-msgstr " 复制播放器"
+msgstr "复制播放器"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Duplicate Setlist Item"
-msgstr " 复制曲目项"
+msgstr "复制曲目项"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Duplicate Setlist Item"
-msgstr " 复制曲目项"
+msgstr "复制曲目项"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
@@ -614,12 +619,12 @@ msgstr "编辑乐曲"
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Enable Setlist Item"
-msgstr " 启用曲目项"
+msgstr "启用曲目项"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Enable Setlist Item"
-msgstr " 启用曲目项"
+msgstr "启用曲目项"
 
 #: project/document/projectcomponent.cpp
 msgctxt "Command"
@@ -644,12 +649,12 @@ msgstr "擦除失败。"
 #: song/songsetup.cpp
 msgctxt "SongSetup"
 msgid "Error: %(1) requires sample rate %(2)"
-msgstr "错误：%(1)要求采样率%(2)"
+msgstr "错误：%(1)要求%(2)的采样率"
 
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
 msgid "Errors occurred during the rendering of the Bus Channel."
-msgstr "渲染总线通道时出现错误"
+msgstr "渲染总线通道时出现错误。"
 
 #: score/scoreeditor.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
@@ -669,7 +674,7 @@ msgstr "导出空间音频"
 #: song/songcontroller.cpp
 msgctxt "Command"
 msgid "Export Stems"
-msgstr "导出Stem"
+msgstr "导出混音分轨"
 
 #: song/songvideohandler.cpp
 msgctxt "Command"
@@ -684,15 +689,15 @@ msgstr "正在导出..."
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "Exporting:"
-msgstr "正在导出:"
-
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
-msgid "Failed to export audio file."
-msgstr "音频文件导出失败。"
+msgstr "正在导出："
 
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
+msgid "Failed to export audio file."
+msgstr "音频文件导出失败。"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "音频文件导出失败。"
 
@@ -710,7 +715,7 @@ msgstr "文件"
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "First Only"
-msgstr "仅第一"
+msgstr "仅标注初始速度"
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Command"
@@ -720,7 +725,7 @@ msgstr "首音轨"
 #: project/publish/audiofilepublisher.cpp
 msgctxt "AudioFilePublisher"
 msgid "Generating audio files (%(1) of %(2))"
-msgstr "正在生成音频文件 (%(1)/%(2))"
+msgstr "正在生成音频文件（%(1)/%(2)）"
 
 #: project/publish/imagemaker.cpp
 msgctxt "ImageMaker"
@@ -740,7 +745,7 @@ msgstr "跳转到下一个标记"
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Next Section"
-msgstr "跳转到下一段"
+msgstr "跳转到下一章节"
 
 #: song/songmarker.cpp
 msgctxt "Command"
@@ -750,97 +755,97 @@ msgstr "跳转到上一个标记"
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Previous Section"
-msgstr "跳转到上一段"
+msgstr "跳转到上一章节"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "ShowEditComponent"
 msgid "Goto Section"
-msgstr "转到章节"
+msgstr "跳转到章节"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section"
-msgstr "转到部分"
+msgstr "跳转到章节"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 1"
-msgstr "转到章节 1"
+msgstr "跳转到章节 1"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 10"
-msgstr "转到章节 10"
+msgstr "跳转到章节 10"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 11"
-msgstr "转到章节 11"
+msgstr "跳转到章节 11"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 12"
-msgstr "转到章节 12"
+msgstr "跳转到章节 12"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 13"
-msgstr "转到章节 13"
+msgstr "跳转到章节 13"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 14"
-msgstr "转到章节 14"
+msgstr "跳转到章节 14"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 15"
-msgstr "转到章节 15"
+msgstr "跳转到章节 15"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 16"
-msgstr "转到章节 16"
+msgstr "跳转到章节 16"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 2"
-msgstr "转到章节 2"
+msgstr "跳转到章节 2"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 3"
-msgstr "转到章节 3"
+msgstr "跳转到章节 3"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 4"
-msgstr "转到章节 4"
+msgstr "跳转到章节 4"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 5"
-msgstr "转到章节 5"
+msgstr "跳转到章节 5"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 6"
-msgstr "转到章节 6"
+msgstr "跳转到章节 6"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 7"
-msgstr "转到章节 7"
+msgstr "跳转到章节 7"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 8"
-msgstr "转到章节 8"
+msgstr "跳转到章节 8"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Goto Section 9"
-msgstr "转到章节 9"
+msgstr "跳转到章节 9"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -881,7 +886,7 @@ msgstr "导入素材池"
 #: song/poolimportextension.cpp
 msgctxt "Browser"
 msgid "Import to Pool failed"
-msgstr "导入声音池失败"
+msgstr "导入素材池失败"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
@@ -891,7 +896,7 @@ msgstr "索引"
 #: project/model/projectmodel.cpp
 msgctxt "ProjectMarker"
 msgid "Index %(1)"
-msgstr "Index %(1)"
+msgstr "索引 %(1)"
 
 #: project/publish/burnerdialog.cpp
 msgctxt "BurnerDialog"
@@ -917,7 +922,7 @@ msgstr "插入已命名项"
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
 msgid "Instrument '%(1)' cannot be transformed, because it is also routed to '%(2)'."
-msgstr "乐器轨道'%(1)' 无法完成转换, 因为该轨道已被路由至 '%(2)'."
+msgstr "乐器轨道“%(1)”无法完成转换，因为该轨道已被路由至“%(2)”."
 
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
@@ -947,12 +952,12 @@ msgstr "长度"
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
 msgid "Length: %(1)"
-msgstr "长度: %(1)"
+msgstr "长度：%(1)"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
 msgid "Length: %(1)"
-msgstr "长度: %(1)"
+msgstr "长度：%(1)"
 
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
@@ -988,7 +993,7 @@ msgstr "循环并继续"
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
 msgid "Loop Setlist Item"
-msgstr " 循环曲目项"
+msgstr "循环曲目项"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
@@ -1034,12 +1039,12 @@ msgstr "不匹配：音频设备有 %(1)"
 #: application/song/mixdowntask.cpp
 msgctxt "Edit"
 msgid "Mixdown Selection"
-msgstr "混缩选择"
+msgstr "混缩所选（应用通道效果器）"
 
 #: project/publish/projectburner.cpp
 msgctxt "ProjectBurner"
 msgid "Mixdown Speed: %float(1:1)"
-msgstr "混音速度: %float(1:1)"
+msgstr "混音速度：%float(1:1)"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -1069,7 +1074,7 @@ msgstr "移动事件及调整音轨大小"
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
 msgid "Move Event and Track Start"
-msgstr "移动事件和音轨开始"
+msgstr "移动事件和音轨的起始"
 
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
@@ -1089,12 +1094,12 @@ msgstr "移动标记"
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Move Player"
-msgstr " 移动播放器"
+msgstr "移动播放器"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Move Setlist Item"
-msgstr " 移动曲目项"
+msgstr "移动曲目项"
 
 #: project/editing/projectedithandler.cpp
 msgctxt "ProjectEditHandler"
@@ -1119,12 +1124,12 @@ msgstr "移动音轨"
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Mute"
-msgstr " 静音"
+msgstr "静音"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Mute"
-msgstr " 静音"
+msgstr "静音"
 
 #: project/editing/projecteditcomponent.cpp
 #: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
@@ -1135,17 +1140,17 @@ msgstr "导航"
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Next Patch"
-msgstr " 下一个补丁"
+msgstr "下一个补丁"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Next Player"
-msgstr "下一个玩家"
+msgstr "下一个播放器"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Next Setlist Item"
-msgstr " 下一个曲目项"
+msgstr "下一个曲目项"
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Command"
@@ -1170,7 +1175,7 @@ msgstr "无标题"
 #: song/songvideorenderer.cpp
 msgctxt "Video"
 msgid "No video in the selected range"
-msgstr "选择范围内无视频"
+msgstr "选定范围内无视频"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
@@ -1180,7 +1185,7 @@ msgstr "无"
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Normal"
-msgstr "标准"
+msgstr "常规"
 
 #: project/editing/projectedittasks.cpp
 msgctxt "AudioEdit"
@@ -1190,12 +1195,12 @@ msgstr "音频标准化"
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Not all tracks could be added to the audio disc, because an audio disc can only be 80 minutes long."
-msgstr "并非所有音轨都可添加至音频光碟，因为一张音频光碟最多只有80分钟。"
+msgstr "并非所有音轨都能添加至音频光盘，因为一张音频光碟最多只有80分钟。"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Not all tracks could be added to the audio disc, because an audio disc can only contain up to 99 tracks."
-msgstr "并非所有音轨都可添加至音频光碟，因为一张音频光碟最多只可以容纳99个音轨。"
+msgstr "并非所有音轨都能添加至音频光盘，因为一张音频光盘最多只能容纳99个音轨。"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -1206,6 +1211,11 @@ msgstr "没有任何输出。请先选择格式并设置循环或标记。"
 msgctxt "StemRenderer"
 msgid "Nothing to export. Please select one or more tracks and set Loop or Markers."
 msgstr "无可导出的内容。请选择一条或多条音轨并设置循环或标记。"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Offline"
+msgstr "离线"
 
 #: show/editing/globaltracklistcomponent.cpp
 msgctxt "Command"
@@ -1235,22 +1245,22 @@ msgstr "打开视频轨"
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
 msgid "Opening the CD Burning Engine failed."
-msgstr "打开CD刻录引擎失败"
+msgstr "打开CD刻录引擎失败。"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Original"
-msgstr "原创"
+msgstr "原始格式"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Pages"
-msgstr "页面"
+msgstr "总谱"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Paint Tool"
-msgstr "描绘工具"
+msgstr "绘制工具"
 
 #: song/songcontroller.cpp
 msgctxt "Command"
@@ -1260,12 +1270,12 @@ msgstr "粘贴"
 #: show/editing/setlistiteminspector.cpp show/editing/showplayerinspector.cpp
 msgctxt "PatchList"
 msgid "Patch"
-msgstr " 修补"
+msgstr "补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Patch"
-msgstr " 修补"
+msgstr "补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
@@ -1280,22 +1290,22 @@ msgstr "暂停"
 #: show/document/performancecomponent.cpp
 msgctxt "Command"
 msgid "Perform"
-msgstr " 表演"
+msgstr "演出"
 
 #: show/editing/setlistiteminspector.cpp
 msgctxt "PatchList"
 msgid "Player"
-msgstr " 播放器"
+msgstr "播放器"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Player"
-msgstr " 播放器"
+msgstr "播放器"
 
 #: show/editing/showdraghandler.cpp
 msgctxt "ShowDragHandler"
 msgid "Player \"%(1)\""
-msgstr " 播放器 \"%(1)\""
+msgstr "播放器“%(1)”"
 
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "PlayerList"
@@ -1305,12 +1315,12 @@ msgstr "播放器编号"
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
 msgid "Please ensure that no files or devices are missing!"
-msgstr "请确保没有缺失设备和文件!"
+msgstr "请确保没有缺失设备和文件！"
 
 #: project/publish/burnerdialog.cpp
 msgctxt "BurnerDialog"
 msgid "Please erase the CD or insert a blank one"
-msgstr "请擦除CD内容或插入空白CD。"
+msgstr "请擦除CD或插入空白CD"
 
 #: project/publish/burnerdialog.cpp
 msgctxt "BurnerDialog"
@@ -1340,17 +1350,17 @@ msgstr "正在准备..."
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Previous Patch"
-msgstr " 前一个补丁"
+msgstr "前一个补丁"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Previous Player"
-msgstr "上一个玩家"
+msgstr "上一个播放器"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Previous Setlist Item"
-msgstr " 前一个曲目项"
+msgstr "前一个曲目项"
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Command"
@@ -1363,8 +1373,8 @@ msgid "Print"
 msgstr "打印"
 
 #: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp project/publish/ddpimagemaker.cpp
-#: project/publish/projectburner.cpp project/publish/audiofilepublisher.cpp
+#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
+#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
 #: project/publish/imagemaker.cpp
 msgctxt "Command"
 msgid "Project"
@@ -1388,12 +1398,17 @@ msgstr "项目设置"
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Real Instrument"
-msgstr " 真正乐器"
+msgstr "真实乐器"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Realtime"
+msgstr "实时"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Rebuild Score"
-msgstr "重建分数"
+msgstr "重建乐谱"
 
 #: shared/artistdatamanager.cpp
 msgctxt "Command"
@@ -1403,12 +1418,12 @@ msgstr "移除"
 #: shared/artistdatamanager.cpp
 msgctxt "Artist"
 msgid "Remove Artist '%(1)'"
-msgstr "移除艺术家 '%(1)'"
+msgstr "移除艺术家“%(1)”"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Remove Backing Track"
-msgstr " 移除伴奏"
+msgstr "移除伴奏"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -1423,30 +1438,30 @@ msgstr "移除标记"
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Remove Patch"
-msgstr " 移除补丁"
+msgstr "移除补丁"
 
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
 msgid "Remove Player"
-msgstr " 移除播放器"
+msgstr "移除播放器"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Remove Player"
-msgstr " 移除播放器"
+msgstr "移除播放器"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Remove Setlist Item"
-msgstr " 移除曲目项"
+msgstr "移除曲目项"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Remove Setlist Item"
-msgstr " 移除曲目项"
+msgstr "移除曲目项"
 
-#: project/document/projectcomponent.cpp song/songcontroller.cpp
-#: song/songvideohandler.cpp
+#: project/document/projectcomponent.cpp song/songvideohandler.cpp
+#: song/songcontroller.cpp
 msgctxt "Command"
 msgid "Remove Track"
 msgstr "移除音轨"
@@ -1459,22 +1474,22 @@ msgstr "移除音轨"
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Rename Patch"
-msgstr " 重新命名补丁"
+msgstr "重新命名补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Rename Patch"
-msgstr " 重新命名补丁"
+msgstr "重新命名补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Rename Patch \"%(1)\""
-msgstr " 重新命名补丁 \"%(1)\"……"
+msgstr "重命名补丁 “%(1)”"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Rename Player"
-msgstr " 重新命名播放器"
+msgstr "重新命名播放器"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -1484,7 +1499,7 @@ msgstr "重命名音轨"
 #: song/clickrenderer.cpp
 msgctxt "ClickRenderer"
 msgid "Render Click"
-msgstr "渲染节拍"
+msgstr "渲染节拍器声音"
 
 #: song/songcontroller.cpp
 msgctxt "Command"
@@ -1494,17 +1509,17 @@ msgstr "渲染节拍"
 #: song/songvideorenderer.cpp
 msgctxt "Video"
 msgid "Rendering Audio..."
-msgstr "正在渲染音频…"
+msgstr "正在渲染音频..."
 
 #: song/clickrenderer.cpp
 msgctxt "ClickRenderer"
 msgid "Rendering Click"
-msgstr "正在渲染节拍"
+msgstr "正在渲染节拍器声音"
 
 #: song/selectionrenderer.cpp
 msgctxt "Song"
 msgid "Rendering Selection..."
-msgstr "正在渲染选择..."
+msgstr "正在渲染所选..."
 
 #: project/editing/projectdraghandler.cpp
 msgctxt "ProjectEditHandler"
@@ -1514,7 +1529,7 @@ msgstr "替换事件"
 #: project/editing/projectdraghandler.cpp
 msgctxt "ProjectEditHandler"
 msgid "Replace Event (keep length)"
-msgstr "替换记录 (保持长度)"
+msgstr "替换事件（保持时长）"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -1524,12 +1539,12 @@ msgstr "替换文件"
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Reset Default Patch"
-msgstr " 重设默认补丁"
+msgstr "重置默认补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Reset Default Patch"
-msgstr " 重设默认补丁"
+msgstr "重置默认补丁"
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Command"
@@ -1564,17 +1579,17 @@ msgstr "Ripple编辑"
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Save Patch"
-msgstr " 保存补丁"
+msgstr "保存补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Save Patch"
-msgstr " 保存补丁"
+msgstr "保存补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Save Patch"
-msgstr " 保存补丁"
+msgstr "保存补丁"
 
 #: score/scoreeditor.cpp
 msgctxt "Command"
@@ -1599,17 +1614,17 @@ msgstr "全选"
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Select All in Staff"
-msgstr " 选择乐谱中所有内容"
+msgstr "选择乐谱中所有内容"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
 msgid "Select All on Tracks"
-msgstr "音轨全选"
+msgstr "选择轨道上的所有"
 
 #: score/scoreeditor.cpp
 msgctxt "Command"
 msgid "Select All on Tracks"
-msgstr "音轨全选"
+msgstr "选择轨道上的所有"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "ShowEditComponent"
@@ -1619,7 +1634,7 @@ msgstr "在素材池中选择"
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Mute Patch"
-msgstr " 选择静音补丁"
+msgstr "选择静音补丁"
 
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
@@ -1634,52 +1649,52 @@ msgstr "选择补丁"
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 1"
-msgstr " 选择补丁 1"
+msgstr "选择补丁 1"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 10"
-msgstr " 选择补丁 10"
+msgstr "选择补丁 10"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 2"
-msgstr " 选择补丁 2"
+msgstr "选择补丁 2"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 3"
-msgstr " 选择补丁 3"
+msgstr "选择补丁 3"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 4"
-msgstr " 选择补丁 4"
+msgstr "选择补丁 4"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 5"
-msgstr " 选择补丁 5"
+msgstr "选择补丁 5"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 6"
-msgstr " 选择补丁 6"
+msgstr "选择补丁 6"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 7"
-msgstr " 选择补丁 7"
+msgstr "选择补丁 7"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 8"
-msgstr " 选择补丁 8"
+msgstr "选择补丁 8"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Select Patch 9"
-msgstr " 选择补丁 9"
+msgstr "选择补丁 9"
 
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "PlayerList"
@@ -1694,52 +1709,52 @@ msgstr "选择播放器"
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 1"
-msgstr "选择玩家1"
+msgstr "选择播放器 1"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 10"
-msgstr "选择玩家10"
+msgstr "选择播放器 10"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 2"
-msgstr "选择玩家2"
+msgstr "选择播放器 2"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 3"
-msgstr "选择玩家 3"
+msgstr "选择播放器 3"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 4"
-msgstr "选择玩家4"
+msgstr "选择播放器 4"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 5"
-msgstr "选择玩家 5"
+msgstr "选择播放器 5"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 6"
-msgstr "选择玩家 6"
+msgstr "选择播放器 6"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 7"
-msgstr "选择玩家 7"
+msgstr "选择播放器 7"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 8"
-msgstr "选择玩家 8"
+msgstr "选择播放器 8"
 
 #: show/editing/showplayerlistcomponent.cpp show/shared/showuicomponentbase.cpp
 msgctxt "Command"
 msgid "Select Player 9"
-msgstr "选择玩家 9"
+msgstr "选择播放器 9"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Setlist"
@@ -1754,52 +1769,52 @@ msgstr "选择节目单项目"
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 1"
-msgstr " 选择曲目项 1"
+msgstr "选择曲目项 1"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 10"
-msgstr " 选择曲目项 10"
+msgstr "选择曲目项 10"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 2"
-msgstr " 选择曲目项 2"
+msgstr "选择曲目项 2"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 3"
-msgstr " 选择曲目项 3"
+msgstr "选择曲目项 3"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 4"
-msgstr " 选择曲目项 4"
+msgstr "选择曲目项 4"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 5"
-msgstr " 选择曲目项 5"
+msgstr "选择曲目项 5"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 6"
-msgstr " 选择曲目项 6"
+msgstr "选择曲目项 6"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 7"
-msgstr " 选择曲目项 7"
+msgstr "选择曲目项 7"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 8"
-msgstr " 选择曲目项 8"
+msgstr "选择曲目项 8"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Select Setlist Item 9"
-msgstr " 选择曲目项 9"
+msgstr "选择曲目项 9"
 
 #: show/editing/showeditcomponent.cpp
 msgctxt "Command"
@@ -1809,22 +1824,22 @@ msgstr "在素材池中选择"
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Set \"%(1)\" as Default Patch"
-msgstr " 将 \"%(1)\" 设置为默认补丁"
+msgstr "将“%(1)”设置为默认补丁"
 
 #: song/songcontroller.cpp
 msgctxt "Song"
 msgid "Set Bar Offset to Cursor"
-msgstr " 将小节偏移量设置为光标"
+msgstr "将小节数偏移到光标处"
 
 #: song/songcontroller.cpp
 msgctxt "Command"
 msgid "Set Bar Offset to Cursor"
-msgstr " 将小节偏移量设置为光标"
+msgstr "将小节数偏移到光标处"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Set Current as Default Patch"
-msgstr " 将当前设置设为默认补丁"
+msgstr "将当前设置设为默认补丁"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1849,7 +1864,7 @@ msgstr "设置标记"
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Set Meta Info"
-msgstr " 设置元信息"
+msgstr "设置元信息"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
@@ -1859,22 +1874,22 @@ msgstr "设置回放模式"
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Set Playback Mode Continue"
-msgstr " 将播放模式设置为继续"
+msgstr "将播放模式设置为继续"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Set Playback Mode Loop"
-msgstr " 将播放模式设置为循环"
+msgstr "将播放模式设置为循环"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Set Playback Mode Stop at End"
-msgstr " 将播放模式设置为播放最后一首后结束"
+msgstr "将播放模式设置为“在结尾处停止”"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Set Player"
-msgstr " 设置播放器"
+msgstr "设置播放器"
 
 #: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
@@ -1904,37 +1919,37 @@ msgstr "设置章节回放模式 在结尾处停止"
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Set Setlist Item Duration"
-msgstr " 设置曲目项时长"
+msgstr "设置曲目项时长"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Set Setlist Item Key Signature"
-msgstr " 设置曲目项调号"
+msgstr "设置曲目项调号"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Set Setlist Item Pause"
-msgstr " 设置曲目项停顿"
+msgstr "设置曲目项停顿"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Set Setlist Item Playback Mode"
-msgstr " 设置曲目项播放模式"
+msgstr "设置曲目项播放模式"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Set Setlist Item Tempo"
-msgstr " 设置曲目项节奏"
+msgstr "设置曲目项速度"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Set Setlist Item Time Signature"
-msgstr " 设置曲目项拍号"
+msgstr "设置曲目项拍号"
 
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Set Setlist Item Title"
-msgstr " 设置曲目项标题"
+msgstr "设置曲目项标题"
 
 #: song/songmarker.cpp
 msgctxt "Command"
@@ -1949,12 +1964,12 @@ msgstr "设置文本字体"
 #: song/songcontroller.cpp
 msgctxt "Song"
 msgid "Set Time Offset to Cursor"
-msgstr "设置光标的时间偏移"
+msgstr "将 0 时刻设置到光标处"
 
 #: song/songcontroller.cpp
 msgctxt "Command"
 msgid "Set Time Offset to Cursor"
-msgstr "设置光标的时间偏移"
+msgstr "将 0 时刻设置到光标处"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -1988,7 +2003,7 @@ msgstr "显示包络"
 #: show/document/showcomponent.cpp
 msgctxt "Show"
 msgid "Show Setup"
-msgstr " 显示设置"
+msgstr "显示设置"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -2023,15 +2038,15 @@ msgstr "独奏"
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "Some items will be exported in stereo because their speaker setup is not supported by the selected format."
-msgstr "某些项目将以立体声输出，因为所选格式不支持其扬声器设置。"
-
-#: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
-msgctxt "Command"
-msgid "Song"
-msgstr "乐曲"
+msgstr "某些项目将以立体声输出，因为选定格式不支持其扬声器设置。"
 
 #: song/songdocument.cpp
 msgctxt "Engine"
+msgid "Song"
+msgstr "乐曲"
+
+#: song/songmaster.cpp song/songvideohandler.cpp song/songcontroller.cpp
+msgctxt "Command"
 msgid "Song"
 msgstr "乐曲"
 
@@ -2043,12 +2058,12 @@ msgstr "乐曲设置"
 #: song/songvideohandler.cpp
 msgctxt "Video"
 msgid "Song alreay has the same frame rate %(1) as the video file."
-msgstr "歌曲已经有相同的帧率%(1)作为视频文件。"
+msgstr "乐曲帧率%(1)已经与视频文件相同。"
 
 #: song/songvideohandler.cpp
 msgctxt "Video"
 msgid "Song frame rate set to %(1)."
-msgstr "歌曲帧速率设置为 %(1)。"
+msgstr "乐曲帧率设置为 %(1)。"
 
 #: show/editing/showplayerlistcomponent.cpp
 msgctxt "Command"
@@ -2063,7 +2078,7 @@ msgstr "空间音频设置"
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "Speakers"
-msgstr "扬声器"
+msgstr "扬声器格式"
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
@@ -2073,7 +2088,7 @@ msgstr "在光标处拆分事件"
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Split Mono"
-msgstr "分体式单声道/分割单声道"
+msgstr "拆分到单声道"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -2103,7 +2118,7 @@ msgstr "在光标处拆分音轨"
 #: project/publish/projectburner.cpp
 msgctxt "ProjectBurner"
 msgid "Start to burn audio disc at %(1) times"
-msgstr "开始%(1)倍速刻录音频光碟"
+msgstr "开始%(1)倍速刻录音频光盘"
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
@@ -2113,7 +2128,7 @@ msgstr "开始%(1)倍速写入DDP映像"
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
 msgid "Start: %(1) (%(2))\nPause: %(3)"
-msgstr "开始：%(1) (%(2)) \n暂停：%(3)"
+msgstr "开始：%(1)（%(2)） \n暂停：%(3)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2123,7 +2138,7 @@ msgstr "立体声"
 #: show/model/setlist.cpp
 msgctxt "SetListItem"
 msgid "Stop at End"
-msgstr " 播放最后一首后结束"
+msgstr "在结尾处停止"
 
 #: song/songsetup.cpp
 msgctxt "SongSetup"
@@ -2138,22 +2153,22 @@ msgstr "存储轨道预设"
 #: song/trackpresetcomponent.cpp
 msgctxt "Command"
 msgid "Store Track Preset"
-msgstr "存储轨道预设"
+msgstr "保存轨道预设"
 
 #: song/songsetup.cpp
 msgctxt "SongSetup"
 msgid "Surround"
-msgstr "环绕"
+msgstr "环绕声"
 
 #: song/songdocument.cpp
 msgctxt "Engine"
 msgid "THIS SONG CONTAINS COPYRIGHTED MATERIAL. YOU MUST NOT USE ANY MATERIAL WITHOUT THE AUTHORS AGREEMENT."
-msgstr "此乐曲包含版权素材，未经作者许可，不得使用这些素材!"
+msgstr "此乐曲包含版权素材，未经作者许可，不得使用这些素材。"
 
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
 msgid "The Bus Channel '%(1)' cannot be transformed"
-msgstr "总线通道'%(1)' 无法转换"
+msgstr "总线通道“%(1)”无法转换"
 
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
@@ -2163,12 +2178,12 @@ msgstr "总线通道源不包含音频。"
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
 msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr "EAN码格式不正确。\n\n应为13个字符并只包含数字。\n\n例如: 036000291452\n\n如果你有一个UPC码，则只需在前面增加一个0即可得到有效的EAN码。"
+msgstr "EAN码格式不正确。\n\n应为13个字符并只包含数字。\n\n例如：036000291452\n\n如果您有一个UPC码，则只需在前面添加一个0即可得到有效的EAN码。"
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
 msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
-msgstr "ISRC编码格式不正确。\n\n应为12个字符且仅包含字母和数字。\n\n例如: USPR37300012"
+msgstr "ISRC编码格式不正确。\n\n应为12个字符且仅包含字母和数字。\n\n例如：USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2178,7 +2193,7 @@ msgstr "音频编解码器不支持当前的采样速率。采样率须转换至
 #: song/songvideorenderer.cpp
 msgctxt "Video"
 msgid "The audio codec does not support the output speaker format. It will be converted to %(1)."
-msgstr "音频编解码器不支持输出音箱格式。将转换为 %(1)。"
+msgstr "音频编解码器不支持输出的扬声器格式。将转换为 %(1)。"
 
 #: project/publish/burnerdialog.cpp
 msgctxt "BurnerDialog"
@@ -2188,17 +2203,22 @@ msgstr "无法打开设备"
 #: song/publisherselector.cpp
 msgctxt "Engine"
 msgid "The file format will be reset to \"%(1)\"."
-msgstr "此文件格式将被设置为 \"%(1)\"。"
+msgstr "此文件格式将被设置为“%(1)”。"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "The following channels and devices require realtime processing and will be excluded from mixdown"
+msgstr "以下通道和设备需要实时处理，将被排除在混音之外"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
 msgid "The following files failed to update:"
-msgstr "以下文件更新失败: "
+msgstr "以下文件更新失败："
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "The following issues occurred during export:"
-msgstr " 导出期间出现下列问题："
+msgstr "导出期间出现下列问题："
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
@@ -2218,7 +2238,7 @@ msgstr "所选格式不支持 %(1)"
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "The selected format does not support %(1). The format will be exported in stereo."
-msgstr "所选格式不支持 %(1)。格式将以立体声输出。"
+msgstr "所选格式不支持 %(1)。将以立体声输出。"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
@@ -2228,22 +2248,27 @@ msgstr "将先保存乐曲。\n"
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
 msgid "The transformed Channel '%(1)' contains protected content."
-msgstr "转换后的通道'%(1)'包含受保护的内容。"
+msgstr "转换后的通道“%(1)”包含受保护的内容。"
 
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
 msgid "The transformed Channel '%(1)' has a Send outside the transformed Bus."
-msgstr "转换后的通道'%(1)'在转换后的总线外部有一个发送。"
+msgstr "转换后的通道“%(1)”在转换后的总线外部有一个发送。"
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The transformed Track '%(1)' is using Launcher Cell Playback."
+msgstr "转换后的轨道 '%(1)' 正在使用启动器单元播放。"
 
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
 msgid "The untransformed Channel '%(1)' has a Send to the transformed Bus."
-msgstr "未转换的通道'%(1)'有一个发送在转换后的总线上。"
+msgstr "未转换的通道“%(1)”有一个发送在转换后的总线上。"
 
 #: project/publish/imagemaker.cpp
 msgctxt "ImageMaker"
 msgid "There was an error during the image creation!"
-msgstr "创建映像期间出现错误!"
+msgstr "创建映像期间出现错误！"
 
 #: project/publish/projectpublisher.cpp
 msgctxt "ProjectPublisher"
@@ -2273,12 +2298,12 @@ msgstr "切换音符或休止符"
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Toggle Playback Mode Loop / Continue"
-msgstr " 切换播放模式 循环/继续"
+msgstr "切换播放模式 循环/继续"
 
 #: show/editing/setlistcomponent.cpp
 msgctxt "Command"
 msgid "Toggle Playback Mode Loop / Stop at End"
-msgstr " 切换播放模式 循环/曲终结束"
+msgstr "切换播放模式：循环/在结尾处停止"
 
 #: show/document/performancecomponent.cpp show/editing/showeditcomponent.cpp
 msgctxt "Command"
@@ -2288,7 +2313,7 @@ msgstr "切换部分播放模式 循环/继续播放"
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Command"
 msgid "Toggle Snap"
-msgstr "吸附切换"
+msgstr "切换吸附"
 
 #: project/publish/audiodiscpublisher.cpp
 msgctxt "AudioDiscPublisher"
@@ -2298,7 +2323,7 @@ msgstr "总播放时间"
 #: application/song/audiobustransform.cpp
 #: project/editing/projecteditcomponent.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
-#: song/songcontroller.cpp song/trackpresetcomponent.cpp
+#: song/trackpresetcomponent.cpp song/songcontroller.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "音轨"
@@ -2351,7 +2376,7 @@ msgstr "音轨"
 #: song/stemrenderer.cpp
 msgctxt "StemRenderer"
 msgid "Tracks"
-msgstr "音轨"
+msgstr "轨道"
 
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
@@ -2416,22 +2441,22 @@ msgstr "更新母带文件"
 #: show/model/showfunctions.cpp
 msgctxt "ShowFunctions"
 msgid "Update Patch"
-msgstr " 更新补丁"
+msgstr "更新补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Update Patch"
-msgstr " 更新补丁"
+msgstr "更新补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Command"
 msgid "Update Patch"
-msgstr " 更新补丁"
+msgstr "更新补丁"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Update Patch \"%(1)\""
-msgstr " 更新补丁 \"%(1)\""
+msgstr "更新补丁“%(1)”"
 
 #: project/model/projectfunctions.cpp
 msgctxt "ProjectFunctions"
@@ -2441,7 +2466,7 @@ msgstr "更新标题"
 #: song/songmaster.cpp
 msgctxt "SongMaster"
 msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
-msgstr "更新此歌曲的母带文件:\n%(6)\n输出: %(1)\n时长: %(3)\n分辨率: %(4)\n实时进度: %(5)\n包含主效果: %(7)\n文件名: %(2)"
+msgstr "更新此乐曲的母带文件：\n%(6)\n输出：%(1)\n时长：%(3)\n分辨率：%(4)\n实时处理：%(5)\n包含母带效果器：%(7)\n文件名：%(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2451,12 +2476,12 @@ msgstr "更新已取消。"
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
 msgid "Updated %(1) of %(2) mastering files in %(3)."
-msgstr "已更新%(3)中的母带文件(%(1)/%(2))。"
+msgstr "已更新%(3)中的母带文件（%(1)/%(2)）。"
 
 #: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Use Video Frame Rate in Timeline"
-msgstr "在时间轴上使用视频帧率"
+msgstr "在时间线上使用视频帧率"
 
 #: project/publish/audiofilepublisher.cpp
 msgctxt "AudioFilePublisher"
@@ -2486,17 +2511,17 @@ msgstr "视频默认大小"
 #: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Video Size Double"
-msgstr "视频双倍大小"
+msgstr "视频大小加倍"
 
 #: song/songvideohandler.cpp
 msgctxt "Command"
 msgid "Video Size Half"
-msgstr "视频一半大小"
+msgstr "视频大小减半"
 
 #: song/songvideohandler.cpp
 msgctxt "Video"
 msgid "Video frame rate %(1) is not supported as song frame rate."
-msgstr "视频帧率 %(1) 不支持歌曲帧率。"
+msgstr "视频帧率 %(1) 不支持作为乐曲帧率。"
 
 #: show/editing/globaltracklistcomponent.cpp song/songmarker.cpp
 #: song/songvideohandler.cpp
@@ -2507,12 +2532,17 @@ msgstr "查看"
 #: show/model/showplayer.cpp
 msgctxt "Player"
 msgid "Virtual Instrument"
-msgstr " 虚拟乐器"
+msgstr "虚拟乐器"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Warning: Devices that require realtime processing will be excluded from mixdown"
+msgstr "警告：需要实时处理的设备将会被排除到混音之外"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Warning: No active launcher cells. Export is silent."
-msgstr "警告:没有活动的启动单元。导出无响应。"
+msgstr "警告：没有激活的启动器单元。导出为静音。"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2537,7 +2567,7 @@ msgstr "缩放"
 #: show/editing/showdraghandler.cpp
 msgctxt "ShowDragHandler"
 msgid "new Player"
-msgstr " 新播放器"
+msgstr "新播放器"
 
 #~ msgctxt "StemRenderer"
 #~ msgid "Speaker"
@@ -2705,7 +2735,7 @@ msgstr " 新播放器"
 
 #~ msgctxt "Command"
 #~ msgid "Recall Marker 15"
-#~ msgstr "调出标记r 15"
+#~ msgstr "调出标记 15"
 
 #~ msgctxt "Command"
 #~ msgid "Recall Marker 16"
@@ -2781,7 +2811,7 @@ msgstr " 新播放器"
 
 #~ msgctxt "Edit"
 #~ msgid "Split at Cursor"
-#~ msgstr "在指针处分割"
+#~ msgstr "在光标处拆分"
 
 #~ msgctxt "Project"
 #~ msgid "Reset Marker"

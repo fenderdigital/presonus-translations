@@ -24,13 +24,13 @@ msgctxt "AppStoreWelcome.Intro"
 msgid "$APPCOMPANY offers additonal content and third-party plug-ins for $APPNAME. To authorize these items, please take the following steps, either now or any time later:"
 msgstr "$APPCOMPANYは、$APPNAME用の追加コンテンツとサードパーティ製プラグインを提供します。これらのアイテムをオーソライズするには、今すぐまたは後ほど次の手順に従ってください。"
 
-#: app/options.xml
-msgctxt "SoundSetOption"
+#: app/licenser.xml
+msgctxt "AppStoreWelcome"
 msgid "$APPNAME"
 msgstr "$APPNAME"
 
-#: app/licenser.xml
-msgctxt "AppStoreWelcome"
+#: app/options.xml
+msgctxt "SoundSetOption"
 msgid "$APPNAME"
 msgstr "$APPNAME"
 
@@ -144,21 +144,6 @@ msgctxt "ChildActionButton"
 msgid "$actionTitle"
 msgstr "$actionTitle"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "InstallOptions"
-msgid "$description"
-msgstr "$description"
-
-#: ccl/packages/packagemanager.xml
-msgctxt "CompactPackageInfo"
-msgid "$description"
-msgstr "$description"
-
-#: ccl/packages/packagemanager.xml
-msgctxt "ChildrenListItemCompactContent"
-msgid "$description"
-msgstr "$description"
-
 #: ccl/common.xml
 msgctxt "DocumentDiagnosticTab"
 msgid "$description"
@@ -171,6 +156,21 @@ msgstr "$description"
 
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
+msgid "$description"
+msgstr "$description"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "InstallOptions"
+msgid "$description"
+msgstr "$description"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "CompactPackageInfo"
+msgid "$description"
+msgstr "$description"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "ChildrenListItemCompactContent"
 msgid "$description"
 msgstr "$description"
 
@@ -214,10 +214,10 @@ msgctxt "Command"
 msgid "$itemTitle"
 msgstr "$itemTitle"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "Messages"
-msgid "$message"
-msgstr "$message"
+#: ccl/pluginmanager.xml
+msgctxt "PriorityListItem"
+msgid "$itemTitle"
+msgstr "$itemTitle"
 
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
@@ -319,6 +319,11 @@ msgctxt "HUDPopup"
 msgid "$title"
 msgstr "$title"
 
+#: ccl/common.xml
+msgctxt "default.safetyoption"
+msgid "$title"
+msgstr "$title"
+
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageSort"
 msgid "$title"
@@ -354,18 +359,8 @@ msgctxt "SectionHeader"
 msgid "$title"
 msgstr "$title"
 
-#: ccl/common.xml
-msgctxt "default.safetyoption"
-msgid "$title"
-msgstr "$title"
-
-#: devices/surfaces.xml
-msgctxt "SurfaceEditorButton"
-msgid "$title"
-msgstr "$title"
-
-#: devices/surfaces.xml
-msgctxt "SurfaceEditorToggle"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageNotificationsItem"
 msgid "$title"
 msgstr "$title"
 
@@ -381,6 +376,16 @@ msgstr "$title"
 
 #: devices/musicdevices.xml
 msgctxt "MutableNoteRepeatSlider"
+msgid "$title"
+msgstr "$title"
+
+#: devices/surfaces.xml
+msgctxt "SurfaceEditorButton"
+msgid "$title"
+msgstr "$title"
+
+#: devices/surfaces.xml
+msgctxt "SurfaceEditorToggle"
 msgid "$title"
 msgstr "$title"
 
@@ -438,6 +443,11 @@ msgstr "$tooltip"
 msgctxt "MutableInspectorProperty"
 msgid "$tooltip2"
 msgstr "$tooltip2"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageVendor"
+msgid "$vendorName"
+msgstr "$vendorName"
 
 #: devices/audiofxeditor.xml
 msgctxt "InsertSpeakerMap"
@@ -504,11 +514,6 @@ msgctxt "MultitrackPropertyEditor"
 msgid "+"
 msgstr "+"
 
-#: engine/automation.xml
-msgctxt "AutomationTrackDialog"
-msgid "+"
-msgstr "+"
-
 #: engine/musicdialogs.xml
 msgctxt "PitchNameEditor"
 msgid "+"
@@ -516,6 +521,11 @@ msgstr "+"
 
 #: engine/quantize.xml
 msgctxt "QuantizeSetup.PresetPart"
+msgid "+"
+msgstr "+"
+
+#: engine/automation.xml
+msgctxt "AutomationTrackDialog"
 msgid "+"
 msgstr "+"
 
@@ -539,11 +549,6 @@ msgctxt "SoundSetOption"
 msgid "..."
 msgstr "..."
 
-#: ccl/packages/packagemanager.xml
-msgctxt "InstallOptions"
-msgid "..."
-msgstr "..."
-
 #: ccl/common.xml
 msgctxt "ContentLocationOption"
 msgid "..."
@@ -556,6 +561,11 @@ msgstr "..."
 
 #: ccl/common.xml
 msgctxt "NewDocumentNameAndPath"
+msgid "..."
+msgstr "..."
+
+#: ccl/packages/packagemanager.xml
+msgctxt "InstallOptions"
 msgid "..."
 msgstr "..."
 
@@ -1149,6 +1159,11 @@ msgctxt "LauncherSourceSelectorColumn"
 msgid "@cmd.title[Track|Toggle Cell Playback Active]"
 msgstr "@cmd.title[Track|Toggle Cell Playback Active]"
 
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "@cmd.title[Transport|Autopunch]"
+msgstr "@cmd.title[Transport|Autopunch]"
+
 #: engine/song.xml
 msgctxt "SongToolbarContent"
 msgid "@cmd.title[Transport|Cursor follows Edit Position]"
@@ -1158,6 +1173,11 @@ msgstr "@cmd.title[Transport|Cursor follows Edit Position]"
 msgctxt "TransportPanel.Sync"
 msgid "@cmd.title[Transport|External Sync Options]"
 msgstr "@cmd.title[Transport|External Sync Options]"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "@cmd.title[Transport|Postroll]"
+msgstr "@cmd.title[Transport|Postroll]"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
@@ -1174,8 +1194,13 @@ msgctxt "Metronome"
 msgid "@cmd.title[Transport|Precount]"
 msgstr "@cmd.title[Transport|Precount]"
 
-#: devices/transport.xml
-msgctxt "Metronome"
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "@cmd.title[Transport|Precount]"
+msgstr "@cmd.title[Transport|Precount]"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
 msgid "@cmd.title[Transport|Preroll]"
 msgstr "@cmd.title[Transport|Preroll]"
 
@@ -1389,6 +1414,11 @@ msgctxt "EditorToolBar"
 msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
 msgstr "@cmd.title[Zoom|Toggle Auto Zoom]"
 
+#: engine/editor.xml
+msgctxt "MusicPatternToolsHeader"
+msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
+msgstr "@cmd.title[Zoom|Toggle Auto Zoom]"
+
 #: engine/song.xml
 msgctxt "SongToolbarContent"
 msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
@@ -1409,13 +1439,13 @@ msgctxt "PerspectiveSelector"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "PackageManager.Packages"
+#: ccl/browser.xml
+msgctxt "BrowserHomeContent"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageManager.Packages"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
@@ -1538,6 +1568,11 @@ msgstr "@cmd[Track|Instrument Input follows Selection]"
 msgctxt "InplaceOptions"
 msgid "@cmd[Track|Solo follows Selection]"
 msgstr "@cmd[Track|Solo follows Selection]"
+
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageNotificationsItem"
+msgid "@property:actionTitle[$index]"
+msgstr "@property:actionTitle[$index]"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageFilter"
@@ -1684,13 +1719,13 @@ msgctxt "Command"
 msgid "About"
 msgstr "情報"
 
-#: app/about.xml
-msgctxt "AboutApplication"
+#: app/homepage.xml
+msgctxt "HomePage"
 msgid "About $APPNAME"
 msgstr "$APPNAME について"
 
-#: app/homepage.xml
-msgctxt "HomePage"
+#: app/about.xml
+msgctxt "AboutApplication"
 msgid "About $APPNAME"
 msgstr "$APPNAME について"
 
@@ -1754,11 +1789,6 @@ msgctxt "ActivationMode.Retail"
 msgid "Activate"
 msgstr "アクティベート"
 
-#: devices/musicfxeditor.xml
-msgctxt "MusicFXRackSlotView"
-msgid "Activate"
-msgstr "アクティベート"
-
 #: devices/audiofxeditor.xml
 msgctxt "FXActivationControls"
 msgid "Activate"
@@ -1766,6 +1796,11 @@ msgstr "有効化"
 
 #: devices/audiofxeditor.xml
 msgctxt "SlotNodeEditHeader"
+msgid "Activate"
+msgstr "アクティベート"
+
+#: devices/musicfxeditor.xml
+msgctxt "MusicFXRackSlotView"
 msgid "Activate"
 msgstr "アクティベート"
 
@@ -2029,13 +2064,13 @@ msgctxt "BrowserFileTypesOption"
 msgid "Add..."
 msgstr "追加..."
 
-#: devices/musicdevices.xml
-msgctxt "MusicDeviceSetup"
+#: devices/audiomixer.xml
+msgctxt "AudioIOSetup"
 msgid "Add..."
 msgstr "追加..."
 
-#: devices/audiomixer.xml
-msgctxt "AudioIOSetup"
+#: devices/musicdevices.xml
+msgctxt "MusicDeviceSetup"
 msgid "Add..."
 msgstr "追加..."
 
@@ -2189,7 +2224,7 @@ msgctxt "Command"
 msgid "Append Scene"
 msgstr "シーンを追加"
 
-#: app/homepage.xml app/windowclasses.xml app/toolbar.xml
+#: app/homepage.xml app/toolbar.xml app/windowclasses.xml
 #: ccl/packages/packagemanager.xml
 msgctxt "Command"
 msgid "Application"
@@ -2550,6 +2585,11 @@ msgctxt "ChordSelectorParts"
 msgid "Augmented"
 msgstr "オーギュメント"
 
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Auto Punch"
+msgstr "自動パンチ"
+
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Auto Punch @cmd[Transport|Autopunch]"
@@ -2640,18 +2680,13 @@ msgctxt "ChannelOrganizerSetup"
 msgid "Automatically create busses for multi-out instruments"
 msgstr "マルチアウトインストゥルメント用のバスを自動作成"
 
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
+msgid "Automatically hide recently installed plug-in duplicates"
+msgstr "最近インストールしたプラグインの重複を自動で隠す"
+
 #: app/importsongdata.xml
 msgctxt "ImportSongDataOptions"
-msgid "Automation"
-msgstr "オートメーション"
-
-#: engine/automation.xml
-msgctxt "MusicEnvelopeDialog"
-msgid "Automation"
-msgstr "オートメーション"
-
-#: engine/automation.xml
-msgctxt "AutomationTrackDialog"
 msgid "Automation"
 msgstr "オートメーション"
 
@@ -2664,6 +2699,16 @@ msgstr "オートメーション"
 msgctxt "TrackInspectorAutomationControls"
 msgid "Automation"
 msgstr "ｵｰﾄﾒｰｼｮﾝ"
+
+#: engine/automation.xml
+msgctxt "MusicEnvelopeDialog"
+msgid "Automation"
+msgstr "オートメーション"
+
+#: engine/automation.xml
+msgctxt "AutomationTrackDialog"
+msgid "Automation"
+msgstr "オートメーション"
 
 #: devices/audiofxeditor.xml
 msgctxt "FXEditorHeaderRow2"
@@ -2807,6 +2852,11 @@ msgstr "小節"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
+msgid "Bars"
+msgstr "小節"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
 msgid "Bars"
 msgstr "小節"
 
@@ -3165,13 +3215,13 @@ msgctxt "SongCustomization"
 msgid "Cache Activity"
 msgstr "キャッシュアクティビティ"
 
-#: app/notion.xml
-msgctxt "SendToNotionInner"
+#: app/collaboration.xml
+msgctxt "CollaborationSnapshotDialog"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: app/collaboration.xml
-msgctxt "CollaborationSnapshotDialog"
+#: app/notion.xml
+msgctxt "SendToNotionInner"
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -3440,10 +3490,25 @@ msgctxt "ChordDisplay"
 msgid "Chord Display"
 msgstr "コード表示"
 
+#: engine/editor.xml
+msgctxt "ScoreSetup"
+msgid "Chord Display"
+msgstr "コード表示"
+
 #: engine/eventinspector.xml
 msgctxt "EditorChordsContent"
 msgid "Chord Display"
 msgstr "コード表示"
+
+#: engine/inspector.xml
+msgctxt "ChordTrackInspector"
+msgid "Chord Display"
+msgstr "コード表示"
+
+#: show/show.xml
+msgctxt "TrackControls.Chords"
+msgid "Chord Display Mode"
+msgstr "コードディスプレイ"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorMiniParts"
@@ -3635,13 +3700,13 @@ msgctxt "SpatialAudioEditorHeaderView"
 msgid "Close"
 msgstr "閉じる"
 
-#: devices/synthcombinator.xml
-msgctxt "CombinatorContentTitleBar"
+#: devices/audiomixer.xml
+msgctxt "MixerManager"
 msgid "Close"
 msgstr "閉じる"
 
-#: devices/audiomixer.xml
-msgctxt "MixerManager"
+#: devices/synthcombinator.xml
+msgctxt "CombinatorContentTitleBar"
 msgid "Close"
 msgstr "閉じる"
 
@@ -3660,13 +3725,13 @@ msgctxt "MusicScalePanelContent"
 msgid "Close"
 msgstr "閉じる"
 
-#: engine/recordpanel.xml
-msgctxt "RecordPanel"
+#: engine/videoplayer.xml
+msgctxt "VideoPlayer"
 msgid "Close"
 msgstr "閉じる"
 
-#: engine/videoplayer.xml
-msgctxt "VideoPlayer"
+#: engine/recordpanel.xml
+msgctxt "RecordPanel"
 msgid "Close"
 msgstr "閉じる"
 
@@ -4145,13 +4210,13 @@ msgctxt "SendToNotionInner"
 msgid "Create lead sheet"
 msgstr "リードシートを作成"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "PackageVendor"
+#: ccl/extensionmanager.xml
+msgctxt "ExtensionPropertiesInplace"
 msgid "Created by"
 msgstr "作成元"
 
-#: ccl/extensionmanager.xml
-msgctxt "ExtensionPropertiesInplace"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageVendor"
 msgid "Created by"
 msgstr "作成元"
 
@@ -4435,6 +4500,11 @@ msgctxt "CollaborationSnapshotDialog"
 msgid "Details"
 msgstr "詳細"
 
+#: engine/audioexport.xml
+msgctxt "SongExportRealtimeMode"
+msgid "Details..."
+msgstr "詳細…"
+
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.MarkerPart"
 msgid "Detection"
@@ -4560,10 +4630,10 @@ msgctxt "TransportPanel.PerformancePart"
 msgid "Disc Performance"
 msgstr "ディスク性能"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "Messages"
-msgid "Discard Message"
-msgstr "メッセージを破棄"
+#: show/show.xml
+msgctxt "TrackControls.Chords"
+msgid "Display"
+msgstr "ディスプレイ"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
@@ -6045,7 +6115,7 @@ msgctxt "SpectrumMeterSettings"
 msgid "Height"
 msgstr "高さ"
 
-#: app/about.xml app/homepage.xml app/toolbar.xml
+#: app/homepage.xml app/toolbar.xml app/about.xml
 msgctxt "Command"
 msgid "Help"
 msgstr "ヘルプ"
@@ -6065,7 +6135,17 @@ msgctxt "PlugInManager"
 msgid "Hide All"
 msgstr "すべて隠す"
 
-#: app/windowclasses.xml app/toolbar.xml
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
+msgid "Hide Duplicates"
+msgstr "重複を隠す"
+
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
+msgid "Hide duplicates on startup"
+msgstr "起動時に重複を隠す"
+
+#: app/toolbar.xml app/windowclasses.xml
 msgctxt "HistoryPanel"
 msgid "History"
 msgstr "履歴"
@@ -6325,13 +6405,13 @@ msgctxt "InspectorSectionVariation"
 msgid "Input Pitch"
 msgstr "入力ピッチ"
 
-#: engine/recordpanel.xml
-msgctxt "RecordPanel.Horizontal"
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Input Quantize"
 msgstr "入力クオンタイズ"
 
-#: engine/song.xml
-msgctxt "SongCustomization"
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
 msgid "Input Quantize"
 msgstr "入力クオンタイズ"
 
@@ -6665,6 +6745,11 @@ msgctxt "BrowserHomeContent"
 msgid "Instruments"
 msgstr "インストゥルメント"
 
+#: devices/audiomixer.xml
+msgctxt "ChannelSelector"
+msgid "Instruments"
+msgstr "インストゥルメント"
+
 #: devices/synthcombinator.xml
 msgctxt "SynthCombinatorEditNodeView"
 msgid "Instruments"
@@ -6674,11 +6759,6 @@ msgstr "インストゥルメント"
 msgctxt "SynthRack"
 msgid "Instruments"
 msgstr "ｲﾝｽﾄｩﾙﾒﾝﾄ"
-
-#: devices/audiomixer.xml
-msgctxt "ChannelSelector"
-msgid "Instruments"
-msgstr "インストゥルメント"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
@@ -6960,11 +7040,6 @@ msgctxt "SongCustomization"
 msgid "Layers"
 msgstr "レイヤー"
 
-#: engine/tracklistinspector.xml
-msgctxt "TrackListEmbeddedInspector"
-msgid "Layers"
-msgstr "レイヤー"
-
 #: engine/trackcontrols.xml
 msgctxt "TrackLayerSelector"
 msgid "Layers"
@@ -6972,6 +7047,11 @@ msgstr "レイヤー"
 
 #: engine/trackcontrols.xml
 msgctxt "TrackNameAndLayer"
+msgid "Layers"
+msgstr "レイヤー"
+
+#: engine/tracklistinspector.xml
+msgctxt "TrackListEmbeddedInspector"
 msgid "Layers"
 msgstr "レイヤー"
 
@@ -7955,13 +8035,13 @@ msgctxt "VideoPlayer"
 msgid "Mute Audio"
 msgstr "オーディオをミュート"
 
-#: ccl/pluginmanager.xml
-msgctxt "PlugInManager"
+#: ccl/common.xml
+msgctxt "NewDocumentNameAndPath"
 msgid "Name"
 msgstr "名前"
 
-#: ccl/common.xml
-msgctxt "NewDocumentNameAndPath"
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
 msgid "Name"
 msgstr "名前"
 
@@ -8198,12 +8278,12 @@ msgstr "オーバーラップなし"
 #: app/options.xml
 msgctxt "EditingOptionsContent"
 msgid "No overlap when editing events"
-msgstr "イベントの編集時に重複しない"
+msgstr "イベント編集時のオーバーラップなし"
 
 #: engine/song.xml
 msgctxt "InplaceOptions"
 msgid "No overlap when editing events"
-msgstr "イベントの編集時に重複しない"
+msgstr "イベント編集時のオーバーラップなし"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
@@ -8405,6 +8485,21 @@ msgctxt "SendToNotionNoTargets"
 msgid "Notion Mobile or Notion 6 and later, must be installed on this computer or in the network. Studio One could not detect that Notion is currently running."
 msgstr "このコンピューター上またはネットワーク内にNotion MobileまたはNotion 6以降がインストールされている必要があります。Studio OneはNotionが現在実行中であることを検出できませんでした。"
 
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Number of Bars used for Postroll"
+msgstr "ポストロールに使用された小節数"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Number of Bars used for Precount"
+msgstr "プリカウントに使用された小節数"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Number of Bars used for Preroll"
+msgstr "プリロールに使用された小節数"
+
 #: show/show.xml
 msgctxt "SetListItemSectionMiniProperties"
 msgid "Number of Repeats:"
@@ -8435,13 +8530,13 @@ msgctxt "UserLicenseDialog.OfflinePage"
 msgid "Offline Activation Guide"
 msgstr "オフラインアクティベーションガイド"
 
-#: app/soundselector.xml
-msgctxt "SoundSetFileSelector"
+#: app/homepage.xml
+msgctxt "Command"
 msgid "Open"
 msgstr "開く"
 
-#: app/homepage.xml
-msgctxt "Command"
+#: app/soundselector.xml
+msgctxt "SoundSetFileSelector"
 msgid "Open"
 msgstr "開く"
 
@@ -8555,6 +8650,11 @@ msgctxt "UserOptionDialog"
 msgid "Options"
 msgstr "オプション"
 
+#: devices/audiomixer.xml
+msgctxt "MixerManager"
+msgid "Options"
+msgstr "オプション"
+
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Options"
@@ -8562,11 +8662,6 @@ msgstr "オプション"
 
 #: devices/transport.xml
 msgctxt "PerformanceMonitor.Cache"
-msgid "Options"
-msgstr "オプション"
-
-#: devices/audiomixer.xml
-msgctxt "MixerManager"
 msgid "Options"
 msgstr "オプション"
 
@@ -8595,11 +8690,6 @@ msgctxt "TrackControlsButtonsHeader"
 msgid "Options"
 msgstr "オプション"
 
-#: project/burn.xml
-msgctxt "BurnerSelectDialog"
-msgid "Options"
-msgstr "オプション"
-
 #: project/audiofile.xml
 msgctxt "AudioFilePublisher"
 msgid "Options"
@@ -8607,6 +8697,11 @@ msgstr "オプション"
 
 #: project/audiofile.xml
 msgctxt "ImageMaker"
+msgid "Options"
+msgstr "オプション"
+
+#: project/burn.xml
+msgctxt "BurnerSelectDialog"
 msgid "Options"
 msgstr "オプション"
 
@@ -8690,13 +8785,13 @@ msgctxt "NewSongSettings"
 msgid "Output Speaker Format"
 msgstr "出力スピーカーフォーマット"
 
-#: devices/musicdevices.xml
-msgctxt "MusicDeviceEditorHeaderView"
+#: devices/audiomixer.xml
+msgctxt "AudioIOSetup"
 msgid "Outputs"
 msgstr "出力"
 
-#: devices/audiomixer.xml
-msgctxt "AudioIOSetup"
+#: devices/musicdevices.xml
+msgctxt "MusicDeviceEditorHeaderView"
 msgid "Outputs"
 msgstr "出力"
 
@@ -8718,12 +8813,12 @@ msgstr "オーバービュー"
 #: engine/drumeditor.xml
 msgctxt "DrumInstrumentButton"
 msgid "Pad Controls"
-msgstr "パンコントロール"
+msgstr "パッドコントロール"
 
 #: engine/drumeditor.xml
 msgctxt "DrumInstrumentControlsHeader"
 msgid "Pad Controls"
-msgstr "パンコントロール"
+msgstr "パッドコントロール"
 
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
@@ -9150,15 +9245,20 @@ msgctxt "PresetFileInfo"
 msgid "Plug-In:"
 msgstr "プラグイン:"
 
+#: ccl/common.xml
+msgctxt "ColorSchemeOption.Plugins"
+msgid "Plug-Ins"
+msgstr "プラグイン"
+
 #: ccl/pluginmanager.xml
 msgctxt "PlugInInfo"
 msgid "Plug-Ins"
 msgstr "プラグイン"
 
-#: ccl/common.xml
-msgctxt "ColorSchemeOption.Plugins"
-msgid "Plug-Ins"
-msgstr "プラグイン"
+#: ccl/pluginmanager.xml
+msgctxt "PlugInManager"
+msgid "Plug-in Format Priority"
+msgstr "プラグインフォーマット優先度"
 
 #: app/plugscanner.xml
 msgctxt "PlugInScanner"
@@ -9200,6 +9300,11 @@ msgctxt "StripSilencePanel.EventsPart"
 msgid "Post-Roll"
 msgstr "ポストロール"
 
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Postroll"
+msgstr "ポストロール"
+
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
 msgid "Power Chord"
@@ -9225,6 +9330,11 @@ msgctxt "Metronome"
 msgid "Precount"
 msgstr "プリカウント"
 
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Precount"
+msgstr "プリカウント"
+
 #: devices/transport.xml
 msgctxt "Metronome"
 msgid "Precount / Preroll Bars"
@@ -9240,8 +9350,8 @@ msgctxt "InspectorSectionFolder"
 msgid "Prepend Name to Variations"
 msgstr "バリエーションの先頭に名前を追加"
 
-#: devices/transport.xml
-msgctxt "Metronome"
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
 msgid "Preroll"
 msgstr "プリロール"
 
@@ -9360,6 +9470,11 @@ msgctxt "AudioSetup.Engine"
 msgid "Processing"
 msgstr "プロセッシング"
 
+#: engine/audioexport.xml
+msgctxt "SongExportRealtimeMode"
+msgid "Processing"
+msgstr "プロセッシング"
+
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.SpliceActivation"
 msgid "Product Key"
@@ -9464,6 +9579,11 @@ msgstr "公開"
 msgctxt "ImageMaker"
 msgid "Publishing"
 msgstr "公開"
+
+#: engine/recordpanel.xml
+msgctxt "RecordPanel.Horizontal"
+msgid "Punch - Pre-/Postroll"
+msgstr "パンチ - プリ/ポストロール"
 
 #: app/licenser.xml
 msgctxt "UserLicenseExpired"
@@ -9644,6 +9764,11 @@ msgstr "リード"
 msgctxt "AddPlayerDialog"
 msgid "Real Instrument"
 msgstr "リアルインストゥルメント"
+
+#: engine/audioexport.xml
+msgctxt "SongExportRealtimeMode"
+msgid "Realtime processing suppressed"
+msgstr "リアルタイムプロセッシング抑制"
 
 #: devices/editgroups.xml
 msgctxt "SnapshotRecallOptionsContent"
@@ -9875,6 +10000,11 @@ msgctxt "PlugInManager"
 msgid "Remove"
 msgstr "削除"
 
+#: devices/audiomixer.xml
+msgctxt "AudioIOSetup"
+msgid "Remove"
+msgstr "削除"
+
 #: devices/musicdevices.xml
 msgctxt "MusicDeviceSetup"
 msgid "Remove"
@@ -9882,11 +10012,6 @@ msgstr "削除"
 
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
-msgid "Remove"
-msgstr "削除"
-
-#: devices/audiomixer.xml
-msgctxt "AudioIOSetup"
 msgid "Remove"
 msgstr "削除"
 
@@ -10219,11 +10344,6 @@ msgstr "休符"
 msgctxt "MusicStepRecordPanel"
 msgid "Rest"
 msgstr "休符"
-
-#: ccl/packages/packagemanager.xml
-msgctxt "Messages"
-msgid "Restart now"
-msgstr "今すぐ再起動"
 
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.MarkerPart"
@@ -11920,13 +12040,13 @@ msgctxt "ShowTransport"
 msgid "Start @cmd[Transport|Start]"
 msgstr "スタート @cmd[Transport|Start]"
 
-#: app/windowclasses.xml
-msgctxt "Start"
+#: app/toolbar.xml
+msgctxt "Command"
 msgid "Start Page"
 msgstr "スタートページ"
 
-#: app/toolbar.xml
-msgctxt "Command"
+#: app/windowclasses.xml
+msgctxt "Start"
 msgid "Start Page"
 msgstr "スタートページ"
 
@@ -12217,6 +12337,11 @@ msgstr "ジャンプ時に同期モード"
 
 #: show/show.xml
 msgctxt "TrackControls.Sections"
+msgid "Sync Mode when Jumping"
+msgstr "ジャンプ時に同期モード"
+
+#: show/show.xml
+msgctxt "TrackControls.Chords"
 msgid "Sync Mode when Jumping"
 msgstr "ジャンプ時に同期モード"
 
@@ -12690,13 +12815,13 @@ msgctxt "ProjectTransport"
 msgid "Time in current Track"
 msgstr "現在のトラックの時間"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "AnyAction"
+#: ccl/overlays.xml
+msgctxt "ProgressStepView"
 msgid "Time remaining:"
 msgstr "残時間:"
 
-#: ccl/overlays.xml
-msgctxt "ProgressStepView"
+#: ccl/packages/packagemanager.xml
+msgctxt "AnyAction"
 msgid "Time remaining:"
 msgstr "残時間:"
 
@@ -13352,6 +13477,11 @@ msgstr "再生とオーディオファイルのエクスポートにディザリ
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
+msgid "Use efficiency cores"
+msgstr "高効率コアを使用"
+
+#: devices/devices.xml
+msgctxt "AudioSetup.Engine"
 msgid "Use native low latency monitoring instead of hardware monitoring"
 msgstr "ハードウェアモニタリングの代わりにネイティブ低レーテンシーモニタリングを使用"
 
@@ -13366,22 +13496,7 @@ msgid "Use range of track markers"
 msgstr "トラックマーカー範囲を使用"
 
 #: engine/audioexport.xml
-msgctxt "AudioExport"
-msgid "Use realtime processing"
-msgstr "リアルタイムプロセッシングを使用"
-
-#: engine/audioexport.xml
-msgctxt "TrackExport"
-msgid "Use realtime processing"
-msgstr "リアルタイムプロセッシングを使用"
-
-#: engine/audioexport.xml
-msgctxt "SpatialAudioExport"
-msgid "Use realtime processing"
-msgstr "リアルタイムプロセッシングを使用"
-
-#: engine/videoplayer.xml
-msgctxt "VideoExport"
+msgctxt "SongExportRealtimeMode"
 msgid "Use realtime processing"
 msgstr "リアルタイムプロセッシングを使用"
 
@@ -13410,11 +13525,6 @@ msgctxt "BurnerSelectDialog"
 msgid "Use temporary image file"
 msgstr "一時イメージファイルを使用"
 
-#: devices/transport.xml
-msgctxt "PerformanceMonitor.Cache"
-msgid "Used"
-msgstr "使用中"
-
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup.InputDeviceInfo"
 msgid "Used"
@@ -13422,6 +13532,11 @@ msgstr "使用中"
 
 #: devices/audiomixer.xml
 msgctxt "AudioIOSetup.OutputDeviceInfo"
+msgid "Used"
+msgstr "使用中"
+
+#: devices/transport.xml
+msgctxt "PerformanceMonitor.Cache"
 msgid "Used"
 msgstr "使用中"
 
@@ -13560,23 +13675,23 @@ msgctxt "ShowMetaInfoOption"
 msgid "Venue"
 msgstr "会場"
 
-#: ccl/packages/packagemanager.xml
-msgctxt "PackageVersion"
-msgid "Version"
-msgstr "バージョン"
-
 #: ccl/extensionmanager.xml
 msgctxt "ExtensionPropertiesInplace"
 msgid "Version"
 msgstr "バージョン"
 
-#: engine/videoplayer.xml
-msgctxt "VideoExport"
-msgid "Video"
-msgstr "ビデオ"
+#: ccl/packages/packagemanager.xml
+msgctxt "PackageVersion"
+msgid "Version"
+msgstr "バージョン"
 
 #: engine/trackcontrols.xml
 msgctxt "VideoTrackControls"
+msgid "Video"
+msgstr "ビデオ"
+
+#: engine/videoplayer.xml
+msgctxt "VideoExport"
 msgid "Video"
 msgstr "ビデオ"
 
@@ -13600,7 +13715,7 @@ msgctxt "SongCustomization"
 msgid "Video Player"
 msgstr "ビデオプレイヤー"
 
-#: app/windowclasses.xml app/toolbar.xml ccl/browser.xml devices/transport.xml
+#: app/toolbar.xml app/windowclasses.xml ccl/browser.xml devices/transport.xml
 #: engine/editor.xml
 msgctxt "Command"
 msgid "View"
@@ -13616,13 +13731,13 @@ msgctxt "AddPlayerDialog"
 msgid "Virtual Instrument"
 msgstr "バーチャルインストゥルメント"
 
-#: devices/editgroups.xml
-msgctxt "SnapshotRecallOptionsContent"
+#: devices/audiomixer.xml
+msgctxt "ChannelOrganizerSetup"
 msgid "Visibility"
 msgstr "可視性"
 
-#: devices/audiomixer.xml
-msgctxt "ChannelOrganizerSetup"
+#: devices/editgroups.xml
+msgctxt "SnapshotRecallOptionsContent"
 msgid "Visibility"
 msgstr "可視性"
 
@@ -13686,13 +13801,13 @@ msgctxt "Analyser"
 msgid "WF"
 msgstr "WF"
 
-#: app/about.xml
-msgctxt "Command"
+#: app/homepage.xml
+msgctxt "ArtistProfile"
 msgid "Website"
 msgstr "ウェブサイト"
 
-#: app/homepage.xml
-msgctxt "ArtistProfile"
+#: app/about.xml
+msgctxt "Command"
 msgid "Website"
 msgstr "ウェブサイト"
 
@@ -13875,6 +13990,42 @@ msgstr "X"
 msgctxt "ShowMetaInfoOption"
 msgid "x"
 msgstr "X"
+
+#~ msgctxt "Messages"
+#~ msgid "$message"
+#~ msgstr "$message"
+
+#~ msgctxt "Metronome"
+#~ msgid "@cmd.title[Transport|Preroll]"
+#~ msgstr "@cmd.title[Transport|Preroll]"
+
+#~ msgctxt "Messages"
+#~ msgid "Discard Message"
+#~ msgstr "メッセージを破棄"
+
+#~ msgctxt "Metronome"
+#~ msgid "Preroll"
+#~ msgstr "プリロール"
+
+#~ msgctxt "Messages"
+#~ msgid "Restart now"
+#~ msgstr "今すぐ再起動"
+
+#~ msgctxt "AudioExport"
+#~ msgid "Use realtime processing"
+#~ msgstr "リアルタイムプロセッシングを使用"
+
+#~ msgctxt "TrackExport"
+#~ msgid "Use realtime processing"
+#~ msgstr "リアルタイムプロセッシングを使用"
+
+#~ msgctxt "SpatialAudioExport"
+#~ msgid "Use realtime processing"
+#~ msgstr "リアルタイムプロセッシングを使用"
+
+#~ msgctxt "VideoExport"
+#~ msgid "Use realtime processing"
+#~ msgstr "リアルタイムプロセッシングを使用"
 
 #~ msgctxt "UserLicenseExpired"
 #~ msgid "$APPCOMPANY Forum"

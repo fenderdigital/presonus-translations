@@ -27,12 +27,12 @@ msgstr "添加文件夹..."
 #: converter.xml
 msgctxt "ProcessRackSection"
 msgid "Append process info"
-msgstr "添加进程信息"
+msgstr "添加处理信息"
 
 #: converter.xml
 msgctxt "ProcessRackSection"
 msgid "Append process info to result file names"
-msgstr "将进程信息附加到结果文件名"
+msgstr "将处理信息添加到输出文件的名称中"
 
 #: converter.xml
 msgctxt "AudioFilePreview"
@@ -47,7 +47,7 @@ msgstr "作为源"
 #: converter.xml
 msgctxt "AudioFilePreview"
 msgid "Audio Output: @value[]"
-msgstr "音频输出: @value[]"
+msgstr "音频输出：@value[]"
 
 #: format.xml
 msgctxt "ExtractAutomatic"
@@ -62,7 +62,7 @@ msgstr "自动前进至下一个文件"
 #: converter.xml
 msgctxt "ProcessFXHeaderView"
 msgid "Browse Presets"
-msgstr "浏览预置"
+msgstr "浏览预设"
 
 #: converter.xml
 msgctxt "ProcessRackSection"
@@ -72,7 +72,7 @@ msgstr "取消"
 #: converter.xml
 msgctxt "PlugInFileInfo"
 msgid "Category:"
-msgstr "类别:"
+msgstr "类别："
 
 #: format.xml
 msgctxt "FormatConverter"
@@ -112,7 +112,7 @@ msgstr "修正采样率"
 #: converter.xml
 msgctxt "PresetFileInfo"
 msgid "Created by:"
-msgstr "创建者:"
+msgstr "创建者："
 
 #: gain.xml
 msgctxt "Fade"
@@ -157,17 +157,17 @@ msgstr "目标采样率"
 #: converter.xml
 msgctxt "ProcessRackSection"
 msgid "Drag process or effect here"
-msgstr "将进程或效果拖曳至此"
+msgstr "将处理或效果器拖动至此"
 
 #: converter.xml
 msgctxt "ProcessRackSection"
 msgid "Drag process rack preset from here"
-msgstr "从这里拖曳处理机架预置"
+msgstr "从这里拖动处理机架预设"
 
 #: converter.xml
 msgctxt "SourceResultFilesSection"
 msgid "Drag source files here"
-msgstr "将源文件拖曳至此"
+msgstr "将源文件拖动至此处"
 
 #: format.xml
 msgctxt "FormatConverter"
@@ -222,7 +222,7 @@ msgstr "文件名"
 #: converter.xml
 msgctxt "SourceResultFilesSection"
 msgid "Files:"
-msgstr "文件:"
+msgstr "文件："
 
 #: gain.xml
 msgctxt "Gain"
@@ -242,15 +242,15 @@ msgstr "强度"
 #: format.xml
 msgctxt "KeepFormat"
 msgid "Keep"
-msgstr "保持"
-
-#: gain.xml
-msgctxt "Fade"
-msgid "Length"
-msgstr "长度"
+msgstr "保持格式"
 
 #: format.xml
 msgctxt "Extractor"
+msgid "Length"
+msgstr "长度"
+
+#: gain.xml
+msgctxt "Fade"
 msgid "Length"
 msgstr "长度"
 
@@ -262,12 +262,12 @@ msgstr "线性"
 #: converter.xml
 msgctxt "AudioFilePreview"
 msgid "Loop Active @cmd[Transport|Toggle Loop]"
-msgstr "循环活动片段@cmd[Transport|Toggle Loop]"
+msgstr "激活循环@cmd[Transport|Toggle Loop]"
 
 #: gain.xml
 msgctxt "Normalize"
 msgid "Max True Peak"
-msgstr "最大真实峰值"
+msgstr "最大真峰值"
 
 #: format.xml
 msgctxt "FileMerger"
@@ -277,7 +277,12 @@ msgstr "合并列表中的所有单声道文件，无论文件名是否匹配"
 #: format.xml
 msgctxt "FileMerger"
 msgid "Merge mismatching files as well"
-msgstr "也合并不匹配文件"
+msgstr "也合并不匹配的文件"
+
+#: format.xml
+msgctxt "Extractor"
+msgid "Mode"
+msgstr "模式"
 
 #: gain.xml
 msgctxt "Normalize"
@@ -289,15 +294,10 @@ msgctxt "InvertPhase"
 msgid "Mode"
 msgstr "模式"
 
-#: format.xml
-msgctxt "Extractor"
-msgid "Mode"
-msgstr "模式"
-
 #: converter.xml
 msgctxt "PresetFileInfo"
 msgid "Modified:"
-msgstr "修改时间:"
+msgstr "修改时间："
 
 #: format.xml
 msgctxt "FileSplitter"
@@ -312,7 +312,7 @@ msgstr "下一个"
 #: converter.xml
 msgctxt "ProcessFXHeaderView"
 msgid "Next Preset @cmd[]"
-msgstr "下一个预置@cmd[]"
+msgstr "下一个预设@cmd[]"
 
 #: converter.xml
 msgctxt "ProcessSlotHeader"
@@ -332,22 +332,22 @@ msgstr "输出地点"
 #: repair.xml
 msgctxt "Declicker"
 msgid "Output clicks only"
-msgstr "只输出点击"
+msgstr "只输出Clicks"
 
 #: converter.xml
 msgctxt "PresetFileInfo"
 msgid "Plug-In:"
-msgstr "插件:"
+msgstr "插件："
 
 #: gain.xml
 msgctxt "Normalize"
 msgid "Preset"
-msgstr "预置"
+msgstr "预设"
 
 #: converter.xml
 msgctxt "Command"
 msgid "Presets"
-msgstr "预置"
+msgstr "预设"
 
 #: converter.xml
 msgctxt "Command"
@@ -357,12 +357,12 @@ msgstr "上一个"
 #: converter.xml
 msgctxt "ProcessFXHeaderView"
 msgid "Previous Preset @cmd[]"
-msgstr "上一个预置@cmd[]"
+msgstr "上一个预设@cmd[]"
 
 #: converter.xml
 msgctxt "ProcessRackSection"
 msgid "Process"
-msgstr "进程"
+msgstr "处理"
 
 #: converter.xml
 msgctxt "ProcessRackSection"
@@ -372,7 +372,7 @@ msgstr "处理机架"
 #: converter.xml
 msgctxt "ProcessProgress"
 msgid "Progress:"
-msgstr "进程："
+msgstr "处理："
 
 #: converter.xml
 msgctxt "SourceResultFilesSection"
@@ -452,7 +452,7 @@ msgstr "目标峰值"
 #: converter.xml
 msgctxt "ProcessProgress"
 msgid "Time Remaining:"
-msgstr "剩余时间:"
+msgstr "剩余时间："
 
 #: gain.xml
 msgctxt "Normalize"
@@ -482,7 +482,7 @@ msgstr "使用源位置"
 #: converter.xml
 msgctxt "PlugInFileInfo"
 msgid "Vendor:"
-msgstr "供应商:"
+msgstr "供应商："
 
 #: converter.xml
 msgctxt "AudioFilePreview"
@@ -503,7 +503,7 @@ msgstr "音量"
 
 #~ msgctxt "SearchBar"
 #~ msgid "Clear"
-#~ msgstr "清除"
+#~ msgstr "清空"
 
 #~ msgctxt "SearchBar"
 #~ msgid "Search for"
@@ -520,3 +520,4 @@ msgstr "音量"
 #~ msgctxt "Normalize"
 #~ msgid "Target Loundness"
 #~ msgstr "目标响度"
+

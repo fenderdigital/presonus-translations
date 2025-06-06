@@ -50,6 +50,21 @@ msgid "@property[parent.controller.editGroup]"
 msgstr "@property[parent.controller.editGroup]"
 
 #: audiochannel.narrow.xml
+msgctxt "AudioChannel.Narrow.Content"
+msgid "@property[parent.controller.transformedTooltip]"
+msgstr "@property[parent.controller.transformedTooltip]"
+
+#: audiochannel.narrow.xml
+msgctxt "AudioChannel.Small.Narrow.Content"
+msgid "@property[parent.controller.transformedTooltip]"
+msgstr "@property[parent.controller.transformedTooltip]"
+
+#: audiochannel.small.xml
+msgctxt "Audio.ChannelNumberAndIcon"
+msgid "@property[parent.controller.transformedTooltip]"
+msgstr "@property[parent.controller.transformedTooltip]"
+
+#: audiochannel.narrow.xml
 msgctxt "AudioInput.Narrow"
 msgid "@value[]"
 msgstr "@value[]"
@@ -87,7 +102,7 @@ msgstr "一个设备产生了无效的数据"
 #: audiochannel.small.xml
 msgctxt "OutputClippingDisplay"
 msgid "A device produced invalid data"
-msgstr "设备生成了无效数据"
+msgstr "一个设备产生了无效数据"
 
 #: audiochannel.small.xml
 msgctxt "MixerChannelRightStrip"
@@ -242,17 +257,17 @@ msgstr "自动控制模式"
 #: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
 msgid "Binaural Width: @value[]"
-msgstr "双声道宽度: @value[]"
+msgstr "双耳宽度：@value[]"
 
 #: audiochannel.small.xml
 msgctxt "MixerOutputChannelLeftStrip"
 msgid "Channel Editor"
-msgstr "轨道编辑器"
+msgstr "通道编辑器"
 
 #: audiochannel.small.xml
 msgctxt "MixerChannelRightStrip"
 msgid "Channel Editor"
-msgstr "轨道编辑器"
+msgstr "通道编辑器"
 
 #: audiochannel.small.xml
 msgctxt "MixerChannelButtonBlock"
@@ -262,42 +277,42 @@ msgstr "通道模式"
 #: audiochannel.small.xml
 msgctxt "MixerChannelButtonBlock"
 msgid "Click On/Off"
-msgstr "节拍器开/关"
+msgstr "节拍器 开/关"
 
 #: audiochannel.small.xml
 msgctxt "MixerChannelButtonBlock"
 msgid "Click Volume: @value[]"
-msgstr "节拍器音量: @value[]"
+msgstr "节拍器音量：@value[]"
 
 #: audiochannel.narrow.xml
 msgctxt "AudioInput.NarrowHoldAndClip"
 msgid "Clip"
-msgstr "剪贴"
+msgstr "削波"
 
 #: audiochannel.narrow.xml
 msgctxt "ChannelMeterDisplay.Small.Narrow"
 msgid "Clip / Peak Levels"
-msgstr "剪贴/峰值音量"
+msgstr "削波/峰值电平"
 
 #: audiochannel.narrow.xml
 msgctxt "AudioMeter.Narrow"
 msgid "Clip / Peak Levels"
-msgstr "剪贴/峰值音量"
+msgstr "削波/峰值电平"
 
 #: audiochannel.narrow.xml
 msgctxt "AudioInput.NarrowHoldAndClip"
 msgid "Clip / Peak Levels"
-msgstr "剪贴/峰值音量"
+msgstr "削波/峰值电平"
 
 #: audiochannel.small.xml
 msgctxt "AudioInputChannel.Basics"
 msgid "Clip / Peak Levels"
-msgstr "剪贴/峰值音量"
+msgstr "削波/峰值电平"
 
 #: audiochannel.small.xml
 msgctxt "OutputChannelLevelSection"
 msgid "Clip / Peak Levels"
-msgstr "剪贴/峰值音量"
+msgstr "削波/峰值电平"
 
 #: audiochannel.small.xml
 msgctxt "OutputClippingDisplay"
@@ -307,7 +322,7 @@ msgstr "削波/峰值电平"
 #: audiochannel.small.xml
 msgctxt "ChannelMeterDisplayContent"
 msgid "Clip / Peak Levels"
-msgstr "剪贴/峰值音量"
+msgstr "削波/峰值电平"
 
 #: channelpanner.xml
 msgctxt "PannerEditorHeadline"
@@ -322,7 +337,7 @@ msgstr "关闭"
 #: audiochannel.small.xml
 msgctxt "Command"
 msgid "Console"
-msgstr "控台"
+msgstr "控制台"
 
 #: channeleditor.macrocontrols.xml
 msgctxt "MacroTargetCurve"
@@ -337,17 +352,17 @@ msgstr "创建发送"
 #: audiochannel.xml
 msgctxt "CueMixStack"
 msgid "Cue mix"
-msgstr "混合记号"
+msgstr "Cue mix"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewCueMix"
 msgid "Cue mix"
-msgstr "混合记号"
+msgstr "Cue mix"
 
 #: audiochannel.xml
 msgctxt "CueMixRackSlotView"
 msgid "Cue mix Level: @value[]"
-msgstr "混合包络音量: @value[]"
+msgstr "Cue mix音量：@value[]"
 
 #: audiochannel.small.xml
 msgctxt "ChannelLabel"
@@ -362,47 +377,47 @@ msgstr "双击：编辑名称"
 #: audiochannel.narrow.xml
 msgctxt "ChannelLabelNarrow"
 msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "鼠标双击: 编辑名称, 持续按下: 选择通道颜色"
+msgstr "鼠标双击：编辑名称，持续按下：选择通道颜色"
 
 #: audiochannel.small.xml
 msgctxt "ChannelLabel"
 msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "鼠标双击: 编辑名称, 持续按下: 选择通道颜色"
+msgstr "鼠标双击：编辑名称，持续按下：选择通道颜色"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewEditChannel"
 msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "鼠标双击: 编辑名称, 按住: 选择通道颜色"
+msgstr "鼠标双击：编辑名称，持续按下：选择通道颜色"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewColoredHeaderView"
 msgid "Double Click: Edit Name, Keep Pressed: Select Channel Color"
-msgstr "鼠标双击: 编辑名称, 按住: 选择通道颜色"
+msgstr "鼠标双击：编辑名称，持续按下：选择通道颜色"
 
 #: channeleditor.macrocontrols.xml
 msgctxt "DAWMacroControlEditBox"
 msgid "Double Click: Edit Name, Keep Pressed: Select Color"
-msgstr " 双击：编辑名称，长按：选择颜色"
+msgstr "双击：编辑名称，长按：选择颜色"
 
 #: audiochannel.xml
 msgctxt "AudioInserts"
 msgid "Drag FX Chain from here"
-msgstr "从此处拖拽效果链"
+msgstr "从此处拖动效果链"
 
 #: audiochannel.xml
 msgctxt "PostFaderInserts"
 msgid "Drag FX Chain from here"
-msgstr "从此处拖拽效果链"
+msgstr "从此处拖动效果链"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewInserts"
 msgid "Drag FX Chain from here"
-msgstr "从此处拖曳FX链"
+msgstr "从此处拖动效果链"
 
 #: channeleditor.xml
 msgctxt "ChannelOverviewPostInserts"
 msgid "Drag FX Chain from here"
-msgstr "从此处拖曳FX链"
+msgstr "从此处拖动效果链"
 
 #: audiochannel.xml
 msgctxt "AudioSends"
@@ -452,12 +467,12 @@ msgstr "展开"
 #: audiochannel.xml
 msgctxt "AudioSendRackSlotView"
 msgid "Fader Flip Active"
-msgstr "启动推子翻转"
+msgstr "启用推子翻转"
 
 #: audiochannel.xml
 msgctxt "CueMixRackSlotView"
 msgid "Fader Flip Active"
-msgstr "启动推子翻转"
+msgstr "启用推子翻转"
 
 #: audiochannel.narrow.xml
 msgctxt "NarrowVolumeSlider"
@@ -512,7 +527,7 @@ msgstr "插入  |  发送  |  Mix FX"
 #: audiochannel.small.xml
 msgctxt "MixerOutputChannelLeftStrip"
 msgid "Inserts  | Post Fader Inserts | Mix FX"
-msgstr "插入  | 推子后插入 | Mix FX"
+msgstr "插入 | 推子后插入 | Mix FX"
 
 #: audiochannel.narrow.xml
 msgctxt "AudioChannel.Narrow.Content"
@@ -557,12 +572,12 @@ msgstr "编辑器保持打开"
 #: deviceheader.xml
 msgctxt "DeviceEditorHeadline"
 msgid "Keep Editor Open"
-msgstr "编辑器保持打开"
+msgstr "窗口保持"
 
 #: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
 msgid "Left: @value[]"
-msgstr "左: @value[]"
+msgstr "左：@value[]"
 
 #: audiochannel.xml
 msgctxt "CueMixRackSlotView"
@@ -572,7 +587,7 @@ msgstr "电平"
 #: audiochannel.xml
 msgctxt "CueMixSlotPopup"
 msgid "Level: @value[]"
-msgstr "电平: @value[]"
+msgstr "电平：@value[]"
 
 #: audiochannel.xml
 msgctxt "AudioFXRackSlotView"
@@ -582,12 +597,12 @@ msgstr "连接至DSP"
 #: audiochannel.narrow.xml
 msgctxt "AudioChannel.Narrow.Content"
 msgid "Listen Active"
-msgstr " 启用收听"
+msgstr "启用监听"
 
 #: audiochannel.small.xml
 msgctxt "MixerChannelButtonBlock"
 msgid "Listen Active"
-msgstr " 启用收听"
+msgstr "启用收听"
 
 #: audiochannel.xml
 msgctxt "CueMixRackSlotView"
@@ -607,12 +622,12 @@ msgstr "低延迟监听可用"
 #: deviceheader.xml
 msgctxt "DeviceEditorTitleBar"
 msgid "Macro Controls"
-msgstr "宏观控制"
+msgstr "宏控制"
 
 #: channeleditor.macrocontrols.xml
 msgctxt "MacroControlsHeader"
 msgid "Macro Controls Mapping"
-msgstr "宏控制映射"
+msgstr "映射宏控制"
 
 #: audiochannel.xml
 msgctxt "AudioBusFxInsertsStack"
@@ -662,12 +677,12 @@ msgstr "静音"
 #: audiochannel.xml
 msgctxt "CueMixRackSlotView"
 msgid "Mute Cue mix"
-msgstr "静音混合包络"
+msgstr "静音Cue mix"
 
 #: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
 msgid "No Panning"
-msgstr "无平移"
+msgstr "无声像"
 
 #: deviceheader.xml
 msgctxt "DeviceEditorTitleBar"
@@ -677,12 +692,12 @@ msgstr "概览"
 #: audiochannel.xml
 msgctxt "ExtendedHardwareControlsDisplay"
 msgid "Pad"
-msgstr "垫"
+msgstr "Pad"
 
 #: audiochannel.xml
 msgctxt "ExtendedHardwareControls.Popup"
 msgid "Pad"
-msgstr "垫"
+msgstr "Pad"
 
 #: audiochannel.narrow.xml
 msgctxt "PanSliderNarrowTextBox"
@@ -692,12 +707,12 @@ msgstr "声像"
 #: channelpanner.xml
 msgctxt "ChannelPanTypeControls"
 msgid "Pan Mode"
-msgstr "平移模式"
+msgstr "声像模式"
 
 #: channelpanner.xml
 msgctxt "PannerPopupMonoStereo"
 msgid "Pan Mode"
-msgstr "平移模式"
+msgstr "声像模式"
 
 #: audiochannel.narrow.xml
 msgctxt "ChannelPanFlipped.Narrow"
@@ -707,12 +722,12 @@ msgstr "声像：@value[]"
 #: audiochannel.narrow.xml
 msgctxt "ChannelPanTypeControls.Narrow"
 msgid "Pan: @value[]"
-msgstr "声像: @value[]"
+msgstr "声像：@value[]"
 
 #: channelpanner.xml
 msgctxt "ChannelPanTypeControls"
 msgid "Pan: @value[]"
-msgstr "声像: @value[]"
+msgstr "声像：@value[]"
 
 #: channeleditor.macrocontrols.xml
 msgctxt "MacroTargetCurve"
@@ -722,17 +737,17 @@ msgstr "粘贴"
 #: audiochannel.small.xml
 msgctxt "AudioInputChannel.Basics"
 msgid "Peak Hold (dB)"
-msgstr "峰值保持"
+msgstr "峰值保持（dB）"
 
 #: audiochannel.small.xml
 msgctxt "DefaultStereoLevelView"
 msgid "Peak Hold (dB)"
-msgstr "峰值保持 (dB)"
+msgstr "峰值保持（dB）"
 
 #: audiochannel.small.xml
 msgctxt "OutputChannelLevelSection"
 msgid "Peak Hold (dB)"
-msgstr "峰值保持"
+msgstr "峰值保持（dB）"
 
 #: audiochannel.xml
 msgctxt "HardwareInputControlsMono"
@@ -792,7 +807,7 @@ msgstr "极性"
 #: audiochannel.xml
 msgctxt "ChannelInputFXView"
 msgid "Polarity (Press Shift for Individual State)"
-msgstr "极性（按Shift键查看各自状态）"
+msgstr "极性（按Shift键独立设置）"
 
 #: audiochannel.xml
 msgctxt "PostFaderInserts"
@@ -807,62 +822,62 @@ msgstr "推子后"
 #: audiochannel.xml
 msgctxt "HardwareInputControlsMono"
 msgid "Preamp Gain"
-msgstr "放大器增益"
+msgstr "话放增益"
 
 #: audiochannel.xml
 msgctxt "HardwareInputControlsStereoChannel"
 msgid "Preamp Gain"
-msgstr "放大器增益"
+msgstr "话放增益"
 
 #: audiochannel.xml
 msgctxt "HardwareInputControlsCompactDisplayMono"
 msgid "Preamp Gain"
-msgstr "前置放大器增益"
+msgstr "话放增益"
 
 #: audiochannel.xml
 msgctxt "HardwareInputControlsCompactMono"
 msgid "Preamp Gain"
-msgstr "放大器增益"
+msgstr "话放增益"
 
 #: audiochannel.xml
 msgctxt "HardwareInputControlsCompactDisplayStereo"
 msgid "Preamp Gain"
-msgstr "放大器增益"
+msgstr "话放增益"
 
 #: audiochannel.xml
 msgctxt "HardwareInputControlsCompactStereo"
 msgid "Preamp Gain"
-msgstr "放大器增益"
+msgstr "话放增益"
 
 #: audiochannel.xml
 msgctxt "HardwareInputControlsMono"
 msgid "Preamp Gain: @value[]"
-msgstr "放大器增益: @value[]"
+msgstr "话放增益：@value[]"
 
 #: audiochannel.xml
 msgctxt "HardwareInputControlsStereoChannel"
 msgid "Preamp Gain: @value[]"
-msgstr "放大器增益: @value[]"
+msgstr "话放增益：@value[]"
 
 #: audiochannel.narrow.xml
 msgctxt "AudioChannel.Narrow.Content"
 msgid "Prefader Listen"
-msgstr " 推杆前收听"
+msgstr "推子前监听"
 
 #: audiochannel.small.xml
 msgctxt "MixerChannelButtonBlock"
 msgid "Prefader Listen"
-msgstr " 推杆前收听"
+msgstr "推子前监听"
 
 #: audiochannel.xml
 msgctxt "AudioSendRackSlotView"
 msgid "Prefader On/Off"
-msgstr "推子前开/关"
+msgstr "推子前 开/关"
 
 #: audiochannel.xml
 msgctxt "SlotPopup.PreFaderVolumeSlider"
 msgid "Prefader On/Off"
-msgstr "推子前开/关"
+msgstr "推子前 开/关"
 
 #: audiochannel.xml
 msgctxt "AudioSendRackSlotView"
@@ -902,12 +917,12 @@ msgstr "路由"
 #: audiochannel.small.xml
 msgctxt "MixerOutputChannelLeftStrip"
 msgid "Routing Editor"
-msgstr " 路线编辑器"
+msgstr "路由编辑器"
 
 #: audiochannel.small.xml
 msgctxt "MixerChannelRightStrip"
 msgid "Routing Editor"
-msgstr " 路线编辑器"
+msgstr "路由编辑器"
 
 #: audiochannel.xml
 msgctxt "AudioBusFxInsertsStack"
@@ -922,12 +937,12 @@ msgstr "选择Mix FX"
 #: audiochannel.xml
 msgctxt "AudioSendRackSlotView"
 msgid "Send Level: @value[]"
-msgstr "发送电平: @value[]"
+msgstr "发送电平：@value[]"
 
 #: audiochannel.xml
 msgctxt "AudioSendSlotPopup"
 msgid "Send Level: @value[]"
-msgstr "发送电平: @value[]"
+msgstr "发送电平：@value[]"
 
 #: audiochannel.xml
 msgctxt "AudioSends"
@@ -987,42 +1002,42 @@ msgstr "显示Pad"
 #: deviceheader.xml
 msgctxt "DeviceEditorTitleBar"
 msgid "Show Post Fader Inserts"
-msgstr "显示后推子插件"
+msgstr "显示推子后插件"
 
 #: audiochannel.small.xml
 msgctxt "AudioSynthBus.ChannelNumberAndIcon"
 msgid "Show sub channels"
-msgstr "显示编组轨道"
+msgstr "显示子通道"
 
 #: audiochannel.narrow.xml
 msgctxt "AudioChannel.Narrow.Content"
 msgid "Solo (Solo Safe use Shift)"
-msgstr "独奏 (使用Shift键保存)"
+msgstr "独奏（按Shift键安全独奏）"
 
 #: audiochannel.narrow.xml
 msgctxt "AudioChannel.Small.Narrow.Content"
 msgid "Solo (Solo Safe use Shift)"
-msgstr "独奏 (使用Shift键保存)"
+msgstr "独奏（按Shift键安全独奏）"
 
 #: audiochannel.small.xml
 msgctxt "MixerChannelButtonBlock"
 msgid "Solo (Solo Safe use Shift)"
-msgstr "独奏 (使用Shift键保存)"
+msgstr "独奏（按Shift键安全独奏）"
 
 #: audiochannel.small.xml
 msgctxt "ChannelConnectionsFirstRow"
 msgid "Sources"
-msgstr "源"
+msgstr "源通道"
 
 #: audiochannel.small.xml
 msgctxt "OutputChannelConnectionsSection"
 msgid "Speaker Setup"
-msgstr "音箱设置"
+msgstr "扬声器设置"
 
 #: audiochannel.small.xml
 msgctxt "MixerChannelButtonBlock"
 msgid "Speaker Setup"
-msgstr "音箱设置"
+msgstr "扬声器设置"
 
 #: audiochannel.narrow.xml
 msgctxt "PanSliderNarrowTextBox"

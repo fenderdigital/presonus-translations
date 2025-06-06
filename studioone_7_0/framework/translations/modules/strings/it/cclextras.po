@@ -9,6 +9,11 @@ msgctxt "PackageSource"
 msgid "$APPNAME Content"
 msgstr "$APPNAME Contenuto"
 
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "$APPNAME Installation"
+msgstr "$APPNAME Installazione"
+
 #: extensions/extensiondescription.cpp
 msgctxt "Extensions"
 msgid "%(1) is already installed!"
@@ -19,7 +24,12 @@ msgctxt "ExtensionManager"
 msgid "%(1) is not compatible with $APPNAME!"
 msgstr "%(1) non è compatibile con $APPNAME!"
 
-#: webfs/transfermanagerui.cpp
+#: packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "%(1) is now available!"
+msgstr "%(1) è ora disponibile!"
+
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "%(1) of %(2)"
 msgstr "%(1) di %(2)"
@@ -104,12 +114,12 @@ msgctxt "ExtensionManager"
 msgid "Built-in Extensions can not be uninstalled or updated."
 msgstr "Le Estensioni Integrate non possono essere disinstallate o aggiornate."
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Canceled!"
 msgstr "Annullato!"
@@ -159,7 +169,7 @@ msgctxt "PackageManager"
 msgid "Contains %(1) items"
 msgstr "Contiene %(1) elementi"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Copying..."
 msgstr "Copiando..."
@@ -229,13 +239,13 @@ msgctxt "ExtensionManager"
 msgid "Do you want to install these updates now?"
 msgstr "Vuoi installare questi aggiornamenti ora?"
 
-#: webfs/downloaddraghandler.cpp
-msgctxt "WebFS"
+#: web/transfermanagerui.cpp
+msgctxt "TransferManager"
 msgid "Download"
 msgstr "Download"
 
-#: webfs/transfermanagerui.cpp
-msgctxt "TransferManager"
+#: webfs/downloaddraghandler.cpp
+msgctxt "WebFS"
 msgid "Download"
 msgstr "Download"
 
@@ -244,7 +254,7 @@ msgctxt "ContentPackageManager"
 msgid "Download from $APPCOMPANY Account"
 msgstr "Scarica dall'Account $APPCOMPANY"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Downloading..."
 msgstr "Sto Scaricando ..."
@@ -294,22 +304,22 @@ msgctxt "BackupManager"
 msgid "Failed to upload backup."
 msgstr "Caricamento del backup non riuscito."
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Failed!"
 msgstr "Non Riuscito!"
-
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
-msgid "File Type"
-msgstr "Tipo File"
 
 #: packages/packagefilter.cpp
 msgctxt "PackageFilter"
 msgid "File Type"
 msgstr "Tipo File"
 
-#: webfs/transfermanagerui.cpp
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
+msgid "File Type"
+msgstr "Tipo File"
+
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Files are being transferred in background."
 msgstr "I file vengono trasferiti in background."
@@ -328,6 +338,11 @@ msgstr "Gadgets"
 msgctxt "Command"
 msgid "Help"
 msgstr "Aiuto"
+
+#: packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "Install"
+msgstr "Installa"
 
 #: packages/unifiedpackageaction.cpp
 msgctxt "PackageActions"
@@ -404,13 +419,13 @@ msgctxt "PackageManager"
 msgid "Minimal Installation"
 msgstr "Installazione Minima"
 
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Name"
 msgstr "Nome"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "Name"
 msgstr "Nome"
 
@@ -419,10 +434,15 @@ msgctxt "BackupManager"
 msgid "Never"
 msgstr "Mai"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "New File"
 msgstr "Nuovo File"
+
+#: packages/contentpackagemanager.cpp
+msgctxt "ContentPackageManager"
+msgid "New content is available!"
+msgstr "Sono disponibili nuovi contenuti!"
 
 #: gadgets/gadgetmanager.cpp
 msgctxt "GadgetManager"
@@ -464,12 +484,12 @@ msgctxt "PackageSource"
 msgid "Other"
 msgstr "Altro"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Pause"
 msgstr "Pausa"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Paused"
 msgstr "In Pausa"
@@ -489,7 +509,7 @@ msgctxt "PackageSource"
 msgid "Purchased Content"
 msgstr "Contenuto Acquistato"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Queued"
 msgstr "In Coda"
@@ -504,7 +524,7 @@ msgctxt "Feed"
 msgid "Refresh"
 msgstr "Aggiorna"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Remove From History"
 msgstr "Rimuovi Dalla Storia"
@@ -519,10 +539,15 @@ msgctxt "PackageActions"
 msgid "Restart"
 msgstr "Riavvia"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Restart"
 msgstr "Riavvia"
+
+#: packages/packagemanager.cpp
+msgctxt "PackageManager"
+msgid "Restart Now"
+msgstr "Riavvia ora"
 
 #: packages/unifiedpackageaction.cpp
 msgctxt "PackageActions"
@@ -534,7 +559,7 @@ msgctxt "BackupManager"
 msgid "Restore"
 msgstr "Ripristina"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Resume"
 msgstr "Riprendi"
@@ -619,13 +644,13 @@ msgctxt "Extensions"
 msgid "This file does not have a valid digital signature."
 msgstr "Questo file non dispone di una firma digitale valida."
 
-#: packages/packagesorter.cpp
-msgctxt "PackageSorter"
+#: packages/packagefilter.cpp
+msgctxt "PackageFilter"
 msgid "Type"
 msgstr "Tipo"
 
-#: packages/packagefilter.cpp
-msgctxt "PackageFilter"
+#: packages/packagesorter.cpp
+msgctxt "PackageSorter"
 msgid "Type"
 msgstr "Tipo"
 
@@ -684,7 +709,7 @@ msgctxt "WebFS"
 msgid "Upload To"
 msgstr "Carica Su"
 
-#: webfs/transfermanagerui.cpp
+#: web/transfermanagerui.cpp
 msgctxt "TransferManager"
 msgid "Uploading..."
 msgstr "Caricamento ..."
@@ -723,6 +748,50 @@ msgstr "Hai bisogno di una versione più recente di $APPNAME."
 msgctxt "Updater"
 msgid "Your version is up-to-date."
 msgstr "La versione è aggiornata."
+
+#~ msgctxt "TagStore"
+#~ msgid "Add Tag"
+#~ msgstr "Aggiungi Tag"
+
+#~ msgctxt "TagStore"
+#~ msgid "Adding Tags..."
+#~ msgstr "Sto Aggiungendo Tags..."
+
+#~ msgctxt "TagStore"
+#~ msgid "All tags are valid."
+#~ msgstr "Tutti i tags sono validi."
+
+#~ msgctxt "TagStore"
+#~ msgid "Checking files in \"%(1)\""
+#~ msgstr "Sto Conotrollando i file in \"%(1)\""
+
+#~ msgctxt "TagStore"
+#~ msgid "Cleanup Tags of Missing Files"
+#~ msgstr "Ripulisci i Tag dei File Mancanti"
+
+#~ msgctxt "TagStore"
+#~ msgid "Clear Tags"
+#~ msgstr "Rmuovi Tags"
+
+#~ msgctxt "TagStore"
+#~ msgid "Do you want to remove these tag entries for non-existing files?"
+#~ msgstr "Vuoi rimuovere i tag inseriti per i file non più esistenti?"
+
+#~ msgctxt "TagStore"
+#~ msgid "Remove Tag"
+#~ msgstr "Rimuovi Tag"
+
+#~ msgctxt "TagCategory"
+#~ msgid "Type"
+#~ msgstr "Digita"
+
+#~ msgctxt "TagStore"
+#~ msgid "Updated tags in %(1)\n"
+#~ msgstr "Tag aggiornati in %(1)\n"
+
+#~ msgctxt "TagStore"
+#~ msgid "other"
+#~ msgstr "Altro"
 
 #~ msgctxt "ExtensionManager"
 #~ msgid "%(1) Extensions installed."

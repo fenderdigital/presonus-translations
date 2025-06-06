@@ -12,7 +12,7 @@ msgstr "%(1)接受了您的邀请，在以下方面开展合作%(2)。"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) accepted your invite."
-msgstr "%(1) 接受了你的邀请。"
+msgstr "%(1) 接受了您的邀请。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
@@ -32,12 +32,12 @@ msgstr "%(1) 无法下载。"
 #: snapshotcollector.cpp
 msgctxt "Collaboration"
 msgid "%(1) exceeds the allowed file size (%(2))."
-msgstr "%(1) 超过允许的文件大小 (%(2))。"
+msgstr "%(1) 超过允许的文件大小（%(2)）。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) has invited you to collaborate on %(2) workspace!"
-msgstr "%(1) 已邀请您合作开发 %(2) 工作空间!"
+msgstr "%(1) 已邀请您在 %(2) 工作区进行协作！"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
@@ -47,37 +47,37 @@ msgstr "%(1) 在工作区 %(2)。"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) left workspace %(2)."
-msgstr "%(1) 左侧工作区 %(2)。"
+msgstr "%(1) 离开了工作区 %(2)。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) liked \"%(2)\""
-msgstr "%(1) 点赞了 \"%(2)\""
+msgstr "%(1) 点赞了“%(2)”"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) liked your post."
-msgstr "%(1) 点赞了你的帖子。"
+msgstr "%(1) 点赞了您的帖子。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) rejected your invite to collaborate on %(2)."
-msgstr "%(1) 拒绝你的合作邀请 %(2)."
+msgstr "%(1) 拒绝了您的合作邀请 %(2)."
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) rejected your invite."
-msgstr "%(1) 拒绝你的邀请。"
+msgstr "%(1) 拒绝了您的合作邀请。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) replied to your post."
-msgstr "%(1) 回复了你的帖子。"
+msgstr "%(1) 回复了您的帖子。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) sent you a direct message."
-msgstr "%(1) 像你发送了一条信息。"
+msgstr "%(1) 向您发送了一条信息。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
@@ -92,7 +92,7 @@ msgstr "%(1) 同步了一个新的文件夹。"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) updated folder %(2) in %(3) workspace."
-msgstr " 在 %(3) 工作空间%(1)更新文件夹 %(2)。"
+msgstr "%(1) 在 %(3) 工作区中更新了文件夹 %(2)。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
@@ -102,12 +102,12 @@ msgstr "%(1) 上传%(2) 至 %(3)工作区。"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) was changed locally and remote."
-msgstr "%(1) 本地和远程都发生了变化"
+msgstr "%(1) 本地和远程都发生了变化。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "%(1) will no longer have access to files, folders and collaboration features."
-msgstr "%(1) 将不再有机会访问文件、文件夹和协作功能。"
+msgstr "%(1) 将不再有权限访问文件、文件夹和协作功能。"
 
 #: cloudcollaborationmanager.cpp
 msgctxt "Collaboration"
@@ -247,17 +247,17 @@ msgstr "开启远程会话失败。"
 #: snapshotsynchronizer.cpp
 msgctxt "Collaboration"
 msgid "Failed to update files in workspace."
-msgstr "更新工作空间中的文件失败。"
+msgstr "更新工作区中的文件失败。"
 
 #: snapshotsynchronizer.cpp
 msgctxt "Collaboration"
 msgid "Failed to update local files."
-msgstr "升级本地文件失败。"
+msgstr "更新本地文件失败。"
 
 #: snapshotsynchronizer.cpp
 msgctxt "Collaboration"
 msgid "Failed to upload %(1)."
-msgstr "升级 %(1) 失败。"
+msgstr "上传 %(1) 失败。"
 
 #: snapshotcollector.cpp
 msgctxt "Collaboration"
@@ -312,7 +312,7 @@ msgstr "参加"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "Join"
-msgstr "参加"
+msgstr "加入"
 
 #: cloudcollaborationmanager.cpp
 msgctxt "Collaboration"
@@ -382,12 +382,12 @@ msgstr "准备文件上传.."
 #: cloudcollaborationmanager.cpp
 msgctxt "Collaboration"
 msgid "Progress"
-msgstr "进程："
+msgstr "进度："
 
 #: snapshotcollector.cpp
 msgctxt "Collaboration"
 msgid "Reading file information from the workspace failed"
-msgstr "从工作空间读取文件信息失败"
+msgstr "从工作区读取文件信息失败"
 
 #: cloudsynclock.cpp
 msgctxt "Collaboration"
@@ -437,7 +437,7 @@ msgstr "替换"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "Replying to: %(1)"
-msgstr "回复给: %(1)"
+msgstr "回复给：%(1)"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
@@ -462,7 +462,7 @@ msgstr "发送完成。"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "Sending %(1) finished successfully."
-msgstr "发送%(1) 成功了。"
+msgstr "成功发送%(1)。"
 
 #: cloudcollaborationmanager.cpp
 msgctxt "Command"
@@ -477,7 +477,7 @@ msgstr "分享的"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "Show"
-msgstr " 显示"
+msgstr "演出"
 
 #: cloudcollaborationmanager.cpp
 msgctxt "Command"
@@ -492,12 +492,12 @@ msgstr "大小"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "Some files could not be received successfully in %(1)."
-msgstr "有些文件无法成功接收 %(1)."
+msgstr "%(1)的有些文件无法成功接收。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "Some files could not be sent successfully in %(1)."
-msgstr "一些文件无法成功发送 %(1)。"
+msgstr "%(1)的一些文件无法成功发送。"
 
 #: snapshotsynchronizer.cpp
 msgctxt "Collaboration"
@@ -537,12 +537,12 @@ msgstr "此操作将保存文档。"
 #: cloudcollaborationmanager.cpp
 msgctxt "Collaboration"
 msgid "The local folder could not be found. Please join again or open your local folder for this collaboration to get the most recent version."
-msgstr "无法找到本地文件夹。请再次合并或打开你的本地文件夹以获得最新的合作版本。"
+msgstr "无法找到本地文件夹。请再次合并或打开您的本地文件夹以获得最新的合作版本。"
 
 #: cloudcollaborationmanager.cpp
 msgctxt "Collaboration"
 msgid "The remote location cannot be reached. Please check your internet connection and the remote location (%(1)). If the remote location was permanently removed, you might want to unlink your document."
-msgstr "无法达到遥控位置，请检查您的网络连接并遥控位置 (%(1))。如果遥控位置呗永久转移，则您或许需要断开您的文件链接。"
+msgstr "无法达到遥控位置，请检查您的网络连接并遥控位置（%(1)）。如果遥控位置被永久转移，则您或许需要断开您的文件链接。"
 
 #: snapshotcollector.cpp
 msgctxt "Collaboration"
@@ -552,7 +552,7 @@ msgstr "远程工作区不允许发送"
 #: snapshotcollector.cpp
 msgctxt "Collaboration"
 msgid "The upload size exceeds the available remote space (%(1))."
-msgstr "上传大小超过可用的远程空间(%(1))。"
+msgstr "上传大小超过可用的远程空间（%(1)）。"
 
 #: snapshotcollector.cpp
 msgctxt "Collaboration"
@@ -602,7 +602,7 @@ msgstr "更新在%(1)。"
 #: snapshotsynchronizer.cpp
 msgctxt "Collaboration"
 msgid "Uploading files..."
-msgstr "文件升级中..."
+msgstr "文件上传中..."
 
 #: cloudcollaborationmanager.cpp
 msgctxt "Collaboration"
@@ -612,9 +612,10 @@ msgstr "是否继续？"
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "You accepted the invitation to workspace %(1)."
-msgstr "你接受了工作区的邀请 %(1)。"
+msgstr "您接受了工作区%(1)的邀请。"
 
 #: collaborationnotificationhandler.cpp
 msgctxt "Cloud"
 msgid "You were removed from workspace %(1). Contact the owner of the workspace for more information."
-msgstr "从工作区中你被移除%(1)。请与工作区的所有者联系，以了解更多信息。"
+msgstr "您已被移出工作区%(1)。请与工作区的所有者联系，以了解更多信息。"
+

@@ -59,13 +59,13 @@ msgctxt "Edit"
 msgid "(Shared Copy)"
 msgstr "(Cópia Compartilhada)"
 
-#: pool/locatefilescomponent.cpp
-msgctxt "LocateFiles"
+#: pool/mediapoolnodes.cpp
+msgctxt "PoolNodes"
 msgid "(not used)"
 msgstr "(não utilizado)"
 
-#: pool/mediapoolnodes.cpp
-msgctxt "PoolNodes"
+#: pool/locatefilescomponent.cpp
+msgctxt "LocateFiles"
 msgid "(not used)"
 msgstr "(não utilizado)"
 
@@ -320,8 +320,8 @@ msgctxt "LauncherFunctions"
 msgid "Add Scene to Playlist"
 msgstr "Adicionar Cena à Playlist"
 
-#: editing/launcher/launchercomponent.cpp
 #: editing/launcher/launcherplaylistcomponent.cpp
+#: editing/launcher/launchercomponent.cpp
 msgctxt "Command"
 msgid "Add Scene to Playlist"
 msgstr "Adicionar Cena à Playlist"
@@ -666,8 +666,8 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Automation"
 msgstr "Automação"
 
-#: automationediting/automationtracklistcomponent.cpp
 #: automationediting/automationtrackcomponent.cpp
+#: automationediting/automationtracklistcomponent.cpp
 #: musicediting/musiccontrollane.cpp musicediting/musiceditor.cpp
 #: musicediting/patterncontrollane.cpp
 msgctxt "Command"
@@ -984,20 +984,20 @@ msgctxt "AudioSpeakerMap"
 msgid "Confirm Speaker Format"
 msgstr "Confirme o Formato do Alto-falante"
 
-#: editing/trackvisibilityhandler.cpp editing/tracklistcomponent.cpp
+#: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Console"
 msgstr "Console"
-
-#: automationediting/automationdialog.cpp
-msgctxt "Automation"
-msgid "Continous"
-msgstr "Contínuo"
 
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Continue Playlist Playback"
 msgstr "Continuar Reprodução da Playlist"
+
+#: automationediting/automationdialog.cpp
+msgctxt "Automation"
+msgid "Continuous"
+msgstr "Contínuo"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
@@ -1084,13 +1084,13 @@ msgctxt "ActionDescriptions"
 msgid "Copy Events Shared"
 msgstr "Copiar Eventos Compartilhados"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Copy External Files"
 msgstr "Copiar Arquivos Externos"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Copy External Files"
 msgstr "Copiar Arquivos Externos"
 
@@ -1233,6 +1233,11 @@ msgstr "Data"
 msgctxt "Edit"
 msgid "Decrease Loop Count"
 msgstr "Diminuir Contagem de Loops"
+
+#: editing/chordtrackcomponent.cpp
+msgctxt "Chords"
+msgid "Default Style"
+msgstr "Estilo Padrão"
 
 #: musicediting/patterncontrollane.cpp
 msgctxt "MusicPatternPartEditor"
@@ -1550,9 +1555,8 @@ msgctxt "Command"
 msgid "Drum View"
 msgstr "Vista da Bateria"
 
-#: editing/launcher/launchercomponent.cpp
 #: editing/launcher/launcherplaylistcomponent.cpp
-#: musicediting/patterneditcomponent.cpp
+#: editing/launcher/launchercomponent.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Duplicate"
 msgstr "Duplicar"
@@ -1687,11 +1691,10 @@ msgctxt "Command"
 msgid "Duplicate Variation"
 msgstr "Duplicar Variação"
 
-#: audioediting/audiobendeditlayer.cpp editing/trackvisibilityhandler.cpp
-#: editing/chordeditlayer.cpp editing/eventsnapper.cpp
-#: editing/launcher/launchercomponent.cpp
-#: editing/launcher/launcherplaylistcomponent.cpp
-#: editing/trackchannelnamefilter.cpp editing/tracklistcomponent.cpp
+#: audioediting/audiobendeditlayer.cpp editing/chordeditlayer.cpp
+#: editing/eventsnapper.cpp editing/launcher/launcherplaylistcomponent.cpp
+#: editing/launcher/launchercomponent.cpp editing/trackchannelnamefilter.cpp
+#: editing/tracklistcomponent.cpp editing/trackvisibilityhandler.cpp
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Edit"
@@ -1737,7 +1740,7 @@ msgctxt "MusicPatternPartEditor"
 msgid "Edit Pattern Automation \"%(1)\""
 msgstr "Editar a Automação de Padrão \"%(1)\""
 
-#: musicediting/patterneditviews.cpp musicediting/patterneditcomponent.cpp
+#: musicediting/patterneditcomponent.cpp musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Edit Pattern Step"
 msgstr "Editar Passo do Padrão"
@@ -2632,9 +2635,9 @@ msgctxt "Command"
 msgid "Launch Cells"
 msgstr "Iniciar Células"
 
-#: editing/launcher/launchercomponent.cpp
 #: editing/launcher/launchereditmodel.cpp
 #: editing/launcher/launcherplaylistcomponent.cpp
+#: editing/launcher/launchercomponent.cpp
 msgctxt "Command"
 msgid "Launcher"
 msgstr "Launcher"
@@ -2724,11 +2727,6 @@ msgctxt "MusicPatternPartEditor"
 msgid "Locate"
 msgstr "Localizar"
 
-#: pool/locatefilescomponent.cpp
-msgctxt "LocateFiles"
-msgid "Locate File"
-msgstr "Localizar Arquivo"
-
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
 msgid "Locate File"
@@ -2739,6 +2737,16 @@ msgctxt "Command"
 msgid "Locate File"
 msgstr "Localizar Arquivo"
 
+#: pool/locatefilescomponent.cpp
+msgctxt "LocateFiles"
+msgid "Locate File"
+msgstr "Localizar Arquivo"
+
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
+msgid "Locate Missing Files"
+msgstr "Localizar Arquivos Perdidos"
+
 #: pool/mediapoolcomponent.cpp
 msgctxt "Command"
 msgid "Locate Missing Files"
@@ -2746,11 +2754,6 @@ msgstr "Localizar Arquivos Perdidos"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
-msgid "Locate Missing Files"
-msgstr "Localizar Arquivos Perdidos"
-
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
 msgid "Locate Missing Files"
 msgstr "Localizar Arquivos Perdidos"
 
@@ -2869,8 +2872,8 @@ msgctxt "Engine"
 msgid "Lyrics Track"
 msgstr "Pista de Letras"
 
-#: automationediting/automationtracklistcomponent.cpp
 #: automationediting/automationtrackcomponent.cpp
+#: automationediting/automationtracklistcomponent.cpp
 #: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
 msgid "Manage Parameters"
@@ -2945,6 +2948,11 @@ msgstr "Fundir em Parte de Áudio"
 msgctxt "Browser"
 msgid "Merge to Multichannel File"
 msgstr "Mesclar para Arquivo Multicanal"
+
+#: editing/chordtrackcomponent.cpp
+msgctxt "Chords"
+msgid "Minimal"
+msgstr "Mínimo"
 
 #: editing/tracklist.cpp
 msgctxt "TrackHeights"
@@ -3417,6 +3425,11 @@ msgctxt "Command"
 msgid "Nudge Up"
 msgstr "Deslocar Acima"
 
+#: editing/chordtrackcomponent.cpp
+msgctxt "Chords"
+msgid "Numbers"
+msgstr "Números"
+
 #: automationediting/automationtracklistcomponent.cpp
 msgctxt "Command"
 msgid "Off"
@@ -3553,7 +3566,7 @@ msgctxt "MusicPatternPartEditor"
 msgid "Pattern Automation"
 msgstr "Automação do Padrão"
 
-#: audioediting/audioscaleview.cpp audioediting/audioeditor.cpp
+#: audioediting/audioeditor.cpp audioediting/audioscaleview.cpp
 msgctxt "AudioScale"
 msgid "Percent"
 msgstr "Percentual"
@@ -3587,6 +3600,16 @@ msgstr "Reproduzir"
 msgctxt "LauncherPlaylist"
 msgid "Play Infinite"
 msgstr "Reprodução Infinita"
+
+#: editing/launcher/launchercomponent.cpp
+msgctxt "Command"
+msgid "Play Selected Cells"
+msgstr "Reproduzir Células Selecionadas"
+
+#: editing/launcher/launchercomponent.cpp
+msgctxt "Command"
+msgid "Play Selected Cells Exclusive"
+msgstr "Reproduzir Apenas Células Selecionadas"
 
 #: editing/rangeplayer.cpp
 msgctxt "Command"
@@ -3673,11 +3696,6 @@ msgctxt "AudioEdit"
 msgid "Quantize"
 msgstr "Quantização"
 
-#: editing/quantizepanel.h
-msgctxt "EditAddIn"
-msgid "Quantize"
-msgstr "Quantização"
-
 #: editing/eventeditmodel.cpp
 msgctxt "Events"
 msgid "Quantize"
@@ -3685,6 +3703,11 @@ msgstr "Quantização"
 
 #: editing/lyricstrackcomponent.cpp
 msgctxt "Command"
+msgid "Quantize"
+msgstr "Quantização"
+
+#: editing/quantizepanel.h
+msgctxt "EditAddIn"
 msgid "Quantize"
 msgstr "Quantização"
 
@@ -3868,6 +3891,11 @@ msgctxt "MusicPatternPartEditor"
 msgid "Record Pattern Step"
 msgstr "Gravar Passo de Automação"
 
+#: editing/launcher/launchercomponent.cpp
+msgctxt "Command"
+msgid "Record Selected Cells"
+msgstr "Gravar Células Selecionadas"
+
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
 msgid "Record Take"
@@ -3888,8 +3916,13 @@ msgctxt "Engine:AutomationFunctions"
 msgid "Reduce Automation"
 msgstr "Reduzir Automação"
 
-#: automationediting/automationtracklistcomponent.cpp
+#: editing/chordtrackcomponent.cpp
+msgctxt "Chords"
+msgid "Regular"
+msgstr "Regular"
+
 #: automationediting/automationtrackcomponent.cpp
+#: automationediting/automationtracklistcomponent.cpp
 msgctxt "Command"
 msgid "Remove"
 msgstr "Remover"
@@ -4109,13 +4142,13 @@ msgctxt "Command"
 msgid "Remove Track and Instrument"
 msgstr "Remover Pista e Instrumento"
 
-#: pool/mediapoolcomponent.cpp
-msgctxt "Command"
+#: pool/mediapoolbrowser.cpp
+msgctxt "PoolBrowser"
 msgid "Remove Unused Files"
 msgstr "Remover Arquivos não Utilizados"
 
-#: pool/mediapoolbrowser.cpp
-msgctxt "PoolBrowser"
+#: pool/mediapoolcomponent.cpp
+msgctxt "Command"
 msgid "Remove Unused Files"
 msgstr "Remover Arquivos não Utilizados"
 
@@ -4354,13 +4387,13 @@ msgctxt "ActionDescriptions"
 msgid "Resize Events"
 msgstr "Ajustar Tamanho dos Eventos"
 
-#: musicediting/patterneditviews.cpp
-msgctxt "MusicPatternPartEditor"
+#: musicediting/patternbankcomponent.cpp
+msgctxt "PatternSequence"
 msgid "Resolution"
 msgstr "Resolução"
 
-#: musicediting/patternbankcomponent.cpp
-msgctxt "PatternSequence"
+#: musicediting/patterneditviews.cpp
+msgctxt "MusicPatternPartEditor"
 msgid "Resolution"
 msgstr "Resolução"
 
@@ -4388,6 +4421,11 @@ msgstr "Gravação Retrospectiva"
 msgctxt "AudioEdit"
 msgid "Reverse Audio"
 msgstr "Inverter Áudio"
+
+#: editing/chordtrackcomponent.cpp
+msgctxt "Chords"
+msgid "Roman Numbers"
+msgstr "Números Romanos"
 
 #: audio/audioclip.cpp
 msgctxt "AudioClip"
@@ -4534,11 +4572,6 @@ msgctxt "Command"
 msgid "Select from Start to Event"
 msgstr "Selecionar do Início ao Evento"
 
-#: pool/locatefilescomponent.cpp
-msgctxt "LocateFiles"
-msgid "Select on Track"
-msgstr "Selecionar na Pista"
-
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
 msgid "Select on Track"
@@ -4546,6 +4579,11 @@ msgstr "Selecionar na Pista"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "Command"
+msgid "Select on Track"
+msgstr "Selecionar na Pista"
+
+#: pool/locatefilescomponent.cpp
+msgctxt "LocateFiles"
 msgid "Select on Track"
 msgstr "Selecionar na Pista"
 
@@ -4754,8 +4792,8 @@ msgctxt "Engine:AudioEnvelopeActions"
 msgid "Show %(1) Envelope"
 msgstr "Exibir Envelope %(1)"
 
-#: automationediting/automationtracklistcomponent.cpp
 #: automationediting/automationtrackcomponent.cpp
+#: automationediting/automationtracklistcomponent.cpp
 msgctxt "Command"
 msgid "Show / Hide"
 msgstr "Mostrar / Esconder"
@@ -4830,8 +4868,8 @@ msgctxt "DrumPitchNameSetup"
 msgid "Show Default"
 msgstr "Exibir Padrão"
 
-#: automationediting/automationtracklistcomponent.cpp
 #: automationediting/automationtrackcomponent.cpp
+#: automationediting/automationtracklistcomponent.cpp
 msgctxt "Command"
 msgid "Show Device"
 msgstr "Mostrar Dispositivo"
@@ -5026,6 +5064,11 @@ msgctxt "TrackHeights"
 msgid "Small"
 msgstr "Pequeno"
 
+#: editing/chordtrackcomponent.cpp
+msgctxt "Chords"
+msgid "Small Caps"
+msgstr "Versaletes"
+
 #: editing/eventsnapper.cpp
 msgctxt "TimeSnapper"
 msgid "Snap Event End"
@@ -5207,13 +5250,13 @@ msgctxt "Command"
 msgid "Step Record"
 msgstr "Gravação Passo-a-Passo"
 
-#: musicediting/patterneditviews.cpp
-msgctxt "MusicPatternPartEditor"
+#: musicediting/patternbankcomponent.cpp
+msgctxt "PatternSequence"
 msgid "Steps"
 msgstr "Passos"
 
-#: musicediting/patternbankcomponent.cpp
-msgctxt "PatternSequence"
+#: musicediting/patterneditviews.cpp
+msgctxt "MusicPatternPartEditor"
 msgid "Steps"
 msgstr "Passos"
 
@@ -5272,6 +5315,11 @@ msgctxt "TrackInfo"
 msgid "Sub Tracks: %(1)"
 msgstr "Sub Pistas: %(1)"
 
+#: editing/chordtrackcomponent.cpp
+msgctxt "Chords"
+msgid "Symbol"
+msgstr "Símbolo"
+
 #: pool/mediapreviewcomponent.cpp
 msgctxt "MediaPreview"
 msgid "Sync tempo"
@@ -5307,13 +5355,13 @@ msgctxt "AudioEditHandler"
 msgid "Tempo: %(1)  Length: %(2)"
 msgstr "Tempo: %(1)  Duração: %(2)"
 
-#: audio/audiotrackrecorder.cpp
-msgctxt "Record"
+#: audio/recorddiskspaceobserver.cpp
+msgctxt "RecordDiskSpaceObserver"
 msgid "The drive used for recording is full."
 msgstr "O disco utilizado para gravação está cheio."
 
-#: audio/recorddiskspaceobserver.cpp
-msgctxt "RecordDiskSpaceObserver"
+#: audio/audiotrackrecorder.cpp
+msgctxt "Record"
 msgid "The drive used for recording is full."
 msgstr "O disco utilizado para gravação está cheio."
 
@@ -5470,9 +5518,9 @@ msgstr "Toque"
 #: application/audioedit/audiotracktransformtask.cpp
 #: application/musicedit/musictracktransformtask.cpp
 #: audioediting/foldertrackaudiobus.cpp editing/editgroupscomponent.cpp
-#: editing/layereditlayer.cpp editing/monitorfollower.cpp editing/takelist.cpp
-#: editing/trackcontroller.cpp editing/tracklayercomponent.cpp
-#: editing/tracklistcomponent.cpp editing/mediatrackcontroller.cpp
+#: editing/layereditlayer.cpp editing/mediatrackcontroller.cpp
+#: editing/monitorfollower.cpp editing/takelist.cpp editing/trackcontroller.cpp
+#: editing/tracklayercomponent.cpp editing/tracklistcomponent.cpp
 #: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Track"
@@ -5866,7 +5914,7 @@ msgctxt "Command"
 msgid "Zoom Selected Track"
 msgstr "Aproximar Pista Selecionada"
 
-#: audioediting/audioscaleview.cpp audioediting/audioeditor.cpp
+#: audioediting/audioeditor.cpp audioediting/audioscaleview.cpp
 msgctxt "AudioScale"
 msgid "dB"
 msgstr "dB"
@@ -5896,15 +5944,19 @@ msgctxt "VideoEdit"
 msgid "new Track"
 msgstr "Nova Pista"
 
+#: pool/mediapoolnodes.cpp
+msgctxt "PoolNodes"
+msgid "used %(1) times"
+msgstr "utilizado %(1) vezes"
+
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "used %(1) times"
 msgstr "utilizado %(1) vezes"
 
-#: pool/mediapoolnodes.cpp
-msgctxt "PoolNodes"
-msgid "used %(1) times"
-msgstr "utilizado %(1) vezes"
+#~ msgctxt "Automation"
+#~ msgid "Continous"
+#~ msgstr "Contínuo"
 
 #~ msgctxt "LauncherCell"
 #~ msgid "Don't follow"

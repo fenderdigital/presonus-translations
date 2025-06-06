@@ -129,6 +129,11 @@ msgctxt "ProduceBeats.Step4"
 msgid "Automate steps"
 msgstr "ステップのオートメーションを設定する"
 
+#: scripts/smarttemplates/resources/jamtracks/Bass.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Bass"
+msgstr "ベース"
+
 #: tutorials/content/spatialaudio/steps.xml
 msgctxt "DolbyAtmos.Step6"
 msgid "Bed and objects"
@@ -355,6 +360,7 @@ msgctxt "HelpTutorial"
 msgid "Getting started with Studio One"
 msgstr "Studio Oneをはじめよう"
 
+#: scripts/smarttemplates/resources/jamtracks/Guitar.songtemplate
 #: scripts/smarttemplates/resources/playnow/Guitar.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Guitar"
@@ -431,6 +437,21 @@ msgctxt "InterfaceTemplateSettings"
 msgid "Interface template"
 msgstr "インターフェーステンプレート"
 
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam Now"
+msgstr "今すぐジャム"
+
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam with Guitar, Piano or Vocals"
+msgstr "ギター、ピアノ、ヴォーカルでジャム"
+
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam with a single instrument on Jam Tracks"
+msgstr "ジャムトラック上で単独楽器でジャム"
+
 #: tutorials/content/launchloops/steps.xml
 msgctxt "LaunchLoops.Step7"
 msgid "Launch Cells"
@@ -467,13 +488,8 @@ msgctxt "GettingStarted.Step7"
 msgid "Learn more"
 msgstr "さらに詳しく"
 
-#: tutorials/content/playnow/steps.xml
-msgctxt "PlayNow.VirtualInstrument.Step6"
-msgid "Learn more"
-msgstr "さらに詳しく"
-
-#: tutorials/content/playnow/steps.xml
-msgctxt "PlayNow.Guitar.Step7"
+#: tutorials/content/launchloops/steps.xml
+msgctxt "LaunchLoops.Step11"
 msgid "Learn more"
 msgstr "さらに詳しく"
 
@@ -492,8 +508,13 @@ msgctxt "DolbyAtmos.Step10"
 msgid "Learn more"
 msgstr "さらに詳しく"
 
-#: tutorials/content/launchloops/steps.xml
-msgctxt "LaunchLoops.Step11"
+#: tutorials/content/playnow/steps.xml
+msgctxt "PlayNow.VirtualInstrument.Step6"
+msgid "Learn more"
+msgstr "さらに詳しく"
+
+#: tutorials/content/playnow/steps.xml
+msgctxt "PlayNow.Guitar.Step7"
 msgid "Learn more"
 msgstr "さらに詳しく"
 
@@ -532,6 +553,11 @@ msgctxt "DocumentTemplate"
 msgid "New audio recording"
 msgstr "新規オーディオ録音"
 
+#: scripts/smarttemplates/resources/jamtracks/none.songtemplate
+msgctxt "DocumentTemplate"
+msgid "None"
+msgstr "なし"
+
 #: tutorials/content/playnow/steps.xml
 msgctxt "PlayNow.Guitar.Step3"
 msgid "Open Ampire"
@@ -547,6 +573,7 @@ msgctxt "PlayNow.VirtualInstrument.Step2"
 msgid "Open the instrument"
 msgstr "インストゥルメントを開く"
 
+#: scripts/smarttemplates/resources/jamtracks/Piano.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.bundle.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.songtemplate
 msgctxt "DocumentTemplate"
@@ -568,15 +595,30 @@ msgctxt "PlayNow.Guitar.Step1"
 msgid "Play Now"
 msgstr "今すぐ演奏"
 
+#: scripts/smarttemplates/resources/jamtracks/Bass.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play a real bass guitar using Rumble Bass Studio."
+msgstr "Rumble Bass Studioを使用してベースギターを演奏しましょう。"
+
 #: scripts/smarttemplates/resources/playnow/Guitar.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Play a real guitar using Ampire."
 msgstr "Ampireを使用して本物のギターを演奏する"
 
+#: scripts/smarttemplates/resources/jamtracks/Guitar.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play a real guitar using Mustang Guitar Studio."
+msgstr "Mustang Guitar Studioを使用してギターを演奏しましょう。"
+
 #: templates/Play Now.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Play a single instrument and capture ideas for your next song."
 msgstr "1つの楽器を演奏して、次の曲のアイデアをキャプチャしましょう。"
+
+#: scripts/smarttemplates/resources/jamtracks/none.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play no additional instrument."
+msgstr "追加インストゥルメントを再生しない。"
 
 #: templates/Play Now.songtemplate
 msgctxt "DocumentTemplate"
@@ -588,6 +630,7 @@ msgctxt "DocumentTemplate"
 msgid "Play virtual drums using Impact XT."
 msgstr "Impact XTを使用してバーチャルドラムを演奏する"
 
+#: scripts/smarttemplates/resources/jamtracks/Piano.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.bundle.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.songtemplate
 msgctxt "DocumentTemplate"
@@ -902,6 +945,11 @@ msgctxt "LaunchLoops.Step6"
 msgid "Show Launcher"
 msgstr "ランチャーを表示"
 
+#: scripts/smarttemplates/resources/jamtracks/Vocals.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Sing, using your microphone."
+msgstr "マイクを使用して歌いましょう。"
+
 #: scripts/smarttemplates/resources/recordnow/Single Track.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Single Track"
@@ -1108,6 +1156,11 @@ msgstr "このテンプレートを使用して、エレキギターを演奏し
 msgctxt "RecordNow.Step1"
 msgid "Use this template to record audio on a single track or multiple tracks and capture your ideas. Let&apos;s take a look..."
 msgstr "このテンプレートを使用して、1つまたは複数のトラックにオーディオを録音し、アイデアをキャプチャします。"
+
+#: scripts/smarttemplates/resources/jamtracks/Vocals.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Vocals"
+msgstr "ボーカル"
 
 #: tutorials/content/producebeats/steps.xml
 msgctxt "ProduceBeats.Step1"

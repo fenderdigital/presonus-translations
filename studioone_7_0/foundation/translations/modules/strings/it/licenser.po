@@ -69,8 +69,9 @@ msgctxt "WebAPI"
 msgid "An error occurred at the server (Status %(1))."
 msgstr "Si è verificato un errore sul server (Status %(1))."
 
-#: application/freemiumapp.cpp application/licensedapp.cpp
-#: application/loginhandler.cpp application/purchasehandler.cpp
+#: application/licensedapp.cpp application/freemiumapp.cpp
+#: application/presonusloginhandler.cpp application/purchasehandler.cpp
+#: application/fenderloginhandler.cpp
 msgctxt "Command"
 msgid "Application"
 msgstr "Applicazione"
@@ -85,7 +86,7 @@ msgctxt "Licenser"
 msgid "Copy to Clipboard"
 msgstr "Copia negli Appunti"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Credential Manager"
 msgstr "Gestione Credenziali"
@@ -102,19 +103,15 @@ msgstr "Disattiva %(1) elementi"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
-msgid ""
-"Failed to connect to the server.\n"
-"Please check your Internet connection and try again."
-msgstr ""
-"Impossibile connettersi al server.\n"
-"Per favore controllare la connessione Internet e riprovare."
+msgid "Failed to connect to the server.\nPlease check your Internet connection and try again."
+msgstr "Impossibile connettersi al server.\nPer favore controllare la connessione Internet e riprovare."
 
 #: application/userlicense.cpp
 msgctxt "FileType"
 msgid "Invalid License File!"
 msgstr "File di Licenza non Valido!"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Keychain Access"
 msgstr "Accesso Portachiavi"
@@ -129,7 +126,7 @@ msgctxt "FileType"
 msgid "License too old. Please activate $APPNAME again."
 msgstr "Licenza troppo vecchia. Si prega di attivare nuovamente $APPNAME."
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Command"
 msgid "Login"
 msgstr "Login"
@@ -139,7 +136,7 @@ msgctxt "Licenser"
 msgid "Manage Activations"
 msgstr "Gestisci Attivazioni"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "No permissions to change application passwords."
 msgstr "Nessuna autorizzazione per modificare le password dell'applicazione."
@@ -164,12 +161,12 @@ msgctxt "Licenser"
 msgid "Please enter the Product Key of the $APPNAME version you have purchased."
 msgstr "Si prega di inserire il Product Key della versione $APPNAME acquistata."
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Licenser"
 msgid "Please fill in the form completely."
 msgstr "Si prega di completare interamente il modulo."
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Please use %(1) to delete passwords."
 msgstr "Utilizza %(1) per eliminare le password."
@@ -199,7 +196,7 @@ msgctxt "WebAPI"
 msgid "Retrieving product list"
 msgstr "Recupero della lista prodotti"
 
-#: application/loginhandler.cpp
+#: application/presonusloginhandler.cpp
 msgctxt "Licenser"
 msgid "Select Country"
 msgstr "Seleziona Paese"
@@ -214,10 +211,25 @@ msgctxt "Licenser"
 msgid "Sign in"
 msgstr "Accedi"
 
+#: application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign in"
+msgstr "Accedi"
+
 #: application/loginhandler.cpp
 msgctxt "Licenser"
 msgid "Sign out"
 msgstr "Uscire"
+
+#: application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign out"
+msgstr "Uscire"
+
+#: application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign up"
+msgstr "Registrati"
 
 #: web/licenseserver.cpp
 msgctxt "WebAPI"
@@ -394,3 +406,4 @@ msgstr "I tuoi acquisti sono stati attivati."
 #~ msgctxt "Licenser"
 #~ msgid "Activation failed."
 #~ msgstr "Attivazione non riuscita."
+

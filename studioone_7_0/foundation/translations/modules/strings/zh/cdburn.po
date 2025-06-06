@@ -31,18 +31,8 @@ msgstr "正在关闭..."
 
 #: mac/imagewriter.cpp
 msgctxt "DDPImageMaker"
-msgid ""
-"Do you want to create a DDP image?\n"
-"\n"
-"Image: %(1)\n"
-"DDPID File: %(2)\n"
-"Location: %(3)"
-msgstr ""
-"是否要创建DDP映像?\n"
-"\n"
-"映像: %(1)\n"
-"DDPID文件: %(2)\n"
-"L位置: %(3)"
+msgid "Do you want to create a DDP image?\n\nImage: %(1)\nDDPID File: %(2)\nLocation: %(3)"
+msgstr "是否要创建DDP映像？\n\n映像：%(1)\nDDPID文件：%(2)\n位置：%(3)"
 
 #: gear/geardevice.cpp
 msgctxt "GearDevice"
@@ -97,7 +87,7 @@ msgstr "媒体不可读"
 #: base/mediainfo.cpp
 msgctxt "CDBurner"
 msgid "No media in disc drive"
-msgstr "光驱中无媒体"
+msgstr "光驱中没有媒体"
 
 #: gear/geardevice.cpp
 msgctxt "GearDevice"
@@ -132,7 +122,7 @@ msgstr "CD音频刻录支持"
 #: mac/imagewriter.cpp
 msgctxt "DDPImageMaker"
 msgid "There was an error during the DDP image creation!"
-msgstr "创建DDP映像时产生错误!"
+msgstr "创建DDP映像时产生错误！"
 
 #: base/mediainfo.cpp
 msgctxt "CDBurner"
@@ -168,3 +158,4 @@ msgstr "正在写入"
 msgctxt "ProjectBurner"
 msgid "Writing track"
 msgstr "正在写入音轨"
+

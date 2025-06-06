@@ -169,6 +169,21 @@ msgctxt "ActionDescriptions"
 msgid "Add Pattern"
 msgstr "Adicionar Padrão"
 
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Add Tag"
+msgstr "Adicionar Rótulo"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Adding Tags..."
+msgstr "Adicionando Rótulos..."
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "All tags are valid."
+msgstr "Todas as marcações são válidas"
+
 #: audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
 msgid "Apple Impulse File"
@@ -264,6 +279,11 @@ msgctxt "Media"
 msgid "Center Top Rear"
 msgstr "Central Superior Traseiro"
 
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Checking files in \"%(1)\""
+msgstr "Verificando arquivos em \"%(1)\""
+
 #: music/chordevent.cpp
 msgctxt "FileType"
 msgid "Chord File"
@@ -273,6 +293,16 @@ msgstr "Arquivo Acorde"
 msgctxt "MusicalScale"
 msgid "Chromatic"
 msgstr "Cromática"
+
+#: tagging/tagstore.cpp tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Cleanup Tags of Missing Files"
+msgstr "Limpar Marcações de Arquivos Perdidos"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Clear Tags"
+msgstr "Limpeza de Rótulos"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -353,6 +383,11 @@ msgstr "Diminuendo Grampo"
 msgctxt "AudioFileConverter"
 msgid "Do you want to merge the files as %(1)?"
 msgstr "Deseja mesclar os arquivos como %(1)?"
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Do you want to remove these tag entries for non-existing files?"
+msgstr "Você deseja remover estas marcações de arquivos inexistentes?"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -779,13 +814,13 @@ msgctxt "ActionDescriptions"
 msgid "Modify Step Count"
 msgstr "Modifica Contagem de Passos"
 
-#: time/tempomanipulator.cpp
-msgctxt "TempoManipulator"
+#: time/mediatimeactions.cpp
+msgctxt "MediaTimeAction"
 msgid "Modify Tempo"
 msgstr "Modificar Tempo"
 
-#: time/mediatimeactions.cpp
-msgctxt "MediaTimeAction"
+#: time/tempomanipulator.cpp
+msgctxt "TempoManipulator"
 msgid "Modify Tempo"
 msgstr "Modificar Tempo"
 
@@ -1023,6 +1058,11 @@ msgstr "Remover Controlador de Nota \"%(1)\""
 msgctxt "ActionDescriptions"
 msgid "Remove Pattern"
 msgstr "Remove Padrão"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Remove Tag"
+msgstr "Remover Etiqueta"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
@@ -1424,6 +1464,11 @@ msgctxt "MusicSymbols"
 msgid "Up Bow"
 msgstr "Arco Acima"
 
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Updated tags in %(1)\n"
+msgstr "Marcações atualizadas em in %(1)\n"
+
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Use specific velocity"
@@ -1473,6 +1518,11 @@ msgstr "Trinado de Tom Completo"
 msgctxt "MusicSymbols"
 msgid "Wide Vibrato"
 msgstr "Vibrato Amplo"
+
+#: tagging/tagnodes.cpp
+msgctxt "TagStore"
+msgid "other"
+msgstr "outro"
 
 #: music/chordclassifier.cpp
 msgctxt "Chords"

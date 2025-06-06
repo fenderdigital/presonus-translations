@@ -63,10 +63,11 @@ msgctxt "WebAPI"
 msgid "An error occurred at the server (Status %(1))."
 msgstr ""
 
-#: ./application/freemiumapp.cpp
 #: ./application/licensedapp.cpp
-#: ./application/loginhandler.cpp
+#: ./application/freemiumapp.cpp
+#: ./application/presonusloginhandler.cpp
 #: ./application/purchasehandler.cpp
+#: ./application/fenderloginhandler.cpp
 msgctxt "Command"
 msgid "Application"
 msgstr ""
@@ -81,7 +82,7 @@ msgctxt "Licenser"
 msgid "Copy to Clipboard"
 msgstr ""
 
-#: ./application/loginhandler.cpp
+#: ./application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Credential Manager"
 msgstr ""
@@ -106,7 +107,7 @@ msgctxt "FileType"
 msgid "Invalid License File!"
 msgstr ""
 
-#: ./application/loginhandler.cpp
+#: ./application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Keychain Access"
 msgstr ""
@@ -121,7 +122,7 @@ msgctxt "FileType"
 msgid "License too old. Please activate $APPNAME again."
 msgstr ""
 
-#: ./application/loginhandler.cpp
+#: ./application/presonusloginhandler.cpp
 msgctxt "Command"
 msgid "Login"
 msgstr ""
@@ -131,7 +132,7 @@ msgctxt "Licenser"
 msgid "Manage Activations"
 msgstr ""
 
-#: ./application/loginhandler.cpp
+#: ./application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "No permissions to change application passwords."
 msgstr ""
@@ -156,12 +157,12 @@ msgctxt "Licenser"
 msgid "Please enter the Product Key of the $APPNAME version you have purchased."
 msgstr ""
 
-#: ./application/loginhandler.cpp
+#: ./application/presonusloginhandler.cpp
 msgctxt "Licenser"
 msgid "Please fill in the form completely."
 msgstr ""
 
-#: ./application/loginhandler.cpp
+#: ./application/presonusloginhandler.cpp
 msgctxt "Credentials"
 msgid "Please use %(1) to delete passwords."
 msgstr ""
@@ -191,7 +192,7 @@ msgctxt "WebAPI"
 msgid "Retrieving product list"
 msgstr ""
 
-#: ./application/loginhandler.cpp
+#: ./application/presonusloginhandler.cpp
 msgctxt "Licenser"
 msgid "Select Country"
 msgstr ""
@@ -206,9 +207,24 @@ msgctxt "Licenser"
 msgid "Sign in"
 msgstr ""
 
+#: ./application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign in"
+msgstr ""
+
 #: ./application/loginhandler.cpp
 msgctxt "Licenser"
 msgid "Sign out"
+msgstr ""
+
+#: ./application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign out"
+msgstr ""
+
+#: ./application/fenderloginhandler.cpp
+msgctxt "Command"
+msgid "Sign up"
 msgstr ""
 
 #: ./web/licenseserver.cpp

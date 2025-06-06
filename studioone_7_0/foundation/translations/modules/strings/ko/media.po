@@ -169,6 +169,21 @@ msgctxt "ActionDescriptions"
 msgid "Add Pattern"
 msgstr "패턴 추가"
 
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Add Tag"
+msgstr "태그 추가"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Adding Tags..."
+msgstr "태그 추가중..."
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "All tags are valid."
+msgstr "모든 태그가 유효합니다."
+
 #: audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
 msgid "Apple Impulse File"
@@ -264,6 +279,11 @@ msgctxt "Media"
 msgid "Center Top Rear"
 msgstr "센터 탑 리어"
 
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Checking files in \"%(1)\""
+msgstr "\"%(1)\"의 파일을 확인하고 있습니다."
+
 #: music/chordevent.cpp
 msgctxt "FileType"
 msgid "Chord File"
@@ -273,6 +293,16 @@ msgstr "코드 파일"
 msgctxt "MusicalScale"
 msgid "Chromatic"
 msgstr "크로매틱"
+
+#: tagging/tagstore.cpp tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Cleanup Tags of Missing Files"
+msgstr "누락된 파일의 태그 삭제"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Clear Tags"
+msgstr "태그 클리어"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -353,6 +383,11 @@ msgstr "디미누엔도 헤어핀"
 msgctxt "AudioFileConverter"
 msgid "Do you want to merge the files as %(1)?"
 msgstr "파일들을 %(1)(으)로 합치시겠습니까?"
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Do you want to remove these tag entries for non-existing files?"
+msgstr "존재하지 않는 파일들의 태그 엔트리를 제거하시겠습니까?"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -779,13 +814,13 @@ msgctxt "ActionDescriptions"
 msgid "Modify Step Count"
 msgstr "스텝 카운트 수정"
 
-#: time/tempomanipulator.cpp
-msgctxt "TempoManipulator"
+#: time/mediatimeactions.cpp
+msgctxt "MediaTimeAction"
 msgid "Modify Tempo"
 msgstr "템포 수정"
 
-#: time/mediatimeactions.cpp
-msgctxt "MediaTimeAction"
+#: time/tempomanipulator.cpp
+msgctxt "TempoManipulator"
 msgid "Modify Tempo"
 msgstr "템포 수정"
 
@@ -1023,6 +1058,11 @@ msgstr "노트 컨트롤러 \"%(1)\" 제거"
 msgctxt "ActionDescriptions"
 msgid "Remove Pattern"
 msgstr "패턴 제거"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Remove Tag"
+msgstr "태그 제거"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
@@ -1424,6 +1464,11 @@ msgctxt "MusicSymbols"
 msgid "Up Bow"
 msgstr "올림활"
 
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Updated tags in %(1)\n"
+msgstr "%(1)에서 업데이트된 태그\n"
+
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Use specific velocity"
@@ -1473,6 +1518,11 @@ msgstr "온음 트릴"
 msgctxt "MusicSymbols"
 msgid "Wide Vibrato"
 msgstr "와이드 비브라토"
+
+#: tagging/tagnodes.cpp
+msgctxt "TagStore"
+msgid "other"
+msgstr "그 외"
 
 #: music/chordclassifier.cpp
 msgctxt "Chords"

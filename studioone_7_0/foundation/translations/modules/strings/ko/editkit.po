@@ -84,6 +84,16 @@ msgctxt "ScoreSymbolMap"
 msgid "Are you sure you want to overwrite the default map?"
 msgstr "정말로 기존 맵을 덮어씌우시겠습니까?"
 
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Are you sure you want to permanently delete these %(1) items?"
+msgstr "정말로 %(1) 아이템을 영구적으로 삭제하시겠습니까?"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Are you sure you want to permanently delete this item?"
+msgstr "정말로 이 아이템을 영구적으로 삭제하시겠습니까?"
+
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Are you sure you want to remove the default map?"
@@ -114,17 +124,17 @@ msgctxt "SoundVariations"
 msgid "Assign Key Switches White Keys"
 msgstr "키 스위치 하얀 건반 할당"
 
-#: timeedit/timeeditcomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Edit"
 msgid "Auto Zoom Full"
 msgstr "자동 최대확대"
 
-#: timeedit/timeeditcomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Edit"
 msgid "Auto Zoom Horizontally"
 msgstr "자동 가로확대"
 
-#: timeedit/timeeditcomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Edit"
 msgid "Auto Zoom Vertically"
 msgstr "자동 세로확대"
@@ -144,6 +154,21 @@ msgctxt "Command"
 msgid "Autoscroll"
 msgstr "오토스크롤"
 
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll Centered"
+msgstr "중앙으로 자동스크롤"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll Left"
+msgstr "왼쪽으로 자동스크롤"
+
+#: timeedit/timelinecomponent.cpp
+msgctxt "Command"
+msgid "Autoscroll Turn Over"
+msgstr "넘기면서 자동스크롤"
+
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Bank Change"
@@ -159,13 +184,13 @@ msgctxt "LyricsDisplaySetup"
 msgid "Bars"
 msgstr "마디"
 
-#: envelopes/envelopeinspector.cpp
-msgctxt "Envelope"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
 msgid "Bend Curve"
 msgstr "벤드 커브"
 
-#: envelopes/envelopeedithandler.cpp
-msgctxt "Events"
+#: envelopes/envelopeinspector.cpp
+msgctxt "Envelope"
 msgid "Bend Curve"
 msgstr "벤드 커브"
 
@@ -223,6 +248,16 @@ msgstr "공통 길이"
 msgctxt "EventEditHandler"
 msgid "Common start"
 msgstr "공통 시작"
+
+#: timeedit/timeline.cpp
+msgctxt "Edit"
+msgid "Continuous Centered"
+msgstr "연속으로 중앙"
+
+#: timeedit/timeline.cpp
+msgctxt "Edit"
+msgid "Continuous Left"
+msgstr "연속으로 좌측"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -289,10 +324,10 @@ msgctxt "SoundVariations"
 msgid "Default"
 msgstr "기본값"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Default"
-msgstr "기본값"
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Delete"
+msgstr "삭제"
 
 #: tempo/tempoeditcomponent.cpp
 msgctxt "Command"
@@ -360,9 +395,9 @@ msgid "Dynamics"
 msgstr "다이나믹스"
 
 #: events/eventeditcomponent.cpp music/noteplayer.cpp
-#: timeedit/snaptimeprovider.cpp timeedit/signatureeditlayer.cpp
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
-#: timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
+#: timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp
+#: timeedit/timeeditcomponent.cpp timeedit/timeselectioncomponent.cpp
+#: timeedit/timesnapper.cpp timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Edit"
 msgstr "편집"
@@ -387,6 +422,11 @@ msgctxt "Command"
 msgid "Edit Key Signature"
 msgstr "조성 편집"
 
+#: base/notepad.cpp
+msgctxt "Notepad"
+msgid "Edit Note"
+msgstr "노트 편집"
+
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
 msgid "Edit Time Signature"
@@ -396,6 +436,11 @@ msgstr "박자표 편집"
 msgctxt "Command"
 msgid "Edit Time Signature"
 msgstr "박자표 편집"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Empty Trash Bin"
+msgstr "휴지통 비우기"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -617,11 +662,6 @@ msgctxt "Music"
 msgid "Lyrics"
 msgstr "가사"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Minimal"
-msgstr "미니멀"
-
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Modify Velocity"
@@ -717,20 +757,26 @@ msgctxt "MusicEdit"
 msgid "Mute"
 msgstr "뮤트"
 
-#: music/soundvariationtreemodel.cpp music/soundvariationeditor.cpp
-msgctxt "SoundVariations"
-msgid "Name"
-msgstr "이름"
-
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Name"
 msgstr "이름"
 
-#: events/eventeditcomponent.cpp timeedit/timeeditcomponent.cpp
+#: music/soundvariationeditor.cpp music/soundvariationtreemodel.cpp
+msgctxt "SoundVariations"
+msgid "Name"
+msgstr "이름"
+
+#: events/eventeditcomponent.cpp itemlist/listitemcomponent.cpp
+#: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Navigation"
 msgstr "내비게이션"
+
+#: itemlist/showhidefilter.cpp
+msgctxt "ShowHideFilter"
+msgid "New Preset"
+msgstr "새 프리셋"
 
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
@@ -867,13 +913,13 @@ msgctxt "EventFigures"
 msgid "Phase offset"
 msgstr "위상 옵셋"
 
-#: music/notecolorschemeparam.cpp
-msgctxt "NoteColorScheme"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Pitch"
 msgstr "피치"
 
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
 msgid "Pitch"
 msgstr "피치"
 
@@ -952,7 +998,7 @@ msgctxt "FileType"
 msgid "Quantize Settings"
 msgstr "퀀타이즈 설정"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Quintuplet"
 msgstr "다섯잇단음"
@@ -1037,18 +1083,23 @@ msgctxt "DrumPads"
 msgid "Reset Pads"
 msgstr "패드 리셋"
 
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "Restore"
+msgstr "복원"
+
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Restore Zoom State"
 msgstr "확대 배율 복원"
 
-#: envelopes/envelopeinspector.cpp
-msgctxt "Envelope"
+#: envelopes/envelopeedithandler.cpp
+msgctxt "Events"
 msgid "S-Curve"
 msgstr "S-커브"
 
-#: envelopes/envelopeedithandler.cpp
-msgctxt "Events"
+#: envelopes/envelopeinspector.cpp
+msgctxt "Envelope"
 msgid "S-Curve"
 msgstr "S-커브"
 
@@ -1097,7 +1148,7 @@ msgctxt "PitchScale"
 msgid "Select notes of this Pitch"
 msgstr "이 피치의 노트 선택"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Septuplet"
 msgstr "일곱잇단음"
@@ -1121,6 +1172,16 @@ msgstr "루프 시작점 설정"
 msgctxt "TimeRulerView"
 msgid "Set Loop Start"
 msgstr "루프 시작점 설정"
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Set Postroll Bars"
+msgstr "포스트롤 마디 설정"
+
+#: timeedit/timerulerview.cpp
+msgctxt "TimeRulerView"
+msgid "Set Preroll Bars"
+msgstr "프리롤 마디 설정"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
@@ -1222,11 +1283,6 @@ msgctxt "Command"
 msgid "Size Range Start to Hotspot Back"
 msgstr "레인지 시작점을 핫스팟까지 뒤쪽으로 크기 맞춤"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Small caps"
-msgstr "작은 대문자"
-
 #: timeedit/snaptimeprovider.cpp
 msgctxt "Command"
 msgid "Snap Relative Grid"
@@ -1292,7 +1348,7 @@ msgctxt "ScoreSymbolMap"
 msgid "Store as Default"
 msgstr "기본값으로 저장"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Straight"
 msgstr "스트레이트"
@@ -1317,11 +1373,6 @@ msgctxt "Command"
 msgid "Swap Ruler Formats"
 msgstr "룰러 포맷 치환"
 
-#: music/chordselector.cpp
-msgctxt "Notation"
-msgid "Symbol"
-msgstr "기호"
-
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Symbol"
@@ -1339,21 +1390,23 @@ msgstr "템포"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid ""
-"The preset was generated for '%(1)' and does not match the target instrument.\n"
-"Do you want to load the variation map anyway?"
-msgstr ""
-"'%(1)' 에 대하여 생성된 프리셋이 타깃 악기와 일치하지 않습니다.\n"
-"그래도 바리에이션 맵을 불러오시겠습니까?"
+msgid "The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
+msgstr "'%(1)' 에 대하여 생성된 프리셋이 타깃 악기와 일치하지 않습니다.\n그래도 바리에이션 맵을 불러오시겠습니까?"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid ""
-"The preset was generated for sound '%(1)' and does not match the current instrument preset.\n"
-"Do you want to load the variation map anyway?"
-msgstr ""
-"사운드 '%(1)' 에 대하여 생성된 프리셋이 현재 악기 프리셋과 일치하지 않습니다.\n"
-"그래도 바리에이션 맵을 불러오시겠습니까?"
+msgid "The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
+msgstr "사운드 '%(1)' 에 대하여 생성된 프리셋이 현재 악기 프리셋과 일치하지 않습니다.\n그래도 바리에이션 맵을 불러오시겠습니까?"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "These items could not be restored!"
+msgstr "이 아이템들을 복원할 수 없습니다!"
+
+#: base/trashcomponent.cpp
+msgctxt "TrashBin"
+msgid "This item could not be restored!"
+msgstr "이 아이템을 복원할 수 없습니다!"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -1375,22 +1428,22 @@ msgctxt "Edit"
 msgid "Timebase"
 msgstr "타임베이스"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom"
 msgstr "자동확대 전환"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Full"
 msgstr "자동 최대확대 전환"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Horizontally"
 msgstr "자동 가로확대 전환"
 
-#: timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Vertically"
 msgstr "자동 세로확대 전환"
@@ -1450,10 +1503,15 @@ msgctxt "Command"
 msgid "Transport"
 msgstr "트랜스포트"
 
-#: quantize/quantizelength.cpp quantize/quantizegrid.cpp
+#: quantize/quantizegrid.cpp quantize/quantizelength.cpp
 msgctxt "Quantize"
 msgid "Triplet"
 msgstr "셋잇단음"
+
+#: timeedit/timeline.cpp
+msgctxt "Edit"
+msgid "Turn Over"
+msgstr "넘기기"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1495,13 +1553,13 @@ msgctxt "Events"
 msgid "Values Locked"
 msgstr "값 잠김"
 
-#: music/notecolorschemeparam.cpp
-msgctxt "NoteColorScheme"
+#: music/musicedittasks.cpp
+msgctxt "MusicEdit"
 msgid "Velocity"
 msgstr "벨로시티"
 
-#: music/musicedittasks.cpp
-msgctxt "MusicEdit"
+#: music/notecolorschemeparam.cpp
+msgctxt "NoteColorScheme"
 msgid "Velocity"
 msgstr "벨로시티"
 
@@ -1520,7 +1578,8 @@ msgctxt "Command"
 msgid "View"
 msgstr "보기"
 
-#: timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp
+#: timeedit/autozoommanager.cpp timeedit/timeeditcomponent.cpp
+#: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom"
 msgstr "확대/축소"
@@ -1595,6 +1654,22 @@ msgctxt "Command"
 msgid "Zoom to Selection Horizontally"
 msgstr "선택영역에 맞추어 가로로 확대/축소"
 
+#~ msgctxt "Notation"
+#~ msgid "Default"
+#~ msgstr "기본값"
+
+#~ msgctxt "Notation"
+#~ msgid "Minimal"
+#~ msgstr "미니멀"
+
+#~ msgctxt "Notation"
+#~ msgid "Small caps"
+#~ msgstr "작은 대문자"
+
+#~ msgctxt "Notation"
+#~ msgid "Symbol"
+#~ msgstr "기호"
+
 #~ msgctxt "Command"
 #~ msgid "Copy"
 #~ msgstr "복사"
@@ -1610,3 +1685,4 @@ msgstr "선택영역에 맞추어 가로로 확대/축소"
 #~ msgctxt "Command"
 #~ msgid "Select All"
 #~ msgstr "모두 선택"
+

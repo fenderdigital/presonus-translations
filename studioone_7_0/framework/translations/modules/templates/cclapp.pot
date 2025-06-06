@@ -63,13 +63,13 @@ msgctxt "PresetBrowser"
 msgid "(no presets)"
 msgstr ""
 
-#: ./documents/documentdiagnostic.cpp
-msgctxt "DocumentDiagnostics"
+#: ./utilities/appdiagnostic.cpp
+msgctxt "Diagnostics"
 msgid "<1 KB"
 msgstr ""
 
-#: ./documents/documentdiagnostic.cpp
-msgctxt "DocumentDiagnostics"
+#: ./utilities/appdiagnostic.cpp
+msgctxt "Diagnostics"
 msgid "<1 ms"
 msgstr ""
 
@@ -83,12 +83,12 @@ msgctxt "Autosave"
 msgid "A backup that is newer than the original file has been found."
 msgstr ""
 
-#: ./fileinfo/filerenamer.cpp
+#: ./components/filerenamer.cpp
 msgctxt "FileRenamer"
 msgid "A file with this name already exists."
 msgstr ""
 
-#: ./fileinfo/filerenamer.cpp
+#: ./components/filerenamer.cpp
 msgctxt "FileRenamer"
 msgid "A folder with this name already exists."
 msgstr ""
@@ -108,11 +108,6 @@ msgctxt "FileType"
 msgid "Add File Type"
 msgstr ""
 
-#: ./datastore/tagstorecomponent.cpp
-msgctxt "TagStore"
-msgid "Add Tag"
-msgstr ""
-
 #: ./safety/appsafetymanager.cpp
 msgctxt "AppSafetyManager"
 msgid "Add plug-in to the Blocklist."
@@ -121,11 +116,6 @@ msgstr ""
 #: ./browser/browsernode.cpp
 msgctxt "Browser"
 msgid "Add to Favorites"
-msgstr ""
-
-#: ./datastore/tagstorecomponent.cpp
-msgctxt "TagStore"
-msgid "Adding Tags..."
 msgstr ""
 
 #: ./documents/documentblocks.cpp
@@ -143,17 +133,12 @@ msgctxt "Documents"
 msgid "Age"
 msgstr ""
 
-#: ./datastore/tagstore.cpp
-msgctxt "TagStore"
-msgid "All tags are valid."
-msgstr ""
-
 #: ./application.cpp
 msgctxt "Application"
 msgid "An instance of $APPNAME is already running."
 msgstr ""
 
-#: ./fileinfo/filerenamer.cpp
+#: ./components/filerenamer.cpp
 msgctxt "FileRenamer"
 msgid "An object with this name already exists."
 msgstr ""
@@ -166,16 +151,6 @@ msgstr ""
 #: ./application.cpp
 msgctxt "Command"
 msgid "Application"
-msgstr ""
-
-#: ./actions/trashcomponent.cpp
-msgctxt "TrashBin"
-msgid "Are you sure you want to permanently delete these %(1) items?"
-msgstr ""
-
-#: ./actions/trashcomponent.cpp
-msgctxt "TrashBin"
-msgid "Are you sure you want to permanently delete this item?"
 msgstr ""
 
 #: ./browser/pluginnodes.cpp
@@ -198,7 +173,7 @@ msgctxt "Command"
 msgid "Ascend Root"
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "CCLAppSafety"
 msgid "Auto-save"
 msgstr ""
@@ -251,7 +226,7 @@ msgctxt "Presets"
 msgid "But none of them is a preset for %(1)!"
 msgstr ""
 
-#: ./fileinfo/pathclassifier.cpp
+#: ./utilities/pathclassifier.cpp
 msgctxt "FileInfo"
 msgid "CD/DVD Drive"
 msgstr ""
@@ -271,17 +246,6 @@ msgctxt "FileType"
 msgid "Category"
 msgstr ""
 
-#: ./datastore/tagstore.cpp
-msgctxt "TagStore"
-msgid "Checking files in \"%(1)\""
-msgstr ""
-
-#: ./datastore/tagstore.cpp
-#: ./datastore/tagstorecomponent.cpp
-msgctxt "TagStore"
-msgid "Cleanup Tags of Missing Files"
-msgstr ""
-
 #: ./components/pathselector.cpp
 msgctxt "PathList"
 msgid "Clear History"
@@ -295,11 +259,6 @@ msgstr ""
 #: ./documents/recentdocuments.cpp
 msgctxt "Documents"
 msgid "Clear Recent Files"
-msgstr ""
-
-#: ./datastore/tagstorecomponent.cpp
-msgctxt "TagStore"
-msgid "Clear Tags"
 msgstr ""
 
 #: ./presets/presetcomponent.cpp
@@ -363,27 +322,27 @@ msgctxt "Command"
 msgid "Copy"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Copy"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Copy to \"%(1)\""
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Copy to Root"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Copying %(1)"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Copying files"
 msgstr ""
@@ -403,12 +362,12 @@ msgctxt "Documents"
 msgid "Could not rename the folder %(1)!\n\nA file in this folder is in use."
 msgstr ""
 
-#: ./fileinfo/filerenamer.cpp
+#: ./components/filerenamer.cpp
 msgctxt "FileRenamer"
 msgid "Could not rename this file."
 msgstr ""
 
-#: ./fileinfo/filerenamer.cpp
+#: ./components/filerenamer.cpp
 msgctxt "FileRenamer"
 msgid "Could not rename this folder."
 msgstr ""
@@ -423,7 +382,7 @@ msgctxt "DocumentDiagnostics"
 msgid "Count"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Create new folder"
 msgstr ""
@@ -463,11 +422,6 @@ msgctxt "Documents"
 msgid "Date"
 msgstr ""
 
-#: ./actions/trashcomponent.cpp
-msgctxt "TrashBin"
-msgid "Delete"
-msgstr ""
-
 #: ./components/stringlistcomponent.cpp
 #: ./editing/editor.cpp
 msgctxt "Command"
@@ -484,12 +438,12 @@ msgctxt "Customization"
 msgid "Delete"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Delete File"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Delete Folder"
 msgstr ""
@@ -519,12 +473,12 @@ msgctxt "Customization"
 msgid "Delete User Customization"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Deleting %(1)"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Deleting Files"
 msgstr ""
@@ -580,22 +534,22 @@ msgctxt "Documents"
 msgid "Discard"
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "AppSafetyProviders"
 msgid "Do not load $APPCOMPANY plug-ins"
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "AppSafetyProviders"
 msgid "Do not load plug-ins made by $APPCOMPANY."
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "AppSafetyProviders"
 msgid "Do not load plug-ins made by third-party vendors."
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "AppSafetyProviders"
 msgid "Do not load third-party plug-ins"
 msgstr ""
@@ -615,22 +569,22 @@ msgctxt "Customization"
 msgid "Do you want delete all user customization presets?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Do you want to copy these files to \"%(1)\"?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Do you want to copy this file to \"%(1)\"?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Do you want to copy this folder to \"%(1)\"?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Do you want to delete these files permanently?"
 msgstr ""
@@ -640,12 +594,12 @@ msgctxt "Presets"
 msgid "Do you want to delete these presets?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Do you want to delete this file permanently?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Do you want to delete this folder permanently?"
 msgstr ""
@@ -665,17 +619,17 @@ msgctxt "Documents"
 msgid "Do you want to merge into %(1)?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Do you want to move these files to \"%(1)\"?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Do you want to move this file to \"%(1)\"?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Do you want to move this folder to \"%(1)\"?"
 msgstr ""
@@ -698,11 +652,6 @@ msgstr ""
 #: ./browser/browsernode.cpp
 msgctxt "Browser"
 msgid "Do you want to remove these folders?"
-msgstr ""
-
-#: ./datastore/tagstore.cpp
-msgctxt "TagStore"
-msgid "Do you want to remove these tag entries for non-existing files?"
 msgstr ""
 
 #: ./browser/browsernode.cpp
@@ -775,7 +724,7 @@ msgctxt "ToolHelp"
 msgid "Draw Selection (add)"
 msgstr ""
 
-#: ./browser/searchcomponent.cpp
+#: ./components/searchcomponent.cpp
 #: ./components/stringlistcomponent.cpp
 #: ./documents/documentmanager.cpp
 #: ./editing/editor.cpp
@@ -786,16 +735,6 @@ msgstr ""
 #: ./options/customization.cpp
 msgctxt "Customization"
 msgid "Edit Customization"
-msgstr ""
-
-#: ./components/notepad.cpp
-msgctxt "Notepad"
-msgid "Edit Note"
-msgstr ""
-
-#: ./actions/trashcomponent.cpp
-msgctxt "TrashBin"
-msgid "Empty Trash Bin"
 msgstr ""
 
 #: ./options/serviceoption.cpp
@@ -853,17 +792,17 @@ msgctxt "FileExport"
 msgid "Export to \"%(1)\""
 msgstr ""
 
-#: ./fileinfo/fileexporter.cpp
+#: ./components/fileexporter.cpp
 msgctxt "FileExporter"
 msgid "Exported"
 msgstr ""
 
-#: ./fileinfo/fileexporter.cpp
+#: ./components/fileexporter.cpp
 msgctxt "FileExporter"
 msgid "Exporting"
 msgstr ""
 
-#: ./fileinfo/fileexporter.cpp
+#: ./components/fileexporter.cpp
 msgctxt "FileExporter"
 msgid "Exporting %(1)"
 msgstr ""
@@ -914,12 +853,12 @@ msgctxt "FileInfo"
 msgid "File information"
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "AppSafetyProviders"
 msgid "Find items with long load times."
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "AppSafetyProviders"
 msgid "Find items with long save times or large size."
 msgstr ""
@@ -1089,11 +1028,6 @@ msgctxt "UserOption"
 msgid "Light Mode"
 msgstr ""
 
-#: ./options/mainoption.cpp
-msgctxt "KnobMode"
-msgid "Linear"
-msgstr ""
-
 #: ./presets/presettrader.cpp
 #: ./presets/presetcomponent.cpp
 msgctxt "Presets"
@@ -1130,13 +1064,13 @@ msgctxt "Documents"
 msgid "Loading: %(1)..."
 msgstr ""
 
-#: ./fileinfo/pathclassifier.cpp
+#: ./utilities/pathclassifier.cpp
 msgctxt "FileInfo"
 msgid "Local"
 msgstr ""
 
-#: ./options/mainoption.cpp
 #: ./options/useroption.cpp
+#: ./options/mainoption.cpp
 msgctxt "UserOption"
 msgid "Locations"
 msgstr ""
@@ -1156,27 +1090,27 @@ msgctxt "Scale"
 msgid "Move"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Move"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Move to \"%(1)\""
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Move to Folder"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Move to New Folder"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Move to Root"
 msgstr ""
@@ -1186,12 +1120,12 @@ msgctxt "Scale"
 msgid "Move, Zoom"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Moving %(1)"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Moving files"
 msgstr ""
@@ -1213,7 +1147,6 @@ msgstr ""
 
 #: ./browser/browser.cpp
 #: ./editing/editor.cpp
-#: ./itemlist/listitemcomponent.cpp
 #: ./navigation/navigatorbase.cpp
 #: ./application.cpp
 msgctxt "Command"
@@ -1230,14 +1163,9 @@ msgctxt "Command"
 msgid "New Folder"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "New Folder"
-msgstr ""
-
-#: ./itemlist/showhidefilter.cpp
-msgctxt "ShowHideFilter"
-msgid "New Preset"
 msgstr ""
 
 #: ./browser/browser.cpp
@@ -1265,7 +1193,7 @@ msgctxt "Browser"
 msgid "New Tab From Here"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "New folder"
 msgstr ""
@@ -1341,7 +1269,7 @@ msgctxt "Command"
 msgid "Open Settings Folder"
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "CCLAppSafety"
 msgid "Open document \"%(1)\""
 msgstr ""
@@ -1421,9 +1349,19 @@ msgctxt "Documents"
 msgid "Please supply a filename."
 msgstr ""
 
-#: ./pluginclass.cpp
+#: ./browser/pluginmanagement.cpp
+msgctxt "PlugInManagement"
+msgid "Plug-In Manager"
+msgstr ""
+
+#: ./utilities/pluginclass.cpp
 msgctxt "CCL"
 msgid "Plug-in Thumbnails"
+msgstr ""
+
+#: ./browser/pluginmanagement.cpp
+msgctxt "PlugInManagement"
+msgid "Plug-in duplicates were hidden"
 msgstr ""
 
 #: ./browser/pluginnodes.cpp
@@ -1456,10 +1394,10 @@ msgctxt "Presets"
 msgid "Preset:"
 msgstr ""
 
-#: ./presets/presettrader.cpp
 #: ./presets/presetbrowser.cpp
-#: ./presets/presetmanager.cpp
+#: ./presets/presettrader.cpp
 #: ./presets/presetcomponent.cpp
+#: ./presets/presetmanager.cpp
 msgctxt "Command"
 msgid "Presets"
 msgstr ""
@@ -1480,12 +1418,12 @@ msgctxt "Command"
 msgid "Previous Tool"
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "AppSafetyProviders"
 msgid "Profile document loading"
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "AppSafetyProviders"
 msgid "Profile document saving"
 msgstr ""
@@ -1495,7 +1433,7 @@ msgctxt "Command"
 msgid "Quit"
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "CCLAppSafety"
 msgid "Quit $APPNAME"
 msgstr ""
@@ -1551,12 +1489,12 @@ msgctxt "Command"
 msgid "Refresh"
 msgstr ""
 
-#: ./fileinfo/pathclassifier.cpp
+#: ./utilities/pathclassifier.cpp
 msgctxt "FileInfo"
 msgid "Remote"
 msgstr ""
 
-#: ./fileinfo/pathclassifier.cpp
+#: ./utilities/pathclassifier.cpp
 msgctxt "FileInfo"
 msgid "Removable Drive"
 msgstr ""
@@ -1569,11 +1507,6 @@ msgstr ""
 #: ./browser/pluginmanagement.cpp
 msgctxt "PlugInManagement"
 msgid "Remove Plug-in Settings"
-msgstr ""
-
-#: ./datastore/tagstorecomponent.cpp
-msgctxt "TagStore"
-msgid "Remove Tag"
 msgstr ""
 
 #: ./documents/documentblocks.cpp
@@ -1606,12 +1539,12 @@ msgctxt "Command"
 msgid "Rename File"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Rename File"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Rename Folder"
 msgstr ""
@@ -1661,11 +1594,6 @@ msgctxt "Command"
 msgid "Reset Root"
 msgstr ""
 
-#: ./actions/trashcomponent.cpp
-msgctxt "TrashBin"
-msgid "Restore"
-msgstr ""
-
 #: ./documents/documentmanager.cpp
 msgctxt "Command"
 msgid "Restore Version"
@@ -1711,7 +1639,7 @@ msgctxt "Command"
 msgid "Save New Version"
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "CCLAppSafety"
 msgid "Save document \"%(1)\""
 msgstr ""
@@ -1766,7 +1694,7 @@ msgctxt "Application"
 msgid "Scanning Scripts..."
 msgstr ""
 
-#: ./browser/searchcomponent.cpp
+#: ./components/searchcomponent.cpp
 msgctxt "Command"
 msgid "Search"
 msgstr ""
@@ -1821,7 +1749,7 @@ msgctxt "Browser"
 msgid "Set as Root"
 msgstr ""
 
-#: ./fileinfo/filerenamer.cpp
+#: ./components/filerenamer.cpp
 msgctxt "FileRenamer"
 msgid "Show Extension"
 msgstr ""
@@ -1836,8 +1764,8 @@ msgctxt "Search"
 msgid "Show in Context"
 msgstr ""
 
-#: ./browser/filesystemnodes.cpp
-msgctxt "Browser"
+#: ./utilities/shellcommand.cpp
+msgctxt "Shell"
 msgid "Show in Explorer"
 msgstr ""
 
@@ -1846,13 +1774,13 @@ msgctxt "Command"
 msgid "Show in Explorer/Finder"
 msgstr ""
 
-#: ./browser/filesystemnodes.cpp
-msgctxt "Browser"
+#: ./utilities/shellcommand.cpp
+msgctxt "Shell"
 msgid "Show in File Manager"
 msgstr ""
 
-#: ./browser/filesystemnodes.cpp
-msgctxt "Browser"
+#: ./utilities/shellcommand.cpp
+msgctxt "Shell"
 msgid "Show in Finder"
 msgstr ""
 
@@ -1861,17 +1789,17 @@ msgctxt "DocumentDiagnostics"
 msgid "Size of plug-in presets and other document data"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Some files could not be copied."
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Some files could not be deleted."
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "Some files could not be moved."
 msgstr ""
@@ -1881,7 +1809,7 @@ msgctxt "Presets"
 msgid "Some plug-ins will be updated next time you start $APPNAME."
 msgstr ""
 
-#: ./safety/cclappsafety.cpp
+#: ./safety/appsafety.cpp
 msgctxt "CCLAppSafety"
 msgid "Start $APPNAME"
 msgstr ""
@@ -1931,7 +1859,7 @@ msgctxt "Customization"
 msgid "The customization was changed to %(1). Do you want to keep the new customization?"
 msgstr ""
 
-#: ./fileinfo/fileoperations.cpp
+#: ./utilities/fileoperations.cpp
 msgctxt "FileOperations"
 msgid "The file \"%(1)\" could not be moved to trash.\n\nDo you want to permanently delete it?"
 msgstr ""
@@ -1986,11 +1914,6 @@ msgctxt "Presets"
 msgid "These %(1) files could not be imported:"
 msgstr ""
 
-#: ./actions/trashcomponent.cpp
-msgctxt "TrashBin"
-msgid "These items could not be restored!"
-msgstr ""
-
 #: ./documents/documentdiagnostic.cpp
 msgctxt "DocumentDiagnostics"
 msgid "These items have a high average load time:"
@@ -2019,11 +1942,6 @@ msgstr ""
 #: ./options/filetypeselector.cpp
 msgctxt "FileType"
 msgid "This file type is invalid."
-msgstr ""
-
-#: ./actions/trashcomponent.cpp
-msgctxt "TrashBin"
-msgid "This item could not be restored!"
 msgstr ""
 
 #: ./documents/documentversions.cpp
@@ -2116,11 +2034,6 @@ msgctxt "PlugInSelector"
 msgid "Type"
 msgstr ""
 
-#: ./datastore/tagcategory.cpp
-msgctxt "TagCategory"
-msgid "Type"
-msgstr ""
-
 #: ./actions/actionjournal.cpp
 msgctxt "Action"
 msgid "Undo"
@@ -2136,7 +2049,7 @@ msgctxt "Edit"
 msgid "Undo"
 msgstr ""
 
-#: ./fileinfo/pathclassifier.cpp
+#: ./utilities/pathclassifier.cpp
 msgctxt "FileInfo"
 msgid "Unknown"
 msgstr ""
@@ -2169,11 +2082,6 @@ msgstr ""
 #: ./presets/presetcomponent.cpp
 msgctxt "Command"
 msgid "Update Preset"
-msgstr ""
-
-#: ./datastore/tagstore.cpp
-msgctxt "TagStore"
-msgid "Updated tags in %(1)\n"
 msgstr ""
 
 #: ./documents/documentmanager.cpp
@@ -2275,10 +2183,5 @@ msgstr ""
 #: ./presets/presetcomponent.cpp
 msgctxt "Presets"
 msgid "default"
-msgstr ""
-
-#: ./datastore/tagnodes.cpp
-msgctxt "TagStore"
-msgid "other"
 msgstr ""
 

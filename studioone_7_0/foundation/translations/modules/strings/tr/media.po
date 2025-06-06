@@ -7,7 +7,7 @@ msgstr ""
 #: audiofile/audiocodecselector.cpp
 msgctxt "AudioCodecSelector"
 msgid "%(1) not supported by %(2)"
-msgstr ""
+msgstr "%(1), %(2) tarafından desteklenmiyor"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -22,7 +22,7 @@ msgstr "1 oktav yukarı"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "2 octaves down"
-msgstr "2 oktav yukarı"
+msgstr "2 oktav aşağı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -32,102 +32,102 @@ msgstr "2 oktav aşağı"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "3.0 Cine"
-msgstr ""
+msgstr "3.0 Sinema"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "3.0 Music"
-msgstr ""
+msgstr "3.0 Müzik"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "3.1 Cine"
-msgstr ""
+msgstr "3.1 Sinema"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "3.1 Music"
-msgstr ""
+msgstr "3.1 Müzik"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "4.0 Cine"
-msgstr ""
+msgstr "4.0 Sinema"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "4.0 Music"
-msgstr ""
+msgstr "4.0 Müzik"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "4.1 Cine"
-msgstr ""
+msgstr "4.1 Sinema"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "4.1 Music"
-msgstr ""
+msgstr "4.1 Müzik"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "5.0"
-msgstr ""
+msgstr "5.0"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "5.1"
-msgstr ""
+msgstr "5.1"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "5.1 (ITU)"
-msgstr ""
+msgstr "5.1 (ITU)"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "5.1.2"
-msgstr ""
+msgstr "5.1.2"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "5.1.4"
-msgstr ""
+msgstr "5.1.4"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "7.0"
-msgstr ""
+msgstr "7.0"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "7.0.2"
-msgstr ""
+msgstr "7.0.2"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "7.1"
-msgstr ""
+msgstr "7.1"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "7.1.2"
-msgstr ""
+msgstr "7.1.2"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "7.1.4"
-msgstr ""
+msgstr "7.1.4"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "7.1.6"
-msgstr ""
+msgstr "7.1.6"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "9.1.6"
-msgstr ""
+msgstr "9.1.6"
 
 #: audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
@@ -137,7 +137,7 @@ msgstr "AIFC Dosyası"
 #: audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
 msgid "AIFF File"
-msgstr "AIFF DOsyası"
+msgstr "AIFF Dosyası"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -147,102 +147,117 @@ msgstr "Aksan"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Accent with Staccatissimo"
-msgstr "Staccatissimo'lu Aksan"
+msgstr "Staccatissimo ile Aksan"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Accent with Staccato"
-msgstr "Staccato'lu Aksan"
+msgstr "Staccato ile Aksan"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Accent with Tenuto"
-msgstr "Tenuto'lu Aksan"
+msgstr "Tenuto ile Aksan"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Add Note Controller \"%(1)\""
-msgstr "Şu nota kontrolcüsünü ekle \"%(1)\""
+msgstr "Nota Denetleyicisi \"%(1)\" Ekle"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Add Pattern"
 msgstr "Kalıp Ekle"
 
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Add Tag"
+msgstr "İşaret  Ekle"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Adding Tags..."
+msgstr "İşaretler Ekleniyor"
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "All tags are valid."
+msgstr "Tüm İşaretler Geçerli"
+
 #: audiofile/audiocodecs/aiffaudiocodec.cpp
 msgctxt "FileType"
 msgid "Apple Impulse File"
-msgstr "Apple Impulse DOsyası"
+msgstr "Apple Impulse Dosyası"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Arco"
-msgstr ""
+msgstr "Arco"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Arpeggio"
-msgstr "Arpeggio"
+msgstr "Arpej"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Arpeggio down"
-msgstr "Arpeggio Aşağı"
+msgstr "Arpej aşağı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Arpeggio up"
-msgstr "Arpeggio Yukarı"
+msgstr "Arpej yukarı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Articulations of force"
-msgstr "Güç Artikülasyonu"
+msgstr "Vurgu Artikülasyonları"
 
 #: audiofile/audiocodecs/audioloopinfo.cpp
 msgctxt "FileType"
 msgid "Audioloop"
-msgstr "SesDöngüsü (Audioloop)"
+msgstr "Audioloop"
 
 #: music/chordclassifier.cpp
 msgctxt "Chords"
 msgid "Augmented"
-msgstr "Arttırılmış"
+msgstr "Artırılmış"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
 msgid "Bars"
-msgstr "Barlar"
+msgstr "Ölçüler"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Bart&#243;k Pizzicato"
-msgstr ""
+msgstr "Bartók Pizzicato"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
 msgid "Beat-Linear"
-msgstr "Beat-Lineer"
+msgstr "Beat-Doğrusal"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Behind Bridge"
-msgstr ""
+msgstr "Köprü Arkasında"
 
 #: envelopes/envelopeactions.cpp
 msgctxt "EnvelopeActions"
 msgid "Bend Points"
-msgstr "Büküm Noktaları"
+msgstr "Eğme Noktaları"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Bend and release string"
-msgstr ""
+msgstr "Teli çek ve bırak"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Bend string"
-msgstr ""
+msgstr "Teli çek"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -252,57 +267,72 @@ msgstr "Blues"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Center"
-msgstr ""
+msgstr "Merkez"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Center Top Front"
-msgstr ""
+msgstr "Merkez Üst Ön"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Center Top Rear"
-msgstr ""
+msgstr "Merkez Üst Arka"
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Checking files in \"%(1)\""
+msgstr "\"%(1) \" içindeki dosyalar kontrol ediliyor"
 
 #: music/chordevent.cpp
 msgctxt "FileType"
 msgid "Chord File"
-msgstr ""
+msgstr "Akor Dosyası"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Chromatic"
-msgstr "Chromatic"
+msgstr "Kromatik"
+
+#: tagging/tagstore.cpp tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Cleanup Tags of Missing Files"
+msgstr "Eksik dosyaların etiketlerini temizle"
+
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Clear Tags"
+msgstr "Etiketleri temizle"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Closed"
-msgstr ""
+msgstr "Kapalı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Col Legno"
-msgstr ""
+msgstr "Col Legno"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Con Sordino"
-msgstr ""
+msgstr "Con Sordino"
 
 #: audiofile/audiofileconverter.cpp
 msgctxt "AudioFileConverter"
 msgid "Converting %(1)"
-msgstr "%(1) Dönüştürülüyor"
+msgstr "%(1) dönüştürülüyor"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Copy Event"
-msgstr "Klip Kopyala"
+msgstr "Öğeyi Kopyala"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Copy Events"
-msgstr "Klipleri Kopyala"
+msgstr "Öğeleri Kopyala"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -312,22 +342,22 @@ msgstr "Crescendo"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Crescendo Hairpin"
-msgstr "Crescendo Hairpin"
+msgstr "Crescendo V Şekli"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Delete Event"
-msgstr "Klip Sil"
+msgstr "Öğeyi Sil"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Delete Events"
-msgstr "Klipleri Sil"
+msgstr "Öğeleri Sil"
 
 #: envelopes/envelopeactions.cpp
 msgctxt "EnvelopeActions"
 msgid "Delete Point"
-msgstr "Nokta Sil"
+msgstr "Noktayı Sil"
 
 #: envelopes/envelopefunctions.cpp
 msgctxt "Events"
@@ -337,7 +367,7 @@ msgstr "Noktaları Sil"
 #: music/chordclassifier.cpp
 msgctxt "Chords"
 msgid "Diminished"
-msgstr "Azaltılmış"
+msgstr "Diminished"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -347,17 +377,22 @@ msgstr "Diminuendo"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Diminuendo Hairpin"
-msgstr "Diminuendo Hairpin"
+msgstr "Diminuendo V Şekli"
 
 #: audiofile/audiofileconverter.cpp
 msgctxt "AudioFileConverter"
 msgid "Do you want to merge the files as %(1)?"
-msgstr ""
+msgstr "Dosyaları %(1) olarak birleştirmek istiyor musunuz?"
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Do you want to remove these tag entries for non-existing files?"
+msgstr "Olmayan dosyalar için olan etiketleri kaldırmak istiyormusunuz ?"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Dorian"
-msgstr "DOrian"
+msgstr "Dorian"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
@@ -367,7 +402,7 @@ msgstr "Noktalı"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Down Bow"
-msgstr ""
+msgstr "Aşağı Yay"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -377,7 +412,7 @@ msgstr "Dinamik"
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
 msgid "Edit Key Signature"
-msgstr ""
+msgstr "Ton Anahtarını Düzenle"
 
 #: envelopes/envelopefunctions.cpp
 msgctxt "Events"
@@ -387,32 +422,32 @@ msgstr "Değeri Düzenle"
 #: envelopes/envelope.cpp
 msgctxt "FileType"
 msgid "Envelope File"
-msgstr ""
+msgstr "Zarf Dosyası"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Finger 1"
-msgstr ""
+msgstr "Parmak 1"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Finger 2"
-msgstr ""
+msgstr "Parmak 2"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Finger 3"
-msgstr ""
+msgstr "Parmak 3"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Finger 4"
-msgstr ""
+msgstr "Parmak 4"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Finger 5"
-msgstr ""
+msgstr "Parmak 5"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -457,32 +492,32 @@ msgstr "Forzando"
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
 msgid "Frames"
-msgstr "Frameler"
+msgstr "Kareler"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Freeze Quantize"
-msgstr "Quantize'ı dondur"
+msgstr "Quantize Sabitle"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Freeze Velocity"
-msgstr "Hızı Dondur"
+msgstr "Vurgu Sabitle"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Front Left of Center"
-msgstr ""
+msgstr "Merkezin Sol Önü"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Front Right of Center"
-msgstr ""
+msgstr "Merkezin Sağ Önü"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Generate Notes"
-msgstr ""
+msgstr "Notaları Üret"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
@@ -492,67 +527,67 @@ msgstr "Glissando"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Guitar Tap"
-msgstr ""
+msgstr "Gitar Tapping"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Hairpins"
-msgstr "Hairpins"
+msgstr "Saç Tokası İşaretleri"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Halftone Trill"
-msgstr ""
+msgstr "Yarım Ses Trill"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Hammer On"
-msgstr ""
+msgstr "Hammer On"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Harmonic Minor"
-msgstr "Harmonic Minor"
+msgstr "Armonik Minör"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Hold string"
-msgstr ""
+msgstr "Teli Tut"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Increase velocity"
-msgstr ""
+msgstr "Vurguyu Artır"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Increase velocity + shorten note"
-msgstr ""
+msgstr "Vurguyu Artır + Notaları Kısalt"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Insert Event"
-msgstr "Araya Klip Ekle"
+msgstr "Öğe Ekle"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Insert Events"
-msgstr "Araya Klipler Ekle"
+msgstr "Öğeleri Ekle"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
 msgid "Insert Key Signature"
-msgstr ""
+msgstr "Ton Anahtarı Ekle"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Insert Lyrics"
-msgstr ""
+msgstr "Şarkı Sözlerini Ekle"
 
 #: envelopes/envelopeactions.cpp
 msgctxt "EnvelopeActions"
 msgid "Insert Point"
-msgstr "Arana Nokta Ekle"
+msgstr "Nokta Ekle"
 
 #: envelopes/envelopefunctions.cpp
 msgctxt "Events"
@@ -562,62 +597,62 @@ msgstr "Arana Noktalar Ekle"
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
 msgid "Insert Tempo"
-msgstr "Araya Tempo Ekle"
+msgstr "Tempo Ekle"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
 msgid "Insert Time Signature"
-msgstr "Araya Zaman İmzası Ekle"
+msgstr "Zaman İşareti Ekle"
 
 #: music/pitchinfolist.cpp
 msgctxt "FileType"
 msgid "Key Switches"
-msgstr "Key Switch"
+msgstr "Anahtar Değişimleri"
 
 #: public/mediaformatter.cpp
 msgctxt "Media"
 msgid "LUFS"
-msgstr ""
+msgstr "LUFS"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left"
-msgstr ""
+msgstr "Sol"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Rear Surround"
-msgstr ""
+msgstr "Sol Arka Surround"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Surround"
-msgstr ""
+msgstr "Sol Surround"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Top Front"
-msgstr ""
+msgstr "Sol Üst Ön"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Top Middle"
-msgstr ""
+msgstr "Sol Üst Orta"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Top Rear"
-msgstr ""
+msgstr "Sol Üst Arka"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Left Wide"
-msgstr ""
+msgstr "Sol Geniş"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Let Ring"
-msgstr ""
+msgstr "Sesi Bırak"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -627,7 +662,7 @@ msgstr ""
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Low Frequency"
-msgstr ""
+msgstr "Düşük Frekans"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -647,72 +682,72 @@ msgstr "MIDI Dosyası"
 #: music/chordclassifier.cpp
 msgctxt "Chords"
 msgid "Major"
-msgstr "Major"
+msgstr "Majör"
 
 #: music/keysignature.cpp
 msgctxt "KeySignature"
 msgid "Major"
-msgstr "Major"
+msgstr "Majör"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Major"
-msgstr "Major"
+msgstr "Majör"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Major Pentatonic"
-msgstr "Major Pentatonic"
+msgstr "Majör Pentatonik"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Major Triad"
-msgstr ""
+msgstr "Majör Triad"
 
 #: audio/audiospeakermapcomponent.cpp
 msgctxt "AudioSpeakerMap"
 msgid "Map Channels to Speakers"
-msgstr ""
+msgstr "Kanalı Hoparlörlere Eşle"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Melodic Minor"
-msgstr "Melodic Minor"
+msgstr "Melodik Minör"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Mezzo-staccato"
-msgstr ""
+msgstr "Mezzo-staccato"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Mezzoforte"
-msgstr ""
+msgstr "Mezzoforte"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Mezzopiano"
-msgstr ""
+msgstr "Mezzopiano"
 
 #: music/chordclassifier.cpp
 msgctxt "Chords"
 msgid "Minor"
-msgstr "Minor"
+msgstr "Minör"
 
 #: music/keysignature.cpp
 msgctxt "KeySignature"
 msgid "Minor"
-msgstr "Minor"
+msgstr "Minör"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Minor Pentatonic"
-msgstr "Minor Pentatonic"
+msgstr "Minör Pentatonik"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Minor Triad"
-msgstr ""
+msgstr "Minör Triad"
 
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
@@ -722,7 +757,7 @@ msgstr "Mixolydian"
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Accent"
-msgstr "Aksanı Düzenle"
+msgstr "Vurgu Değiştir"
 
 #: music/chordfunctions.cpp
 msgctxt "Edit"
@@ -732,67 +767,67 @@ msgstr "Akoru Düzenle"
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Modify Event"
-msgstr "Klipi Düzenle"
+msgstr "Olayı Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Lyrics"
-msgstr ""
+msgstr "Şarkı Sözlerini Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Accent Strength"
-msgstr "Kalıp Aksanı Şiddetini Düzenle"
+msgstr "Kalıp Vurgu Gücünü Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Gate"
-msgstr "Kalıp Kapısını Düzenle"
+msgstr "Kalıp Geçişini Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Resolution"
-msgstr "Kalıp Çözünürlüğünü Düzenle"
+msgstr "Kalıp Çözünürlüğünü Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Swing"
-msgstr "Kalıp Kaymasını Düzenle"
+msgstr "Kalıp Swing'ini Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Pattern Type"
-msgstr "Kalıp Tipini Düzenle"
+msgstr "Kalıp Türünü Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Probability"
-msgstr "Olasılıkları Düzenle"
+msgstr "Olasılığı Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Repeat"
-msgstr "Tekrarı Düzenle"
+msgstr "Tekrarı Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Step Count"
-msgstr "Adım Sayısını Düzenle"
-
-#: time/tempomanipulator.cpp
-msgctxt "TempoManipulator"
-msgid "Modify Tempo"
-msgstr "Tempoyu Düzenle"
+msgstr "Adım Sayısını Değiştir"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
 msgid "Modify Tempo"
-msgstr "Tempoyu Düzenle"
+msgstr "Tempo'yu Değiştir"
+
+#: time/tempomanipulator.cpp
+msgctxt "TempoManipulator"
+msgid "Modify Tempo"
+msgstr "Tempo'yu Değiştir"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Modify Velocity"
-msgstr "Hızı Düzenle"
+msgstr "Hız'ı Değiştir"
 
 #: public/audio/speakers.cpp public/mediaformatter.cpp
 msgctxt "Media"
@@ -802,22 +837,22 @@ msgstr "Mono"
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Move Event"
-msgstr "Klibi Hareket Ettir"
+msgstr "Olayı Taşı"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Move Events"
-msgstr "Klipleri Hareket Ettir"
+msgstr "Olayları Taşı"
 
 #: envelopes/envelopeactions.cpp
 msgctxt "EnvelopeActions"
 msgid "Move Point"
-msgstr "Noktayı Hareket Ettir"
+msgstr "Noktayı Taşı"
 
 #: envelopes/envelopeactions.cpp
 msgctxt "EnvelopeActions"
 msgid "Move Points"
-msgstr "Noktaları Hareket Ettir"
+msgstr "Noktaları Taşı"
 
 #: music/musicperformance.cpp
 msgctxt "FileType"
@@ -832,22 +867,22 @@ msgstr "Klibi Sustur"
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Natural Minor"
-msgstr "Naturel Minor"
+msgstr "Doğal Minör"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Note Controller"
-msgstr "Nota Kontrolcüsü"
+msgstr "Not Kontrolcüsü"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Nudge"
-msgstr "İttir"
+msgstr "Hareket Ettir"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Octave signs"
-msgstr ""
+msgstr "Sekizli İmleri"
 
 #: public/mediaformatter.cpp
 msgctxt "Media"
@@ -857,7 +892,7 @@ msgstr "Kapalı"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Open / Flageolett"
-msgstr ""
+msgstr "Açık / Flajolett"
 
 #: public/mediaformatter.cpp
 msgctxt "Media"
@@ -867,7 +902,7 @@ msgstr "Pad %(1)"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Palm Mute"
-msgstr ""
+msgstr "Avuçla Susturma"
 
 #: music/patternperformance.cpp
 msgctxt "FileType"
@@ -877,17 +912,17 @@ msgstr "Kalıp Dosyası"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pedal"
-msgstr ""
+msgstr "Pedal"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pedal down"
-msgstr ""
+msgstr "Pedal Aşağı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pedal up"
-msgstr ""
+msgstr "Pedal Yukarı"
 
 #: music/musicparams.cpp
 msgctxt "Media.Music"
@@ -897,27 +932,27 @@ msgstr "Yüzde"
 #: music/musicalscale.cpp
 msgctxt "MusicalScale"
 msgid "Phrygian"
-msgstr "Phrygian"
+msgstr "Frygian"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pianissimo"
-msgstr ""
+msgstr "Çok Yavaş"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Piano"
-msgstr ""
+msgstr "Piyano"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Piano pianissimo"
-msgstr ""
+msgstr "Piyano çok yavaş"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Piano piano pianissimo"
-msgstr ""
+msgstr "Piyano piyano çok yavaş"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
@@ -927,167 +962,172 @@ msgstr "Perde"
 #: music/pitchinfolist.cpp
 msgctxt "FileType"
 msgid "Pitch Names"
-msgstr "Perde Adları"
+msgstr "Perde İsimleri"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pizzicato"
-msgstr ""
+msgstr "Pizzikato"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking A"
-msgstr ""
+msgstr "Darmaduman A"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking C"
-msgstr ""
+msgstr "Darmaduman C"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking I"
-msgstr ""
+msgstr "Darmaduman I"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking M"
-msgstr ""
+msgstr "Darmaduman M"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Plucking P"
-msgstr ""
+msgstr "Darmaduman P"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Portamento"
-msgstr ""
+msgstr "Portamento"
 
 #: music/chordclassifier.cpp
 msgctxt "Chords"
 msgid "Power Chord"
-msgstr "Power Akor"
+msgstr "Güç Akoru"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pre-bend and release string"
-msgstr ""
+msgstr "Önceden eğip serbest bırakma"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pre-bend string"
-msgstr ""
+msgstr "Önceden eğilmiş tel"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Pressure"
-msgstr "Basınç"
+msgstr "Baskı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Pull Off"
-msgstr ""
+msgstr "Pull Off"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Quantize"
-msgstr "QUantize"
+msgstr "Kantarlama"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
 msgid "Quintuplet"
-msgstr "Quintuplet"
+msgstr "Beşli"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Rear Center"
-msgstr ""
+msgstr "Arka Merkez"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Release string"
-msgstr ""
+msgstr "Teli serbest bırak"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
 msgid "Remove Key Signature"
-msgstr ""
+msgstr "Anahtar İmzasını Kaldır"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Remove Note Controller \"%(1)\""
-msgstr "\"%(1)\" Nota Kontrolcüsünü Kaldır"
+msgstr "Not Kontrolörü \"%(1)\" Kaldır"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Remove Pattern"
 msgstr "Kalıbı Kaldır"
 
+#: tagging/tagstorecomponent.cpp
+msgctxt "TagStore"
+msgid "Remove Tag"
+msgstr "Etiketi kaldır"
+
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
 msgid "Remove Tempo"
-msgstr "Tempoyu Kaldır"
+msgstr "Tempoları Kaldır"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
 msgid "Remove Time Signature"
-msgstr "Zaman İşaretini Kaldır"
+msgstr "Zaman İmzasını Kaldır"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Rename Pattern"
-msgstr "Kalıbı Tekrar Adlandır"
+msgstr "Kalıbı Yeniden Adlandır"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Reorder Pattern"
-msgstr "Kalıbın Sırasını Düzenle"
+msgstr "Kalıbı Yeniden Sıralamak"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Resize Event"
-msgstr "Klibin Boyunu Değiştir"
+msgstr "Olayı Yeniden Boyutlandır"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Resize Events"
-msgstr "Kliplerin Boyunu Değiştir"
+msgstr "Olayları Yeniden Boyutlandır"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right"
-msgstr ""
+msgstr "Sağ"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Rear Surround"
-msgstr ""
+msgstr "Sağ Arka Surround"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Surround"
-msgstr ""
+msgstr "Sağ Surround"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Top Front"
-msgstr ""
+msgstr "Sağ Üst Ön"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Top Middle"
-msgstr ""
+msgstr "Sağ Üst Orta"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Top Rear"
-msgstr ""
+msgstr "Sağ Üst Arka"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Right Wide"
-msgstr ""
+msgstr "Sağ Geniş"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
@@ -1097,12 +1137,12 @@ msgstr "Örnekler"
 #: music/musicalscale.cpp
 msgctxt "FileType"
 msgid "Scale File"
-msgstr ""
+msgstr "Dizi Dosyası"
 
 #: music/midifileparser.cpp
 msgctxt "FileType"
 msgid "Score Exchange File"
-msgstr ""
+msgstr "Puan Değişim Dosyası"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
@@ -1112,107 +1152,107 @@ msgstr "Saniyeler"
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Select Sound Variation"
-msgstr ""
+msgstr "Ses Varyasyonunu Seç"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Senza Sordino"
-msgstr ""
+msgstr "Sordino Olmadan"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
 msgid "Septuplet"
-msgstr "Septuplet"
+msgstr "Yedili"
 
 #: time/tempoenvelopefunctions.cpp
 msgctxt "Tempo"
 msgid "Set BPM Range"
-msgstr "BPM aralığını belirle"
+msgstr "BPM Aralığını Ayarla"
 
 #: time/mediatimeactions.cpp
 msgctxt "MediaTimeAction"
 msgid "Set Global Transposition"
-msgstr ""
+msgstr "Küresel Transpozisyonu Ayarla"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzando"
-msgstr ""
+msgstr "Sforzando"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzando forte piano"
-msgstr ""
+msgstr "Sforzando forte piano"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzando fortissimo"
-msgstr ""
+msgstr "Sforzando fortissimo"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzando piano"
-msgstr ""
+msgstr "Sforzando piano"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzato"
-msgstr ""
+msgstr "Sforzato"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sforzato fortissimo"
-msgstr ""
+msgstr "Sforzato fortissimo"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Shorten note length"
-msgstr ""
+msgstr "Not uzunluğunu kısalt"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Slap"
-msgstr ""
+msgstr "Slap"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Slur"
-msgstr ""
+msgstr "Slur"
 
 #: audiofile/audiofileconverter.cpp
 msgctxt "AudioFileConverter"
 msgid "Some files could not be converted."
-msgstr "Bazı dosyalar dönüştürülemedi"
+msgstr "Bazı dosyalar dönüştürülemedi."
 
 #: music/soundvariationmap.cpp
 msgctxt "FileType"
 msgid "Sound Variation Map"
-msgstr ""
+msgstr "Ses Varyasyon Haritası"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Split Event"
-msgstr "Klibi Böl"
+msgstr "Olayı Böl"
 
 #: events/eventfunctions.cpp
 msgctxt "EventFunctions"
 msgid "Split Events"
-msgstr "Klipleri Böl"
+msgstr "Olayları Böl"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Spread Chord Notes"
-msgstr ""
+msgstr "Akor Notalarını Yay"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Staccatissimo"
-msgstr ""
+msgstr "Staccatissimo"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Staccato"
-msgstr ""
+msgstr "Staccato"
 
 #: public/audio/speakers.cpp public/mediaformatter.cpp
 msgctxt "Media"
@@ -1222,22 +1262,22 @@ msgstr "Stereo"
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Stereo (C Lfe)"
-msgstr ""
+msgstr "Stereo (C Lfe)"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Stereo (Lc Rc)"
-msgstr ""
+msgstr "Stereo (Lc Rc)"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Stereo (Ls Rs)"
-msgstr ""
+msgstr "Stereo (Ls Rs)"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Stereo (Sl Sr)"
-msgstr ""
+msgstr "Stereo (Sl Sr)"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
@@ -1247,77 +1287,77 @@ msgstr "Düz"
 #: envelopes/envelopefunctions.cpp
 msgctxt "Events"
 msgid "Straighten Curve"
-msgstr "Eğriyi Düzelt"
+msgstr "Eğriyi Düzleştir"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 0"
-msgstr ""
+msgstr "Dizi 0"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 1"
-msgstr ""
+msgstr "Dizi 1"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 2"
-msgstr ""
+msgstr "Dizi 2"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 3"
-msgstr ""
+msgstr "Dizi 3"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 4"
-msgstr ""
+msgstr "Dizi 4"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 5"
-msgstr ""
+msgstr "Dizi 5"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 6"
-msgstr ""
+msgstr "Dizi 6"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "String 7"
-msgstr ""
+msgstr "Dizi 7"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Strong Accent"
-msgstr ""
+msgstr "Güçlü Vurgu"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Strong Accent with Staccatissimo"
-msgstr ""
+msgstr "Güçlü Vurgu ile Staccatissimo"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Strong Accent with Staccato"
-msgstr ""
+msgstr "Güçlü Vurgu ile Staccato"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Strong Accent with Tenuto"
-msgstr ""
+msgstr "Güçlü Vurgu ile Tenuto"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sul Ponticello"
-msgstr ""
+msgstr "Sul Ponticello"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Sul Tasto"
-msgstr ""
+msgstr "Sul Tasto"
 
 #: time/tempoenvelope.cpp
 msgctxt "Tempo"
@@ -1327,112 +1367,117 @@ msgstr "Tempo"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tenuto"
-msgstr ""
+msgstr "Tenuto"
 
 #: audiofile/audiofileconverter.cpp
 msgctxt "AudioFileConverter"
 msgid "The speaker setup could not be determined from the file names."
-msgstr ""
+msgstr "Dosya adlarından hoparlör kurulumu belirlenemedi."
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Thumb"
-msgstr ""
+msgstr "Baş Parmak"
 
 #: music/notecontroller.cpp
 msgctxt "NoteController"
 msgid "Timbre"
-msgstr "Timbre"
+msgstr "Ses Rengi"
 
 #: time/mediatimeparams.cpp
 msgctxt "MediaTime"
 msgid "Time-Linear"
-msgstr "Time-Linear"
+msgstr "Zaman-Doğrusal"
 
 #: public/audio/speakers.cpp
 msgctxt "Media"
 msgid "Top Center"
-msgstr ""
+msgstr "Üst Merkez"
 
 #: music/musicactions.cpp
 msgctxt "ActionDescriptions"
 msgid "Transpose"
-msgstr "Transpoze"
+msgstr "Transpoze Et"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo"
-msgstr ""
+msgstr "Tremolo"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (1 Beam)"
-msgstr ""
+msgstr "Tremolo (1 Çubuk)"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (1 Slash)"
-msgstr ""
+msgstr "Tremolo (1 Kesmeli Çizgi)"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (2 Beams)"
-msgstr ""
+msgstr "Tremolo (2 Çubuk)"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (2 Slashes)"
-msgstr ""
+msgstr "Tremolo (2 Kesmeli Çizgi)"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (3 Beams)"
-msgstr ""
+msgstr "Tremolo (3 Çubuk)"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Tremolo (3 Slashes)"
-msgstr ""
+msgstr "Tremolo (3 Kesmeli Çizgi)"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Trill"
-msgstr ""
+msgstr "Tril"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Trill (flat)"
-msgstr ""
+msgstr "Tril (düz)"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Trill (natural)"
-msgstr ""
+msgstr "Tril (doğal)"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Trill (sharp)"
-msgstr ""
+msgstr "Tril (diyez)"
 
 #: music/beatlistparam.cpp
 msgctxt "Resolution"
 msgid "Triplet"
-msgstr "Triplet"
+msgstr "Üçlü"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Up Bow"
-msgstr ""
+msgstr "Yukarı Yay"
+
+#: tagging/tagstore.cpp
+msgctxt "TagStore"
+msgid "Updated tags in %(1)\n"
+msgstr "%(1) içinde güncellenen etiketler\n"
 
 #: music/musicsymbolmap.cpp
 msgctxt "MusicSymbols"
 msgid "Use specific velocity"
-msgstr ""
+msgstr "Belirli hız kullan"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Vibrato"
-msgstr ""
+msgstr "Vibrato"
 
 #: audiofile/audiocodecs/waveaudiocodec.cpp
 msgctxt "FileType"
@@ -1442,37 +1487,42 @@ msgstr "Wave Dosyası"
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar down"
-msgstr ""
+msgstr "Whammy bar aşağı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar down and up"
-msgstr ""
+msgstr "Whammy bar aşağı ve yukarı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar up"
-msgstr ""
+msgstr "Whammy bar yukarı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar up and down"
-msgstr ""
+msgstr "Whammy bar yukarı ve aşağı"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Whammy bar vibrato"
-msgstr ""
+msgstr "Whammy bar vibrato"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Wholetone Trill"
-msgstr ""
+msgstr "Tamton Tril"
 
 #: music/musicsymbolinfo.cpp
 msgctxt "MusicSymbols"
 msgid "Wide Vibrato"
-msgstr ""
+msgstr "Geniş Vibrato"
+
+#: tagging/tagnodes.cpp
+msgctxt "TagStore"
+msgid "other"
+msgstr "Diğer"
 
 #: music/chordclassifier.cpp
 msgctxt "Chords"
@@ -1483,3 +1533,4 @@ msgstr "sus2"
 msgctxt "Chords"
 msgid "sus4"
 msgstr "sus4"
+

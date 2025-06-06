@@ -129,6 +129,11 @@ msgctxt "ProduceBeats.Step4"
 msgid "Automate steps"
 msgstr "오토메이트 스텝"
 
+#: scripts/smarttemplates/resources/jamtracks/Bass.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Bass"
+msgstr "베이스"
+
 #: tutorials/content/spatialaudio/steps.xml
 msgctxt "DolbyAtmos.Step6"
 msgid "Bed and objects"
@@ -355,6 +360,7 @@ msgctxt "HelpTutorial"
 msgid "Getting started with Studio One"
 msgstr "스튜디오원 시작하기"
 
+#: scripts/smarttemplates/resources/jamtracks/Guitar.songtemplate
 #: scripts/smarttemplates/resources/playnow/Guitar.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Guitar"
@@ -431,6 +437,21 @@ msgctxt "InterfaceTemplateSettings"
 msgid "Interface template"
 msgstr "인터페이스 템플릿"
 
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam Now"
+msgstr "지금 바로 잼"
+
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam with Guitar, Piano or Vocals"
+msgstr "기타, 피아노, 혹은 보컬과 잼"
+
+#: templates/Jam Now.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Jam with a single instrument on Jam Tracks"
+msgstr "잼 트랙의 단일 악기와 잼"
+
 #: tutorials/content/launchloops/steps.xml
 msgctxt "LaunchLoops.Step7"
 msgid "Launch Cells"
@@ -467,15 +488,10 @@ msgctxt "GettingStarted.Step7"
 msgid "Learn more"
 msgstr "더 알아보기"
 
-#: tutorials/content/playnow/steps.xml
-msgctxt "PlayNow.VirtualInstrument.Step6"
+#: tutorials/content/launchloops/steps.xml
+msgctxt "LaunchLoops.Step11"
 msgid "Learn more"
-msgstr "더 알아보기"
-
-#: tutorials/content/playnow/steps.xml
-msgctxt "PlayNow.Guitar.Step7"
-msgid "Learn more"
-msgstr "더 알아보기"
+msgstr "더 자세히 알아보기"
 
 #: tutorials/content/producebeats/steps.xml
 msgctxt "ProduceBeats.Step6"
@@ -492,10 +508,15 @@ msgctxt "DolbyAtmos.Step10"
 msgid "Learn more"
 msgstr "더 자세히 알아보기"
 
-#: tutorials/content/launchloops/steps.xml
-msgctxt "LaunchLoops.Step11"
+#: tutorials/content/playnow/steps.xml
+msgctxt "PlayNow.VirtualInstrument.Step6"
 msgid "Learn more"
-msgstr "더 자세히 알아보기"
+msgstr "더 알아보기"
+
+#: tutorials/content/playnow/steps.xml
+msgctxt "PlayNow.Guitar.Step7"
+msgid "Learn more"
+msgstr "더 알아보기"
 
 #: tutorials/content/playnow/steps.xml
 msgctxt "PlayNow.VirtualInstrument.Step4"
@@ -532,6 +553,11 @@ msgctxt "DocumentTemplate"
 msgid "New audio recording"
 msgstr "새 오디오 레코딩"
 
+#: scripts/smarttemplates/resources/jamtracks/none.songtemplate
+msgctxt "DocumentTemplate"
+msgid "None"
+msgstr "없음"
+
 #: tutorials/content/playnow/steps.xml
 msgctxt "PlayNow.Guitar.Step3"
 msgid "Open Ampire"
@@ -547,6 +573,7 @@ msgctxt "PlayNow.VirtualInstrument.Step2"
 msgid "Open the instrument"
 msgstr "악기 열기"
 
+#: scripts/smarttemplates/resources/jamtracks/Piano.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.bundle.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.songtemplate
 msgctxt "DocumentTemplate"
@@ -568,15 +595,30 @@ msgctxt "PlayNow.Guitar.Step1"
 msgid "Play Now"
 msgstr "지금 재생"
 
+#: scripts/smarttemplates/resources/jamtracks/Bass.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play a real bass guitar using Rumble Bass Studio."
+msgstr "Rumble Bass Studio를 사용하여 리얼 베이스 기타 연주"
+
 #: scripts/smarttemplates/resources/playnow/Guitar.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Play a real guitar using Ampire."
 msgstr "Ampire를 사용하여 리얼 기타 연주"
 
+#: scripts/smarttemplates/resources/jamtracks/Guitar.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play a real guitar using Mustang Guitar Studio."
+msgstr "Mustang Guitar Studio를 사용하여 리얼 기타 연주"
+
 #: templates/Play Now.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Play a single instrument and capture ideas for your next song."
 msgstr "단일 악기를 연주하면서 다음 송의 아이디어 캡처"
+
+#: scripts/smarttemplates/resources/jamtracks/none.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Play no additional instrument."
+msgstr "추가 악기 연주 없음"
 
 #: templates/Play Now.songtemplate
 msgctxt "DocumentTemplate"
@@ -588,6 +630,7 @@ msgctxt "DocumentTemplate"
 msgid "Play virtual drums using Impact XT."
 msgstr "Impact XT를 사용하여 버추얼 드럼 연주"
 
+#: scripts/smarttemplates/resources/jamtracks/Piano.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.bundle.songtemplate
 #: scripts/smarttemplates/resources/playnow/Piano.songtemplate
 msgctxt "DocumentTemplate"
@@ -902,6 +945,11 @@ msgctxt "LaunchLoops.Step6"
 msgid "Show Launcher"
 msgstr "런처 보기"
 
+#: scripts/smarttemplates/resources/jamtracks/Vocals.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Sing, using your microphone."
+msgstr "마이크를 사용하여 노래하기"
+
 #: scripts/smarttemplates/resources/recordnow/Single Track.songtemplate
 msgctxt "DocumentTemplate"
 msgid "Single Track"
@@ -1109,6 +1157,11 @@ msgctxt "RecordNow.Step1"
 msgid "Use this template to record audio on a single track or multiple tracks and capture your ideas. Let&apos;s take a look..."
 msgstr "이 템플릿을 사용하여 오디오를 싱글 혹은 멀티 트랙에 녹음하면서 아이디어를 캡처할 수 있습니다. 시작해볼까요?"
 
+#: scripts/smarttemplates/resources/jamtracks/Vocals.songtemplate
+msgctxt "DocumentTemplate"
+msgid "Vocals"
+msgstr "보컬"
+
 #: tutorials/content/producebeats/steps.xml
 msgctxt "ProduceBeats.Step1"
 msgid "Want to create an awesome beat with just a few clicks? Then look no further than this Beat Making Template!"
@@ -1192,3 +1245,4 @@ msgstr "ioStation 24c 레코딩 세션"
 #~ msgctxt "DocumentTemplate"
 #~ msgid "Record audio straight from all available inputs of your favorite PreSonus audio interface."
 #~ msgstr "선호하는 PreSonus 오디오 인터페이스의 모든 인풋에서 오디오를 직접 레코딩"
+

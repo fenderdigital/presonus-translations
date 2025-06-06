@@ -119,13 +119,13 @@ msgctxt "ShowDragHandler"
 msgid "Add Backing Track"
 msgstr "Backing Track hinzufügen"
 
-#: show/editing/showplayerview.cpp
-msgctxt "Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
 msgid "Add Backing Track Player"
 msgstr "Backing Track-Player hinzufügen"
 
-#: show/editing/showplayerlistcomponent.cpp
-msgctxt "Command"
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
 msgid "Add Backing Track Player"
 msgstr "Backing Track-Player hinzufügen"
 
@@ -139,13 +139,13 @@ msgctxt "ProjectFunctions"
 msgid "Add Marker"
 msgstr "Marker hinzufügen"
 
-#: show/editing/showplayerview.cpp
-msgctxt "Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
 msgid "Add Player"
 msgstr "Player hinzufügen"
 
-#: show/editing/showplayerlistcomponent.cpp
-msgctxt "Command"
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
 msgid "Add Player"
 msgstr "Player hinzufügen"
 
@@ -154,13 +154,13 @@ msgctxt "ShowFunctions"
 msgid "Add Player"
 msgstr "Player hinzufügen"
 
-#: show/editing/showplayerview.cpp
-msgctxt "Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
 msgid "Add Real Instrument Player"
 msgstr "Instrumenten-Player hinzufügen"
 
-#: show/editing/showplayerlistcomponent.cpp
-msgctxt "Command"
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
 msgid "Add Real Instrument Player"
 msgstr "Instrumenten-Player hinzufügen"
 
@@ -189,13 +189,13 @@ msgctxt "TrackPreset"
 msgid "Add Tracks from Preset"
 msgstr "Spuren aus Preset hinzufügen"
 
-#: show/editing/showplayerview.cpp
-msgctxt "Player"
+#: show/editing/showplayerlistcomponent.cpp
+msgctxt "Command"
 msgid "Add Virtual Instrument Player"
 msgstr "Virtuellen Instrumenten-Player hinzufügen"
 
-#: show/editing/showplayerlistcomponent.cpp
-msgctxt "Command"
+#: show/editing/showplayerview.cpp
+msgctxt "Player"
 msgid "Add Virtual Instrument Player"
 msgstr "Virtuellen Instrumenten-Player hinzufügen"
 
@@ -278,6 +278,11 @@ msgstr "Patch zuweisen"
 msgctxt "SongRenderer"
 msgid "Audio Export"
 msgstr "Audioexport"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Automatic"
+msgstr "Automatisch"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
@@ -686,13 +691,13 @@ msgctxt "StemRenderer"
 msgid "Exporting:"
 msgstr "Exportiere:"
 
-#: song/songrenderer.cpp
-msgctxt "SongRenderer"
+#: song/stemrenderer.cpp
+msgctxt "StemRenderer"
 msgid "Failed to export audio file."
 msgstr "Export der Audiodatei fehlgeschlagen."
 
-#: song/stemrenderer.cpp
-msgctxt "StemRenderer"
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Failed to export audio file."
 msgstr "Export der Audiodatei fehlgeschlagen."
 
@@ -1207,6 +1212,11 @@ msgctxt "StemRenderer"
 msgid "Nothing to export. Please select one or more tracks and set Loop or Markers."
 msgstr "Nichts zu exportieren. Bitte wählen Sie eine oder mehrere Spuren aus und setzen Sie Loopbereich oder Marker."
 
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Offline"
+msgstr "Offline"
+
 #: show/editing/globaltracklistcomponent.cpp
 msgctxt "Command"
 msgid "Open Arranger Track"
@@ -1363,8 +1373,8 @@ msgid "Print"
 msgstr "Drucken"
 
 #: project/document/projectcomponent.cpp
-#: project/editing/projecteditcomponent.cpp project/publish/ddpimagemaker.cpp
-#: project/publish/projectburner.cpp project/publish/audiofilepublisher.cpp
+#: project/editing/projecteditcomponent.cpp project/publish/projectburner.cpp
+#: project/publish/audiofilepublisher.cpp project/publish/ddpimagemaker.cpp
 #: project/publish/imagemaker.cpp
 msgctxt "Command"
 msgid "Project"
@@ -1389,6 +1399,11 @@ msgstr "Projekteinstellungen"
 msgctxt "Player"
 msgid "Real Instrument"
 msgstr "Echtes Instrument"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Realtime"
+msgstr "Echtzeit"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -1445,8 +1460,8 @@ msgctxt "ShowFunctions"
 msgid "Remove Setlist Item"
 msgstr "Setlistenelement entfernen"
 
-#: project/document/projectcomponent.cpp song/songcontroller.cpp
-#: song/songvideohandler.cpp
+#: project/document/projectcomponent.cpp song/songvideohandler.cpp
+#: song/songcontroller.cpp
 msgctxt "Command"
 msgid "Remove Track"
 msgstr "Track entfernen"
@@ -2025,13 +2040,13 @@ msgctxt "StemRenderer"
 msgid "Some items will be exported in stereo because their speaker setup is not supported by the selected format."
 msgstr "Einige Elemente werden in Stereo exportiert, da ihre Lautsprecheranordnung vom ausgewählten Format nicht unterstützt wird."
 
-#: song/songcontroller.cpp song/songmaster.cpp song/songvideohandler.cpp
-msgctxt "Command"
+#: song/songdocument.cpp
+msgctxt "Engine"
 msgid "Song"
 msgstr "Song"
 
-#: song/songdocument.cpp
-msgctxt "Engine"
+#: song/songmaster.cpp song/songvideohandler.cpp song/songcontroller.cpp
+msgctxt "Command"
 msgid "Song"
 msgstr "Song"
 
@@ -2190,6 +2205,11 @@ msgctxt "Engine"
 msgid "The file format will be reset to \"%(1)\"."
 msgstr "Das Dateiformat wird auf \"%(1)\" zurückgesetzt."
 
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "The following channels and devices require realtime processing and will be excluded from mixdown"
+msgstr "Die folgenden Kanäle und Geräte benötigen Echtzeitverarbeitung und werden vom Mixdown ausgeschlossen"
+
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
 msgid "The following files failed to update:"
@@ -2234,6 +2254,11 @@ msgstr "Der transformierte Kanal '%(1)' enthält geschützte Inhalte."
 msgctxt "ChannelTransform"
 msgid "The transformed Channel '%(1)' has a Send outside the transformed Bus."
 msgstr "Der transformierte Kanal '%(1)' sendet auch außerhalb des transformierten Busses."
+
+#: application/song/audiobustransform.cpp
+msgctxt "ChannelTransform"
+msgid "The transformed Track '%(1)' is using Launcher Cell Playback."
+msgstr "Die transformierte Spur '%(1)' verwendet die Launcher-Wiedergabe."
 
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
@@ -2298,7 +2323,7 @@ msgstr "Gesamte Spielzeit"
 #: application/song/audiobustransform.cpp
 #: project/editing/projecteditcomponent.cpp
 #: show/editing/showplayerlistcomponent.cpp show/model/showplayer.cpp
-#: song/songcontroller.cpp song/trackpresetcomponent.cpp
+#: song/trackpresetcomponent.cpp song/songcontroller.cpp
 msgctxt "Command"
 msgid "Track"
 msgstr "Spur"
@@ -2508,6 +2533,11 @@ msgstr "Ansicht"
 msgctxt "Player"
 msgid "Virtual Instrument"
 msgstr "Virtuelles Instrument"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Warning: Devices that require realtime processing will be excluded from mixdown"
+msgstr "Warnung: Geräte, die Echtzeitverarbeitung benötigen, werden vom Mixdown ausgeschlossen"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"

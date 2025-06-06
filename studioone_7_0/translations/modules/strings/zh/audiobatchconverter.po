@@ -72,12 +72,12 @@ msgstr "凸面"
 #: processes/filesplitter.cpp
 msgctxt "AudioProcess"
 msgid "Create mono files from stereo file"
-msgstr "从立体声文件中生成单声道文件"
+msgstr "从立体声文件中创建单声道文件"
 
 #: processes/filemerger.cpp
 msgctxt "AudioProcess"
 msgid "Create stereo file from mono files"
-msgstr "从单声道文件中生成立体声文件"
+msgstr "从单声道文件中创建立体声文件"
 
 #: processes/normalize.cpp
 msgctxt "Normalize"
@@ -87,7 +87,7 @@ msgstr "自定义"
 #: processes/declicker.cpp
 msgctxt "Declicker"
 msgid "Declicker"
-msgstr "喀嚓声消音器"
+msgstr "Click消除器"
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
@@ -107,22 +107,22 @@ msgstr "桌面"
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
 msgid "Do you want to delete all result files?"
-msgstr "是否确定删除所有结果文件？"
-
-#: filelist.cpp
-msgctxt "Command"
-msgid "Edit"
-msgstr "编辑"
+msgstr "是否确定删除所有输出文件？"
 
 #: processrack.cpp
 msgctxt "ProcessRack"
 msgid "Edit"
 msgstr "编辑"
 
+#: filelist.cpp
+msgctxt "Command"
+msgid "Edit"
+msgstr "编辑"
+
 #: processlist.cpp
 msgctxt "Audio Conveter"
 msgid "Effects"
-msgstr "效果"
+msgstr "效果器"
 
 #: processrack.cpp
 msgctxt "ProcessRack"
@@ -132,17 +132,17 @@ msgstr "展开"
 #: processlist.cpp
 msgctxt "Audio Conveter"
 msgid "Expand All"
-msgstr "展开全部"
+msgstr "全部展开"
 
 #: processes/extractor.cpp
 msgctxt "AudioProcess"
 msgid "Extract Section"
-msgstr "提取所选"
+msgstr "片段提取"
 
 #: processlist.cpp
 msgctxt "Audio Conveter"
 msgid "FX Chains"
-msgstr "FX链"
+msgstr "效果链"
 
 #: processes/fade.cpp
 msgctxt "AudioProcess"
@@ -197,7 +197,7 @@ msgstr "增益"
 #: processrack.cpp
 msgctxt "ProcessRack"
 msgid "Insert Process"
-msgstr "插入进程"
+msgstr "插入处理"
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
@@ -217,12 +217,12 @@ msgstr "反转音频通道相位"
 #: processes/concatenator.cpp
 msgctxt "AudioProcess"
 msgid "Join Files"
-msgstr "联接文件"
+msgstr "拼接文件"
 
 #: processes/concatenator.cpp
 msgctxt "AudioProcess"
 msgid "Join all input files sequentially"
-msgstr "按顺序联接所有输入文件"
+msgstr "按顺序拼接所有输入文件"
 
 #: processes/phase.cpp
 msgctxt "AudioProcess"
@@ -242,7 +242,7 @@ msgstr "线性"
 #: processrack.cpp
 msgctxt "ProcessRack"
 msgid "Load Preset"
-msgstr "加载预置"
+msgstr "加载预设"
 
 #: processrack.cpp
 msgctxt "ProcessRack"
@@ -307,12 +307,12 @@ msgstr "请选择有效的输出位置。"
 #: converter.cpp
 msgctxt "AudioBatchConverter"
 msgid "Processes"
-msgstr "进程"
+msgstr "处理"
 
 #: processlist.cpp
 msgctxt "Audio Conveter"
 msgid "Processes"
-msgstr "进程"
+msgstr "处理"
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
@@ -327,12 +327,12 @@ msgstr "RMS"
 #: processrack.cpp
 msgctxt "ProcessRack"
 msgid "Rack Preset"
-msgstr "机架预置"
+msgstr "机架预设"
 
 #: processlist.cpp
 msgctxt "Audio Conveter"
 msgid "Rack Presets"
-msgstr "机架预置"
+msgstr "机架预设"
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
@@ -352,17 +352,17 @@ msgstr "全部移除"
 #: processes/dcoffset.cpp
 msgctxt "AudioProcess"
 msgid "Remove DC Offset"
-msgstr "移除直流偏移"
+msgstr "移除DC偏移"
 
 #: processes/dcoffset.cpp
 msgctxt "AudioProcess"
 msgid "Remove DC offset from files"
-msgstr "从文件中移除直流偏移"
+msgstr "从文件中移除DC偏移"
 
 #: processes/declicker.cpp
 msgctxt "Declicker"
 msgid "Remove clicks and pops"
-msgstr "移除咔嚓声和噗噗声"
+msgstr "移除Click和Pop"
 
 #: plugmain.cpp
 msgctxt "AudioProcessCategory"
@@ -377,7 +377,7 @@ msgstr "修复采样率"
 #: processrack.cpp
 msgctxt "ProcessRack"
 msgid "Replace Process"
-msgstr "替换进程"
+msgstr "替换处理"
 
 #: processes/repairsamplerate.cpp
 msgctxt "AudioProcess"
@@ -387,7 +387,7 @@ msgstr "替换采样率信息"
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
 msgid "Result Files"
-msgstr "结果文件"
+msgstr "输出文件"
 
 #: preview.cpp
 msgctxt "Command"
@@ -402,7 +402,7 @@ msgstr "仅限右侧轨道"
 #: processlist.cpp
 msgctxt "Audio Conveter"
 msgid "Save Rack Preset"
-msgstr "保存机架预置"
+msgstr "保存机架预设"
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
@@ -419,16 +419,6 @@ msgctxt "AudioBatchConverter"
 msgid "Send to $APPNAME"
 msgstr "发送至 $APPNAME"
 
-#: outputlocation.cpp
-msgctxt "OutputLocationComponent"
-msgid "Show in Explorer"
-msgstr "在浏览器中显示"
-
-#: outputlocation.cpp
-msgctxt "OutputLocationComponent"
-msgid "Show in Finder"
-msgstr "在Finder中显示"
-
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
 msgid "Source Files"
@@ -437,12 +427,12 @@ msgstr "源文件"
 #: processes/extractor.cpp
 msgctxt "FileExtractor"
 msgid "Specify Section"
-msgstr "指定部分"
+msgstr "指定工程"
 
 #: processes/filesplitter.cpp
 msgctxt "AudioProcess"
 msgid "Split Multichannel Files"
-msgstr "拆分多轨道文件"
+msgstr "拆分多通道文件"
 
 #: preview.cpp
 msgctxt "Command"
@@ -477,12 +467,12 @@ msgstr "走带"
 #: processes/extractor.cpp
 msgctxt "AudioProcess"
 msgid "Trim audio file"
-msgstr "修剪音频文件"
+msgstr "裁剪音频文件"
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
 msgid "True Peak"
-msgstr "实际峰值"
+msgstr "真峰值"
 
 #: filelist.cpp
 msgctxt "AudioBatchConverter"
@@ -503,6 +493,14 @@ msgstr "音量"
 msgctxt "AudioBatchConverter"
 msgid "analyzing..."
 msgstr "分析中..."
+
+#~ msgctxt "OutputLocationComponent"
+#~ msgid "Show in Explorer"
+#~ msgstr "在浏览器中显示"
+
+#~ msgctxt "OutputLocationComponent"
+#~ msgid "Show in Finder"
+#~ msgstr "在访达中显示"
 
 #~ msgctxt "OuputLocationComponent"
 #~ msgid "Clear History"
@@ -535,3 +533,4 @@ msgstr "分析中..."
 #~ msgctxt "AudioBatchConverter"
 #~ msgid "Audio Files"
 #~ msgstr "音频文件"
+

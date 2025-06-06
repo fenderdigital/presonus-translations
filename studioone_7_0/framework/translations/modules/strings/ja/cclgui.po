@@ -64,13 +64,13 @@ msgctxt "FileType"
 msgid "Bitmap Font"
 msgstr "ビットマップフォント"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -244,15 +244,15 @@ msgctxt "Command"
 msgid "End Skip"
 msgstr "エンドスキップ"
 
-#: views/focusnavigator.cpp
-msgctxt "Command"
-msgid "Enter"
-msgstr "入力"
-
 #: keyevent.cpp
 msgctxt "VirtualKey"
 msgid "Enter"
 msgstr "Enter"
+
+#: views/focusnavigator.cpp
+msgctxt "Command"
+msgid "Enter"
+msgstr "入力"
 
 #: keyevent.cpp
 msgctxt "VirtualKey"
@@ -471,7 +471,9 @@ msgstr "JPEGファイル"
 
 #: dialogs/commandeditor.cpp
 msgctxt "CommandEditor"
-msgid "Key is already assigned to:\n%(1)"
+msgid ""
+"Key is already assigned to:\n"
+"%(1)"
 msgstr "キーはすでに次にアサインされています: %(1)"
 
 #: commands.cpp
@@ -654,13 +656,13 @@ msgctxt "VirtualKey"
 msgid "NumPad9"
 msgstr "テンキーの9"
 
-#: dialogs/dialogbuilder.cpp
-msgctxt "Dialog"
+#: dialogs/alert.cpp
+msgctxt "Alert"
 msgid "OK"
 msgstr "OK"
 
-#: dialogs/alert.cpp
-msgctxt "Alert"
+#: dialogs/dialogbuilder.cpp
+msgctxt "Dialog"
 msgid "OK"
 msgstr "OK"
 
@@ -1045,4 +1047,3 @@ msgstr "~"
 #~ msgctxt "CommandBar"
 #~ msgid "Compact"
 #~ msgstr "コンパクト"
-

@@ -699,6 +699,11 @@ msgctxt "Notation"
 msgid "Default"
 msgstr "Domyślne"
 
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Default Style"
+msgstr ""
+
 #: editor/scoreeditmodel.cpp
 msgctxt "Notation"
 msgid "Delete Score Data"
@@ -834,7 +839,7 @@ msgctxt "Notation"
 msgid "Each System"
 msgstr "Każdy system"
 
-#: editor/scorenotepreviewplayer.cpp editor/scoreeditcomponent.cpp
+#: editor/scoreeditcomponent.cpp editor/scorenotepreviewplayer.cpp
 #: editor/scoresteprecord.cpp
 msgctxt "Command"
 msgid "Edit"
@@ -855,13 +860,13 @@ msgctxt "Notation"
 msgid "Edit Articulation"
 msgstr "Edytuj artykulację"
 
-#: editor/tools/editnoteaction.cpp
-msgctxt "Notation"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Edit Beaming"
 msgstr "Edytuj belkowanie"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/tools/editnoteaction.cpp
+msgctxt "Notation"
 msgid "Edit Beaming"
 msgstr "Edytuj belkowanie"
 
@@ -915,13 +920,13 @@ msgctxt "Command"
 msgid "Enharmonic Respell Tool"
 msgstr "Narzędzie pisowni enharmonicznej"
 
-#: editor/tools/editnoteaction.cpp
-msgctxt "Notation"
+#: editor/scoresymbolpalette.cpp
+msgctxt "ScoreSymbols"
 msgid "Enharmonic spelling"
 msgstr "Pisownia enharmoniczna"
 
-#: editor/scoresymbolpalette.cpp
-msgctxt "ScoreSymbols"
+#: editor/tools/editnoteaction.cpp
+msgctxt "Notation"
 msgid "Enharmonic spelling"
 msgstr "Pisownia enharmoniczna"
 
@@ -1385,13 +1390,13 @@ msgctxt "Notation"
 msgid "Insert Repeat Ending"
 msgstr "Wstaw koniec repetycji"
 
-#: editor/tools/insertnoterestaction.cpp
-msgctxt "Notation"
+#: editor/scoresteprecord.cpp
+msgctxt "Command"
 msgid "Insert Rest"
 msgstr "Wstaw pauzę"
 
-#: editor/scoresteprecord.cpp
-msgctxt "Command"
+#: editor/tools/insertnoterestaction.cpp
+msgctxt "Notation"
 msgid "Insert Rest"
 msgstr "Wstaw pauzę"
 
@@ -1410,7 +1415,7 @@ msgctxt "Notation"
 msgid "Insert Slur"
 msgstr "Wstaw łuk"
 
-#: editor/tools/insertsymbolaction.cpp editor/scoreswingcomponent.cpp
+#: editor/scoreswingcomponent.cpp editor/tools/insertsymbolaction.cpp
 msgctxt "Notation"
 msgid "Insert Swing"
 msgstr "Wstaw swing"
@@ -1515,13 +1520,13 @@ msgctxt "Notation"
 msgid "Loading Sound '%(1)'"
 msgstr "Wczytywanie brzmienia '%(1)'"
 
-#: editor/tools/scoreselecttool.cpp
-msgctxt "ScoreSelectTool"
+#: editor/scorecontinuousheaderview.cpp
+msgctxt "ScoreView"
 msgid "Locate"
 msgstr "Znajdź"
 
-#: editor/scorecontinuousheaderview.cpp
-msgctxt "ScoreView"
+#: editor/tools/scoreselecttool.cpp
+msgctxt "ScoreSelectTool"
 msgid "Locate"
 msgstr "Znajdź"
 
@@ -1610,6 +1615,11 @@ msgctxt "ScoreSymbols"
 msgid "Mezzopiano"
 msgstr "Mezzopiano"
 
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Minimal"
+msgstr "Minimalny"
+
 #: editor/scorechangeinstrumentcomponent.cpp
 msgctxt "Notation"
 msgid "Modify Instrument Change"
@@ -1630,13 +1640,13 @@ msgctxt "ScoreSelectTool"
 msgid "Move Score Item"
 msgstr "Przenieść element partytury"
 
-#: editor/tools/scoreselecttool.cpp
-msgctxt "ScoreSelectTool"
+#: editor/scorecontinuousheaderview.cpp
+msgctxt "ScoreView"
 msgid "Move, Zoom"
 msgstr "Przenieś, powiększ"
 
-#: editor/scorecontinuousheaderview.cpp
-msgctxt "ScoreView"
+#: editor/tools/scoreselecttool.cpp
+msgctxt "ScoreSelectTool"
 msgid "Move, Zoom"
 msgstr "Przenieś, powiększ"
 
@@ -2430,22 +2440,22 @@ msgctxt "Command"
 msgid "Select Tuplet Fit 9"
 msgstr "Wybierz rodzaj tupletu 9"
 
-#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
+#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 1"
 msgstr "Wybierz głos 1"
 
-#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
+#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 2"
 msgstr "Wybierz głos 2"
 
-#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
+#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 3"
 msgstr "Wybierz głos 3"
 
-#: editor/scoretoolcommandcomponent.cpp editor/scorecommandcomponent.cpp
+#: editor/scorecommandcomponent.cpp editor/scoretoolcommandcomponent.cpp
 msgctxt "Command"
 msgid "Select Voice 4"
 msgstr "Wybierz głos 4"
@@ -2479,6 +2489,11 @@ msgstr "Ustaw capo"
 msgctxt "Notation"
 msgid "Set Chord Display Mode"
 msgstr "Ustaw tryb wyświetlania akordu"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Set Chord Display Style"
+msgstr ""
 
 #: editor/scorepagelayout.cpp
 msgctxt "Notation"
@@ -2765,6 +2780,11 @@ msgctxt "Command"
 msgid "Slur Tool"
 msgstr "Narzędzie łuku"
 
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Small Caps"
+msgstr ""
+
 #: scoredata/scoreinstrumentregistry.cpp
 msgctxt "Drum labels"
 msgid "Snare cross-stick"
@@ -2944,6 +2964,11 @@ msgstr "Zamień głosy"
 msgctxt "ScoreSymbols"
 msgid "Swing"
 msgstr "Swing"
+
+#: editor/scorepagelayout.cpp
+msgctxt "Notation"
+msgid "Symbol"
+msgstr "Symbol"
 
 #: editor/scoresymbolpalette.cpp
 msgctxt "ScoreSymbols"
@@ -3630,11 +3655,6 @@ msgctxt "ScoreSymbols"
 msgid "X-Symbol"
 msgstr "Symbol X"
 
-#: editor/tools/scoreselecttool.cpp
-msgctxt "ScoreSelectTool"
-msgid "Zoom"
-msgstr "Powiększenie"
-
 #: editor/scorecontinuousheaderview.cpp
 msgctxt "ScoreView"
 msgid "Zoom"
@@ -3642,6 +3662,11 @@ msgstr "Powiększenie"
 
 #: editor/scoreeditcomponent.cpp
 msgctxt "Command"
+msgid "Zoom"
+msgstr "Powiększenie"
+
+#: editor/tools/scoreselecttool.cpp
+msgctxt "ScoreSelectTool"
 msgid "Zoom"
 msgstr "Powiększenie"
 
@@ -3894,10 +3919,6 @@ msgstr "transponuj w górę"
 #~ msgid "Left"
 #~ msgstr "W lewo"
 
-#~ msgctxt "Notation"
-#~ msgid "Minimal"
-#~ msgstr "Minimalny"
-
 #~ msgctxt "FileType"
 #~ msgid "MusicXML File"
 #~ msgstr "Plik MusicXML"
@@ -3917,10 +3938,6 @@ msgstr "transponuj w górę"
 #~ msgctxt "Notation"
 #~ msgid "Small caps"
 #~ msgstr "Małe kapitaliki"
-
-#~ msgctxt "Notation"
-#~ msgid "Symbol"
-#~ msgstr "Symbol"
 
 #~ msgctxt "Command"
 #~ msgid "Toggle Note or Rest"

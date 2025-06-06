@@ -20,13 +20,13 @@ msgstr "添加点"
 msgid "Add Ranges to Track"
 msgstr "为轨道添加范围"
 
-#: projecttool.js tempotools.js musictools.js toolhelp.js toolsets.js
+#: musictools.js projecttool.js tempotools.js toolhelp.js toolsets.js
 msgid "Arrow Tool"
-msgstr "光标工具"
+msgstr "箭头工具"
 
 #: musictools.js
 msgid "Basic"
-msgstr "基本的"
+msgstr "基本箭头工具"
 
 #: toolhelp.js
 msgid "Bend"
@@ -36,7 +36,7 @@ msgstr "弯音"
 msgid "Bend Curve"
 msgstr "弯音曲线"
 
-#: toolhelp.js audiobendtool.js
+#: audiobendtool.js toolhelp.js
 msgid "Bend Tool"
 msgstr "弯音工具"
 
@@ -82,7 +82,7 @@ msgstr "对称失真"
 
 #: toolhelp.js
 msgid "Drag"
-msgstr "拖曳"
+msgstr "拖动"
 
 #: toolhelp.js
 msgid "Draw"
@@ -90,7 +90,7 @@ msgstr "绘制"
 
 #: toolhelp.js
 msgid "Draw Part"
-msgstr "拖曳部分"
+msgstr "绘制片段"
 
 #: toolhelp.js
 msgid "Draw Selection"
@@ -98,7 +98,7 @@ msgstr "绘制所选"
 
 #: toolhelp.js
 msgid "Draw Selection (add)"
-msgstr "绘制所选 (添加)"
+msgstr "绘制所选（添加）"
 
 #: toolhelp.js
 msgid "Draw Selection Freely"
@@ -110,7 +110,7 @@ msgstr "绘制速度变化"
 
 #: toolhelp.js
 msgid "Edit Event"
-msgstr "编辑项目"
+msgstr "编辑事件"
 
 #: toolhelp.js
 msgid "Edit Fade Length"
@@ -170,7 +170,7 @@ msgstr "排除范围"
 
 #: musictools.js
 msgid "Extended"
-msgstr "扩展"
+msgstr "扩展箭头工具"
 
 #: toolsets.js
 msgid "Freehand"
@@ -178,7 +178,7 @@ msgstr "手绘"
 
 #: toolhelp.js
 msgid "Goto Section"
-msgstr "转到章节"
+msgstr "跳转到章节"
 
 #: toolhelp.js
 msgid "Include Range"
@@ -190,11 +190,11 @@ msgstr "插入"
 
 #: toolhelp.js
 msgid "Insert Part"
-msgstr "插入部分"
+msgstr "插入片段"
 
 #: toolhelp.js
 msgid "Insert Pattern"
-msgstr "插入模式"
+msgstr "插入样式"
 
 #: toolhelp.js
 msgid "Layer Tool"
@@ -258,11 +258,11 @@ msgstr "静音工具"
 
 #: toolhelp.js
 msgid "Only clicked event"
-msgstr "仅点击的事件"
+msgstr "仅削波的事件"
 
-#: projecttool.js tempotools.js musictools.js toolhelp.js toolsets.js
+#: musictools.js projecttool.js tempotools.js toolhelp.js toolsets.js
 msgid "Paint Tool"
-msgstr "描绘工具"
+msgstr "绘制工具"
 
 #: toolhelp.js toolsets.js
 msgid "Parabola"
@@ -290,7 +290,7 @@ msgstr "替代轨道上的范围"
 
 #: toolhelp.js
 msgid "Replace With Next Layer"
-msgstr "替换为下一层"
+msgstr "替换为下一分层"
 
 #: toolhelp.js
 msgid "Reset"
@@ -378,7 +378,7 @@ msgstr "选择所有和弦"
 
 #: toolhelp.js
 msgid "Select all on Track"
-msgstr "音轨全选"
+msgstr "选择轨道上的所有"
 
 #: toolhelp.js
 msgid "Set End Marker"
@@ -398,7 +398,7 @@ msgstr "设置音轨暂停"
 
 #: toolhelp.js
 msgid "Shift Root"
-msgstr "移动根"
+msgstr "根音偏移"
 
 #: toolhelp.js toolsets.js
 msgid "Sine"
@@ -410,7 +410,7 @@ msgstr "偏斜"
 
 #: toolhelp.js
 msgid "Slip Event"
-msgstr "滑动事件"
+msgstr "滑移事件"
 
 #: toolhelp.js
 msgid "Slip Loop"
@@ -482,7 +482,7 @@ msgstr "取消静音"
 
 #: toolhelp.js
 msgid "Velocity Accent"
-msgstr "速度重音"
+msgstr "重力度音"
 
 #: toolhelp.js
 msgid "Zoom in"
@@ -494,8 +494,9 @@ msgstr "缩放到所选"
 
 #: toolhelp.js
 msgid "x: Resize Note"
-msgstr "x: 调整音符大小"
+msgstr "x：调整音符大小"
 
 #: toolhelp.js
 msgid "y: Edit Velocity"
-msgstr "y: 编辑力度"
+msgstr "y：编辑力度"
+

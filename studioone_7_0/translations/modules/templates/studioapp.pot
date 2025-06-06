@@ -113,13 +113,13 @@ msgctxt "StudioApp"
 msgid "Artist Profile"
 msgstr ""
 
-#: ./samplerextension.cpp
-msgctxt "Command"
+#: ./appoptions.cpp
+msgctxt "Options"
 msgid "Audio"
 msgstr ""
 
-#: ./appoptions.cpp
-msgctxt "Options"
+#: ./samplerextension.cpp
+msgctxt "Command"
 msgid "Audio"
 msgstr ""
 
@@ -583,13 +583,13 @@ msgctxt "Sidebar"
 msgid "New Multi Instrument"
 msgstr ""
 
-#: ./documenthandler.cpp
-msgctxt "Command"
+#: ./projectdocument.cpp
+msgctxt "StudioApp"
 msgid "New Project"
 msgstr ""
 
-#: ./projectdocument.cpp
-msgctxt "StudioApp"
+#: ./documenthandler.cpp
+msgctxt "Command"
 msgid "New Project"
 msgstr ""
 
@@ -968,6 +968,11 @@ msgctxt "MixerConsole"
 msgid "Small"
 msgstr ""
 
+#: ./metaremovetask.cpp
+msgctxt "Edit"
+msgid "Smart Delete"
+msgstr ""
+
 #: ./notionexportcomponent.cpp
 #: ./songdataimporter.cpp
 msgctxt "Command"
@@ -1155,15 +1160,15 @@ msgid "Video Player"
 msgstr ""
 
 #: ./appfeatures.cpp
-#: ./documenthandler.cpp
 #: ./launcherguicomponent.cpp
 #: ./studiomixerconsole.cpp
+#: ./documenthandler.cpp
 msgctxt "Command"
 msgid "View"
 msgstr ""
 
-#: ./showdocument.cpp
 #: ./projectdocument.cpp
+#: ./showdocument.cpp
 #: ./songdocument.cpp
 msgctxt "StudioApp"
 msgid "Workspace"
