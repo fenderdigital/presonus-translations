@@ -46,23 +46,13 @@ msgstr "%(1) z %(2)"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a block size of %(2).\n"
-"The audio device does not support this value.\n"
-"Please select a different audio device if possible."
-msgstr ""
-"%(1) wymaga wielkości %(2) buforu.\n"
-"Urządzenie audio nie obsługuje tej wartości.\n"
-"Jeżeli to możliwe, zmień urządzenie audio."
+msgid "%(1) requires a block size of %(2).\nThe audio device does not support this value.\nPlease select a different audio device if possible."
+msgstr "%(1) wymaga wielkości %(2) buforu.\nUrządzenie audio nie obsługuje tej wartości.\nJeżeli to możliwe, zmień urządzenie audio."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"%(1) requires a sample rate of %(2).\n"
-"Please change the sample rate if possible."
-msgstr ""
-"%(1) wymaga częstotliwości %(2).\n"
-"Jeżeli to możliwe, zmień częstotliwość próbkowania.."
+msgid "%(1) requires a sample rate of %(2).\nPlease change the sample rate if possible."
+msgstr "%(1) wymaga częstotliwości %(2).\nJeżeli to możliwe, zmień częstotliwość próbkowania.."
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -971,7 +961,7 @@ msgstr "Urządzenie"
 #: editor/paramselector.cpp
 msgctxt "ParamSelector"
 msgid "Device"
-msgstr ""
+msgstr "Urządzenie"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
@@ -2311,7 +2301,7 @@ msgstr "Miernik po panoramie"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Postroll"
-msgstr ""
+msgstr "Odtwarzanie po nagrywaniu"
 
 #: audiomixer/audiochannelmeter.cpp
 msgctxt "AudioChannelMeter"
@@ -2336,7 +2326,7 @@ msgstr "Naliczanie"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Preroll"
-msgstr "Wstępne odtwarzanie"
+msgstr "Odtwarzanie przed nagrywaniem"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -2951,7 +2941,7 @@ msgstr "Ustaw kolor kanału"
 #: mixer/channel.cpp
 msgctxt "Channel"
 msgid "Set Channel Icon"
-msgstr "ustaw ikonę kanału"
+msgstr "Ustaw ikonę kanału"
 
 #: audiosynths/audiosynthdirectinput.cpp
 msgctxt "AudioSynthDirectInput"
@@ -3410,12 +3400,8 @@ msgstr "Poprzednio nie udało się poprawnie uruchomić %(1). Czy chcesz spróbo
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
-msgid ""
-"The audio device does not have enough outputs.\n"
-"Do you want to continue?"
-msgstr ""
-"To urządzenie audio ma za mało wyjść.\n"
-"Czy chcesz kontynuować?"
+msgid "The audio device does not have enough outputs.\nDo you want to continue?"
+msgstr "To urządzenie audio ma za mało wyjść.\nCzy chcesz kontynuować?"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -3505,7 +3491,7 @@ msgstr "Przed tłumikiem"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Toggle Record"
-msgstr ""
+msgstr "Włącz / Wyłącz nagrywanie"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -3545,7 +3531,7 @@ msgstr "Transfer kanału"
 #: audiomixer/channels/audiotrackchannel.cpp
 msgctxt "Channels"
 msgid "Transformed Track"
-msgstr ""
+msgstr "Przekształcona ścieżka"
 
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
@@ -3720,14 +3706,8 @@ msgstr "Write"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
-msgid ""
-"Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n"
-"\n"
-"Do you want to reconnect your external devices now?"
-msgstr ""
-"Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n"
-"\n"
-"Czy chcesz je teraz ponownie podłączyć?"
+msgid "Your MIDI configuration has changed. This might be due to removable devices currently not plugged in.\n\nDo you want to reconnect your external devices now?"
+msgstr "Konfiguracja MIDI uległa zmianie. Być może Twoje urządzenia wymienne nie są teraz podłączone.\n\nCzy chcesz je teraz ponownie podłączyć?"
 
 #~ msgctxt "Command"
 #~ msgid "Channel Components"
@@ -3988,3 +3968,4 @@ msgstr ""
 #~ msgctxt "MacroControls"
 #~ msgid "Disconnect %(1) from %(2) Macro Control %(3)"
 #~ msgstr "Odłącz %(1) od kontrolki makro %(2) %(3)"
+

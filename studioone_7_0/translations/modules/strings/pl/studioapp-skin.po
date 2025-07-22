@@ -217,7 +217,7 @@ msgstr "$itemTitle"
 #: ccl/pluginmanager.xml
 msgctxt "PriorityListItem"
 msgid "$itemTitle"
-msgstr ""
+msgstr "$itemTitle"
 
 #: ccl/common.xml
 msgctxt "SafetyOptionsContent"
@@ -362,7 +362,7 @@ msgstr "$title"
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageNotificationsItem"
 msgid "$title"
-msgstr ""
+msgstr "$title"
 
 #: devices/audiofxeditor.xml
 msgctxt "PlugInSelectorMenuWideRouting"
@@ -447,12 +447,12 @@ msgstr "$tooltip2"
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageVendor"
 msgid "$vendorName"
-msgstr ""
+msgstr "$vendorName"
 
 #: devices/audiofxeditor.xml
 msgctxt "InsertSpeakerMap"
 msgid "&#10132;"
-msgstr "&#10132;"
+msgstr "➔"
 
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorMain"
@@ -467,7 +467,7 @@ msgstr "⟳"
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
 msgid "&#176;7"
-msgstr "&#176;7"
+msgstr "°7"
 
 #: engine/editor.xml
 msgctxt "MusicEditorLeftPanel"
@@ -477,7 +477,7 @@ msgstr "•"
 #: engine/audioediting.xml
 msgctxt "AudioSpeakerMap"
 msgid "&#8646;"
-msgstr "&#8646;"
+msgstr "⇆"
 
 #: engine/automation.xml
 msgctxt "AutomationTrackDialog"
@@ -1162,7 +1162,7 @@ msgstr "@cmd.title[Track|Toggle Cell Playback Active]"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "@cmd.title[Transport|Autopunch]"
-msgstr ""
+msgstr "@cmd.title[Transport|Autopunch]"
 
 #: engine/song.xml
 msgctxt "SongToolbarContent"
@@ -1177,7 +1177,7 @@ msgstr "@cmd.title[Transport|External Sync Options]"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "@cmd.title[Transport|Postroll]"
-msgstr ""
+msgstr "@cmd.title[Transport|Postroll]"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
@@ -1197,12 +1197,12 @@ msgstr "@cmd.title[Transport|Precount]"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "@cmd.title[Transport|Precount]"
-msgstr ""
+msgstr "@cmd.title[Transport|Precount]"
 
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "@cmd.title[Transport|Preroll]"
-msgstr ""
+msgstr "@cmd.title[Transport|Preroll]"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.Sync"
@@ -1417,7 +1417,7 @@ msgstr "@cmd.title[Zoom|Toggle Auto Zoom]"
 #: engine/editor.xml
 msgctxt "MusicPatternToolsHeader"
 msgid "@cmd.title[Zoom|Toggle Auto Zoom]"
-msgstr ""
+msgstr "@cmd.title[Zoom|Toggle Auto Zoom]"
 
 #: engine/song.xml
 msgctxt "SongToolbarContent"
@@ -1572,7 +1572,7 @@ msgstr "@cmd[Track|Solo follows Selection]"
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageNotificationsItem"
 msgid "@property:actionTitle[$index]"
-msgstr ""
+msgstr "@property:actionTitle[$index]"
 
 #: ccl/packages/packagemanager.xml
 msgctxt "PackageFilter"
@@ -1927,7 +1927,7 @@ msgstr "Aktywna personalizacja"
 #: ccl/navigator.xml
 msgctxt "AppSafetyOptionsIndicator"
 msgid "Active Safety Options:&#13;&#10;$safetyOptions"
-msgstr "Aktywne opcje bezpieczeństwa:&#13;&#10;$safetyOptions"
+msgstr "Aktywne opcje bezpieczeństwa:\r\n$safetyOptions"
 
 #: engine/inspector.xml
 msgctxt "MusicTrackInspectorContent"
@@ -2588,7 +2588,7 @@ msgstr "Zwiększony"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Auto Punch"
-msgstr ""
+msgstr "Auto Punch"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
@@ -2683,7 +2683,7 @@ msgstr "Automatycznie twórz szyny dla wielowyjściowych instrumentów"
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Automatically hide recently installed plug-in duplicates"
-msgstr ""
+msgstr "Automatyczne ukryj ostatnio zainstalowane duplikaty wtyczek"
 
 #: app/importsongdata.xml
 msgctxt "ImportSongDataOptions"
@@ -2858,7 +2858,7 @@ msgstr "Takty"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Bars"
-msgstr ""
+msgstr "Takty"
 
 #: devices/musicdevices.xml
 msgctxt "NoteRepeater"
@@ -3493,7 +3493,7 @@ msgstr "Wyświetl akordy"
 #: engine/editor.xml
 msgctxt "ScoreSetup"
 msgid "Chord Display"
-msgstr ""
+msgstr "Wyświetl akordy"
 
 #: engine/eventinspector.xml
 msgctxt "EditorChordsContent"
@@ -3503,12 +3503,12 @@ msgstr "Wyświetl akordy"
 #: engine/inspector.xml
 msgctxt "ChordTrackInspector"
 msgid "Chord Display"
-msgstr ""
+msgstr "Wyświetl akordy"
 
 #: show/show.xml
 msgctxt "TrackControls.Chords"
 msgid "Chord Display Mode"
-msgstr ""
+msgstr "Tryb wyświetlania akordów"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorMiniParts"
@@ -4503,7 +4503,7 @@ msgstr "Szczegóły"
 #: engine/audioexport.xml
 msgctxt "SongExportRealtimeMode"
 msgid "Details..."
-msgstr ""
+msgstr "Szczegóły..."
 
 #: engine/audioediting.xml
 msgctxt "AudioBendPanel.MarkerPart"
@@ -4633,7 +4633,7 @@ msgstr "Wydajność dysku"
 #: show/show.xml
 msgctxt "TrackControls.Chords"
 msgid "Display"
-msgstr ""
+msgstr "Wyświetl"
 
 #: engine/songdialogs.xml
 msgctxt "SongSetup.Timeline"
@@ -4653,9 +4653,7 @@ msgstr "Konfiguracja dokumentu"
 #: app/shared.xml
 msgctxt "DocumentSafetyOptionsIndicator"
 msgid "Document loaded with Safety Options:&#13;&#10;$safetyOptions"
-msgstr ""
-"Dokument otwarty z opcjami bezpieczeństwa:\r\n"
-"$safetyOptions"
+msgstr "Dokument otwarty z opcjami bezpieczeństwa:\r\n$safetyOptions"
 
 #: app/toolbar.xml
 msgctxt "PerspectiveSelector"
@@ -6140,12 +6138,12 @@ msgstr "Ukryj wszystkie"
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Hide Duplicates"
-msgstr ""
+msgstr "Ukryj duplikaty"
 
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Hide duplicates on startup"
-msgstr ""
+msgstr "Ukryj duplikaty przy uruchomieniu"
 
 #: app/toolbar.xml app/windowclasses.xml
 msgctxt "HistoryPanel"
@@ -8490,17 +8488,17 @@ msgstr "Notion Mobile lub Notion 6 albo nowszy muszą być zainstalowane na tym 
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Number of Bars used for Postroll"
-msgstr ""
+msgstr "Liczba taktów odtwarzania po nagrywaniu"
 
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Number of Bars used for Precount"
-msgstr ""
+msgstr "Liczba taktów naliczania"
 
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Number of Bars used for Preroll"
-msgstr ""
+msgstr "Liczba taktów odtwarzania przed nagrywaniem"
 
 #: show/show.xml
 msgctxt "SetListItemSectionMiniProperties"
@@ -9260,7 +9258,7 @@ msgstr "Wtyczki"
 #: ccl/pluginmanager.xml
 msgctxt "PlugInManager"
 msgid "Plug-in Format Priority"
-msgstr ""
+msgstr "Priorytet formatu wtyczki"
 
 #: app/plugscanner.xml
 msgctxt "PlugInScanner"
@@ -9305,7 +9303,7 @@ msgstr "Czas po"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Postroll"
-msgstr ""
+msgstr "Czas po"
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorParts"
@@ -9335,7 +9333,7 @@ msgstr "Naliczanie"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Precount"
-msgstr ""
+msgstr "Naliczanie"
 
 #: devices/transport.xml
 msgctxt "Metronome"
@@ -9355,12 +9353,12 @@ msgstr "Dołącz nazwę do wariacji"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Preroll"
-msgstr ""
+msgstr "Czas przed"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Preroll @cmd[Transport|Preroll]"
-msgstr "Wstępne odtwarzanie @cmd[Transport|Preroll]"
+msgstr "Odtwarzanie przed @cmd[Transport|Preroll]"
 
 #: engine/musicdialogs.xml
 msgctxt "MusicTransformDialog"
@@ -9475,7 +9473,7 @@ msgstr "Przetwarzanie"
 #: engine/audioexport.xml
 msgctxt "SongExportRealtimeMode"
 msgid "Processing"
-msgstr ""
+msgstr "Proces"
 
 #: app/licenser.xml
 msgctxt "UserLicenseDialog.SpliceActivation"
@@ -9585,7 +9583,7 @@ msgstr "Publikowanie"
 #: engine/recordpanel.xml
 msgctxt "RecordPanel.Horizontal"
 msgid "Punch - Pre-/Postroll"
-msgstr ""
+msgstr "Punch - Odtwarzanie przed i po"
 
 #: app/licenser.xml
 msgctxt "UserLicenseExpired"
@@ -9770,7 +9768,7 @@ msgstr "Rzeczywisty instrument"
 #: engine/audioexport.xml
 msgctxt "SongExportRealtimeMode"
 msgid "Realtime processing suppressed"
-msgstr ""
+msgstr "Przetwarzanie w czasie rzeczywistym jest wyłączone"
 
 #: devices/editgroups.xml
 msgctxt "SnapshotRecallOptionsContent"
@@ -12345,7 +12343,7 @@ msgstr "Synchronizacja przy skoku"
 #: show/show.xml
 msgctxt "TrackControls.Chords"
 msgid "Sync Mode when Jumping"
-msgstr ""
+msgstr "Synchronizacja przy skoku"
 
 #: engine/eventediting.xml
 msgctxt "SpotEventsDialog"
@@ -13480,7 +13478,7 @@ msgstr "Użyj ditheringu dla odtwarzania i eksportu plików audio"
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
 msgid "Use efficiency cores"
-msgstr ""
+msgstr "Użyj rdzeni wydajnościowych"
 
 #: devices/devices.xml
 msgctxt "AudioSetup.Engine"
@@ -13500,7 +13498,7 @@ msgstr "Użyj zakresu markerów utworu"
 #: engine/audioexport.xml
 msgctxt "SongExportRealtimeMode"
 msgid "Use realtime processing"
-msgstr ""
+msgstr "W czasie rzeczywistym"
 
 #: project/audiofile.xml
 msgctxt "AudioFilePublisher"
@@ -16288,3 +16286,4 @@ msgstr "X"
 #~ msgctxt "ChordEventMiniProperties"
 #~ msgid "Time Lock"
 #~ msgstr "Blokada czasu"
+

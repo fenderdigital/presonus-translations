@@ -87,12 +87,12 @@ msgstr "Czy na pewno chcesz zastąpić domyślną mapę?"
 #: base/trashcomponent.cpp
 msgctxt "TrashBin"
 msgid "Are you sure you want to permanently delete these %(1) items?"
-msgstr ""
+msgstr "Czy na pewno chcesz trwale usunąć te %(1) elementy?"
 
 #: base/trashcomponent.cpp
 msgctxt "TrashBin"
 msgid "Are you sure you want to permanently delete this item?"
-msgstr ""
+msgstr "Czy na pewno chcesz trwale usunąć ten element?"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
@@ -157,17 +157,17 @@ msgstr "Autoprzewijanie"
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Autoscroll Centered"
-msgstr ""
+msgstr "Autoprzewijanie z kursorem pośrodku"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Autoscroll Left"
-msgstr ""
+msgstr "Autoprzewijanie z kursorem po lewej"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Autoscroll Turn Over"
-msgstr ""
+msgstr "Autoprzewijanie stronami"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -252,12 +252,12 @@ msgstr "Podstawowa start"
 #: timeedit/timeline.cpp
 msgctxt "Edit"
 msgid "Continuous Centered"
-msgstr ""
+msgstr "Ciągle z kursorem pośrodku"
 
 #: timeedit/timeline.cpp
 msgctxt "Edit"
 msgid "Continuous Left"
-msgstr ""
+msgstr "Ciągle z kursorem po lewej"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -327,7 +327,7 @@ msgstr "Domyślne"
 #: base/trashcomponent.cpp
 msgctxt "TrashBin"
 msgid "Delete"
-msgstr ""
+msgstr "Usuń"
 
 #: tempo/tempoeditcomponent.cpp
 msgctxt "Command"
@@ -425,7 +425,7 @@ msgstr "Edytuj tonację"
 #: base/notepad.cpp
 msgctxt "Notepad"
 msgid "Edit Note"
-msgstr ""
+msgstr "Edytuj notatkę"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
@@ -440,7 +440,7 @@ msgstr "Edytuj metrum"
 #: base/trashcomponent.cpp
 msgctxt "TrashBin"
 msgid "Empty Trash Bin"
-msgstr ""
+msgstr "Opróżnij kosz"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -776,7 +776,7 @@ msgstr "Nawigacja"
 #: itemlist/showhidefilter.cpp
 msgctxt "ShowHideFilter"
 msgid "New Preset"
-msgstr ""
+msgstr "Nowy zestaw"
 
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
@@ -1086,7 +1086,7 @@ msgstr "Resetuj pady"
 #: base/trashcomponent.cpp
 msgctxt "TrashBin"
 msgid "Restore"
-msgstr ""
+msgstr "Przywróć"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
@@ -1176,12 +1176,12 @@ msgstr "Ustaw początek pętli"
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Postroll Bars"
-msgstr ""
+msgstr "Ustaw takty po nagrywaniu"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Preroll Bars"
-msgstr ""
+msgstr "Ustaw takty przed nagrywaniem"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
@@ -1376,12 +1376,12 @@ msgstr "Zamień format linijki"
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Symbol"
-msgstr "Symbol"
+msgstr "Symbole"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Symbol"
-msgstr "Symbol"
+msgstr "Symbole"
 
 #: tempo/tempoeditcomponent.cpp
 msgctxt "Command"
@@ -1390,31 +1390,23 @@ msgstr "Tempo"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid ""
-"The preset was generated for '%(1)' and does not match the target instrument.\n"
-"Do you want to load the variation map anyway?"
-msgstr ""
-"Zestaw został wygenerowany dla '%(1)' i nie jest zgodny z docelowym instrumentem.\n"
-"Czy mimo to chcesz wczytać mapę wariacji?"
+msgid "The preset was generated for '%(1)' and does not match the target instrument.\nDo you want to load the variation map anyway?"
+msgstr "Zestaw został wygenerowany dla '%(1)' i nie jest zgodny z docelowym instrumentem.\nCzy mimo to chcesz wczytać mapę wariacji?"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
-msgid ""
-"The preset was generated for sound '%(1)' and does not match the current instrument preset.\n"
-"Do you want to load the variation map anyway?"
-msgstr ""
-"Zestaw został wygenerowany dla brzmienia '%(1)' i nie jest zgodny z bieżącym zestawem instrumentu.\n"
-"Czy mimo to chcesz wczytać mapę wariacji?"
+msgid "The preset was generated for sound '%(1)' and does not match the current instrument preset.\nDo you want to load the variation map anyway?"
+msgstr "Zestaw został wygenerowany dla brzmienia '%(1)' i nie jest zgodny z bieżącym zestawem instrumentu.\nCzy mimo to chcesz wczytać mapę wariacji?"
 
 #: base/trashcomponent.cpp
 msgctxt "TrashBin"
 msgid "These items could not be restored!"
-msgstr ""
+msgstr "Nie można przywrócić tych elementów!"
 
 #: base/trashcomponent.cpp
 msgctxt "TrashBin"
 msgid "This item could not be restored!"
-msgstr ""
+msgstr "Nie można przywrócić tego elementu!"
 
 #: music/musicedittasks.cpp
 msgctxt "MusicEdit"
@@ -1519,7 +1511,7 @@ msgstr "Triola"
 #: timeedit/timeline.cpp
 msgctxt "Edit"
 msgid "Turn Over"
-msgstr ""
+msgstr "Stronami"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1668,7 +1660,7 @@ msgstr "Powiększ zaznaczenie w poziomie"
 
 #~ msgctxt "Notation"
 #~ msgid "Minimal"
-#~ msgstr "Minimalny"
+#~ msgstr "Minimalne"
 
 #~ msgctxt "Notation"
 #~ msgid "Small caps"
@@ -1676,7 +1668,7 @@ msgstr "Powiększ zaznaczenie w poziomie"
 
 #~ msgctxt "Notation"
 #~ msgid "Symbol"
-#~ msgstr "Symbol"
+#~ msgstr "Symbole"
 
 #~ msgctxt "Command"
 #~ msgid "Copy"
@@ -1769,3 +1761,4 @@ msgstr "Powiększ zaznaczenie w poziomie"
 #~ msgctxt "TimeRulerView"
 #~ msgid "Zoom"
 #~ msgstr "Powiększenie"
+

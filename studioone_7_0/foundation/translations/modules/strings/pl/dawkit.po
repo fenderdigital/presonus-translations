@@ -282,7 +282,7 @@ msgstr "Eksportuj audio"
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Automatic"
-msgstr ""
+msgstr "Automatycznie"
 
 #: show/model/showplayer.cpp
 msgctxt "Player"
@@ -541,16 +541,8 @@ msgstr "Czy chcesz zastosować przyrostowe kody ISRC dla wszystkich utworów?"
 
 #: project/publish/ddpimagemaker.cpp
 msgctxt "DDPImageMaker"
-msgid ""
-"Do you want to create a DDP image?\n"
-"\n"
-"Image: %(1)\n"
-"Location: %(2)"
-msgstr ""
-"Czy chcesz utworzyć obraz DDP?\n"
-"\n"
-"Obraz: %(1)\n"
-"Lokalizacja: %(2)"
+msgid "Do you want to create a DDP image?\n\nImage: %(1)\nLocation: %(2)"
+msgstr "Czy chcesz utworzyć obraz DDP?\n\nObraz: %(1)\nLokalizacja: %(2)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -1223,7 +1215,7 @@ msgstr "Nie ma co wyeksportować. Ustaw pętlę lub markery."
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Offline"
-msgstr ""
+msgstr "Offline"
 
 #: show/editing/globaltracklistcomponent.cpp
 msgctxt "Command"
@@ -1411,7 +1403,7 @@ msgstr "Rzeczywisty instrument"
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Realtime"
-msgstr ""
+msgstr "W czasie rzeczywistym"
 
 #: score/scoreeditor.cpp
 msgctxt "ScoreEditor"
@@ -2135,12 +2127,8 @@ msgstr "Zapisz obraz DDP %(1) razy"
 
 #: show/editing/showeditmodel.cpp
 msgctxt "EventEditHandler"
-msgid ""
-"Start: %(1) (%(2))\n"
-"Pause: %(3)"
-msgstr ""
-"Start: %(1) (%(2))\n"
-"Pauza: %(3)"
+msgid "Start: %(1) (%(2))\nPause: %(3)"
+msgstr "Start: %(1) (%(2))\nPauza: %(3)"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2189,37 +2177,13 @@ msgstr "Źródła kanału szyny nie zawierają audio."
 
 #: project/editing/projecteditcomponent.cpp
 msgctxt "Project"
-msgid ""
-"The EAN code is not formatted correctly.\n"
-"\n"
-"It should be 13 characters long and should only contain numeric characters.\n"
-"\n"
-"Example: 036000291452\n"
-"\n"
-"If you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
-msgstr ""
-"Kod EAN nie jest poprawnie sformatowany.\n"
-"\n"
-"Powinien on zawierać 13 znaków numerycznych.\n"
-"\n"
-"Przykład: 036000291452\n"
-"\n"
-"Jeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
+msgid "The EAN code is not formatted correctly.\n\nIt should be 13 characters long and should only contain numeric characters.\n\nExample: 036000291452\n\nIf you have a UPC, you just need to add 0 at the beginning to form a valid EAN code."
+msgstr "Kod EAN nie jest poprawnie sformatowany.\n\nPowinien on zawierać 13 znaków numerycznych.\n\nPrzykład: 036000291452\n\nJeżeli posiadasz UPC, to powinieneś dodać 0 na początku kodu EAN."
 
 #: project/editing/projecttrackcomponent.cpp
 msgctxt "ProjectTrack"
-msgid ""
-"The ISRC code is not formatted correctly.\n"
-"\n"
-"It should be 12 characters long and should only contain alphanumeric characters.\n"
-"\n"
-"Example: USPR37300012"
-msgstr ""
-"Kod ISRC jest niepoprawnie sformatowany.\n"
-"\n"
-"Powinien on zawierać 12 znaków alfanumerycznych.\n"
-"\n"
-"Przykład: USPR37300012"
+msgid "The ISRC code is not formatted correctly.\n\nIt should be 12 characters long and should only contain alphanumeric characters.\n\nExample: USPR37300012"
+msgstr "Kod ISRC jest niepoprawnie sformatowany.\n\nPowinien on zawierać 12 znaków alfanumerycznych.\n\nPrzykład: USPR37300012"
 
 #: song/songvideorenderer.cpp
 msgctxt "Video"
@@ -2244,7 +2208,7 @@ msgstr "Format pliku zostanie zresetowany do \"%(1)\"."
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "The following channels and devices require realtime processing and will be excluded from mixdown"
-msgstr ""
+msgstr "Następujące kanały i urządzenia wymagają przetwarzania w czasie rzeczywistym i zostaną wykluczone z eksportowanego miksu"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2294,7 +2258,7 @@ msgstr "Przekształcany kanał '%(1)' posiada wysyłkę poza przekształcaną sz
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
 msgid "The transformed Track '%(1)' is using Launcher Cell Playback."
-msgstr ""
+msgstr "Przekształcana ścieżka '%(1)' jest używana w odtwarzaniu komórek Launchera."
 
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
@@ -2501,24 +2465,8 @@ msgstr "Zaktualizuj tytuł"
 
 #: song/songmaster.cpp
 msgctxt "SongMaster"
-msgid ""
-"Update the mastering file of this song:\n"
-"%(6)\n"
-"Output: %(1)\n"
-"Duration: %(3)\n"
-"Resolution: %(4)\n"
-"Realtime Processing: %(5)\n"
-"Include Master Effects: %(7)\n"
-"Filename: %(2)"
-msgstr ""
-"Zaktualizuj plik masteringu dla tego utworu:\n"
-"%(6)\n"
-"Wyjście: %(1)\n"
-"Długość %(3)\n"
-"Rozdzielczość: %(4)\n"
-"Przetwarzanie w czasie rzeczywistym: %(5)\n"
-"Dołącz efekty sumy: %(7)\n"
-"Nazwa pliku: %(2)"
+msgid "Update the mastering file of this song:\n%(6)\nOutput: %(1)\nDuration: %(3)\nResolution: %(4)\nRealtime Processing: %(5)\nInclude Master Effects: %(7)\nFilename: %(2)"
+msgstr "Zaktualizuj plik masteringu dla tego utworu:\n%(6)\nWyjście: %(1)\nDługość %(3)\nRozdzielczość: %(4)\nPrzetwarzanie w czasie rzeczywistym: %(5)\nDołącz efekty sumy: %(7)\nNazwa pliku: %(2)"
 
 #: project/document/songupdater.cpp
 msgctxt "SongUpdater"
@@ -2589,7 +2537,7 @@ msgstr "Wirtualny instrument"
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
 msgid "Warning: Devices that require realtime processing will be excluded from mixdown"
-msgstr ""
+msgstr "Ostrzeżenie: Urządzenia wymagające przetwarzania w czasie rzeczywistym zostaną wykluczone z eksportowanego miksu"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2864,3 +2812,4 @@ msgstr "nowy odtwarzacz"
 #~ msgctxt "Command"
 #~ msgid "Split Track and Event"
 #~ msgstr "Podziel utwór i obiekt"
+
