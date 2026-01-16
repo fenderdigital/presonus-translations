@@ -1,15 +1,15 @@
-PreSonus Software Localization Guide
-Copyright (c)2024 PreSonus Software Ltd. All Rights Reserved.
+Fender Software Localization Guide
+Copyright (c)2026 Fender Musical Instruments Corp. All Rights Reserved.
 
 INTRODUCTION
 
-PreSonus software products like Studio One can be localized for several locales via language packs. A language pack is basically a ZIP archive containing all resources for a certain language like strings used in menus and in the application windows and dialogs.
+Fender software products like Studio Pro (and its predecessor PreSonus Studio One) can be localized for for multiple languages via language packs. A language pack is basically a ZIP archive containing all resources for a certain language such as strings used in menus and in the application windows and dialogs.
 
 String tables are based on the GNU gettext file formats. For more information on GNU gettext please refer to https://www.gnu.org/software/gettext/. Additionally, there are some text resources which need to be translated separately.
 
 GETTING STARTED
 
-The file and folder structure for a new language will be setup in the translations repository by PreSonus. The first place to look at are the string folders for your language. For Studio One version 6.6 and later, these are located in the following folders:
+The file and folder structure for a new language will be setup in the translations repository by Fender. Start by examining the string folders for your language. For Fender Studio Pro (and PreSonus Studio One) you can find them here:
 
 "translations/modules/strings/<language-code>" 
 "framework/translations/modules/strings/<language-code>"
@@ -19,12 +19,12 @@ These folders contain all .po files for the given language that make up the main
 
 Please note that for versions 6.0 to 6.5 they are located in "translations/modules/<module>/strings/<language-code>" and for versions prior to version 6, they are located in "translations/strings/<language-code>".
 
-For Studio One, there are currently about 4000 strings which need to be translated. Additionally, it is required to translate the device descriptions found in "foundation/translations/resources/devices/<language-code>" and the EULA in "foundation/build/identities/presonus/eula".
+For Studio Pro, there are currently about 7000 strings which need to be translated. Additionally, it is required to translate the device descriptions found in "foundation/translations/resources/devices/<language-code>" and the EULA in "foundation/build/identities/fender/eula".
 
 LOCALIZATION TOOLS
 
-You can use any software localization tool compatible with the .po file format. However, if you do not have a preferred translation workflow yet, we recommend using the latest version of the CCL Localizer application available at https://ccl.dev/tools. Besides translation editing, it also enables you to build language packs on your local system for testing purpose. The CCL Localizer project file for Studio One version 6 and later can be found in the path translations/projects/studioapp/studioapp.lzproject. Opening this file requires the whole directory tree to be copied/cloned to your local system. Please update to the latest version of CCL Localizer before starting the translation as it might contain new features that are necessary to load the project file.
+You can use any software localization tool compatible with the .po file format. However, if you do not have a preferred translation workflow yet, we recommend using the latest version of the CCL Localizer application available at https://ccl.dev/tools. Besides translation editing, it also enables you to build language packs on your local system for testing purposes. The CCL Localizer project file for Studio Pro can be found in the path translations/projects/studioapp/studioapp.lzproject. Opening this file requires the whole directory tree to be copied/cloned to your local system. Please update to the latest version of CCL Localizer before starting the translation as it might contain new features that are necessary to load the project file.
 
 DEPLOYMENT
 
-Language packs for our products are hosted on PreSonus Exchange (http://studioone.presonus.com/exchange/). The final step of preparing the installation file for your language pack extension will be done by PreSonus.
+Language packs for our products are hosted on Fender Exchange (https://my.fender.com/exchange/). The final step of preparing the installation file for your language pack extension will be done by Fender.
