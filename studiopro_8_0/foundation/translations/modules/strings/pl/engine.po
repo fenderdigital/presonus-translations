@@ -162,7 +162,7 @@ msgstr "Włącz ścieżkę"
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Fit Timeline to Contents"
-msgstr "Dopasuj linię czasu do zawartości"
+msgstr "Dopasuj oś czasu do zawartości"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -517,7 +517,7 @@ msgstr "Czy chcesz usunąć wszystkie nieużywane, tymczasowe pliki audio z fold
 #: audio/audioclip.cpp
 msgctxt "AudioClip"
 msgid "Root %(1)"
-msgstr "Podstawa %(1)"
+msgstr "Pryma %(1)"
 
 #: audio/audioclip.cpp
 msgctxt "AudioClip"
@@ -582,7 +582,7 @@ msgstr "Wygeneruj na nową ścieżkę (zachowaj format głośników)"
 #: application/audioedit/audioenvelopetasks.cpp
 msgctxt "AudioEdit"
 msgid "Bypass Gain Curve"
-msgstr ""
+msgstr "Pomiń krzywą wzmocnienia"
 
 #: application/audioedit/audiostemtask.cpp
 msgctxt "AudioEdit"
@@ -597,7 +597,7 @@ msgstr "Akordy"
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
 msgid "Could not detect notes or drums in %(1)"
-msgstr ""
+msgstr "Nie można wykryć nut ani perkusji w %(1)"
 
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
@@ -632,12 +632,12 @@ msgstr "Rozdziel partię audio"
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
 msgid "Drum sounds are not installed. Do you want to install them?"
-msgstr ""
+msgstr "Dźwięki perkusji nie są zainstalowane. Czy chcesz je zainstalować?"
 
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
 msgid "Extract Drums"
-msgstr ""
+msgstr "Wyodrębnij perkusję"
 
 #: application/audioedit/audiochordtasks.cpp
 msgctxt "AudioEdit"
@@ -647,7 +647,7 @@ msgstr "Wyodrębnij tonację z obiektu"
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
 msgid "Extract Notes"
-msgstr ""
+msgstr "Wyodrębnij nuty"
 
 #: application/audioedit/audiochordtasks.cpp
 msgctxt "AudioEdit"
@@ -662,12 +662,12 @@ msgstr "Wyodrębnij na ścieżkę tempa"
 #: application/audioedit/audiomusicconverter.cpp
 msgctxt "AudioEdit"
 msgid "Extracting Drums"
-msgstr ""
+msgstr "Wyodrębnianie perkusji"
 
 #: application/audioedit/audiomusicconverter.cpp
 msgctxt "AudioEdit"
 msgid "Extracting Notes"
-msgstr ""
+msgstr "Wyodrębnianie nut"
 
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
@@ -742,7 +742,7 @@ msgstr "Wygeneruj FX obiektu"
 #: application/audioedit/audioenvelopetasks.cpp
 msgctxt "AudioEdit"
 msgid "Reset Gain Curve"
-msgstr ""
+msgstr "Resetuj krzywą wzmocnienia"
 
 #: application/audioedit/audioeventfxtasks.cpp
 msgctxt "AudioEdit"
@@ -812,7 +812,7 @@ msgstr "Włącz / Wyłącz markery Audio Band"
 #: application/audioedit/audioenvelopetasks.cpp
 msgctxt "AudioEdit"
 msgid "Toggle Gain Curve"
-msgstr ""
+msgstr "Włącz / Wyłącz krzywą wzmocnienia"
 
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
@@ -827,7 +827,7 @@ msgstr "Przytnij początek do kursora"
 #: audioediting/audioedittask.cpp
 msgctxt "AudioEdit"
 msgid "Volume Curve"
-msgstr ""
+msgstr "Krzywa głośności"
 
 #: application/audioedit/audiobouncetask.cpp
 msgctxt "AudioEdit"
@@ -1249,37 +1249,37 @@ msgstr "Wybierz dźwięk akordu"
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Current key: %(1)"
-msgstr ""
+msgstr "Bieżąca tonacja: %(1)"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Insert Chord Preset"
-msgstr ""
+msgstr "Wstaw zestaw akordu"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Original key: %(1)"
-msgstr ""
+msgstr "Oryginalna tonacja: %(1)"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Replace Chord"
-msgstr ""
+msgstr "Zastąp akord"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Ripple Edit"
-msgstr ""
+msgstr "Edycja w trybie Ripple"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Store Chord Preset"
-msgstr ""
+msgstr "Zapisz zestaw akordu"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Transposed: %(1)"
-msgstr ""
+msgstr "Transpozycja: %(1)"
 
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
@@ -1309,7 +1309,7 @@ msgstr "Zwykłe"
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
 msgid "Roman Numerals"
-msgstr "Liczby rzymskie"
+msgstr "Cyfry rzymskie"
 
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
@@ -1794,7 +1794,7 @@ msgstr "Obiekt"
 #: editing/trackcontroller.cpp
 msgctxt "Command"
 msgid "Expand Automation"
-msgstr ""
+msgstr "Rozwiń automatykę"
 
 #: editing/trackcontroller.cpp
 msgctxt "Command"
@@ -1854,17 +1854,17 @@ msgstr "Do pierwszej ścieżki z zaznaczeniem"
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
 msgid "Fit Timeline to Contents"
-msgstr "Dopasuj linię czasu do zawartości"
+msgstr "Dopasuj oś czasu do zawartości"
 
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "Command"
 msgid "Freeze to Audio Track"
-msgstr ""
+msgstr "Zamroź na ścieżkę audio"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "Command"
 msgid "Freeze to Rendered Audio"
-msgstr ""
+msgstr "Zamroź na wygenerowane audio"
 
 #: editing/arrangereditlayer.cpp
 msgctxt "Command"
@@ -2089,12 +2089,12 @@ msgstr "Wstaw marker Audio Bend"
 #: editing/chordeditlayer.cpp
 msgctxt "Command"
 msgid "Insert Chord Preset"
-msgstr ""
+msgstr "Wstaw zestaw akordu"
 
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Insert Playlist into Session"
-msgstr ""
+msgstr "Wstaw playlistę do sesji"
 
 #: musicediting/musicsteprecorder.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
@@ -2659,7 +2659,7 @@ msgstr "Zaznacz na ścieżce"
 #: application/musicedit/musictrackcomponent.cpp
 msgctxt "Command"
 msgid "Session"
-msgstr ""
+msgstr "Sesja"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
@@ -2734,7 +2734,7 @@ msgstr "Pokaż ścieżki audio"
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
 msgid "Show Automation"
-msgstr ""
+msgstr "Pokaż automatykę"
 
 #: musicediting/musiccontrollane.cpp
 msgctxt "Command"
@@ -2749,7 +2749,7 @@ msgstr "Pokaż edytor kanału"
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
 msgid "Show Channel Tab"
-msgstr ""
+msgstr "Pokaż kartę kanału"
 
 #: editing/globaltrackscomponent.cpp
 msgctxt "Command"
@@ -2974,7 +2974,7 @@ msgstr "Zatrzymaj na końcu zaznaczenia"
 #: editing/chordeditlayer.cpp
 msgctxt "Command"
 msgid "Store Chord Preset"
-msgstr ""
+msgstr "Zapisz zestaw akordu"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -3059,12 +3059,12 @@ msgstr "Cofnij zmiany widoczności"
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "Command"
 msgid "Unfreeze to Instrument Track"
-msgstr ""
+msgstr "Odmroź na ścieżkę instrumentu"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "Command"
 msgid "Unfreeze to Realtime Audio"
-msgstr ""
+msgstr "Odmroź na audio w czasie rzeczywistym"
 
 #: editing/takelist.cpp
 msgctxt "Command"
@@ -3219,7 +3219,7 @@ msgstr "Usuń Czas w pętli"
 #: application/eventedit/doubletask.cpp
 msgctxt "Edit"
 msgid "Double"
-msgstr ""
+msgstr "Podwójna"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Edit"
@@ -3619,7 +3619,7 @@ msgstr "Przypisz kanał do folderu"
 #: base/envelopes/enveloperegion.cpp
 msgctxt "Engine"
 msgid "Automation"
-msgstr ""
+msgstr "Automatyka"
 
 #: audio/audioeventtheme.cpp
 msgctxt "Engine"
@@ -3639,7 +3639,7 @@ msgstr "Kanał"
 #: base/model/chordpreset.cpp
 msgctxt "Engine"
 msgid "Chord Preset"
-msgstr ""
+msgstr "Zestaw akordu"
 
 #: base/model/chordtrack.cpp
 msgctxt "Engine"
@@ -3844,7 +3844,7 @@ msgstr "Pokaż markery Audio Bend"
 #: audio/audioenvelopefunctions.cpp
 msgctxt "Engine:AudioEnvelopeActions"
 msgid "Bypass %(1) Curve"
-msgstr ""
+msgstr "Pomiń krzywą %(1)"
 
 #: audio/audiogainenvelope.cpp
 msgctxt "Engine:AudioEnvelopeActions"
@@ -3854,7 +3854,7 @@ msgstr "Wzmocnienie"
 #: audio/audioenvelopefunctions.cpp
 msgctxt "Engine:AudioEnvelopeActions"
 msgid "Show %(1) Curve"
-msgstr ""
+msgstr "Pokaż krzywę %(1)"
 
 #: automation/automationfunctions.cpp
 msgctxt "Engine:AutomationFunctions"
@@ -4409,7 +4409,7 @@ msgstr "Wstaw przy kursorze"
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
 msgid "Insert Playlist into Session"
-msgstr ""
+msgstr "Wstaw playlistę do sesji"
 
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
@@ -5183,7 +5183,7 @@ msgstr "Używane"
 #: music/musicrender.cpp
 msgctxt "MusicRenderer"
 msgid "Rendering Automation Curve: %(1)"
-msgstr ""
+msgstr "Generowanie krzywej automatyki: %(1)"
 
 #: music/musicrender.cpp
 msgctxt "MusicRenderer"
@@ -5578,7 +5578,7 @@ msgstr "Scratch Pad"
 #: editing/scratchpadcomponent.cpp
 msgctxt "ScratchPad"
 msgid "Session"
-msgstr ""
+msgstr "Sesja"
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
@@ -5708,7 +5708,7 @@ msgstr "Edytuj ścieżkę"
 #: editing/trackcontroller.cpp
 msgctxt "Track"
 msgid "Expand Automation"
-msgstr ""
+msgstr "Rozwiń automatykę"
 
 #: editing/foldertrackcomponent.cpp
 msgctxt "Track"
@@ -5723,7 +5723,7 @@ msgstr "Rozwiń warstwy"
 #: editing/trackcontroller.cpp
 msgctxt "Track"
 msgid "Frozen Track"
-msgstr ""
+msgstr "Zamrożona ścieżka"
 
 #: editing/trackcontroller.cpp
 msgctxt "Track"
@@ -5753,22 +5753,22 @@ msgstr "Konwertuj przełączniki nutowe na wariacje brzmienia"
 #: application/audioedit/tracktransform.cpp
 msgctxt "TrackEdit"
 msgid "Do you want to abort the transformation?"
-msgstr ""
+msgstr "Czy chcesz przerwać przekształcenie?"
 
 #: application/audioedit/tracktransform.cpp
 msgctxt "TrackEdit"
 msgid "Errors occurred during the rendering."
-msgstr ""
+msgstr "Wystąpiły błędy podczas generowania."
 
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Freeze to Audio Track"
-msgstr ""
+msgstr "Zamroź na ścieżkę audio"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Freeze to Rendered Audio"
-msgstr ""
+msgstr "Zamroź na wygenerowane audio"
 
 #: automationediting/automationtrackcomponent.cpp
 msgctxt "TrackEdit"
@@ -5793,12 +5793,12 @@ msgstr "Wygeneruj ścieżkę instrumentu"
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Unfreeze to Instrument Track"
-msgstr ""
+msgstr "Odmroź na ścieżkę instrumentu"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Unfreeze to Realtime Audio"
-msgstr ""
+msgstr "Odmroź na audio w czasie rzeczywistym"
 
 #: editing/tracklist.cpp
 msgctxt "TrackHeights"
@@ -5848,7 +5848,7 @@ msgstr "Ścieżka \"%(1)\""
 #: editing/tracklist.cpp
 msgctxt "TrackInfo"
 msgid "Automation Curves: %(1)"
-msgstr ""
+msgstr "Krzywe automatyki: %(1)"
 
 #: editing/tracklist.cpp
 msgctxt "TrackInfo"
@@ -5948,7 +5948,7 @@ msgstr "Uniwersalne"
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Video"
 msgid "Create Audio Playback Track"
-msgstr "Utwórz ścieżkę odtwarzania audio"
+msgstr "Wyodrębnij ścieżkę audio z wideo"
 
 #: video/videofunctions.cpp
 msgctxt "Video"
@@ -6013,7 +6013,7 @@ msgstr "Aktualizuj ścieżkę audio"
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Video"
 msgid "Use Video Frame Rate in Timeline"
-msgstr "Użyj częstotliwości klatek wideo na linii czasu"
+msgstr "Użyj częstotliwości klatek wideo na osi czasu"
 
 #: video/videotrack.cpp videoediting/videotrackcontroller.cpp
 msgctxt "Video"
