@@ -2288,6 +2288,26 @@ msgstr "自動"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
+msgid "Bypass All Inserts"
+msgstr "すべてのインサートをバイパス"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Inserts + Fader"
+msgstr "インサート+フェーダーをバイパス"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Post Inserts"
+msgstr "ポストインサートをバイパス"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Pre Inserts"
+msgstr "プリインサートをバイパス"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "保護されたコンテンツでミックスダウンを作成することはできません。"
 
@@ -2315,6 +2335,11 @@ msgstr "オーディオファイルのエクスポートに失敗しました。
 msgctxt "SongRenderer"
 msgid "Mono"
 msgstr "モノ"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "No bypass"
+msgstr "バイパスなし"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2553,8 +2578,29 @@ msgstr "トラックプリセット '%(1)' を適用"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
+msgid "Do you want to update track preset '%(1)'?"
+msgstr "トラックプリセット '%(1)' を更新しますか？"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Keep original"
+msgstr "オリジナルを保持"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
 msgid "Load Track Preset"
 msgstr "トラックプリセットをロード"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid ""
+"Selected tracks differ from those in the '%(1)' preset.\n"
+"\n"
+"Do you want to update which tracks are saved?"
+msgstr ""
+"選択されているトラックは '%(1)' プリセットのトラックと異なっています。\n"
+"\n"
+"保存するトラックを更新しますか？"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
@@ -2570,6 +2616,16 @@ msgstr "トラックプリセット"
 msgctxt "TrackPreset"
 msgid "Track Presets"
 msgstr "トラックプリセット"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update"
+msgstr "アップデート"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update Track Preset"
+msgstr "トラックプリセットを更新"
 
 #: shared/basicvideohandler.cpp
 msgctxt "Video"

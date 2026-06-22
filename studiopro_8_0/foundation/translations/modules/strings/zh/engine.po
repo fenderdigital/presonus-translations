@@ -22,57 +22,62 @@ msgstr "添加音轨"
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Event Order"
-msgstr "改变事件顺序"
+msgstr "切换事件顺序"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Event Time Format"
-msgstr "改变事件时间格式"
+msgstr "切换事件时间格式"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Follow Chord Track"
-msgstr "更改跟随和弦轨道"
+msgstr "切换跟随和弦轨道"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Follow Global Transposition"
-msgstr "更改全局移调跟随"
+msgstr "切换全局移调跟随"
+
+#: base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
+msgid "Change Follow Score"
+msgstr "切换跟随乐谱"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Layers Follow"
-msgstr "更改分层跟随"
+msgstr "切换分层跟随"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Play Mode"
-msgstr "改变播放模式"
+msgstr "切换播放模式"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Play Overlaps"
-msgstr "更改播放重叠"
+msgstr "切换播放重叠区域"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Timestretch/Pitchshift Method"
-msgstr "改变时间伸缩/移调方法"
+msgstr "切换时间伸缩/移调方法"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Track Time Format"
-msgstr "改变音轨时间格式"
+msgstr "切换轨道时间格式"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Colorize Event"
-msgstr "事件配色"
+msgstr "为事件着色"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Colorize Events"
-msgstr "事件配色"
+msgstr "为事件着色"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -117,37 +122,37 @@ msgstr "禁用音轨"
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Dissolve Group"
-msgstr "取消编组"
+msgstr "解散编组"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Duplicate Layer"
-msgstr "复制分层"
+msgstr "创建分层副本"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Duplicate Layers"
-msgstr "复制分层"
+msgstr "创建分层副本"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Duplicate Track"
-msgstr "复制音轨"
+msgstr "创建音轨副本"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Duplicate Track (complete)"
-msgstr "复制音轨（完整）"
+msgstr "创建音轨副本（完整）"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Duplicate Tracks"
-msgstr "复制音轨"
+msgstr "创建音轨副本"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Duplicate Tracks (complete)"
-msgstr "复制音轨（完整）"
+msgstr "创建音轨副本（完整）"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -162,12 +167,12 @@ msgstr "启用音轨"
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Fit Timeline to Contents"
-msgstr "时间线匹配到乐曲内容"
+msgstr "时间线匹配到工程内容"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Group Tracks"
-msgstr "组合音轨"
+msgstr "编组音轨"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -352,12 +357,12 @@ msgstr "设置图标"
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Set Marker Stop"
-msgstr "设置标记停止符"
+msgstr "设置标记停止"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Set Marker Type"
-msgstr "设置标记类别"
+msgstr "设置标记类型"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -402,12 +407,12 @@ msgstr "事件移调"
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Unlock Event"
-msgstr "解除事件锁定"
+msgstr "解锁事件"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Unlock Events"
-msgstr "解除事件锁定"
+msgstr "解锁事件"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -442,7 +447,7 @@ msgstr "将分层解包至音轨"
 #: editing/arrangerplaybackhandler.cpp
 msgctxt "ArrangerPlayback"
 msgid "1 Bar"
-msgstr "1小节"
+msgstr "1 小节"
 
 #: editing/arrangerplaybackhandler.cpp
 msgctxt "ArrangerPlayback"
@@ -512,12 +517,12 @@ msgstr "无法并轨受保护的内容。"
 #: audio/audiocache.cpp
 msgctxt "AudioCache"
 msgid "Do you want to delete all unused temporary audio files in cache folder?"
-msgstr "是否删除缓存文件夹内所有未使用的临时音频文件？"
+msgstr "是否要删除缓存文件夹内所有未使用的临时音频文件？"
 
 #: audio/audioclip.cpp
 msgctxt "AudioClip"
 msgid "Root %(1)"
-msgstr "根音%(1)"
+msgstr "根音 %(1)"
 
 #: audio/audioclip.cpp
 msgctxt "AudioClip"
@@ -532,7 +537,7 @@ msgstr "版本"
 #: audio/audiocliphandler.cpp
 msgctxt "AudioClipImporter"
 msgid "Importing..."
-msgstr "导入中..."
+msgstr "正在导入..."
 
 #: application/audioedit/audiobouncetask.cpp
 msgctxt "AudioEdit"
@@ -577,12 +582,17 @@ msgstr "并轨至新音轨"
 #: application/audioedit/audiobouncetask.cpp
 msgctxt "AudioEdit"
 msgid "Bounce To New Track (Keep Speaker Format)"
-msgstr "并轨至新音轨（保持通道扬声器格式）"
+msgstr "并轨至新音轨（保持扬声器格式）"
 
 #: application/audioedit/audioenvelopetasks.cpp
 msgctxt "AudioEdit"
 msgid "Bypass Gain Curve"
 msgstr "旁通增益曲线"
+
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Bypass Pitch Curve"
+msgstr "旁通音高曲线"
 
 #: application/audioedit/audiostemtask.cpp
 msgctxt "AudioEdit"
@@ -597,7 +607,7 @@ msgstr "和弦"
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
 msgid "Could not detect notes or drums in %(1)"
-msgstr "在%(1)中未检测到音符或鼓组"
+msgstr "未在 %(1) 中检测到音符或鼓组"
 
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
@@ -627,17 +637,27 @@ msgstr "检测瞬变"
 #: application/audioedit/audioparttasks.cpp
 msgctxt "AudioEdit"
 msgid "Dissolve Audio Part"
-msgstr "分解音频片段"
+msgstr "解散音频片段"
 
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
 msgid "Drum sounds are not installed. Do you want to install them?"
-msgstr "鼓组音色未安装,是否立即安装"
+msgstr "鼓组音色尚未安装，是否要安装？"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-In"
+msgstr "编辑淡入"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-Out"
+msgstr "编辑淡出"
 
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
 msgid "Extract Drums"
-msgstr "提取鼓声"
+msgstr "提取鼓组"
 
 #: application/audioedit/audiochordtasks.cpp
 msgctxt "AudioEdit"
@@ -744,15 +764,20 @@ msgctxt "AudioEdit"
 msgid "Reset Gain Curve"
 msgstr "重置增益曲线"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Reset Pitch Curve"
+msgstr "重置音高曲线"
+
 #: application/audioedit/audioeventfxtasks.cpp
 msgctxt "AudioEdit"
 msgid "Restore Event FX"
-msgstr "还原事件效果器"
+msgstr "恢复事件效果器"
 
 #: application/audioedit/audiobendtasks.cpp
 msgctxt "AudioEdit"
 msgid "Restore Timing"
-msgstr "还原时间修整"
+msgstr "恢复时间量化"
 
 #: application/audioedit/audioreversetask.cpp
 msgctxt "AudioEdit"
@@ -777,12 +802,12 @@ msgstr "正在拆分（%(1)）..."
 #: application/audioedit/audiobeattasks.cpp
 msgctxt "AudioEdit"
 msgid "Set Sync Point to Next Beat"
-msgstr "将同步点设置为下一拍"
+msgstr "将同步点设置在下一拍"
 
 #: application/audioedit/audiobeattasks.cpp
 msgctxt "AudioEdit"
 msgid "Set Sync Point to Previous Beat"
-msgstr "将同步点设置为上一拍"
+msgstr "将同步点设置在上一拍"
 
 #: application/audioedit/audiobendtasks.cpp
 msgctxt "AudioEdit"
@@ -792,7 +817,7 @@ msgstr "在弯音标记处拆分"
 #: application/audioedit/audiostemtask.cpp
 msgctxt "AudioEdit"
 msgid "Stem Separation is not installed. Do you want to install it?"
-msgstr "音轨分离尚未安装。您想要安装吗？"
+msgstr "音轨分离尚未安装。是否要安装？"
 
 #: application/audioedit/audiostemtask.cpp
 msgctxt "AudioEdit"
@@ -814,6 +839,11 @@ msgctxt "AudioEdit"
 msgid "Toggle Gain Curve"
 msgstr "切换增益曲线"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Toggle Pitch Curve"
+msgstr "切换音高曲线"
+
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
 msgid "Trim End to Cursor"
@@ -832,7 +862,7 @@ msgstr "音量曲线"
 #: application/audioedit/audiobouncetask.cpp
 msgctxt "AudioEdit"
 msgid "Wave File with rendered Insert FX"
-msgstr "包含渲染插入效果器的Wave文件"
+msgstr "包含渲染插入效果器的 Wave 文件"
 
 #: audioediting/audioedithandler.cpp
 msgctxt "AudioEditHandler"
@@ -892,7 +922,7 @@ msgstr "对数"
 #: audioediting/audioedithandler.cpp
 msgctxt "AudioEditHandler"
 msgid "Only clicked event"
-msgstr "仅削波的事件"
+msgstr "仅被点击的事件"
 
 #: audioediting/audioedithandler.cpp
 msgctxt "AudioEditHandler"
@@ -922,12 +952,12 @@ msgstr "添加事件效果器"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Add FX + Automation on %(1):"
-msgstr "在 %(1) 上添加效果器+自动化："
+msgstr "在 %(1) 上添加效果器和自动化："
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Add FX on %(1):"
-msgstr "将下列效果器添加到%(1)："
+msgstr "将下列效果器添加到 %(1)："
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -937,7 +967,7 @@ msgstr "在通道中添加效果器"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Add Send + Automation:"
-msgstr "添加发送+自动化："
+msgstr "添加发送和自动化："
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -962,12 +992,12 @@ msgstr "移动"
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Move FX + Automation"
-msgstr "移动效果器+自动化"
+msgstr "移动效果器和自动化"
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Move FX + Automation to %(1):"
-msgstr "将效果器+自动化移至 %(1)："
+msgstr "将效果器和自动化移至 %(1)："
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -977,7 +1007,7 @@ msgstr "将效果器移至 %(1)："
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "Move Send + Automation:"
-msgstr "移动发送+自动化："
+msgstr "移动发送和自动化："
 
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
@@ -992,7 +1022,7 @@ msgstr "更新 %(1) 上的效果器预设："
 #: audioediting/audiofxdraghandler.cpp
 msgctxt "AudioFX"
 msgid "new Audio Track"
-msgstr "新建音轨"
+msgstr "新建音频轨道"
 
 #: audioediting/audioinspector.cpp
 msgctxt "AudioPlayMode"
@@ -1027,17 +1057,17 @@ msgstr "确认扬声器格式"
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
 msgid "\"%(1)\" is already automated"
-msgstr "“%(1)”已经自动化控制"
+msgstr "“%(1)”已经被自动化控制"
 
 #: musicediting/musiccontrollane.cpp
 msgctxt "Automation"
 msgid "Add"
-msgstr "加"
+msgstr "添加"
 
 #: automationediting/automationtrackcomponent.cpp musicediting/musiccontrollane.cpp
 msgctxt "Automation"
 msgid "Add / Remove"
-msgstr "添加/移除"
+msgstr "添加 / 移除"
 
 #: automationediting/automationtrackcomponent.cpp
 msgctxt "Automation"
@@ -1054,12 +1084,14 @@ msgctxt "Automation"
 msgid ""
 "Create \"%(1)\" Automation\n"
 "on %(2)"
-msgstr "在%(2)上创建“%(1)”自动化"
+msgstr ""
+"在 %(2) 上\n"
+"创建“%(1)”自动化"
 
 #: musicediting/partautomationdraghandler.cpp
 msgctxt "Automation"
 msgid "Create \"%(1)\" Part Automation"
-msgstr "创建“%(1)”片段的自动化"
+msgstr "创建“%(1)”的片段自动化"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
@@ -1079,12 +1111,12 @@ msgstr "显示：关"
 #: musicediting/musicenvelopedialog.cpp
 msgctxt "Automation"
 msgid "Do you want to remove these parameters from all parts?"
-msgstr "是否从所有片段中移除这些参数？"
+msgstr "是否要从所有片段中移除这些参数？"
 
 #: musicediting/musicenvelopedialog.cpp
 msgctxt "Automation"
 msgid "Do you want to remove this parameter from all parts?"
-msgstr "是否从所有片段中移除此参数？"
+msgstr "是否要从所有片段中移除这个参数？"
 
 #: automationediting/automationtracklistcomponent.cpp
 msgctxt "Automation"
@@ -1109,7 +1141,7 @@ msgstr "歌词"
 #: automationediting/automationtrackcomponent.cpp
 msgctxt "Automation"
 msgid "Merge VCA Automation"
-msgstr "合并VCA自动化"
+msgstr "合并 VCA 自动化"
 
 #: automationediting/automationdialog.cpp
 msgctxt "Automation"
@@ -1128,7 +1160,7 @@ msgid ""
 "from %(3) to %(2)"
 msgstr ""
 "将“%(1)”自动化\n"
-"从%(3)移至%(2)"
+"从 %(3) 移至 %(2)"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
@@ -1137,12 +1169,12 @@ msgid ""
 "to %(2)"
 msgstr ""
 "将“%(1)”自动化\n"
-"移至%(2)"
+"移至 %(2)"
 
 #: automationediting/automationeditextension.cpp
 msgctxt "Automation"
 msgid "Move Automation to \"%(1)\""
-msgstr "移动自动化至“%(1)”"
+msgstr "将自动化移至“%(1)”"
 
 #: musicediting/musiccontrollane.cpp
 msgctxt "Automation"
@@ -1177,7 +1209,7 @@ msgstr "显示“%(1)”"
 #: automationediting/automationtrackcomponent.cpp
 msgctxt "Automation"
 msgid "Show / Hide Automation"
-msgstr "显示/隐藏自动化"
+msgstr "显示 / 隐藏自动化"
 
 #: automationediting/paramdraghandler.cpp
 msgctxt "Automation"
@@ -1187,7 +1219,7 @@ msgstr "在此音轨显示“%(1)”自动化"
 #: musicediting/partautomationdraghandler.cpp
 msgctxt "Automation"
 msgid "Show the \"%(1)\" Part Automation"
-msgstr "显示“%(1)”片段的自动化"
+msgstr "显示“%(1)”的片段自动化"
 
 #: musicediting/musiccontrollane.cpp
 msgctxt "Automation"
@@ -1197,7 +1229,7 @@ msgstr "声音变化"
 #: automationediting/automationdialog.cpp
 msgctxt "Automation"
 msgid "Toggle"
-msgstr "切换器"
+msgstr "切换"
 
 #: automationediting/automationdialog.cpp
 msgctxt "Automation"
@@ -1227,12 +1259,12 @@ msgstr "转换为音频循环"
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
 msgid "Convert to Wave File"
-msgstr "转换为wave文件"
+msgstr "转换为 Wave 文件"
 
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
 msgid "Merge to Multichannel File"
-msgstr "合并到多通道文件"
+msgstr "合并至多通道文件"
 
 #: application/musicloop/loopextension.cpp
 msgctxt "Browser"
@@ -1247,7 +1279,7 @@ msgstr "选择和弦音"
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Current key: %(1)"
-msgstr "当前调式: %(1)"
+msgstr "当前调式：%(1)"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
@@ -1257,7 +1289,7 @@ msgstr "插入和弦预设"
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Original key: %(1)"
-msgstr "原调式: %(1)"
+msgstr "原调式：%(1)"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
@@ -1267,17 +1299,22 @@ msgstr "替换和弦"
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Ripple Edit"
-msgstr "Ripple编辑"
+msgstr "波纹编辑"
+
+#: editing/chordeditlayer.cpp
+msgctxt "ChordTrack"
+msgid "Semitones"
+msgstr "半音"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Store Chord Preset"
-msgstr "保存和弦预设"
+msgstr "存储和弦预设"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Transposed: %(1)"
-msgstr "已移调: %(1)"
+msgstr "已移调：%(1)"
 
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
@@ -1292,7 +1329,7 @@ msgstr "极简"
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
 msgid "No tracks are set to follow"
-msgstr "没有轨道设置为跟随"
+msgstr "没有轨道被设置为跟随"
 
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
@@ -1387,7 +1424,7 @@ msgstr "为播放列表添加停止标记"
 #: audioediting/foldertrackaudiobus.cpp
 msgctxt "Command"
 msgid "Add VCA for Folder Track"
-msgstr "为文件夹轨道添加VCA"
+msgstr "为文件夹轨道添加 VCA"
 
 #: editing/lyricstrackcomponent.cpp
 msgctxt "Command"
@@ -1402,117 +1439,117 @@ msgstr "全部"
 #: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Apply Active Variation"
-msgstr "主动变奏应用"
+msgstr "应用启用的声音变化"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Next"
-msgstr "下一个应用"
+msgstr "应用下一个"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Previous"
-msgstr "上一个应用"
+msgstr "应用上一个"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 1"
-msgstr "应用变量 1"
+msgstr "应用声音变化 1"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 10"
-msgstr "应用变量 10"
+msgstr "应用声音变化 10"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 11"
-msgstr "应用变量 11"
+msgstr "应用声音变化 11"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 12"
-msgstr "应用变量 12"
+msgstr "应用声音变化 12"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 13"
-msgstr "应用变量 13"
+msgstr "应用声音变化 13"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 14"
-msgstr "应用变量 14"
+msgstr "应用声音变化 14"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 15"
-msgstr "应用变量 15"
+msgstr "应用声音变化 15"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 16"
-msgstr "应用变量 12"
+msgstr "应用声音变化 16"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 17"
-msgstr "应用变量 17"
+msgstr "应用声音变化 17"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 18"
-msgstr "应用变量 18"
+msgstr "应用声音变化 18"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 19"
-msgstr "应用变量 19"
+msgstr "应用声音变化 19"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 2"
-msgstr "应用变量 2"
+msgstr "应用声音变化 2"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 20"
-msgstr "应用变量 20"
+msgstr "应用声音变化 20"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 3"
-msgstr "应用变量 3"
+msgstr "应用声音变化 3"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 4"
-msgstr "应用变量 4"
+msgstr "应用声音变化 4"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 5"
-msgstr "应用变量 5"
+msgstr "应用声音变化 5"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 6"
-msgstr "应用变量 6"
+msgstr "应用声音变化 6"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 7"
-msgstr "应用变量 7"
+msgstr "应用声音变化 7"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 8"
-msgstr "应用变量 8"
+msgstr "应用声音变化 8"
 
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Apply Variation 9"
-msgstr "应用变量 9"
+msgstr "应用声音变化 9"
 
 #: audioediting/audioinspector.cpp
 msgctxt "Command"
@@ -1597,7 +1634,7 @@ msgstr "控制台"
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Continue Playlist Playback"
-msgstr "继续播放列表回放"
+msgstr "继续回放播放列表"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "Command"
@@ -1637,7 +1674,7 @@ msgstr "复制至新的草稿簿"
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Command"
 msgid "Create Audio Track"
-msgstr "创建音轨"
+msgstr "创建音频轨道"
 
 #: editing/arrangereditlayer.cpp
 msgctxt "Command"
@@ -1687,7 +1724,7 @@ msgstr "删除变奏"
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
 msgid "Deselect All on Tracks"
-msgstr "取消选择音轨上的所有"
+msgstr "轨道上全部取消选择"
 
 #: editing/trackcontroller.cpp
 msgctxt "Command"
@@ -1697,7 +1734,7 @@ msgstr "禁用"
 #: editing/editgroupscomponent.cpp
 msgctxt "Command"
 msgid "Dissolve Group"
-msgstr "取消编组"
+msgstr "解散编组"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
@@ -1727,7 +1764,7 @@ msgstr "创建副本"
 #: editing/tracklayercomponent.cpp
 msgctxt "Command"
 msgid "Duplicate Layer"
-msgstr "复制分层"
+msgstr "创建分层副本"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
@@ -1737,17 +1774,17 @@ msgstr "创建样式副本"
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Duplicate Playlist"
-msgstr "复制项目"
+msgstr "创建播放列表副本"
 
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Duplicate Playlist Item"
-msgstr "复制播放列表"
+msgstr "创建播放列表项副本"
 
 #: editing/scratchpadcomponent.cpp
 msgctxt "Command"
 msgid "Duplicate Scratch Pad"
-msgstr "复制草稿簿"
+msgstr "创建草稿簿副本"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
@@ -1792,12 +1829,12 @@ msgstr "事件"
 #: editing/trackcontroller.cpp
 msgctxt "Command"
 msgid "Expand Automation"
-msgstr "展开自动化控制"
+msgstr "展开自动化"
 
 #: editing/trackcontroller.cpp
 msgctxt "Command"
 msgid "Expand Folder Track"
-msgstr "扩展文件夹轨道"
+msgstr "展开文件夹轨道"
 
 #: editing/trackcontroller.cpp
 msgctxt "Command"
@@ -1827,7 +1864,7 @@ msgstr "查找音轨"
 #: musicediting/musictracksoundvariation.cpp
 msgctxt "Command"
 msgid "Find and Apply Variation"
-msgstr "查找并应用变化"
+msgstr "查找并应用声音变化"
 
 #: editing/eventeditmodel.cpp
 msgctxt "Command"
@@ -1847,7 +1884,7 @@ msgstr "首音轨"
 #: editing/eventeditmodel.cpp
 msgctxt "Command"
 msgid "First Track Extend"
-msgstr "第一个轨道扩选"
+msgstr "扩展到第一个轨道"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -1962,7 +1999,7 @@ msgstr "转到章节 9"
 #: editing/editgroupscomponent.cpp
 msgctxt "Command"
 msgid "Group Selected Tracks"
-msgstr "组合选定音轨"
+msgstr "编组选定音轨"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
@@ -1987,7 +2024,7 @@ msgstr "隐藏"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Hide Audio Tracks"
-msgstr "隐藏音轨"
+msgstr "隐藏音频轨道"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -1997,7 +2034,7 @@ msgstr "隐藏不活跃推子的通道"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Hide Disabled Channels"
-msgstr "隐藏不可用通道"
+msgstr "隐藏已禁用的通道"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -2012,7 +2049,7 @@ msgstr "隐藏空白轨道"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Hide Enabled Channels"
-msgstr "隐藏未启动通道"
+msgstr "隐藏已启用的通道"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -2027,12 +2064,12 @@ msgstr "隐藏乐器轨道"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Hide Muted Channels"
-msgstr "隐藏静音通道"
+msgstr "隐藏静音的通道"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Hide Muted Tracks"
-msgstr "隐藏静音轨道"
+msgstr "隐藏静音的轨道"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -2077,7 +2114,7 @@ msgstr "音阶内"
 #: musicediting/musicrecordcomponent.cpp
 msgctxt "Command"
 msgid "Input Quantize"
-msgstr "量化输入"
+msgstr "输入量化"
 
 #: audioediting/audiobendeditlayer.cpp
 msgctxt "Command"
@@ -2092,7 +2129,7 @@ msgstr "插入和弦预设"
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Insert Playlist into Session"
-msgstr "插入播放列表到工程"
+msgstr "将播放列表插入到工程"
 
 #: musicediting/musicsteprecorder.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
@@ -2102,7 +2139,7 @@ msgstr "插入休止符"
 #: editing/monitorfollower.cpp
 msgctxt "Command"
 msgid "Instrument Input follows Selection"
-msgstr "乐器录制跟随选择"
+msgstr "乐器输入跟随选择"
 
 #: editing/eventeditmodel.cpp
 msgctxt "Command"
@@ -2122,7 +2159,7 @@ msgstr "最后一个音轨"
 #: editing/eventeditmodel.cpp
 msgctxt "Command"
 msgid "Last Track Extend"
-msgstr "扩选到最后一个轨道"
+msgstr "扩展到最后一个轨道"
 
 #: automationediting/automationtracklistcomponent.cpp
 msgctxt "Command"
@@ -2147,17 +2184,17 @@ msgstr "分层跟随事件"
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Command"
 msgid "Link/Unlink Audio Track Editing"
-msgstr "链接/断开链接 音轨编辑"
+msgstr "链接/断开链接 音频轨道编辑"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "Command"
 msgid "Locate File"
-msgstr "查找文件"
+msgstr "定位文件"
 
 #: pool/mediapoolcomponent.cpp
 msgctxt "Command"
 msgid "Locate Missing Files"
-msgstr "查找缺失的文件"
+msgstr "定位缺失的文件"
 
 #: musicediting/musicrecordcomponent.cpp
 msgctxt "Command"
@@ -2252,7 +2289,7 @@ msgstr "下一个轨道"
 #: editing/eventeditmodel.cpp
 msgctxt "Command"
 msgid "Next Track Extend"
-msgstr "扩选下一个轨道"
+msgstr "扩展到下一个轨道"
 
 #: musicediting/patternbankcomponent.cpp
 msgctxt "Command"
@@ -2377,7 +2414,7 @@ msgstr "上一个轨道"
 #: editing/eventeditmodel.cpp
 msgctxt "Command"
 msgid "Previous Track Extend"
-msgstr "上一个轨道拓展"
+msgstr "扩展到上一个轨道"
 
 #: musicediting/patternbankcomponent.cpp
 msgctxt "Command"
@@ -2547,7 +2584,7 @@ msgstr "移除编曲章节"
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Command"
 msgid "Remove Audio Track"
-msgstr "移除音轨"
+msgstr "移除音频轨道"
 
 #: musicediting/musiccontrollane.cpp musicediting/patterncontrollane.cpp
 msgctxt "Command"
@@ -2637,7 +2674,7 @@ msgstr "选择章节中的事件"
 #: musicediting/musiceditor.cpp
 msgctxt "Command"
 msgid "Select Part Automation with Notes"
-msgstr "选择与音符对应的自动化"
+msgstr "选择与音符对应的片段自动化"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -2672,22 +2709,22 @@ msgstr "设置每个第四步"
 #: editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Set Sync Mode 1 Bar"
-msgstr "设置同步模式：1小节"
+msgstr "设置同步模式 1 小节"
 
 #: editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Set Sync Mode 2 Bars"
-msgstr "设置同步模式：2小节"
+msgstr "设置同步模式 2 小节"
 
 #: editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Set Sync Mode 4 Bars"
-msgstr "设置同步模式：4小节"
+msgstr "设置同步模式 4 小节"
 
 #: editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Set Sync Mode End"
-msgstr "设置同步模式为结尾"
+msgstr "设置同步模式 结尾"
 
 #: editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
@@ -2702,12 +2739,12 @@ msgstr "移动通道"
 #: musicediting/patterneditcomponent.cpp
 msgctxt "Command"
 msgid "Shift Lane Back"
-msgstr "切回样式通道"
+msgstr "左移样式通道"
 
 #: automationediting/automationtrackcomponent.cpp automationediting/automationtracklistcomponent.cpp
 msgctxt "Command"
 msgid "Show / Hide"
-msgstr "显示/隐藏"
+msgstr "显示 / 隐藏"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -2727,7 +2764,7 @@ msgstr "在编辑器中显示编曲轨道"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Show Audio Tracks"
-msgstr "显示音轨"
+msgstr "显示音频轨道"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -2762,7 +2799,7 @@ msgstr "显示设备"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Show Disabled Channels"
-msgstr "显示不可用通道"
+msgstr "显示已禁用的通道"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -2777,7 +2814,7 @@ msgstr "显示空白轨道"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Show Enabled Channels"
-msgstr "显示可用通道"
+msgstr "显示已启用的通道"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -2812,7 +2849,7 @@ msgstr "在编辑器中显示标记轨道"
 #: pool/mediapoolcomponent.cpp
 msgctxt "Command"
 msgid "Show Media Folder in Explorer/Finder"
-msgstr "在资源管理器/访达中显示Media文件夹"
+msgstr "在资源管理器/访达中显示 Media 文件夹"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -2822,7 +2859,7 @@ msgstr "显示静音的通道"
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
 msgid "Show Muted Tracks"
-msgstr "显示静音轨"
+msgstr "显示静音轨道"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Command"
@@ -2847,7 +2884,7 @@ msgstr "显示选定的轨道"
 #: editing/globaltrackscomponent.cpp
 msgctxt "Command"
 msgid "Show Signature Track in Editor"
-msgstr "在编辑器中显示速度轨道"
+msgstr "在编辑器中显示拍号/调号轨道"
 
 #: editing/trackvisibilityhandler.cpp
 msgctxt "Command"
@@ -2887,7 +2924,7 @@ msgstr "在资源管理器/Finder中显示"
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Command"
 msgid "Show/Hide Audio Track"
-msgstr "显示/隐藏音轨"
+msgstr "显示/隐藏音频轨道"
 
 #: editing/eventsnapper.cpp
 msgctxt "Command"
@@ -2937,7 +2974,7 @@ msgstr "拆分范围"
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "Command"
 msgid "Start Playlist Playback"
-msgstr "开始播放列表回放"
+msgstr "开始回放播放列表"
 
 #: musicediting/musicsteprecorder.cpp musicediting/patterneditcomponent.cpp
 msgctxt "Command"
@@ -2947,7 +2984,7 @@ msgstr "步进录音"
 #: editing/launcher/launchercomponent.cpp
 msgctxt "Command"
 msgid "Stop All"
-msgstr "停止全部"
+msgstr "全部停止"
 
 #: editing/mediatrackcontroller.cpp
 msgctxt "Command"
@@ -2962,12 +2999,12 @@ msgstr "停止单元"
 #: editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Stop at End of Bar"
-msgstr "在小节的结尾停止"
+msgstr "在小节的结尾处停止"
 
 #: editing/arrangerplaybackhandler.cpp
 msgctxt "Command"
 msgid "Stop at End of Section"
-msgstr "在章节的结尾停止"
+msgstr "在章节的结尾处停止"
 
 #: editing/chordeditlayer.cpp
 msgctxt "Command"
@@ -3057,12 +3094,12 @@ msgstr "撤销可见性更改"
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "Command"
 msgid "Unfreeze to Instrument Track"
-msgstr "解冻至乐器轨"
+msgstr "解冻为乐器轨道"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "Command"
 msgid "Unfreeze to Realtime Audio"
-msgstr "解冻至实时音频"
+msgstr "解冻为实时音频"
 
 #: editing/takelist.cpp
 msgctxt "Command"
@@ -3082,7 +3119,7 @@ msgstr "将选定的分层解包至音轨"
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Command"
 msgid "Update Audio Track"
-msgstr "更新音频轨"
+msgstr "更新音频轨道"
 
 #: musicediting/musicpitchscalemanager.cpp
 msgctxt "Command"
@@ -3189,6 +3226,11 @@ msgctxt "Edit"
 msgid "Create Markers from Arranger Sections"
 msgstr "从编曲章节创建标记"
 
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Create Tracks For Unused Instruments"
+msgstr "为未使用的乐器创建轨道"
+
 #: application/eventedit/croptask.cpp
 msgctxt "Edit"
 msgid "Crop to Content"
@@ -3217,17 +3259,27 @@ msgstr "删除循环中的时间"
 #: application/eventedit/doubletask.cpp
 msgctxt "Edit"
 msgid "Double"
-msgstr "叠加"
+msgstr "加倍"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Edit"
 msgid "Duplicate Track"
-msgstr "复制音轨"
+msgstr "创建音轨副本"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Edit"
 msgid "Duplicate Tracks"
-msgstr "复制音轨"
+msgstr "创建音轨副本"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event End"
+msgstr "编辑事件结尾"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event Start"
+msgstr "编辑事件起点"
 
 #: editing/markereditlayer.cpp
 msgctxt "Edit"
@@ -3252,7 +3304,7 @@ msgstr "跳转到章节"
 #: editing/eventdraghandler.cpp
 msgctxt "Edit"
 msgid "Import Meta Data"
-msgstr "导入Meta数据"
+msgstr "导入元数据"
 
 #: application/eventedit/eventlooptasks.cpp
 msgctxt "Edit"
@@ -3292,7 +3344,7 @@ msgstr "插入轨道"
 #: editing/eventdraghandler.cpp
 msgctxt "Edit"
 msgid "Insert on Same Track"
-msgstr "在同一条轨道上插入"
+msgstr "在同一轨道插入"
 
 #: editing/eventdraghandler.cpp
 msgctxt "Edit"
@@ -3312,7 +3364,7 @@ msgstr "循环直至下一个事件"
 #: base/model/chordfunctions.cpp
 msgctxt "Edit"
 msgid "Modify Chord"
-msgstr "更改和弦"
+msgstr "修改和弦"
 
 #: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
@@ -3337,7 +3389,7 @@ msgstr "将同步点移动到上一个小节"
 #: application/eventedit/movetoorigintask.cpp
 msgctxt "Edit"
 msgid "Move To Origin"
-msgstr "移动到初始位置"
+msgstr "移至初始位置"
 
 #: base/model/arrangerfunctions.cpp
 msgctxt "Edit"
@@ -3379,6 +3431,11 @@ msgctxt "Edit"
 msgid "Replace Partially"
 msgstr "部分替换"
 
+#: editing/eventdraghandler.cpp
+msgctxt "Edit"
+msgid "Replace all Events with same Clip"
+msgstr "用同一剪辑替换所有事件"
+
 #: editing/arrangereditlayer.cpp
 msgctxt "Edit"
 msgid "Section Number"
@@ -3417,17 +3474,22 @@ msgstr "设置循环次数"
 #: application/eventedit/syncpointtasks.cpp
 msgctxt "Edit"
 msgid "Set Sync Point to Cursor"
-msgstr "在光标处设置同步点"
+msgstr "将同步点设置在光标处"
 
 #: application/eventedit/syncpointtasks.cpp
 msgctxt "Edit"
 msgid "Set Sync Point to Mouse Cursor"
-msgstr "在光标处设置同步点"
+msgstr "将同步点设置在鼠标光标处"
 
 #: base/model/chordfunctions.cpp
 msgctxt "Edit"
 msgid "Show Chords"
 msgstr "显示和弦"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Slip Event"
+msgstr "滑移事件"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Edit"
@@ -3512,7 +3574,7 @@ msgstr "将录音解包至新的分层"
 #: musicediting/musiceditor.cpp
 msgctxt "EditAddIn"
 msgid "Apply Variation"
-msgstr "变奏应用"
+msgstr "应用声音变化"
 
 #: application/audioedit/audiobendaddin.cpp
 msgctxt "EditAddIn"
@@ -3527,7 +3589,7 @@ msgstr "和弦选择器"
 #: musicediting/musiceditor.cpp
 msgctxt "EditAddIn"
 msgid "Insert Variation"
-msgstr "插入变奏"
+msgstr "插入声音变化"
 
 #: editing/quantizepanel.h
 msgctxt "EditAddIn"
@@ -3557,7 +3619,7 @@ msgstr "剥离无声片段"
 #: musicediting/musiceditor.cpp
 msgctxt "EditAddIn"
 msgid "Variations"
-msgstr "变奏"
+msgstr "声音变化"
 
 #: base/model/editfunctions.cpp
 msgctxt "EditFunctions"
@@ -3572,7 +3634,7 @@ msgstr "编组分配"
 #: editing/editgroupscomponent.cpp
 msgctxt "EditGroups"
 msgid "Group Selected Tracks"
-msgstr "组合选定音轨"
+msgstr "编组选定音轨"
 
 #: audioediting/foldertrackaudiobus.cpp
 msgctxt "Engine"
@@ -3592,12 +3654,12 @@ msgstr "添加事件效果器：%(1)"
 #: audioediting/foldertrackaudiobus.cpp
 msgctxt "Engine"
 msgid "Add VCA Channel"
-msgstr "添加VCA通道"
+msgstr "添加 VCA 通道"
 
 #: audio/audioeventtheme.cpp
 msgctxt "Engine"
 msgid "Analyzing..."
-msgstr "分析中..."
+msgstr "正在分析..."
 
 #: application/audioedit/audiobendaddin.cpp
 msgctxt "Engine"
@@ -3627,7 +3689,7 @@ msgstr "正在生成预览..."
 #: video/videoeventtheme.cpp
 msgctxt "Engine"
 msgid "Building Thumbnails..."
-msgstr "创建缩略图..."
+msgstr "正在创建缩略图..."
 
 #: editing/tracklistinspector.cpp
 msgctxt "Engine"
@@ -3657,7 +3719,7 @@ msgstr "下载完毕"
 #: web/webeventpainter.cpp
 msgctxt "Engine"
 msgid "Downloading..."
-msgstr "下载中..."
+msgstr "正在下载..."
 
 #: audioediting/audioeditextension.cpp
 msgctxt "Engine"
@@ -3712,7 +3774,7 @@ msgstr "歌词轨道"
 #: base/model/markertrack.cpp
 msgctxt "Engine"
 msgid "Marker Track"
-msgstr "标记轨"
+msgstr "标记轨道"
 
 #: audioediting/audioeditextension.cpp
 msgctxt "Engine"
@@ -3747,7 +3809,7 @@ msgstr "正在渲染文件"
 #: audio/eventeffects/audiofxfunctions.cpp
 msgctxt "Engine"
 msgid "Restore Event FX"
-msgstr "还原事件效果器"
+msgstr "恢复事件效果器"
 
 #: audio/eventeffects/audiofxfunctions.cpp
 msgctxt "Engine"
@@ -3767,7 +3829,7 @@ msgstr "切片"
 #: music/musictrackinfo.cpp
 msgctxt "Engine"
 msgid "The track \"%(1)\" is not connected to an instrument."
-msgstr "轨道“%(1)” 未与乐器连接。"
+msgstr "轨道“%(1)”未与乐器连接。"
 
 #: music/musictrackinfo.cpp
 msgctxt "Engine"
@@ -3782,27 +3844,27 @@ msgstr "音轨"
 #: audio/audioactions.cpp
 msgctxt "Engine:AudioActions"
 msgid "Approve Tempo"
-msgstr "核实速度"
+msgstr "核准速度"
 
 #: audio/audioactions.cpp
 msgctxt "Engine:AudioActions"
 msgid "Modify Speed"
-msgstr "更改速率"
+msgstr "修改速率"
 
 #: audio/audioactions.cpp
 msgctxt "Engine:AudioActions"
 msgid "Modify Tempo"
-msgstr "更改速度"
+msgstr "修改速度"
 
 #: audio/audioactions.cpp
 msgctxt "Engine:AudioActions"
 msgid "Modify Tune"
-msgstr "更改曲调"
+msgstr "修改调音"
 
 #: audio/audioactions.cpp
 msgctxt "Engine:AudioActions"
 msgid "Modify Volume Curve"
-msgstr "更改音量曲线"
+msgstr "修改音量曲线"
 
 #: audio/audioactions.cpp
 msgctxt "Engine:AudioActions"
@@ -3822,7 +3884,7 @@ msgstr "插入弯音标记"
 #: audio/audiobend/audiobendfunctions.cpp
 msgctxt "Engine:AudioBendActions"
 msgid "Modify Marker Threshold"
-msgstr "更改标记阈值"
+msgstr "修改标记阈值"
 
 #: audio/audiobend/audiobendfunctions.cpp
 msgctxt "Engine:AudioBendActions"
@@ -3849,6 +3911,11 @@ msgctxt "Engine:AudioEnvelopeActions"
 msgid "Gain"
 msgstr "增益"
 
+#: audio/audiopitchenvelope.cpp
+msgctxt "Engine:AudioEnvelopeActions"
+msgid "Pitch"
+msgstr "音高"
+
 #: audio/audioenvelopefunctions.cpp
 msgctxt "Engine:AudioEnvelopeActions"
 msgid "Show %(1) Curve"
@@ -3867,7 +3934,7 @@ msgstr "自动化"
 #: automation/automationfunctions.cpp
 msgctxt "Engine:AutomationFunctions"
 msgid "Colorize Automation"
-msgstr "自动配色"
+msgstr "为自动化着色"
 
 #: automation/automationfunctions.cpp
 msgctxt "Engine:AutomationFunctions"
@@ -3917,7 +3984,7 @@ msgstr "激活样式"
 #: music/musicpartactions.cpp
 msgctxt "Engine:MusicActions"
 msgid "Modify Velocity"
-msgstr "更改力度"
+msgstr "修改力度"
 
 #: editing/eventedithandler.cpp
 msgctxt "EventEditHandler"
@@ -3932,12 +3999,12 @@ msgstr "长度：%(1)  加速：%(2)"
 #: editing/eventedithandler.cpp
 msgctxt "EventEditHandler"
 msgid "Loop Length: %(1)"
-msgstr "循环长度： %(1)"
+msgstr "循环长度：%(1)"
 
 #: editing/eventedithandler.cpp
 msgctxt "EventEditHandler"
 msgid "Repeats: %(1)"
-msgstr "重复： %(1)"
+msgstr "重复：%(1)"
 
 #: editing/eventedithandler.cpp
 msgctxt "EventEditHandler"
@@ -3982,12 +4049,12 @@ msgstr "无法导入这些文件："
 #: editing/eventeditmodel.cpp
 msgctxt "Events"
 msgid "This file could not be imported:"
-msgstr "无法导入此文件："
+msgstr "无法导入该文件："
 
 #: audio/audiobend/bendmarker.cpp
 msgctxt "FileType"
 msgid "Audio Bend File"
-msgstr "Audio Bend文件"
+msgstr "Audio Bend 文件"
 
 #: application/musicloop/musicloop.cpp
 msgctxt "FileType"
@@ -4042,22 +4109,22 @@ msgstr "1 小节"
 #: base/launcher/launcherdata.cpp
 msgctxt "Launcher"
 msgid "1/16 Note"
-msgstr "16 分音符"
+msgstr "十六分音符"
 
 #: base/launcher/launcherdata.cpp
 msgctxt "Launcher"
 msgid "1/2 Note"
-msgstr "2 分音符"
+msgstr "二分音符"
 
 #: base/launcher/launcherdata.cpp
 msgctxt "Launcher"
 msgid "1/4 Note"
-msgstr "4 分音符"
+msgstr "四分音符"
 
 #: base/launcher/launcherdata.cpp
 msgctxt "Launcher"
 msgid "1/8 Note"
-msgstr "8 分音符"
+msgstr "八分音符"
 
 #: base/launcher/launcherdata.cpp
 msgctxt "Launcher"
@@ -4092,7 +4159,7 @@ msgstr "单元量化"
 #: base/launcher/launcherdata.cpp
 msgctxt "Launcher"
 msgid "Gate"
-msgstr "门限时长"
+msgstr "门限"
 
 #: base/launcher/launcherdata.cpp
 msgctxt "Launcher"
@@ -4152,7 +4219,7 @@ msgstr "粘贴单元属性"
 #: base/launcher/launcherdata.cpp
 msgctxt "Launcher"
 msgid "Playlist 1"
-msgstr "播放列表1"
+msgstr "播放列表 1"
 
 #: base/launcher/launcherdata.cpp
 msgctxt "Launcher"
@@ -4222,7 +4289,7 @@ msgstr "添加场景至播放列表"
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
 msgid "Change Cell Time Format"
-msgstr "更改单元时间格式"
+msgstr "切换单元时间格式"
 
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
@@ -4242,22 +4309,22 @@ msgstr "清空场景播放列表"
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
 msgid "Colorize Cell"
-msgstr "给单元上色"
+msgstr "为单元着色"
 
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
 msgid "Colorize Scene"
-msgstr "给场景上色"
+msgstr "为场景着色"
 
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
 msgid "Duplicate Scene Playlist Item"
-msgstr "复制播放列表项"
+msgstr "创建场景播放列表项副本"
 
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
 msgid "Duplicate Scene Playlist Items"
-msgstr "复制场景播放列表项"
+msgstr "创建场景播放列表项副本"
 
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
@@ -4307,7 +4374,7 @@ msgstr "重命名场景"
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
 msgid "Rename Scene Playlist"
-msgstr "重命名播放列表"
+msgstr "重命名场景播放列表"
 
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
@@ -4342,7 +4409,7 @@ msgstr "设置启动量化"
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
 msgid "Set Loop Start"
-msgstr "设置循环开始"
+msgstr "设置循环起点"
 
 #: base/launcher/launcherfunctions.cpp
 msgctxt "LauncherFunctions"
@@ -4387,17 +4454,17 @@ msgstr "删除选定项"
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
 msgid "Duplicate Item"
-msgstr "复制项目"
+msgstr "创建项目副本"
 
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
 msgid "Duplicate Items"
-msgstr "复制项目"
+msgstr "创建项目副本"
 
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
 msgid "Duplicate Playlist"
-msgstr "复制项目"
+msgstr "创建播放列表副本"
 
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
@@ -4407,7 +4474,7 @@ msgstr "在光标处插入"
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
 msgid "Insert Playlist into Session"
-msgstr "插入播放列表到工程"
+msgstr "将播放列表插入到工程"
 
 #: editing/launcher/launcherplaylistcomponent.cpp
 msgctxt "LauncherPlaylist"
@@ -4467,7 +4534,7 @@ msgstr "%(1) 个文件缺失。"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "%(2) files were found in %(1)"
-msgstr "在%(1)中找到%(2)个文件"
+msgstr "在 %(1) 中找到 %(2) 个文件"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -4477,32 +4544,32 @@ msgstr "（未使用）"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "1 file is missing."
-msgstr "1个文件缺失。"
+msgstr "1 个文件缺失。"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "1 file was found in %(1)"
-msgstr "%(1) 中找到1个文件"
+msgstr "%(1) 中找到 1 个文件"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Additional content required. Do you want to download the following packages?"
-msgstr "需要额外内容。您想下载以下软件包吗？"
+msgstr "需要额外的内容。是否要下载以下的软件包？"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Locate File"
-msgstr "查找文件"
+msgstr "定位文件"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Locate Missing Files"
-msgstr "查找缺失的文件"
+msgstr "定位缺失的文件"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Located %(1) files"
-msgstr "已找到%(1)个文件"
+msgstr "已找到 %(1) 个文件"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -4532,7 +4599,7 @@ msgstr "文件无缺失。"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "No matching files were found in %(1)"
-msgstr "%(1)下没有找到匹配的文件"
+msgstr "%(1) 下没有找到匹配的文件"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -4542,17 +4609,17 @@ msgstr "从素材池中移除切片"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Scanning folder: "
-msgstr "正在扫描文件夹："
+msgstr "正在扫描文件夹： "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Search was canceled. "
-msgstr "搜索已取消。"
+msgstr "搜索已取消。 "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Select a search folder."
-msgstr "选择搜索文件夹。"
+msgstr "选择一个搜索文件夹。"
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -4562,12 +4629,12 @@ msgstr "在轨道中选择"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Used by: "
-msgstr "使用者："
+msgstr "使用者： "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "used %(1) times"
-msgstr "已使用%(1)次"
+msgstr "已使用 %(1) 次"
 
 #: editing/lyricsdisplaymodel.cpp
 msgctxt "LyricsEditor"
@@ -4617,7 +4684,7 @@ msgstr "停止"
 #: pool/mediaclipoperations.cpp
 msgctxt "MediaClipOperations"
 msgid "Moving to Trash Bin..."
-msgstr "移至回收站..."
+msgstr "正在移至回收站..."
 
 #: pool/mediaclipoperations.cpp
 msgctxt "MediaClipOperations"
@@ -4642,7 +4709,7 @@ msgstr "附件"
 #: base/media/mediapool.cpp
 msgctxt "MediaPool"
 msgid "The format of this file is not supported."
-msgstr "不支持此文件格式。"
+msgstr "不支持该文件格式。"
 
 #: base/media/mediapool.cpp
 msgctxt "MediaPool"
@@ -4662,17 +4729,17 @@ msgstr "正在删除录音文件"
 #: pool/mediapoolfunctions.cpp
 msgctxt "MediaPoolFunctions"
 msgid "Do you want to copy these external files to the Media Folder?"
-msgstr "是否将这些外部文件复制到Media文件夹？"
+msgstr "是否要将这些外部文件复制到 Media 文件夹？"
 
 #: pool/mediapoolfunctions.cpp
 msgctxt "MediaPoolFunctions"
 msgid "Do you want to delete the files that were recorded or created since the last time you saved?"
-msgstr "是否删除最后一次保存之前所创建或录制的文件？"
+msgstr "是否要删除最后一次保存之前所创建或录制的文件？"
 
 #: pool/mediapoolfunctions.cpp
 msgctxt "MediaPoolFunctions"
 msgid "Do you want to remove these unused files?"
-msgstr "是否移除这些未使用的文件？"
+msgstr "是否要移除这些未使用的文件？"
 
 #: pool/mediapoolfunctions.cpp
 msgctxt "MediaPoolFunctions"
@@ -4707,12 +4774,12 @@ msgstr "停止"
 #: pool/mediapreviewcomponent.cpp
 msgctxt "MediaPreview"
 msgid "Sync tempo"
-msgstr "速度同步"
+msgstr "同步速度"
 
 #: editing/mediatrackcontroller.cpp
 msgctxt "MediaTrack"
 msgid "Bass"
-msgstr "低音 / 根音跟随"
+msgstr "低音跟随"
 
 #: base/model/mediatrack.cpp
 msgctxt "MediaTrack"
@@ -4752,7 +4819,7 @@ msgstr "混缩乐器片段"
 #: music/musicclip.cpp
 msgctxt "MusicClip"
 msgid "%(1) beats"
-msgstr "%(1) 节拍"
+msgstr "%(1) 个节拍"
 
 #: music/musicclip.cpp
 msgctxt "MusicClip"
@@ -4762,7 +4829,7 @@ msgstr "%(1) 个音符"
 #: music/musicclip.cpp
 msgctxt "MusicClip"
 msgid "Loading Performance: %(1)"
-msgstr "正在加载性能：%(1)"
+msgstr "正在加载表演：%(1)"
 
 #: application/musicedit/spotnotestask.cpp
 msgctxt "MusicEdit"
@@ -4772,7 +4839,7 @@ msgstr "定位"
 #: musicediting/musicfxdraghandler.cpp
 msgctxt "MusicFX"
 msgid "Add FX on %(1):"
-msgstr "将下列效果器添加到%(1)："
+msgstr "将下列效果器添加到 %(1)："
 
 #: musicediting/musicfxdraghandler.cpp
 msgctxt "MusicFX"
@@ -4802,7 +4869,7 @@ msgstr "将片段转换为样式"
 #: application/musicedit/musicpatternconverttask.cpp
 msgctxt "MusicPartEdit"
 msgid "Convert Pattern to Part"
-msgstr "样式转换为片段"
+msgstr "将样式转换为片段"
 
 #: application/musicedit/musicchordtasks.cpp
 msgctxt "MusicPartEdit"
@@ -4812,7 +4879,7 @@ msgstr "检测调号"
 #: application/musicedit/musicexporttask.cpp
 msgctxt "MusicPartEdit"
 msgid "Export Parts to MIDI File"
-msgstr "将片段导出为MIDI文件"
+msgstr "将片段导出为 MIDI 文件"
 
 #: application/musicedit/musicchordtasks.cpp
 msgctxt "MusicPartEdit"
@@ -4882,7 +4949,7 @@ msgstr "轨道上的所有样式"
 #: musicediting/patterncontrollane.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Clear \"%(1)\" Automation"
-msgstr "清空 “%(1)” 自动化"
+msgstr "清空“%(1)”自动化"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
@@ -4912,7 +4979,7 @@ msgstr "复制样式"
 #: musicediting/patterncontrollane.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Create \"%(1)\" Automation"
-msgstr "创建 “%(1)” 自动化"
+msgstr "创建“%(1)”自动化"
 
 #: musicediting/patterncontrollane.cpp
 msgctxt "MusicPatternPartEditor"
@@ -4927,12 +4994,12 @@ msgstr "删除"
 #: musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Do you want to remove these parameters?"
-msgstr "是否移除这些参数？"
+msgstr "是否要移除这些参数？"
 
 #: musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Do you want to remove this parameter?"
-msgstr "是否移除这个参数？"
+msgstr "是否要移除这个参数？"
 
 #: musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
@@ -4967,7 +5034,7 @@ msgstr "创建步副本"
 #: musicediting/patterncontrollane.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Edit Pattern Automation \"%(1)\""
-msgstr "编辑样式自动化 “%(1)”"
+msgstr "编辑样式自动化“%(1)”"
 
 #: musicediting/patterneditcomponent.cpp musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
@@ -5012,17 +5079,17 @@ msgstr "插入"
 #: musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Insert with Accent"
-msgstr "带有重音的插入"
+msgstr "带着重音插入"
 
 #: musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Locate"
-msgstr "查找"
+msgstr "定位"
 
 #: musicediting/patterncontrollane.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Modify Automation"
-msgstr "更改自动化"
+msgstr "修改自动化"
 
 #: musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
@@ -5127,7 +5194,7 @@ msgstr "每 4 步设置一次"
 #: musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Shift Lane"
-msgstr "移动样式通道"
+msgstr "右移样式通道"
 
 #: musicediting/patterncontrollane.cpp
 msgctxt "MusicPatternPartEditor"
@@ -5155,7 +5222,7 @@ msgid ""
 "This will delete notes or automation data.\n"
 "Do you want to continue?"
 msgstr ""
-"此操作将删除音符或自动化数据。\n"
+"该操作将删除音符或自动化数据。\n"
 "是否要继续？"
 
 #: musicediting/patterncontrollane.cpp
@@ -5181,7 +5248,7 @@ msgstr "已使用"
 #: music/musicrender.cpp
 msgctxt "MusicRenderer"
 msgid "Rendering Automation Curve: %(1)"
-msgstr "渲染自动化曲线: %(1)"
+msgstr "渲染自动化曲线：%(1)"
 
 #: music/musicrender.cpp
 msgctxt "MusicRenderer"
@@ -5191,7 +5258,7 @@ msgstr "正在渲染音符事件"
 #: musicediting/musicsteprecorder.cpp
 msgctxt "MusicStepRecorder"
 msgid "Step Record"
-msgstr "步进录制"
+msgstr "步进录音"
 
 #: musicediting/musicpatterneditor.cpp
 msgctxt "PatternEditor"
@@ -5206,7 +5273,7 @@ msgstr "添加样式变奏"
 #: musicediting/patternbankcomponent.cpp
 msgctxt "PatternSequence"
 msgid "Duplicate Pattern Variation"
-msgstr "复制样式变奏"
+msgstr "创建样式变奏副本"
 
 #: musicediting/patternbankcomponent.cpp
 msgctxt "PatternSequence"
@@ -5221,7 +5288,7 @@ msgstr "重命名样式变奏"
 #: musicediting/patternbankcomponent.cpp
 msgctxt "PatternSequence"
 msgid "Reorder %(1)"
-msgstr "录音机 %(1)"
+msgstr "重新排序 %(1)"
 
 #: musicediting/patternbankcomponent.cpp
 msgctxt "PatternSequence"
@@ -5251,7 +5318,7 @@ msgstr "复制“%(1)”至“%(2)”"
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
 msgid "Drag to Move / Copy"
-msgstr "拖动以移动/复制"
+msgstr "拖动以移动 / 复制"
 
 #: musicediting/drumpitchscaleview.cpp
 msgctxt "PitchEdit"
@@ -5316,7 +5383,7 @@ msgstr "长度"
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
 msgid "Locate Missing Files"
-msgstr "查找缺失的文件"
+msgstr "定位缺失的文件"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
@@ -5356,12 +5423,12 @@ msgstr "移除未使用的文件"
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
 msgid "Show Media Folder in Explorer"
-msgstr "在资源管理器中显示Media文件夹"
+msgstr "在资源管理器中显示 Media 文件夹"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
 msgid "Show Media Folder in Finder"
-msgstr "在访达中显示Media文件夹"
+msgstr "在访达中显示 Media 文件夹"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
@@ -5402,7 +5469,7 @@ msgid ""
 msgstr ""
 "您是否确认要删除此剪辑的所有附件？\n"
 "\n"
-"此操作无法撤销。"
+"此操作不可撤销。"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
@@ -5411,7 +5478,7 @@ msgid ""
 "\n"
 "This action can not be undone."
 msgstr ""
-"确定要删除这个版本的所有附件吗？\n"
+"您确定要删除这个版本的所有附件吗？\n"
 "\n"
 "此操作不可撤销。"
 
@@ -5433,22 +5500,22 @@ msgstr "删除附件"
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
 msgid "Delete File permanently"
-msgstr "永久性删除文件"
+msgstr "永久删除文件"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
 msgid "Do you want to remove all occurrences of these clips?"
-msgstr "您是否要移除这些剪辑的每个实例？"
+msgstr "是否要移除这些剪辑出现的所有位置？"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
 msgid "Do you want to remove all occurrences of this clip?"
-msgstr "您是否要移除这个剪辑的每个实例？"
+msgstr "是否要移除这个剪辑出现的所有位置？"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
 msgid "Locate File"
-msgstr "查找文件"
+msgstr "定位文件"
 
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
@@ -5493,12 +5560,12 @@ msgstr "这个剪辑仍在使用。"
 #: pool/mediapoolnodes.cpp
 msgctxt "PoolNodes"
 msgid "used %(1) times"
-msgstr "已使用%(1)次"
+msgstr "已使用 %(1) 次"
 
 #: audio/audiotrackrecorder.cpp
 msgctxt "Record"
 msgid "Dropouts occurred during record. The drive used for recording might not be fast enough."
-msgstr "录制期间出现信号丢失情况。用于录制的驱动可能速度过慢。"
+msgstr "录制期间出现了信号丢失的情况。可能是因为用于录制的硬盘速度过慢。"
 
 #: audio/audiotrackrecorder.cpp
 msgctxt "Record"
@@ -5561,7 +5628,7 @@ msgstr "删除草稿簿"
 #: base/model/scratchpadfunctions.cpp
 msgctxt "ScratchPad"
 msgid "Duplicate Scratch Pad"
-msgstr "复制草稿簿"
+msgstr "创建草稿簿副本"
 
 #: base/model/scratchpadfunctions.cpp
 msgctxt "ScratchPad"
@@ -5581,7 +5648,7 @@ msgstr "工程"
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
 msgid "Add"
-msgstr "加"
+msgstr "添加"
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
@@ -5596,27 +5663,27 @@ msgstr "组合（创建多重乐器）"
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
 msgid "Do you want to add a new instrument, load the preset or combine the instrument %(1)?"
-msgstr "您是否希望添加一个新乐器、载入预设或组合乐器 %(1)？"
+msgstr "是否要添加一个新乐器、载入预设或组合乐器 %(1)？"
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
 msgid "Do you want to combine the instrument %(1)?"
-msgstr "您希望组合乐器 %(1)吗？"
+msgstr "是否要组合乐器 %(1) ？"
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
 msgid "Do you want to load the preset or combine the instrument %(1)?"
-msgstr "您希望加载预设或组合乐器 %(1)吗？"
+msgstr "是否要加载预设或组合乐器 %(1) ？"
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
 msgid "Do you want to replace or combine the instrument %(1)?"
-msgstr "是否替换或组合乐器 %(1)？"
+msgstr "是否要替换或组合乐器 %(1)？"
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
 msgid "Do you want to replace the instrument %(1)?"
-msgstr "是否替换乐器 %(1)？"
+msgstr "是否要替换乐器 %(1)？"
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
@@ -5626,7 +5693,7 @@ msgstr "插入乐器"
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
 msgid "Insert Instrument on %(1):"
-msgstr "将下列乐器插入%(1)："
+msgstr "将下列乐器插入 %(1)："
 
 #: musicediting/synthdraghandler.cpp
 msgctxt "SynthDrag"
@@ -5706,12 +5773,12 @@ msgstr "编辑音轨"
 #: editing/trackcontroller.cpp
 msgctxt "Track"
 msgid "Expand Automation"
-msgstr "展开自动化控制"
+msgstr "展开自动化"
 
 #: editing/foldertrackcomponent.cpp
 msgctxt "Track"
 msgid "Expand Folder Track"
-msgstr "扩展文件夹轨道"
+msgstr "展开文件夹轨道"
 
 #: editing/trackcontroller.cpp
 msgctxt "Track"
@@ -5751,7 +5818,7 @@ msgstr "将键位切换转换为声音变化"
 #: application/audioedit/tracktransform.cpp
 msgctxt "TrackEdit"
 msgid "Do you want to abort the transformation?"
-msgstr "您要中止变换吗？"
+msgstr "是否要中止变换？"
 
 #: application/audioedit/tracktransform.cpp
 msgctxt "TrackEdit"
@@ -5771,7 +5838,7 @@ msgstr "冻结为渲染音频"
 #: automationediting/automationtrackcomponent.cpp
 msgctxt "TrackEdit"
 msgid "Merge VCA Automation"
-msgstr "合并VCA自动化"
+msgstr "合并 VCA 自动化"
 
 #: application/musicedit/musictrackcomponent.cpp
 msgctxt "TrackEdit"
@@ -5791,12 +5858,12 @@ msgstr "渲染乐器轨道"
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Unfreeze to Instrument Track"
-msgstr "解冻至乐器轨"
+msgstr "解冻为乐器轨道"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Unfreeze to Realtime Audio"
-msgstr "解冻至实时音频"
+msgstr "解冻为实时音频"
 
 #: editing/tracklist.cpp
 msgctxt "TrackHeights"
@@ -5846,7 +5913,7 @@ msgstr "轨道“%(1)”"
 #: editing/tracklist.cpp
 msgctxt "TrackInfo"
 msgid "Automation Curves: %(1)"
-msgstr "自动化曲线： %(1)"
+msgstr "自动化曲线：%(1)"
 
 #: editing/tracklist.cpp
 msgctxt "TrackInfo"
@@ -5881,7 +5948,7 @@ msgstr "添加分层"
 #: editing/tracklayercomponent.cpp
 msgctxt "TrackLayers"
 msgid "Duplicate Layer"
-msgstr "复制分层"
+msgstr "创建分层副本"
 
 #: editing/tracklayercomponent.cpp
 msgctxt "TrackLayers"
@@ -5921,7 +5988,7 @@ msgstr "将选定的分层解包至音轨"
 #: editing/tracklistfilter.cpp
 msgctxt "TrackList"
 msgid "New Scene"
-msgstr "新场景"
+msgstr "新建场景"
 
 #: editing/tracklistfilter.cpp
 msgctxt "TrackList"
@@ -5931,7 +5998,7 @@ msgstr "音轨场景"
 #: audioediting/audioretunecomponent.cpp
 msgctxt "Tune Mode"
 msgid "Modify Tune Mode"
-msgstr "更改调音模式"
+msgstr "修改调音模式"
 
 #: audioediting/audioretunecomponent.cpp
 msgctxt "Tune Mode"
@@ -5951,12 +6018,12 @@ msgstr "创建音频回放轨道"
 #: video/videofunctions.cpp
 msgctxt "Video"
 msgid "Create Audio Track"
-msgstr "创建音轨"
+msgstr "创建音频轨道"
 
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Video"
 msgid "Do you want to create an audio track for the sound from the video?"
-msgstr "是否要为视频中的音频创建一条音轨？"
+msgstr "是否要为视频中的音频创建一条音频轨道？"
 
 #: videoediting/audioextractor.cpp
 msgctxt "Video"
@@ -5976,7 +6043,7 @@ msgstr "导入视频"
 #: video/videofunctions.cpp videoediting/videotrackcontroller.cpp
 msgctxt "Video"
 msgid "Link Audio Track Editing"
-msgstr "链接音轨编辑"
+msgstr "链接音频轨道编辑"
 
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Video"
@@ -5986,7 +6053,7 @@ msgstr "移除音频回放轨道"
 #: video/videofunctions.cpp
 msgctxt "Video"
 msgid "Remove Audio Track"
-msgstr "移除音轨"
+msgstr "移除音频轨道"
 
 #: video/videofunctions.cpp
 msgctxt "Video"
@@ -5996,17 +6063,17 @@ msgstr "替换视频"
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Video"
 msgid "Show Audio Track"
-msgstr "显示音轨"
+msgstr "显示音频轨道"
 
 #: video/videofunctions.cpp
 msgctxt "Video"
 msgid "Unlink Audio Track Editing"
-msgstr "取消音轨编辑链接"
+msgstr "取消链接音频轨道编辑"
 
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Video"
 msgid "Update Audio Track"
-msgstr "更新音频轨"
+msgstr "更新音频轨道"
 
 #: videoediting/videotrackcontroller.cpp
 msgctxt "Video"
@@ -6021,7 +6088,7 @@ msgstr "视频"
 #: video/videoclip.cpp
 msgctxt "VideoClip"
 msgid "Codec not supported!"
-msgstr "不支持的编解码器！"
+msgstr "不受支持的编解码器！"
 
 #: video/videoclip.cpp
 msgctxt "VideoClip"
@@ -6031,7 +6098,7 @@ msgstr "未知格式！"
 #: videoediting/videodraghandler.cpp
 msgctxt "VideoEdit"
 msgid "Extract Audio to %(1)"
-msgstr "将音频提取到%(1)"
+msgstr "将音频提取到 %(1)"
 
 #: videoediting/videodraghandler.cpp
 msgctxt "VideoEdit"

@@ -149,6 +149,11 @@ msgctxt "ActionDescriptions"
 msgid "Swap Macro Controls"
 msgstr "매크로 컨트롤 치환"
 
+#: audiosynths/audiosyntheditfunctions.cpp
+msgctxt "ActionDescriptions"
+msgid "Transfer Instrument"
+msgstr "인스트루먼트 전환"
+
 #: audiomixer/audiochannel.cpp
 msgctxt "AudioChannel"
 msgid "Mute"
@@ -444,6 +449,11 @@ msgstr "모든 %(1) 켜기"
 msgctxt "AudioFX"
 msgid "Enable Plug-in Nap"
 msgstr "플러그인 잠자기 기능 켜기"
+
+#: audioeffects/audiofxfolder.cpp
+msgctxt "AudioFX"
+msgid "FX Chain"
+msgstr "FX 체인"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
@@ -1122,6 +1132,16 @@ msgstr "악기"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
+msgid "Move all to Instrument Set"
+msgstr "인스트루먼트 셋으로 모두 이동"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Move to Instrument Set"
+msgstr "인스트루먼트 셋으로 이동"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Multi Instrument"
 msgstr "멀티 악기"
 
@@ -1139,6 +1159,16 @@ msgstr "미사용 항목 제거"
 msgctxt "AudioSynth"
 msgid "Remove Unused Instruments"
 msgstr "미사용 악기 제거"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename all Instruments to Preset"
+msgstr "모든 인스트루먼트를 프리셋으로 이름 변경"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename to Preset"
+msgstr "프리셋으로 이름 변경"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1198,7 +1228,7 @@ msgstr "오토메이션"
 #: base/automationhandler.cpp
 msgctxt "Automation"
 msgid "Edit Automation \"%(1)\" "
-msgstr "\"%(1)\" 오토메이션 편집"
+msgstr "\"%(1)\" 오토메이션 편집 "
 
 #: base/automationunit.cpp
 msgctxt "Automation"
@@ -1494,6 +1524,11 @@ msgstr "장치"
 msgctxt "Command"
 msgid "Dim"
 msgstr "Dim"
+
+#: audiomixer/audiodrumclickcomponent.cpp
+msgctxt "Command"
+msgid "Drum Metronome"
+msgstr "드럼 메트로놈"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -2085,7 +2120,7 @@ msgctxt "Command"
 msgid "Toggle Start"
 msgstr "스타트 전환"
 
-#: transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
+#: audiomixer/audiodrumclickcomponent.cpp transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Transport"
 msgstr "트랜스포트"
@@ -2217,6 +2252,11 @@ msgstr "바이패스"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
+msgid "Chain"
+msgstr "체인"
+
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Collapse"
 msgstr "접기"
 
@@ -2334,6 +2374,11 @@ msgstr "마이크로 에디트 파라미터 \"%(1)\" 추가"
 msgctxt "DeviceRack"
 msgid "Automation"
 msgstr "오토메이션"
+
+#: editor/devicerack.cpp
+msgctxt "DeviceRack"
+msgid "Load %(1)"
+msgstr "%(1) 불러오기"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
@@ -2729,6 +2774,106 @@ msgstr "클릭하여 채널 이동"
 msgctxt "InsertSpeakerMapper"
 msgid "No match"
 msgstr "일치하지 않음"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Cleanup Shared Instruments: %(1)"
+msgstr "공유 인스트루먼트 제거: %(1)"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Disable Instrument Set"
+msgstr "인스트루먼트 셋 비활성화"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Enable Instrument Set"
+msgstr "인스트루먼트 셋 활성화"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set"
+msgstr "인스트루먼트 셋"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\""
+msgstr "인스트루먼트 셋 \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\" was modified. Do you want to save it?"
+msgstr "인스트루먼트 셋 \"%(1)\" 이 변경되었습니다. 저장하시겠습니까?"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Sets"
+msgstr "인스트루먼트 셋"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Load Instrument Set \"%(1)\""
+msgstr "인스트루먼트 셋 \"%(1)\" 불러오기"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set"
+msgstr "인스트루먼트 셋 불러오는 중"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set \"%(1)\""
+msgstr "인스트루먼트 셋 \"%(1)\" 불러오는 중"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Move to Instrument Set"
+msgstr "인스트루먼트 셋으로 이동"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "New Instrument Set"
+msgstr "새로운 인스트루먼트 셋"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Remove"
+msgstr "제거"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename"
+msgstr "이름 변경"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename Instrument Set \"%(1)\""
+msgstr "인스트루먼트 셋 \"%(1)\" 이름 변경"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Reset Default Instrument Set"
+msgstr "기본 인스트루먼트 셋 초기화"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Store Instrument Set"
+msgstr "인스트루먼트 셋 저장"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "The current instrument set was modified. Do you want to save it?"
+msgstr "현재 인스트루먼트 셋이 변경되었습니다. 저장하시겠습니까?"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Update Instrument Set"
+msgstr "인스트루먼트 셋 업데이트"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Use as Default"
+msgstr "기본값으로 사용"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -3535,6 +3680,11 @@ msgstr "사이드체인"
 msgctxt "SideChain"
 msgid "Toggle Prefader"
 msgstr "프리페이더 전환"
+
+#: midi/simplemidiinput.cpp
+msgctxt "SimpleMidiInput"
+msgid "Setup..."
+msgstr "설정..."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"

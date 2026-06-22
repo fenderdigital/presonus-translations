@@ -72,7 +72,7 @@ msgstr "创建共享副本"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Duplicate and Insert"
-msgstr "复制并插入"
+msgstr "创建副本并插入"
 
 #: events/eventeditcomponent.cpp music/noteplayer.cpp timeedit/signatureeditlayer.cpp timeedit/snaptimeprovider.cpp timeedit/timeeditcomponent.cpp timeedit/timelinecomponent.cpp timeedit/timeselectioncomponent.cpp timeedit/timesnapper.cpp
 msgctxt "Command"
@@ -92,12 +92,12 @@ msgstr "编辑拍号"
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "First Event"
-msgstr "首事件"
+msgstr "第一个事件"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "First Event Extend"
-msgstr "首事件扩展"
+msgstr "扩展到第一个事件"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -132,12 +132,12 @@ msgstr "最后一个事件"
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Last Event Extend"
-msgstr "最后一个事件扩展"
+msgstr "扩展到最后一个事件"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Locate Mouse Cursor"
-msgstr "定位到光标处"
+msgstr "定位到鼠标光标处"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -157,7 +157,7 @@ msgstr "根据所选设置循环"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Loop Selection"
-msgstr "循环所选"
+msgstr "循环选区"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -192,17 +192,17 @@ msgstr "向上移动范围"
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Move Range to Hotspot"
-msgstr "移动范围至热点"
+msgstr "移动范围至下一个热点"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Move Range to Hotspot Back"
-msgstr "移回范围至热点"
+msgstr "移动范围至上一个热点"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Move to Cursor"
-msgstr "移动到光标处"
+msgstr "移至光标处"
 
 #: events/eventeditcomponent.cpp itemlist/listitemcomponent.cpp timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -217,7 +217,7 @@ msgstr "下一个事件"
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Next Event Extend"
-msgstr "下一个事件扩展"
+msgstr "扩展到下一个事件"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -272,7 +272,7 @@ msgstr "打开第二标尺"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Paste at Original Position"
-msgstr "在原始位置粘贴"
+msgstr "粘贴到初始位置"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
@@ -282,7 +282,7 @@ msgstr "上一个事件"
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Previous Event Extend"
-msgstr "上一个事件扩展"
+msgstr "扩展到上一个事件"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -302,7 +302,7 @@ msgstr "范围从结束至光标"
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Range Start to Cursor"
-msgstr "范围从开始至光标"
+msgstr "以光标作为范围开始"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
@@ -322,12 +322,12 @@ msgstr "移除拍号"
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Restore Zoom State"
-msgstr "还原缩放状态"
+msgstr "恢复缩放状态"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Select All in Loop"
-msgstr "全选循环中的所有"
+msgstr "循环中全选"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
@@ -337,12 +337,12 @@ msgstr "音轨全选"
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Select from Event to End"
-msgstr "选择从事件至结束"
+msgstr "从事件选择至结束"
 
 #: events/eventeditcomponent.cpp
 msgctxt "Command"
 msgid "Select from Start to Event"
-msgstr "选择从开始至事件"
+msgstr "从开始选择至事件"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -352,42 +352,42 @@ msgstr "设置循环结尾"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
 msgid "Set Loop Start"
-msgstr "设置循环开始"
+msgstr "设置循环起点"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program A"
-msgstr "设置预设 A"
+msgstr "设置程序 A"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program B"
-msgstr "设置预设 B"
+msgstr "设置程序 B"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program C"
-msgstr "设置预设 C"
+msgstr "设置程序 C"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program D"
-msgstr "设置预设 D"
+msgstr "设置程序 D"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program E"
-msgstr "设置预设 E"
+msgstr "设置程序 E"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program F"
-msgstr "设置预设 F"
+msgstr "设置程序 F"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Command"
 msgid "Set Program G"
-msgstr "设置预设 G"
+msgstr "设置程序 G"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
@@ -397,7 +397,7 @@ msgstr "设置范围结尾大小"
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range End Back"
-msgstr "撤销设置范围结尾大小"
+msgstr "往回设置范围结尾大小"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
@@ -412,12 +412,12 @@ msgstr "增大范围结尾"
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range End to Hotspot"
-msgstr "设置范围结尾至热点大小"
+msgstr "设置范围的结尾至下一个热点"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range End to Hotspot Back"
-msgstr "撤销设置范围结尾至热点大小"
+msgstr "设置范围的结尾至上一个热点"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
@@ -427,32 +427,32 @@ msgstr "设置范围开始大小"
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start Back"
-msgstr "撤销设置范围开始大小"
+msgstr "往回设置范围开始大小"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start Down"
-msgstr "缩小范围开始"
+msgstr "缩小范围的起始"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start Up"
-msgstr "增大范围开始"
+msgstr "增大范围的起始"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start to Hotspot"
-msgstr "设置范围开始至热点大小"
+msgstr "设置范围开始至下一个热点"
 
 #: timeedit/timeselectioncomponent.cpp
 msgctxt "Command"
 msgid "Size Range Start to Hotspot Back"
-msgstr "撤销设置范围开始至热点大小"
+msgstr "设置范围开始至上一个热点"
 
 #: timeedit/snaptimeprovider.cpp
 msgctxt "Command"
 msgid "Snap Relative Grid"
-msgstr "吸附至相对栅格"
+msgstr "吸附至相对网格"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -462,7 +462,7 @@ msgstr "吸附至光标和循环"
 #: timeedit/snaptimeprovider.cpp
 msgctxt "Command"
 msgid "Snap To Grid"
-msgstr "吸附至栅格"
+msgstr "吸附至网格"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Command"
@@ -512,7 +512,7 @@ msgstr "切换水平自动缩放"
 #: timeedit/autozoommanager.cpp
 msgctxt "Command"
 msgid "Toggle Auto Zoom Vertically"
-msgstr "开启自动垂直缩放"
+msgstr "切换自动垂直缩放"
 
 #: music/lyricsdisplay.cpp
 msgctxt "Command"
@@ -522,7 +522,7 @@ msgstr "切换编辑模式"
 #: music/noteplayer.cpp
 msgctxt "Command"
 msgid "Toggle Note Audition"
-msgstr "开启音符试听"
+msgstr "切换音符试听"
 
 #: timeedit/timesnapper.cpp
 msgctxt "Command"
@@ -587,7 +587,7 @@ msgstr "放大"
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom In Fine"
-msgstr "细微放大"
+msgstr "精细放大"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
@@ -607,7 +607,7 @@ msgstr "缩小"
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
 msgid "Zoom Out Fine"
-msgstr "细微缩小"
+msgstr "精细缩小"
 
 #: timeedit/timelinecomponent.cpp
 msgctxt "Command"
@@ -637,7 +637,7 @@ msgstr "水平缩放到所选"
 #: music/drumpads.cpp
 msgctxt "DrumPads"
 msgid "Reset Pads"
-msgstr "Pads重置"
+msgstr "重置打击垫"
 
 #: events/spoteventscomponent.cpp
 msgctxt "Edit"
@@ -687,7 +687,7 @@ msgstr "根据所选设置循环"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Move to Cursor"
-msgstr "移动到光标处"
+msgstr "移至光标处"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
@@ -697,7 +697,7 @@ msgstr "打开第二标尺"
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
 msgid "Paste at Original Position"
-msgstr "按原始位置粘贴"
+msgstr "粘贴到初始位置"
 
 #: timeedit/timeeditcomponent.cpp
 msgctxt "Edit"
@@ -747,7 +747,7 @@ msgstr "指数"
 #: envelopes/envelopeinspector.cpp
 msgctxt "Envelope"
 msgid "S-Curve"
-msgstr "S形曲线"
+msgstr "S 形曲线"
 
 #: envelopes/envelopedraghandler.cpp
 msgctxt "Envelopes"
@@ -832,7 +832,7 @@ msgstr "锁定值 / 时间"
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Modify Velocity"
-msgstr "更改力度"
+msgstr "修改力度"
 
 #: music/musicedithandler.cpp
 msgctxt "Events"
@@ -842,7 +842,7 @@ msgstr "绘制事件"
 #: envelopes/envelopeedithandler.cpp
 msgctxt "Events"
 msgid "S-Curve"
-msgstr "S形曲线"
+msgstr "S 形曲线"
 
 #: music/musicedithandler.cpp
 msgctxt "Events"
@@ -877,7 +877,7 @@ msgstr "数值已锁定"
 #: music/musicedithandler.cpp
 msgctxt "Events"
 msgid "Velocity Accent"
-msgstr "力度重音"
+msgstr "重力度音"
 
 #: quantize/quantizegrid.cpp
 msgctxt "FileType"
@@ -967,7 +967,7 @@ msgstr "力度"
 #: music/musiceditmodel.cpp
 msgctxt "MusicEditComponent"
 msgid "%(1):  Length: %(2) | Velocity: %(3)"
-msgstr "%(1)：长度：%(2) | 力度：%(3)"
+msgstr "%(1)：长度：%(2)  |  力度：%(3)"
 
 #: music/musiceditmodel.cpp
 msgctxt "MusicEditComponent"
@@ -977,7 +977,7 @@ msgstr "和弦：%(1)"
 #: music/musiceditmodel.cpp
 msgctxt "MusicEditComponent"
 msgid "Key switch: %(1)"
-msgstr "音调切换：%(1)"
+msgstr "键位切换：%(1)"
 
 #: music/musiceditcomponent.cpp
 msgctxt "MusicEditComponent"
@@ -992,7 +992,7 @@ msgstr "传输音符"
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Articulations"
-msgstr "演奏法"
+msgstr "演奏技法"
 
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
@@ -1002,12 +1002,12 @@ msgstr "复制符号"
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Direction"
-msgstr "演奏指示"
+msgstr "方向"
 
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
 msgid "Edit Articulations"
-msgstr "编辑演奏法"
+msgstr "编辑演奏技法"
 
 #: music/musicsymbollane.cpp
 msgctxt "MusicSymbols"
@@ -1082,12 +1082,12 @@ msgstr "选择此音高的音符"
 #: quantize/quantizecomponent.cpp
 msgctxt "Quantize"
 msgid "%(1) Bar"
-msgstr "%(1) 个小节"
+msgstr "%(1) 小节"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Quantize"
 msgid "%(1) Bars"
-msgstr "%(1) 个小节"
+msgstr "%(1) 小节"
 
 #: quantize/quantizelength.cpp
 msgctxt "Quantize"
@@ -1102,7 +1102,7 @@ msgstr "跟随量化"
 #: quantize/quantizecomponent.cpp
 msgctxt "Quantize"
 msgid "Grid"
-msgstr "栅格"
+msgstr "网格"
 
 #: quantize/quantizecomponent.cpp
 msgctxt "Quantize"
@@ -1152,17 +1152,17 @@ msgstr "添加律动样式"
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Are you sure you want to overwrite the default map?"
-msgstr "您确定想要覆盖默认的映射吗？"
+msgstr "您确定要覆盖默认的映射吗？"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Are you sure you want to remove the default map?"
-msgstr "您确定想要移除默认的映射吗？"
+msgstr "您确定要移除默认的映射吗？"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
 msgid "Auto-assign Symbols"
-msgstr "自动分配符号映射"
+msgstr "自动分配符号"
 
 #: music/musicsymbolmapeditor.cpp
 msgctxt "ScoreSymbolMap"
@@ -1257,7 +1257,7 @@ msgstr "分子"
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
 msgid "Remove Key Signature"
-msgstr "删除调号"
+msgstr "移除调号"
 
 #: timeedit/signatureeditlayer.cpp
 msgctxt "SignatureEditLayer"
@@ -1267,7 +1267,7 @@ msgstr "移除拍号"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid " + Add"
-msgstr "+ 添加"
+msgstr " + 添加"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1287,7 +1287,7 @@ msgstr "触发序列"
 #: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "Active Variation: %(1)"
-msgstr "主动变奏：%(1)"
+msgstr "启用声音变化：%(1)"
 
 #: music/soundvariationlane.cpp
 msgctxt "SoundVariations"
@@ -1302,7 +1302,7 @@ msgstr "分配"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Assign Default Key Switches"
-msgstr "指定默认键位切换"
+msgstr "分配默认键位切换"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1316,13 +1316,23 @@ msgstr "分配白键键位切换"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
+msgid "Attack Compensation"
+msgstr "起音补偿"
+
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
 msgid "Bank Change"
-msgstr "更换乐库"
+msgstr "音色库切换"
+
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Cannot be generated"
+msgstr "无法生成"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Channel Change"
-msgstr "通道改变"
+msgstr "通道切换"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1332,7 +1342,7 @@ msgstr "清空所有键位切换"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Color"
-msgstr "配色"
+msgstr "颜色"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1366,18 +1376,28 @@ msgstr "启用键位切换"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
+msgid "Generate"
+msgstr "生成"
+
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
 msgid "Input"
 msgstr "输入"
 
 #: music/soundvariationlane.cpp
 msgctxt "SoundVariations"
 msgid "Insert Sound Variation"
-msgstr "插入声音变奏"
+msgstr "插入声音变化"
+
+#: music/soundvariationeditor.cpp
+msgctxt "SoundVariations"
+msgid "Is always generated"
+msgstr "始终生成"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Momentary"
-msgstr "即时触发"
+msgstr "临时"
 
 #: music/soundvariationeditor.cpp music/soundvariationtreemodel.cpp
 msgctxt "SoundVariations"
@@ -1387,7 +1407,7 @@ msgstr "名称"
 #: music/soundvariationlane.cpp music/soundvariationmenubuilder.cpp
 msgctxt "SoundVariations"
 msgid "No Variation"
-msgstr "无变化"
+msgstr "无声音变化"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1402,17 +1422,17 @@ msgstr "音符开"
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Note On + Off"
-msgstr "音符开+关"
+msgstr "音符开 + 关"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Program Change"
-msgstr "音色改变"
+msgstr "程序切换"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
 msgid "Reload Map from Instrument"
-msgstr "从乐器重新加载地图"
+msgstr "重新加载乐器的映射"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1456,7 +1476,7 @@ msgid ""
 "Do you want to load the variation map anyway?"
 msgstr ""
 "该预设是为“%(1)”生成的，与目标乐器不匹配。\n"
-"是否仍然加载这个变化映射？"
+"是否仍然加载这个声音变化映射？"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1464,8 +1484,8 @@ msgid ""
 "The preset was generated for sound '%(1)' and does not match the current instrument preset.\n"
 "Do you want to load the variation map anyway?"
 msgstr ""
-"该预设是为“%(1)”生成的，与当前的乐器不匹配。\n"
-"是否仍然加载这个变化映射？"
+"该预设是为声音“%(1)”生成的，与当前的乐器预设不匹配。\n"
+"是否仍然加载这个声音变化映射？"
 
 #: music/soundvariationeditor.cpp
 msgctxt "SoundVariations"
@@ -1520,7 +1540,7 @@ msgstr "创建步"
 #: tempo/tempoedithandler.cpp
 msgctxt "TempoEdit"
 msgid "Scale Tempo: please set Timeruler to Bars"
-msgstr "缩放速度：请设置小节的时间刻度"
+msgstr "缩放速度：请设置小节的时间标尺刻度"
 
 #: timeedit/timeedittoolactions.cpp
 msgctxt "TimeEdit"
@@ -1580,12 +1600,12 @@ msgstr "移动播放起点标记"
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Loop End"
-msgstr "设置循环的结尾"
+msgstr "设置循环结尾"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
 msgid "Set Loop Start"
-msgstr "设置循环的开始"
+msgstr "设置循环起点"
 
 #: timeedit/timerulerview.cpp
 msgctxt "TimeRulerView"
@@ -1625,7 +1645,7 @@ msgstr "量化"
 #: timeedit/snaptimeprovider.cpp
 msgctxt "TimeSnapper"
 msgid "Relative Grid"
-msgstr "吸附至相对栅格"
+msgstr "吸附至相对网格"
 
 #: events/eventsnapper.cpp
 msgctxt "TimeSnapper"
@@ -1635,12 +1655,12 @@ msgstr "吸附至事件"
 #: timeedit/snaptimeprovider.cpp
 msgctxt "TimeSnapper"
 msgid "Snap To Grid"
-msgstr "吸附至栅格"
+msgstr "吸附至网格"
 
 #: timeedit/timesnapper.cpp
 msgctxt "TimeSnapper"
 msgid "Toggle Snap"
-msgstr "切换吸附"
+msgstr "吸附切换"
 
 #: base/trashcomponent.cpp
 msgctxt "TrashBin"
@@ -1727,47 +1747,47 @@ msgstr "无法还原此项!"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Blues"
-#~ msgstr "布鲁斯音阶"
+#~ msgstr "Blues"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Chromatic"
-#~ msgstr "半音阶"
+#~ msgstr "Chromatic"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Dorian"
-#~ msgstr "多利亚音阶"
+#~ msgstr "Dorian"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Harmonic Minor"
-#~ msgstr "和声小调"
+#~ msgstr "Harmonic Minor"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Major"
-#~ msgstr "大调"
+#~ msgstr "Major"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Major Pentatonic"
-#~ msgstr "五声大调"
+#~ msgstr "Major Pentatonic"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Melodic Minor"
-#~ msgstr "旋律小调"
+#~ msgstr "Melodic Minor"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Minor Pentatonic"
-#~ msgstr "五声小调"
+#~ msgstr "Minor Pentatonic"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Mixolydian"
-#~ msgstr "混合利底亚音阶"
+#~ msgstr "Mixolydian"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Natural Minor"
-#~ msgstr "自然小调音阶"
+#~ msgstr "Natural Minor"
 
 #~ msgctxt "MusicalScale"
 #~ msgid "Phrygian"
-#~ msgstr "佛里吉亚音阶"
+#~ msgstr "Phrygian"
 
 #~ msgctxt "Notation"
 #~ msgid "Default"

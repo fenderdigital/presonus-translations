@@ -756,6 +756,11 @@ msgctxt "AudioEdit"
 msgid "Bypass Gain Curve"
 msgstr ""
 
+#: ./application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Bypass Pitch Curve"
+msgstr ""
+
 #: ./audio/audiobouncer.cpp
 msgctxt "AudioBouncer"
 msgid "Cannot bounce protected content."
@@ -804,6 +809,11 @@ msgstr ""
 #: ./base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Follow Global Transposition"
+msgstr ""
+
+#: ./base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
+msgid "Change Follow Score"
 msgstr ""
 
 #: ./base/model/actiondescriptions.cpp
@@ -1235,6 +1245,11 @@ msgstr ""
 #: ./editing/arrangereditlayer.cpp
 msgctxt "Command"
 msgid "Create Sections from Markers"
+msgstr ""
+
+#: ./musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Create Tracks For Unused Instruments"
 msgstr ""
 
 #: ./application/eventedit/croptask.cpp
@@ -1747,6 +1762,16 @@ msgctxt "Command"
 msgid "Edit"
 msgstr ""
 
+#: ./application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event End"
+msgstr ""
+
+#: ./application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event Start"
+msgstr ""
+
 #: ./audioediting/audioedithandler.cpp
 msgctxt "AudioEditHandler"
 msgid "Edit Fade Length"
@@ -1760,6 +1785,16 @@ msgstr ""
 #: ./audioediting/audioedithandler.cpp
 msgctxt "AudioEditHandler"
 msgid "Edit Fade Type"
+msgstr ""
+
+#: ./application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-In"
+msgstr ""
+
+#: ./application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-Out"
 msgstr ""
 
 #: ./audioediting/audioedithandler.cpp
@@ -3694,6 +3729,11 @@ msgctxt "Command"
 msgid "Piano View"
 msgstr ""
 
+#: ./audio/audiopitchenvelope.cpp
+msgctxt "Engine:AudioEnvelopeActions"
+msgid "Pitch"
+msgstr ""
+
 #: ./musicediting/patterneditviews.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Pitch"
@@ -4457,6 +4497,11 @@ msgctxt "Video"
 msgid "Replace Video"
 msgstr ""
 
+#: ./editing/eventdraghandler.cpp
+msgctxt "Edit"
+msgid "Replace all Events with same Clip"
+msgstr ""
+
 #: ./application/audioinit.cpp
 msgctxt "Audio"
 msgid "Resampler"
@@ -4500,6 +4545,11 @@ msgstr ""
 #: ./musicediting/drumpitchlistmanager.cpp
 msgctxt "DrumPitchNameSetup"
 msgid "Reset Order"
+msgstr ""
+
+#: ./application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Reset Pitch Curve"
 msgstr ""
 
 #: ./base/model/actiondescriptions.cpp
@@ -4720,6 +4770,11 @@ msgstr ""
 #: ./musicediting/patterneditcomponent.cpp
 msgctxt "MusicPatternPartEditor"
 msgid "Selected Lane"
+msgstr ""
+
+#: ./editing/chordeditlayer.cpp
+msgctxt "ChordTrack"
+msgid "Semitones"
 msgstr ""
 
 #: ./application/audioedit/audioclipversiontasks.cpp
@@ -5199,6 +5254,11 @@ msgctxt "AudioPlayMode"
 msgid "Slices"
 msgstr ""
 
+#: ./application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Slip Event"
+msgstr ""
+
 #: ./editing/tracklist.cpp
 msgctxt "TrackHeights"
 msgid "Small"
@@ -5627,6 +5687,11 @@ msgstr ""
 #: ./application/eventedit/locktask.cpp
 msgctxt "Edit"
 msgid "Toggle Lock"
+msgstr ""
+
+#: ./application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Toggle Pitch Curve"
 msgstr ""
 
 #: ./automationediting/automationtracklistcomponent.cpp

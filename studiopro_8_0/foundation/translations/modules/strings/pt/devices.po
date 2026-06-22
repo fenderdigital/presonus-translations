@@ -149,6 +149,11 @@ msgctxt "ActionDescriptions"
 msgid "Swap Macro Controls"
 msgstr "Trocar Controles de Macro"
 
+#: audiosynths/audiosyntheditfunctions.cpp
+msgctxt "ActionDescriptions"
+msgid "Transfer Instrument"
+msgstr "Transferir Instrumento"
+
 #: audiomixer/audiochannel.cpp
 msgctxt "AudioChannel"
 msgid "Mute"
@@ -444,6 +449,11 @@ msgstr "Ativar Todos %(1)"
 msgctxt "AudioFX"
 msgid "Enable Plug-in Nap"
 msgstr "Ativar Suspensão de Plug-Ins"
+
+#: audioeffects/audiofxfolder.cpp
+msgctxt "AudioFX"
+msgid "FX Chain"
+msgstr "Cadeia de Efeitos"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
@@ -1122,6 +1132,16 @@ msgstr "Instrumentos"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
+msgid "Move all to Instrument Set"
+msgstr "Mover tudo para o Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Move to Instrument Set"
+msgstr "Mover para o Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Multi Instrument"
 msgstr "Multi Instrumento"
 
@@ -1139,6 +1159,16 @@ msgstr "Remover Não Utilizados"
 msgctxt "AudioSynth"
 msgid "Remove Unused Instruments"
 msgstr "Remover Instrumentos Não Utilizados"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename all Instruments to Preset"
+msgstr "Renomear todos os Instrumentos para o Preset"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename to Preset"
+msgstr "Renomear para Preset"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1494,6 +1524,11 @@ msgstr "Dispositivos"
 msgctxt "Command"
 msgid "Dim"
 msgstr "Dim"
+
+#: audiomixer/audiodrumclickcomponent.cpp
+msgctxt "Command"
+msgid "Drum Metronome"
+msgstr "Metrônomo de Bateria"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -2085,7 +2120,7 @@ msgctxt "Command"
 msgid "Toggle Start"
 msgstr "Alternar Início"
 
-#: transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
+#: audiomixer/audiodrumclickcomponent.cpp transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Transport"
 msgstr "Transporte"
@@ -2217,6 +2252,11 @@ msgstr "Ignorar"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
+msgid "Chain"
+msgstr "Cadeia"
+
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Collapse"
 msgstr "Retrair"
 
@@ -2334,6 +2374,11 @@ msgstr "Adicionar parâmetro de micro edição \"%(1)\""
 msgctxt "DeviceRack"
 msgid "Automation"
 msgstr "Automação"
+
+#: editor/devicerack.cpp
+msgctxt "DeviceRack"
+msgid "Load %(1)"
+msgstr "Carregar %(1)"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
@@ -2729,6 +2774,106 @@ msgstr "Clique para mover canais"
 msgctxt "InsertSpeakerMapper"
 msgid "No match"
 msgstr "Nenhuma correspondência"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Cleanup Shared Instruments: %(1)"
+msgstr "Limpar Instrumentos Compartilhados: %(1)"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Disable Instrument Set"
+msgstr "Desativar Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Enable Instrument Set"
+msgstr "Ativar Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set"
+msgstr "Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\""
+msgstr "Conjunto de Instrumentos \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\" was modified. Do you want to save it?"
+msgstr "O Conjunto de Instrumentos \"%(1)\" foi modificado. Deseja salvá-lo?"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Sets"
+msgstr "Conjuntos de Instrumentos"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Load Instrument Set \"%(1)\""
+msgstr "Carregar Conjunto de Instrumentos \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set"
+msgstr "Carregando Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set \"%(1)\""
+msgstr "Carregando Conjunto de Instrumentos \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Move to Instrument Set"
+msgstr "Mover para o Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "New Instrument Set"
+msgstr "Novo Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Remove"
+msgstr "Remover"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename"
+msgstr "Renomear"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename Instrument Set \"%(1)\""
+msgstr "Renomear Conjunto de Instrumentos \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Reset Default Instrument Set"
+msgstr "Redefinir Conjunto de Instrumentos Padrão"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Store Instrument Set"
+msgstr "Armazenar Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "The current instrument set was modified. Do you want to save it?"
+msgstr "O conjunto de instrumentos atual foi modificado. Deseja salvá-lo?"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Update Instrument Set"
+msgstr "Atualizar Conjunto de Instrumentos"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Use as Default"
+msgstr "Usar como Padrão"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -3535,6 +3680,11 @@ msgstr "Sidechains"
 msgctxt "SideChain"
 msgid "Toggle Prefader"
 msgstr "Alternar Pré Fader"
+
+#: midi/simplemidiinput.cpp
+msgctxt "SimpleMidiInput"
+msgid "Setup..."
+msgstr "Configuração..."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"

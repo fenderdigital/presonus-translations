@@ -121,8 +121,8 @@ msgstr "끄기"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Dolby Personalized Headphone File"
-msgstr "돌비 개인화된 헤드폰 파일"
+msgid "Dolby Headphone Personalization File"
+msgstr "Dolby 헤드폰 맞춤 설정 파일"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -131,8 +131,8 @@ msgstr "EBU +18 스케일"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Import Personalized Headphone File"
-msgstr "개인화된 헤드폰 파일 임포트"
+msgid "Import Headphone Personalization File"
+msgstr "헤드폰 맞춤 설정 파일 불러오기"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -166,8 +166,8 @@ msgstr "리셋"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Show Headphone Configurations"
-msgstr "헤드폰 설정 보이기"
+msgid "Show Headphone Personalizations"
+msgstr "헤드폰 맞춤 설정 보기"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -176,8 +176,8 @@ msgstr "솔로"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Use Configuration '%(1)'"
-msgstr "'%(1)' 설정 사용"
+msgid "Use Headphone Personalization '%(1)'"
+msgstr "헤드폰 맞춤 설정 '%(1)' 보기"
 
 #: dolbyatmossystem.cpp
 msgctxt "DolbyAtmosSystem"
@@ -239,15 +239,15 @@ msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos Master File"
 msgstr "돌비 애트머스 마스터 파일"
 
-#: dolbyatmossystem.cpp
-msgctxt "DolbyAtmosSystem"
-msgid "Dolby Atmos PHRTF"
-msgstr "돌비 애트머스 PHRTF"
-
 #: dolbyatmosmasteralgo.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos master files cannot contain more than 128 channels"
 msgstr "돌비 애트머스 마스터 파일에는 128 채널까지만 포함될 수 있습니다."
+
+#: dolbyatmossystem.cpp
+msgctxt "DolbyAtmosSystem"
+msgid "Dolby Headphone Personalization"
+msgstr "Dolby 헤드폰 맞춤 설정"
 
 #: dolbymasterfile.cpp
 msgctxt "DolbyAtmosSystem"
@@ -299,6 +299,22 @@ msgctxt "SpatialAudio"
 msgid "Support for Spatial Audio"
 msgstr "공간감 오디오(Spatial Audio) 지원"
 
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Dolby Personalized Headphone File"
+#~ msgstr "돌비 개인화된 헤드폰 파일"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Import Personalized Headphone File"
+#~ msgstr "개인화된 헤드폰 파일 임포트"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Show Headphone Configurations"
+#~ msgstr "헤드폰 설정 보이기"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Use Configuration '%(1)'"
+#~ msgstr "'%(1)' 설정 사용"
+
 #~ msgctxt "DolbyAtmosSystem"
 #~ msgid "Atmos Bed"
 #~ msgstr "애트머스 베드"
@@ -306,3 +322,7 @@ msgstr "공간감 오디오(Spatial Audio) 지원"
 #~ msgctxt "DolbyAtmosSystem"
 #~ msgid "Atmos Bed %(1)"
 #~ msgstr "애트머스 메드 %(1)"
+
+#~ msgctxt "DolbyAtmosSystem"
+#~ msgid "Dolby Atmos PHRTF"
+#~ msgstr "돌비 애트머스 PHRTF"

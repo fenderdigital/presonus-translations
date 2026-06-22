@@ -29,6 +29,21 @@ msgctxt "AppSafety"
 msgid "Show the Plug-In Manager."
 msgstr "Afficher le gestionnaire de plug-ins"
 
+#: moisesaudiotasks.cpp
+msgctxt "AudioEdit"
+msgid "Convert Voice with Moises"
+msgstr "Convertir la voix avec Moises"
+
+#: moisesaudiotasks.cpp
+msgctxt "AudioEdit"
+msgid "Generate Stems with Moises"
+msgstr "Générer des stems avec Moises"
+
+#: moisesaudiotasks.cpp
+msgctxt "AudioEdit"
+msgid "Separate Stems with Moises"
+msgstr "Séparer les stems avec Moises"
+
 #: automationhandler.cpp
 msgctxt "AutomationHandler"
 msgid "Apply Current Automation"
@@ -263,6 +278,11 @@ msgstr "Afficher les boucles"
 msgctxt "Command"
 msgid "Show Macro Controls"
 msgstr "Afficher les macrocommandes"
+
+#: sidebar.cpp
+msgctxt "Command"
+msgid "Show Moises"
+msgstr "Afficher Moises"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -781,6 +801,11 @@ msgstr "Installer du contenu"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
+msgid "Instrument Sets"
+msgstr "Jeux d'instruments"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
 msgid "Instruments"
 msgstr "Instruments"
 
@@ -836,8 +861,18 @@ msgstr "Taux"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
+msgid "Reset Order"
+msgstr "Réinitialiser l'ordre"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
 msgid "Shop"
 msgstr "Boutique"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
+msgid "Show Icons Only"
+msgstr "N'afficher que les icônes"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -921,13 +956,13 @@ msgstr "Créer un clic de batterie"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
-msgid "Create Music Part For '%(1)'"
-msgstr "Créer une partie musicale pour '%(1)'"
+msgid "Create Instrument Part For '%(1)'"
+msgstr "Créer partie instrument pour '%(1)'"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
-msgid "Create Music Part For Active Click"
-msgstr "Créer une partie musicale pour le clic activé"
+msgid "Create Instrument Part For Active Click"
+msgstr "Créer partie instrument pour clic actif"
 
 #: showdocument.cpp
 msgctxt "StudioApp"
@@ -1118,6 +1153,11 @@ msgstr "Commencer une nouvelle session d'enregistrement et de mixage."
 msgctxt "StudioApp"
 msgid "Stems"
 msgstr "Stems"
+
+#: studioapp.cpp
+msgctxt "StudioApp"
+msgid "Studio Assistant"
+msgstr "Studio Assistant"
 
 #: studioapp.cpp
 msgctxt "StudioApp"
@@ -1358,6 +1398,14 @@ msgstr "Nombre de fichiers de média incorporés: %(1)"
 #~ msgctxt "StudioApp"
 #~ msgid "An older version of $APPNAME has been found on this computer."
 #~ msgstr "Une version plus ancienne de $APPNAME a été trouvée sur cet ordinateur."
+
+#~ msgctxt "StudioApp"
+#~ msgid "Create Music Part For '%(1)'"
+#~ msgstr "Créer une partie musicale pour '%(1)'"
+
+#~ msgctxt "StudioApp"
+#~ msgid "Create Music Part For Active Click"
+#~ msgstr "Créer une partie musicale pour le clic activé"
 
 #~ msgctxt "StudioApp"
 #~ msgid "Create an empty Show"

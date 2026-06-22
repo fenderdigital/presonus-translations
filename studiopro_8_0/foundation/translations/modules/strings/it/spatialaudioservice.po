@@ -121,8 +121,8 @@ msgstr "Disattiva"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Dolby Personalized Headphone File"
-msgstr "File Dolby Personalized Headphone"
+msgid "Dolby Headphone Personalization File"
+msgstr "File di personalizzazione Dolby Headphone"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -131,8 +131,8 @@ msgstr "Scala EBU +18"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Import Personalized Headphone File"
-msgstr "Importazione del file Headphone Personalizzato"
+msgid "Import Headphone Personalization File"
+msgstr "Importa il file di personalizzazione delle cuffie"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -166,8 +166,8 @@ msgstr "Reset"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Show Headphone Configurations"
-msgstr "Mostra Configurazioni Cuffie"
+msgid "Show Headphone Personalizations"
+msgstr "Mostra le personalizzazioni delle cuffie"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -176,8 +176,8 @@ msgstr "Solo"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Use Configuration '%(1)'"
-msgstr "Utilizza la Configurazione '%(1)'"
+msgid "Use Headphone Personalization '%(1)'"
+msgstr "Usa la personalizzazione delle cuffie '%(1)'"
 
 #: dolbyatmossystem.cpp
 msgctxt "DolbyAtmosSystem"
@@ -239,15 +239,15 @@ msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos Master File"
 msgstr "File Master Dolby Atmos"
 
-#: dolbyatmossystem.cpp
-msgctxt "DolbyAtmosSystem"
-msgid "Dolby Atmos PHRTF"
-msgstr "Dolby Atmos PHRTF"
-
 #: dolbyatmosmasteralgo.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos master files cannot contain more than 128 channels"
 msgstr "I file master Dolby Atmos non possono contenere più di 128 canali."
+
+#: dolbyatmossystem.cpp
+msgctxt "DolbyAtmosSystem"
+msgid "Dolby Headphone Personalization"
+msgstr "Personalizzazione Dolby Headphone"
 
 #: dolbymasterfile.cpp
 msgctxt "DolbyAtmosSystem"
@@ -299,6 +299,22 @@ msgctxt "SpatialAudio"
 msgid "Support for Spatial Audio"
 msgstr "Supporto per l'Audio Spaziale"
 
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Dolby Personalized Headphone File"
+#~ msgstr "File Dolby Personalized Headphone"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Import Personalized Headphone File"
+#~ msgstr "Importazione del file Headphone Personalizzato"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Show Headphone Configurations"
+#~ msgstr "Mostra Configurazioni Cuffie"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Use Configuration '%(1)'"
+#~ msgstr "Utilizza la Configurazione '%(1)'"
+
 #~ msgctxt "DolbyAtmosSystem"
 #~ msgid "Atmos Bed"
 #~ msgstr "Atmos Bed"
@@ -306,3 +322,7 @@ msgstr "Supporto per l'Audio Spaziale"
 #~ msgctxt "DolbyAtmosSystem"
 #~ msgid "Atmos Bed %(1)"
 #~ msgstr "Atmos Bed %(1)"
+
+#~ msgctxt "DolbyAtmosSystem"
+#~ msgid "Dolby Atmos PHRTF"
+#~ msgstr "Dolby Atmos PHRTF"

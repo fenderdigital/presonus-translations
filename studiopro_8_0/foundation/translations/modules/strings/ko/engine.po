@@ -41,6 +41,11 @@ msgstr "팔로우 글로벌 트랜스포지션 변경"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
+msgid "Change Follow Score"
+msgstr "팔로우 스코어 변경"
+
+#: base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
 msgid "Change Layers Follow"
 msgstr "레이어 팔로우 변경"
 
@@ -584,6 +589,11 @@ msgctxt "AudioEdit"
 msgid "Bypass Gain Curve"
 msgstr "게인 커브 바이패스"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Bypass Pitch Curve"
+msgstr "피치 커브 바이패스"
+
 #: application/audioedit/audiostemtask.cpp
 msgctxt "AudioEdit"
 msgid "Cannot separate Events with incompatible Speaker Format:"
@@ -633,6 +643,16 @@ msgstr "오디오 파트 해제"
 msgctxt "AudioEdit"
 msgid "Drum sounds are not installed. Do you want to install them?"
 msgstr "드럼 사운드가 설치되어 있지 않습니다. 설치하시겠습니까?"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-In"
+msgstr "페이드인 편집"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-Out"
+msgstr "페이드아웃 편집"
 
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
@@ -744,6 +764,11 @@ msgctxt "AudioEdit"
 msgid "Reset Gain Curve"
 msgstr "게인 커브 리셋"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Reset Pitch Curve"
+msgstr "피치 커브 초기화"
+
 #: application/audioedit/audioeventfxtasks.cpp
 msgctxt "AudioEdit"
 msgid "Restore Event FX"
@@ -813,6 +838,11 @@ msgstr "벤드 마커 전환"
 msgctxt "AudioEdit"
 msgid "Toggle Gain Curve"
 msgstr "게인 커브 전환"
+
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Toggle Pitch Curve"
+msgstr "피치 커브 전환"
 
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
@@ -1270,6 +1300,11 @@ msgstr "코드 변경"
 msgctxt "ChordTrack"
 msgid "Ripple Edit"
 msgstr "리플 편집"
+
+#: editing/chordeditlayer.cpp
+msgctxt "ChordTrack"
+msgid "Semitones"
+msgstr "세미톤"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
@@ -3191,6 +3226,11 @@ msgctxt "Edit"
 msgid "Create Markers from Arranger Sections"
 msgstr "어레인저 섹션에서 마커 만들기"
 
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Create Tracks For Unused Instruments"
+msgstr "사용하지 않은 인스트루먼트의 트랙 생성"
+
 #: application/eventedit/croptask.cpp
 msgctxt "Edit"
 msgid "Crop to Content"
@@ -3230,6 +3270,16 @@ msgstr "트랙 복제"
 msgctxt "Edit"
 msgid "Duplicate Tracks"
 msgstr "트랙 복제"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event End"
+msgstr "이벤트 엔드 편집"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event Start"
+msgstr "이벤트 스타트 편집"
 
 #: editing/markereditlayer.cpp
 msgctxt "Edit"
@@ -3381,6 +3431,11 @@ msgctxt "Edit"
 msgid "Replace Partially"
 msgstr "부분 교체"
 
+#: editing/eventdraghandler.cpp
+msgctxt "Edit"
+msgid "Replace all Events with same Clip"
+msgstr "모든 이벤트를 동일한 클립으로 대체"
+
 #: editing/arrangereditlayer.cpp
 msgctxt "Edit"
 msgid "Section Number"
@@ -3430,6 +3485,11 @@ msgstr "싱크포인트를 마우스 커서로 설정"
 msgctxt "Edit"
 msgid "Show Chords"
 msgstr "코드 표시"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Slip Event"
+msgstr "이벤트 슬립"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Edit"
@@ -3850,6 +3910,11 @@ msgstr "%(1) 커브 바이패스"
 msgctxt "Engine:AudioEnvelopeActions"
 msgid "Gain"
 msgstr "게인"
+
+#: audio/audiopitchenvelope.cpp
+msgctxt "Engine:AudioEnvelopeActions"
+msgid "Pitch"
+msgstr "피치"
 
 #: audio/audioenvelopefunctions.cpp
 msgctxt "Engine:AudioEnvelopeActions"
@@ -4544,12 +4609,12 @@ msgstr "풀(Pool)에서 클립 제거"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Scanning folder: "
-msgstr "폴더 스캔 중:"
+msgstr "폴더 스캔 중: "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Search was canceled. "
-msgstr "검색이 취소되었습니다."
+msgstr "검색이 취소되었습니다. "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -4564,7 +4629,7 @@ msgstr "트랙에서 선택"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Used by: "
-msgstr "사용처:"
+msgstr "사용처: "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"

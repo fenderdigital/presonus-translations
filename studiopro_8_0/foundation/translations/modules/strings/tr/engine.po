@@ -41,6 +41,11 @@ msgstr "Genel Transpozisyon Takibini Değiştir"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
+msgid "Change Follow Score"
+msgstr ""
+
+#: base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
 msgid "Change Layers Follow"
 msgstr "Katman Takibini Değiştir"
 
@@ -584,6 +589,11 @@ msgctxt "AudioEdit"
 msgid "Bypass Gain Curve"
 msgstr ""
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Bypass Pitch Curve"
+msgstr ""
+
 #: application/audioedit/audiostemtask.cpp
 msgctxt "AudioEdit"
 msgid "Cannot separate Events with incompatible Speaker Format:"
@@ -632,6 +642,16 @@ msgstr "Ses Bölümünü Dağıt"
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
 msgid "Drum sounds are not installed. Do you want to install them?"
+msgstr ""
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-In"
+msgstr ""
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-Out"
 msgstr ""
 
 #: application/audioedit/audionotetasks.cpp
@@ -744,6 +764,11 @@ msgctxt "AudioEdit"
 msgid "Reset Gain Curve"
 msgstr ""
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Reset Pitch Curve"
+msgstr ""
+
 #: application/audioedit/audioeventfxtasks.cpp
 msgctxt "AudioEdit"
 msgid "Restore Event FX"
@@ -812,6 +837,11 @@ msgstr "Büküm İşaretlerini Aç/Kapa"
 #: application/audioedit/audioenvelopetasks.cpp
 msgctxt "AudioEdit"
 msgid "Toggle Gain Curve"
+msgstr ""
+
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Toggle Pitch Curve"
 msgstr ""
 
 #: application/audioedit/audiocrossfadetask.cpp
@@ -1269,6 +1299,11 @@ msgstr ""
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
 msgid "Ripple Edit"
+msgstr ""
+
+#: editing/chordeditlayer.cpp
+msgctxt "ChordTrack"
+msgid "Semitones"
 msgstr ""
 
 #: editing/chordeditlayer.cpp
@@ -3191,6 +3226,11 @@ msgctxt "Edit"
 msgid "Create Markers from Arranger Sections"
 msgstr "Aranjör Bölümlerinden İşaretler Oluştur"
 
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Create Tracks For Unused Instruments"
+msgstr ""
+
 #: application/eventedit/croptask.cpp
 msgctxt "Edit"
 msgid "Crop to Content"
@@ -3230,6 +3270,16 @@ msgstr "Kanalı Kopyala"
 msgctxt "Edit"
 msgid "Duplicate Tracks"
 msgstr "Kanalları Kopyala"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event End"
+msgstr ""
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event Start"
+msgstr ""
 
 #: editing/markereditlayer.cpp
 msgctxt "Edit"
@@ -3381,6 +3431,11 @@ msgctxt "Edit"
 msgid "Replace Partially"
 msgstr "Kısmen Değiştir"
 
+#: editing/eventdraghandler.cpp
+msgctxt "Edit"
+msgid "Replace all Events with same Clip"
+msgstr ""
+
 #: editing/arrangereditlayer.cpp
 msgctxt "Edit"
 msgid "Section Number"
@@ -3430,6 +3485,11 @@ msgstr "Senkron Noktasını Fare İmlecine Ayarla"
 msgctxt "Edit"
 msgid "Show Chords"
 msgstr "Akorları Göster"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Slip Event"
+msgstr ""
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Edit"
@@ -3850,6 +3910,11 @@ msgstr ""
 msgctxt "Engine:AudioEnvelopeActions"
 msgid "Gain"
 msgstr "Kazanç"
+
+#: audio/audiopitchenvelope.cpp
+msgctxt "Engine:AudioEnvelopeActions"
+msgid "Pitch"
+msgstr ""
 
 #: audio/audioenvelopefunctions.cpp
 msgctxt "Engine:AudioEnvelopeActions"

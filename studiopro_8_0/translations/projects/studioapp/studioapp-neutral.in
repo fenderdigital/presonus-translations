@@ -148,8 +148,8 @@ print: Copying tables...
 
 print: Copying resources...
 ; External Devices
-findPath: $(DevicesDir) translations /resources/devices/$(language)
-setInputDir: $(DevicesDir)/resources/devices/$(language)
+findPath: $(ExternalDevicesDir) submodules /translations/resources/$(language)
+setInputDir: $(ExternalDevicesDir)/translations/resources/$(language)
 setOutputDir: ./$(TempDir)/$(LanguagePack)/resources/devices
 copyFolder
 

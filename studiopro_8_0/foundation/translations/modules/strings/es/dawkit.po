@@ -2288,6 +2288,26 @@ msgstr "Automático"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
+msgid "Bypass All Inserts"
+msgstr "Omitir todas las inserciones"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Inserts + Fader"
+msgstr "Omitir Inserciones + Fader"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Post Inserts"
+msgstr "Omitir post-inserciones"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Pre Inserts"
+msgstr "Omitir pre-inserciones"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "No es posible crear una mezcla con contenido protegido."
 
@@ -2315,6 +2335,11 @@ msgstr "Falló al exportar archivo de audio."
 msgctxt "SongRenderer"
 msgid "Mono"
 msgstr "Mono"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "No bypass"
+msgstr "No bypass"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2553,8 +2578,29 @@ msgstr "Aplicar preset de pista '%(1)'"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
+msgid "Do you want to update track preset '%(1)'?"
+msgstr "¿Desea actualizar el preset de pista '%(1)'?"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Keep original"
+msgstr "Mantener el original"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
 msgid "Load Track Preset"
 msgstr "Cargar Preset de pista"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid ""
+"Selected tracks differ from those in the '%(1)' preset.\n"
+"\n"
+"Do you want to update which tracks are saved?"
+msgstr ""
+"Las pistas seleccionadas difieren de las del preset “%(1)”.\n"
+"\n"
+"¿Desea actualizar qué pistas se guardan?"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
@@ -2570,6 +2616,16 @@ msgstr "Preset de pista"
 msgctxt "TrackPreset"
 msgid "Track Presets"
 msgstr "Presets de pista"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update"
+msgstr "Actualización"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update Track Preset"
+msgstr "Actualizar preset de pista"
 
 #: shared/basicvideohandler.cpp
 msgctxt "Video"

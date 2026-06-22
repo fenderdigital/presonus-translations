@@ -41,6 +41,11 @@ msgstr "Changer Suivre la transposition globale"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
+msgid "Change Follow Score"
+msgstr "Changer Suivre partition"
+
+#: base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
 msgid "Change Layers Follow"
 msgstr "Changer l'asservissement des couches"
 
@@ -584,6 +589,11 @@ msgctxt "AudioEdit"
 msgid "Bypass Gain Curve"
 msgstr "By-passer la courbe de gain"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Bypass Pitch Curve"
+msgstr "Bypasser courbe de hauteur"
+
 #: application/audioedit/audiostemtask.cpp
 msgctxt "AudioEdit"
 msgid "Cannot separate Events with incompatible Speaker Format:"
@@ -633,6 +643,16 @@ msgstr "Dissoudre la partie audio"
 msgctxt "AudioEdit"
 msgid "Drum sounds are not installed. Do you want to install them?"
 msgstr "Les sons de batterie ne sont pas installés. Voulez-vous les installer ?"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-In"
+msgstr "Éditer fondu d'entrée"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-Out"
+msgstr "Éditer fondu de sortie"
 
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
@@ -744,6 +764,11 @@ msgctxt "AudioEdit"
 msgid "Reset Gain Curve"
 msgstr "Réinitialiser courbe de gain"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Reset Pitch Curve"
+msgstr "Réinitialiser courbe de hauteur"
+
 #: application/audioedit/audioeventfxtasks.cpp
 msgctxt "AudioEdit"
 msgid "Restore Event FX"
@@ -813,6 +838,11 @@ msgstr "Commuter les marqueurs d'étirement"
 msgctxt "AudioEdit"
 msgid "Toggle Gain Curve"
 msgstr "Commuter courbe de gain"
+
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Toggle Pitch Curve"
+msgstr "Commuter courbe de hauteur"
 
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
@@ -1273,6 +1303,11 @@ msgstr "Édition sans blancs"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
+msgid "Semitones"
+msgstr "Demi-tons"
+
+#: editing/chordeditlayer.cpp
+msgctxt "ChordTrack"
 msgid "Store Chord Preset"
 msgstr "Mémoriser preset d'accord"
 
@@ -1289,7 +1324,7 @@ msgstr "Style par défaut"
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
 msgid "Minimal"
-msgstr "Minimale"
+msgstr "Minimal"
 
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
@@ -1304,7 +1339,7 @@ msgstr "Numéros"
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
 msgid "Regular"
-msgstr "Normale"
+msgstr "Normal"
 
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
@@ -1319,7 +1354,7 @@ msgstr "Petites capitales"
 #: editing/chordtrackcomponent.cpp
 msgctxt "Chords"
 msgid "Symbol"
-msgstr "Symbole"
+msgstr "Symboles"
 
 #: editing/tracklayercomponent.cpp
 msgctxt "Command"
@@ -1769,12 +1804,12 @@ msgstr "Éditer"
 #: musicediting/musiceditextension.cpp
 msgctxt "Command"
 msgid "Edit Next Pattern"
-msgstr "Éditer la pattern suivante"
+msgstr "Éditer le pattern suivant"
 
 #: musicediting/musiceditextension.cpp
 msgctxt "Command"
 msgid "Edit Previous Pattern"
-msgstr "Éditer la pattern précédente"
+msgstr "Éditer le pattern précédent"
 
 #: editing/globaltrackscomponent.cpp editing/trackeditor.cpp
 msgctxt "Command"
@@ -1859,12 +1894,12 @@ msgstr "Adapter la ligne de temps au contenu"
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "Command"
 msgid "Freeze to Audio Track"
-msgstr "Geler en piste audio"
+msgstr "Figer en piste audio"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "Command"
 msgid "Freeze to Rendered Audio"
-msgstr "Geler en audio converti"
+msgstr "Figer en audio converti"
 
 #: editing/arrangereditlayer.cpp
 msgctxt "Command"
@@ -3059,12 +3094,12 @@ msgstr "Annuler le changement de visibilité"
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "Command"
 msgid "Unfreeze to Instrument Track"
-msgstr "Dégeler vers piste d'instrument"
+msgstr "Rétablir piste d'instrument"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "Command"
 msgid "Unfreeze to Realtime Audio"
-msgstr "Dégeler vers audio en temps réel"
+msgstr "Défiger en audio en temps réel"
 
 #: editing/takelist.cpp
 msgctxt "Command"
@@ -3191,6 +3226,11 @@ msgctxt "Edit"
 msgid "Create Markers from Arranger Sections"
 msgstr "Créer des marqueurs d'après les sections d'arrangeur"
 
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Create Tracks For Unused Instruments"
+msgstr "Créer des pistes pour les instruments inutilisés"
+
 #: application/eventedit/croptask.cpp
 msgctxt "Edit"
 msgid "Crop to Content"
@@ -3230,6 +3270,16 @@ msgstr "Dupliquer la piste"
 msgctxt "Edit"
 msgid "Duplicate Tracks"
 msgstr "Dupliquer les pistes"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event End"
+msgstr "Éditer fin d'événement"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event Start"
+msgstr "Éditer début d'événement"
 
 #: editing/markereditlayer.cpp
 msgctxt "Edit"
@@ -3381,6 +3431,11 @@ msgctxt "Edit"
 msgid "Replace Partially"
 msgstr "Remplacer partiellement"
 
+#: editing/eventdraghandler.cpp
+msgctxt "Edit"
+msgid "Replace all Events with same Clip"
+msgstr "Remplacer tous les événements par le mêlme clip"
+
 #: editing/arrangereditlayer.cpp
 msgctxt "Edit"
 msgid "Section Number"
@@ -3430,6 +3485,11 @@ msgstr "Fixer le point de synchro au curseur de la souris"
 msgctxt "Edit"
 msgid "Show Chords"
 msgstr "Afficher les accords"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Slip Event"
+msgstr "Faire glisser un événement"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Edit"
@@ -3850,6 +3910,11 @@ msgstr "By-passer la courbe %(1)"
 msgctxt "Engine:AudioEnvelopeActions"
 msgid "Gain"
 msgstr "Gain"
+
+#: audio/audiopitchenvelope.cpp
+msgctxt "Engine:AudioEnvelopeActions"
+msgid "Pitch"
+msgstr "Hauteur"
 
 #: audio/audioenvelopefunctions.cpp
 msgctxt "Engine:AudioEnvelopeActions"
@@ -4544,12 +4609,12 @@ msgstr "Retirer le clip du chutier"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Scanning folder: "
-msgstr "Analyse du dossier:"
+msgstr "Analyse du dossier: "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Search was canceled. "
-msgstr "La recherche a été annulée."
+msgstr "La recherche a été annulée. "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -4564,7 +4629,7 @@ msgstr "Sélectionner sur piste"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Used by: "
-msgstr "Utilisé par:"
+msgstr "Utilisé par: "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -4729,7 +4794,7 @@ msgstr "Suivre"
 #: editing/mediatrackcontroller.cpp
 msgctxt "MediaTrack"
 msgid "Narrow"
-msgstr "Étroite"
+msgstr "Proche"
 
 #: editing/mediatrackcontroller.cpp
 msgctxt "MediaTrack"
@@ -5353,7 +5418,7 @@ msgstr "Prise d'enregist."
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
 msgid "Remove Unused Files"
-msgstr "Supprimer les fichiers inutiles"
+msgstr "Retirer les fichiers inutiles"
 
 #: pool/mediapoolbrowser.cpp
 msgctxt "PoolBrowser"
@@ -5763,12 +5828,12 @@ msgstr "Des erreurs se sont produites pendant la conversion."
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Freeze to Audio Track"
-msgstr "Geler en piste audio"
+msgstr "Figer en piste audio"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Freeze to Rendered Audio"
-msgstr "Geler en audio converti"
+msgstr "Figer en audio converti"
 
 #: automationediting/automationtrackcomponent.cpp
 msgctxt "TrackEdit"
@@ -5793,12 +5858,12 @@ msgstr "Convertir les pistes d'instrument"
 #: application/musicedit/musictracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Unfreeze to Instrument Track"
-msgstr "Dégeler vers piste d'instrument"
+msgstr "Rétablir piste d'instrument"
 
 #: application/audioedit/audiotracktransformtask.cpp
 msgctxt "TrackEdit"
 msgid "Unfreeze to Realtime Audio"
-msgstr "Dégeler vers audio en temps réel"
+msgstr "Défiger en audio en temps réel"
 
 #: editing/tracklist.cpp
 msgctxt "TrackHeights"
@@ -6133,7 +6198,7 @@ msgstr "nouvelle piste"
 
 #~ msgctxt "Command"
 #~ msgid "Export Stems"
-#~ msgstr "Exporter les sous-groupes"
+#~ msgstr "Exporter les stems"
 
 #~ msgctxt "Command"
 #~ msgid "Export Video"
@@ -6329,7 +6394,7 @@ msgstr "nouvelle piste"
 
 #~ msgctxt "Edit"
 #~ msgid "Mixdown Selection"
-#~ msgstr "Sélection du mixage"
+#~ msgstr "Mixer la selection"
 
 #~ msgctxt "Edit"
 #~ msgid "Move to Origin"

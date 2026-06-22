@@ -2288,6 +2288,26 @@ msgstr "오토매틱"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
+msgid "Bypass All Inserts"
+msgstr "모든 인서트 바이패스"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Inserts + Fader"
+msgstr "인서트와 페이더 바이패스"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Post Inserts"
+msgstr "포스트 인서트 바이패스"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Pre Inserts"
+msgstr "프리 인서트 바이패스"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "보호된 콘텐츠에서 믹스다운을 작성할 수 없습니다."
 
@@ -2315,6 +2335,11 @@ msgstr "오디오 파일로 익스포트에 실패했습니다."
 msgctxt "SongRenderer"
 msgid "Mono"
 msgstr "모노"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "No bypass"
+msgstr "바이패스 없음"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2553,8 +2578,29 @@ msgstr "트랙 프리셋 '%(1)' 적용"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
+msgid "Do you want to update track preset '%(1)'?"
+msgstr "'%(1)' 트랙 프리셋을 업데이트 하시겠습니까?"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Keep original"
+msgstr "원본 유지"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
 msgid "Load Track Preset"
 msgstr "트랙 프리셋 로드"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid ""
+"Selected tracks differ from those in the '%(1)' preset.\n"
+"\n"
+"Do you want to update which tracks are saved?"
+msgstr ""
+"선택된 트랙이 '%(1)' 프리셋의 트랙과 일치하지 않습니다.\n"
+"\n"
+"저장된 트랙을 업데이트하시겠습니까?"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
@@ -2570,6 +2616,16 @@ msgstr "트랙 프리셋"
 msgctxt "TrackPreset"
 msgid "Track Presets"
 msgstr "트랙 프리셋"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update"
+msgstr "업데이트"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update Track Preset"
+msgstr "트랙 프리셋 업데이트"
 
 #: shared/basicvideohandler.cpp
 msgctxt "Video"

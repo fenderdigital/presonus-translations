@@ -29,6 +29,21 @@ msgctxt "AppSafety"
 msgid "Show the Plug-In Manager."
 msgstr "プラグインマネージャーを表示します。"
 
+#: moisesaudiotasks.cpp
+msgctxt "AudioEdit"
+msgid "Convert Voice with Moises"
+msgstr "Moisesでボイスを変換"
+
+#: moisesaudiotasks.cpp
+msgctxt "AudioEdit"
+msgid "Generate Stems with Moises"
+msgstr "Moisesでステムを生成"
+
+#: moisesaudiotasks.cpp
+msgctxt "AudioEdit"
+msgid "Separate Stems with Moises"
+msgstr "Moisesでステムを分割"
+
 #: automationhandler.cpp
 msgctxt "AutomationHandler"
 msgid "Apply Current Automation"
@@ -263,6 +278,11 @@ msgstr "ループを表示"
 msgctxt "Command"
 msgid "Show Macro Controls"
 msgstr "マクロコントロールを表示"
+
+#: sidebar.cpp
+msgctxt "Command"
+msgid "Show Moises"
+msgstr "Moisesを表示"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -781,6 +801,11 @@ msgstr "コンテンツをインストール"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
+msgid "Instrument Sets"
+msgstr "インストゥルメントセット"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
 msgid "Instruments"
 msgstr "インストゥルメント"
 
@@ -836,8 +861,18 @@ msgstr "評価"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
+msgid "Reset Order"
+msgstr "順序をリセット"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
 msgid "Shop"
 msgstr "ショップ"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
+msgid "Show Icons Only"
+msgstr "アイコンのみ表示"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -921,12 +956,12 @@ msgstr "ドラムクリックを作成"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
-msgid "Create Music Part For '%(1)'"
-msgstr "'%(1)' のインストゥルメントパートを作成"
+msgid "Create Instrument Part For '%(1)'"
+msgstr "'%(1)' 用のインストゥルメントパートを作成"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
-msgid "Create Music Part For Active Click"
+msgid "Create Instrument Part For Active Click"
 msgstr "有効なクリック用のインストゥルメントパートを作成"
 
 #: showdocument.cpp
@@ -1118,6 +1153,11 @@ msgstr "新規録音とミキシングセッションを開始しましょう。
 msgctxt "StudioApp"
 msgid "Stems"
 msgstr "ステム"
+
+#: studioapp.cpp
+msgctxt "StudioApp"
+msgid "Studio Assistant"
+msgstr "Studio Assistant"
 
 #: studioapp.cpp
 msgctxt "StudioApp"
@@ -1358,6 +1398,14 @@ msgstr "埋め込まれているメディアファイルの数: %(1)"
 #~ msgctxt "StudioApp"
 #~ msgid "An older version of $APPNAME has been found on this computer."
 #~ msgstr "より古いバージョンの $APPNAME がこのコンピューター上に見つかりました。"
+
+#~ msgctxt "StudioApp"
+#~ msgid "Create Music Part For '%(1)'"
+#~ msgstr "'%(1)' のインストゥルメントパートを作成"
+
+#~ msgctxt "StudioApp"
+#~ msgid "Create Music Part For Active Click"
+#~ msgstr "有効なクリック用のインストゥルメントパートを作成"
 
 #~ msgctxt "StudioApp"
 #~ msgid "Create an empty Show"

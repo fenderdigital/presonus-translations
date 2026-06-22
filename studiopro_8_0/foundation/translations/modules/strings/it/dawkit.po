@@ -2280,6 +2280,26 @@ msgstr "Automatico"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
+msgid "Bypass All Inserts"
+msgstr "Ignora tutti gli inserimenti"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Inserts + Fader"
+msgstr "Ignora tutti gli inserimenti + fader"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Post Inserts"
+msgstr "Ignora gli inserimenti post"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Pre Inserts"
+msgstr "Ignora gli inserimenti pre"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "Non posso creare un mixdown di un contenuto protetto."
 
@@ -2307,6 +2327,11 @@ msgstr "Impossibile esportare file audio"
 msgctxt "SongRenderer"
 msgid "Mono"
 msgstr "Mono"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "No bypass"
+msgstr "Nessun bypass"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2545,8 +2570,29 @@ msgstr "Applica il Preset della Traccia '%(1)'"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
+msgid "Do you want to update track preset '%(1)'?"
+msgstr "Vuoi aggiornare il preset della traccia '%(1)'?"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Keep original"
+msgstr "Mantieni originale"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
 msgid "Load Track Preset"
 msgstr "Carica il Preset della Traccia"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid ""
+"Selected tracks differ from those in the '%(1)' preset.\n"
+"\n"
+"Do you want to update which tracks are saved?"
+msgstr ""
+"Le tracce selezionate differiscono da quelle presenti nel preset '%(1)'.\n"
+"\n"
+"Vuoi aggiornare le tracce salvate?"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
@@ -2562,6 +2608,16 @@ msgstr "Preset della traccia"
 msgctxt "TrackPreset"
 msgid "Track Presets"
 msgstr "Preset Traccia"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update"
+msgstr "Aggiorna"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update Track Preset"
+msgstr "Aggiorna il preset della traccia"
 
 #: shared/basicvideohandler.cpp
 msgctxt "Video"
@@ -2934,6 +2990,22 @@ msgstr "Sto scrivendo il file video..."
 #~ msgctxt "StemRenderer"
 #~ msgid "Write Stereo Stems"
 #~ msgstr "Scrivi Stems Stereo"
+
+#~ msgctxt "TrackPreset"
+#~ msgid "Modify"
+#~ msgstr "Modifica"
+
+#~ msgctxt "TrackPreset"
+#~ msgid ""
+#~ "The selected tracks are not same as in the saved preset\n"
+#~ "'%(1)'.\n"
+#~ "\n"
+#~ "Do you want to modify which tracks are saved?"
+#~ msgstr ""
+#~ "Le tracce selezionate non sono le stesse del preset salvato\n"
+#~ "'%(1)'.\n"
+#~ "\n"
+#~ "Desideri modificare le tracce salvate?"
 
 #~ msgctxt "Video"
 #~ msgid "Default Size"

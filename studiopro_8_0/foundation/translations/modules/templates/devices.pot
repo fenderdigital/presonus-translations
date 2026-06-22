@@ -635,6 +635,11 @@ msgctxt "MidiMonitor"
 msgid "Ch"
 msgstr ""
 
+#: ./base/devicefolder.cpp
+msgctxt "DeviceFolder"
+msgid "Chain"
+msgstr ""
+
 #: ./audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
 msgid "Channel"
@@ -693,6 +698,11 @@ msgstr ""
 #: ./music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "Ck"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Cleanup Shared Instruments: %(1)"
 msgstr ""
 
 #: ./macrocontrol/macrocontrolset.cpp
@@ -1056,6 +1066,11 @@ msgctxt "ActionDescriptions"
 msgid "Disable Channel"
 msgstr ""
 
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Disable Instrument Set"
+msgstr ""
+
 #: ./audioeffects/audiofxmonitor.cpp
 msgctxt "NapState"
 msgid "Disabled"
@@ -1119,6 +1134,11 @@ msgstr ""
 #: ./audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Drum Click Package"
+msgstr ""
+
+#: ./audiomixer/audiodrumclickcomponent.cpp
+msgctxt "Command"
+msgid "Drum Metronome"
 msgstr ""
 
 #: ./audiomixer/audiodrumclickcomponent.cpp
@@ -1281,6 +1301,11 @@ msgctxt "Command"
 msgid "Enable Direct Monitoring"
 msgstr ""
 
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Enable Instrument Set"
+msgstr ""
+
 #: ./audiomixer/audiolistenbus.cpp
 msgctxt "AudioListenBus"
 msgid "Enable Listen Bus"
@@ -1359,6 +1384,11 @@ msgstr ""
 #: ./audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
 msgid "FX"
+msgstr ""
+
+#: ./audioeffects/audiofxfolder.cpp
+msgctxt "AudioFX"
+msgid "FX Chain"
 msgstr ""
 
 #: ./surfaces/editor/controlcomponent.cpp
@@ -1673,6 +1703,26 @@ msgctxt "MusicTrackDevice"
 msgid "Instrument Channels"
 msgstr ""
 
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\""
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\" was modified. Do you want to save it?"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Sets"
+msgstr ""
+
 #: ./audiosynths/audiosynthpresethandler.cpp
 msgctxt "FileType"
 msgid "Instrument+FX Preset"
@@ -1755,9 +1805,19 @@ msgctxt "PerformanceMonitor"
 msgid "Latency"
 msgstr ""
 
+#: ./editor/devicerack.cpp
+msgctxt "DeviceRack"
+msgid "Load %(1)"
+msgstr ""
+
 #: ./audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Load FX Chain"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Load Instrument Set \"%(1)\""
 msgstr ""
 
 #: ./audioeffects/audiofxgraph.cpp
@@ -1788,6 +1848,16 @@ msgstr ""
 #: ./studio/environment.cpp
 msgctxt "Environment"
 msgid "Loading Device: %(1)"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set \"%(1)\""
 msgstr ""
 
 #: ./audiomixer/cuemix/cuemixfolder.cpp
@@ -1964,6 +2034,21 @@ msgstr ""
 
 #: ./audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
+msgid "Move all to Instrument Set"
+msgstr ""
+
+#: ./audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Move to Instrument Set"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Move to Instrument Set"
+msgstr ""
+
+#: ./audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Multi Instrument"
 msgstr ""
 
@@ -2041,6 +2126,11 @@ msgstr ""
 #: ./music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "New Instrument"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "New Instrument Set"
 msgstr ""
 
 #: ./music/setup/musicdeviceadddialog.cpp
@@ -2578,6 +2668,11 @@ msgctxt "AudioFXGraph"
 msgid "Remove"
 msgstr ""
 
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Remove"
+msgstr ""
+
 #: ./audiosynths/combinator/synthcombinatorgraph.cpp
 msgctxt "SynthCombinator"
 msgid "Remove"
@@ -2713,6 +2808,11 @@ msgctxt "AudioClick"
 msgid "Rename"
 msgstr ""
 
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename"
+msgstr ""
+
 #: ./base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "Rename"
@@ -2743,6 +2843,11 @@ msgctxt "EditGroups"
 msgid "Rename Group"
 msgstr ""
 
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename Instrument Set \"%(1)\""
+msgstr ""
+
 #: ./mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Rename Scene"
@@ -2751,6 +2856,16 @@ msgstr ""
 #: ./mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Rename Scene"
+msgstr ""
+
+#: ./audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename all Instruments to Preset"
+msgstr ""
+
+#: ./audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename to Preset"
 msgstr ""
 
 #: ./base/deviceeditfunctions.cpp
@@ -2796,6 +2911,11 @@ msgstr ""
 #: ./music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "Reset"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Reset Default Instrument Set"
 msgstr ""
 
 #: ./editor/microeditor.cpp
@@ -3168,6 +3288,11 @@ msgctxt "MicroEditSetup"
 msgid "Setup Micro Edit Parameters"
 msgstr ""
 
+#: ./midi/simplemidiinput.cpp
+msgctxt "SimpleMidiInput"
+msgid "Setup..."
+msgstr ""
+
 #: ./transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Shift Loop"
@@ -3398,6 +3523,11 @@ msgctxt "AudioFX"
 msgid "Store FX Chain"
 msgstr ""
 
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Store Instrument Set"
+msgstr ""
+
 #: ./audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Store New"
@@ -3553,6 +3683,11 @@ msgctxt "Devices"
 msgid "The audio engine has been stopped, because the system became unresponsive due to an overload in the audio engine."
 msgstr ""
 
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "The current instrument set was modified. Do you want to save it?"
+msgstr ""
+
 #: ./video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "The default audio output is used exclusively and cannot be opened for video playback."
@@ -3688,11 +3823,17 @@ msgctxt "MixerEditFunctions"
 msgid "Transfer Channel"
 msgstr ""
 
+#: ./audiosynths/audiosyntheditfunctions.cpp
+msgctxt "ActionDescriptions"
+msgid "Transfer Instrument"
+msgstr ""
+
 #: ./surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
 msgid "Transmit value"
 msgstr ""
 
+#: ./audiomixer/audiodrumclickcomponent.cpp
 #: ./transport/metronome.cpp
 #: ./transport/transportoptions.cpp
 #: ./transport/transportpanel.cpp
@@ -3761,6 +3902,11 @@ msgctxt "AudioClick"
 msgid "Unused Files"
 msgstr ""
 
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Update Instrument Set"
+msgstr ""
+
 #: ./mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Update Scene"
@@ -3789,6 +3935,11 @@ msgstr ""
 #: ./audiomixer/cuemix/cuemixrouter.cpp
 msgctxt "Command"
 msgid "Use External Cue Mix System"
+msgstr ""
+
+#: ./audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Use as Default"
 msgstr ""
 
 #: ./music/setup/musicdeviceadddialog.cpp

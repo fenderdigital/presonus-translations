@@ -149,6 +149,11 @@ msgctxt "ActionDescriptions"
 msgid "Swap Macro Controls"
 msgstr "マクロコントロールをスワップ"
 
+#: audiosynths/audiosyntheditfunctions.cpp
+msgctxt "ActionDescriptions"
+msgid "Transfer Instrument"
+msgstr "インストゥルメントを転送"
+
 #: audiomixer/audiochannel.cpp
 msgctxt "AudioChannel"
 msgid "Mute"
@@ -444,6 +449,11 @@ msgstr "すべての %(1) を有効化"
 msgctxt "AudioFX"
 msgid "Enable Plug-in Nap"
 msgstr "プラグインのスリープを有効化"
+
+#: audioeffects/audiofxfolder.cpp
+msgctxt "AudioFX"
+msgid "FX Chain"
+msgstr "FXチェーン"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
@@ -1122,6 +1132,16 @@ msgstr "インストゥルメント"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
+msgid "Move all to Instrument Set"
+msgstr "すべてをインストゥルメントセットに移動"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Move to Instrument Set"
+msgstr "インストゥルメントセットに移動"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Multi Instrument"
 msgstr "マルチインストゥルメント"
 
@@ -1139,6 +1159,16 @@ msgstr "未使用を削除"
 msgctxt "AudioSynth"
 msgid "Remove Unused Instruments"
 msgstr "使用されていないインストゥルメントを削除"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename all Instruments to Preset"
+msgstr "すべてのインストゥルメント名をプリセット名に変更"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename to Preset"
+msgstr "プリセットに名前を変更"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1494,6 +1524,11 @@ msgstr "デバイス"
 msgctxt "Command"
 msgid "Dim"
 msgstr "Dim"
+
+#: audiomixer/audiodrumclickcomponent.cpp
+msgctxt "Command"
+msgid "Drum Metronome"
+msgstr "Drum Metronome"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -2085,7 +2120,7 @@ msgctxt "Command"
 msgid "Toggle Start"
 msgstr "スタートを切り替え"
 
-#: transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
+#: audiomixer/audiodrumclickcomponent.cpp transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Transport"
 msgstr "トランスポート"
@@ -2217,6 +2252,11 @@ msgstr "バイパス"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
+msgid "Chain"
+msgstr "チェーン"
+
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Collapse"
 msgstr "折りたたむ"
 
@@ -2334,6 +2374,11 @@ msgstr "マイクロ編集パラメーター \"%(1)\" を追加"
 msgctxt "DeviceRack"
 msgid "Automation"
 msgstr "オートメーション"
+
+#: editor/devicerack.cpp
+msgctxt "DeviceRack"
+msgid "Load %(1)"
+msgstr "%(1) をロード"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
@@ -2729,6 +2774,106 @@ msgstr "クリックしてチャンネルを移動"
 msgctxt "InsertSpeakerMapper"
 msgid "No match"
 msgstr "該当なし"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Cleanup Shared Instruments: %(1)"
+msgstr "次の共有インストゥルメントをクリーンアップ：%(1)"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Disable Instrument Set"
+msgstr "インストゥルメントセットを無効化"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Enable Instrument Set"
+msgstr "インストゥルメントセットを有効化"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set"
+msgstr "インストゥルメントセット"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\""
+msgstr "インストゥルメントセット \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\" was modified. Do you want to save it?"
+msgstr "インストゥルメントセット \"%(1)\" は変更されています。保存しますか？"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Sets"
+msgstr "インストゥルメントセット"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Load Instrument Set \"%(1)\""
+msgstr "インストゥルメントセット \"%(1)\" をロード"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set"
+msgstr "インストゥルメントセットをロードしています"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set \"%(1)\""
+msgstr "インストゥルメントセット \"%(1)\" をロードしています"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Move to Instrument Set"
+msgstr "インストゥルメントセットに移動"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "New Instrument Set"
+msgstr "新規インストゥルメントセット"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Remove"
+msgstr "削除"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename"
+msgstr "名前を変更"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename Instrument Set \"%(1)\""
+msgstr "インストゥルメントセット \"%(1)\" の名前を変更"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Reset Default Instrument Set"
+msgstr "デフォルトのインストゥルメントセットをリセット"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Store Instrument Set"
+msgstr "インストゥルメントセットを保存"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "The current instrument set was modified. Do you want to save it?"
+msgstr "現在のインストゥルメントセットは変更されました。保存しますか？"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Update Instrument Set"
+msgstr "インストゥルメントセットを更新"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Use as Default"
+msgstr "デフォルトとして使用"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -3535,6 +3680,11 @@ msgstr "サイドチェーン"
 msgctxt "SideChain"
 msgid "Toggle Prefader"
 msgstr "プリフェーダーを切り替え"
+
+#: midi/simplemidiinput.cpp
+msgctxt "SimpleMidiInput"
+msgid "Setup..."
+msgstr "設定..."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"

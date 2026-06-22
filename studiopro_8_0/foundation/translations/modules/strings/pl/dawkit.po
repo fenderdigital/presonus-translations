@@ -2288,6 +2288,26 @@ msgstr "Automatycznie"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
+msgid "Bypass All Inserts"
+msgstr ""
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Inserts + Fader"
+msgstr ""
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Post Inserts"
+msgstr ""
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Pre Inserts"
+msgstr ""
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "Nie można wygenerować miksu z chronioną zawartością."
 
@@ -2315,6 +2335,11 @@ msgstr "Nie udało się wyeksportować pliku audio."
 msgctxt "SongRenderer"
 msgid "Mono"
 msgstr "Mono"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "No bypass"
+msgstr ""
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2553,8 +2578,26 @@ msgstr "Zastosuj zestaw ścieżki '%(1)'"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
+msgid "Do you want to update track preset '%(1)'?"
+msgstr ""
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Keep original"
+msgstr ""
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
 msgid "Load Track Preset"
 msgstr "Wczytaj zestaw ścieżki"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid ""
+"Selected tracks differ from those in the '%(1)' preset.\n"
+"\n"
+"Do you want to update which tracks are saved?"
+msgstr ""
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
@@ -2570,6 +2613,16 @@ msgstr "Zestaw ścieżki"
 msgctxt "TrackPreset"
 msgid "Track Presets"
 msgstr "Zestawy ścieżek"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update"
+msgstr ""
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update Track Preset"
+msgstr ""
 
 #: shared/basicvideohandler.cpp
 msgctxt "Video"

@@ -4,6 +4,66 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: app/windowclasses.xml
+msgctxt "AIAssistant"
+msgid "Studio Assistant"
+msgstr "Studio Assistant"
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantBlockedOverlay"
+msgid "Learn more about $CLOUDNAME"
+msgstr "Impara di più riguardo $CLOUDNAME"
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantBlockedOverlay"
+msgid "The Studio Assistant is currently only available with a $CLOUDNAME subscription"
+msgstr "Lo Studio Assistant è attualmente disponibile solo con un abbonamento $CLOUDNAME"
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantContent"
+msgid "Chats"
+msgstr "Chat"
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantContent"
+msgid "Detach"
+msgstr "Scollega"
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantContent"
+msgid "New Chat"
+msgstr "Nuova Chat"
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantContent"
+msgid "Studio Assistant"
+msgstr "Studio Assistant"
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantDisclaimer"
+msgid "Send Feedback"
+msgstr "Invia feedback"
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantDisclaimer"
+msgid "This feature is currently in beta."
+msgstr "Questa funzione è attualmente in beta."
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantDisclaimer"
+msgid "We&apos;re continuously developing and refining this feature &#8212; the AI may not always be accurate."
+msgstr "Stiamo continuamente sviluppando e perfezionando questa funzionalità &#8212; l'IA potrebbe non essere sempre precisa."
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantDisclaimer"
+msgid "Your privacy and creative work are always protected. To deliver the best experience, limited session data &#8212; such as your current view &#8212; is shared with the AI as context. This never includes personal information or any of your creative work, and your conversations are never used to train or improve AI models."
+msgstr "La tua privacy e il tuo lavoro creativo sono sempre protetti. Per offrire la migliore esperienza, i dati di sessione limitati &#8212; come la tua visualizzazione attuale &#8212; vengono condivisi con l'IA come contesto. Questo non include mai informazioni personali o alcuno dei tuoi lavori creativi, e le tue conversazioni non vengono mai utilizzate per addestrare o migliorare i modelli di IA."
+
+#: app/aiassistant.xml
+msgctxt "AIAssistantView"
+msgid "Studio Assistant"
+msgstr "Studio Assistant"
+
 #: app/about.xml
 msgctxt "AboutApplication"
 msgid "About $APPNAME"
@@ -936,6 +996,11 @@ msgstr "Loop"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventMiniProperties.Table"
+msgid "Pitch Curve"
+msgstr "Curva di intonazione"
+
+#: engine/eventinspector.xml
+msgctxt "AudioEventMiniProperties.Table"
 msgid "Speakers"
 msgstr "Diffusori"
 
@@ -1041,6 +1106,11 @@ msgstr "Normalizza"
 
 #: engine/eventinspector.xml
 msgctxt "AudioEventPropertiesListTarget"
+msgid "Pitch Curve"
+msgstr "Curva di intonazione"
+
+#: engine/eventinspector.xml
+msgctxt "AudioEventPropertiesListTarget"
 msgid "Repeats"
 msgstr "Ripetizioni"
 
@@ -1096,13 +1166,8 @@ msgstr "..."
 
 #: engine/audioexport.xml
 msgctxt "AudioExport"
-msgid "Bypass fader and post effects"
-msgstr "Bypass del fader e degli effetti in post"
-
-#: engine/audioexport.xml
-msgctxt "AudioExport"
-msgid "Bypass master effects"
-msgstr "Bypass Effetti Master"
+msgid "Bypass"
+msgstr "Bypass"
 
 #: engine/audioexport.xml
 msgctxt "AudioExport"
@@ -1625,6 +1690,21 @@ msgid "Swap Sides"
 msgstr "Scambia i Lati"
 
 #: devices/synthrack.xml
+msgctxt "AudioSynthRack"
+msgid "Add Instrument"
+msgstr "Aggiungi Strumento"
+
+#: devices/synthrack.xml
+msgctxt "AudioSynthRack"
+msgid "Enable Direct Monitoring"
+msgstr "Abilita il Monitoraggio Diretto"
+
+#: devices/synthrack.xml
+msgctxt "AudioSynthRack"
+msgid "Instruments"
+msgstr "Strumenti"
+
+#: devices/synthrack.xml
 msgctxt "AudioSynthRackSlotViewCompact"
 msgid "Activate"
 msgstr "Attiva"
@@ -1633,6 +1713,16 @@ msgstr "Attiva"
 msgctxt "AudioSynthRackSlotViewCompact"
 msgid "CPU"
 msgstr "CPU"
+
+#: devices/synthrack.xml
+msgctxt "AudioSynthRackSlotViewCompact"
+msgid "Device is missing"
+msgstr "Il dispositivo è mancante"
+
+#: devices/synthrack.xml
+msgctxt "AudioSynthRackSlotViewCompact"
+msgid "Enable"
+msgstr "Abilita"
 
 #: devices/synthrack.xml
 msgctxt "AudioSynthRackSlotViewExtended"
@@ -2025,9 +2115,9 @@ msgid "Remove"
 msgstr "Rimuovi"
 
 #: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "$APPCOMPANY Exchange and other services"
-msgstr "$APPCOMPANY Exchange e altri servizi"
+msgctxt "BrowserHome"
+msgid "Search @cmd.title[]"
+msgstr "Cerca @cmd.title[]"
 
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
@@ -2036,63 +2126,8 @@ msgstr "@cmd.title[]"
 
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
-msgid "A musician by your side"
-msgstr "Un musicista al tuo fianco"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Browse $APPNAME loop libraries"
-msgstr "Sfoglia le librerie di loop di $APPNAME"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Browse Splice loops and samples"
-msgstr "Sfoglia i loop e i campioni di Splice"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Browse files and folders"
-msgstr "Sfoglia file e cartelle"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Cloud"
-msgstr "Cloud"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Effects"
-msgstr "Effetti"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Files"
-msgstr "Files"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Install now"
-msgstr "Installa ora"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Instruments"
-msgstr "Strumenti"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Loops"
-msgstr "Loops"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
 msgid "Plug-In Manager"
 msgstr "Plug-In Manager"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Pool"
-msgstr "Pool"
 
 #: ccl/browser.xml
 msgctxt "BrowserHomeContent"
@@ -2100,62 +2135,112 @@ msgid "Re-Index Presets"
 msgstr "Reindicizza Preset"
 
 #: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Show Instruments and Note FX"
-msgstr "Mostra Strumenti e Note FX"
+msgctxt "BrowserHomeTab.Cloud"
+msgid "$APPCOMPANY Exchange and other services"
+msgstr "$APPCOMPANY Exchange e altri servizi"
 
 #: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Show files used in this Session"
-msgstr "Mostra i file utilizzati in questa sessione"
-
-#: ccl/browser.xml
-msgctxt "BrowserHomeContent"
+msgctxt "BrowserHomeTab.Effects"
 msgid "Show installed Effects"
 msgstr "Mostra Effetti Installati"
 
 #: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Splice"
-msgstr "Splice"
+msgctxt "BrowserHomeTab.Files"
+msgid "Browse files and folders"
+msgstr "Sfoglia file e cartelle"
 
 #: ccl/browser.xml
-msgctxt "BrowserHomeContent"
-msgid "Tonalic"
-msgstr "Tonalic"
+msgctxt "BrowserHomeTab.Instruments"
+msgid "Show Instruments and Note FX"
+msgstr "Mostra Strumenti e Note FX"
 
 #: ccl/browser.xml
-msgctxt "BrowserListView"
+msgctxt "BrowserHomeTab.Loops"
+msgid "Browse $APPNAME loop libraries"
+msgstr "Sfoglia le librerie di loop di $APPNAME"
+
+#: ccl/browser.xml
+msgctxt "BrowserHomeTab.Moises"
+msgid "Generate and separate stems, convert voices, and more"
+msgstr "Genera e separa i gambi, converti le voci e altro ancora."
+
+#: ccl/browser.xml
+msgctxt "BrowserHomeTab.Pool"
+msgid "Show files used in this Session"
+msgstr "Mostra i file utilizzati in questa sessione"
+
+#: ccl/browser.xml
+msgctxt "BrowserHomeTab.Splice"
+msgid "Browse Splice loops and samples"
+msgstr "Sfoglia i loop e i campioni di Splice"
+
+#: ccl/browser.xml
+msgctxt "BrowserHomeTab.Template"
+msgid "$tagline"
+msgstr "$tagline"
+
+#: ccl/browser.xml
+msgctxt "BrowserHomeTab.Template"
+msgid "$title"
+msgstr "$title"
+
+#: ccl/browser.xml
+msgctxt "BrowserHomeTab.Template"
+msgid "@cmd.title[]"
+msgstr "@cmd.title[]"
+
+#: ccl/browser.xml
+msgctxt "BrowserHomeTab.Template"
+msgid "Install now"
+msgstr "Installa Ora"
+
+#: ccl/browser.xml
+msgctxt "BrowserHomeTab.Tonalic"
+msgid "A musician by your side"
+msgstr "Un musicista al tuo fianco"
+
+#: ccl/browser.xml
+msgctxt "BrowserViewModeAndEditButtons"
+msgid "Manage Plug-Ins"
+msgstr "Gestisci Plug-Ins"
+
+#: ccl/browser.xml
+msgctxt "BrowserViewModeAndEditButtons"
 msgid "Show Gallery"
 msgstr "Mostra Galleria"
 
 #: ccl/browser.xml
-msgctxt "BrowserListView"
+msgctxt "BrowserViewModeAndEditButtons"
 msgid "Show List"
 msgstr "Mostra Elenco"
 
 #: ccl/browser.xml
-msgctxt "BrowserMainTabs"
-msgid "Search @cmd.title[]"
-msgstr "Cerca @cmd.title[]"
-
-#: ccl/browser.xml
-msgctxt "BrowserViewModeButtons"
+msgctxt "BrowserViewModeAndEditButtons"
 msgid "Show Thumbnails"
 msgstr "Mostra Miniature"
 
 #: ccl/browser.xml
-msgctxt "BrowserViewModeButtons"
+msgctxt "BrowserViewModeAndEditButtons"
 msgid "Toggle Tree Mode"
 msgstr "Passa a Modalità Albero"
 
 #: ccl/browser.xml
-msgctxt "BrowserViewModeButtons.NoInvert"
+msgctxt "BrowserViewModeButtons"
+msgid "Show Gallery"
+msgstr "Mostra Galleria"
+
+#: ccl/browser.xml
+msgctxt "BrowserViewModeButtons"
+msgid "Show List"
+msgstr "Mostra Elenco"
+
+#: ccl/browser.xml
+msgctxt "BrowserViewModeButtons"
 msgid "Show Thumbnails"
 msgstr "Mostra Miniature"
 
 #: ccl/browser.xml
-msgctxt "BrowserViewModeButtons.NoInvert"
+msgctxt "BrowserViewModeButtons"
 msgid "Toggle Tree Mode"
 msgstr "Passa a Modalità Albero"
 
@@ -2622,7 +2707,7 @@ msgstr "Selettore Accordo"
 #: engine/musicdialogs.xml
 msgctxt "ChordPresetFileInfo.Details"
 msgid "Chords: "
-msgstr "Accordi:"
+msgstr "Accordi: "
 
 #: engine/eventinspector.xml
 msgctxt "ChordSelectorBottomPanel"
@@ -2793,6 +2878,11 @@ msgstr "Abilita Playback Traccia"
 msgctxt "ChordTrackInspector"
 msgid "Velocity"
 msgstr "Velocity"
+
+#: ccl/browser.xml
+msgctxt "CloudBrowserHeader"
+msgid "Search @cmd.title[]"
+msgstr "Cerca @cmd.title[]"
 
 #: app/collaboration.xml
 msgctxt "CloudFolderSelector"
@@ -3033,6 +3123,11 @@ msgstr "Reset"
 msgctxt "ColorSchemePresetOption"
 msgid "Store Preset"
 msgstr "Salva Preset"
+
+#: ccl/browser.xml
+msgctxt "Command"
+msgid "$cmdName"
+msgstr "$cmdName"
 
 #: ccl/browser.xml
 msgctxt "Command"
@@ -3619,16 +3714,6 @@ msgctxt "Command"
 msgid "Show Channel Fader (Inspector)"
 msgstr "Mostra Fader Canale (Ispettore)"
 
-#: ccl/browser.xml
-msgctxt "Command"
-msgid "Show Cloud"
-msgstr "Mostra Cloud"
-
-#: ccl/browser.xml
-msgctxt "Command"
-msgid "Show Effects"
-msgstr "Mostra Effetti"
-
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Show Event Inspector"
@@ -3638,11 +3723,6 @@ msgstr "Mostra l'ispettore eventi"
 msgctxt "Command"
 msgid "Show External Devices"
 msgstr "Mostra Dispositivi Esterni"
-
-#: ccl/browser.xml
-msgctxt "Command"
-msgid "Show Files"
-msgstr "Mostra Files"
 
 #: app/windowclasses.xml
 msgctxt "Command"
@@ -3664,25 +3744,10 @@ msgctxt "Command"
 msgid "Show Instrument Rack"
 msgstr "Mostra Rack Strumenti"
 
-#: ccl/browser.xml
-msgctxt "Command"
-msgid "Show Instruments"
-msgstr "Mostra Strumenti"
-
-#: ccl/browser.xml
-msgctxt "Command"
-msgid "Show Loops"
-msgstr "Mostra Loop"
-
 #: app/windowclasses.xml
 msgctxt "Command"
 msgid "Show Outputs"
 msgstr "Mostra Outputs"
-
-#: ccl/browser.xml
-msgctxt "Command"
-msgid "Show Pool"
-msgstr "Mostra Pool"
 
 #: app/windowclasses.xml
 msgctxt "Command"
@@ -3693,16 +3758,6 @@ msgstr "Mostra Scene (Console)"
 msgctxt "Command"
 msgid "Show Scenes (Track List)"
 msgstr "Mostra Scene (Elenco Traccia)"
-
-#: ccl/browser.xml
-msgctxt "Command"
-msgid "Show Splice"
-msgstr "Mostra Splice"
-
-#: ccl/browser.xml
-msgctxt "Command"
-msgid "Show Tonalic"
-msgstr "Mostra Tonalic"
 
 #: app/toolbar.xml
 msgctxt "Command"
@@ -3723,6 +3778,11 @@ msgstr "Registrazione Nota dopo Nota"
 msgctxt "Command"
 msgid "Store Chord Preset"
 msgstr "Memorizza preset accordi"
+
+#: app/windowclasses.xml
+msgctxt "Command"
+msgid "Studio Assistant"
+msgstr "Studio Assistant"
 
 #: engine/trackcontrols.xml
 msgctxt "Command"
@@ -4859,6 +4919,11 @@ msgctxt "FXPresetControls"
 msgid "Previous Preset @cmd[]"
 msgstr "Preset precedente @cmd[]"
 
+#: ccl/browser.xml
+msgctxt "FileBrowserHeader"
+msgid "Search @cmd.title[]"
+msgstr "Cerca @cmd.title[]"
+
 #: app/shared.xml
 msgctxt "FilterBar"
 msgid "Clear"
@@ -4984,6 +5049,11 @@ msgctxt "FollowGlobalTransposition"
 msgid "Follow Global Transpose"
 msgstr "Segui la Trasposizione Globale"
 
+#: engine/inspector.xml
+msgctxt "FollowScore"
+msgid "Follow score"
+msgstr "Segui la partitura"
+
 #: devices/audiofxeditor.xml
 msgctxt "FrequencySplitterSlider"
 msgid "$idx"
@@ -5105,24 +5175,24 @@ msgid "Home"
 msgstr "Home"
 
 #: app/homepage.xml
-msgctxt "HomePage"
+msgctxt "HomePage.RSS"
+msgid "News Feed"
+msgstr "Feed delle Notizie"
+
+#: app/homepage.xml
+msgctxt "HomePageContainer"
 msgid "There is a new version of $APPNAME available."
 msgstr "C'è una nuova versione di $APPNAME disponibile."
 
 #: app/homepage.xml
-msgctxt "HomePage"
+msgctxt "HomePageContainer"
 msgid "Update Now"
 msgstr "Aggiorna Ora"
 
 #: app/homepage.xml
-msgctxt "HomePage"
+msgctxt "HomePageContainer"
 msgid "View Release Notes"
 msgstr "Leggi Note di Rilascio"
-
-#: app/homepage.xml
-msgctxt "HomePage.RSS"
-msgid "News Feed"
-msgstr "Feed delle Notizie"
 
 #: app/homepage.xml
 msgctxt "HomePageContent"
@@ -5519,6 +5589,11 @@ msgctxt "InspectorEventDetails"
 msgid "Event Inspector"
 msgstr "Ispezionatore eventi"
 
+#: app/windowclasses.xml
+msgctxt "InspectorGlobalEventDetails"
+msgid "Event Inspector"
+msgstr "Ispezionatore eventi"
+
 #: engine/inspector.xml
 msgctxt "InspectorNotesForm"
 msgid "Edit Note..."
@@ -5566,13 +5641,18 @@ msgstr "Sequenza di Attivazione"
 
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionVariation"
+msgid "Attack Compensation"
+msgstr "Compensazione dell'attacco"
+
+#: devices/soundvariationmap.xml
+msgctxt "InspectorSectionVariation"
 msgid "Color Selector"
 msgstr "Selettore Colore"
 
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionVariation"
-msgid "Default Score Variation"
-msgstr "Variazione Partitura Default"
+msgid "Default Variation"
+msgstr "Variazione predefinita"
 
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionVariation"
@@ -5583,11 +5663,6 @@ msgstr "Input Pitch"
 msgctxt "InspectorSectionVariation"
 msgid "Momentary"
 msgstr "Momentaneo"
-
-#: devices/soundvariationmap.xml
-msgctxt "InspectorSectionVariation"
-msgid "Score Symbols"
-msgstr "Simboli della Partitura"
 
 #: devices/soundvariationmap.xml
 msgctxt "InspectorSectionVariation"
@@ -5848,6 +5923,11 @@ msgstr "Cerca nella Cartella..."
 msgctxt "LoopBrowserHeader"
 msgid "Extended View"
 msgstr "Vista Estesa"
+
+#: ccl/browser.xml
+msgctxt "LoopBrowserHeader"
+msgid "Search @cmd.title[]"
+msgstr "Cerca @cmd.title[]"
 
 #: project/project.xml
 msgctxt "LoudnessInfoTable"
@@ -6148,6 +6228,11 @@ msgstr "Media Pool"
 msgctxt "MediaPoolHeader"
 msgid "Data Zoom"
 msgstr "Zoom Dati"
+
+#: engine/mediapool.xml
+msgctxt "MediaPoolHeader"
+msgid "Search @cmd.title[]"
+msgstr "Cerca @cmd.title[]"
 
 #: engine/mediapool.xml
 msgctxt "MediaPoolHeader"
@@ -7806,11 +7891,6 @@ msgstr "Azione"
 
 #: devices/soundvariationmap.xml
 msgctxt "MusicalSymbolSection"
-msgid "Default Score Variation"
-msgstr "Variazione Partitura Default"
-
-#: devices/soundvariationmap.xml
-msgctxt "MusicalSymbolSection"
 msgid "Process Dynamics"
 msgstr "Processa Dinamiche"
 
@@ -8706,6 +8786,11 @@ msgstr "@cmd.title[View|Start Page]"
 
 #: app/toolbar.xml
 msgctxt "PerspectiveSelector"
+msgid "@cmd.title[View|Studio Assistant]"
+msgstr "@cmd.title[View|Studio Assistant]"
+
+#: app/toolbar.xml
+msgctxt "PerspectiveSelector"
 msgid "@cmd.title[]"
 msgstr "@cmd.title[]"
 
@@ -8766,8 +8851,8 @@ msgstr "Selezione Colore"
 
 #: ccl/browser.xml
 msgctxt "PlugInBrowserHeader"
-msgid "Manage Plug-Ins"
-msgstr "Gestisci Plug-Ins"
+msgid "Search @cmd.title[]"
+msgstr "Cerca @cmd.title[]"
 
 #: ccl/browser.xml
 msgctxt "PlugInBrowserHeader"
@@ -9376,53 +9461,8 @@ msgstr "@cmd.title[View|Browser]"
 
 #: devices/transport.xml
 msgctxt "ProjectTransport"
-msgid "@cmd.title[]"
-msgstr "@cmd.title[]"
-
-#: devices/transport.xml
-msgctxt "ProjectTransport"
-msgid "Fast Forward"
-msgstr "Avanti Veloce"
-
-#: devices/transport.xml
-msgctxt "ProjectTransport"
-msgid "Loop Active @cmd[Transport|Toggle Loop]"
-msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
-
-#: devices/transport.xml
-msgctxt "ProjectTransport"
-msgid "Return to Zero @cmd[Transport|Return to Zero]"
-msgstr "Ritorna a Zero @cmd[Transport|Return to Zero]"
-
-#: devices/transport.xml
-msgctxt "ProjectTransport"
-msgid "Rewind"
-msgstr "Riavvolgi"
-
-#: devices/transport.xml
-msgctxt "ProjectTransport"
-msgid "Sample Rate"
-msgstr "Sample Rate"
-
-#: devices/transport.xml
-msgctxt "ProjectTransport"
-msgid "Start @cmd[Transport|Start]"
-msgstr "Start @cmd[Transport|Start]"
-
-#: devices/transport.xml
-msgctxt "ProjectTransport"
-msgid "Stop @cmd[Transport|Stop]"
-msgstr "Stop @cmd[Transport|Stop]"
-
-#: devices/transport.xml
-msgctxt "ProjectTransport"
-msgid "Time in current Track"
-msgstr "Tempo nella traccia corrente"
-
-#: devices/transport.xml
-msgctxt "ProjectTransport"
-msgid "Track Time"
-msgstr "Tempo Traccia"
+msgid "@cmd.title[View|Editor]"
+msgstr "@cmd.title[View|Editor]"
 
 #: app/windowclasses.xml devices/transport.xml
 msgctxt "ProjectTransport"
@@ -9989,6 +10029,16 @@ msgctxt "ScenePlaylistHeader"
 msgid "Start/Stop Playlist"
 msgstr "Avvia/Interrompi Playlist"
 
+#: devices/soundvariationmap.xml
+msgctxt "ScoreConditionAlternatives"
+msgid "+"
+msgstr "+"
+
+#: devices/soundvariationmap.xml
+msgctxt "ScoreConditionAlternatives"
+msgid "Add Alternative"
+msgstr "Aggiungi alternativa"
+
 #: engine/editor.xml
 msgctxt "ScoreEditorLeftPanel"
 msgid "Audition Notes"
@@ -10091,6 +10141,16 @@ msgstr "Doppio Punto"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorToolPaletteNotes"
+msgid "Ghost Note"
+msgstr "Ghost Note"
+
+#: engine/editor.xml
+msgctxt "ScoreEditorToolPaletteNotes"
+msgid "Grace Note"
+msgstr "Abbellimento"
+
+#: engine/editor.xml
+msgctxt "ScoreEditorToolPaletteNotes"
 msgid "Notehead Symbol"
 msgstr "Simbolo testa della nota"
 
@@ -10098,6 +10158,11 @@ msgstr "Simbolo testa della nota"
 msgctxt "ScoreEditorToolPaletteNotes"
 msgid "Rest"
 msgstr "Pausa"
+
+#: engine/editor.xml
+msgctxt "ScoreEditorToolPaletteNotes"
+msgid "Tuplets"
+msgstr "Terzine"
 
 #: engine/editor.xml
 msgctxt "ScoreEditorToolPaletteNotes"
@@ -10123,6 +10188,11 @@ msgstr "Font Testo"
 msgctxt "ScorePageLayout"
 msgid "Margins"
 msgstr "Margini"
+
+#: engine/editor.xml
+msgctxt "ScorePageLayout"
+msgid "Measure Limit"
+msgstr "Limite della misura"
 
 #: engine/editor.xml
 msgctxt "ScorePageLayout"
@@ -10304,6 +10374,11 @@ msgctxt "ScoreSetup"
 msgid "Tempos"
 msgstr "Tempi"
 
+#: devices/soundvariationmap.xml
+msgctxt "ScoreSymbolSetup"
+msgid "Condition Alternatives"
+msgstr "Condizioni alternative"
+
 #: engine/tracklistinspector.xml
 msgctxt "ScoreTrackListInspectorPanel"
 msgid "Track List"
@@ -10453,11 +10528,6 @@ msgstr "Puoi inviare anche i file audio a Notion dal browser dei file"
 msgctxt "SendToNotionNoTargets"
 msgid "$APPNAME can send and receive instrument tracks and score data with Notion. In Notion you can create a score and print parts for musicians."
 msgstr "$APPNAME può inviare e ricevere tracce strumentali e dati di spartito con Notion. In Notion puoi creare uno spartito e stampare parti per musicisti."
-
-#: app/notion.xml
-msgctxt "SendToNotionNoTargets"
-msgid "Buy Notion"
-msgstr "Acquista Notion"
 
 #: app/notion.xml
 msgctxt "SendToNotionNoTargets"
@@ -10906,93 +10976,18 @@ msgstr "Esegui"
 
 #: devices/transport.xml
 msgctxt "ShowTransport"
-msgid "/"
-msgstr "/"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "="
-msgstr "="
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
 msgid "@cmd.title[View|Browser]"
 msgstr "@cmd.title[View|Browser]"
 
 #: devices/transport.xml
 msgctxt "ShowTransport"
+msgid "@cmd.title[View|Channel Overview]"
+msgstr "@cmd.title[View|Channel Overview]"
+
+#: devices/transport.xml
+msgctxt "ShowTransport"
 msgid "@cmd.title[View|Console]"
 msgstr "@cmd.title[View|Console]"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "@cmd.title[]"
-msgstr "@cmd.title[]"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Fast Forward"
-msgstr "Avanti Veloce"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Item Time"
-msgstr "Elemento Tempo"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Key"
-msgstr "Chiave"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Loop Active @cmd[Transport|Toggle Loop]"
-msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Return to Zero @cmd[Transport|Return to Zero]"
-msgstr "Ritorna a Zero @cmd[Transport|Return to Zero]"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Rewind"
-msgstr "Riavvolgi"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Sample Rate"
-msgstr "Sample Rate"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Start @cmd[Transport|Start]"
-msgstr "Start @cmd[Transport|Start]"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Stop @cmd[Transport|Stop]"
-msgstr "Stop @cmd[Transport|Stop]"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Tap Tempo"
-msgstr "Tempo a tocco"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Tempo"
-msgstr "Tempo"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Time in current Setlist Item"
-msgstr "Tempo Elemento Setlist corrente"
-
-#: devices/transport.xml
-msgctxt "ShowTransport"
-msgid "Timing"
-msgstr "Timing"
 
 #: app/windowclasses.xml devices/transport.xml
 msgctxt "ShowTransport"
@@ -11286,6 +11281,11 @@ msgstr "Segui la Trasposizione Globale"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
+msgid "Follow Score"
+msgstr "Segui la partitura"
+
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Freeze"
 msgstr "Freeze"
 
@@ -11401,6 +11401,11 @@ msgstr "Metronomo"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
+msgid "Moises"
+msgstr "Moises"
+
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Normalize"
 msgstr "Normalizza"
 
@@ -11411,6 +11416,11 @@ msgstr "Nota FX"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
+msgid "Overview"
+msgstr "Panoramica"
+
+#: engine/song.xml
+msgctxt "SongCustomization"
 msgid "Pan"
 msgstr "Pan"
 
@@ -11418,6 +11428,11 @@ msgstr "Pan"
 msgctxt "SongCustomization"
 msgid "Performance"
 msgstr "Prestazioni"
+
+#: engine/song.xml
+msgctxt "SongCustomization"
+msgid "Pitch Curve"
+msgstr "Curva di intonazione"
 
 #: engine/song.xml
 msgctxt "SongCustomization"
@@ -12141,6 +12156,11 @@ msgstr "Variazioni Suono"
 
 #: devices/soundvariationmap.xml
 msgctxt "SoundVariationEditorHeader"
+msgid "Default Score Variation"
+msgstr "Variazione Partitura Default"
+
+#: devices/soundvariationmap.xml
+msgctxt "SoundVariationEditorHeader"
 msgid "Input Mode"
 msgstr "Modo Input"
 
@@ -12686,18 +12706,8 @@ msgstr "Trasponi"
 
 #: devices/synthrack.xml
 msgctxt "SynthRack"
-msgid "Add Instrument"
-msgstr "Aggiungi Strumento"
-
-#: devices/synthrack.xml
-msgctxt "SynthRack"
 msgid "Compact"
 msgstr "Compatta"
-
-#: devices/synthrack.xml
-msgctxt "SynthRack"
-msgid "Enable Direct Monitoring"
-msgstr "Abilita il Monitoraggio Diretto"
 
 #: devices/synthrack.xml
 msgctxt "SynthRack"
@@ -12706,8 +12716,23 @@ msgstr "Esteso"
 
 #: devices/synthrack.xml
 msgctxt "SynthRack"
-msgid "Instruments"
-msgstr "Strumenti"
+msgid "Show Instrument Set"
+msgstr "Mostra il set di strumenti"
+
+#: devices/synthrack.xml
+msgctxt "SynthSetRack"
+msgid "Add Instrument"
+msgstr "Aggiungi Strumento"
+
+#: devices/synthrack.xml
+msgctxt "SynthSetRack"
+msgid "Enable All"
+msgstr "Abilita Tutto"
+
+#: devices/synthrack.xml
+msgctxt "SynthSetRack"
+msgid "Instrument Set"
+msgstr "Set di strumenti"
 
 #: devices/synthcombinator.xml
 msgctxt "SynthSplitterDragView"
@@ -12748,6 +12773,236 @@ msgstr "Solo"
 msgctxt "TCMutablePlainButton"
 msgid "Solo (Solo Safe use Shift)"
 msgstr "Solo (premi Shift per SoloSafe)"
+
+#: devices/transport.xml
+msgctxt "TPAudioEngine.Session"
+msgid "Sample Rate"
+msgstr "Sample Rate"
+
+#: devices/transport.xml
+msgctxt "TPAudioEngine.Session"
+msgid "Total Plug-In Delay"
+msgstr "Ritardo Totale Plug-In"
+
+#: devices/transport.xml
+msgctxt "TPAudioEngine.Shared"
+msgid "Sample Rate"
+msgstr "Sample Rate"
+
+#: devices/transport.xml
+msgctxt "TPGlobalTranspose.Session"
+msgid "Transpose"
+msgstr "Trasponi"
+
+#: devices/transport.xml
+msgctxt "TPGlobalTranspose.Session"
+msgid "Transpose (semitones)"
+msgstr "Trasponi (semitoni)"
+
+#: devices/transport.xml
+msgctxt "TPKeySignature.Session"
+msgid "Key"
+msgstr "Chiave"
+
+#: devices/transport.xml
+msgctxt "TPKeySignature.Show"
+msgid "Key"
+msgstr "Chiave"
+
+#: devices/transport.xml
+msgctxt "TPMarkerButtons.Session"
+msgid "@cmd.title[]"
+msgstr "@cmd.title[]"
+
+#: devices/transport.xml
+msgctxt "TPMarkerButtons.Session"
+msgid "Fast Forward"
+msgstr "Avanti Veloce"
+
+#: devices/transport.xml
+msgctxt "TPMarkerButtons.Session"
+msgid "Rewind"
+msgstr "Riavvolgi"
+
+#: devices/transport.xml
+msgctxt "TPMarkerButtons.Shared"
+msgid "@cmd.title[]"
+msgstr "@cmd.title[]"
+
+#: devices/transport.xml
+msgctxt "TPMarkerButtons.Shared"
+msgid "Fast Forward"
+msgstr "Avanti Veloce"
+
+#: devices/transport.xml
+msgctxt "TPMarkerButtons.Shared"
+msgid "Rewind"
+msgstr "Riavvolgi"
+
+#: devices/transport.xml
+msgctxt "TPMusicalSettings.Shared"
+msgid "/"
+msgstr "/"
+
+#: devices/transport.xml
+msgctxt "TPMusicalSettings.Shared"
+msgid "Timing"
+msgstr "Timing"
+
+#: devices/transport.xml
+msgctxt "TPRecordModeButtons.Session"
+msgid "@cmd.title[Record Mode|Record Mode Replace]"
+msgstr "@cmd.title[Record Mode|Record Mode Replace]"
+
+#: devices/transport.xml
+msgctxt "TPRecordModeButtons.Session"
+msgid "@cmd.title[View|Record Panel]"
+msgstr "@cmd.title[View|Record Panel]"
+
+#: devices/transport.xml
+msgctxt "TPRecordModeButtons.Session"
+msgid "Auto Punch @cmd[Transport|Autopunch]"
+msgstr "Auto Punch @cmd[Transport|Autopunch]"
+
+#: devices/transport.xml
+msgctxt "TPRecordModeButtons.Session"
+msgid "Postroll @cmd[Transport|Postroll]"
+msgstr "Postroll @cmd[Trasporto|Postroll]"
+
+#: devices/transport.xml
+msgctxt "TPRecordModeButtons.Session"
+msgid "Preroll @cmd[Transport|Preroll]"
+msgstr "Preroll @cmd[Transport|Preroll]"
+
+#: devices/transport.xml
+msgctxt "TPRemainingRecordTime.Session"
+msgid "Record Max"
+msgstr "Registrazione Max"
+
+#: devices/transport.xml
+msgctxt "TPRemainingRecordTime.Session"
+msgid "Remaining Record Time"
+msgstr "Tempo Registrazione Rimanente"
+
+#: devices/transport.xml
+msgctxt "TPRemainingRecordTime.Session"
+msgid "Remaining Record Time (Low)"
+msgstr "Tempo Registrazione Rimanente (Basso)"
+
+#: devices/transport.xml
+msgctxt "TPSetlistItemTime.Show"
+msgid "Item Time"
+msgstr "Elemento Tempo"
+
+#: devices/transport.xml
+msgctxt "TPSetlistItemTime.Show"
+msgid "Time in current Setlist Item"
+msgstr "Tempo Elemento Setlist corrente"
+
+#: devices/transport.xml
+msgctxt "TPTempo.Session"
+msgid "="
+msgstr "="
+
+#: devices/transport.xml
+msgctxt "TPTempo.Session"
+msgid "Tap Tempo"
+msgstr "Tempo a tocco"
+
+#: devices/transport.xml
+msgctxt "TPTempo.Session"
+msgid "Tempo"
+msgstr "Tempo"
+
+#: devices/transport.xml
+msgctxt "TPTempo.Show"
+msgid "="
+msgstr "="
+
+#: devices/transport.xml
+msgctxt "TPTempo.Show"
+msgid "Tap Tempo"
+msgstr "Tempo a tocco"
+
+#: devices/transport.xml
+msgctxt "TPTempo.Show"
+msgid "Tempo"
+msgstr "Tempo"
+
+#: devices/transport.xml
+msgctxt "TPTimeTrack.Project"
+msgid "Time in current Track"
+msgstr "Tempo nella traccia corrente"
+
+#: devices/transport.xml
+msgctxt "TPTimeTrack.Project"
+msgid "Track Time"
+msgstr "Tempo Traccia"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Project"
+msgid "Loop Active @cmd[Transport|Toggle Loop]"
+msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Project"
+msgid "Return to Zero @cmd[Transport|Return to Zero]"
+msgstr "Ritorna a Zero @cmd[Transport|Return to Zero]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Project"
+msgid "Start @cmd[Transport|Start]"
+msgstr "Start @cmd[Transport|Start]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Project"
+msgid "Stop @cmd[Transport|Stop]"
+msgstr "Stop @cmd[Transport|Stop]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Session"
+msgid "Loop Active @cmd[Transport|Toggle Loop]"
+msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Session"
+msgid "Record @cmd[Transport|Record]"
+msgstr "Record @cmd[Transport|Record]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Session"
+msgid "Return to Zero @cmd[Transport|Return to Zero]"
+msgstr "Ritorna a Zero @cmd[Transport|Return to Zero]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Session"
+msgid "Start @cmd[Transport|Start]"
+msgstr "Start @cmd[Transport|Start]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Session"
+msgid "Stop @cmd[Transport|Stop]"
+msgstr "Stop @cmd[Transport|Stop]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Show"
+msgid "Loop Active @cmd[Transport|Toggle Loop]"
+msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Show"
+msgid "Return to Zero @cmd[Transport|Return to Zero]"
+msgstr "Ritorna a Zero @cmd[Transport|Return to Zero]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Show"
+msgid "Start @cmd[Transport|Start]"
+msgstr "Start @cmd[Transport|Start]"
+
+#: devices/transport.xml
+msgctxt "TPTransportButtons.Show"
+msgid "Stop @cmd[Transport|Stop]"
+msgstr "Stop @cmd[Transport|Stop]"
 
 #: ccl/browser.xml
 msgctxt "TagChainSelector"
@@ -12880,22 +13135,22 @@ msgid "Time Zoom"
 msgstr "Zoom Tempo"
 
 #: engine/inspector.xml
-msgctxt "TimeSignaturePopup"
+msgctxt "TimeSignaturePopupContent"
 msgid "&#8226;"
 msgstr "&#8226;"
 
 #: engine/inspector.xml
-msgctxt "TimeSignaturePopup"
+msgctxt "TimeSignaturePopupContent"
 msgid "/"
 msgstr "/"
 
 #: engine/inspector.xml
-msgctxt "TimeSignaturePopup"
+msgctxt "TimeSignaturePopupContent"
 msgid "Beat Duration"
 msgstr "Durata del battito"
 
 #: engine/inspector.xml
-msgctxt "TimeSignaturePopup"
+msgctxt "TimeSignaturePopupContent"
 msgid "Dotted"
 msgstr "Puntato"
 
@@ -12998,11 +13253,6 @@ msgstr "Accordi"
 msgctxt "TrackControls.Chords"
 msgid "Display"
 msgstr "Display"
-
-#: show/show.xml
-msgctxt "TrackControls.Chords"
-msgid "Sync Mode when Jumping"
-msgstr "Modalità Sync durante il Movimento"
 
 #: show/show.xml
 msgctxt "TrackControls.Lyrics"
@@ -13361,21 +13611,6 @@ msgstr "Trasferimenti"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
-msgid "/"
-msgstr "/"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "="
-msgstr "="
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "@cmd.title[Record Mode|Record Mode Replace]"
-msgstr "@cmd.title[Record Mode|Record Mode Replace]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
 msgid "@cmd.title[View|Browser]"
 msgstr "@cmd.title[View|Browser]"
 
@@ -13401,128 +13636,13 @@ msgstr "@cmd.title[View|Inspector]"
 
 #: devices/transport.xml
 msgctxt "TransportPanel"
-msgid "@cmd.title[View|Record Panel]"
-msgstr "@cmd.title[View|Record Panel]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
 msgid "@cmd.title[View|Track List]"
 msgstr "@cmd.title[View|Track List]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "@cmd.title[]"
-msgstr "@cmd.title[]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Auto Punch @cmd[Transport|Autopunch]"
-msgstr "Auto Punch @cmd[Transport|Autopunch]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Fast Forward"
-msgstr "Avanti Veloce"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Key"
-msgstr "Chiave"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Loop Active @cmd[Transport|Toggle Loop]"
-msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Postroll @cmd[Transport|Postroll]"
-msgstr "Postroll @cmd[Trasporto|Postroll]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Preroll @cmd[Transport|Preroll]"
-msgstr "Preroll @cmd[Transport|Preroll]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Record @cmd[Transport|Record]"
-msgstr "Record @cmd[Transport|Record]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Record Max"
-msgstr "Registrazione Max"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Remaining Record Time"
-msgstr "Tempo Registrazione Rimanente"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Remaining Record Time (Low)"
-msgstr "Tempo Registrazione Rimanente (Basso)"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Return to Zero @cmd[Transport|Return to Zero]"
-msgstr "Ritorna a Zero @cmd[Transport|Return to Zero]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Rewind"
-msgstr "Riavvolgi"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Sample Rate"
-msgstr "Sample Rate"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Start @cmd[Transport|Start]"
-msgstr "Start @cmd[Transport|Start]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Stop @cmd[Transport|Stop]"
-msgstr "Stop @cmd[Transport|Stop]"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Tap Tempo"
-msgstr "Tap Tempo"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Tempo"
-msgstr "Tempo"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Timing"
-msgstr "Timing"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Total Plug-In Delay"
-msgstr "Ritardo Totale Plug-In"
 
 #: app/windowclasses.xml devices/transport.xml
 msgctxt "TransportPanel"
 msgid "Transport"
 msgstr "Trasporto"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Transpose"
-msgstr "Trasponi"
-
-#: devices/transport.xml
-msgctxt "TransportPanel"
-msgid "Transpose (semitones)"
-msgstr "Trasponi (semitoni)"
 
 #: devices/transport.xml
 msgctxt "TransportPanel.CacheActivity"
@@ -13690,11 +13810,6 @@ msgid "Activate with $CLOUDNAME"
 msgstr "Attiva con $CLOUDNAME"
 
 #: app/licenser.xml
-msgctxt "UserLicenseDialog.ActivationOptions"
-msgid "Try $APPNAME for a time limited demo period"
-msgstr "Prova $APPNAME per un periodo demo limitato"
-
-#: app/licenser.xml
 msgctxt "UserLicenseDialog.ActivationPage"
 msgid "Activate Offline"
 msgstr "Attivazione Offline"
@@ -13776,8 +13891,8 @@ msgstr "Richieste di funzionalità di $APPNAME"
 
 #: app/licenser.xml
 msgctxt "UserLicenseExpired"
-msgid "Join $CLOUDNAME"
-msgstr "Unisci $CLOUDNAME"
+msgid "Learn more about $CLOUDNAME"
+msgstr "Impara di più riguardo $CLOUDNAME"
 
 #: app/licenser.xml
 msgctxt "UserLicenseExpired"
@@ -13826,13 +13941,13 @@ msgstr "Modifica Profilo"
 
 #: app/toolbar.xml
 msgctxt "UserProfilePopup"
-msgid "Sign in"
-msgstr "Accedi"
+msgid "Sign Out"
+msgstr "Uscire"
 
 #: app/toolbar.xml
 msgctxt "UserProfilePopup"
-msgid "Sign out"
-msgstr "Uscire"
+msgid "Sign in"
+msgstr "Accedi"
 
 #: app/toolbar.xml
 msgctxt "UserProfilePopup"
@@ -13906,13 +14021,8 @@ msgstr "Tra il segnale di inizio/fine sessione"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
-msgid "Bypass fader and post effects"
-msgstr "Bypass del fader e degli effetti in post"
-
-#: engine/videoplayer.xml
-msgctxt "VideoExport"
-msgid "Bypass master effects"
-msgstr "Bypass Effetti Master"
+msgid "Bypass"
+msgstr "Bypass"
 
 #: engine/videoplayer.xml
 msgctxt "VideoExport"
@@ -14670,6 +14780,14 @@ msgstr "@property:title[$index]"
 #~ msgstr "Bypass Effetti Master"
 
 #~ msgctxt "AudioExport"
+#~ msgid "Bypass fader and post effects"
+#~ msgstr "Bypass del fader e degli effetti in post"
+
+#~ msgctxt "AudioExport"
+#~ msgid "Bypass master effects"
+#~ msgstr "Bypass Effetti Master"
+
+#~ msgctxt "AudioExport"
 #~ msgid "Duration"
 #~ msgstr "Durata"
 
@@ -15274,12 +15392,60 @@ msgstr "@property:title[$index]"
 #~ msgstr "&gt;"
 
 #~ msgctxt "BrowserHomeContent"
+#~ msgid "$APPCOMPANY Exchange and other services"
+#~ msgstr "$APPCOMPANY Exchange e altri servizi"
+
+#~ msgctxt "BrowserHomeContent"
 #~ msgid "$APPCOMPANY Shop and other services"
 #~ msgstr "$APPCOMPANY Shop e altri servizi"
 
 #~ msgctxt "BrowserHomeContent"
+#~ msgid "A musician by your side"
+#~ msgstr "Un musicista al tuo fianco"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Browse $APPNAME loop libraries"
+#~ msgstr "Sfoglia le librerie di loop di $APPNAME"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Browse Splice loops and samples"
+#~ msgstr "Sfoglia i loop e i campioni di Splice"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Browse files and folders"
+#~ msgstr "Sfoglia file e cartelle"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Cloud"
+#~ msgstr "Cloud"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Effects"
+#~ msgstr "Effetti"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Files"
+#~ msgstr "Files"
+
+#~ msgctxt "BrowserHomeContent"
 #~ msgid "Get add-ons from $APPCOMPANY Shop"
 #~ msgstr "Ottieni componenti aggiuntivi dallo shop $APPCOMPANY"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Install now"
+#~ msgstr "Installa ora"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Instruments"
+#~ msgstr "Strumenti"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Loops"
+#~ msgstr "Loops"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Pool"
+#~ msgstr "Pool"
 
 #~ msgctxt "BrowserHomeContent"
 #~ msgid "Reset Blacklist"
@@ -15290,12 +15456,52 @@ msgstr "@property:title[$index]"
 #~ msgstr "Shop"
 
 #~ msgctxt "BrowserHomeContent"
+#~ msgid "Show Instruments and Note FX"
+#~ msgstr "Mostra Strumenti e Note FX"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Show files used in this Session"
+#~ msgstr "Mostra i file utilizzati in questa sessione"
+
+#~ msgctxt "BrowserHomeContent"
 #~ msgid "Show files used in this Song"
 #~ msgstr "Mostra files usati in questa Song"
 
 #~ msgctxt "BrowserHomeContent"
+#~ msgid "Show installed Effects"
+#~ msgstr "Mostra Effetti Installati"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Splice"
+#~ msgstr "Splice"
+
+#~ msgctxt "BrowserHomeContent"
+#~ msgid "Tonalic"
+#~ msgstr "Tonalic"
+
+#~ msgctxt "BrowserHomeContent"
 #~ msgid "Update Plug-Ins"
 #~ msgstr "Aggiorna Plug-Ins"
+
+#~ msgctxt "BrowserListView"
+#~ msgid "Show Gallery"
+#~ msgstr "Mostra Galleria"
+
+#~ msgctxt "BrowserListView"
+#~ msgid "Show List"
+#~ msgstr "Mostra Elenco"
+
+#~ msgctxt "BrowserMainTabs"
+#~ msgid "Search @cmd.title[]"
+#~ msgstr "Cerca @cmd.title[]"
+
+#~ msgctxt "BrowserViewModeButtons.NoInvert"
+#~ msgid "Show Thumbnails"
+#~ msgstr "Mostra Miniature"
+
+#~ msgctxt "BrowserViewModeButtons.NoInvert"
+#~ msgid "Toggle Tree Mode"
+#~ msgstr "Passa a Modalità Albero"
 
 #~ msgctxt "ChannelLabel"
 #~ msgid "Double Click: Edit Name"
@@ -15598,6 +15804,30 @@ msgstr "@property:title[$index]"
 #~ msgstr "Blacklist Reset!"
 
 #~ msgctxt "Command"
+#~ msgid "Show Cloud"
+#~ msgstr "Mostra Cloud"
+
+#~ msgctxt "Command"
+#~ msgid "Show Effects"
+#~ msgstr "Mostra Effetti"
+
+#~ msgctxt "Command"
+#~ msgid "Show Files"
+#~ msgstr "Mostra Files"
+
+#~ msgctxt "Command"
+#~ msgid "Show Instruments"
+#~ msgstr "Mostra Strumenti"
+
+#~ msgctxt "Command"
+#~ msgid "Show Loops"
+#~ msgstr "Mostra Loop"
+
+#~ msgctxt "Command"
+#~ msgid "Show Pool"
+#~ msgstr "Mostra Pool"
+
+#~ msgctxt "Command"
 #~ msgid "Show Project"
 #~ msgstr "Mostra progetto"
 
@@ -15608,6 +15838,14 @@ msgstr "@property:title[$index]"
 #~ msgctxt "Command"
 #~ msgid "Show Song"
 #~ msgstr "Mostra Song"
+
+#~ msgctxt "Command"
+#~ msgid "Show Splice"
+#~ msgstr "Mostra Splice"
+
+#~ msgctxt "Command"
+#~ msgid "Show Tonalic"
+#~ msgstr "Mostra Tonalic"
 
 #~ msgctxt "Command"
 #~ msgid "Show Trash Bin"
@@ -16389,6 +16627,18 @@ msgstr "@property:title[$index]"
 #~ msgid "Open an existing Document"
 #~ msgstr "Apri Documento esistente"
 
+#~ msgctxt "HomePage"
+#~ msgid "There is a new version of $APPNAME available."
+#~ msgstr "C'è una nuova versione di $APPNAME disponibile."
+
+#~ msgctxt "HomePage"
+#~ msgid "Update Now"
+#~ msgstr "Aggiorna Ora"
+
+#~ msgctxt "HomePage"
+#~ msgid "View Release Notes"
+#~ msgstr "Leggi Note di Rilascio"
+
 #~ msgctxt "HomePage.HeaderFileTypes"
 #~ msgid "@cmd.title[]"
 #~ msgstr "@cmd.title[]"
@@ -16516,6 +16766,14 @@ msgstr "@property:title[$index]"
 #~ msgctxt "InspectorPanel"
 #~ msgid "@cmd.title[View|Track List]"
 #~ msgstr "@cmd.title[View|Track List]"
+
+#~ msgctxt "InspectorSectionVariation"
+#~ msgid "Default Score Variation"
+#~ msgstr "Variazione Partitura Default"
+
+#~ msgctxt "InspectorSectionVariation"
+#~ msgid "Score Symbols"
+#~ msgstr "Simboli della Partitura"
 
 #~ msgctxt "KeySwitchLaneControl"
 #~ msgid "Edit Key Switches"
@@ -17217,6 +17475,10 @@ msgstr "@property:title[$index]"
 #~ msgid "Unload instrument and remove it from the rack. This option is only available, if no other tracks are using the instrument."
 #~ msgstr "Scarica lo strumento e rimuovilo dal rack. Questa opzione è disponibile solo se nessun'altra traccia sta utilizzando lo strumento."
 
+#~ msgctxt "MusicalSymbolSection"
+#~ msgid "Default Score Variation"
+#~ msgstr "Variazione Partitura Default"
+
 #~ msgctxt "MutableMacroControlKnob"
 #~ msgid "@value[]"
 #~ msgstr "@value[]"
@@ -17448,6 +17710,10 @@ msgstr "@property:title[$index]"
 #~ msgctxt "PlayerSelectorView"
 #~ msgid "Player"
 #~ msgstr "Player"
+
+#~ msgctxt "PlugInBrowserHeader"
+#~ msgid "Manage Plug-Ins"
+#~ msgstr "Gestisci Plug-Ins"
 
 #~ msgctxt "PlugInBrowserHeader"
 #~ msgid "Show Thumbnails"
@@ -17718,8 +17984,8 @@ msgstr "@property:title[$index]"
 #~ msgstr "Seleziona Colore Traccia"
 
 #~ msgctxt "ProjectTransport"
-#~ msgid "@cmd.title[View|Editor]"
-#~ msgstr "@cmd.title[View|Editor]"
+#~ msgid "@cmd.title[]"
+#~ msgstr "@cmd.title[]"
 
 #~ msgctxt "ProjectTransport"
 #~ msgid "Browse"
@@ -17728,6 +17994,42 @@ msgstr "@property:title[$index]"
 #~ msgctxt "ProjectTransport"
 #~ msgid "Edit"
 #~ msgstr "Modifica"
+
+#~ msgctxt "ProjectTransport"
+#~ msgid "Fast Forward"
+#~ msgstr "Avanti Veloce"
+
+#~ msgctxt "ProjectTransport"
+#~ msgid "Loop Active @cmd[Transport|Toggle Loop]"
+#~ msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
+
+#~ msgctxt "ProjectTransport"
+#~ msgid "Return to Zero @cmd[Transport|Return to Zero]"
+#~ msgstr "Ritorna a Zero @cmd[Transport|Return to Zero]"
+
+#~ msgctxt "ProjectTransport"
+#~ msgid "Rewind"
+#~ msgstr "Riavvolgi"
+
+#~ msgctxt "ProjectTransport"
+#~ msgid "Sample Rate"
+#~ msgstr "Sample Rate"
+
+#~ msgctxt "ProjectTransport"
+#~ msgid "Start @cmd[Transport|Start]"
+#~ msgstr "Start @cmd[Transport|Start]"
+
+#~ msgctxt "ProjectTransport"
+#~ msgid "Stop @cmd[Transport|Stop]"
+#~ msgstr "Stop @cmd[Transport|Stop]"
+
+#~ msgctxt "ProjectTransport"
+#~ msgid "Time in current Track"
+#~ msgstr "Tempo nella traccia corrente"
+
+#~ msgctxt "ProjectTransport"
+#~ msgid "Track Time"
+#~ msgstr "Tempo Traccia"
 
 #~ msgctxt "PurchaseHandler"
 #~ msgid "Activate"
@@ -17886,6 +18188,10 @@ msgstr "@property:title[$index]"
 #~ msgstr "Invia dati di nota dell'intera Song"
 
 #~ msgctxt "SendToNotionNoTargets"
+#~ msgid "Buy Notion"
+#~ msgstr "Acquista Notion"
+
+#~ msgctxt "SendToNotionNoTargets"
 #~ msgid "Notion 6 or later must be installed on this computer or in the network. Studio One could not detect that Notion is currently running."
 #~ msgstr "Notion 6 (o una versionie successiva) devono essere installate su questo computer o nel network. Studio One potrebbe non rilevare che Notion è attualmente in esecuzione."
 
@@ -17982,12 +18288,40 @@ msgstr "@property:title[$index]"
 #~ msgstr "Song"
 
 #~ msgctxt "ShowTransport"
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "="
+#~ msgstr "="
+
+#~ msgctxt "ShowTransport"
 #~ msgid "@cmd.title[Transport|Precount]"
 #~ msgstr "@cmd.title[Transport|Precount]"
 
 #~ msgctxt "ShowTransport"
+#~ msgid "@cmd.title[]"
+#~ msgstr "@cmd.title[]"
+
+#~ msgctxt "ShowTransport"
 #~ msgid "Browse"
 #~ msgstr "Sfoglia"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Fast Forward"
+#~ msgstr "Avanti Veloce"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Item Time"
+#~ msgstr "Elemento Tempo"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Key"
+#~ msgstr "Chiave"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Loop Active @cmd[Transport|Toggle Loop]"
+#~ msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
 
 #~ msgctxt "ShowTransport"
 #~ msgid "Metronome"
@@ -18004,6 +18338,42 @@ msgstr "@property:title[$index]"
 #~ msgctxt "ShowTransport"
 #~ msgid "Mix"
 #~ msgstr "Mix"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Return to Zero @cmd[Transport|Return to Zero]"
+#~ msgstr "Ritorna a Zero @cmd[Transport|Return to Zero]"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Rewind"
+#~ msgstr "Riavvolgi"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Sample Rate"
+#~ msgstr "Sample Rate"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Start @cmd[Transport|Start]"
+#~ msgstr "Start @cmd[Transport|Start]"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Stop @cmd[Transport|Stop]"
+#~ msgstr "Stop @cmd[Transport|Stop]"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Tap Tempo"
+#~ msgstr "Tempo a tocco"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Tempo"
+#~ msgstr "Tempo"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Time in current Setlist Item"
+#~ msgstr "Tempo Elemento Setlist corrente"
+
+#~ msgctxt "ShowTransport"
+#~ msgid "Timing"
+#~ msgstr "Timing"
 
 #~ msgctxt "SnapshotRecallOptions"
 #~ msgid "Cue Mix"
@@ -18482,8 +18852,20 @@ msgstr "@property:title[$index]"
 #~ msgstr "Splitter"
 
 #~ msgctxt "SynthRack"
+#~ msgid "Add Instrument"
+#~ msgstr "Aggiungi Strumento"
+
+#~ msgctxt "SynthRack"
+#~ msgid "Enable Direct Monitoring"
+#~ msgstr "Abilita il Monitoraggio Diretto"
+
+#~ msgctxt "SynthRack"
 #~ msgid "Enable Low Latency Monitoring"
 #~ msgstr "Abilita Monitoring a Bassa Latenza"
+
+#~ msgctxt "SynthRack"
+#~ msgid "Instruments"
+#~ msgstr "Strumenti"
 
 #~ msgctxt "TagSearchPopup"
 #~ msgid "$t"
@@ -18492,6 +18874,22 @@ msgstr "@property:title[$index]"
 #~ msgctxt "TempoTrackControls"
 #~ msgid "Delete Selected Tempo Changes"
 #~ msgstr "Elimina Variazioni di Tempo Selezionati"
+
+#~ msgctxt "TimeSignaturePopup"
+#~ msgid "&#8226;"
+#~ msgstr "&#8226;"
+
+#~ msgctxt "TimeSignaturePopup"
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgctxt "TimeSignaturePopup"
+#~ msgid "Beat Duration"
+#~ msgstr "Durata del battito"
+
+#~ msgctxt "TimeSignaturePopup"
+#~ msgid "Dotted"
+#~ msgstr "Puntato"
 
 #~ msgctxt "ToolBar"
 #~ msgid "Range Tool in upper event area"
@@ -18504,6 +18902,10 @@ msgstr "@property:title[$index]"
 #~ msgctxt "TrackControls"
 #~ msgid "Select Track Color"
 #~ msgstr "Seleziona Colore Traccia"
+
+#~ msgctxt "TrackControls.Chords"
+#~ msgid "Sync Mode when Jumping"
+#~ msgstr "Modalità Sync durante il Movimento"
 
 #~ msgctxt "TrackControls.Lyrics"
 #~ msgid "@cmd.title[View|Lyrics]"
@@ -18670,8 +19072,32 @@ msgstr "@property:title[$index]"
 #~ msgstr "Stop @cmd[Transport|Stop]"
 
 #~ msgctxt "TransportPanel"
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "="
+#~ msgstr "="
+
+#~ msgctxt "TransportPanel"
+#~ msgid "@cmd.title[Record Mode|Record Mode Replace]"
+#~ msgstr "@cmd.title[Record Mode|Record Mode Replace]"
+
+#~ msgctxt "TransportPanel"
 #~ msgid "@cmd.title[Transport|Precount]"
 #~ msgstr "@cmd.title[Transport|Precount]"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "@cmd.title[View|Record Panel]"
+#~ msgstr "@cmd.title[View|Record Panel]"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "@cmd.title[]"
+#~ msgstr "@cmd.title[]"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Auto Punch @cmd[Transport|Autopunch]"
+#~ msgstr "Auto Punch @cmd[Transport|Autopunch]"
 
 #~ msgctxt "TransportPanel"
 #~ msgid "Browse"
@@ -18680,6 +19106,18 @@ msgstr "@property:title[$index]"
 #~ msgctxt "TransportPanel"
 #~ msgid "Edit"
 #~ msgstr "Edit"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Fast Forward"
+#~ msgstr "Avanti Veloce"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Key"
+#~ msgstr "Chiave"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Loop Active @cmd[Transport|Toggle Loop]"
+#~ msgstr "Attiva Loop @cmd[Transport|Toggle Loop]"
 
 #~ msgctxt "TransportPanel"
 #~ msgid "Metronome"
@@ -18696,6 +19134,74 @@ msgstr "@property:title[$index]"
 #~ msgctxt "TransportPanel"
 #~ msgid "Mix"
 #~ msgstr "Mix"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Postroll @cmd[Transport|Postroll]"
+#~ msgstr "Postroll @cmd[Trasporto|Postroll]"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Preroll @cmd[Transport|Preroll]"
+#~ msgstr "Preroll @cmd[Transport|Preroll]"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Record @cmd[Transport|Record]"
+#~ msgstr "Record @cmd[Transport|Record]"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Record Max"
+#~ msgstr "Registrazione Max"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Remaining Record Time"
+#~ msgstr "Tempo Registrazione Rimanente"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Remaining Record Time (Low)"
+#~ msgstr "Tempo Registrazione Rimanente (Basso)"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Return to Zero @cmd[Transport|Return to Zero]"
+#~ msgstr "Ritorna a Zero @cmd[Transport|Return to Zero]"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Rewind"
+#~ msgstr "Riavvolgi"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Sample Rate"
+#~ msgstr "Sample Rate"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Start @cmd[Transport|Start]"
+#~ msgstr "Start @cmd[Transport|Start]"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Stop @cmd[Transport|Stop]"
+#~ msgstr "Stop @cmd[Transport|Stop]"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Tap Tempo"
+#~ msgstr "Tap Tempo"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Tempo"
+#~ msgstr "Tempo"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Timing"
+#~ msgstr "Timing"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Total Plug-In Delay"
+#~ msgstr "Ritardo Totale Plug-In"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Transpose"
+#~ msgstr "Trasponi"
+
+#~ msgctxt "TransportPanel"
+#~ msgid "Transpose (semitones)"
+#~ msgstr "Trasponi (semitoni)"
 
 #~ msgctxt "TransportPanel.LoopPart"
 #~ msgid "Loop Range: @property[controller.loopLength]"
@@ -18716,6 +19222,10 @@ msgstr "@property:title[$index]"
 #~ msgctxt "UserLicenseDialog.ActivationOptions"
 #~ msgid "Run $APPNAMEFREE - the feature limited FREE version"
 #~ msgstr "Attiva $APPNAMEFREE - Questa versione Free è limitata"
+
+#~ msgctxt "UserLicenseDialog.ActivationOptions"
+#~ msgid "Try $APPNAME for a time limited demo period"
+#~ msgstr "Prova $APPNAME per un periodo demo limitato"
 
 #~ msgctxt "UserLicenseDialog.ActivationOptions"
 #~ msgid "Try the full version for a time limited demo period"
@@ -18742,6 +19252,10 @@ msgstr "@property:title[$index]"
 #~ msgstr "$APPCOMPANY Shop"
 
 #~ msgctxt "UserLicenseExpired"
+#~ msgid "Join $CLOUDNAME"
+#~ msgstr "Unisci $CLOUDNAME"
+
+#~ msgctxt "UserLicenseExpired"
 #~ msgid "Otherwise, we look forward to your feedback on how we can make $APPNAME better for you. Please visit our forums with any feature requests."
 #~ msgstr "In caso contrario, attendiamo un vostro feedback su come migliorare $APPNAME. Visitate il nostro forum per  richiedere nuove funzionalità."
 
@@ -18753,9 +19267,21 @@ msgstr "@property:title[$index]"
 #~ msgid "Song Setup"
 #~ msgstr "Setup Song"
 
+#~ msgctxt "UserProfilePopup"
+#~ msgid "Sign out"
+#~ msgstr "Uscire"
+
 #~ msgctxt "VideoExport"
 #~ msgid "Between Song Start/End Marker"
 #~ msgstr "Tra i Marker di Start/Fine brano"
+
+#~ msgctxt "VideoExport"
+#~ msgid "Bypass fader and post effects"
+#~ msgstr "Bypass del fader e degli effetti in post"
+
+#~ msgctxt "VideoExport"
+#~ msgid "Bypass master effects"
+#~ msgstr "Bypass Effetti Master"
 
 #~ msgctxt "VideoExport"
 #~ msgid "Mixdown Options"

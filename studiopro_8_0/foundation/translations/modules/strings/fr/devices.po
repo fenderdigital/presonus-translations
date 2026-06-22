@@ -149,6 +149,11 @@ msgctxt "ActionDescriptions"
 msgid "Swap Macro Controls"
 msgstr "Échanger commandes de macro"
 
+#: audiosynths/audiosyntheditfunctions.cpp
+msgctxt "ActionDescriptions"
+msgid "Transfer Instrument"
+msgstr "Transférer instrument"
+
 #: audiomixer/audiochannel.cpp
 msgctxt "AudioChannel"
 msgid "Mute"
@@ -443,7 +448,12 @@ msgstr "Tout activer %(1)"
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "Enable Plug-in Nap"
-msgstr "Activer la mise en sommeil des plug-ins"
+msgstr "Mise en sommeil du plug-in"
+
+#: audioeffects/audiofxfolder.cpp
+msgctxt "AudioFX"
+msgid "FX Chain"
+msgstr "Chaîne d'effets"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
@@ -1122,6 +1132,16 @@ msgstr "Instruments"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
+msgid "Move all to Instrument Set"
+msgstr "Tout déplacer dans le jeu d'instruments"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Move to Instrument Set"
+msgstr "Déplacer dans le jeu d'instruments"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Multi Instrument"
 msgstr "Multi-instrument"
 
@@ -1139,6 +1159,16 @@ msgstr "Retirer inutilisés"
 msgctxt "AudioSynth"
 msgid "Remove Unused Instruments"
 msgstr "Retirer instruments inutilisés"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename all Instruments to Preset"
+msgstr "Renommer tous les instruments selon preset"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename to Preset"
+msgstr "Renommer selon preset"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1168,7 +1198,7 @@ msgstr "Sidechains"
 #: audiosynths/audiosynthsetup.cpp
 msgctxt "AudioSynth"
 msgid "Sound Variation Editor"
-msgstr "Éditeur de variation de son"
+msgstr "Éditeur de variations de son"
 
 #: audiosynths/audiosynthdirectinput.cpp
 msgctxt "AudioSynthDirectInput"
@@ -1494,6 +1524,11 @@ msgstr "Périphériques"
 msgctxt "Command"
 msgid "Dim"
 msgstr "Atténuer"
+
+#: audiomixer/audiodrumclickcomponent.cpp
+msgctxt "Command"
+msgid "Drum Metronome"
+msgstr "Métronome batterie"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -2085,7 +2120,7 @@ msgctxt "Command"
 msgid "Toggle Start"
 msgstr "Commuter le démarrage"
 
-#: transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
+#: audiomixer/audiodrumclickcomponent.cpp transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Transport"
 msgstr "Transport"
@@ -2217,6 +2252,11 @@ msgstr "Bypass"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
+msgid "Chain"
+msgstr "Chaîne"
+
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
 msgid "Collapse"
 msgstr "Replier"
 
@@ -2334,6 +2374,11 @@ msgstr "Ajouter paramètre de micro-édition \"%(1)\""
 msgctxt "DeviceRack"
 msgid "Automation"
 msgstr "Automation"
+
+#: editor/devicerack.cpp
+msgctxt "DeviceRack"
+msgid "Load %(1)"
+msgstr "Charger %(1)"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
@@ -2458,7 +2503,7 @@ msgstr "Maximale"
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
 msgid "Medium"
-msgstr "Moyen"
+msgstr "Moyenne"
 
 #: audio/audioengine.cpp
 msgctxt "DropoutProtection"
@@ -2729,6 +2774,106 @@ msgstr "Cliquer pour déplacer des canaux"
 msgctxt "InsertSpeakerMapper"
 msgid "No match"
 msgstr "Pas de correspondance"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Cleanup Shared Instruments: %(1)"
+msgstr "Nettoyer instruments partagés : %(1)"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Disable Instrument Set"
+msgstr "Désactiver jeu d'instruments"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Enable Instrument Set"
+msgstr "Activer jeu d'instruments"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set"
+msgstr "Jeu d'instruments"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\""
+msgstr "Jeu d'instruments \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\" was modified. Do you want to save it?"
+msgstr "Le jeu d'instruments \"%(1)\" a été modifié. Voulez-vous le sauvegarder ?"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Sets"
+msgstr "Jeux d'instruments"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Load Instrument Set \"%(1)\""
+msgstr "Charger jeu d'instruments \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set"
+msgstr "Chargement du jeu d'instruments"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set \"%(1)\""
+msgstr "Chargement du jeu d'instruments \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Move to Instrument Set"
+msgstr "Déplacer dans le jeu d'instruments"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "New Instrument Set"
+msgstr "Nouveau jeu d'instruments"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Remove"
+msgstr "Retirer"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename"
+msgstr "Renommer"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename Instrument Set \"%(1)\""
+msgstr "Renommer jeu d'instruments \"%(1)\""
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Reset Default Instrument Set"
+msgstr "Réinitialiser jeu d'instruments par défaut"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Store Instrument Set"
+msgstr "Mémoriser jeu d'instruments"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "The current instrument set was modified. Do you want to save it?"
+msgstr "Le jeu d'instruments actuel a été modifié. Voulez-vous le sauvegarder ?"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Update Instrument Set"
+msgstr "Mettre à jour jeu d'instruments"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Use as Default"
+msgstr "Utiliser par défaut"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -3535,6 +3680,11 @@ msgstr "Sidechains"
 msgctxt "SideChain"
 msgid "Toggle Prefader"
 msgstr "Bascule préfader"
+
+#: midi/simplemidiinput.cpp
+msgctxt "SimpleMidiInput"
+msgid "Setup..."
+msgstr "Configuration..."
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"

@@ -242,7 +242,7 @@ msgstr "Geler le canal en audio converti"
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
 msgid "Freeze to Rendered Audio"
-msgstr "Geler en audio converti"
+msgstr "Figer en audio converti"
 
 #: application/song/audiobustransform.cpp
 msgctxt "ChannelTransform"
@@ -457,7 +457,7 @@ msgstr "Exporter l'audio spatial"
 #: song/songcontroller.cpp
 msgctxt "Command"
 msgid "Export Stems"
-msgstr "Exporter les sous-groupes"
+msgstr "Exporter les stems"
 
 #: song/songvideohandler.cpp
 msgctxt "Command"
@@ -482,7 +482,7 @@ msgstr "Première piste"
 #: application/song/audiobustransform.cpp
 msgctxt "Command"
 msgid "Freeze to Rendered Audio"
-msgstr "Geler en audio converti"
+msgstr "Figer en audio converti"
 
 #: song/songmarker.cpp
 msgctxt "Command"
@@ -1230,7 +1230,7 @@ msgstr "Éditer"
 #: application/song/mixdowntask.cpp
 msgctxt "Edit"
 msgid "Mixdown Selection"
-msgstr "Sélection du mixage"
+msgstr "Mixer la selection"
 
 #: score/scoreeditor.cpp
 msgctxt "Edit"
@@ -1568,7 +1568,7 @@ msgstr "Détecter la sonie"
 #: application/project/projecttracktransformtask.cpp
 msgctxt "ProjectEdit"
 msgid "Freeze to Rendered Audio"
-msgstr "Geler en audio converti"
+msgstr "Figer en audio converti"
 
 #: project/editing/projectedittasks.cpp
 msgctxt "ProjectEdit"
@@ -1578,7 +1578,7 @@ msgstr "Projet"
 #: application/project/projecttracktransformtask.cpp
 msgctxt "ProjectEdit"
 msgid "Unfreeze to Realtime Audio"
-msgstr "Dégeler vers audio en temps réel"
+msgstr "Défiger en audio en temps"
 
 #: project/editing/projectdraghandler.cpp
 msgctxt "ProjectEditHandler"
@@ -2288,6 +2288,26 @@ msgstr "Automatique"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
+msgid "Bypass All Inserts"
+msgstr "Bypasser tous les inserts"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Inserts + Fader"
+msgstr "Bypasser inserts + fader"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Post Inserts"
+msgstr "Bypasser inserts Pré"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "Bypass Pre Inserts"
+msgstr "Bypasser inserts Post"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
 msgid "Cannot create mixdown with protected content."
 msgstr "Impossible de créer un mixage avec du contenu protégé."
 
@@ -2315,6 +2335,11 @@ msgstr "Échec de l'exportation de fichier audio."
 msgctxt "SongRenderer"
 msgid "Mono"
 msgstr "Mono"
+
+#: song/songrenderer.cpp
+msgctxt "SongRenderer"
+msgid "No bypass"
+msgstr "Pas de bypass"
 
 #: song/songrenderer.cpp
 msgctxt "SongRenderer"
@@ -2553,8 +2578,29 @@ msgstr "Appliquer le preset de piste '%(1)'"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
+msgid "Do you want to update track preset '%(1)'?"
+msgstr "Voulez-vous mettre à jour le preset de piste '%(1)' ?"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Keep original"
+msgstr "Conserver l'original"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
 msgid "Load Track Preset"
 msgstr "Charger preset de piste"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid ""
+"Selected tracks differ from those in the '%(1)' preset.\n"
+"\n"
+"Do you want to update which tracks are saved?"
+msgstr ""
+"Les pistes sélectionnées diffèrent de celles du preset '%(1)'.\n"
+"\n"
+"Voulez-vous changer les pistes à sauvegarder ?"
 
 #: song/trackpresetcomponent.cpp
 msgctxt "TrackPreset"
@@ -2570,6 +2616,16 @@ msgstr "Preset de piste"
 msgctxt "TrackPreset"
 msgid "Track Presets"
 msgstr "Presets de piste"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: song/trackpresetcomponent.cpp
+msgctxt "TrackPreset"
+msgid "Update Track Preset"
+msgstr "Mettre à jour preset de piste"
 
 #: shared/basicvideohandler.cpp
 msgctxt "Video"

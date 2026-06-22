@@ -7,17 +7,17 @@ msgstr ""
 #: araextension.cpp
 msgctxt "ARA"
 msgid "%(1) with %(2) data"
-msgstr "%(1)带有%(2)数据"
+msgstr "%(1) 带有 %(2) 数据"
 
 #: appsafety.cpp
 msgctxt "AppSafety"
 msgid "Disable startup action"
-msgstr "禁用开机动作"
+msgstr "禁用启动时的操作"
 
 #: appsafety.cpp
 msgctxt "AppSafety"
 msgid "Do not load last or default Session/Project/Show."
-msgstr "不加载上次打开的或默认的工程/项目/演出文件"
+msgstr "不加载最近或默认的工程/项目/演出。"
 
 #: appsafety.cpp
 msgctxt "AppSafety"
@@ -28,6 +28,21 @@ msgstr "显示插件管理器"
 msgctxt "AppSafety"
 msgid "Show the Plug-In Manager."
 msgstr "显示插件管理器。"
+
+#: moisesaudiotasks.cpp
+msgctxt "AudioEdit"
+msgid "Convert Voice with Moises"
+msgstr "使用 Moises 转换人声"
+
+#: moisesaudiotasks.cpp
+msgctxt "AudioEdit"
+msgid "Generate Stems with Moises"
+msgstr "使用 Moises 生成音轨"
+
+#: moisesaudiotasks.cpp
+msgctxt "AudioEdit"
+msgid "Separate Stems with Moises"
+msgstr "使用 Moises 分离音轨"
 
 #: automationhandler.cpp
 msgctxt "AutomationHandler"
@@ -57,7 +72,7 @@ msgstr "将当前自动化参数应用至工程结尾"
 #: automationhandler.cpp
 msgctxt "Command"
 msgid "Apply Current Automation to Session Start"
-msgstr "将当前自动化参数应用至工程起始处"
+msgstr "将当前自动化应用至工程开始"
 
 #: samplerextension.cpp
 msgctxt "Command"
@@ -152,7 +167,7 @@ msgstr "新建项目"
 #: documenthandler.cpp
 msgctxt "Command"
 msgid "New Session"
-msgstr "新工程文件"
+msgstr "新建工程"
 
 #: documenthandler.cpp
 msgctxt "Command"
@@ -207,7 +222,7 @@ msgstr "显示通道注释"
 #: studiomixerconsole.cpp
 msgctxt "Command"
 msgid "Show Channel Tab"
-msgstr "显示通道选项"
+msgstr "显示通道页面"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -266,6 +281,11 @@ msgstr "显示宏控制"
 
 #: sidebar.cpp
 msgctxt "Command"
+msgid "Show Moises"
+msgstr "显示 Moises"
+
+#: sidebar.cpp
+msgctxt "Command"
 msgid "Show Pool"
 msgstr "显示素材池"
 
@@ -277,7 +297,7 @@ msgstr "显示路由编辑器"
 #: studiomixerconsole.cpp
 msgctxt "Command"
 msgid "Show Sends/Cue mix"
-msgstr "显示发送 / Cue mix"
+msgstr "显示发送/Cue mix"
 
 #: sidebar.cpp
 msgctxt "Command"
@@ -292,7 +312,7 @@ msgstr "显示Splice"
 #: studiomixerconsole.cpp
 msgctxt "Command"
 msgid "Show VCA Connections"
-msgstr "显示VCA连接"
+msgstr "显示 VCA 连接"
 
 #: documenthandler.cpp
 msgctxt "Command"
@@ -392,27 +412,27 @@ msgstr "智能删除"
 #: projectdocument.cpp
 msgctxt "FileType"
 msgid "$APPNAME Mastering Project"
-msgstr "$APPNAME 母带工程项目"
+msgstr "$APPNAME 母带项目"
 
 #: projectdocument.cpp
 msgctxt "FileType"
 msgid "$APPNAME Mastering Project Template"
-msgstr "$APPNAME 母带工程项目模板"
+msgstr "$APPNAME 母带项目模板"
 
 #: songdocument.cpp
 msgctxt "FileType"
 msgid "$APPNAME Session Template"
-msgstr "工程模板"
+msgstr "$APPNAME 工程模板"
 
 #: showdocument.cpp
 msgctxt "FileType"
 msgid "$APPNAME Show"
-msgstr "$APPNAME演出"
+msgstr "$APPNAME 演出"
 
 #: showdocument.cpp
 msgctxt "FileType"
 msgid "$APPNAME Show Template"
-msgstr "$APPNAME演出模板"
+msgstr "$APPNAME 演出模板"
 
 #: sidebar.filetypes.cpp
 msgctxt "FileType"
@@ -512,7 +532,7 @@ msgstr "隐藏"
 #: studiomixerconsole.cpp
 msgctxt "MixerConsole"
 msgid "Hide Related Channels"
-msgstr "隐藏相关轨道"
+msgstr "隐藏相关通道"
 
 #: studiomixerconsole.cpp
 msgctxt "MixerConsole"
@@ -602,7 +622,7 @@ msgstr "发送至 Notion"
 #: notionexportcomponent.cpp
 msgctxt "NotionExportComponent"
 msgid "This computer"
-msgstr "此台电脑"
+msgstr "此电脑"
 
 #: appoptions.cpp
 msgctxt "Options"
@@ -667,17 +687,17 @@ msgstr "MIDI"
 #: appoptions.cpp
 msgctxt "Options"
 msgid "Never"
-msgstr "从未备份"
+msgstr "从不"
 
 #: appoptions.cpp
 msgctxt "Options"
 msgid "Open Default Session/Project/Show"
-msgstr "打开默认工程/项目/演出"
+msgstr "打开默认的工程/项目/演出"
 
 #: appoptions.cpp
 msgctxt "Options"
 msgid "Open Last Session/Project/Show"
-msgstr "打开上次的工程/项目/演出"
+msgstr "打开最近的工程/项目/演出"
 
 #: appoptions.cpp
 msgctxt "Options"
@@ -692,22 +712,22 @@ msgstr "视频"
 #: showenvironment.cpp
 msgctxt "Show"
 msgid "16 Buttons"
-msgstr "16个按钮"
+msgstr "16 个按钮"
 
 #: showenvironment.cpp
 msgctxt "Show"
 msgid "16 Faders"
-msgstr "16个推子"
+msgstr "16 个推子"
 
 #: showenvironment.cpp
 msgctxt "Show"
 msgid "16 Knobs"
-msgstr "16个旋钮"
+msgstr "16 个旋钮"
 
 #: showenvironment.cpp
 msgctxt "Show"
 msgid "8 Buttons + 8 Knobs + 8 Faders"
-msgstr "8个按钮+8个旋钮+8个推子"
+msgstr "8 个按钮 + 8 个旋钮 + 8 个推子"
 
 #: showenvironment.cpp
 msgctxt "Show"
@@ -717,7 +737,7 @@ msgstr "按钮"
 #: showenvironment.cpp
 msgctxt "Show"
 msgid "Fader"
-msgstr "文件夹"
+msgstr "推子"
 
 #: showenvironment.cpp
 msgctxt "Show"
@@ -732,7 +752,7 @@ msgstr "添加设备"
 #: sidebar.cpp
 msgctxt "Sidebar"
 msgid "Bit Depth"
-msgstr "位深"
+msgstr "比特深度"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -742,7 +762,7 @@ msgstr "云"
 #: sidebar.cpp
 msgctxt "Sidebar"
 msgid "Construction Kits"
-msgstr "建构组件"
+msgstr "素材套件"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -781,13 +801,18 @@ msgstr "安装内容"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
+msgid "Instrument Sets"
+msgstr "乐器组"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
 msgid "Instruments"
 msgstr "乐器"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
 msgid "Key"
-msgstr "音调"
+msgstr "调性"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -836,8 +861,18 @@ msgstr "速率"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
+msgid "Reset Order"
+msgstr "重置顺序"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
 msgid "Shop"
 msgstr "商店"
+
+#: sidebar.cpp
+msgctxt "Sidebar"
+msgid "Show Icons Only"
+msgstr "仅显示图标"
 
 #: sidebar.cpp
 msgctxt "Sidebar"
@@ -867,27 +902,27 @@ msgstr "导入工程数据"
 #: songdataimporter.cpp
 msgctxt "SongDataImporter"
 msgid "Session has missing devices!"
-msgstr "工程文件关联设备丢失"
+msgstr "工程关联的设备缺失！"
 
 #: songdataimporter.cpp
 msgctxt "SongDataImporter"
 msgid "Tempo & Time Signature"
-msgstr "节拍和拍号"
+msgstr "速度和拍号"
 
 #: studioapp.cpp
 msgctxt "StudioApp"
 msgid "$CLOUDNAME Content"
-msgstr "$CLOUDNAME内容"
+msgstr "$CLOUDNAME 内容"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "A drum click can only be generated if Impact is used as instrument."
-msgstr "只有当 Impact 用作乐器时，才能生成鼓节拍轨。"
+msgstr "只有使用 Impact 作为乐器时，才能生成鼓节拍器。"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "A part or pattern can only be converted to a drum click if it is in drum mode."
-msgstr "一个声部或乐段处于鼓模式时只能转换为鼓节拍轨"
+msgstr "一个片段或样式处于鼓模式时才能转换为鼓节拍器。"
 
 #: documenthandler.cpp
 msgctxt "StudioApp"
@@ -902,7 +937,7 @@ msgstr "添加到演出"
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "All samples must be in one-shot mode."
-msgstr "所有采样必须处于one-shot模式"
+msgstr "所有采样必须处于 one-shot 模式。"
 
 #: studioapp.cpp
 msgctxt "StudioApp"
@@ -917,17 +952,17 @@ msgstr "艺术家资料"
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "Create Drum Click"
-msgstr "创建鼓组 click 轨"
+msgstr "创建鼓节拍器"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
-msgid "Create Music Part For '%(1)'"
-msgstr "为 '%(1)' 创建音乐段落"
+msgid "Create Instrument Part For '%(1)'"
+msgstr "为“%(1)”创建乐器片段"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
-msgid "Create Music Part For Active Click"
-msgstr "为当前激活的 click 轨创建音乐段落"
+msgid "Create Instrument Part For Active Click"
+msgstr "为激活的节拍器创建乐器片段"
 
 #: showdocument.cpp
 msgctxt "StudioApp"
@@ -937,42 +972,42 @@ msgstr "创建一个排练和演出的真实乐器、虚拟乐器和背景音乐
 #: projectdocument.cpp
 msgctxt "StudioApp"
 msgid "Do you want to make the current I/O Setup the default for new Mastering Projects?"
-msgstr "您要将当前的 I/O 设置设为新母带处理项目的默认配置吗？"
+msgstr "是否要将当前的 I/O 设置用作新的母带项目的默认设置？"
 
 #: songdocument.cpp
 msgctxt "StudioApp"
 msgid "Do you want to make the current I/O Setup the default for new Sessions?"
-msgstr "您要将当前的 I/O 设置为新工程的默认配置吗？"
+msgstr "是否要将当前的 I/O 设置用作新的工程的默认设置？"
 
 #: showdocument.cpp
 msgctxt "StudioApp"
 msgid "Do you want to make the current I/O Setup the default for new Shows?"
-msgstr "让当前I/O设置成为全新演出的默认设置？"
+msgstr "是否要将当前的 I/O 设置用作新的演出的默认设置？"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "Drum Click"
-msgstr "鼓组节拍"
+msgstr "鼓节拍器"
 
 #: melodyneextension.cpp
 msgctxt "StudioApp"
 msgid "Edit with Melodyne"
-msgstr "使用Melodyne编辑"
+msgstr "使用 Melodyne 编辑"
 
 #: repitchextension.cpp
 msgctxt "StudioApp"
 msgid "Edit with RePitch"
-msgstr "使用RePitch编辑"
+msgstr "使用 RePitch 编辑"
 
 #: revoiceextension.cpp
 msgctxt "StudioApp"
 msgid "Edit with Revoice Pro"
-msgstr "使用Revoice Pro编辑"
+msgstr "使用 Revoice Pro 编辑"
 
 #: vocalignextension.cpp
 msgctxt "StudioApp"
 msgid "Edit with VocAlign"
-msgstr "使用VocAlign编辑"
+msgstr "使用 VocAlign 编辑"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
@@ -1002,7 +1037,7 @@ msgstr "母带处理和发布"
 #: projectdocument.cpp
 msgctxt "StudioApp"
 msgid "New Mastering Project"
-msgstr "新母带工程"
+msgstr "新建母带项目"
 
 #: projectdocument.cpp
 msgctxt "StudioApp"
@@ -1017,7 +1052,7 @@ msgstr "新建项目“%(1)”"
 #: songdocument.cpp
 msgctxt "StudioApp"
 msgid "New Session"
-msgstr "新工程文件"
+msgstr "新建工程"
 
 #: showdocument.cpp
 msgctxt "StudioApp"
@@ -1027,7 +1062,7 @@ msgstr "新建演出"
 #: documenthandler.cpp
 msgctxt "StudioApp"
 msgid "New Show \"%(1)\""
-msgstr "新建演出“%(1)”..."
+msgstr "新建演出“%(1)”"
 
 #: documenthandler.cpp
 msgctxt "StudioApp"
@@ -1047,22 +1082,22 @@ msgstr "排练和演出"
 #: melodyneextension.cpp
 msgctxt "StudioApp"
 msgid "Remove Melodyne"
-msgstr "移除Melodyne"
+msgstr "移除 Melodyne"
 
 #: repitchextension.cpp
 msgctxt "StudioApp"
 msgid "Remove RePitch"
-msgstr "移除RePitch"
+msgstr "移除 RePitch"
 
 #: revoiceextension.cpp
 msgctxt "StudioApp"
 msgid "Remove Revoice Pro"
-msgstr "移除Revoice Pro"
+msgstr "移除 Revoice Pro"
 
 #: vocalignextension.cpp
 msgctxt "StudioApp"
 msgid "Remove VocAlign"
-msgstr "移除VocAlign"
+msgstr "移除 VocAlign"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
@@ -1072,27 +1107,27 @@ msgstr "渲染鼓节拍器"
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "Sample played at wrong pitch."
-msgstr "采样播放音高异常"
+msgstr "采样播放音高异常。"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "Samples are missing."
-msgstr "采样文件缺失"
+msgstr "采样文件缺失。"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "Send To new Impact"
-msgstr "发送至Impact"
+msgstr "发送至新的 Impact"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "Send To new SampleOne"
-msgstr "发送至SampleOne"
+msgstr "发送至新的 SampleOne"
 
 #: documenthandler.cpp
 msgctxt "StudioApp"
 msgid "Sessions"
-msgstr "工程文件"
+msgstr "工程"
 
 #: showdocument.cpp
 msgctxt "StudioApp"
@@ -1112,12 +1147,17 @@ msgstr "开始页"
 #: songdocument.cpp
 msgctxt "StudioApp"
 msgid "Start a new recording and mixing session."
-msgstr "开始一个新的录音和混音会话。"
+msgstr "开始一个新的录音和混音工程。"
 
 #: showdocument.cpp
 msgctxt "StudioApp"
 msgid "Stems"
 msgstr "混音分轨"
+
+#: studioapp.cpp
+msgctxt "StudioApp"
+msgid "Studio Assistant"
+msgstr "Studio Assistant"
 
 #: studioapp.cpp
 msgctxt "StudioApp"
@@ -1127,17 +1167,17 @@ msgstr "系统信息"
 #: studioapp.cpp
 msgctxt "StudioApp"
 msgid "Thank you for checking out $APPNAME. You have %(1) program starts left."
-msgstr "感谢使用$APPNAME。您当前可以使用%(1)个我们的程序。"
+msgstr "感谢您试用 $APPNAME。您还可以启动本程序 %(1) 次。"
 
 #: studioapp.cpp
 msgctxt "StudioApp"
 msgid "The $APPNAME Reference Manual has not been installed yet."
-msgstr "$APPNAME参考指南尚未安装。"
+msgstr "$APPNAME 参考说明书尚未安装。"
 
 #: samplerextension.cpp
 msgctxt "StudioApp"
 msgid "The part or pattern is empty."
-msgstr "该段落或节奏型为空"
+msgstr "该片段或样式是空白的。"
 
 #: devicebrowserextension.cpp
 msgctxt "StudioApp"
@@ -1157,17 +1197,17 @@ msgstr "应用程序"
 #: studioapp.cpp
 msgctxt "SystemInfo"
 msgid "CPU Cores"
-msgstr "CPU核心"
+msgstr "CPU 核心"
 
 #: studioapp.cpp
 msgctxt "SystemInfo"
 msgid "CPU Model"
-msgstr "CPU型号"
+msgstr "CPU 型号"
 
 #: studioapp.cpp
 msgctxt "SystemInfo"
 msgid "CPU Speed"
-msgstr "CPU速度"
+msgstr "CPU 速度"
 
 #: studioapp.cpp
 msgctxt "SystemInfo"
@@ -1182,7 +1222,7 @@ msgstr "以太网适配器"
 #: studioapp.cpp
 msgctxt "SystemInfo"
 msgid "MAC Address"
-msgstr "MAC地址"
+msgstr "MAC 地址"
 
 #: studioapp.cpp
 msgctxt "SystemInfo"
@@ -1197,7 +1237,7 @@ msgstr "系统"
 #: studioapp.cpp
 msgctxt "SystemInfo"
 msgid "System ID"
-msgstr "系统ID"
+msgstr "系统 ID"
 
 #: studioapp.cpp
 msgctxt "SystemInfo"
@@ -1207,22 +1247,22 @@ msgstr "版本"
 #: devicepresetrevealer.cpp
 msgctxt "SystemScaling"
 msgid "Enable System DPI Scaling"
-msgstr "启用系统DPI缩放"
+msgstr "启用系统 DPI 缩放"
 
 #: devicepresetrevealer.cpp
 msgctxt "SystemScaling"
 msgid "For complete high-DPI compatibility the plug-in needs to be updated by the vendor."
-msgstr "为了得到完整的高DPI兼容性，插件需由供应商进行更新。"
+msgstr "为了得到完整的高 DPI 兼容性，插件需由供应商进行更新。"
 
 #: devicepresetrevealer.cpp
 msgctxt "SystemScaling"
 msgid "Please note that System DPI Scaling might cause graphical glitches in third-party plug-ins that $APPNAME can't fix."
-msgstr "请注意，系统DPI缩放比例或会引起 $APPNAME 无法修复的第三方图形化问题。"
+msgstr "请注意，系统 DPI 缩放比例或会引起 $APPNAME 无法修复的第三方图形化问题。"
 
 #: devicepresetrevealer.cpp
 msgctxt "SystemScaling"
 msgid "System DPI Scaling for third-party plug-ins requires Windows 10 version 1803 or later."
-msgstr "用于第三方插件的系统DPI缩放需要Windows 10版本1803或更高版本。"
+msgstr "用于第三方插件的系统 DPI 缩放需要 Windows 10 版本 1803 或更高版本。"
 
 #: transportgui.cpp
 msgctxt "TransportGUI"
@@ -1252,7 +1292,7 @@ msgstr "压缩文件 %(1)"
 #: zipfilehandler.cpp
 msgctxt "ZipDocumentFilter"
 msgid "Embedding file %(1)"
-msgstr "嵌入文件 %(1)"
+msgstr "正在嵌入文件 %(1)"
 
 #: zipfilehandler.cpp
 msgctxt "ZipDocumentFilter"
@@ -1321,7 +1361,7 @@ msgstr "嵌入媒体文件的数量：%(1)"
 
 #~ msgctxt "FileType"
 #~ msgid "Presets"
-#~ msgstr "预置"
+#~ msgstr "预设"
 
 #~ msgctxt "Options"
 #~ msgid "Create a New Song"
@@ -1358,6 +1398,14 @@ msgstr "嵌入媒体文件的数量：%(1)"
 #~ msgctxt "StudioApp"
 #~ msgid "An older version of $APPNAME has been found on this computer."
 #~ msgstr "在本机上找到名为$APPNAME的旧版本"
+
+#~ msgctxt "StudioApp"
+#~ msgid "Create Music Part For '%(1)'"
+#~ msgstr "为“%(1)”创建音乐片段"
+
+#~ msgctxt "StudioApp"
+#~ msgid "Create Music Part For Active Click"
+#~ msgstr "为激活的节拍器创建音乐片段"
 
 #~ msgctxt "StudioApp"
 #~ msgid "Create an empty Show"

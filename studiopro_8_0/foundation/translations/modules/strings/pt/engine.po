@@ -41,6 +41,11 @@ msgstr "Alterar Seguir a Transposição Global"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
+msgid "Change Follow Score"
+msgstr "Alterar Acompanhamento da Partitura"
+
+#: base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
 msgid "Change Layers Follow"
 msgstr "Mudança de Sequencia de Camadas"
 
@@ -584,6 +589,11 @@ msgctxt "AudioEdit"
 msgid "Bypass Gain Curve"
 msgstr "Ignorar Curva de Ganho"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Bypass Pitch Curve"
+msgstr "Ignorar Curva de Afinação"
+
 #: application/audioedit/audiostemtask.cpp
 msgctxt "AudioEdit"
 msgid "Cannot separate Events with incompatible Speaker Format:"
@@ -633,6 +643,16 @@ msgstr "Dissolver Parte de Áudio"
 msgctxt "AudioEdit"
 msgid "Drum sounds are not installed. Do you want to install them?"
 msgstr "Sons de bateria não estão instalados. Deseja instalá-los?"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-In"
+msgstr "Editar Fade-In"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-Out"
+msgstr "Editar Fade-Out"
 
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
@@ -744,6 +764,11 @@ msgctxt "AudioEdit"
 msgid "Reset Gain Curve"
 msgstr "Redefinir Curva de Ganho"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Reset Pitch Curve"
+msgstr "Redefinir Curva de Afinação"
+
 #: application/audioedit/audioeventfxtasks.cpp
 msgctxt "AudioEdit"
 msgid "Restore Event FX"
@@ -813,6 +838,11 @@ msgstr "Alternar Marcadores de Bend"
 msgctxt "AudioEdit"
 msgid "Toggle Gain Curve"
 msgstr "Alternar Curva de Ganho"
+
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Toggle Pitch Curve"
+msgstr "Alternar Curva de Afinação"
 
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
@@ -1270,6 +1300,11 @@ msgstr "Substituir Acorde"
 msgctxt "ChordTrack"
 msgid "Ripple Edit"
 msgstr "Edição em Cascata "
+
+#: editing/chordeditlayer.cpp
+msgctxt "ChordTrack"
+msgid "Semitones"
+msgstr "Semitons"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
@@ -3191,6 +3226,11 @@ msgctxt "Edit"
 msgid "Create Markers from Arranger Sections"
 msgstr "Criar Marcadores a partir de Seções do Arranjador"
 
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Create Tracks For Unused Instruments"
+msgstr "Criar Faixas Para Instrumentos Não Utilizados"
+
 #: application/eventedit/croptask.cpp
 msgctxt "Edit"
 msgid "Crop to Content"
@@ -3230,6 +3270,16 @@ msgstr "Duplicação de Pista"
 msgctxt "Edit"
 msgid "Duplicate Tracks"
 msgstr "Duplicação de Pistas"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event End"
+msgstr "Editar Fim do Evento"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event Start"
+msgstr "Editar Início do Evento"
 
 #: editing/markereditlayer.cpp
 msgctxt "Edit"
@@ -3381,6 +3431,11 @@ msgctxt "Edit"
 msgid "Replace Partially"
 msgstr "Repor Parcialmente"
 
+#: editing/eventdraghandler.cpp
+msgctxt "Edit"
+msgid "Replace all Events with same Clip"
+msgstr "Substituir todos os Eventos pelo mesmo Corte"
+
 #: editing/arrangereditlayer.cpp
 msgctxt "Edit"
 msgid "Section Number"
@@ -3430,6 +3485,11 @@ msgstr "Definir Ponto de Sincronização no Ponteiro do Mouse"
 msgctxt "Edit"
 msgid "Show Chords"
 msgstr "Exibir Acordes"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Slip Event"
+msgstr "Alt. Velocidade"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Edit"
@@ -3850,6 +3910,11 @@ msgstr "Ignorar Curva %(1)"
 msgctxt "Engine:AudioEnvelopeActions"
 msgid "Gain"
 msgstr "Ganho"
+
+#: audio/audiopitchenvelope.cpp
+msgctxt "Engine:AudioEnvelopeActions"
+msgid "Pitch"
+msgstr "Nota"
 
 #: audio/audioenvelopefunctions.cpp
 msgctxt "Engine:AudioEnvelopeActions"
@@ -4544,12 +4609,12 @@ msgstr "Remover Clipe do Pool"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Scanning folder: "
-msgstr "Pasta de Escaneamento:"
+msgstr "Pasta de Escaneamento: "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Search was canceled. "
-msgstr "A procura foi cancelada."
+msgstr "A procura foi cancelada. "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -4564,7 +4629,7 @@ msgstr "Selecionar na Pista"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Used by: "
-msgstr "Utilizado por:"
+msgstr "Utilizado por: "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"

@@ -144,65 +144,10 @@ msgctxt "LanguageSelection"
 msgid "Language"
 msgstr "언어"
 
-#: logindesktop.xml
-msgctxt "LicenseServerLogin"
-msgid "$APPCOMPANY Login"
-msgstr "$APPCOMPANY 로그인"
-
 #: cclcommon.xml
 msgctxt "LocaleOption"
 msgid "Language"
 msgstr "언어"
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your email and password below."
-msgstr "$APPNAME에서 $APPCOMPANY 어카운트에 액세스할 필요가 있습니다. 아래에 이메일과 패스워드로 로그인 하십시오."
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "Create $APPCOMPANY Account"
-msgstr "$APPCOMPANY 계정 만들기"
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "Don&apos;t have a $APPCOMPANY Account yet?"
-msgstr "아직 $APPCOMPANY 계정을 가지고 계시지 않으신가요?"
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "Email"
-msgstr "이메일"
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "Forgot your password?"
-msgstr "패스워드를 잊으셨나요?"
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "Login"
-msgstr "로그인"
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "Login via $APPCOMPANY website"
-msgstr "$APPCOMPANY 웹사이트를 통해 로그인"
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "Password"
-msgstr "패스워드"
-
-#: login.xml
-msgctxt "LoginFormInternal"
-msgid "Remember my credentials"
-msgstr "내 정보 저장"
-
-#: login.xml
-msgctxt "LoginFormMobile"
-msgid "Close"
-msgstr "닫기"
 
 #: uux.xml
 msgctxt "OfflineActivationInfo"
@@ -243,66 +188,6 @@ msgstr "라이선스 파일 선택..."
 msgctxt "PurchaseHandler"
 msgid "Thank you for your purchase. Your purchased items are ready to be activated on this computer."
 msgstr "구입해주셔서 감사합니다. 이 컴퓨터에 구입하신 아이템의 활성화 준비가 되었습니다."
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "$APPCOMPANY Terms of Use"
-msgstr "$APPCOMPANY 이용약관"
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "Back to Log in"
-msgstr "로그인으로 되돌아가기"
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "Country/Region"
-msgstr "국가/지역"
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "Create $APPCOMPANY Account"
-msgstr "$APPCOMPANY 계정 만들기"
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "Email"
-msgstr "이메일"
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "First Name"
-msgstr "이름"
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "I have read and agree to the latest Terms of Use."
-msgstr "최신 이용약관을 읽었으며 그 내용에 동의합니다."
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "I would like to receive occasional updates from $APPCOMPANY via e-mail."
-msgstr "$APPCOMPANY 로부터 때때로 업데이트 이메일을 수신하겠습니다."
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "Last Name"
-msgstr "성"
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "Password"
-msgstr "패스워드"
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "Please enter your contact data to sign up now. An e-mail will be sent to you with a link to activate your account."
-msgstr "등록을 위해 연락처 정보를 입력하십시오. 계정을 활성화할 수 있는 이메일이 새로운 사용자에게 전송됩니다."
-
-#: login.xml
-msgctxt "RegistrationFormInternal"
-msgid "Repeat Password"
-msgstr "패스워드 재입력"
 
 #: cclcommon.xml
 msgctxt "StorePresetDialog"
@@ -393,13 +278,105 @@ msgstr "사용자 계정"
 #~ msgid "Search:"
 #~ msgstr "검색:"
 
+#~ msgctxt "LicenseServerLogin"
+#~ msgid "$APPCOMPANY Login"
+#~ msgstr "$APPCOMPANY 로그인"
+
 #~ msgctxt "LoginFormInternal"
 #~ msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your e-mail/username and password below."
 #~ msgstr "$APPNAME 이용에는 $APPCOMPANY 계정 액세스가 필요합니다. 이메일주소 또는 사용자명과 패스워드를 사용하여 로그인해주십시오."
 
 #~ msgctxt "LoginFormInternal"
+#~ msgid "$APPNAME needs access to your $APPCOMPANY Account. Please login with your email and password below."
+#~ msgstr "$APPNAME에서 $APPCOMPANY 어카운트에 액세스할 필요가 있습니다. 아래에 이메일과 패스워드로 로그인 하십시오."
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Create $APPCOMPANY Account"
+#~ msgstr "$APPCOMPANY 계정 만들기"
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Don&apos;t have a $APPCOMPANY Account yet?"
+#~ msgstr "아직 $APPCOMPANY 계정을 가지고 계시지 않으신가요?"
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Email"
+#~ msgstr "이메일"
+
+#~ msgctxt "LoginFormInternal"
 #~ msgid "Email or username"
 #~ msgstr "이메일 또는 사용자명"
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Forgot your password?"
+#~ msgstr "패스워드를 잊으셨나요?"
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Login"
+#~ msgstr "로그인"
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Login via $APPCOMPANY website"
+#~ msgstr "$APPCOMPANY 웹사이트를 통해 로그인"
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Password"
+#~ msgstr "패스워드"
+
+#~ msgctxt "LoginFormInternal"
+#~ msgid "Remember my credentials"
+#~ msgstr "내 정보 저장"
+
+#~ msgctxt "LoginFormMobile"
+#~ msgid "Close"
+#~ msgstr "닫기"
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "$APPCOMPANY Terms of Use"
+#~ msgstr "$APPCOMPANY 이용약관"
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "Back to Log in"
+#~ msgstr "로그인으로 되돌아가기"
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "Country/Region"
+#~ msgstr "국가/지역"
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "Create $APPCOMPANY Account"
+#~ msgstr "$APPCOMPANY 계정 만들기"
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "Email"
+#~ msgstr "이메일"
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "First Name"
+#~ msgstr "이름"
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "I have read and agree to the latest Terms of Use."
+#~ msgstr "최신 이용약관을 읽었으며 그 내용에 동의합니다."
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "I would like to receive occasional updates from $APPCOMPANY via e-mail."
+#~ msgstr "$APPCOMPANY 로부터 때때로 업데이트 이메일을 수신하겠습니다."
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "Last Name"
+#~ msgstr "성"
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "Password"
+#~ msgstr "패스워드"
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "Please enter your contact data to sign up now. An e-mail will be sent to you with a link to activate your account."
+#~ msgstr "등록을 위해 연락처 정보를 입력하십시오. 계정을 활성화할 수 있는 이메일이 새로운 사용자에게 전송됩니다."
+
+#~ msgctxt "RegistrationFormInternal"
+#~ msgid "Repeat Password"
+#~ msgstr "패스워드 재입력"
 
 #~ msgctxt "SubscriptionStatus"
 #~ msgid "$CLOUDNAME has been activated on this computer."

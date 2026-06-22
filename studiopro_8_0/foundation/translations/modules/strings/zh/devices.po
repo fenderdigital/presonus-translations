@@ -127,7 +127,7 @@ msgstr "重命名 %(1)"
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Reorder %(1)"
-msgstr "录音机 %(1)"
+msgstr "重新排序 %(1)"
 
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
@@ -142,12 +142,17 @@ msgstr "设置“%(1)”至“%(2)”"
 #: base/deviceeditfunctions.cpp
 msgctxt "ActionDescriptions"
 msgid "Set Edit Group"
-msgstr "设置编辑组"
+msgstr "设置编辑编组"
 
 #: macrocontrol/macrocontroledit.cpp
 msgctxt "ActionDescriptions"
 msgid "Swap Macro Controls"
 msgstr "交换宏控制"
+
+#: audiosynths/audiosyntheditfunctions.cpp
+msgctxt "ActionDescriptions"
+msgid "Transfer Instrument"
+msgstr "转换乐器"
 
 #: audiomixer/audiochannel.cpp
 msgctxt "AudioChannel"
@@ -202,7 +207,7 @@ msgstr "添加声音"
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "All"
-msgstr "所有"
+msgstr "全部"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
@@ -247,32 +252,32 @@ msgstr "您仍要导入它吗？"
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Do you want to update '%(1)' ?"
-msgstr "你是否想升级'%(1)'  ？"
+msgstr "是否要更新“%(1)”？"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Double"
-msgstr "叠加"
+msgstr "倍速"
 
 #: audiomixer/audiodrumclick.cpp
 msgctxt "AudioClick"
 msgid "Drum Click"
-msgstr "鼓组节拍"
+msgstr "鼓节拍器"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Drum Click Package"
-msgstr "鼓组节拍套装"
+msgstr "鼓节拍器包"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Drum clicks can only be merged if they have different time signatures"
-msgstr "仅当鼓组节拍的拍号不同时，方可进行合并操作"
+msgstr "仅当鼓节拍器的拍号不同时才可以合并"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Drum clicks merge failed."
-msgstr "鼓组节拍合并失败。"
+msgstr "鼓节拍器合并失败。"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
@@ -282,7 +287,7 @@ msgstr "鼓"
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Edit Category"
-msgstr "编辑分类"
+msgstr "编辑类别"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
@@ -292,7 +297,7 @@ msgstr "半速"
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Import Drum Click"
-msgstr "倒入鼓组节拍"
+msgstr "导入鼓节拍器"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
@@ -307,7 +312,7 @@ msgstr "缺失"
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
 msgid "Missing Files"
-msgstr "缺失文件"
+msgstr "文件缺失"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
@@ -332,12 +337,12 @@ msgstr "重命名"
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Samples Missing"
-msgstr "采样丢失"
+msgstr "采样缺失"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Store New"
-msgstr "新建存储"
+msgstr "存储为新的"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
@@ -345,7 +350,10 @@ msgid ""
 "The drum click is equal to '%(1)'.\n"
 "\n"
 "Do you want to activate the existing click or store a new click?"
-msgstr "鼓节拍器的速度为 '%(1)'.你是否要启用现有节拍器，或新建并保存一个节拍器？"
+msgstr ""
+"该鼓节拍器与“%(1)”相同。\n"
+"\n"
+"是否要启用现有节拍器，或存储一个新的节拍器？"
 
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
@@ -355,7 +363,7 @@ msgstr "鼓节拍器无效"
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "The drum click was generated with errors. The result will sound different than the source."
-msgstr "鼓节拍器生成时出现错误，最终音效将与原始设定不符。"
+msgstr "鼓节拍器生成时出现错误。结果听起来将与源不同。"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
@@ -370,7 +378,7 @@ msgstr "未使用的文件"
 #: audiomixer/audiodrumclickcomponent.cpp
 msgctxt "AudioClick"
 msgid "Use Existing"
-msgstr "使用现有项"
+msgstr "使用现有的"
 
 #: audiomixer/audioclick.cpp
 msgctxt "AudioClick"
@@ -400,7 +408,7 @@ msgstr "事件效果器"
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
 msgid "\"%(1)\" has been deactivated because it produced invalid data."
-msgstr "“%(1)” 已被停用，因为产生了无效的数据。"
+msgstr "“%(1)”已被停用，因为它产生了无效的数据。"
 
 #: framework/audio/insertfxdraghandler.cpp
 msgctxt "AudioFX"
@@ -444,6 +452,11 @@ msgstr "启用插件休眠"
 
 #: audioeffects/audiofxfolder.cpp
 msgctxt "AudioFX"
+msgid "FX Chain"
+msgstr "效果链"
+
+#: audioeffects/audiofxfolder.cpp
+msgctxt "AudioFX"
 msgid "Load FX Chain"
 msgstr "加载效果链"
 
@@ -470,7 +483,7 @@ msgstr "通道拆分"
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Color"
-msgstr "配色"
+msgstr "颜色"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -500,7 +513,7 @@ msgstr "加载预设"
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
 msgid "Mute Split Branch"
-msgstr "静音分支"
+msgstr "分支静音"
 
 #: audioeffects/audiofxgraph.cpp
 msgctxt "AudioFXGraph"
@@ -575,12 +588,12 @@ msgstr "音频 I/O 管理器"
 #: audiomixer/audioiomanager.cpp
 msgctxt "AudioIOManager"
 msgid "Incomplete"
-msgstr "未完成"
+msgstr "不完整"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
 msgid "%(1) incomplete - %(2) speakers not connected"
-msgstr "%(1) 未完成 - %(2) 扬声器未连接"
+msgstr "%(1) 不完整 - %(2) 扬声器未连接"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOMatrix"
@@ -670,12 +683,12 @@ msgstr "通道标签"
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Do you want to reset to your default I/O Setup?"
-msgstr "是否重置到默认I/O设置？"
+msgstr "是否要重置为默认 I/O 设置？"
 
 #: audiomixer/setup/audioiosetup.cpp
 msgctxt "AudioIOSetup"
 msgid "Some channels are still in use! Do you want to remove them anyway?"
-msgstr "某些通道正在使用，确认要移除吗？"
+msgstr "一些通道正在被使用！确认要移除吗？"
 
 #: audiomixer/setup/audioiomatrix.cpp
 msgctxt "AudioIOType"
@@ -740,7 +753,7 @@ msgstr "添加效果通道"
 #: audiomixer/audiochanneldescription.cpp
 msgctxt "AudioMixer"
 msgid "Add VCA Channel"
-msgstr "添加VCA通道"
+msgstr "添加 VCA 通道"
 
 #: audiomixer/audiomixer.cpp
 msgctxt "AudioMixer"
@@ -805,7 +818,7 @@ msgstr "设置对象声像器"
 #: audiomixer/audiomixereditfunctions.cpp
 msgctxt "AudioMixerEditFunctions"
 msgid "Set Speaker Type to %(1)"
-msgstr "将扬声器类型设置为%(1)"
+msgstr "设置扬声器类型为 %(1)"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
@@ -880,12 +893,12 @@ msgstr "设置对象声像器"
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Spatial Object Panner"
-msgstr "空间对象声像器"
+msgstr "对象声像器"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
 msgid "Use '%(1)' for new Channels"
-msgstr "在新轨道上使用 “%(1)”"
+msgstr "在新通道上使用“%(1)”"
 
 #: audiomixer/audiopanner.cpp
 msgctxt "AudioPanner"
@@ -910,7 +923,7 @@ msgstr "出现一个无效信号。"
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
 msgid "Audio engine dropout has occurred."
-msgstr "出现了音频引擎信号丢失情况。"
+msgstr "音频引擎信号丢失。"
 
 #: audiomixer/audiorenderengine.cpp
 msgctxt "AudioRenderEngine"
@@ -960,12 +973,12 @@ msgstr "添加发送"
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Append Sends"
-msgstr "添加发送内容"
+msgstr "追加发送"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Copy Sends"
-msgstr "拷贝发送内容"
+msgstr "复制发送"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
@@ -980,12 +993,12 @@ msgstr "替换发送"
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Active"
-msgstr "发送启动"
+msgstr "启用发送"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Destination"
-msgstr "发送目标"
+msgstr "发送目标端"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
@@ -1015,7 +1028,7 @@ msgstr "发送插槽"
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Send Slots"
-msgstr "发送多个插槽"
+msgstr "发送插槽"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
@@ -1025,7 +1038,7 @@ msgstr "设置发送目标"
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
 msgid "Show Destination"
-msgstr "显示目标"
+msgstr "显示目标端"
 
 #: audiomixer/audiosendfolder.cpp
 msgctxt "AudioSendSlot"
@@ -1055,7 +1068,7 @@ msgstr "可用"
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "Double (64 Bit)"
-msgstr "双精度（64位）"
+msgstr "双精度（64 位）"
 
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
@@ -1065,7 +1078,7 @@ msgstr "不适用"
 #: audio/audiosetup.cpp
 msgctxt "AudioSetup"
 msgid "Single (32 Bit)"
-msgstr "单精度（32位）"
+msgstr "单精度（32 位）"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1080,7 +1093,7 @@ msgstr "音频"
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Compact"
-msgstr "精简"
+msgstr "紧凑"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1119,8 +1132,18 @@ msgstr "乐器"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
+msgid "Move all to Instrument Set"
+msgstr "全部移至乐器组"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Move to Instrument Set"
+msgstr "移至乐器组"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Multi Instrument"
-msgstr "多种乐器"
+msgstr "多重乐器"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1139,13 +1162,23 @@ msgstr "移除未使用的乐器"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
+msgid "Rename all Instruments to Preset"
+msgstr "重命名所有乐器到预设"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
+msgid "Rename to Preset"
+msgstr "重命名到预设"
+
+#: audiosynths/audiosynthfolder.cpp
+msgctxt "AudioSynth"
 msgid "Send All to '%(1)'"
-msgstr "将全部发送至 “%(1)”"
+msgstr "将全部发送至“%(1)”"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Send to '%(1)'"
-msgstr "发送至 “%(1)”"
+msgstr "发送至“%(1)”"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1155,7 +1188,7 @@ msgstr "显示通道设置"
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
 msgid "Show Micro Edit Controls"
-msgstr "显示微观编辑控制"
+msgstr "显示微编辑控制"
 
 #: audiosynths/audiosynthfolder.cpp
 msgctxt "AudioSynth"
@@ -1180,7 +1213,7 @@ msgstr "音量"
 #: base/automationunit.cpp
 msgctxt "Automation"
 msgid "Add / Remove Parameters"
-msgstr "添加/移除参数"
+msgstr "添加 / 移除参数"
 
 #: base/automationunit.cpp
 msgctxt "Automation"
@@ -1195,7 +1228,7 @@ msgstr "自动化"
 #: base/automationhandler.cpp
 msgctxt "Automation"
 msgid "Edit Automation \"%(1)\" "
-msgstr "编辑“%(1)”自动化"
+msgstr "编辑“%(1)”的自动化 "
 
 #: base/automationunit.cpp
 msgctxt "Automation"
@@ -1265,7 +1298,7 @@ msgstr "选择"
 #: mixer/channel.cpp
 msgctxt "Channel"
 msgid "Set Channel Color"
-msgstr "设置音轨颜色"
+msgstr "设置通道颜色"
 
 #: mixer/channel.cpp
 msgctxt "Channel"
@@ -1390,7 +1423,7 @@ msgstr "添加插入"
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Add Post Fader Insert"
-msgstr "添加推子后的插入"
+msgstr "添加推子后插入"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -1455,7 +1488,7 @@ msgstr "节拍器"
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Collapse all Micro Views"
-msgstr "折叠所有微观视图"
+msgstr "折叠所有微视图"
 
 #: audiomixer/audiofaderswitcher.cpp audiomixer/audiolistenbus.cpp audiomixer/audiopanner.cpp audiomixer/audiosendfolder.cpp audiomixer/cuemix/cuemixfolder.cpp audiomixer/setup/audiomixersetup.cpp hardware/hardwaremonitormanager.cpp mixerconsole/mixerconsole.cpp mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -1490,7 +1523,12 @@ msgstr "设备"
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Dim"
-msgstr "变暗"
+msgstr "Dim"
+
+#: audiomixer/audiodrumclickcomponent.cpp
+msgctxt "Command"
+msgid "Drum Metronome"
+msgstr "鼓节拍器"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1520,7 +1558,7 @@ msgstr "启用播放起点标记"
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Expand all Micro Views"
-msgstr "展开所有微观视图"
+msgstr "展开所有微视图"
 
 #: transport/transportoptions.cpp
 msgctxt "Command"
@@ -1575,7 +1613,7 @@ msgstr "隐藏通道"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Hide Related Channels"
-msgstr "隐藏相关轨道"
+msgstr "隐藏相关通道"
 
 #: audiomixer/audiofaderswitcher.cpp
 msgctxt "Command"
@@ -1630,7 +1668,7 @@ msgstr "静音"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Mute Main Out"
-msgstr "静音主输出"
+msgstr "主输出静音"
 
 #: editor/deviceslotselector.cpp mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1640,7 +1678,7 @@ msgstr "导航"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Next Bank"
-msgstr "下一个音色库"
+msgstr "下一个推子组"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1675,7 +1713,7 @@ msgstr "微调"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Nudge Back"
-msgstr "向后微调"
+msgstr "往回微调"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1685,7 +1723,7 @@ msgstr "小节微调"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Nudge Bar Back"
-msgstr "小节向后微调"
+msgstr "小节往回微调"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1695,7 +1733,7 @@ msgstr "向下微调"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Nudge Down Fine"
-msgstr "细微向下推进"
+msgstr "向下微调（精细）"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1705,7 +1743,7 @@ msgstr "向上微调"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Nudge Up Fine"
-msgstr "细微向上推进"
+msgstr "向上微调（精细）"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1715,7 +1753,7 @@ msgstr "打开通道"
 #: music/musicdevicemanager.cpp
 msgctxt "Command"
 msgid "Open Qwerty Keyboard"
-msgstr "打开全键盘"
+msgstr "打开 QWERTY 键盘"
 
 #: editor/deviceslotselector.cpp
 msgctxt "Command"
@@ -1735,7 +1773,7 @@ msgstr "粘贴"
 #: transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Play from Loop Start"
-msgstr "从循环开头播放"
+msgstr "从循环起点播放"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -1755,7 +1793,7 @@ msgstr "预卷"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
 msgid "Previous Bank"
-msgstr "上一个音色库"
+msgstr "上一个推子组"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "Command"
@@ -1805,12 +1843,12 @@ msgstr "移除场景"
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
 msgid "Rename Scene"
-msgstr "重新命名场景"
+msgstr "重命名场景"
 
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 msgctxt "Command"
 msgid "Restore Audio Device Settings"
-msgstr "还原音频设备设置"
+msgstr "恢复音频设备设置"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -1840,7 +1878,7 @@ msgstr "选择推子翻转目标"
 #: audiomixer/setup/audiomixersetup.cpp
 msgctxt "Command"
 msgid "Select Mix FX"
-msgstr "选择Mix FX"
+msgstr "选择 Mix FX"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "Command"
@@ -1950,17 +1988,17 @@ msgstr "空间音频"
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Speaker A"
-msgstr "扬声器A"
+msgstr "扬声器 A"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Speaker B"
-msgstr "扬声器B"
+msgstr "扬声器 B"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Command"
 msgid "Speaker C"
-msgstr "扬声器C"
+msgstr "扬声器 C"
 
 #: transport/transportpanel.cpp
 msgctxt "Command"
@@ -2082,7 +2120,7 @@ msgctxt "Command"
 msgid "Toggle Start"
 msgstr "切换开始"
 
-#: transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
+#: audiomixer/audiodrumclickcomponent.cpp transport/metronome.cpp transport/transportoptions.cpp transport/transportpanel.cpp
 msgctxt "Command"
 msgid "Transport"
 msgstr "走带"
@@ -2110,12 +2148,12 @@ msgstr "Cue mix"
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Cue mix Level"
-msgstr "Cue mix电平"
+msgstr "Cue mix 电平"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Cue mix Pan"
-msgstr "Cue mix声像"
+msgstr "Cue mix 声像"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -2130,7 +2168,7 @@ msgstr "Cue mix：开"
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Destination"
-msgstr "目标"
+msgstr "目标端"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -2145,12 +2183,12 @@ msgstr "锁定通道声像"
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Lock Volume to Channel"
-msgstr "将音量锁定到通道/锁定轨道音量"
+msgstr "将音量锁定至通道"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
 msgid "Lock to Channel"
-msgstr "所定至轨道"
+msgstr "锁定至通道"
 
 #: audiomixer/cuemix/cuemixfolder.cpp
 msgctxt "CueMixSlot"
@@ -2190,7 +2228,7 @@ msgstr "粘贴 - %(1)"
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "A device with this name already exists."
-msgstr "此名称的设备已存在。"
+msgstr "已存在同名设备。"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
@@ -2211,6 +2249,11 @@ msgstr "添加 %(1)"
 msgctxt "DeviceFolder"
 msgid "Bypass"
 msgstr "旁通"
+
+#: base/devicefolder.cpp
+msgctxt "DeviceFolder"
+msgid "Chain"
+msgstr "效果链"
 
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
@@ -2315,22 +2358,27 @@ msgstr "正在保存设备：%(1)"
 #: base/devicefolder.cpp
 msgctxt "DeviceFolder"
 msgid "This device can not be removed right now!"
-msgstr "设备无法马上移除！"
+msgstr "此设备当前无法移除！"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
 msgid "Add edit parameter \"%(1)\""
-msgstr "添加编辑参数\"%(1)\""
+msgstr "添加编辑参数“%(1)”"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
 msgid "Add micro edit parameter \"%(1)\""
-msgstr "添加微观编辑参数“%(1)”"
+msgstr "添加微编辑参数“%(1)”"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
 msgid "Automation"
-msgstr "自动"
+msgstr "自动化"
+
+#: editor/devicerack.cpp
+msgctxt "DeviceRack"
+msgid "Load %(1)"
+msgstr "加载 %(1)"
 
 #: editor/devicerack.cpp
 msgctxt "DeviceRack"
@@ -2375,7 +2423,7 @@ msgstr "编辑"
 #: midi/midiengine.cpp
 msgctxt "Devices"
 msgid "MIDI Engine reset requested!"
-msgstr "MIDI引擎需重置！"
+msgstr "MIDI 引擎需要重置！"
 
 #: audiomixer/audiomixfxcomponent.cpp
 msgctxt "Devices"
@@ -2390,42 +2438,42 @@ msgstr "无音频设备"
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Restart requested by Audio Device!"
-msgstr "音频设备要求重启！"
+msgstr "音频设备需要重启！"
 
 #: audiomixer/audiomixfxcomponent.cpp
 msgctxt "Devices"
 msgid "Select Mix FX"
-msgstr "选择Mix FX"
+msgstr "选择 Mix FX"
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Starting Audio Engine..."
-msgstr "音频引擎开启中..."
+msgstr "正在开启音频引擎..."
 
 #: midi/midiengine.cpp
 msgctxt "Devices"
 msgid "Starting MIDI Engine..."
-msgstr "MIDI设备开启中..."
+msgstr "正在开启 MIDI 引擎..."
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "Switching to Audio Device %(1)..."
-msgstr "正在切换到音频设备%(1)..."
+msgstr "正在切换到音频设备 %(1) ..."
 
 #: audiomixer/audiomixfxcomponent.cpp
 msgctxt "Devices"
 msgid "The Mix FX does not support speaker format %(1). It will be processed on the left and right channel."
-msgstr "Mix FX效果不支持扬声器格式 %(1)。它将在左右声道上进行处理。"
+msgstr "Mix FX 不支持 %(1) 的扬声器格式。它将在左右声道上进行处理。"
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "The audio device %(1) could not be initialized. Please check your hardware configuration and try again."
-msgstr "音频设备%(1)无法初始化。请检查硬件配置并重试。"
+msgstr "音频设备 %(1) 无法初始化。请检查硬件配置并重试。"
 
 #: audio/audioengine.cpp
 msgctxt "Devices"
 msgid "The audio device %(1) has failed to start correctly before. Do you want to try it again?"
-msgstr "音频设备%(1)启动失败。是否重试？"
+msgstr "音频设备 %(1) 启动失败。是否要重试？"
 
 #: audio/watchdogcomponent.cpp
 msgctxt "Devices"
@@ -2470,7 +2518,7 @@ msgstr "关闭"
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "A group with this name already exists."
-msgstr "此名称的组已存在。"
+msgstr "已存在同名编组。"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
@@ -2480,7 +2528,7 @@ msgstr "添加组"
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
 msgid "Dissolve Group"
-msgstr "取消编组"
+msgstr "解散编组"
 
 #: mixer/editgroupmanager.cpp
 msgctxt "EditGroups"
@@ -2580,12 +2628,12 @@ msgstr "音频效果器预设"
 #: audiomixer/audioioassignment.cpp
 msgctxt "FileType"
 msgid "I/O Configuration"
-msgstr "I/O配置"
+msgstr "I/O 配置"
 
 #: audiomixer/audioioassignment.cpp
 msgctxt "FileType"
 msgid "I/O Configurations"
-msgstr "I/O配置"
+msgstr "I/O 配置"
 
 #: audiosynths/audiosynthpresethandler.cpp
 msgctxt "FileType"
@@ -2605,7 +2653,7 @@ msgstr "音符效果器预设"
 #: editor/genericeditor.cpp
 msgctxt "GenericEditor"
 msgid "Micro View"
-msgstr "小视图"
+msgstr "微视图"
 
 #: editor/genericeditor.cpp
 msgctxt "GenericEditor"
@@ -2620,7 +2668,7 @@ msgstr "48V"
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "48V Right"
-msgstr "48V右"
+msgstr "48V 右"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
@@ -2635,7 +2683,7 @@ msgstr "自动增益状态"
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
 msgid "DAW Post DSP"
-msgstr "DAW后DSP"
+msgstr "DAW 后 DSP"
 
 #: audiomixer/hardwareintegration/hardwarestoragemanager.cpp
 msgctxt "Hardware"
@@ -2665,12 +2713,12 @@ msgstr "不适用"
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
 msgid "Native Monitoring"
-msgstr "自带监听"
+msgstr "原生监听"
 
 #: hardware/remotefxfolder.cpp
 msgctxt "Hardware"
 msgid "Onboard DSP"
-msgstr "板载DSP"
+msgstr "板载 DSP"
 
 #: audiomixer/hardwareintegration/hardwarecontrols.cpp
 msgctxt "Hardware"
@@ -2700,12 +2748,12 @@ msgstr "话放增益（右）"
 #: hardware/hardwaremixermanager.cpp
 msgctxt "Hardware"
 msgid "Starting Hardware Integration..."
-msgstr "硬件整合中..."
+msgstr "开始硬件集成..."
 
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
 msgid "'%(1)' Bypassed"
-msgstr "“%(1)” 已旁通"
+msgstr "“%(1)”已旁通"
 
 #: audiomixer/audioinsertspeakermapcomponent.cpp
 msgctxt "InsertSpeakerMapper"
@@ -2727,6 +2775,106 @@ msgctxt "InsertSpeakerMapper"
 msgid "No match"
 msgstr "不匹配"
 
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Cleanup Shared Instruments: %(1)"
+msgstr "清除共享乐器：%(1)"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Disable Instrument Set"
+msgstr "禁用乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Enable Instrument Set"
+msgstr "启用乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set"
+msgstr "乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\""
+msgstr "乐器组“%(1)”"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Set \"%(1)\" was modified. Do you want to save it?"
+msgstr "乐器组“%(1)”已修改。是否要保存？"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Instrument Sets"
+msgstr "乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Load Instrument Set \"%(1)\""
+msgstr "加载乐器组“%(1)”"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set"
+msgstr "正在加载乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Loading Instrument Set \"%(1)\""
+msgstr "正在加载乐器组“%(1)”"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Move to Instrument Set"
+msgstr "移至乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "New Instrument Set"
+msgstr "新建乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Remove"
+msgstr "移除"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename"
+msgstr "重命名"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Rename Instrument Set \"%(1)\""
+msgstr "重命名乐器组“%(1)”"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Reset Default Instrument Set"
+msgstr "重置默认乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Store Instrument Set"
+msgstr "存储乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "The current instrument set was modified. Do you want to save it?"
+msgstr "当前乐器组已修改。是否要保存？"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Update Instrument Set"
+msgstr "更新乐器组"
+
+#: audiosynths/audiosynthsetfolder.cpp
+msgctxt "InstrumentSets"
+msgid "Use as Default"
+msgstr "用作默认"
+
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "(Press <Shift> to append target)"
@@ -2740,7 +2888,7 @@ msgstr "（按 <Shift> 替换目标）"
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "Add %(1) to %(2)"
-msgstr "添加%(1) 至 %(2)"
+msgstr "添加 %(1) 至 %(2)"
 
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
@@ -2790,7 +2938,7 @@ msgstr "名称"
 #: macrocontrol/macrocontrolsetup.cpp
 msgctxt "MacroControlSetup"
 msgid "Trans."
-msgstr "Trans."
+msgstr "变换"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
@@ -2805,22 +2953,22 @@ msgstr "清空 %(1) 个连接（%(2)）"
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Connect \"%(1)\" to %(2) Control"
-msgstr "连接 “%(1)” 至 %(2) 控制"
+msgstr "连接“%(1)”至 %(2) 控制"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Connect \"%(1)\" to %(2) Control %(3)"
-msgstr "连接 “%(1)” 至 %(2) 控制 %(3)"
+msgstr "连接“%(1)”至 %(2) 控制 %(3)"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Disconnect \"%(1)\" from %(2) Control %(3)"
-msgstr "断开“%(1)”从 %(2) 控制 %(3) 的连接"
+msgstr "断开“%(1)”与 %(2) 控制 %(3) 的连接"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Edit %(1) Automation"
-msgstr "编辑“%(1)”的自动化"
+msgstr "编辑 %(1) 的自动化"
 
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
@@ -2830,7 +2978,7 @@ msgstr "宏控制"
 #: macrocontrol/macrocontrolset.cpp
 msgctxt "MacroControls"
 msgid "Remove %(1) Automation"
-msgstr "移除%(1)自动化"
+msgstr "移除 %(1) 的自动化"
 
 #: surfaces/editor/mappinghandler.cpp
 msgctxt "MappingHandler"
@@ -2840,12 +2988,12 @@ msgstr "添加设备"
 #: surfaces/editor/mappinghandler.cpp
 msgctxt "MappingHandler"
 msgid "Assign \"%(1)\" to %(2) on %(3)"
-msgstr "在%(3)上分配“%(1)”至%(2)"
+msgstr "将“%(1)”分配给 %(3) 上的 %(2)"
 
 #: surfaces/editor/mappinghandler.cpp
 msgctxt "MappingHandler"
 msgid "Assign \"%(1)\" to %(2) on %(3) page %(4)"
-msgstr "分配“%(1)”于 %(2) %(3) 页 %(4)"
+msgstr "将“%(1)”分配给 %(3) 上 %(4) 页的 %(2)"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
@@ -2855,7 +3003,7 @@ msgstr "显示"
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Edit as Switch"
-msgstr "编辑为切换"
+msgstr "以切换编辑"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
@@ -2870,12 +3018,12 @@ msgstr "参数"
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Reset to Knob"
-msgstr "重置到旋钮"
+msgstr "重置为旋钮"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Reset to Slider"
-msgstr "重置至滑块"
+msgstr "重置为滑块"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
@@ -2885,7 +3033,7 @@ msgstr "设置编辑参数"
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
 msgid "Setup Micro Edit Parameters"
-msgstr "设置微观编辑参数"
+msgstr "设置微编辑参数"
 
 #: editor/microeditor.cpp
 msgctxt "MicroEditSetup"
@@ -2905,7 +3053,7 @@ msgstr "类型"
 #: midi/midimonitor.cpp
 msgctxt "MidiMonitor"
 msgid "Ch"
-msgstr "Ch"
+msgstr "通道"
 
 #: midi/midimonitor.cpp
 msgctxt "MidiMonitor"
@@ -2930,7 +3078,7 @@ msgstr "时间"
 #: midi/miditimecode.cpp
 msgctxt "MidiTimeCode"
 msgid "Idle"
-msgstr "空闲"
+msgstr "闲置"
 
 #: midi/miditimecode.cpp
 msgctxt "MidiTimeCode"
@@ -2940,7 +3088,7 @@ msgstr "无输入"
 #: midi/miditimecode.cpp
 msgctxt "MidiTimeCode"
 msgid "Running"
-msgstr "运行中"
+msgstr "正在运行"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
@@ -2950,7 +3098,7 @@ msgstr "应用“%(1)”"
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
 msgid "Apply Channel Settings"
-msgstr "应用轨道设置"
+msgstr "应用通道设置"
 
 #: mixerconsole/mixerconsole.cpp
 msgctxt "MixerConsole"
@@ -3035,7 +3183,7 @@ msgstr "移除场景"
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Rename Scene"
-msgstr "重新命名场景"
+msgstr "重命名场景"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
@@ -3050,7 +3198,7 @@ msgstr "场景与通道不匹配"
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
 msgid "Scene was converted from an earlier program version and contains visibility data only"
-msgstr "场景从早期项目版本转换而成，仅含可见性信息"
+msgstr "场景从早期软件版本转换而来，仅包含可见性信息"
 
 #: mixerconsole/mixersnapshot.cpp
 msgctxt "MixerSnapshots"
@@ -3080,12 +3228,12 @@ msgstr "控制界面"
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "Generic MIDI Control Surface, use for unknown gear. This device model features MIDI Learn."
-msgstr "通用MIDI控制界面，用于未知的设备。此设备型号包含MIDI学习功能。"
+msgstr "通用 MIDI 控制界面，用于未知的设备。此设备型号包含 MIDI 学习功能。"
 
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "Generic MIDI Keyboard, use for unknown gear. This device model features MIDI Learn. Connecting the send port is optional."
-msgstr "通用MIDI键盘，用于未知的设备。此设备型号包含MIDI学习功能。连接发送端口为可选操作。"
+msgstr "通用 MIDI 键盘，用于未知的设备。此设备型号包含 MIDI 学习功能。连接发送端口为可选操作。"
 
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
@@ -3115,7 +3263,7 @@ msgstr "新建键盘"
 #: music/setup/musicdeviceadddialog.cpp
 msgctxt "MusicDeviceAddDialog"
 msgid "Use to play an external MIDI Instrument and record controller movements. When connecting the receive port, be careful to avoid doubled events if the same port is used by a Keyboard device."
-msgstr "用于播放外部MIDI乐器及录制控制器操作。连接接收端口后，如果键盘设备使用同一端口，请务必注意避免重叠事件。"
+msgstr "用于演奏外部 MIDI 乐器并录制控制器动作。连接接收端口时，如果该端口也被键盘设备使用，请注意避免产生重复事件。"
 
 #: music/setup/musicdevicedialog.cpp
 msgctxt "MusicDeviceDialog"
@@ -3130,7 +3278,7 @@ msgstr "编辑设备"
 #: music/setup/musicdevicedialog.cpp
 msgctxt "MusicDeviceDialog"
 msgid "This port is already in use. Connecting multiple devices to the same port may lead to copied transmission of MIDI events."
-msgstr "此端口已被使用。多个设备使用同一个端口将重叠传输MIDI事件。"
+msgstr "此端口已被使用。多个设备使用同一个端口将重叠传输 MIDI 事件。"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
@@ -3170,12 +3318,12 @@ msgstr "尚未连接"
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "Please plug in your removable MIDI devices now and dismiss this message when finished..."
-msgstr "请插入MIDI设备，并在连接完成后关闭此消息..."
+msgstr "请插入 MIDI 设备，并在连接完成后关闭此消息..."
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "Port not found!"
-msgstr "没找到端口！"
+msgstr "未找到端口！"
 
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
@@ -3195,7 +3343,7 @@ msgstr "时码"
 #: music/setup/musicdevicesetup.cpp
 msgctxt "MusicDeviceSetup"
 msgid "The Device Model \"%(1)\" is not used anymore. Do you want to remove it from User Devices?"
-msgstr "设备“%(1)”已不再使用，是否从用户设备中移除？"
+msgstr "设备“%(1)”已不再使用，是否要从用户设备中移除？"
 
 #: musicmixer/musiciomanager.cpp
 msgctxt "MusicDevices"
@@ -3205,7 +3353,7 @@ msgstr "全部输入"
 #: music/musicdeviceauxsetup.cpp
 msgctxt "MusicDevices"
 msgid "Default aux channel assignment for \"%(1)\" saved."
-msgstr "“%(1)” 的默认辅助通道配置已保存。"
+msgstr "“%(1)”的默认辅助通道配置已保存。"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
@@ -3220,7 +3368,7 @@ msgstr "外部设备"
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "MIDI Port not found for Device %(1)!"
-msgstr "没有找到设备%(1)的MIDI端口！"
+msgstr "未找到设备 %(1) 的 MIDI 端口！"
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
@@ -3235,7 +3383,7 @@ msgstr "设置"
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
 msgid "Starting External Devices..."
-msgstr "外部设备开启中..."
+msgstr "正在启动外部设备..."
 
 #: music/musicdevicemanager.cpp
 msgctxt "MusicDevices"
@@ -3244,9 +3392,9 @@ msgid ""
 "\n"
 "Do you want to reconnect your external devices now?"
 msgstr ""
-"MIDI配置已改变。这也许由于外部设备当前未插入。\n"
+"MIDI 配置已改变。这可能是因为当前外部设备未接入。\n"
 "\n"
-"是否立即重新连接外部设备？"
+"是否要立即重新连接外部设备？"
 
 #: musicmixer/musicfxfolder.cpp
 msgctxt "MusicFXFolder"
@@ -3271,12 +3419,12 @@ msgstr "使用触后控制力度"
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Gate"
-msgstr "门限时长"
+msgstr "门限"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Gate %f(1:1)"
-msgstr "门限时长 %f(1:1)"
+msgstr "门限 %f(1:1)"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
@@ -3301,7 +3449,7 @@ msgstr "量化"
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Remote Base Pitch"
-msgstr "遥控基音音高"
+msgstr "遥控基音"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
@@ -3316,7 +3464,7 @@ msgstr "重复速率"
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
 msgid "Set Gate %(1)"
-msgstr "设置门限时长 %(1)"
+msgstr "设置门限 %(1)"
 
 #: music/musicnoterepeater.cpp
 msgctxt "MusicNoteRepeater"
@@ -3361,12 +3509,12 @@ msgstr "已禁用"
 #: audioeffects/audiofxmonitor.cpp
 msgctxt "NapState"
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: audioeffects/audiofxmonitor.cpp
 msgctxt "NapState"
 msgid "Napping"
-msgstr "未处理，休眠状态"
+msgstr "正在休眠"
 
 #: audioeffects/audiofxmonitor.cpp
 msgctxt "NapState"
@@ -3441,7 +3589,7 @@ msgstr "名称"
 #: editor/performancemonitor.cpp
 msgctxt "PerformanceMonitor"
 msgid "Path"
-msgstr "通道"
+msgstr "路径"
 
 #: editor/performancemonitor.cpp
 msgctxt "PerformanceMonitor"
@@ -3456,7 +3604,7 @@ msgstr "无端口"
 #: base/processgraph.cpp
 msgctxt "ProcessGraph"
 msgid "Color"
-msgstr "配色"
+msgstr "颜色"
 
 #: base/processgraph.cpp
 msgctxt "ProcessGraph"
@@ -3533,6 +3681,11 @@ msgctxt "SideChain"
 msgid "Toggle Prefader"
 msgstr "切换推子前"
 
+#: midi/simplemidiinput.cpp
+msgctxt "SimpleMidiInput"
+msgid "Setup..."
+msgstr "设置..."
+
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
 msgid ""
@@ -3540,9 +3693,9 @@ msgid ""
 "The audio device does not support this value.\n"
 "Please select a different audio device if possible."
 msgstr ""
-"%(1)要求缓冲区大小为 %(2).\n"
-" 音频设备不支持此数值.\n"
-" 如果可能，请选择其他音频设备。"
+"%(1) 要求缓冲区大小为 %(2)。\n"
+"音频设备不支持此数值。\n"
+"如果可能，请选择其他音频设备。"
 
 #: audiomixer/spatialaudiomanager.cpp
 msgctxt "SpatialAudio"
@@ -3564,8 +3717,8 @@ msgid ""
 "The audio device does not have enough outputs.\n"
 "Do you want to continue?"
 msgstr ""
-"此音频设备没有足够的输出。\n"
-" 您是否继续？"
+"该音频设备没有足够多的输出。\n"
+"是否要继续？"
 
 #: studio/missingdevices.cpp
 msgctxt "Studio"
@@ -3580,12 +3733,12 @@ msgstr "无缺失的设备。"
 #: studio/missingdevices.cpp
 msgctxt "Studio"
 msgid "Used by"
-msgstr "使用于："
+msgstr "使用者："
 
 #: surfaces/surfacedatapool.cpp
 msgctxt "Surface"
 msgid "Loading Control Surface Data..."
-msgstr "加载控制界面数据..."
+msgstr "正在加载控制界面数据..."
 
 #: surfaces/editor/controlcomponent.cpp
 msgctxt "SurfaceControl"
@@ -3675,7 +3828,7 @@ msgstr "控制界面管理器"
 #: surfaces/editor/placementeditor.cpp
 msgctxt "SurfacePlacement"
 msgid "No Control Surfaces installed which could be grouped."
-msgstr "尚未安装可组合的控制界面。"
+msgstr "尚未安装可编组的控制界面。"
 
 #: audiosynths/combinator/synthcombinatorcomponent.cpp
 msgctxt "SynthCombinator"
@@ -3750,7 +3903,7 @@ msgstr "循环长度"
 #: transport/transportpanel.cpp
 msgctxt "Transport"
 msgid "Loop Start / End"
-msgstr "循环的起点和终点"
+msgstr "循环的起点 / 终点"
 
 #: transport/transportpanel.cpp
 msgctxt "Transport"
@@ -3780,27 +3933,27 @@ msgstr "%(1) 当前无响应。"
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "%(1) mixer available in network"
-msgstr "%(1) 调音台可在网络中使用"
+msgstr "%(1) 个调音台可在网络中使用"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "%(1) mixers available in network"
-msgstr "%(1) 调音台可在网络中使用"
+msgstr "%(1) 个调音台可在网络中使用"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "Connected to %(1)."
-msgstr "连接至%(1)。"
+msgstr "连接至 %(1)。"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "Device information for %(1) received."
-msgstr "已收到%(1)的设备信息。"
+msgstr "已收到 %(1) 的设备信息。"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "Disconnected from %(1)."
-msgstr "已从%(1)断开连接。"
+msgstr "已断开与 %(1) 的连接。"
 
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
@@ -3815,7 +3968,7 @@ msgstr "请更新设备固件！"
 #: hardware/ucmixerconnector.cpp
 msgctxt "UCMixerConnector"
 msgid "Querying device information for %(1)..."
-msgstr "正在查询%(1)的设备信息..."
+msgstr "正在查询 %(1) 的设备信息..."
 
 #: surfaces/usercommands.cpp
 msgctxt "UserCommandSection"
@@ -3850,7 +4003,7 @@ msgstr "中"
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "Normal"
-msgstr "常规"
+msgstr "正常"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
@@ -3865,7 +4018,7 @@ msgstr "小"
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"
 msgid "The default audio output is used exclusively and cannot be opened for video playback."
-msgstr "默认的音频输出是独占使用的，无法用于视频回放。"
+msgstr "默认的音频输出被独占使用，无法用于视频回放。"
 
 #: video/videoplayer.cpp
 msgctxt "VideoPlayer"

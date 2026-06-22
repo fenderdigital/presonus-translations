@@ -7,7 +7,7 @@ msgstr ""
 #: dolbyatmos3dcomponent.cpp dolbyatmosmaster.cpp
 msgctxt "Command"
 msgid "Dolby Atmos"
-msgstr "Dolby Atmos"
+msgstr "杜比全景声"
 
 #: dolbyatmosmaster.cpp
 msgctxt "Command"
@@ -57,27 +57,27 @@ msgstr "扬声器格式 立体声"
 #: dolbyatmos3dcomponent.cpp
 msgctxt "Command"
 msgid "Toggle 3D View Free"
-msgstr "自由切换 3D 视图"
+msgstr "切换 3D 视图 自由"
 
 #: dolbyatmos3dcomponent.cpp
 msgctxt "Command"
 msgid "Toggle 3D View Front"
-msgstr "切换前置 3D 视图"
+msgstr "切换 3D 视图 前"
 
 #: dolbyatmos3dcomponent.cpp
 msgctxt "Command"
 msgid "Toggle 3D View Left"
-msgstr "切换 3D 左视图"
+msgstr "切换 3D 视图 左"
 
 #: dolbyatmos3dcomponent.cpp
 msgctxt "Command"
 msgid "Toggle 3D View Right"
-msgstr "切换 3D 右视图"
+msgstr "切换 3D 视图 右"
 
 #: dolbyatmos3dcomponent.cpp
 msgctxt "Command"
 msgid "Toggle 3D View Top"
-msgstr "切换 3D 视图顶部"
+msgstr "切换 3D 视图 顶"
 
 #: dolbyatmosmaster.cpp
 msgctxt "Command"
@@ -121,8 +121,8 @@ msgstr "禁用"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Dolby Personalized Headphone File"
-msgstr "杜比个性化耳机文件"
+msgid "Dolby Headphone Personalization File"
+msgstr "杜比耳机个性化文件"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -131,13 +131,13 @@ msgstr "EBU +18 刻度"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Import Personalized Headphone File"
-msgstr "导入个性化耳机文件"
+msgid "Import Headphone Personalization File"
+msgstr "导入耳机个性化文件"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Loudness in LU"
-msgstr "LU响度"
+msgstr "LU 响度"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
@@ -166,18 +166,18 @@ msgstr "重置"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Show Headphone Configurations"
-msgstr "显示耳机配置"
+msgid "Show Headphone Personalizations"
+msgstr "显示耳机个性化"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
 msgid "Solo"
-msgstr "单听"
+msgstr "独奏"
 
 #: dolbyatmosmastercomponents.cpp
 msgctxt "DolbyAtmosRenderer"
-msgid "Use Configuration '%(1)'"
-msgstr "使用配置“%(1)”"
+msgid "Use Headphone Personalization '%(1)'"
+msgstr "使用耳机个性化 “%(1)”"
 
 #: dolbyatmossystem.cpp
 msgctxt "DolbyAtmosSystem"
@@ -192,12 +192,12 @@ msgstr "%(1) 声床"
 #: dolbyatmossystem.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "%(1) Objects"
-msgstr "%(1) 对象"
+msgstr "%(1) 个对象"
 
 #: dolbyatmossystem.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "1 Object"
-msgstr "1 对象"
+msgstr "1 个对象"
 
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
@@ -217,7 +217,7 @@ msgstr "双耳"
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Creating tracks..."
-msgstr "创建音轨..."
+msgstr "正在创建音轨..."
 
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
@@ -227,7 +227,7 @@ msgstr "杜比全景声声床"
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos Bed %(1)"
-msgstr "杜比全景声声床%(1)"
+msgstr "杜比全景声声床 %(1)"
 
 #: dolbydata.cpp
 msgctxt "DolbyAtmosSystem"
@@ -239,15 +239,15 @@ msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos Master File"
 msgstr "杜比全景声母带文件"
 
-#: dolbyatmossystem.cpp
-msgctxt "DolbyAtmosSystem"
-msgid "Dolby Atmos PHRTF"
-msgstr "杜比全景声 PHRTF"
-
 #: dolbyatmosmasteralgo.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Dolby Atmos master files cannot contain more than 128 channels"
-msgstr "杜比全景声母带文件不能包含超过128个声道"
+msgstr "杜比全景声母带文件不能包含超过 128 个声道"
+
+#: dolbyatmossystem.cpp
+msgctxt "DolbyAtmosSystem"
+msgid "Dolby Headphone Personalization"
+msgstr "杜比耳机个性化"
 
 #: dolbymasterfile.cpp
 msgctxt "DolbyAtmosSystem"
@@ -272,7 +272,7 @@ msgstr "文件有意外的通道顺序。"
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
 msgid "Importing audio files..."
-msgstr "导入音频文件..."
+msgstr "正在导入音频文件..."
 
 #: dolbyatmosimport.cpp
 msgctxt "DolbyAtmosSystem"
@@ -298,3 +298,23 @@ msgstr "空间音频支持"
 msgctxt "SpatialAudio"
 msgid "Support for Spatial Audio"
 msgstr "对空间音频的支持"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Dolby Personalized Headphone File"
+#~ msgstr "杜比个性化耳机文件"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Import Personalized Headphone File"
+#~ msgstr "导入个性化耳机文件"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Show Headphone Configurations"
+#~ msgstr "显示耳机配置"
+
+#~ msgctxt "DolbyAtmosRenderer"
+#~ msgid "Use Configuration '%(1)'"
+#~ msgstr "使用配置“%(1)”"
+
+#~ msgctxt "DolbyAtmosSystem"
+#~ msgid "Dolby Atmos PHRTF"
+#~ msgstr "杜比全景声 PHRTF"

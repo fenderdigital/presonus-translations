@@ -32,12 +32,17 @@ msgstr "Eventzeitformat ändern"
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Follow Chord Track"
-msgstr "Akkordspur folgen verändern"
+msgstr "Akkordspur folgen umschalten"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
 msgid "Change Follow Global Transposition"
-msgstr "Globaler Transponsition folgen verändern"
+msgstr "Globaler Transponsition folgen umschalten"
+
+#: base/model/actiondescriptions.cpp
+msgctxt "ActionDescriptions"
+msgid "Change Follow Score"
+msgstr "Notation folgen umschalten"
 
 #: base/model/actiondescriptions.cpp
 msgctxt "ActionDescriptions"
@@ -584,6 +589,11 @@ msgctxt "AudioEdit"
 msgid "Bypass Gain Curve"
 msgstr "Lautstärkekurve umgehen"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Bypass Pitch Curve"
+msgstr "Tonhöhekurve umgehen"
+
 #: application/audioedit/audiostemtask.cpp
 msgctxt "AudioEdit"
 msgid "Cannot separate Events with incompatible Speaker Format:"
@@ -633,6 +643,16 @@ msgstr "Audiopart auflösen"
 msgctxt "AudioEdit"
 msgid "Drum sounds are not installed. Do you want to install them?"
 msgstr "Drum-Sounds sind nicht installiert. Möchten Sie sie installieren?"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-In"
+msgstr "Fade-in bearbeiten"
+
+#: application/audioedit/audiocrossfadetask.cpp
+msgctxt "AudioEdit"
+msgid "Edit Fade-Out"
+msgstr "Fade-out bearbeiten"
 
 #: application/audioedit/audionotetasks.cpp
 msgctxt "AudioEdit"
@@ -744,6 +764,11 @@ msgctxt "AudioEdit"
 msgid "Reset Gain Curve"
 msgstr "Lautstärkekurve zurücksetzen"
 
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Reset Pitch Curve"
+msgstr "Tonhöhekurve zurücksetzen"
+
 #: application/audioedit/audioeventfxtasks.cpp
 msgctxt "AudioEdit"
 msgid "Restore Event FX"
@@ -813,6 +838,11 @@ msgstr "Bend Marker ein-/ausblenden"
 msgctxt "AudioEdit"
 msgid "Toggle Gain Curve"
 msgstr "Lautstärkekurve umschalten"
+
+#: application/audioedit/audioenvelopetasks.cpp
+msgctxt "AudioEdit"
+msgid "Toggle Pitch Curve"
+msgstr "Tonhöhekurve umschalten"
 
 #: application/audioedit/audiocrossfadetask.cpp
 msgctxt "AudioEdit"
@@ -1268,6 +1298,11 @@ msgstr "Akkord ersetzen"
 msgctxt "ChordTrack"
 msgid "Ripple Edit"
 msgstr "Ripple-Edit"
+
+#: editing/chordeditlayer.cpp
+msgctxt "ChordTrack"
+msgid "Semitones"
+msgstr "Halbtöne"
 
 #: editing/chordeditlayer.cpp
 msgctxt "ChordTrack"
@@ -3189,6 +3224,11 @@ msgctxt "Edit"
 msgid "Create Markers from Arranger Sections"
 msgstr "Marker aus Arranger-Bereichen erzeugen"
 
+#: musicediting/musiceditextension.cpp
+msgctxt "Edit"
+msgid "Create Tracks For Unused Instruments"
+msgstr "Spuren für nicht verwendete Instrumente erstellen"
+
 #: application/eventedit/croptask.cpp
 msgctxt "Edit"
 msgid "Crop to Content"
@@ -3228,6 +3268,16 @@ msgstr "Spur duplizieren"
 msgctxt "Edit"
 msgid "Duplicate Tracks"
 msgstr "Spuren duplizieren"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event End"
+msgstr "Eventende bearbeiten"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Edit Event Start"
+msgstr "Eventstart bearbeiten"
 
 #: editing/markereditlayer.cpp
 msgctxt "Edit"
@@ -3379,6 +3429,11 @@ msgctxt "Edit"
 msgid "Replace Partially"
 msgstr "Teilweise ersetzen"
 
+#: editing/eventdraghandler.cpp
+msgctxt "Edit"
+msgid "Replace all Events with same Clip"
+msgstr "Alle Events mit demselben Clip ersetzen"
+
 #: editing/arrangereditlayer.cpp
 msgctxt "Edit"
 msgid "Section Number"
@@ -3428,6 +3483,11 @@ msgstr "Sync-Punkt zum Mauszeiger"
 msgctxt "Edit"
 msgid "Show Chords"
 msgstr "Akkorde anzeigen"
+
+#: application/eventedit/eventsizetasks.cpp
+msgctxt "Edit"
+msgid "Slip Event"
+msgstr "Eventinhalt verschieben"
 
 #: editing/tracklistcomponent.cpp
 msgctxt "Edit"
@@ -3848,6 +3908,11 @@ msgstr "Automationskurve %(1) umgehen"
 msgctxt "Engine:AudioEnvelopeActions"
 msgid "Gain"
 msgstr "Lautstärke"
+
+#: audio/audiopitchenvelope.cpp
+msgctxt "Engine:AudioEnvelopeActions"
+msgid "Pitch"
+msgstr "Tonhöhe"
 
 #: audio/audioenvelopefunctions.cpp
 msgctxt "Engine:AudioEnvelopeActions"
@@ -4547,7 +4612,7 @@ msgstr "Ordner durchsuchen: "
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Search was canceled. "
-msgstr "Suche wurde abgebrochen."
+msgstr "Suche wurde abgebrochen. "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
@@ -4562,7 +4627,7 @@ msgstr "Auf Spur auswählen"
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
 msgid "Used by: "
-msgstr "Verwendet von:"
+msgstr "Verwendet von: "
 
 #: pool/locatefilescomponent.cpp
 msgctxt "LocateFiles"
